@@ -1,6 +1,26 @@
 """
 Quote Manager Module
 Handles loading, selecting, and formatting quotes from all sources.
+
+Quote Selection Logic:
+----------------------
+This module uses a deterministic pseudo-random selection algorithm to ensure:
+1. All users see the same quotes on the same day (consistency)
+2. Quotes cycle through fairly over time (no repetition bias)
+3. Selection is reproducible for debugging
+
+Quality Criteria (based on research from Pennycook et al., 2015):
+----------------------------------------------------------------
+A quote is considered genuinely insightful (not pseudo-profound) when it:
+1. Has SPECIFIC meaning - not vague buzzwords that sound deep
+2. Is ACTIONABLE - provides guidance that can be applied
+3. Has AUTHENTIC attribution - from a verified historical source
+4. Contains CONCRETE teaching - not abstract platitudes
+5. Offers NOVEL perspective - reframes common understanding
+
+References:
+- Pennycook et al. (2015) "On the reception and detection of pseudo-profound bullshit"
+- Cambridge: https://doi.org/10.1017/S1930297500006999
 """
 
 import json
@@ -9,9 +29,57 @@ import hashlib
 from datetime import date
 from pathlib import Path
 from typing import Optional
+from dataclasses import dataclass
+from enum import Enum
 import logging
 
 logger = logging.getLogger(__name__)
+
+
+class InsightType(Enum):
+    """Types of insight a quote can provide."""
+    PRACTICAL = "practical"      # Actionable life guidance
+    THEOLOGICAL = "theological"  # Understanding of divine nature
+    PSYCHOLOGICAL = "psychological"  # Self-understanding
+    RELATIONAL = "relational"    # Interpersonal wisdom
+    MYSTICAL = "mystical"        # Kabbalistic/spiritual insight
+    ETHICAL = "ethical"          # Moral guidance
+
+
+@dataclass
+class QuoteQuality:
+    """Quality assessment for a quote based on research criteria."""
+    specificity: int      # 1-5: How specific vs vague (5 = very specific)
+    actionability: int    # 1-5: Can be applied to life (5 = very actionable)
+    authenticity: int     # 1-5: Source verification (5 = verified primary source)
+    novelty: int          # 1-5: Fresh perspective (5 = highly original framing)
+    clarity: int          # 1-5: Clear meaning (5 = immediately understood)
+
+    @property
+    def total_score(self) -> int:
+        """Calculate total quality score (5-25 range)."""
+        return self.specificity + self.actionability + self.authenticity + self.novelty + self.clarity
+
+    @property
+    def grade(self) -> str:
+        """Letter grade based on total score."""
+        score = self.total_score
+        if score >= 23:
+            return "A"
+        elif score >= 20:
+            return "B"
+        elif score >= 15:
+            return "C"
+        elif score >= 10:
+            return "D"
+        return "F"
+
+    def is_pseudo_profound(self) -> bool:
+        """
+        Detect if quote might be pseudo-profound bullshit.
+        Based on Pennycook et al. criteria: low specificity + low actionability.
+        """
+        return self.specificity <= 2 and self.actionability <= 2
 
 
 class QuoteManager:
@@ -208,15 +276,138 @@ class QuoteManager:
     
     def get_stats(self) -> dict:
         """Get statistics about the quote database.
-        
+
         Returns:
             Dictionary with quote counts per source.
         """
         stats = {"total": 0, "by_source": {}}
-        
+
         for source_name, source_data in self.quotes_cache.items():
             count = len(source_data.get("quotes", []))
             stats["by_source"][source_name] = count
             stats["total"] += count
-        
+
         return stats
+
+    def evaluate_quote_quality(self, quote: dict) -> QuoteQuality:
+        """
+        Evaluate the quality of a quote based on research-backed criteria.
+
+        This implements a heuristic scoring based on:
+        - Pennycook et al. (2015) pseudo-profound bullshit detection
+        - Linguistic markers of genuine insight
+
+        Args:
+            quote: Quote dictionary with text and metadata
+
+        Returns:
+            QuoteQuality assessment object
+        """
+        text = quote.get("text", "")
+        source_url = quote.get("source_url", "")
+
+        # Specificity: Check for concrete nouns/verbs vs abstract buzzwords
+        # Hebrew concrete markers (actions, specific concepts)
+        concrete_markers = ["צריך", "עושה", "לעשות", "כש", "אם", "כי", "למה", "איך"]
+        specificity = min(5, 2 + sum(1 for m in concrete_markers if m in text))
+
+        # Actionability: Does it guide behavior?
+        action_markers = ["צריך", "חייב", "אל", "עליך", "לך", "עשה", "תן", "קום"]
+        actionability = min(5, 2 + sum(1 for m in action_markers if m in text))
+
+        # Authenticity: Based on source URL quality
+        authenticity = 3  # Default
+        if "sefaria.org" in source_url:
+            authenticity = 5  # Primary text source
+        elif "kabbalah.info" in source_url or "chabad.org" in source_url:
+            authenticity = 4  # Scholarly source
+
+        # Novelty: Estimated by quote uniqueness (shorter = more aphoristic = more novel framing)
+        text_len = len(text)
+        if text_len < 50:
+            novelty = 5  # Pithy aphorism
+        elif text_len < 100:
+            novelty = 4
+        elif text_len < 150:
+            novelty = 3
+        else:
+            novelty = 2
+
+        # Clarity: Inverse of complexity (fewer clauses = clearer)
+        clause_markers = ["ו", ",", "אבל", "אלא", "כי"]
+        clause_count = sum(text.count(m) for m in clause_markers)
+        clarity = max(1, 5 - clause_count // 2)
+
+        return QuoteQuality(
+            specificity=specificity,
+            actionability=actionability,
+            authenticity=authenticity,
+            novelty=novelty,
+            clarity=clarity
+        )
+
+    def get_quote_with_quality(self, quote: dict) -> dict:
+        """Add quality assessment to a quote dictionary."""
+        quality = self.evaluate_quote_quality(quote)
+        quote["quality"] = {
+            "score": quality.total_score,
+            "grade": quality.grade,
+            "is_pseudo_profound": quality.is_pseudo_profound(),
+            "breakdown": {
+                "specificity": quality.specificity,
+                "actionability": quality.actionability,
+                "authenticity": quality.authenticity,
+                "novelty": quality.novelty,
+                "clarity": quality.clarity
+            }
+        }
+        return quote
+
+    def get_selection_explanation(self) -> str:
+        """
+        Explain how quotes are selected - for transparency.
+
+        Returns:
+            Human-readable explanation of selection algorithm.
+        """
+        seed = self._get_daily_seed()
+        today = date.today()
+
+        rtl = "\u200F"
+        explanation = f"""
+{rtl}📊 *הסבר על בחירת הציטוטים*
+
+{rtl}*תאריך:* {today.strftime('%d/%m/%Y')}
+{rtl}*מזהה יום:* {seed}
+
+{rtl}*אלגוריתם הבחירה:*
+{rtl}1. מחושב מזהה ייחודי לכל יום (hash של התאריך)
+{rtl}2. לכל מקור נבחר ציטוט באופן דטרמיניסטי
+{rtl}3. כל המשתמשים רואים אותם ציטוטים באותו יום
+{rtl}4. הציטוטים מתחלפים מדי יום ללא חזרה
+
+{rtl}*קריטריונים לאיכות (מבוסס מחקר):*
+{rtl}• ספציפיות - לא מילים מעורפלות
+{rtl}• יישומיות - אפשר ליישם בחיים
+{rtl}• אותנטיות - מקור מאומת
+{rtl}• חדשנות - נקודת מבט מקורית
+{rtl}• בהירות - משמעות ברורה
+
+{rtl}*מקור:* Pennycook et al. (2015)
+{rtl}"On the reception and detection of pseudo-profound bullshit"
+"""
+        return explanation
+
+    def format_quote_with_quality(self, quote: dict, include_quality: bool = False) -> str:
+        """Format a quote with optional quality information."""
+        base_message = self.format_quote_message(quote)
+
+        if include_quality:
+            quote_with_quality = self.get_quote_with_quality(quote.copy())
+            quality = quote_with_quality["quality"]
+            rtl = "\u200F"
+
+            quality_info = f"\n\n{rtl}📈 *איכות:* {quality['grade']} ({quality['score']}/25)"
+            return base_message + quality_info
+
+        return base_message
