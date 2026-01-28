@@ -1,5 +1,6 @@
 """
 Vercel Serverless Function for Telegram Webhook
+Version: 1.0.1
 """
 
 import os
