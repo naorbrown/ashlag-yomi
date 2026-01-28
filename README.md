@@ -1,205 +1,125 @@
-# Ashlag Yomi - אשלג יומי
+# Ashlag Yomi
 
-[![CI](https://github.com/naorbrown/ashlag-yomi/actions/workflows/ci.yml/badge.svg)](https://github.com/naorbrown/ashlag-yomi/actions/workflows/ci.yml)
+Daily inspirational quotes from Jewish spiritual leaders, delivered to Telegram at 6:00 AM Israel time.
+
 [![Daily Quotes](https://github.com/naorbrown/ashlag-yomi/actions/workflows/daily_quotes.yml/badge.svg)](https://github.com/naorbrown/ashlag-yomi/actions/workflows/daily_quotes.yml)
+[![CI](https://github.com/naorbrown/ashlag-yomi/actions/workflows/ci.yml/badge.svg)](https://github.com/naorbrown/ashlag-yomi/actions/workflows/ci.yml)
 
-A Telegram bot that sends daily inspirational quotes from great Jewish spiritual leaders at 6:00 AM Israel time.
-
-## Sources / מקורות
-
-The bot delivers daily wisdom from these luminaries:
+## Sources
 
 | Hebrew | English | Era |
 |--------|---------|-----|
-| האר״י הקדוש | The Arizal (Rabbi Isaac Luria) | 16th century |
-| הבעל שם טוב | The Baal Shem Tov | 1698-1760 |
-| רבי שמחה בונים מפשיסחא | Rabbi Simcha Bunim of Peshischa | 1765-1827 |
+| האר״י הקדוש | The Arizal | 16th century |
+| הבעל שם טוב | Baal Shem Tov | 1698-1760 |
+| רבי שמחה בונים מפשיסחא | Simcha Bunim of Peshischa | 1765-1827 |
 | הרבי מקוצק | The Kotzker Rebbe | 1787-1859 |
-| בעל הסולם | Baal HaSulam (Rabbi Yehuda Ashlag) | 1885-1954 |
-| הרב״ש | Rabash (Rabbi Baruch Shalom Ashlag) | 1907-1991 |
-| תלמידי קו אשלג | Students of the Ashlag Lineage | Various |
+| בעל הסולם | Baal HaSulam | 1885-1954 |
+| הרב״ש | Rabash | 1907-1991 |
+| תלמידי קו אשלג | Ashlag Lineage | Various |
 
-All quotes are in Hebrew with links to their original sources including:
+All quotes include links to primary sources:
 - [Sefaria](https://www.sefaria.org/)
 - [Kabbalah.info](https://www.kabbalah.info/)
 - [Chabad.org](https://www.chabad.org/)
 
-## Features
+## How It Works
 
-- **Daily Automated Messages**: Quotes sent at 6:00 AM Israel time
-- **Interactive Commands**: Get quotes on demand
-- **Hebrew RTL Support**: Proper right-to-left text formatting
-- **Source Links**: Every quote links to its original source
-- **Free Hosting**: Runs entirely on GitHub Actions
+GitHub Actions runs daily at 6:00 AM Israel time and sends a curated selection of quotes to a Telegram chat. Each day features one quote from each of the seven sources.
 
-## Bot Commands
-
-| Command | Description |
-|---------|-------------|
-| `/start` | Welcome message and bot info |
-| `/quote` | Get a random quote |
-| `/daily` | Get today's collection of quotes |
-| `/stats` | View quote statistics |
-| `/help` | Help and usage information |
+**Features:**
+- Deterministic selection (same quotes for everyone each day)
+- Hebrew RTL text formatting
+- Source attribution with links
+- Zero hosting costs
 
 ## Setup
 
-### Prerequisites
+### 1. Create a Telegram Bot
 
-- Python 3.11+
-- A Telegram Bot Token (from [@BotFather](https://t.me/botfather))
+1. Message [@BotFather](https://t.me/botfather) on Telegram
+2. Send `/newbot` and follow the prompts
+3. Save the bot token
 
-### Local Development
+### 2. Get Your Chat ID
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/naorbrown/ashlag-yomi.git
-   cd ashlag-yomi
-   ```
+1. Start a chat with your new bot
+2. Send any message
+3. Visit `https://api.telegram.org/bot<TOKEN>/getUpdates`
+4. Find `chat.id` in the response
 
-2. Create a virtual environment:
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
-
-3. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. Set up environment variables:
-   ```bash
-   cp .env.example .env
-   # Edit .env with your bot token and chat ID
-   ```
-
-5. Run the bot:
-   ```bash
-   python -m src.main --mode polling
-   ```
-
-### GitHub Actions Deployment
+### 3. Configure GitHub
 
 1. Fork this repository
+2. Go to Settings > Secrets and variables > Actions
+3. Add two secrets:
+   - `TELEGRAM_BOT_TOKEN` - Your bot token
+   - `TELEGRAM_CHAT_ID` - Your chat ID
 
-2. Add secrets in your repository settings:
-   - `TELEGRAM_BOT_TOKEN`: Your bot token from BotFather
-   - `TELEGRAM_CHAT_ID`: The chat/channel ID to send messages to
+The bot will automatically send quotes at 6:00 AM Israel time.
 
-3. Enable GitHub Actions - the bot will automatically:
-   - Send daily quotes at 6:00 AM Israel time
-   - Run CI tests on every push
+### Manual Trigger
 
-### Getting Your Chat ID
-
-1. Start a chat with your bot
-2. Send any message
-3. Visit: `https://api.telegram.org/bot<YOUR_TOKEN>/getUpdates`
-4. Find the `chat.id` field in the response
-
-For channels, use the channel's @username or numeric ID.
+You can manually trigger the workflow:
+1. Go to Actions > Daily Quotes
+2. Click "Run workflow"
+3. Optionally enable "Preview only" to see quotes without sending
 
 ## Project Structure
 
 ```
 ashlag-yomi/
-├── .github/
-│   └── workflows/
-│       ├── ci.yml           # Continuous integration
-│       └── daily_quotes.yml # Scheduled quote sending
-├── data/
-│   └── quotes/
-│       ├── arizal.json
-│       ├── baal_shem_tov.json
-│       ├── simcha_bunim.json
-│       ├── kotzker.json
-│       ├── baal_hasulam.json
-│       ├── rabash.json
-│       └── ashlag_talmidim.json
+├── .github/workflows/
+│   ├── ci.yml              # Code quality checks
+│   └── daily_quotes.yml    # Scheduled sending
+├── data/quotes/            # Quote JSON files
 ├── src/
-│   ├── __init__.py
-│   ├── main.py              # Entry point
-│   ├── quote_manager.py     # Quote handling logic
-│   └── telegram_bot.py      # Telegram bot implementation
-├── tests/
-│   └── test_quote_manager.py
-├── requirements.txt
-├── send_daily.py            # Script for GitHub Actions
-└── README.md
+│   ├── quote_manager.py    # Quote selection logic
+│   └── telegram_bot.py     # Message sending
+├── send_daily.py           # Entry point
+└── requirements.txt
 ```
 
 ## Quote Format
 
 Each quote includes:
-- **Text**: The quote in Hebrew
-- **Source**: Book or document name
-- **Source URL**: Link to the original source
-- **Topic**: Thematic category
+- Hebrew text
+- Source book/document
+- Link to original source
 
 Example message:
 ```
-✨ *הבעל שם טוב*
+אשלג יומי
+28/01/2026
+
+השראה יומית מגדולי ישראל
+
+---
+
+✨ הבעל שם טוב
 
 «שכחה היא גלות, וזיכרון הוא גאולה.»
 
-📖 _כתר שם טוב_
-🔗 [מקור](https://www.sefaria.org/Keter_Shem_Tov)
+📖 כתר שם טוב
+🔗 מקור
+
+---
+
+יום מבורך
 ```
 
-## Contributing
+## Adding Quotes
 
-Contributions are welcome! Please:
-
-1. Fork the repository
-2. Create a feature branch
-3. Add or improve quotes (ensure authentic sources)
-4. Submit a pull request
-
-### Adding Quotes
-
-To add new quotes, edit the relevant JSON file in `data/quotes/`:
+Edit files in `data/quotes/`:
 
 ```json
 {
   "id": "unique_id",
   "text": "Hebrew quote text",
-  "source": "Book or document name",
-  "source_url": "https://link.to/source",
-  "topic": "Theme",
-  "length": "short|medium|long"
+  "source": "Source book name",
+  "source_url": "https://link.to/source"
 }
 ```
 
-## Testing
-
-Run the test suite:
-```bash
-pytest tests/ -v
-```
-
-With coverage:
-```bash
-pytest tests/ -v --cov=src --cov-report=term-missing
-```
-
-## Security
-
-- Never commit tokens or secrets
-- Use GitHub Secrets for sensitive data
-- The `.gitignore` excludes common secret files
-- CI includes security scanning
-
 ## License
 
-MIT License - See [LICENSE](LICENSE) for details.
-
-## Acknowledgments
-
-- Quote sources: Sefaria, Kabbalah.info, Chabad.org
-- Built with [python-telegram-bot](https://python-telegram-bot.org/)
-- Hosted on GitHub Actions
-
----
-
-*לתיקון עולם* 💫
+MIT

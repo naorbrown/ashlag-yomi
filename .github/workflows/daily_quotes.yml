@@ -1,21 +1,15 @@
-name: Send Daily Quotes
+name: Daily Quotes
 
 on:
   schedule:
-    # Run at 6:00 AM Israel time (IST is UTC+2, or UTC+3 during DST)
-    # Israel observes DST from last Friday before April 2 to last Sunday of October
-    - cron: '0 3 * * *'  # 6:00 AM Israel (DST - summer)
-    - cron: '0 4 * * *'  # 6:00 AM Israel (Standard time - winter)
+    # 6:00 AM Israel time (UTC+2 winter, UTC+3 summer)
+    - cron: '0 3 * * *'  # 6 AM during DST (summer)
+    - cron: '0 4 * * *'  # 6 AM during standard time (winter)
 
   workflow_dispatch:
     inputs:
       test_mode:
-        description: 'Run in test mode (preview only, no send)'
-        required: false
-        default: 'false'
-        type: boolean
-      force_send:
-        description: 'Force send regardless of time check'
+        description: 'Preview only (no send)'
         required: false
         default: 'false'
         type: boolean
@@ -30,48 +24,44 @@ jobs:
   send-quotes:
     name: Send Daily Quotes
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 5
 
     steps:
-      - name: Check Israel Time
-        id: check-time
+      - name: Check Israel time
+        id: time
         run: |
-          ISRAEL_HOUR=$(TZ='Asia/Jerusalem' date +%H)
-          ISRAEL_DATE=$(TZ='Asia/Jerusalem' date +%Y-%m-%d)
-          echo "israel_hour=$ISRAEL_HOUR" >> $GITHUB_OUTPUT
-          echo "israel_date=$ISRAEL_DATE" >> $GITHUB_OUTPUT
-          echo "📅 Israel Date: $ISRAEL_DATE"
-          echo "🕐 Israel Hour: $ISRAEL_HOUR"
+          HOUR=$(TZ='Asia/Jerusalem' date +%H)
+          DATE=$(TZ='Asia/Jerusalem' date +%Y-%m-%d)
+          echo "hour=$HOUR" >> $GITHUB_OUTPUT
+          echo "date=$DATE" >> $GITHUB_OUTPUT
+          echo "Israel: $DATE $HOUR:00"
 
-          # Proceed if 6am OR manual trigger with force
-          if [ "$ISRAEL_HOUR" = "06" ] || \
-             [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+          if [ "$HOUR" = "06" ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             echo "proceed=true" >> $GITHUB_OUTPUT
-            echo "✅ Proceeding with quote delivery"
           else
             echo "proceed=false" >> $GITHUB_OUTPUT
-            echo "⏭️ Skipping - not 6am Israel time (current: $ISRAEL_HOUR)"
+            echo "Skipping - not 6 AM Israel time"
           fi
 
-      - name: Checkout repository
-        if: steps.check-time.outputs.proceed == 'true'
+      - name: Checkout
+        if: steps.time.outputs.proceed == 'true'
         uses: actions/checkout@v4
 
       - name: Set up Python
-        if: steps.check-time.outputs.proceed == 'true'
+        if: steps.time.outputs.proceed == 'true'
         uses: actions/setup-python@v5
         with:
           python-version: ${{ env.PYTHON_VERSION }}
           cache: 'pip'
 
       - name: Install dependencies
-        if: steps.check-time.outputs.proceed == 'true'
+        if: steps.time.outputs.proceed == 'true'
         run: |
-          python -m pip install --upgrade pip
-          pip install python-telegram-bot>=20.7 python-dotenv
+          pip install --upgrade pip
+          pip install python-telegram-bot>=20.7
 
-      - name: Validate quotes before sending
-        if: steps.check-time.outputs.proceed == 'true'
+      - name: Validate quotes
+        if: steps.time.outputs.proceed == 'true'
         run: |
           python << 'EOFPY'
           from src.quote_manager import QuoteManager
@@ -79,80 +69,57 @@ jobs:
           qm = QuoteManager()
           quotes = qm.get_daily_quotes()
 
-          print(f"📊 Validating {len(quotes)} quotes for today...")
+          print(f"Validating {len(quotes)} quotes...")
+          for q in quotes:
+              assert q.get('text'), f"Empty text: {q.get('id')}"
+              assert q.get('source'), f"Missing source: {q.get('id')}"
+              print(f"  {q.get('source_name')}: OK")
 
-          for quote in quotes:
-              # Check required fields
-              assert quote.get('text'), f"Empty text in {quote.get('id')}"
-              assert quote.get('source'), f"Missing source in {quote.get('id')}"
-              print(f"  ✅ {quote.get('source_name', 'Unknown')}: {len(quote['text'])} chars")
-
-          print(f"\n✅ All {len(quotes)} quotes validated successfully")
+          print(f"All {len(quotes)} quotes validated")
           EOFPY
 
-      - name: Preview daily message (Test Mode)
-        if: steps.check-time.outputs.proceed == 'true' && github.event.inputs.test_mode == 'true'
+      - name: Preview (test mode)
+        if: steps.time.outputs.proceed == 'true' && github.event.inputs.test_mode == 'true'
         run: |
           python << 'EOFPY'
           from src.quote_manager import QuoteManager
           from datetime import date
 
           qm = QuoteManager()
-          stats = qm.get_stats()
+          print("=" * 40)
+          print("PREVIEW - Test Mode")
+          print(f"Date: {date.today()}")
+          print("=" * 40)
 
-          print("=" * 50)
-          print("📖 ASHLAG YOMI - TEST MODE PREVIEW")
-          print("=" * 50)
-          print(f"📅 Date: {date.today().strftime('%Y-%m-%d')}")
-          print(f"📊 Total quotes in database: {stats['total']}")
-          print()
+          for q in qm.get_daily_quotes():
+              print(f"\n{q.get('source_name')}")
+              print(f"  {q['text'][:60]}...")
+              print(f"  Source: {q['source']}")
 
-          print("Today's quotes:")
-          print("-" * 50)
-          for quote in qm.get_daily_quotes():
-              quality = qm.evaluate_quote_quality(quote)
-              print(f"\n✨ {quote.get('source_name')}")
-              print(f"   «{quote['text'][:80]}{'...' if len(quote['text']) > 80 else ''}»")
-              print(f"   📈 Quality: {quality.grade} ({quality.total_score}/25)")
-
-          print("\n" + "=" * 50)
-          print("✅ Test complete - no message sent")
+          print("\n" + "=" * 40)
+          print("Preview complete - no message sent")
           EOFPY
 
-      - name: Send daily quotes
-        if: >
-          steps.check-time.outputs.proceed == 'true' &&
-          github.event.inputs.test_mode != 'true'
+      - name: Send quotes
+        if: steps.time.outputs.proceed == 'true' && github.event.inputs.test_mode != 'true'
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
-          # Retry logic with exponential backoff
-          MAX_RETRIES=3
-          RETRY_DELAY=5
-
-          for i in $(seq 1 $MAX_RETRIES); do
-            echo "🚀 Attempt $i of $MAX_RETRIES..."
+          for i in 1 2 3; do
+            echo "Attempt $i..."
             if python send_daily.py; then
-              echo "✅ Daily quotes sent successfully!"
+              echo "Success"
               exit 0
-            else
-              if [ $i -lt $MAX_RETRIES ]; then
-                echo "⚠️ Attempt $i failed, retrying in ${RETRY_DELAY}s..."
-                sleep $RETRY_DELAY
-                RETRY_DELAY=$((RETRY_DELAY * 2))
-              else
-                echo "❌ All $MAX_RETRIES attempts failed"
-                exit 1
-              fi
             fi
+            [ $i -lt 3 ] && sleep $((i * 5))
           done
+          echo "Failed after 3 attempts"
+          exit 1
 
-      - name: Log completion
-        if: always() && steps.check-time.outputs.proceed == 'true'
+      - name: Summary
+        if: always() && steps.time.outputs.proceed == 'true'
         run: |
-          echo "📋 Workflow Summary"
-          echo "  Date (Israel): ${{ steps.check-time.outputs.israel_date }}"
-          echo "  Hour (Israel): ${{ steps.check-time.outputs.israel_hour }}"
-          echo "  Test Mode: ${{ github.event.inputs.test_mode || 'false' }}"
-          echo "  Trigger: ${{ github.event_name }}"
+          echo "Date: ${{ steps.time.outputs.date }}"
+          echo "Hour: ${{ steps.time.outputs.hour }}"
+          echo "Test mode: ${{ github.event.inputs.test_mode || 'false' }}"
