@@ -27,9 +27,9 @@ A Telegram bot that delivers daily inspirational quotes from the Ashlag Kabbalah
 
 ### For Users
 
-1. Open Telegram and search for your bot (once deployed)
+1. Open Telegram: **[@AshlagYomiBot](https://t.me/AshlagYomiBot)**
 2. Send `/start` to subscribe
-3. Receive daily wisdom automatically!
+3. Receive daily wisdom automatically at 6:00 AM Israel time!
 
 ### For Developers
 
