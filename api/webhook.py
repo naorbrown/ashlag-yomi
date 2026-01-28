@@ -1,36 +1,142 @@
 """
 Vercel Serverless Function for Telegram Webhook
-Handles incoming Telegram updates and responds to commands.
 """
 
 import os
 import json
 import logging
-from http.server import BaseHTTPRequestHandler
 from datetime import date
-import sys
-from pathlib import Path
-
-# Add project root to path
-sys.path.insert(0, str(Path(__file__).parent.parent))
-
-from src.quote_manager import QuoteManager
+from http.server import BaseHTTPRequestHandler
+import urllib.request
+import urllib.parse
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-# Initialize quote manager once (reused across requests)
-quote_manager = QuoteManager()
+# Inline quote data to avoid import issues in serverless
+QUOTES_DATA = {
+    "arizal": {
+        "source_name": "האר״י הקדוש",
+        "quotes": [
+            {"text": "דע, כי טרם שנאצלו הנאצלים ונבראו הנבראים, היה אור עליון פשוט ממלא כל המציאות.", "source": "עץ חיים, שער א׳", "source_url": "https://www.sefaria.org/Etz_Chaim"},
+            {"text": "אין לך עשב למטה שאין לו מזל למעלה שמכה בו ואומר לו גדל.", "source": "שער המצוות", "source_url": "https://www.sefaria.org/Shaar_HaMitzvot"},
+            {"text": "התפילה היא בחינת סולם מוצב ארצה וראשו מגיע השמימה.", "source": "שער הכוונות", "source_url": "https://www.sefaria.org/Shaar_HaKavanot"},
+            {"text": "העיקר הוא הכוונה, כי המעשה בלי כוונה הוא כגוף בלי נשמה.", "source": "שער הכוונות", "source_url": "https://www.sefaria.org/Shaar_HaKavanot"},
+            {"text": "אהבת ישראל היא השער הגדול לכניסה לקדושה.", "source": "שער רוח הקודש", "source_url": "https://www.sefaria.org/Shaar_Ruach_HaKodesh"},
+        ]
+    },
+    "baal_shem_tov": {
+        "source_name": "הבעל שם טוב",
+        "quotes": [
+            {"text": "במקום שמחשבתו של אדם, שם הוא נמצא כולו.", "source": "כתר שם טוב", "source_url": "https://www.sefaria.org/Keter_Shem_Tov"},
+            {"text": "שכחה היא גלות, וזיכרון הוא גאולה.", "source": "כתר שם טוב", "source_url": "https://www.sefaria.org/Keter_Shem_Tov"},
+            {"text": "השמחה היא המפתח לכל השערים.", "source": "צוואת הריב״ש", "source_url": "https://www.sefaria.org/Tzavaat_HaRivash"},
+            {"text": "כל ירידה היא לצורך עלייה.", "source": "כתר שם טוב", "source_url": "https://www.sefaria.org/Keter_Shem_Tov"},
+            {"text": "אהבת ישראל היא אהבת הקב״ה.", "source": "כתר שם טוב", "source_url": "https://www.sefaria.org/Keter_Shem_Tov"},
+        ]
+    },
+    "simcha_bunim": {
+        "source_name": "רבי שמחה בונים מפשיסחא",
+        "quotes": [
+            {"text": "כל אדם צריך שיהיו לו שני כיסים: בכיס אחד פתק שכתוב בו 'בשבילי נברא העולם', ובכיס השני פתק שכתוב בו 'אנכי עפר ואפר'.", "source": "שיח שרפי קודש", "source_url": "https://www.sefaria.org/"},
+            {"text": "הגאווה היא שורש כל הרע.", "source": "קול שמחה", "source_url": "https://www.sefaria.org/"},
+            {"text": "האמת היא היסוד של הכל.", "source": "קול שמחה", "source_url": "https://www.sefaria.org/"},
+            {"text": "עבודת ה׳ צריכה להיות בשמחה.", "source": "קול שמחה", "source_url": "https://www.sefaria.org/"},
+            {"text": "התפילה היא עבודת הלב.", "source": "קול שמחה", "source_url": "https://www.sefaria.org/"},
+        ]
+    },
+    "kotzker": {
+        "source_name": "הרבי מקוצק",
+        "quotes": [
+            {"text": "איפה נמצא אלוקים? במקום שנותנים לו להיכנס.", "source": "אמת ואמונה", "source_url": "https://www.chabad.org/library/article_cdo/aid/4287676"},
+            {"text": "אין דבר שלם יותר מלב שבור.", "source": "אמת ואמונה", "source_url": "https://www.chabad.org/library/article_cdo/aid/4287676"},
+            {"text": "אל תסתפק בדיבורי פיך ובמחשבות ליבך, קום ועשה!", "source": "אמת ואמונה", "source_url": "https://www.chabad.org/library/article_cdo/aid/4287676"},
+            {"text": "צריך להיות קדוש בדרך אנושית, לקב״ה יש מספיק מלאכים.", "source": "אמת ואמונה", "source_url": "https://www.chabad.org/library/article_cdo/aid/4287676"},
+            {"text": "מי שאינו משתפר, מתקלקל.", "source": "אמת ואמונה", "source_url": "https://www.chabad.org/library/article_cdo/aid/4287676"},
+        ]
+    },
+    "baal_hasulam": {
+        "source_name": "בעל הסולם",
+        "quotes": [
+            {"text": "כל העולם כולו הוא לא יותר מאשר השתקפות של הפנימיות שלנו.", "source": "מאמרי הסולם", "source_url": "https://www.kabbalah.info/"},
+            {"text": "אין אור בלי כלי.", "source": "תלמוד עשר הספירות", "source_url": "https://www.sefaria.org/"},
+            {"text": "האהבה היא הכלי לגילוי הבורא.", "source": "מאמרי הסולם", "source_url": "https://www.kabbalah.info/"},
+            {"text": "כל המציאות היא רק רצון לקבל.", "source": "תלמוד עשר הספירות", "source_url": "https://www.sefaria.org/"},
+            {"text": "התיקון הוא להפוך את הרצון לקבל לרצון להשפיע.", "source": "מאמרי הסולם", "source_url": "https://www.kabbalah.info/"},
+        ]
+    },
+    "rabash": {
+        "source_name": "הרב״ש",
+        "quotes": [
+            {"text": "ואהבת לרעך כמוך - רבי עקיבא אומר זה כלל גדול בתורה.", "source": "כתבי רב״ש", "source_url": "https://www.kabbalah.info/eng/content/view/full/115977"},
+            {"text": "צריכים לחדש את העבודה בכל יום, כלומר לשכוח את העבר.", "source": "שלבי הסולם", "source_url": "https://www.kabbalah.info/eng/content/view/full/31839"},
+            {"text": "אהבת החברים היא הסולם לאהבת הבורא.", "source": "כתבי רב״ש", "source_url": "https://www.kabbalah.info/eng/content/view/full/115977"},
+            {"text": "אין להתייאש אף פעם, כי כל נפילה היא הכנה לעלייה.", "source": "שלבי הסולם", "source_url": "https://www.kabbalah.info/eng/content/view/full/31839"},
+            {"text": "הלימוד בקבוצה נותן כוח שאין ביחיד.", "source": "כתבי רב״ש", "source_url": "https://www.kabbalah.info/eng/content/view/full/115977"},
+        ]
+    },
+    "ashlag_talmidim": {
+        "source_name": "תלמידי קו אשלג",
+        "quotes": [
+            {"text": "הלימוד צריך להיות בהתמדה ובקביעות, כי רק כך נבנה הכלי לקבלת האור.", "source": "מפי השמועה", "source_url": "https://www.kabbalah.info/"},
+            {"text": "החברותא היא הכלי החשוב ביותר בעבודה הרוחנית.", "source": "מפי השמועה", "source_url": "https://www.kabbalah.info/"},
+            {"text": "אין להתייאש לעולם, כי כל נפילה היא הכנה לעלייה גדולה יותר.", "source": "מפי השמועה", "source_url": "https://www.kabbalah.info/"},
+            {"text": "האמונה היא למעלה מהשכל, וצריך לעבוד עליה כל יום.", "source": "מפי השמועה", "source_url": "https://www.kabbalah.info/"},
+            {"text": "כשאדם לומד בקבוצה, הוא מקבל כוח שאין לו לבד.", "source": "מפי השמועה", "source_url": "https://www.kabbalah.info/"},
+        ]
+    }
+}
 
 
-def send_telegram_message(chat_id: int, text: str, parse_mode: str = "Markdown") -> bool:
-    """Send a message via Telegram API."""
-    import urllib.request
-    import urllib.parse
+def get_daily_seed():
+    """Generate consistent seed for today."""
+    import hashlib
+    today = date.today().isoformat()
+    hash_bytes = hashlib.md5(today.encode()).digest()
+    return int.from_bytes(hash_bytes[:4], byteorder='big')
+
+
+def get_daily_quotes():
+    """Get today's quotes - one from each source."""
+    import random
+    seed = get_daily_seed()
+    quotes = []
     
+    for i, (source_key, source_data) in enumerate(QUOTES_DATA.items()):
+        random.seed(seed + i)
+        quote = random.choice(source_data["quotes"])
+        quote["source_name"] = source_data["source_name"]
+        quotes.append(quote)
+    
+    return quotes
+
+
+def get_random_quote():
+    """Get a random quote from any source."""
+    import random
+    source_key = random.choice(list(QUOTES_DATA.keys()))
+    source_data = QUOTES_DATA[source_key]
+    quote = random.choice(source_data["quotes"])
+    quote["source_name"] = source_data["source_name"]
+    return quote
+
+
+def format_quote(quote):
+    """Format a quote for Telegram."""
+    rtl = "\u200F"
+    return f"""✨ *{rtl}{quote['source_name']}*
+
+{rtl}«{quote['text']}»
+
+📖 _{rtl}{quote['source']}_
+🔗 [מקור]({quote['source_url']})"""
+
+
+def send_message(chat_id, text, parse_mode="Markdown"):
+    """Send message via Telegram API."""
     token = os.environ.get("TELEGRAM_BOT_TOKEN")
     if not token:
-        logger.error("TELEGRAM_BOT_TOKEN not set")
+        logger.error("No token!")
         return False
     
     url = f"https://api.telegram.org/bot{token}/sendMessage"
@@ -46,176 +152,86 @@ def send_telegram_message(chat_id: int, text: str, parse_mode: str = "Markdown")
         urllib.request.urlopen(req, timeout=10)
         return True
     except Exception as e:
-        logger.error(f"Failed to send message: {e}")
+        logger.error(f"Send failed: {e}")
         return False
 
 
-def handle_command(command: str, chat_id: int) -> None:
-    """Handle a bot command."""
+def handle_command(command, chat_id):
+    """Handle bot commands."""
     rtl = "\u200F"
     
     if command == "/start":
-        message = f"""
-{rtl}🌟 *ברוכים הבאים לאשלג יומי!*
+        msg = f"""{rtl}🌟 *ברוכים הבאים לאשלג יומי!*
 
-{rtl}בוט זה שולח ציטוטים יומיים מגדולי ישראל:
-• האר״י הקדוש
-• הבעל שם טוב
-• רבי שמחה בונים מפשיסחא
-• הרבי מקוצק
-• בעל הסולם
-• הרב״ש
-• תלמידי קו אשלג
-
-{rtl}*פקודות זמינות:*
-/today - הציטוטים של היום
-/quote - ציטוט אקראי
-/stats - סטטיסטיקות
-/about - אודות הבוט
-/help - עזרה
-
-{rtl}💫 יום מבורך!
-"""
-        send_telegram_message(chat_id, message)
-    
-    elif command in ["/today", "/daily"]:
-        quotes = quote_manager.get_daily_quotes()
-        today = date.today()
-        
-        # Send header
-        header = f"🌅 *{rtl}ציטוט יומי - {today.strftime('%d/%m/%Y')}*\n"
-        header += f"{rtl}השראה מגדולי ישראל"
-        send_telegram_message(chat_id, header)
-        
-        # Send each quote
-        for quote in quotes:
-            msg = quote_manager.format_quote_message(quote)
-            send_telegram_message(chat_id, msg)
-        
-        # Send footer
-        footer = f"{rtl}━━━━━━━━━━━━━━━━━━━━\n{rtl}💫 יום מבורך!"
-        send_telegram_message(chat_id, footer)
-    
-    elif command == "/quote":
-        quote = quote_manager.get_random_quote()
-        if quote:
-            msg = quote_manager.format_quote_message(quote)
-            send_telegram_message(chat_id, msg)
-        else:
-            send_telegram_message(chat_id, f"{rtl}❌ לא נמצאו ציטוטים.")
-    
-    elif command == "/stats":
-        stats = quote_manager.get_stats()
-        source_names = {
-            "arizal": "האר״י הקדוש",
-            "baal_shem_tov": "הבעל שם טוב",
-            "simcha_bunim": "רבי שמחה בונים",
-            "kotzker": "הרבי מקוצק",
-            "baal_hasulam": "בעל הסולם",
-            "rabash": "הרב״ש",
-            "ashlag_talmidim": "תלמידי קו אשלג"
-        }
-        
-        msg = f"{rtl}📊 *סטטיסטיקות ציטוטים*\n\n"
-        for source, count in stats["by_source"].items():
-            display_name = source_names.get(source, source)
-            msg += f"• {rtl}{display_name}: {count} ציטוטים\n"
-        msg += f"\n{rtl}*סה״כ: {stats['total']} ציטוטים*"
-        send_telegram_message(chat_id, msg)
-    
-    elif command == "/about":
-        stats = quote_manager.get_stats()
-        msg = f"""
-{rtl}📖 *אודות אשלג יומי*
-
-{rtl}בוט זה מביא ציטוטים יומיים מגדולי הקבלה והחסידות.
-
-{rtl}*המקורות:*
-• האר״י הקדוש (המאה ה-16)
-• הבעל שם טוב (1698-1760)
-• רבי שמחה בונים מפשיסחא (1765-1827)
-• הרבי מקוצק (1787-1859)
-• בעל הסולם (1885-1954)
-• הרב״ש (1907-1991)
-• תלמידי קו אשלג
-
-{rtl}*מאגר:* {stats['total']} ציטוטים מאומתים
-
-{rtl}🙏 לתיקון עולם
-"""
-        send_telegram_message(chat_id, msg)
-    
-    elif command == "/help":
-        msg = f"""
-{rtl}📚 *עזרה - אשלג יומי*
+{rtl}ציטוטים יומיים מגדולי הקבלה והחסידות.
 
 {rtl}*פקודות:*
-/start - התחלה והסבר על הבוט
-/today - הציטוטים של היום ⭐
+/today - הציטוטים של היום
 /quote - ציטוט אקראי
-/stats - סטטיסטיקות
-/about - אודות הבוט
-/help - הצג הודעה זו
+/help - עזרה
 
-{rtl}*אודות:*
-{rtl}הציטוטים נשלחים אוטומטית כל יום בשעה 6:00 בבוקר (שעון ישראל).
-
-{rtl}🙏 לתיקון עולם
-"""
-        send_telegram_message(chat_id, msg)
+{rtl}💫 יום מבורך!"""
+        send_message(chat_id, msg)
     
-    elif command == "/quality":
-        msg = quote_manager.get_selection_explanation()
-        send_telegram_message(chat_id, msg)
+    elif command in ["/today", "/daily"]:
+        today = date.today()
+        header = f"🌅 *{rtl}אשלג יומי - {today.strftime('%d/%m/%Y')}*"
+        send_message(chat_id, header)
+        
+        for quote in get_daily_quotes():
+            send_message(chat_id, format_quote(quote))
+        
+        send_message(chat_id, f"{rtl}💫 יום מבורך!")
+    
+    elif command == "/quote":
+        quote = get_random_quote()
+        send_message(chat_id, format_quote(quote))
+    
+    elif command in ["/help", "/about", "/stats"]:
+        total = sum(len(s["quotes"]) for s in QUOTES_DATA.values())
+        msg = f"""{rtl}📚 *אשלג יומי*
+
+{rtl}ציטוטים מ-7 מקורות ({total} ציטוטים)
+
+{rtl}*פקודות:*
+/today - ציטוטים יומיים
+/quote - ציטוט אקראי
+/help - עזרה
+
+{rtl}🙏 לתיקון עולם"""
+        send_message(chat_id, msg)
     
     else:
-        send_telegram_message(chat_id, f"{rtl}❓ פקודה לא מוכרת. השתמש ב-/help")
+        send_message(chat_id, f"{rtl}❓ פקודה לא מוכרת. נסה /help")
 
 
 class handler(BaseHTTPRequestHandler):
-    """Vercel serverless handler for Telegram webhook."""
-    
     def do_POST(self):
-        """Handle POST request from Telegram."""
         try:
-            content_length = int(self.headers.get('Content-Length', 0))
-            body = self.rfile.read(content_length)
+            length = int(self.headers.get('Content-Length', 0))
+            body = self.rfile.read(length)
             update = json.loads(body.decode('utf-8'))
             
-            logger.info(f"Received update: {update.get('update_id')}")
-            
-            # Extract message info
             message = update.get("message", {})
             chat_id = message.get("chat", {}).get("id")
             text = message.get("text", "")
             
             if chat_id and text.startswith("/"):
-                command = text.split()[0].split("@")[0]  # Handle /command@botname
-                handle_command(command, chat_id)
+                cmd = text.split()[0].split("@")[0]
+                handle_command(cmd, chat_id)
             
-            # Respond OK
             self.send_response(200)
             self.send_header('Content-type', 'application/json')
             self.end_headers()
-            self.wfile.write(json.dumps({"ok": True}).encode())
-            
+            self.wfile.write(b'{"ok":true}')
         except Exception as e:
-            logger.exception(f"Error handling webhook: {e}")
-            self.send_response(500)
-            self.send_header('Content-type', 'application/json')
+            logger.exception(f"Error: {e}")
+            self.send_response(200)  # Still return 200 to avoid Telegram retries
             self.end_headers()
-            self.wfile.write(json.dumps({"error": str(e)}).encode())
+            self.wfile.write(b'{"ok":false}')
     
     def do_GET(self):
-        """Health check endpoint."""
         self.send_response(200)
         self.send_header('Content-type', 'application/json')
         self.end_headers()
-        
-        stats = quote_manager.get_stats()
-        response = {
-            "status": "ok",
-            "bot": "AshlagYomiBot",
-            "quotes": stats["total"]
-        }
-        self.wfile.write(json.dumps(response).encode())
+        self.wfile.write(b'{"status":"ok","bot":"AshlagYomiBot"}')
