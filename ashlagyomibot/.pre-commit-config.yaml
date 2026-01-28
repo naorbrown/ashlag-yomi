@@ -1,0 +1,112 @@
+# =============================================================================
+# Pre-commit Configuration
+# =============================================================================
+# Install: make install-dev (or: pre-commit install)
+# Run manually: make pre-commit (or: pre-commit run --all-files)
+# =============================================================================
+
+# Minimum pre-commit version
+minimum_pre_commit_version: "3.0.0"
+
+# CI settings
+ci:
+  autofix_commit_msg: "style: auto-fix by pre-commit hooks"
+  autoupdate_commit_msg: "chore: update pre-commit hooks"
+
+repos:
+  # ==========================================================================
+  # General file hygiene
+  # ==========================================================================
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.5.0
+    hooks:
+      # Prevent commits to main/master
+      - id: no-commit-to-branch
+        args: ["--branch", "main", "--branch", "master"]
+
+      # File hygiene
+      - id: trailing-whitespace
+        args: [--markdown-linebreak-ext=md]
+      - id: end-of-file-fixer
+      - id: mixed-line-ending
+        args: [--fix=lf]
+
+      # JSON/YAML validation
+      - id: check-json
+      - id: check-yaml
+        args: [--unsafe]  # Allow custom tags
+      - id: check-toml
+
+      # Security
+      - id: detect-private-key
+      - id: check-added-large-files
+        args: ["--maxkb=1000"]
+
+      # Python-specific
+      - id: check-ast
+      - id: debug-statements
+      - id: check-docstring-first
+
+  # ==========================================================================
+  # Python Code Formatting - Black
+  # ==========================================================================
+  - repo: https://github.com/psf/black
+    rev: 24.1.1
+    hooks:
+      - id: black
+        language_version: python3.11
+
+  # ==========================================================================
+  # Python Linting & Import Sorting - Ruff
+  # ==========================================================================
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.1.14
+    hooks:
+      # Linter
+      - id: ruff
+        args: [--fix, --exit-non-zero-on-fix]
+      # Formatter (backup to black, catches what black misses)
+      - id: ruff-format
+
+  # ==========================================================================
+  # Type Checking - MyPy
+  # ==========================================================================
+  - repo: https://github.com/pre-commit/mirrors-mypy
+    rev: v1.8.0
+    hooks:
+      - id: mypy
+        additional_dependencies:
+          - pydantic>=2.0
+          - types-python-dateutil
+        args: [--ignore-missing-imports]
+        files: ^src/
+
+  # ==========================================================================
+  # Security Scanning
+  # ==========================================================================
+  - repo: https://github.com/PyCQA/bandit
+    rev: 1.7.7
+    hooks:
+      - id: bandit
+        args: ["-c", "pyproject.toml", "-r", "src"]
+        additional_dependencies: ["bandit[toml]"]
+        exclude: tests/
+
+  # ==========================================================================
+  # Commit Message Linting
+  # ==========================================================================
+  - repo: https://github.com/commitizen-tools/commitizen
+    rev: v3.13.0
+    hooks:
+      - id: commitizen
+        stages: [commit-msg]
+
+  # ==========================================================================
+  # Secrets Detection
+  # ==========================================================================
+  - repo: https://github.com/Yelp/detect-secrets
+    rev: v1.4.0
+    hooks:
+      - id: detect-secrets
+        args: ["--baseline", ".secrets.baseline"]
+        exclude: \.env\.example$

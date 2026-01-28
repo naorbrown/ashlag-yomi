@@ -1,0 +1,66 @@
+# Daily Quote Sender
+# Runs every day at 6:00 AM Israel time (3:00 AM UTC)
+
+name: Daily Quote
+
+on:
+  schedule:
+    # 3:00 AM UTC = 6:00 AM Israel (IST, UTC+3)
+    # Note: Israel observes daylight saving time (IDT, UTC+2 in summer)
+    # Adjust if precise timing is critical
+    - cron: "0 3 * * *"
+
+  # Allow manual trigger for testing
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Dry run (log instead of send)"
+        required: false
+        default: "false"
+        type: choice
+        options:
+          - "true"
+          - "false"
+
+jobs:
+  send-quotes:
+    name: Send Daily Quotes
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Cache pip dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e .
+
+      - name: Send daily quotes
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
+          ENVIRONMENT: production
+          LOG_LEVEL: INFO
+          DRY_RUN: ${{ github.event.inputs.dry_run || 'false' }}
+        run: python -m src.bot.broadcaster single
+
+      - name: Report status
+        if: always()
+        run: |
+          echo "Daily quote job completed"
+          echo "Status: ${{ job.status }}"
+          echo "Timestamp: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
