@@ -1,0 +1,64 @@
+# Test Pipeline Workflow
+# Validates the complete pipeline including quotes database and bot functionality
+
+name: Test Pipeline
+
+on:
+  workflow_dispatch:
+    inputs:
+      flush_cache:
+        description: 'Flush cache and reload'
+        required: false
+        default: 'false'
+        type: boolean
+      send_telegram_test:
+        description: 'Send Telegram test message'
+        required: false
+        default: 'false'
+        type: boolean
+
+env:
+  PYTHON_VERSION: '3.11'
+
+jobs:
+  test-pipeline:
+    name: Run Test Pipeline
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run test pipeline
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TEST_CHAT_ID: ${{ secrets.TEST_CHAT_ID }}
+        run: |
+          ARGS=""
+          if [ "${{ github.event.inputs.flush_cache }}" == "true" ]; then
+            ARGS="$ARGS --flush"
+          fi
+          if [ "${{ github.event.inputs.send_telegram_test }}" == "true" ]; then
+            ARGS="$ARGS --telegram"
+          fi
+          python scripts/test_pipeline.py $ARGS
+
+      - name: Generate test report
+        if: always()
+        run: |
+          echo "## Test Pipeline Results" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "- **Date:** $(date -u)" >> $GITHUB_STEP_SUMMARY
+          echo "- **Flush Cache:** ${{ github.event.inputs.flush_cache }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Telegram Test:** ${{ github.event.inputs.send_telegram_test }}" >> $GITHUB_STEP_SUMMARY

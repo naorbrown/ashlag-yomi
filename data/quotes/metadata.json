@@ -1,0 +1,44 @@
+{
+  "arizal": {
+    "name_hebrew": "האר\"י הקדוש",
+    "name_english": "The Arizal (Rabbi Isaac Luria)",
+    "years": "1534-1572",
+    "description": "מייסד שיטת הקבלה הלוריאנית"
+  },
+  "baal_shem_tov": {
+    "name_hebrew": "הבעל שם טוב",
+    "name_english": "Baal Shem Tov (Rabbi Israel ben Eliezer)",
+    "years": "1698-1760",
+    "description": "מייסד תנועת החסידות"
+  },
+  "simcha_bunim": {
+    "name_hebrew": "רבי שמחה בונים מפשיסחא",
+    "name_english": "Rabbi Simcha Bunim of Peshischa",
+    "years": "1765-1827",
+    "description": "מגדולי אדמור\"י פולין"
+  },
+  "kotzker_rebbe": {
+    "name_hebrew": "רבי מנחם מנדל מקוצק",
+    "name_english": "The Kotzker Rebbe",
+    "years": "1787-1859",
+    "description": "מנהיג חסידות קוצק"
+  },
+  "baal_hasulam": {
+    "name_hebrew": "בעל הסולם",
+    "name_english": "Baal HaSulam (Rabbi Yehuda Ashlag)",
+    "years": "1884-1954",
+    "description": "מחבר פירוש הסולם על הזוהר"
+  },
+  "rabash": {
+    "name_hebrew": "הרב\"ש (רבי ברוך שלום אשלג)",
+    "name_english": "RABASH (Rabbi Baruch Shalom Ashlag)",
+    "years": "1907-1991",
+    "description": "בנו וממשיך דרכו של בעל הסולם"
+  },
+  "ashlag_talmidim": {
+    "name_hebrew": "תלמידי קו אשלג",
+    "name_english": "Students of the Ashlag Lineage",
+    "years": "20th Century",
+    "description": "תלמידי בעל הסולם והרב\"ש"
+  }
+}

@@ -1,0 +1,97 @@
+# Daily Quotes Broadcast Workflow
+# Sends daily Kabbalistic quotes at 6:00 AM Israel time
+#
+# Israel Time (IST) = UTC+2 (standard) or UTC+3 (DST)
+# 6:00 AM IST = 4:00 AM UTC (winter) or 3:00 AM UTC (summer)
+# We use 4:00 AM UTC as the base schedule
+
+name: Daily Quotes Broadcast
+
+on:
+  schedule:
+    # 4:00 AM UTC = 6:00 AM Israel Standard Time (winter)
+    # Note: During daylight saving, this will be 7:00 AM Israel time
+    # For exact 6:00 AM during DST, would need 3:00 AM UTC
+    - cron: '0 4 * * *'
+
+  # Allow manual triggering for testing
+  workflow_dispatch:
+    inputs:
+      test_mode:
+        description: 'Run in test mode (no actual broadcast)'
+        required: false
+        default: 'false'
+        type: boolean
+
+env:
+  PYTHON_VERSION: '3.11'
+
+jobs:
+  broadcast:
+    name: Send Daily Quotes
+    runs-on: ubuntu-latest
+
+    # Prevent concurrent runs
+    concurrency:
+      group: daily-quotes-broadcast
+      cancel-in-progress: false
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Validate quotes database
+        run: |
+          python -c "
+          import json
+          from pathlib import Path
+
+          quotes_dir = Path('data/quotes')
+          for f in quotes_dir.glob('*.json'):
+              with open(f) as file:
+                  data = json.load(file)
+                  if f.name != 'metadata.json':
+                      assert 'quotes' in data, f'{f.name} missing quotes'
+                      assert len(data['quotes']) > 0, f'{f.name} has no quotes'
+          print('Quotes database validated successfully')
+          "
+
+      - name: Send daily broadcast
+        if: ${{ github.event.inputs.test_mode != 'true' }}
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          ADMIN_CHAT_IDS: ${{ secrets.ADMIN_CHAT_IDS }}
+        run: |
+          python src/bot.py --broadcast
+
+      - name: Test mode - Dry run
+        if: ${{ github.event.inputs.test_mode == 'true' }}
+        run: |
+          echo "Test mode enabled - skipping actual broadcast"
+          python -c "
+          from src.bot import QuotesManager
+          from pathlib import Path
+
+          qm = QuotesManager(Path('data/quotes'))
+          quotes = qm.get_daily_quotes()
+          print(f'Would send {len(quotes)} quotes')
+          for q in quotes:
+              print(f'- {q.get(\"rabbi_name\", \"Unknown\")}: {q.get(\"text\", \"\")[:50]}...')
+          "
+
+      - name: Report status
+        if: always()
+        run: |
+          echo "Broadcast completed at $(date -u)"
+          echo "Exit code: $?"
