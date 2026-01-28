@@ -1,0 +1,131 @@
+{
+  "source_name": "הרב״ש - רבי ברוך שלום הלוי אשלג",
+  "source_name_english": "Rabash (Rabbi Baruch Shalom HaLevi Ashlag)",
+  "description": "בנו וממשיך דרכו של בעל הסולם, 1907-1991",
+  "primary_sources": [
+    "https://www.kabbalah.info/eng/content/view/full/2381",
+    "https://www.sefaria.org/"
+  ],
+  "quotes": [
+    {
+      "id": "rabash_001",
+      "text": "ואהבת לרעך כמוך - רבי עקיבא אומר זה כלל גדול בתורה. פירוש שאם שומר כלל זה, כל הפרטים נכללים בה.",
+      "source": "כתבי רב״ש - אהבת חברים",
+      "source_url": "https://www.kabbalah.info/eng/content/view/full/115977",
+      "topic": "אהבת חברים",
+      "length": "short"
+    },
+    {
+      "id": "rabash_002",
+      "text": "צריכים לחדש את העבודה בכל יום, כלומר לשכוח את העבר. אם לא הצלחנו בעבר, צריכים להתחיל מחדש.",
+      "source": "שלבי הסולם",
+      "source_url": "https://www.kabbalah.info/eng/content/view/full/31839",
+      "topic": "התחדשות",
+      "length": "medium"
+    },
+    {
+      "id": "rabash_003",
+      "text": "העיקר הוא לקרב לבבות, וזהו כמו שאומרים בתפילת ראש השנה: ויעשו כולם אגודה אחת.",
+      "source": "אגרות הרב״ש",
+      "source_url": "https://www.kabbalah.info/eng/content/view/full/55642",
+      "topic": "אחדות",
+      "length": "short"
+    },
+    {
+      "id": "rabash_004",
+      "text": "אהבת החברים היא הסולם לאהבת הבורא.",
+      "source": "כתבי רב״ש",
+      "source_url": "https://www.kabbalah.info/eng/content/view/full/115977",
+      "topic": "אהבה",
+      "length": "short"
+    },
+    {
+      "id": "rabash_005",
+      "text": "אין להתייאש אף פעם, כי כל נפילה היא הכנה לעלייה.",
+      "source": "שלבי הסולם",
+      "source_url": "https://www.kabbalah.info/eng/content/view/full/31839",
+      "topic": "נפילה",
+      "length": "short"
+    },
+    {
+      "id": "rabash_006",
+      "text": "הלימוד בקבוצה נותן כוח שאין ביחיד.",
+      "source": "כתבי רב״ש",
+      "source_url": "https://www.kabbalah.info/eng/content/view/full/115977",
+      "topic": "קבוצה",
+      "length": "short"
+    },
+    {
+      "id": "rabash_007",
+      "text": "כל אדם יכול ללמוד קבלה, אם רק ירצה לתקן את נשמתו.",
+      "source": "שלבי הסולם",
+      "source_url": "https://www.kabbalah.info/eng/content/view/full/31839",
+      "topic": "לימוד",
+      "length": "short"
+    },
+    {
+      "id": "rabash_008",
+      "text": "הביטול העצמי הוא הכלי לקבלת האור.",
+      "source": "דרגות הסולם",
+      "source_url": "https://www.kabbalah.info/",
+      "topic": "ביטול",
+      "length": "short"
+    },
+    {
+      "id": "rabash_009",
+      "text": "עיקר העבודה הוא למעלה מהדעת.",
+      "source": "שלבי הסולם",
+      "source_url": "https://www.kabbalah.info/eng/content/view/full/31839",
+      "topic": "אמונה",
+      "length": "short"
+    },
+    {
+      "id": "rabash_010",
+      "text": "התפילה היא עבודת הלב.",
+      "source": "כתבי רב״ש",
+      "source_url": "https://www.kabbalah.info/eng/content/view/full/115977",
+      "topic": "תפילה",
+      "length": "short"
+    },
+    {
+      "id": "rabash_011",
+      "text": "אין להסתכל על האחרים, אלא רק על עצמו.",
+      "source": "אגרות הרב״ש",
+      "source_url": "https://www.kabbalah.info/eng/content/view/full/55642",
+      "topic": "עבודה עצמית",
+      "length": "short"
+    },
+    {
+      "id": "rabash_012",
+      "text": "הכוונה היא הכל בעבודה הרוחנית.",
+      "source": "שלבי הסולם",
+      "source_url": "https://www.kabbalah.info/eng/content/view/full/31839",
+      "topic": "כוונה",
+      "length": "short"
+    },
+    {
+      "id": "rabash_013",
+      "text": "השמחה היא סימן להתקדמות.",
+      "source": "כתבי רב״ש",
+      "source_url": "https://www.kabbalah.info/eng/content/view/full/115977",
+      "topic": "שמחה",
+      "length": "short"
+    },
+    {
+      "id": "rabash_014",
+      "text": "מי שנותן לחברים, מקבל מהם יותר.",
+      "source": "כתבי רב״ש - אהבת חברים",
+      "source_url": "https://www.kabbalah.info/eng/content/view/full/115977",
+      "topic": "נתינה",
+      "length": "short"
+    },
+    {
+      "id": "rabash_015",
+      "text": "האמונה היא למעלה מהשכל, וזהו הכלי האמיתי.",
+      "source": "שלבי הסולם",
+      "source_url": "https://www.kabbalah.info/eng/content/view/full/31839",
+      "topic": "אמונה",
+      "length": "short"
+    }
+  ]
+}

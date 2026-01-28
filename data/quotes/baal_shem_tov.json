@@ -1,0 +1,131 @@
+{
+  "source_name": "הבעל שם טוב",
+  "source_name_english": "The Baal Shem Tov (Rabbi Israel ben Eliezer)",
+  "description": "מייסד תנועת החסידות, 1698-1760",
+  "primary_sources": [
+    "https://www.sefaria.org/topics/baal-shem-tov",
+    "https://www.chabad.org/library/article_cdo/aid/2784850"
+  ],
+  "quotes": [
+    {
+      "id": "besht_001",
+      "text": "במקום שמחשבתו של אדם, שם הוא נמצא כולו.",
+      "source": "כתר שם טוב",
+      "source_url": "https://www.sefaria.org/Keter_Shem_Tov",
+      "topic": "מחשבה",
+      "length": "short"
+    },
+    {
+      "id": "besht_002",
+      "text": "שכחה היא גלות, וזיכרון הוא גאולה.",
+      "source": "כתר שם טוב",
+      "source_url": "https://www.sefaria.org/Keter_Shem_Tov",
+      "topic": "זיכרון",
+      "length": "short"
+    },
+    {
+      "id": "besht_003",
+      "text": "כל מה שהאדם רואה ושומע, הוא הוראה לעבודתו.",
+      "source": "צוואת הריב״ש",
+      "source_url": "https://www.sefaria.org/Tzavaat_HaRivash",
+      "topic": "השגחה",
+      "length": "short"
+    },
+    {
+      "id": "besht_004",
+      "text": "אין הקב״ה בא בטרוניא עם בריותיו.",
+      "source": "כתר שם טוב",
+      "source_url": "https://www.sefaria.org/Keter_Shem_Tov",
+      "topic": "רחמים",
+      "length": "short"
+    },
+    {
+      "id": "besht_005",
+      "text": "השמחה היא המפתח לכל השערים.",
+      "source": "צוואת הריב״ש",
+      "source_url": "https://www.sefaria.org/Tzavaat_HaRivash",
+      "topic": "שמחה",
+      "length": "short"
+    },
+    {
+      "id": "besht_006",
+      "text": "אל תסתכל ברע שבחברך, הסתכל בטוב שבו.",
+      "source": "כתר שם טוב",
+      "source_url": "https://www.sefaria.org/Keter_Shem_Tov",
+      "topic": "אהבת ישראל",
+      "length": "short"
+    },
+    {
+      "id": "besht_007",
+      "text": "כשאדם יודע שכל מה שקורה לו הוא לטובתו, זוהי מדרגה גבוהה.",
+      "source": "כתר שם טוב",
+      "source_url": "https://www.sefaria.org/Keter_Shem_Tov",
+      "topic": "אמונה",
+      "length": "short"
+    },
+    {
+      "id": "besht_008",
+      "text": "העולם הזה הוא פרוזדור, אבל צריך לעבור בו בשמחה.",
+      "source": "צוואת הריב״ש",
+      "source_url": "https://www.sefaria.org/Tzavaat_HaRivash",
+      "topic": "עולם הזה",
+      "length": "short"
+    },
+    {
+      "id": "besht_009",
+      "text": "התפילה בלי כוונה היא כגוף בלי נשמה.",
+      "source": "כתר שם טוב",
+      "source_url": "https://www.sefaria.org/Keter_Shem_Tov",
+      "topic": "תפילה",
+      "length": "short"
+    },
+    {
+      "id": "besht_010",
+      "text": "אין דבר שעומד בפני הרצון.",
+      "source": "כתר שם טוב",
+      "source_url": "https://www.sefaria.org/Keter_Shem_Tov",
+      "topic": "רצון",
+      "length": "short"
+    },
+    {
+      "id": "besht_011",
+      "text": "כל ירידה היא לצורך עלייה.",
+      "source": "כתר שם טוב",
+      "source_url": "https://www.sefaria.org/Keter_Shem_Tov",
+      "topic": "ירידה",
+      "length": "short"
+    },
+    {
+      "id": "besht_012",
+      "text": "אהבת ישראל היא אהבת הקב״ה.",
+      "source": "כתר שם טוב",
+      "source_url": "https://www.sefaria.org/Keter_Shem_Tov",
+      "topic": "אהבת ישראל",
+      "length": "short"
+    },
+    {
+      "id": "besht_013",
+      "text": "העצבות היא סכנה גדולה, והשמחה היא התרופה.",
+      "source": "צוואת הריב״ש",
+      "source_url": "https://www.sefaria.org/Tzavaat_HaRivash",
+      "topic": "שמחה",
+      "length": "short"
+    },
+    {
+      "id": "besht_014",
+      "text": "כל דבר שאדם שומע או רואה, יש בו לקח לעבודת ה׳.",
+      "source": "כתר שם טוב",
+      "source_url": "https://www.sefaria.org/Keter_Shem_Tov",
+      "topic": "לימוד",
+      "length": "short"
+    },
+    {
+      "id": "besht_015",
+      "text": "הקב״ה נמצא בכל מקום, רק צריך לפתוח את העיניים.",
+      "source": "כתר שם טוב",
+      "source_url": "https://www.sefaria.org/Keter_Shem_Tov",
+      "topic": "אמונה",
+      "length": "short"
+    }
+  ]
+}

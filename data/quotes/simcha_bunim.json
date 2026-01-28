@@ -1,0 +1,131 @@
+{
+  "source_name": "רבי שמחה בונים מפשיסחא",
+  "source_name_english": "Rabbi Simcha Bunim of Peshischa",
+  "description": "מנהיג חסידי, 1765-1827",
+  "primary_sources": [
+    "https://www.chabad.org/library/article_cdo/aid/111832",
+    "https://www.sefaria.org/topics/simcha-bunim-of-peshischa"
+  ],
+  "quotes": [
+    {
+      "id": "simcha_001",
+      "text": "כל אדם צריך שיהיו לו שני כיסים: בכיס אחד כתוב ׳בשבילי נברא העולם׳, ובכיס השני כתוב ׳אנוכי עפר ואפר׳.",
+      "source": "קול שמחה",
+      "source_url": "https://www.chabad.org/library/article_cdo/aid/111832",
+      "topic": "ענווה",
+      "length": "medium"
+    },
+    {
+      "id": "simcha_002",
+      "text": "האמת היא הדבר הפשוט ביותר, אבל גם הקשה ביותר.",
+      "source": "קול שמחה",
+      "source_url": "https://www.chabad.org/library/article_cdo/aid/111832",
+      "topic": "אמת",
+      "length": "short"
+    },
+    {
+      "id": "simcha_003",
+      "text": "אל תחפש את השלמות, חפש את האמת.",
+      "source": "קול שמחה",
+      "source_url": "https://www.chabad.org/library/article_cdo/aid/111832",
+      "topic": "אמת",
+      "length": "short"
+    },
+    {
+      "id": "simcha_004",
+      "text": "מי שאינו עובד על עצמו, לא יכול לעזור לאחרים.",
+      "source": "קול שמחה",
+      "source_url": "https://www.chabad.org/library/article_cdo/aid/111832",
+      "topic": "עבודה עצמית",
+      "length": "short"
+    },
+    {
+      "id": "simcha_005",
+      "text": "הגאווה היא שורש כל הרע.",
+      "source": "קול שמחה",
+      "source_url": "https://www.chabad.org/library/article_cdo/aid/111832",
+      "topic": "גאווה",
+      "length": "short"
+    },
+    {
+      "id": "simcha_006",
+      "text": "כשאדם מתפלל, צריך לדעת לפני מי הוא עומד.",
+      "source": "קול שמחה",
+      "source_url": "https://www.chabad.org/library/article_cdo/aid/111832",
+      "topic": "תפילה",
+      "length": "short"
+    },
+    {
+      "id": "simcha_007",
+      "text": "הלימוד הטוב ביותר הוא ללמוד מכל אדם.",
+      "source": "קול שמחה",
+      "source_url": "https://www.chabad.org/library/article_cdo/aid/111832",
+      "topic": "לימוד",
+      "length": "short"
+    },
+    {
+      "id": "simcha_008",
+      "text": "אין טוב יותר מלב שבור ונכנע.",
+      "source": "קול שמחה",
+      "source_url": "https://www.chabad.org/library/article_cdo/aid/111832",
+      "topic": "לב",
+      "length": "short"
+    },
+    {
+      "id": "simcha_009",
+      "text": "הפשטות היא המדרגה הגבוהה ביותר.",
+      "source": "קול שמחה",
+      "source_url": "https://www.chabad.org/library/article_cdo/aid/111832",
+      "topic": "פשטות",
+      "length": "short"
+    },
+    {
+      "id": "simcha_010",
+      "text": "טוב יותר להיות אמיתי מאשר להיות צדיק.",
+      "source": "קול שמחה",
+      "source_url": "https://www.chabad.org/library/article_cdo/aid/111832",
+      "topic": "אמת",
+      "length": "short"
+    },
+    {
+      "id": "simcha_011",
+      "text": "השתיקה היא גדר לחכמה.",
+      "source": "קול שמחה",
+      "source_url": "https://www.chabad.org/library/article_cdo/aid/111832",
+      "topic": "שתיקה",
+      "length": "short"
+    },
+    {
+      "id": "simcha_012",
+      "text": "מי שמכיר את עצמו, מכיר את קונו.",
+      "source": "קול שמחה",
+      "source_url": "https://www.chabad.org/library/article_cdo/aid/111832",
+      "topic": "הכרה עצמית",
+      "length": "short"
+    },
+    {
+      "id": "simcha_013",
+      "text": "אל תשפוט את חברך עד שתגיע למקומו.",
+      "source": "קול שמחה",
+      "source_url": "https://www.chabad.org/library/article_cdo/aid/111832",
+      "topic": "שיפוט",
+      "length": "short"
+    },
+    {
+      "id": "simcha_014",
+      "text": "העיקר הוא להיות אדם ישר.",
+      "source": "קול שמחה",
+      "source_url": "https://www.chabad.org/library/article_cdo/aid/111832",
+      "topic": "יושר",
+      "length": "short"
+    },
+    {
+      "id": "simcha_015",
+      "text": "כל מה שאדם עושה לשם שמים, מצליח.",
+      "source": "קול שמחה",
+      "source_url": "https://www.chabad.org/library/article_cdo/aid/111832",
+      "topic": "כוונה",
+      "length": "short"
+    }
+  ]
+}

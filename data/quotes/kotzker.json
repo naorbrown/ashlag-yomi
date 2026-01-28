@@ -1,0 +1,131 @@
+{
+  "source_name": "הרבי מקוצק",
+  "source_name_english": "The Kotzker Rebbe (Rabbi Menachem Mendel of Kotzk)",
+  "description": "מנהיג החסידות בפולין, 1787-1859",
+  "primary_sources": [
+    "https://www.chabad.org/library/article_cdo/aid/4287676/jewish/48-Wise-and-Deep-Sayings-of-Rabbi-Menachem-Mendel-of-Kotzk.htm",
+    "https://aish.com/gems-of-wisdom-of-the-kotzker-rebbe/"
+  ],
+  "quotes": [
+    {
+      "id": "kotzk_001",
+      "text": "איפה נמצא אלוקים? במקום שנותנים לו להיכנס.",
+      "source": "אמת ואמונה",
+      "source_url": "https://www.chabad.org/library/article_cdo/aid/4287676",
+      "topic": "אמונה",
+      "length": "short"
+    },
+    {
+      "id": "kotzk_002",
+      "text": "אין דבר שלם יותר מלב שבור.",
+      "source": "אמת ואמונה",
+      "source_url": "https://www.chabad.org/library/article_cdo/aid/4287676",
+      "topic": "לב",
+      "length": "short"
+    },
+    {
+      "id": "kotzk_003",
+      "text": "אם אני אני בגלל שאני אני, ואתה אתה בגלל שאתה אתה, אז אני אני ואתה אתה. אבל אם אני אני בגלל שאתה אתה, ואתה אתה בגלל שאני אני, אז אני לא אני ואתה לא אתה.",
+      "source": "אמת ואמונה",
+      "source_url": "https://www.chabad.org/library/article_cdo/aid/4287676",
+      "topic": "זהות",
+      "length": "medium"
+    },
+    {
+      "id": "kotzk_004",
+      "text": "אנשים מסתכלים למעלה ומתפלאים על סודות השמים. טוב יותר להסתכל פנימה ולבדוק מה קורה בתוך עצמם.",
+      "source": "אמת ואמונה",
+      "source_url": "https://www.chabad.org/library/article_cdo/aid/4287676",
+      "topic": "חשבון נפש",
+      "length": "short"
+    },
+    {
+      "id": "kotzk_005",
+      "text": "אל תסתפק בדיבורי פיך ובמחשבות ליבך, קום ועשה!",
+      "source": "אמת ואמונה",
+      "source_url": "https://www.chabad.org/library/article_cdo/aid/4287676",
+      "topic": "עשייה",
+      "length": "short"
+    },
+    {
+      "id": "kotzk_006",
+      "text": "אם הייתי יכול להבין אותו, הוא לא היה אלוקים.",
+      "source": "אמת ואמונה",
+      "source_url": "https://www.chabad.org/library/article_cdo/aid/4287676",
+      "topic": "אמונה",
+      "length": "short"
+    },
+    {
+      "id": "kotzk_007",
+      "text": "לא כל מחשבה צריכה להיאמר, לא כל דיבור צריך להיכתב, ולא כל כתיבה צריכה להידפס.",
+      "source": "אמת ואמונה",
+      "source_url": "https://www.chabad.org/library/article_cdo/aid/4287676",
+      "topic": "שתיקה",
+      "length": "short"
+    },
+    {
+      "id": "kotzk_008",
+      "text": "צריך להיות קדוש בדרך אנושית, לקב״ה יש מספיק מלאכים.",
+      "source": "אמת ואמונה",
+      "source_url": "https://www.chabad.org/library/article_cdo/aid/4287676",
+      "topic": "קדושה",
+      "length": "short"
+    },
+    {
+      "id": "kotzk_009",
+      "text": "האמת אינה צריכה הוכחות, היא עומדת בפני עצמה.",
+      "source": "אמת ואמונה",
+      "source_url": "https://www.chabad.org/library/article_cdo/aid/4287676",
+      "topic": "אמת",
+      "length": "short"
+    },
+    {
+      "id": "kotzk_010",
+      "text": "עיקר העבודה היא לשבור את הגאווה.",
+      "source": "אמת ואמונה",
+      "source_url": "https://www.chabad.org/library/article_cdo/aid/4287676",
+      "topic": "גאווה",
+      "length": "short"
+    },
+    {
+      "id": "kotzk_011",
+      "text": "האדם נברא עם שני עיניים: אחת לראות את גדולת הבורא, והשנייה לראות את שפלות עצמו.",
+      "source": "אמת ואמונה",
+      "source_url": "https://www.chabad.org/library/article_cdo/aid/4287676",
+      "topic": "ענווה",
+      "length": "short"
+    },
+    {
+      "id": "kotzk_012",
+      "text": "השקר הוא מת, האמת היא חיה לעולם.",
+      "source": "אמת ואמונה",
+      "source_url": "https://www.chabad.org/library/article_cdo/aid/4287676",
+      "topic": "אמת",
+      "length": "short"
+    },
+    {
+      "id": "kotzk_013",
+      "text": "מי שאינו משתפר, מתקלקל.",
+      "source": "אמת ואמונה",
+      "source_url": "https://www.chabad.org/library/article_cdo/aid/4287676",
+      "topic": "התקדמות",
+      "length": "short"
+    },
+    {
+      "id": "kotzk_014",
+      "text": "לב טהור חשוב יותר ממוח חכם.",
+      "source": "אמת ואמונה",
+      "source_url": "https://www.chabad.org/library/article_cdo/aid/4287676",
+      "topic": "לב",
+      "length": "short"
+    },
+    {
+      "id": "kotzk_015",
+      "text": "הדרך הקצרה ביותר היא הדרך הארוכה ביותר.",
+      "source": "אמת ואמונה",
+      "source_url": "https://www.chabad.org/library/article_cdo/aid/4287676",
+      "topic": "סבלנות",
+      "length": "short"
+    }
+  ]
+}

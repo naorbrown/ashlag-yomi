@@ -1,0 +1,101 @@
+name: CI
+
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      
+      - name: Lint with ruff
+        run: |
+          ruff check src/ tests/
+      
+      - name: Type check with mypy
+        run: |
+          mypy src/ --ignore-missing-imports
+
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      
+      - name: Run tests
+        run: |
+          pytest tests/ -v --cov=src --cov-report=xml --cov-report=term-missing
+      
+      - name: Validate quote files
+        run: |
+          python -c "
+          import json
+          from pathlib import Path
+          
+          quotes_dir = Path('data/quotes')
+          total = 0
+          
+          for f in quotes_dir.glob('*.json'):
+              with open(f) as fp:
+                  data = json.load(fp)
+                  count = len(data.get('quotes', []))
+                  print(f'{f.name}: {count} quotes')
+                  total += count
+                  
+                  # Validate structure
+                  for q in data.get('quotes', []):
+                      assert 'id' in q, f'Missing id in {f.name}'
+                      assert 'text' in q, f'Missing text in {f.name}'
+                      assert 'source' in q, f'Missing source in {f.name}'
+          
+          print(f'Total: {total} quotes validated')
+          "
+
+  security:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Check for secrets in code
+        run: |
+          # Simple check for common secret patterns
+          if grep -rE "(api[_-]?key|secret|token|password)\s*=\s*['\"][^'\"]+['\"]" --include="*.py" --include="*.json" .; then
+            echo "WARNING: Potential secrets found in code!"
+            exit 1
+          fi
+          echo "No hardcoded secrets detected"
+      
+      - name: Validate JSON files
+        run: |
+          for f in data/quotes/*.json; do
+            python -m json.tool "$f" > /dev/null || exit 1
+            echo "Valid JSON: $f"
+          done
