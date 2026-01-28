@@ -21,32 +21,14 @@ import urllib.error
 def setup_commands(token: str) -> bool:
     """Set up bot commands via Telegram API."""
 
-    # Commands optimized for UX - bilingual with clear descriptions
+    # Commands optimized for UX - Hebrew descriptions
     commands = [
-        {
-            "command": "start",
-            "description": "הרשמה לציטוטים יומיים / Subscribe"
-        },
-        {
-            "command": "today",
-            "description": "ציטוטים של היום / Today's quotes"
-        },
-        {
-            "command": "quote",
-            "description": "ציטוט אקראי / Random quote"
-        },
-        {
-            "command": "help",
-            "description": "עזרה / Help"
-        },
-        {
-            "command": "about",
-            "description": "אודות הבוט / About"
-        },
-        {
-            "command": "stop",
-            "description": "ביטול מנוי / Unsubscribe"
-        }
+        {"command": "start", "description": "הרשמה לציטוטים יומיים"},
+        {"command": "today", "description": "ציטוטים של היום"},
+        {"command": "quote", "description": "ציטוט אקראי"},
+        {"command": "help", "description": "עזרה"},
+        {"command": "about", "description": "אודות"},
+        {"command": "stop", "description": "ביטול מנוי"},
     ]
 
     url = f"https://api.telegram.org/bot{token}/setMyCommands"

@@ -39,7 +39,9 @@ logger = logging.getLogger(__name__)
 # Constants
 QUOTES_DIR = Path(__file__).parent.parent / "data" / "quotes"
 MAX_MESSAGE_LENGTH = 4096  # Telegram message limit
-ISRAEL_TZ_OFFSET = 2  # UTC+2 (standard), UTC+3 (DST)
+
+# Signature line for messages
+SIGNATURE = "\n\n🙏 <i>לזכות כל ישראל</i>"
 
 
 class QuotesManager:
@@ -119,49 +121,108 @@ class QuotesManager:
         return daily_quotes
 
 
-def format_quote_message(quote: Dict[str, Any], rabbi_name: str) -> str:
-    """Format a single quote for Telegram display."""
+def format_quote_html(quote: Dict[str, Any], rabbi_name: str) -> str:
+    """Format a single quote for Telegram display using HTML."""
     text = quote.get("text", "")
     source = quote.get("source", "")
     source_url = quote.get("source_url", "")
     author = quote.get("author", rabbi_name)
 
-    # Build the message
-    lines = [
-        f"📜 *{author}*",
-        "",
-        text,
-        "",
-    ]
+    lines = [f"<b>📜 {author}</b>", "", text, ""]
 
     if source:
         if source_url:
-            lines.append(f"📖 [מקור: {source}]({source_url})")
+            lines.append(f'📖 <a href="{source_url}">{source}</a>')
         else:
-            lines.append(f"📖 מקור: {source}")
+            lines.append(f"📖 <i>{source}</i>")
 
     return "\n".join(lines)
 
 
-def split_long_message(message: str, max_length: int = MAX_MESSAGE_LENGTH) -> List[str]:
-    """Split a message that exceeds Telegram's character limit."""
-    if len(message) <= max_length:
-        return [message]
+def format_welcome_message() -> str:
+    """Format the welcome message."""
+    return """🕎 <b>ברוכים הבאים לאשלג יומי!</b>
 
-    messages = []
+בכל יום בשעה 6:00 בבוקר (שעון ישראל) תקבלו שבעה ציטוטים מהמקורות הבאים:
+
+• האר"י הקדוש
+• הבעל שם טוב
+• רבי שמחה בונים מפשיסחא
+• רבי מנחם מנדל מקוצק
+• בעל הסולם
+• הרב"ש
+• תלמידי קו אשלג
+
+<b>פקודות:</b>
+/today - קבל את הציטוטים של היום
+/quote - קבל ציטוט אקראי
+/about - אודות הבוט
+/help - עזרה""" + SIGNATURE
+
+
+def format_help_message() -> str:
+    """Format the help message."""
+    return """<b>עזרה</b>
+
+<b>פקודות זמינות:</b>
+
+/start - הרשמה לקבלת ציטוטים יומיים
+/today - קבל את כל הציטוטים של היום
+/quote - קבל ציטוט אקראי
+/about - מידע אודות הבוט
+/stop - ביטול מנוי
+
+הציטוטים היומיים נשלחים בשעה 6:00 בבוקר (שעון ישראל).
+
+לשאלות ובקשות: <a href="https://github.com/naorbrown/ashlag-yomi">GitHub</a>""" + SIGNATURE
+
+
+def format_about_message() -> str:
+    """Format the about message."""
+    return """<b>אודות אשלג יומי</b>
+
+בוט זה מפיץ חכמת הקבלה מקו אשלג ורבותיו הקדושים.
+
+<b>בעל הסולם</b> (הרב יהודה אשלג, 1884-1954) חיבר את פירוש הסולם על ספר הזוהר והנגיש את חכמת הקבלה לכלל ישראל.
+
+<b>הרב"ש</b> (הרב ברוך שלום אשלג, 1907-1991) המשיך את דרך אביו והרחיב את הלימוד.
+
+<b>מקורות:</b>
+• <a href="https://www.orhasulam.org/">אור הסולם</a>
+• <a href="https://ashlagbaroch.com/">אשלג ברוך</a>
+• <a href="https://www.kabbalahinfo.org/">קבלה אינפו</a>
+• <a href="https://www.sefaria.org/">ספריא</a>
+
+<b>קוד פתוח:</b>
+<a href="https://github.com/naorbrown/ashlag-yomi">GitHub Repository</a>""" + SIGNATURE
+
+
+def format_error_message() -> str:
+    """Format an error message."""
+    return """אירעה שגיאה בטעינת הציטוטים.
+אנא נסה שוב מאוחר יותר.""" + SIGNATURE
+
+
+def split_text(text: str, max_length: int = MAX_MESSAGE_LENGTH) -> List[str]:
+    """Split text at word boundaries."""
+    if len(text) <= max_length:
+        return [text]
+
+    parts = []
     current = ""
-    for line in message.split("\n"):
-        if len(current) + len(line) + 1 > max_length:
+
+    for word in text.split():
+        if len(current) + len(word) + 1 > max_length:
             if current:
-                messages.append(current.strip())
-            current = line
+                parts.append(current.strip())
+            current = word
         else:
-            current = current + "\n" + line if current else line
+            current = f"{current} {word}" if current else word
 
     if current:
-        messages.append(current.strip())
+        parts.append(current.strip())
 
-    return messages
+    return parts
 
 
 class AshlagYomiBot:
@@ -205,88 +266,89 @@ class AshlagYomiBot:
         self, update: Update, context: ContextTypes.DEFAULT_TYPE
     ) -> None:
         """Handle /start command."""
+        if not update.message:
+            return
+
         chat_id = update.effective_chat.id
         self.subscribed_chats.add(chat_id)
         self._save_subscriptions()
 
-        welcome_message = """
-🕎 *ברוכים הבאים לאשלג יומי!*
-
-Welcome to Ashlag Yomi - your daily dose of Kabbalistic wisdom!
-
-כל יום בשעה 6:00 בבוקר (שעון ישראל) תקבלו ציטוטים מהמקורות הבאים:
-Every day at 6:00 AM Israel time, you'll receive quotes from:
-
-• האר"י הקדוש (The Arizal)
-• הבעל שם טוב (Baal Shem Tov)
-• רבי שמחה בונים מפשיסחא (Simcha Bunim)
-• רבי מנחם מנדל מקוצק (Kotzker Rebbe)
-• בעל הסולם (Baal Hasulam)
-• הרב"ש (Rabash)
-• תלמידי קו אשלג (Ashlag Lineage Students)
-
-*פקודות זמינות / Available Commands:*
-/today - קבל את הציטוטים של היום
-/quote - קבל ציטוט אקראי
-/help - עזרה
-/about - אודות הבוט
-/stop - הפסק מנוי
-
-📚 כל הציטוטים מקושרים למקורותיהם המקוריים.
-All quotes are linked to their original sources.
-"""
-        await update.message.reply_text(
-            welcome_message, parse_mode=ParseMode.MARKDOWN
-        )
         logger.info(f"New subscription from chat_id: {chat_id}")
+
+        await update.message.reply_text(
+            format_welcome_message(),
+            parse_mode=ParseMode.HTML,
+            disable_web_page_preview=True,
+        )
 
     async def stop_command(
         self, update: Update, context: ContextTypes.DEFAULT_TYPE
     ) -> None:
         """Handle /stop command."""
+        if not update.message:
+            return
+
         chat_id = update.effective_chat.id
+
         if chat_id in self.subscribed_chats:
             self.subscribed_chats.discard(chat_id)
             self._save_subscriptions()
-            await update.message.reply_text(
-                "👋 הוסרת מרשימת התפוצה. להתראות!\n"
-                "You've been unsubscribed. Goodbye!\n\n"
-                "שלח /start כדי להצטרף שוב.\n"
-                "Send /start to rejoin."
-            )
             logger.info(f"Unsubscribed chat_id: {chat_id}")
+
+            await update.message.reply_text(
+                "👋 הוסרת מרשימת התפוצה.\n\nשלח /start כדי להצטרף שוב." + SIGNATURE,
+                parse_mode=ParseMode.HTML,
+            )
         else:
             await update.message.reply_text(
-                "אינך רשום כרגע. שלח /start כדי להצטרף.\n"
-                "You're not currently subscribed. Send /start to join."
+                "אינך רשום כרגע.\n\nשלח /start כדי להצטרף." + SIGNATURE,
+                parse_mode=ParseMode.HTML,
             )
 
     async def today_command(
         self, update: Update, context: ContextTypes.DEFAULT_TYPE
     ) -> None:
         """Handle /today command - send all daily quotes."""
-        await self._send_daily_quotes(update.effective_chat.id)
+        if not update.message:
+            return
+
+        logger.info(f"Today command from chat_id: {update.effective_chat.id}")
+
+        try:
+            await self._send_daily_quotes_to_chat(update.effective_chat.id)
+        except Exception as e:
+            logger.error(f"Error in today command: {e}")
+            await update.message.reply_text(
+                format_error_message(),
+                parse_mode=ParseMode.HTML,
+            )
 
     async def quote_command(
         self, update: Update, context: ContextTypes.DEFAULT_TYPE
     ) -> None:
         """Handle /quote command - send a random quote."""
+        if not update.message:
+            return
+
+        logger.info(f"Quote command from chat_id: {update.effective_chat.id}")
+
         rabbi_keys = self.quotes_manager.get_all_rabbi_keys()
         if not rabbi_keys:
             await update.message.reply_text(
-                "❌ לא נמצאו ציטוטים. אנא נסה שוב מאוחר יותר.\n"
-                "No quotes found. Please try again later."
+                format_error_message(),
+                parse_mode=ParseMode.HTML,
             )
             return
 
         rabbi_key = random.choice(rabbi_keys)
         quote = self.quotes_manager.get_random_quote(rabbi_key)
+
         if quote:
             rabbi_name = self.quotes_manager.get_rabbi_display_name(rabbi_key)
-            message = format_quote_message(quote, rabbi_name)
+            message = format_quote_html(quote, rabbi_name) + SIGNATURE
             await update.message.reply_text(
                 message,
-                parse_mode=ParseMode.MARKDOWN,
+                parse_mode=ParseMode.HTML,
                 disable_web_page_preview=True,
             )
 
@@ -294,66 +356,29 @@ All quotes are linked to their original sources.
         self, update: Update, context: ContextTypes.DEFAULT_TYPE
     ) -> None:
         """Handle /help command."""
-        help_text = """
-🔧 *עזרה / Help*
+        if not update.message:
+            return
 
-*פקודות זמינות / Available Commands:*
+        logger.info(f"Help command from chat_id: {update.effective_chat.id}")
 
-/start - הצטרף לקבלת ציטוטים יומיים
-         Subscribe to daily quotes
-
-/stop - הפסק את קבלת הציטוטים
-        Unsubscribe from daily quotes
-
-/today - קבל את כל הציטוטים של היום
-         Get all today's quotes now
-
-/quote - קבל ציטוט אקראי
-         Get a random quote
-
-/about - מידע אודות הבוט
-         Information about this bot
-
-/help - הצג הודעה זו
-        Show this help message
-
-/test - (מנהלים) בדיקת הבוט
-        (Admin) Test the bot
-
-📬 הציטוטים היומיים נשלחים ב-6:00 בבוקר (שעון ישראל)
-Daily quotes are sent at 6:00 AM Israel time.
-"""
-        await update.message.reply_text(help_text, parse_mode=ParseMode.MARKDOWN)
+        await update.message.reply_text(
+            format_help_message(),
+            parse_mode=ParseMode.HTML,
+            disable_web_page_preview=True,
+        )
 
     async def about_command(
         self, update: Update, context: ContextTypes.DEFAULT_TYPE
     ) -> None:
         """Handle /about command."""
-        about_text = """
-📖 *אודות אשלג יומי / About Ashlag Yomi*
+        if not update.message:
+            return
 
-בוט זה נועד להפיץ את חכמת הקבלה בקו אשלג ורבותיו הקדושים.
-This bot spreads the wisdom of Kabbalah from the Ashlag lineage.
+        logger.info(f"About command from chat_id: {update.effective_chat.id}")
 
-*מקורות הציטוטים / Quote Sources:*
-• [אור הסולם](https://www.orhasulam.org/)
-• [אשלג ברוך](https://ashlagbaroch.com/)
-• [קבלה אינפו](https://www.kabbalahinfo.org/)
-• [ספריא](https://www.sefaria.org/)
-
-*קוד פתוח / Open Source:*
-[GitHub Repository](https://github.com/naorbrown/ashlag-yomi)
-
-*נבנה עם / Built with:*
-Python, python-telegram-bot, GitHub Actions
-
-*רישיון / License:* MIT
-
-🙏 לזכות כל ישראל
-"""
         await update.message.reply_text(
-            about_text,
-            parse_mode=ParseMode.MARKDOWN,
+            format_about_message(),
+            parse_mode=ParseMode.HTML,
             disable_web_page_preview=True,
         )
 
@@ -361,44 +386,57 @@ Python, python-telegram-bot, GitHub Actions
         self, update: Update, context: ContextTypes.DEFAULT_TYPE
     ) -> None:
         """Handle /test command - admin test functionality."""
+        if not update.message:
+            return
+
         admin_ids = os.environ.get("ADMIN_CHAT_IDS", "").split(",")
         chat_id = str(update.effective_chat.id)
 
         if admin_ids and admin_ids[0] and chat_id not in admin_ids:
             await update.message.reply_text(
-                "⛔ פקודה זו זמינה למנהלים בלבד.\n"
-                "This command is for admins only."
+                "⛔ פקודה זו זמינה למנהלים בלבד." + SIGNATURE,
+                parse_mode=ParseMode.HTML,
             )
             return
 
-        await update.message.reply_text(
-            "🔄 מתחיל בדיקת מערכת מלאה...\n"
-            "Starting full system test..."
-        )
+        logger.info(f"Test command from admin chat_id: {chat_id}")
 
         # Test quote loading
         rabbi_keys = self.quotes_manager.get_all_rabbi_keys()
-        status_lines = ["*📊 סטטוס מערכת / System Status:*\n"]
+        status_lines = ["<b>📊 סטטוס מערכת</b>\n"]
 
         for rabbi_key in rabbi_keys:
             quotes = self.quotes_manager.quotes_cache.get(rabbi_key, [])
             rabbi_name = self.quotes_manager.get_rabbi_display_name(rabbi_key)
             status_lines.append(f"✅ {rabbi_name}: {len(quotes)} ציטוטים")
 
-        status_lines.append(f"\n📬 מנויים פעילים: {len(self.subscribed_chats)}")
-        status_lines.append(f"🕐 שעה נוכחית (UTC): {datetime.now(timezone.utc).strftime('%H:%M:%S')}")
+        status_lines.append(f"\n📬 מנויים: {len(self.subscribed_chats)}")
+        status_lines.append(
+            f"🕐 UTC: {datetime.now(timezone.utc).strftime('%H:%M:%S')}"
+        )
 
         await update.message.reply_text(
-            "\n".join(status_lines), parse_mode=ParseMode.MARKDOWN
+            "\n".join(status_lines) + SIGNATURE,
+            parse_mode=ParseMode.HTML,
         )
 
         # Send sample daily quotes
-        await update.message.reply_text(
-            "📜 שולח ציטוטים לדוגמה...\nSending sample quotes..."
-        )
-        await self._send_daily_quotes(update.effective_chat.id)
+        await update.message.reply_text("📜 שולח ציטוטים לדוגמה...")
+        await self._send_daily_quotes_to_chat(update.effective_chat.id)
 
-    async def _send_daily_quotes(self, chat_id: int) -> None:
+    async def unknown_command(
+        self, update: Update, context: ContextTypes.DEFAULT_TYPE
+    ) -> None:
+        """Handle unknown commands."""
+        if not update.message:
+            return
+
+        await update.message.reply_text(
+            "פקודה לא מוכרת. נסה /help לרשימת הפקודות." + SIGNATURE,
+            parse_mode=ParseMode.HTML,
+        )
+
+    async def _send_daily_quotes_to_chat(self, chat_id: int) -> None:
         """Send daily quotes to a specific chat."""
         quotes = self.quotes_manager.get_daily_quotes()
 
@@ -408,46 +446,41 @@ Python, python-telegram-bot, GitHub Actions
 
         # Send header
         header = (
-            "🌅 *אשלג יומי - לימוד יומי בקבלה*\n"
+            f"<b>🌅 אשלג יומי</b>\n"
             f"📅 {datetime.now().strftime('%d/%m/%Y')}\n"
-            "─────────────────────"
+            f"{'─' * 20}"
         )
         await self.application.bot.send_message(
             chat_id=chat_id,
             text=header,
-            parse_mode=ParseMode.MARKDOWN,
+            parse_mode=ParseMode.HTML,
         )
 
         # Send each quote as a separate message
         for quote in quotes:
             rabbi_name = quote.get("rabbi_name", "Unknown")
-            message = format_quote_message(quote, rabbi_name)
+            message = format_quote_html(quote, rabbi_name)
 
             # Split if too long
-            message_parts = split_long_message(message)
+            message_parts = split_text(message)
             for part in message_parts:
                 try:
                     await self.application.bot.send_message(
                         chat_id=chat_id,
                         text=part,
-                        parse_mode=ParseMode.MARKDOWN,
+                        parse_mode=ParseMode.HTML,
                         disable_web_page_preview=True,
                     )
-                    await asyncio.sleep(0.5)  # Rate limiting
+                    await asyncio.sleep(0.3)  # Rate limiting
                 except Exception as e:
                     logger.error(f"Error sending quote to {chat_id}: {e}")
 
         # Send footer
-        footer = (
-            "─────────────────────\n"
-            "🙏 יום טוב ומבורך!\n"
-            "Have a blessed day!\n\n"
-            "_שלח /quote לציטוט נוסף_"
-        )
+        footer = f"{'─' * 20}\n\n<i>שלח /quote לציטוט נוסף</i>" + SIGNATURE
         await self.application.bot.send_message(
             chat_id=chat_id,
             text=footer,
-            parse_mode=ParseMode.MARKDOWN,
+            parse_mode=ParseMode.HTML,
         )
 
     async def broadcast_daily_quotes(self) -> None:
@@ -456,7 +489,7 @@ Python, python-telegram-bot, GitHub Actions
 
         for chat_id in list(self.subscribed_chats):
             try:
-                await self._send_daily_quotes(chat_id)
+                await self._send_daily_quotes_to_chat(chat_id)
                 logger.info(f"Sent daily quotes to chat_id: {chat_id}")
             except Exception as e:
                 logger.error(f"Failed to send to chat_id {chat_id}: {e}")
@@ -465,24 +498,15 @@ Python, python-telegram-bot, GitHub Actions
                     self.subscribed_chats.discard(chat_id)
                     self._save_subscriptions()
 
-    async def unknown_command(
-        self, update: Update, context: ContextTypes.DEFAULT_TYPE
-    ) -> None:
-        """Handle unknown commands."""
-        await update.message.reply_text(
-            "❓ פקודה לא מוכרת. שלח /help לרשימת הפקודות.\n"
-            "Unknown command. Send /help for available commands."
-        )
-
     async def setup_commands(self) -> None:
         """Set up bot commands for Telegram menu."""
         commands = [
-            BotCommand("start", "הצטרף / Subscribe"),
-            BotCommand("today", "ציטוטים של היום / Today's quotes"),
-            BotCommand("quote", "ציטוט אקראי / Random quote"),
-            BotCommand("help", "עזרה / Help"),
-            BotCommand("about", "אודות / About"),
-            BotCommand("stop", "הפסק מנוי / Unsubscribe"),
+            BotCommand("start", "הרשמה לציטוטים יומיים"),
+            BotCommand("today", "ציטוטים של היום"),
+            BotCommand("quote", "ציטוט אקראי"),
+            BotCommand("help", "עזרה"),
+            BotCommand("about", "אודות"),
+            BotCommand("stop", "ביטול מנוי"),
         ]
         await self.application.bot.set_my_commands(commands)
         logger.info("Bot commands registered successfully")
