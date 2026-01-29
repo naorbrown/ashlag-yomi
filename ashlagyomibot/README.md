@@ -1,176 +1,115 @@
 <div align="center">
 
-# 🕯️ Ashlag Yomi
+# Ashlag Yomi
 
-**Daily Kabbalistic Wisdom • Six Lineages • One Message**
+**Daily Kabbalistic wisdom from the Ashlag lineage**
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Python 3.11+](https://img.shields.io/badge/Python-3.11+-green.svg)](https://python.org)
-[![Telegram Bot](https://img.shields.io/badge/Telegram-@AshlagYomiBot-blue.svg)](https://t.me/AshlagYomiBot)
-[![CI](https://github.com/naorbrown/ashlag-yomi/actions/workflows/ci.yml/badge.svg)](https://github.com/naorbrown/ashlag-yomi/actions)
-[![Docker](https://img.shields.io/badge/Docker-ghcr.io-2496ED.svg)](https://github.com/naorbrown/ashlag-yomi/pkgs/container/ashlag-yomi)
-[![Coverage](https://img.shields.io/badge/Coverage-80%25+-brightgreen.svg)](https://github.com/naorbrown/ashlag-yomi/actions)
+[![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Python 3.11+](https://img.shields.io/badge/Python-3.11+-3776ab.svg)](https://python.org)
+[![Telegram Bot](https://img.shields.io/badge/Telegram-Bot-0088cc.svg)](https://t.me/AshlagYomiBot)
+[![Docker](https://img.shields.io/badge/Docker-Ready-2496ED.svg)](Dockerfile)
 
-[**Start Learning**](https://t.me/AshlagYomiBot) · [**Report Bug**](https://github.com/naorbrown/ashlag-yomi/issues/new?template=bug_report.md) · [**Request Feature**](https://github.com/naorbrown/ashlag-yomi/issues/new?template=feature_request.md)
+[Start the Bot](https://t.me/AshlagYomiBot) &bull; [Report Issue](https://github.com/naorbrown/ashlag-yomi/issues) &bull; [Contribute](CONTRIBUTING.md)
 
 </div>
 
 ---
 
-A Telegram bot delivering **2,011 curated quotes** from the Kabbalistic masters of the Ashlag lineage. New wisdom every morning at 6:00 AM Israel time—a direct transmission from the Arizal through Baal HaSulam to the present day.
+## Overview
+
+Ashlag Yomi delivers daily spiritual teachings from six lineages of Kabbalistic masters to Telegram users. The bot sends six quotes each day at 6:00 AM Israel time, with each quote linking to its original source.
+
+**Key numbers:**
+- 2,011 curated quotes
+- 6 spiritual lineages
+- 365 days of unique content
 
 ---
 
-## Table of Contents
+## Quick Start
 
-- [Features](#features)
-- [Commands](#commands)
-- [The Lineage](#the-lineage)
-- [Quote Coverage](#quote-coverage)
-- [Deploy Your Own](#deploy-your-own)
-- [Configuration](#configuration)
-- [Architecture](#architecture)
-- [Development](#development)
-- [Data Sources](#data-sources)
-- [Security](#security)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
+### For Users
 
----
+1. Open Telegram
+2. Search for `@AshlagYomiBot` or [click here](https://t.me/AshlagYomiBot)
+3. Send `/start`
 
-## Features
+### For Developers
 
-| | | |
-|:---:|:---:|:---:|
-| 📅 **Daily Quotes** | 🔗 **Source Links** | ⚡ **Rate Limited** |
-| 6:00 AM Israel time | Sefaria & Or HaSulam | 5 requests/minute |
-| | | |
-| 🔄 **Fair Rotation** | 🐳 **Docker Ready** | 🌍 **DST-Aware** |
-| No repeats until cycle complete | ghcr.io registry | Dual cron scheduling |
+```bash
+git clone https://github.com/naorbrown/ashlag-yomi.git
+cd ashlag-yomi/ashlagyomibot
+pip install -e ".[dev]"
+cp .env.example .env  # Add your bot token
+python -m src.bot.main
+```
 
 ---
 
 ## Commands
 
-| Command | Action | Response |
-|---------|--------|----------|
-| `/start` | Get today's wisdom | Welcome message + daily quotes |
-| `/today` | Get today's 6 quotes | Full daily bundle from all lineages |
-| `/quote` | Get a random quote | Single quote with source link |
-| `/about` | Learn about the lineage | History of the Ashlag masters |
-| `/help` | Show all commands | Command reference |
-| `/feedback` | Send feedback | GitHub issues link |
+| Command | Description |
+|---------|-------------|
+| `/start` | Welcome message and command list |
+| `/today` | Receive all 6 daily quotes |
+| `/quote` | Receive one random quote |
+| `/about` | Learn about the spiritual lineage |
+| `/help` | Show available commands |
+| `/feedback` | Report issues or suggest features |
 
 ---
 
-## The Lineage
+## Quote Sources
 
-The Ashlag lineage represents a direct transmission of Kabbalistic wisdom spanning five centuries:
+| Lineage | Teacher | Period | Quotes |
+|---------|---------|--------|:------:|
+| Arizal | Rabbi Isaac Luria | 1534-1572 | 365 |
+| Baal Shem Tov | Rabbi Israel ben Eliezer | 1698-1760 | 365 |
+| Polish Chassidut | Maggid, Kotzk, Peshischa | 1700-1900 | 365 |
+| Baal HaSulam | Rabbi Yehuda Ashlag | 1884-1954 | 365 |
+| Rabash | Rabbi Baruch Shalom Ashlag | 1907-1991 | 365 |
+| Chasdei Ashlag | Contemporary students | Present | 186 |
 
-```
-                    ┌─────────────────────────────┐
-                    │      🕯️ The Holy Arizal     │
-                    │   Rabbi Isaac Luria (1534-1572)   │
-                    │    Father of Lurianic Kabbalah    │
-                    └──────────────┬──────────────┘
-                                   │
-                                   ▼
-                    ┌─────────────────────────────┐
-                    │    ✨ The Baal Shem Tov     │
-                    │ Rabbi Israel ben Eliezer (1698-1760) │
-                    │     Founder of Chassidut    │
-                    └──────────────┬──────────────┘
-                                   │
-                                   ▼
-                    ┌─────────────────────────────┐
-                    │    🔥 Polish Chassidut      │
-                    │    Maggid, Kotzk, Peshischa    │
-                    │    Lublin, Piaseczno (1700-1900) │
-                    └──────────────┬──────────────┘
-                                   │
-                                   ▼
-                    ┌─────────────────────────────┐
-                    │     📖 Baal HaSulam         │
-                    │ Rabbi Yehuda Ashlag (1884-1954) │
-                    │  Sulam Commentary on Zohar  │
-                    └──────────────┬──────────────┘
-                                   │
-                                   ▼
-                    ┌─────────────────────────────┐
-                    │        💎 Rabash            │
-                    │ Rabbi Baruch Shalom Ashlag (1907-1991) │
-                    │    Practical Application    │
-                    └──────────────┬──────────────┘
-                                   │
-                                   ▼
-                    ┌─────────────────────────────┐
-                    │    🌱 Chasdei Ashlag        │
-                    │   Contemporary Students     │
-                    │   Continuing the Path       │
-                    └─────────────────────────────┘
-```
+All quotes link to original sources on [Sefaria](https://www.sefaria.org/) or [Or HaSulam](https://www.orhassulam.com/).
 
 ---
 
-## Quote Coverage
-
-| | Category | Masters | Quotes | Coverage |
-|:--:|----------|---------|:------:|:--------:|
-| 🕯️ | **Arizal** | Rabbi Isaac Luria — Lurianic Kabbalah | 365 | Full Year |
-| ✨ | **Baal Shem Tov** | Rabbi Israel ben Eliezer — Founder of Chassidut | 365 | Full Year |
-| 🔥 | **Polish Chassidut** | Maggid, Kotzk, Peshischa, Piaseczno | 365 | Full Year |
-| 📖 | **Baal HaSulam** | Rabbi Yehuda Ashlag — Sulam commentary | 365 | Full Year |
-| 💎 | **Rabash** | Rabbi Baruch Shalom Ashlag — Practical application | 365 | Full Year |
-| 🌱 | **Chasdei Ashlag** | Contemporary students | 186 | Partial |
-| | | **Total** | **2,011** | |
-
----
-
-## Deploy Your Own
+## Deployment
 
 ### Option 1: GitHub Actions (Recommended)
 
-Zero-infrastructure deployment using GitHub's free tier.
+Runs on GitHub's free tier with no server required.
 
-1. **Fork** this repository
-2. **Add secrets** in Settings → Secrets → Actions:
-   - `TELEGRAM_BOT_TOKEN` — from [@BotFather](https://t.me/BotFather)
-   - `TELEGRAM_CHANNEL_ID` — your channel (e.g., `@YourChannel`)
-3. **Enable** GitHub Actions
+1. Fork this repository
+2. Add repository secrets:
+   - `TELEGRAM_BOT_TOKEN` from [@BotFather](https://t.me/BotFather)
+   - `TELEGRAM_CHANNEL_ID` (e.g., `@YourChannel`)
+3. Enable GitHub Actions
 
-Daily quotes are sent automatically at 6:00 AM Israel time via dual-cron DST handling (3:00 AM + 4:00 AM UTC).
+The workflow sends daily quotes at 6:00 AM Israel time.
 
 ### Option 2: Docker
 
 ```bash
-# Using docker-compose (recommended)
+# Using Docker Compose
 docker-compose up -d
 
-# Or pull from GitHub Container Registry
-docker pull ghcr.io/naorbrown/ashlag-yomi:latest
-docker run -d --env-file .env ghcr.io/naorbrown/ashlag-yomi:latest
+# Or directly
+docker build -t ashlag-yomi .
+docker run -d --env-file .env ashlag-yomi
 ```
 
-### Option 3: Local Development
+### Option 3: Manual
 
 ```bash
-# Clone the repository
-git clone https://github.com/naorbrown/ashlag-yomi.git
-cd ashlag-yomi
-
-# Create virtual environment
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-# Install dependencies
+# Install
 pip install -e .
 
-# Configure environment
-cp .env.example .env
-# Edit .env with your bot token
+# Configure
+export TELEGRAM_BOT_TOKEN="your-token"
+export TELEGRAM_CHAT_ID="@your-channel"
 
-# Run the bot
+# Run
 python -m src.bot.main
 ```
 
@@ -180,135 +119,94 @@ python -m src.bot.main
 
 | Variable | Required | Default | Description |
 |----------|:--------:|---------|-------------|
-| `TELEGRAM_BOT_TOKEN` | ✅ | — | Bot token from [@BotFather](https://t.me/BotFather) |
-| `TELEGRAM_CHANNEL_ID` | ✅ | — | Channel ID for daily broadcasts |
-| `TELEGRAM_CHAT_ID` | ✅ | — | Chat ID for bot interactions |
-| `ENVIRONMENT` | | `development` | `development` / `staging` / `production` |
-| `DRY_RUN` | | `false` | Log messages instead of sending |
-| `LOG_LEVEL` | | `INFO` | `DEBUG` / `INFO` / `WARNING` / `ERROR` |
-| `SENTRY_DSN` | | — | Sentry DSN for error tracking |
+| `TELEGRAM_BOT_TOKEN` | Yes | — | Bot token from @BotFather |
+| `TELEGRAM_CHAT_ID` | Yes | — | Target channel or chat ID |
+| `TELEGRAM_CHANNEL_ID` | No | — | Public channel for broadcasts |
+| `ENVIRONMENT` | No | `development` | `development`, `staging`, or `production` |
+| `DRY_RUN` | No | `false` | Log messages instead of sending |
+| `LOG_LEVEL` | No | `INFO` | `DEBUG`, `INFO`, `WARNING`, `ERROR` |
+
+Create a `.env` file from `.env.example`:
+
+```bash
+cp .env.example .env
+```
 
 ---
 
 ## Architecture
 
 ```
-┌──────────────────────────────────────────────────────────────────┐
-│                        GitHub Actions                            │
-│  ┌──────────────────────┐    ┌─────────────────────────────────┐│
-│  │   daily-quote.yml    │    │           ci.yml                ││
-│  │  ────────────────    │    │  ─────────────────────────────  ││
-│  │  Dual Cron (DST):    │    │  • Lint (ruff)                  ││
-│  │  • 3:00 AM UTC       │    │  • Format (black)               ││
-│  │  • 4:00 AM UTC       │    │  • Type check (mypy)            ││
-│  │  → 6:00 AM Israel    │    │  • Test (pytest, 80%+ coverage) ││
-│  └──────────┬───────────┘    └─────────────────────────────────┘│
-└─────────────┼────────────────────────────────────────────────────┘
-              │
-              ▼
-┌──────────────────────────────────────────────────────────────────┐
-│                         Bot Layer                                │
-│  ┌─────────────┐  ┌──────────────┐  ┌────────────────────────┐  │
-│  │   main.py   │  │ handlers.py  │  │   broadcaster.py       │  │
-│  │ ─────────── │  │ ──────────── │  │ ────────────────────── │  │
-│  │ • Entry     │  │ • /start     │  │ • Channel broadcasts   │  │
-│  │ • Rate      │  │ • /today     │  │ • Idempotent sends     │  │
-│  │   limiting  │  │ • /quote     │  │ • Retry logic          │  │
-│  │   (5/min)   │  │ • /about     │  │                        │  │
-│  │ • Command   │  │ • /help      │  └────────────────────────┘  │
-│  │   register  │  │ • /feedback  │                              │
-│  └─────────────┘  └──────┬───────┘                              │
-│                          │                                       │
-│                          ▼                                       │
-│                   ┌──────────────┐                               │
-│                   │formatters.py │                               │
-│                   │ ──────────── │                               │
-│                   │ • HTML format│                               │
-│                   │ • Inline     │                               │
-│                   │   keyboards  │                               │
-│                   │ • Source     │                               │
-│                   │   URL buttons│                               │
-│                   └──────────────┘                               │
-└──────────────────────────┬───────────────────────────────────────┘
-                           │
-                           ▼
-┌──────────────────────────────────────────────────────────────────┐
-│                        Data Layer                                │
-│  ┌────────────────┐         ┌─────────────────────────────────┐ │
-│  │  repository.py │         │          models.py              │ │
-│  │ ────────────── │         │ ─────────────────────────────── │ │
-│  │ • Fair rotation│ ◄─────► │ • Quote (Pydantic v2, frozen)   │ │
-│  │ • Sent history │         │ • DailyBundle                   │ │
-│  │ • Category     │         │ • SentRecord                    │ │
-│  │   selection    │         │ • QuoteCategory (enum)          │ │
-│  └───────┬────────┘         └─────────────────────────────────┘ │
-│          │                                                       │
-│          ▼                                                       │
-│  ┌────────────────────────────────────────────────────────────┐ │
-│  │              data/quotes/*.json                            │ │
-│  │              ──────────────────                            │ │
-│  │              6 files • 2,011 quotes • Hebrew text          │ │
-│  └────────────────────────────────────────────────────────────┘ │
-└──────────────────────────────────────────────────────────────────┘
-```
-
-### Project Structure
-
-```
-ashlag-yomi/
-├── src/
-│   ├── bot/
-│   │   ├── main.py           # Entry point, rate limiting, command registration
-│   │   ├── handlers.py       # Command handlers (/start, /today, /quote, etc.)
-│   │   ├── broadcaster.py    # Channel broadcasts with idempotency
-│   │   └── formatters.py     # HTML formatting, inline keyboards
-│   ├── data/
-│   │   ├── models.py         # Pydantic models (Quote, DailyBundle, SentRecord)
-│   │   └── repository.py     # Data access, fair rotation algorithm
-│   ├── unified/
-│   │   └── publisher.py      # Torah Yomi unified channel integration
-│   └── utils/
-│       ├── config.py         # Pydantic Settings, SecretStr handling
-│       └── logger.py         # Structured logging
+src/
+├── bot/
+│   ├── main.py          # Application entry point
+│   ├── handlers.py      # Command handlers
+│   ├── formatters.py    # Message formatting
+│   ├── rate_limit.py    # Request rate limiting
+│   ├── broadcaster.py   # Channel broadcasts
+│   └── scheduler.py     # Scheduled tasks
 ├── data/
-│   └── quotes/               # 6 JSON files with 2,011 quotes
-├── tests/                    # 116 tests, 80%+ coverage requirement
-│   ├── unit/                 # Unit tests for all modules
-│   └── conftest.py           # Pytest fixtures
-├── .github/
-│   ├── workflows/
-│   │   ├── ci.yml            # Lint, test, type-check
-│   │   ├── daily-quote.yml   # Daily broadcast (dual cron)
-│   │   └── docker.yml        # Build and push to ghcr.io
-│   └── ISSUE_TEMPLATE/       # Bug report, feature request
-├── Dockerfile                # Non-root user, health checks
-├── docker-compose.yml        # Local deployment
-└── pyproject.toml            # Project metadata, dependencies
+│   ├── models.py        # Pydantic data models
+│   └── repository.py    # Data access layer
+└── utils/
+    ├── config.py        # Settings management
+    └── logger.py        # Structured logging
+
+data/quotes/             # JSON quote files (one per lineage)
+tests/                   # Unit and integration tests
+scripts/                 # Utility scripts
 ```
 
-### Tech Stack
+### Technology Stack
 
-| Layer | Technology | Purpose |
-|-------|------------|---------|
-| **Runtime** | Python 3.11+ | Modern async/await, type hints |
-| **Bot Framework** | python-telegram-bot v20+ | Async Telegram API |
-| **Validation** | Pydantic v2 | Type-safe models, frozen immutability |
-| **Security** | SecretStr | Token masking in logs |
-| **Testing** | pytest + pytest-cov | 80%+ coverage requirement |
-| **Linting** | ruff | Fast Python linting |
-| **Formatting** | black | Consistent code style |
-| **Type Checking** | mypy | Static type analysis |
-| **CI/CD** | GitHub Actions | Automated testing and deployment |
-| **Container** | Docker | ghcr.io registry, non-root user |
+| Component | Technology |
+|-----------|------------|
+| Language | Python 3.11+ |
+| Bot Framework | python-telegram-bot 20+ |
+| Data Validation | Pydantic 2 |
+| Configuration | pydantic-settings |
+| Logging | structlog |
+| Testing | pytest, pytest-asyncio |
+| Linting | ruff, black, mypy |
+| CI/CD | GitHub Actions |
+| Containerization | Docker |
 
 ---
 
 ## Development
 
+### Setup
+
 ```bash
-# Run all tests with coverage
+# Create virtual environment
+python -m venv venv
+source venv/bin/activate
+
+# Install with dev dependencies
+pip install -e ".[dev]"
+
+# Set up pre-commit hooks
+pre-commit install
+```
+
+### Testing
+
+```bash
+# Run all tests
+pytest
+
+# Run with coverage
 pytest --cov=src --cov-report=term-missing
 
+# Run specific test file
+pytest tests/unit/test_handlers.py -v
+```
+
+Coverage requirement: 80% minimum.
+
+### Code Quality
+
+```bash
 # Lint
 ruff check src tests
 
@@ -318,83 +216,98 @@ black src tests
 # Type check
 mypy src
 
-# Run all checks (lint, format, type, test)
-make all
+# Run all checks
+pre-commit run --all-files
 ```
 
-**Coverage Requirement:** 80% minimum (enforced in CI)
+### Diagnostics
 
-**Rate Limiting:** 5 requests per minute per user (sliding window algorithm)
-
-**Fair Rotation:** Quotes are not repeated until all quotes in a category have been used
+```bash
+# Verify all components work
+python scripts/diagnose.py
+```
 
 ---
 
-## Data Sources
+## API Rate Limits
 
-| Source | Content | Link |
-|--------|---------|------|
-| **Sefaria** | Original Hebrew texts, Talmud, Midrash | [sefaria.org](https://www.sefaria.org/) |
-| **Or HaSulam** | Ashlag writings, Sulam commentary | [orhassulam.com](https://www.orhassulam.com/) |
+The bot implements rate limiting to comply with Telegram API restrictions:
+
+- **User rate limit:** 5 requests per minute per user
+- **Message delay:** 0.3 seconds between messages in `/today`
+- **Telegram limits:** Respects 30 messages/second global limit
 
 ---
 
 ## Security
 
-| Feature | Implementation |
-|---------|----------------|
-| 🔐 **Token Protection** | SecretStr masks tokens in logs |
-| 👤 **Container Security** | Non-root Docker user |
-| ⚡ **Abuse Prevention** | Rate limiting (5 req/min) |
-| ✅ **No Secrets in Logs** | Pydantic SecretStr handling |
+### Reporting Vulnerabilities
 
-For vulnerability reporting, see [SECURITY.md](SECURITY.md).
+Report security issues to the maintainers via [GitHub Security Advisories](https://github.com/naorbrown/ashlag-yomi/security/advisories/new).
+
+Do not disclose security vulnerabilities in public issues.
+
+### Security Measures
+
+- Bot tokens stored as secrets, never committed
+- Non-root user in Docker container
+- Input validation via Pydantic models
+- Rate limiting prevents abuse
+- No user data collection or storage
+
+See [SECURITY.md](SECURITY.md) for the full security policy.
 
 ---
 
 ## Contributing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+Contributions are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 **Ways to contribute:**
+- Curate quotes from primary sources
+- Proofread Hebrew text
+- Improve documentation
+- Add features or fix bugs
+- Write tests
 
-| Area | Description |
-|------|-------------|
-| 📖 **Quote Curation** | Add authentic quotes from primary sources |
-| ✏️ **Hebrew Proofreading** | Review and correct Hebrew text |
-| 💻 **Feature Development** | Implement new bot features |
-| 📝 **Documentation** | Improve README, guides, translations |
-| 🐛 **Bug Reports** | Report issues via GitHub |
+### Code of Conduct
+
+This project follows the [Contributor Covenant](CODE_OF_CONDUCT.md). All contributors are expected to uphold this code.
 
 ---
 
 ## License
 
-MIT License — see [LICENSE](LICENSE) for details.
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for the full text.
 
-Quote texts are sourced from works in the public domain or used with appropriate permissions.
+### Quote Content
+
+The spiritual texts quoted in this project are in the public domain. Translations and commentary are attributed to their respective sources:
+
+- [Sefaria](https://www.sefaria.org/) — CC-BY-NC
+- [Or HaSulam](https://www.orhassulam.com/) — Used with attribution
 
 ---
 
 ## Acknowledgments
 
-- [Sefaria](https://www.sefaria.org/) — Open-source Jewish texts
-- [Or HaSulam](https://www.orhassulam.com/) — Ashlag writings and teachings
-- [python-telegram-bot](https://python-telegram-bot.org/) — Excellent bot framework
-- The Ashlag lineage teachers for preserving and transmitting this wisdom
+- [Sefaria](https://www.sefaria.org/) for open-source Jewish texts
+- [Or HaSulam](https://www.orhassulam.com/) for Ashlag writings
+- [python-telegram-bot](https://python-telegram-bot.org/) for the bot framework
+
+---
+
+## Support
+
+- **Issues:** [GitHub Issues](https://github.com/naorbrown/ashlag-yomi/issues)
+- **Discussions:** [GitHub Discussions](https://github.com/naorbrown/ashlag-yomi/discussions)
 
 ---
 
 <div align="center">
 
-_״תכלית הבריאה היא להיטיב לנבראיו״_
-
 _"The purpose of creation is to benefit the created beings."_
 
-— **Baal HaSulam**
-
----
-
-Built with ❤️ for spreading spiritual wisdom
+— Baal HaSulam
 
 </div>
