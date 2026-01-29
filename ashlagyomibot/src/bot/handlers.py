@@ -32,14 +32,15 @@ async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> N
 
     welcome_text = """🕯️ <b>Ashlag Yomi</b>
 
-Daily Kabbalistic wisdom from the Ashlag lineage.
+Daily Kabbalistic wisdom from six spiritual lineages.
 
 <b>Commands:</b>
-/today - Get today's quotes
-/quote - Get a single quote
-/about - Learn more
+/today – Get today's 6 quotes
+/quote – Get a random quote
+/about – Learn about the lineage
+/help – Show all commands
 
-📅 Daily quotes at 6:00 AM Israel time
+📅 New quotes daily at 6:00 AM Israel time
 """
 
     await update.effective_message.reply_text(
@@ -70,7 +71,7 @@ async def today_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> N
 
         if not bundle.quotes:
             await update.effective_message.reply_text(
-                "😔 אין ציטוטים זמינים כרגע. אנא נסו שוב מאוחר יותר."
+                "😔 No quotes available.\n אין ציטוטים זמינים."
             )
             return
 
@@ -116,7 +117,7 @@ async def today_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> N
     except Exception as e:
         logger.error("today_command_error", error=str(e))
         await update.effective_message.reply_text(
-            "😔 אירעה שגיאה. אנא נסו שוב מאוחר יותר."
+            "😔 Error. Please try again.\n אירעה שגיאה. נסו שוב."
         )
 
 
@@ -135,7 +136,7 @@ async def quote_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> N
 
         if not quote:
             await update.effective_message.reply_text(
-                "😔 No quotes available right now."
+                "😔 No quotes available.\n אין ציטוטים זמינים."
             )
             return
 
@@ -158,7 +159,7 @@ async def quote_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> N
     except Exception as e:
         logger.error("quote_command_error", error=str(e))
         await update.effective_message.reply_text(
-            "😔 Error. Please try again."
+            "😔 Error. Please try again.\n אירעה שגיאה. נסו שוב."
         )
 
 
@@ -217,12 +218,12 @@ async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> No
 
     help_text = """<b>Commands:</b>
 
-/today - Get today's quotes
-/quote - Get a single quote
-/about - About this project
-/feedback - Send feedback
+/today – Get today's 6 quotes
+/quote – Get a random quote
+/about – Learn about the lineage
+/feedback – Send feedback
 
-📅 Quotes sent daily at 6:00 AM (Israel)
+📅 New quotes daily at 6:00 AM Israel time
 """
 
     await update.effective_message.reply_text(

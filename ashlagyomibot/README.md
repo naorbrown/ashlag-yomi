@@ -1,54 +1,74 @@
+<div align="center">
+
 # 🕯️ Ashlag Yomi
 
-**Daily Kabbalistic wisdom from the Ashlag lineage**
+**Daily Kabbalistic wisdom. Six lineages. One message.**
 
-[![CI](https://github.com/naorbrown/ashlag-yomi/actions/workflows/ci.yml/badge.svg)](https://github.com/naorbrown/ashlag-yomi/actions/workflows/ci.yml)
-[![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Python 3.11+](https://img.shields.io/badge/Python-3.11+-green.svg)](https://python.org)
 [![Telegram Bot](https://img.shields.io/badge/Telegram-@AshlagYomiBot-blue.svg)](https://t.me/AshlagYomiBot)
+[![CI](https://github.com/naorbrown/ashlag-yomi/actions/workflows/ci.yml/badge.svg)](https://github.com/naorbrown/ashlag-yomi/actions)
 
-A Telegram bot delivering daily quotes from the Kabbalistic masters of the Ashlag lineage. New quotes every morning at 6:00 AM Israel time.
+[**Start Learning**](https://t.me/AshlagYomiBot) · [**Report Bug**](https://github.com/naorbrown/ashlag-yomi/issues) · [**Request Feature**](https://github.com/naorbrown/ashlag-yomi/issues)
 
-**[→ Start the bot on Telegram](https://t.me/AshlagYomiBot)**
+</div>
 
-## ✨ Features
+---
 
-- **6 daily quotes** — One from each category of the spiritual lineage
-- **2,000+ quotes** — Full year of unique daily content
-- **Clickable sources** — Direct links to original texts on Sefaria and Or HaSulam
-- **Simple commands** — `/today` for all quotes, `/quote` for a quick read
-- **No account needed** — Just open Telegram and start
+## What is Ashlag Yomi?
 
-## 📜 The Lineage
+A Telegram bot delivering **6 daily quotes** from the Kabbalistic masters of the Ashlag lineage. New wisdom every morning at 6:00 AM Israel time.
 
-| Emoji | Category | Masters |
-|:-----:|----------|---------|
-| 🕯️ | **Arizal** | Rabbi Isaac Luria — Foundation of Lurianic Kabbalah |
-| ✨ | **Baal Shem Tov** | Rabbi Israel ben Eliezer — Founder of Chassidut |
-| 🔥 | **Polish Chassidut** | Maggid of Mezeritch, Kotzk, Peshischa, Piaseczno |
-| 📖 | **Baal HaSulam** | Rabbi Yehuda Ashlag — Modern Kabbalah systematizer |
-| 💎 | **Rabash** | Rabbi Baruch Shalom Ashlag — Practical application |
-| 🌱 | **Chasdei Ashlag** | Contemporary students of the lineage |
+- 📖 **2,011 quotes** across 6 spiritual lineages
+- 🔗 **Clickable sources** linking to Sefaria and Or HaSulam
+- ⚡ **Simple commands** — `/today` for all quotes, `/quote` for a quick read
+- 🌍 **Free and open source** — run your own instance
 
-## 🤖 Bot Commands
+---
+
+## Commands
 
 | Command | Description |
 |---------|-------------|
-| `/start` | Welcome message and quick start |
+| `/start` | Get today's wisdom |
 | `/today` | Get today's 6 quotes |
-| `/quote` | Get a single random quote |
+| `/quote` | Get a random quote |
 | `/about` | Learn about the lineage |
 | `/help` | Show all commands |
-| `/feedback` | Send feedback or report issues |
+| `/feedback` | Send feedback |
 
-## 🚀 Quick Start (Developers)
+---
 
-### Prerequisites
+## Quote Coverage
 
-- Python 3.11+
-- Telegram bot token from [@BotFather](https://t.me/BotFather)
+| Category | Masters | Quotes |
+|----------|---------|:------:|
+| 🕯️ **Arizal** | Rabbi Isaac Luria — Lurianic Kabbalah | 365 |
+| ✨ **Baal Shem Tov** | Rabbi Israel ben Eliezer — Founder of Chassidut | 365 |
+| 🔥 **Polish Chassidut** | Maggid, Kotzk, Peshischa, Piaseczno | 365 |
+| 📖 **Baal HaSulam** | Rabbi Yehuda Ashlag — Sulam commentary | 365 |
+| 💎 **Rabash** | Rabbi Baruch Shalom Ashlag — Practical application | 365 |
+| 🌱 **Chasdei Ashlag** | Contemporary students | 186 |
 
-### Setup
+**Total: 2,011 quotes** — Full year coverage with unique daily content.
+
+---
+
+## Deploy Your Own
+
+### Option 1: GitHub Actions (Recommended)
+
+No server required. Runs on GitHub's free tier.
+
+1. Fork this repository
+2. Add repository secrets:
+   - `TELEGRAM_BOT_TOKEN` — from [@BotFather](https://t.me/BotFather)
+   - `TELEGRAM_CHANNEL_ID` — your channel (e.g., `@YourChannel`)
+3. Enable GitHub Actions
+
+Daily quotes will be sent automatically at 6:00 AM Israel time.
+
+### Option 2: Run Locally
 
 ```bash
 # Clone
@@ -58,7 +78,7 @@ cd ashlag-yomi
 # Install
 python -m venv venv
 source venv/bin/activate
-pip install -e ".[dev]"
+pip install -e .
 
 # Configure
 cp .env.example .env
@@ -68,23 +88,27 @@ cp .env.example .env
 python -m src.bot.main
 ```
 
-### Development
+---
 
-```bash
-make test        # Run tests (80% coverage required)
-make lint        # Lint with ruff
-make format      # Format with black
-make all         # All of the above
-```
+## Configuration
 
-## 🏗️ Architecture
+| Variable | Required | Description |
+|----------|:--------:|-------------|
+| `TELEGRAM_BOT_TOKEN` | ✅ | Token from @BotFather |
+| `TELEGRAM_CHANNEL_ID` | ✅ | Channel for broadcasts |
+| `ENVIRONMENT` | | `development` or `production` |
+| `DRY_RUN` | | Set `true` to log instead of send |
+
+---
+
+## Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │                     GitHub Actions                          │
 │  ┌─────────────────┐        ┌─────────────────────────────┐│
 │  │ daily-quote.yml │        │        ci.yml               ││
-│  │ (3am + 4am UTC) │        │ (lint, test, type-check)    ││
+│  │ (6am Israel)    │        │ (lint, test, type-check)    ││
 │  └────────┬────────┘        └─────────────────────────────┘│
 └───────────┼────────────────────────────────────────────────┘
             │
@@ -107,7 +131,7 @@ make all         # All of the above
 └─────────────────────────────────────────────────────────────┘
 ```
 
-## 📁 Project Structure
+### Project Structure
 
 ```
 ashlag-yomi/
@@ -120,52 +144,84 @@ ashlag-yomi/
 │   ├── data/
 │   │   ├── models.py       # Quote, DailyBundle (Pydantic)
 │   │   └── repository.py   # Data access, fair rotation
-│   └── utils/
-│       ├── config.py       # Settings from environment
-│       └── logger.py       # Structured logging
+│   └── unified/
+│       └── publisher.py    # Torah Yomi channel integration
 ├── data/quotes/            # 6 JSON files, 365 quotes each
 ├── tests/                  # 116 tests, 80%+ coverage
 └── .github/workflows/      # CI + daily broadcast
 ```
 
-## 🔧 Configuration
+### Tech Stack
 
-| Variable | Required | Description |
-|----------|:--------:|-------------|
-| `TELEGRAM_BOT_TOKEN` | ✅ | Token from @BotFather |
-| `TELEGRAM_CHANNEL_ID` | ✅ | Channel for broadcasts (e.g., `@AshlagYomi`) |
-| `ENVIRONMENT` | | `development`, `staging`, `production` |
-| `DRY_RUN` | | Set `true` to log instead of send |
+| Component | Technology |
+|-----------|------------|
+| Runtime | Python 3.11+ |
+| Bot Framework | python-telegram-bot v20+ |
+| Data Validation | Pydantic v2 |
+| Testing | pytest + pytest-cov |
+| CI/CD | GitHub Actions |
 
-## 🚢 Deployment
+---
 
-The bot runs serverless via GitHub Actions — no hosting required.
+## Development
 
-1. Fork this repository
-2. Add secrets: `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHANNEL_ID`
-3. Enable GitHub Actions
+```bash
+# Run tests with coverage
+pytest
 
-**Daily Broadcast Timing:**
+# Lint
+ruff check src tests
 
-The bot sends at **6:00 AM Israel time** year-round using dual-cron (3am + 4am UTC) to handle daylight saving. The broadcaster is idempotent — duplicate triggers are safely ignored.
+# Format
+black src tests
 
-## 🤝 Contributing
+# Type check
+mypy src
+
+# All checks
+make all
+```
+
+**Coverage requirement:** 80% minimum
+
+---
+
+## Data Sources
+
+| Source | Purpose | Link |
+|--------|---------|------|
+| Sefaria | Original Hebrew texts | [sefaria.org](https://www.sefaria.org/) |
+| Or HaSulam | Ashlag writings | [orhassulam.com](https://www.orhassulam.com/) |
+
+---
+
+## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 **Ways to help:**
-- Curate authentic quotes from primary sources
-- Hebrew proofreading
-- Feature development
-- Documentation
+- 📖 Curate authentic quotes from primary sources
+- ✏️ Hebrew proofreading
+- 💻 Feature development
+- 📝 Documentation
 
-## 📄 License
+---
+
+## Security
+
+See [SECURITY.md](SECURITY.md) for vulnerability reporting.
+
+---
+
+## License
 
 MIT License — see [LICENSE](LICENSE) for details.
 
-Quote sources are in the public domain. See LICENSE for attribution.
+Quote sources are in the public domain.
 
-## 🙏 Acknowledgments
+---
+
+## Acknowledgments
 
 - [Sefaria](https://www.sefaria.org/) — Open-source Jewish texts
 - [Or HaSulam](https://www.orhassulam.com/) — Ashlag writings
@@ -173,7 +229,12 @@ Quote sources are in the public domain. See LICENSE for attribution.
 
 ---
 
-_״אין אור גדול יותר מהאור היוצא מתוך החושך״_
-— Baal HaSulam
+<div align="center">
+
+_״תכלית הבריאה היא להיטיב לנבראיו״_
+
+_"The purpose of creation is to benefit the created beings."_ — Baal HaSulam
 
 Built with ❤️ for spreading spiritual wisdom.
+
+</div>

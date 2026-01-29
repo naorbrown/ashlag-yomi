@@ -47,13 +47,13 @@ RATE_WINDOW = timedelta(minutes=1)
 _rate_limits: dict[int, list[datetime]] = defaultdict(list)
 
 # Bot commands for registration with Telegram
-# Following nachyomi-bot pattern: short, English, action-oriented
+# Following nachyomi-bot pattern: short, English, verb + object
 BOT_COMMANDS = [
-    BotCommand("start", "Welcome & info"),
-    BotCommand("today", "Get today's quotes"),
-    BotCommand("quote", "Get a single quote"),
-    BotCommand("about", "About this project"),
-    BotCommand("help", "Show commands"),
+    BotCommand("start", "Get today's wisdom"),
+    BotCommand("today", "Get today's 6 quotes"),
+    BotCommand("quote", "Get a random quote"),
+    BotCommand("about", "Learn about the lineage"),
+    BotCommand("help", "Show all commands"),
     BotCommand("feedback", "Send feedback"),
 ]
 
