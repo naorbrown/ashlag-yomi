@@ -125,9 +125,13 @@ def mock_bot() -> MagicMock:
     return bot
 
 
-@pytest.fixture
+@pytest.fixture(autouse=True)
 def mock_settings(monkeypatch: pytest.MonkeyPatch) -> None:
-    """Set up mock environment variables for testing."""
+    """Set up mock environment variables for testing.
+
+    This is autouse=True to ensure all tests have valid env vars
+    since Settings requires TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID.
+    """
     monkeypatch.setenv("TELEGRAM_BOT_TOKEN", "test_token_12345")
     monkeypatch.setenv("TELEGRAM_CHAT_ID", "@test_channel")
     monkeypatch.setenv("ENVIRONMENT", "development")
