@@ -140,6 +140,11 @@ module = [
 ]
 ignore_missing_imports = true
 
+[[tool.mypy.overrides]]
+module = "src.data.models"
+# Pydantic v2 computed_field with @property causes this error
+disable_error_code = ["prop-decorator"]
+
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 asyncio_mode = "auto"
