@@ -4,11 +4,9 @@ Main entry point for the Ashlag Yomi Telegram bot.
 This module initializes the bot and registers all command handlers.
 Uses python-telegram-bot v20+ with async/await pattern.
 
-Follows nachyomi-bot patterns:
-- Programmatic command registration with setMyCommands()
-- Rate limiting per user (5 requests/minute)
-- Graceful error handling with user-friendly messages
-- Proper shutdown handling for SIGTERM/SIGINT
+Bot Commands:
+- /start - Welcome and subscribe to daily quotes
+- /today - Get today's 2 quotes (Baal Hasulam + Rabash)
 
 Usage:
     # Run directly
@@ -26,28 +24,16 @@ from typing import NoReturn
 from telegram import BotCommand, Update
 from telegram.ext import Application, CommandHandler, ContextTypes
 
-from src.bot.handlers import (
-    about_command,
-    feedback_command,
-    help_command,
-    maamar_command,
-    quote_command,
-    start_command,
-    today_command,
-)
+from src.bot.handlers import start_command, today_command
 from src.utils.config import get_settings
 from src.utils.logger import get_logger, setup_logging
 
 logger = get_logger(__name__)
 
-# Bot commands for registration with Telegram
-# Simplified for 2-source maamar system (Baal Hasulam + Rabash)
+# Bot commands - only /start and /today
 BOT_COMMANDS = [
-    BotCommand("start", "התחלה"),
-    BotCommand("today", "2 מאמרים יומיים"),
-    BotCommand("maamar", "מאמר אקראי"),
-    BotCommand("about", "אודות"),
-    BotCommand("help", "עזרה"),
+    BotCommand("start", "הרשמה לציטוטים יומיים"),
+    BotCommand("today", "ציטוטים של היום"),
 ]
 
 
@@ -67,23 +53,17 @@ def create_application() -> Application:  # type: ignore[type-arg]
         .build()
     )
 
-    # Register command handlers
-    # Order matters for help text, so add in logical order
+    # Register command handlers - only /start and /today
     application.add_handler(CommandHandler("start", start_command))
-    application.add_handler(CommandHandler("maamar", maamar_command))
     application.add_handler(CommandHandler("today", today_command))
-    application.add_handler(CommandHandler("quote", quote_command))  # Alias for maamar
-    application.add_handler(CommandHandler("about", about_command))
-    application.add_handler(CommandHandler("help", help_command))
-    application.add_handler(CommandHandler("feedback", feedback_command))
 
-    logger.info("application_created", handlers=7)
+    logger.info("application_created", handlers=2)
     return application
 
 
 async def register_commands(application: Application) -> None:  # type: ignore[type-arg]
     """
-    Register bot commands with Telegram (nachyomi-bot pattern).
+    Register bot commands with Telegram.
 
     This makes commands appear in the Telegram menu when users type '/'.
     """
@@ -110,8 +90,7 @@ async def error_handler(update: object, context: ContextTypes.DEFAULT_TYPE) -> N
     if isinstance(update, Update) and update.effective_message:
         try:
             await update.effective_message.reply_text(
-                "😔 אירעה שגיאה. אנא נסו שוב מאוחר יותר.\n"
-                "An error occurred. Please try again later."
+                "😔 אירעה שגיאה. אנא נסו שוב מאוחר יותר."
             )
         except Exception:
             pass  # Don't fail on error message send failure
@@ -134,7 +113,7 @@ async def run_bot() -> None:
     await application.initialize()
     await application.start()
 
-    # Register commands with Telegram (nachyomi-bot pattern)
+    # Register commands with Telegram
     await register_commands(application)
 
     logger.info("bot_started", mode="polling")

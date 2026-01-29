@@ -123,8 +123,14 @@ jobs:
       - name: Validate quote JSON files
         run: |
           python -c "
-          from src.data.repository import QuoteRepository
-          repo = QuoteRepository()
-          stats = repo.validate_all()
+          from src.data.quote_repository import get_quote_repository
+          repo = get_quote_repository()
+          stats = repo.get_stats()
+          print(f'Baal Hasulam: {stats.get(\"baal_hasulam\", 0)}')
+          print(f'Rabash: {stats.get(\"rabash\", 0)}')
           print(f'Total quotes: {stats[\"total\"]}')
+          assert stats['total'] > 0, 'No quotes loaded!'
           "
+
+      - name: Preview daily quotes
+        run: python scripts/test_output.py
