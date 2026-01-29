@@ -17,7 +17,6 @@ from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 
 from src.data.models import (
     DailyBundle,
-    DailyMaamar,
     Maamar,
     Quote,
     QuoteCategory,
@@ -330,28 +329,19 @@ def split_hebrew_text(
     return chunks
 
 
-def format_maamar_header(maamar: Maamar, target_date: date | None = None) -> str:
+def format_maamar_header(maamar: Maamar) -> str:
     """
-    Format the header for a maamar message.
+    Format the header for a single maamar message.
 
     Args:
         maamar: The maamar to format
-        target_date: Optional date for the header
 
     Returns:
         Formatted HTML header string
     """
-    if target_date is None:
-        target_date = date.today()
-
     emoji = SOURCE_EMOJI.get(maamar.source, "📜")
-    date_str = target_date.strftime("%d.%m.%Y")
 
     parts = [
-        f"🌅 <b>אשלג יומי</b> | {date_str}",
-        "",
-        "═══════════════════",
-        "",
         f"{emoji} <b>{maamar.source.display_name_hebrew}</b>",
         "",
         f"<b>{maamar.title}</b>",
@@ -360,128 +350,59 @@ def format_maamar_header(maamar: Maamar, target_date: date | None = None) -> str
     if maamar.subtitle:
         parts.append(f"<i>{maamar.subtitle}</i>")
 
-    parts.extend(
-        [
-            "",
-            f"📚 {maamar.book}",
-        ]
-    )
+    parts.extend(["", f"📚 {maamar.book}"])
 
     if maamar.page:
         parts[-1] += f" | עמ׳ {maamar.page}"
 
-    parts.extend(
-        [
-            "",
-            "───────────────────",
-            "",
-        ]
-    )
+    parts.extend(["", "───────────────────", ""])
 
     return "\n".join(parts)
 
 
-def format_maamar_footer() -> str:
+def format_maamar(maamar: Maamar) -> list[str]:
     """
-    Format the footer for a maamar message.
-
-    Returns:
-        Formatted HTML footer string
-    """
-    return "\n───────────────────\n\n═══════════════════"
-
-
-def format_maamar_continuation_header(part_num: int, total_parts: int) -> str:
-    """
-    Format a header for continuation messages.
-
-    Args:
-        part_num: Current part number (1-indexed)
-        total_parts: Total number of parts
-
-    Returns:
-        Formatted HTML continuation header
-    """
-    return f"📜 חלק {part_num}/{total_parts}\n\n───────────────────\n\n"
-
-
-def format_maamar(maamar: Maamar, target_date: date | None = None) -> list[str]:
-    """
-    Format a complete maamar for Telegram, splitting into multiple messages if needed.
+    Format a maamar for Telegram, splitting into multiple messages if needed.
 
     Args:
         maamar: The maamar to format
-        target_date: Optional date for the header
 
     Returns:
         List of formatted HTML messages
     """
-    header = format_maamar_header(maamar, target_date)
-    footer = format_maamar_footer()
-
-    # Calculate available space for content
+    header = format_maamar_header(maamar)
     header_len = len(header)
-    footer_len = len(footer)
 
     # Check if it fits in one message
-    full_message = header + maamar.text + footer
+    full_message = header + maamar.text
     if len(full_message) <= TELEGRAM_SAFE_LENGTH:
         return [full_message]
 
-    # Need to split - calculate space for content in each message
-    messages: list[str] = []
+    # Need to split - first chunk gets header
+    first_chunk_max = TELEGRAM_SAFE_LENGTH - header_len - 10
+    cont_overhead = 30  # "📜 חלק X/Y\n\n"
 
-    # First, split the text
-    # Account for continuation headers in subsequent messages
-    continuation_header_len = len(format_maamar_continuation_header(99, 99))
-
-    # First chunk gets header, subsequent get continuation header
-    first_chunk_max = TELEGRAM_SAFE_LENGTH - header_len - 50  # Buffer for "..."
-    other_chunk_max = TELEGRAM_SAFE_LENGTH - continuation_header_len - footer_len - 50
-
-    # Split the text
     text_chunks = split_hebrew_text(maamar.text, first_chunk_max)
 
-    # If first chunk is still too big, re-split with smaller limit
-    if len(text_chunks) == 1 and len(text_chunks[0]) > first_chunk_max:
-        text_chunks = split_hebrew_text(maamar.text, other_chunk_max)
+    # Re-split if needed for subsequent chunks
+    if len(text_chunks) > 1:
+        subsequent_max = TELEGRAM_SAFE_LENGTH - cont_overhead
+        all_chunks = [text_chunks[0]]
+        remaining = maamar.text[len(text_chunks[0]) :].strip()
+        all_chunks.extend(split_hebrew_text(remaining, subsequent_max))
+        text_chunks = all_chunks
 
     total_parts = len(text_chunks)
+    messages: list[str] = []
 
     for i, chunk in enumerate(text_chunks):
-        part_num = i + 1
-
         if i == 0:
-            # First message: header + content (+ "..." if more parts)
-            if total_parts > 1:
-                message = header + chunk + " ..."
-            else:
-                message = header + chunk + footer
-        elif i == total_parts - 1:
-            # Last message: continuation header + content + footer
-            cont_header = format_maamar_continuation_header(part_num, total_parts)
-            message = cont_header + chunk + footer
+            messages.append(header + chunk + (" ..." if total_parts > 1 else ""))
         else:
-            # Middle message: continuation header + content + "..."
-            cont_header = format_maamar_continuation_header(part_num, total_parts)
-            message = cont_header + chunk + " ..."
-
-        messages.append(message)
+            cont = f"📜 חלק {i + 1}/{total_parts}\n\n"
+            messages.append(cont + chunk + (" ..." if i < total_parts - 1 else ""))
 
     return messages
-
-
-def format_daily_maamar(daily: DailyMaamar) -> list[str]:
-    """
-    Format a daily maamar for sending.
-
-    Args:
-        daily: The DailyMaamar to format
-
-    Returns:
-        List of formatted HTML messages
-    """
-    return format_maamar(daily.maamar, daily.date)
 
 
 def format_maamar_preview(maamar: Maamar, max_preview_length: int = 200) -> str:

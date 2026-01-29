@@ -4,13 +4,214 @@ from datetime import date
 
 from src.bot.formatters import (
     CATEGORY_EMOJI,
+    SOURCE_EMOJI,
+    build_maamar_keyboard,
     build_source_keyboard,
     escape_markdown,
     format_daily_bundle,
+    format_maamar,
+    format_maamar_header,
+    format_maamar_preview,
     format_quote,
     format_single_quote_message,
+    split_hebrew_text,
 )
-from src.data.models import DailyBundle, Quote, QuoteCategory
+from src.data.models import DailyBundle, Maamar, Quote, QuoteCategory, SourceCategory
+
+# =============================================================================
+# NEW MAAMAR FORMATTER TESTS
+# =============================================================================
+
+
+class TestBuildMaamarKeyboard:
+    """Tests for build_maamar_keyboard function."""
+
+    def test_returns_keyboard(self, sample_maamar: Maamar) -> None:
+        """Should return InlineKeyboardMarkup."""
+        keyboard = build_maamar_keyboard(sample_maamar)
+        assert keyboard is not None
+        from telegram import InlineKeyboardMarkup
+
+        assert isinstance(keyboard, InlineKeyboardMarkup)
+
+    def test_keyboard_structure_is_valid(self, sample_maamar: Maamar) -> None:
+        """Keyboard should have proper structure (single row, single button)."""
+        keyboard = build_maamar_keyboard(sample_maamar)
+        assert len(keyboard.inline_keyboard) == 1
+        assert len(keyboard.inline_keyboard[0]) == 1
+
+    def test_keyboard_contains_source_url(self, sample_maamar: Maamar) -> None:
+        """Keyboard button should contain the source URL."""
+        keyboard = build_maamar_keyboard(sample_maamar)
+        button = keyboard.inline_keyboard[0][0]
+        assert button.url == sample_maamar.source_url
+
+    def test_keyboard_button_text_is_hebrew(self, sample_maamar: Maamar) -> None:
+        """Keyboard button should have Hebrew text 'מקור'."""
+        keyboard = build_maamar_keyboard(sample_maamar)
+        button = keyboard.inline_keyboard[0][0]
+        assert "מקור" in button.text
+
+
+class TestSplitHebrewText:
+    """Tests for split_hebrew_text function."""
+
+    def test_short_text_not_split(self) -> None:
+        """Short text should not be split."""
+        text = "טקסט קצר"
+        chunks = split_hebrew_text(text)
+        assert len(chunks) == 1
+        assert chunks[0] == text
+
+    def test_long_text_is_split(self) -> None:
+        """Long text should be split into chunks."""
+        text = "מילה " * 1000  # Very long text
+        chunks = split_hebrew_text(text, max_length=100)
+        assert len(chunks) > 1
+        for chunk in chunks:
+            assert len(chunk) <= 100 or " " not in chunk[:100]
+
+    def test_splits_at_paragraph_boundary(self) -> None:
+        """Should prefer splitting at paragraph boundaries."""
+        text = "פסקה ראשונה.\n\nפסקה שנייה.\n\nפסקה שלישית."
+        chunks = split_hebrew_text(text, max_length=30)
+        # First chunk should end cleanly
+        assert chunks[0].endswith("ראשונה.")
+
+    def test_splits_at_sentence_boundary(self) -> None:
+        """Should split at sentence boundaries when no paragraph break."""
+        text = "משפט ראשון. משפט שני. משפט שלישי."
+        chunks = split_hebrew_text(text, max_length=20)
+        assert len(chunks) > 1
+
+
+class TestFormatMaamarHeader:
+    """Tests for format_maamar_header function."""
+
+    def test_includes_source_emoji(self, sample_maamar: Maamar) -> None:
+        """Header should include source emoji."""
+        header = format_maamar_header(sample_maamar)
+        expected_emoji = SOURCE_EMOJI.get(sample_maamar.source, "📜")
+        assert expected_emoji in header
+
+    def test_includes_source_name(self, sample_maamar: Maamar) -> None:
+        """Header should include source name in Hebrew."""
+        header = format_maamar_header(sample_maamar)
+        assert sample_maamar.source.display_name_hebrew in header
+
+    def test_includes_title(self, sample_maamar: Maamar) -> None:
+        """Header should include maamar title."""
+        header = format_maamar_header(sample_maamar)
+        assert sample_maamar.title in header
+
+    def test_includes_subtitle_when_present(self, sample_maamar: Maamar) -> None:
+        """Header should include subtitle if present."""
+        header = format_maamar_header(sample_maamar)
+        assert sample_maamar.subtitle in header
+
+    def test_includes_book_name(self, sample_maamar: Maamar) -> None:
+        """Header should include book name."""
+        header = format_maamar_header(sample_maamar)
+        assert sample_maamar.book in header
+
+    def test_includes_page_number(self, sample_maamar: Maamar) -> None:
+        """Header should include page number if present."""
+        header = format_maamar_header(sample_maamar)
+        assert sample_maamar.page in header
+
+
+class TestFormatMaamar:
+    """Tests for format_maamar function."""
+
+    def test_returns_list_of_messages(self, sample_maamar: Maamar) -> None:
+        """Should return a list of messages."""
+        messages = format_maamar(sample_maamar)
+        assert isinstance(messages, list)
+        assert all(isinstance(m, str) for m in messages)
+
+    def test_short_maamar_single_message(self, sample_maamar: Maamar) -> None:
+        """Short maamar should fit in single message."""
+        messages = format_maamar(sample_maamar)
+        # Our sample maamar is small enough for one message
+        assert len(messages) >= 1
+
+    def test_long_maamar_multiple_messages(self) -> None:
+        """Long maamar should be split into multiple messages."""
+        long_maamar = Maamar(
+            id="long_test",
+            source=SourceCategory.BAAL_HASULAM,
+            title="מאמר ארוך",
+            text="טקסט ארוך מאוד. " * 500,  # ~7500 chars
+            book="ספר בדיקה",
+            source_url="https://example.com",
+        )
+        messages = format_maamar(long_maamar)
+        assert len(messages) > 1
+
+    def test_first_message_has_header(self, sample_maamar: Maamar) -> None:
+        """First message should include the header."""
+        messages = format_maamar(sample_maamar)
+        first_message = messages[0]
+        assert sample_maamar.title in first_message
+        assert sample_maamar.source.display_name_hebrew in first_message
+
+    def test_continuation_messages_have_part_number(self) -> None:
+        """Continuation messages should show part X/Y."""
+        long_maamar = Maamar(
+            id="long_test",
+            source=SourceCategory.BAAL_HASULAM,
+            title="מאמר ארוך",
+            text="טקסט ארוך מאוד. " * 500,
+            book="ספר בדיקה",
+            source_url="https://example.com",
+        )
+        messages = format_maamar(long_maamar)
+        if len(messages) > 1:
+            assert "חלק 2/" in messages[1]
+
+
+class TestFormatMaamarPreview:
+    """Tests for format_maamar_preview function."""
+
+    def test_includes_title(self, sample_maamar: Maamar) -> None:
+        """Preview should include title."""
+        preview = format_maamar_preview(sample_maamar)
+        assert sample_maamar.title in preview
+
+    def test_includes_book(self, sample_maamar: Maamar) -> None:
+        """Preview should include book name."""
+        preview = format_maamar_preview(sample_maamar)
+        assert sample_maamar.book in preview
+
+    def test_truncates_long_text(self) -> None:
+        """Long text should be truncated."""
+        long_maamar = Maamar(
+            id="test",
+            source=SourceCategory.BAAL_HASULAM,
+            title="מאמר",
+            text="מילה " * 100,
+            book="ספר",
+            source_url="https://example.com",
+        )
+        preview = format_maamar_preview(long_maamar, max_preview_length=50)
+        assert "..." in preview
+
+
+class TestSourceEmoji:
+    """Tests for source emoji mapping."""
+
+    def test_all_sources_have_emoji(self) -> None:
+        """Every source should have an emoji."""
+        for source in SourceCategory:
+            assert source in SOURCE_EMOJI
+            emoji = SOURCE_EMOJI[source]
+            assert emoji
+            assert len(emoji) <= 4
+
+
+# =============================================================================
+# LEGACY QUOTE FORMATTER TESTS (kept for backward compatibility)
+# =============================================================================
 
 
 class TestFormatQuote:

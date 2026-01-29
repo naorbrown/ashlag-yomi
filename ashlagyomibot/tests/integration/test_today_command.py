@@ -83,9 +83,9 @@ class TestTodayCommandIntegration:
         """Repository should load quotes from all categories."""
         stats = mock_repository.validate_all()
 
-        assert (
-            stats["total"] == 6
-        ), f"Expected 6 quotes (one per category), got {stats['total']}"
+        assert stats["total"] == 6, (
+            f"Expected 6 quotes (one per category), got {stats['total']}"
+        )
 
         for category in QuoteCategory:
             assert stats[category.value] == 1, f"Expected 1 quote for {category.value}"
@@ -185,9 +185,9 @@ class TestTodayCommandIntegration:
         # All calls should have parse_mode="HTML"
         for call in mock_update.effective_message.reply_text.call_args_list:
             kwargs = call[1]
-            assert (
-                kwargs.get("parse_mode") == "HTML"
-            ), f"Missing HTML parse mode in: {call}"
+            assert kwargs.get("parse_mode") == "HTML", (
+                f"Missing HTML parse mode in: {call}"
+            )
 
     @pytest.mark.asyncio
     async def test_today_command_dry_run_mode(
@@ -228,9 +228,9 @@ class TestTodayCommandIntegration:
 
         # Should only send rate limit message
         call_count = mock_update.effective_message.reply_text.call_count
-        assert (
-            call_count == 1
-        ), f"Expected 1 message when rate limited, got {call_count}"
+        assert call_count == 1, (
+            f"Expected 1 message when rate limited, got {call_count}"
+        )
 
         message = mock_update.effective_message.reply_text.call_args[0][0]
         assert "אנא המתינו" in message or "Please wait" in message
@@ -293,9 +293,9 @@ class TestQuoteDataValidation:
 
             for i, quote in enumerate(data.get("quotes", [])):
                 for field in required_fields:
-                    assert (
-                        field in quote
-                    ), f"{json_file.name} quote {i} missing '{field}'"
+                    assert field in quote, (
+                        f"{json_file.name} quote {i} missing '{field}'"
+                    )
 
     def test_all_quotes_can_be_loaded_as_models(self):
         """All quotes should be valid according to the Quote model."""

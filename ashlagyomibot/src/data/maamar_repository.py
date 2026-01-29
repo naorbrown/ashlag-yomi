@@ -254,12 +254,31 @@ class MaamarRepository:
         self._save_history()
         logger.info("maamar_marked_sent", maamar_id=maamar.id, date=str(sent_date))
 
+    def get_daily_maamarim(self) -> list[Maamar]:
+        """
+        Get today's maamarim - one from each source (Baal Hasulam + Rabash).
+
+        Uses fair rotation to avoid repeating maamarim until all are used.
+
+        Returns:
+            List of 2 maamarim (one per source), or fewer if unavailable
+        """
+        maamarim: list[Maamar] = []
+
+        for source in SourceCategory:
+            sent_ids = self.get_sent_ids_by_source(source)
+            maamar = self.get_random_by_source(source, exclude_ids=sent_ids)
+            if maamar:
+                maamarim.append(maamar)
+
+        return maamarim
+
     def get_daily_maamar(self, target_date: date) -> DailyMaamar | None:
         """
-        Get a maamar for the day, using fair rotation.
+        Get a single random maamar for the day (legacy method).
 
-        Randomly selects between Baal Hasulam and Rabash sources,
-        then picks a maamar that hasn't been sent recently.
+        For the /maamar command - picks one random maamar.
+        For daily broadcast, use get_daily_maamarim() instead.
 
         Args:
             target_date: The date to get a maamar for
@@ -267,29 +286,9 @@ class MaamarRepository:
         Returns:
             DailyMaamar, or None if no maamarim available
         """
-        # Randomly pick a source
-        source = random.choice(list(SourceCategory))
-
-        # Get sent IDs for this source
-        sent_ids = self.get_sent_ids_by_source(source)
-
-        # Get a random maamar
-        maamar = self.get_random_by_source(source, exclude_ids=sent_ids)
-
+        maamar = self.get_random_maamar()
         if not maamar:
-            # Try the other source
-            other_source = (
-                SourceCategory.RABASH
-                if source == SourceCategory.BAAL_HASULAM
-                else SourceCategory.BAAL_HASULAM
-            )
-            sent_ids = self.get_sent_ids_by_source(other_source)
-            maamar = self.get_random_by_source(other_source, exclude_ids=sent_ids)
-
-        if not maamar:
-            logger.warning("no_maamar_available_for_daily")
             return None
-
         return DailyMaamar(date=target_date, maamar=maamar)
 
     def was_maamar_sent_today(self, target_date: date) -> bool:

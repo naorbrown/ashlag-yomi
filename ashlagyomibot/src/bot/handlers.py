@@ -90,19 +90,14 @@ async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> N
 
     welcome_text = """🕯️ <b>אשלג יומי</b>
 
-חכמת הקבלה היומית משושלת אשלג.
+מאמרים יומיים מבעל הסולם והרב"ש.
 
 <b>פקודות:</b>
-/maamar – קבל מאמר אקראי
-/today – קבל את המאמר של היום
-/about – למד על השושלת
-/help – הצג את כל הפקודות
+/today – 2 מאמרים יומיים
+/maamar – מאמר אקראי
+/about – על המקורות
 
-📅 מאמר חדש כל יום ב-6:00 בבוקר
-
-<b>מקורות:</b>
-📖 בעל הסולם - כתבי רבי יהודה אשלג
-💎 הרב"ש - כתבי רבי ברוך שלום אשלג
+📅 כל יום ב-6:00 בבוקר
 """
 
     await update.effective_message.reply_text(
@@ -118,9 +113,9 @@ async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> N
 
 async def today_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """
-    Handle /today command - send today's maamar.
+    Handle /today command - send today's 2 maamarim.
 
-    Sends a complete maamar from Baal Hasulam or Rabash.
+    Sends one maamar from Baal Hasulam and one from Rabash.
     """
     if not update.effective_message:
         return
@@ -131,51 +126,54 @@ async def today_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> N
     settings = get_settings()
 
     try:
-        # Use cached maamar repository for fast access
         repository = get_maamar_repository()
-        daily = repository.get_daily_maamar(date.today())
+        maamarim = repository.get_daily_maamarim()
 
-        if not daily:
+        if not maamarim:
             await update.effective_message.reply_text(
                 "😔 אין מאמרים זמינים.\nNo maamarim available."
             )
             return
 
         if settings.dry_run:
-            logger.info(
-                "dry_run_today",
-                maamar_id=daily.maamar.id,
-                title=daily.maamar.title,
-            )
+            titles = [m.title for m in maamarim]
             await update.effective_message.reply_text(
-                f"[DRY RUN] Would send maamar: {daily.maamar.title}"
+                f"[DRY RUN] Would send {len(maamarim)} maamarim: {titles}"
             )
             return
 
-        # Format the maamar (may be split into multiple messages)
-        messages = format_maamar(daily.maamar, daily.date)
-        keyboard = build_maamar_keyboard(daily.maamar)
+        # Send header
+        date_str = date.today().strftime("%d.%m.%Y")
+        header = f"🌅 <b>אשלג יומי - {date_str}</b>\n\n═══════════════════"
+        await update.effective_message.reply_text(header, parse_mode="HTML")
 
-        # Send each message
-        for i, message in enumerate(messages):
-            if i > 0:
-                await asyncio.sleep(MESSAGE_DELAY)
+        # Send each maamar
+        for maamar in maamarim:
+            await asyncio.sleep(MESSAGE_DELAY)
 
-            # Only add keyboard to the last message
-            reply_markup = keyboard if i == len(messages) - 1 else None
+            messages = format_maamar(maamar)
+            keyboard = build_maamar_keyboard(maamar)
 
-            await update.effective_message.reply_text(
-                message,
-                parse_mode="HTML",
-                reply_markup=reply_markup,
-                disable_web_page_preview=True,
-            )
+            for i, message in enumerate(messages):
+                if i > 0:
+                    await asyncio.sleep(MESSAGE_DELAY)
+
+                reply_markup = keyboard if i == len(messages) - 1 else None
+                await update.effective_message.reply_text(
+                    message,
+                    parse_mode="HTML",
+                    reply_markup=reply_markup,
+                    disable_web_page_preview=True,
+                )
+
+        # Send footer
+        await asyncio.sleep(MESSAGE_DELAY)
+        await update.effective_message.reply_text("═══════════════════")
 
         logger.info(
             "today_command",
             user_id=update.effective_user.id if update.effective_user else None,
-            maamar_id=daily.maamar.id,
-            message_count=len(messages),
+            maamar_count=len(maamarim),
         )
 
     except Exception as e:
@@ -298,18 +296,12 @@ async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> No
 
     help_text = """<b>פקודות:</b>
 
-/maamar – קבל מאמר אקראי מבעל הסולם או הרב"ש
-/today – קבל את המאמר היומי
-/about – למד על המקורות והשושלת
-/feedback – שלח משוב
+/today – 2 מאמרים יומיים (בעל הסולם + רב"ש)
+/maamar – מאמר אקראי
+/about – על המקורות
+/feedback – משוב
 
-📅 מאמר חדש כל יום ב-6:00 בבוקר (שעון ישראל)
-
-<b>Commands:</b>
-/maamar – Get a random maamar
-/today – Get today's maamar
-/about – Learn about the sources
-/feedback – Send feedback
+📅 כל יום ב-6:00 בבוקר
 """
 
     await update.effective_message.reply_text(
