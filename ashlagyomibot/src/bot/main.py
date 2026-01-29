@@ -30,6 +30,7 @@ from src.bot.handlers import (
     about_command,
     feedback_command,
     help_command,
+    maamar_command,
     quote_command,
     start_command,
     today_command,
@@ -42,12 +43,12 @@ logger = get_logger(__name__)
 # Bot commands for registration with Telegram
 # Following nachyomi-bot pattern: short, English, verb + object
 BOT_COMMANDS = [
-    BotCommand("start", "Get today's wisdom"),
-    BotCommand("today", "Get today's 6 quotes"),
-    BotCommand("quote", "Get a random quote"),
-    BotCommand("about", "Learn about the lineage"),
-    BotCommand("help", "Show all commands"),
-    BotCommand("feedback", "Send feedback"),
+    BotCommand("start", "התחל את הבוט"),
+    BotCommand("maamar", "קבל מאמר אקראי"),
+    BotCommand("today", "קבל את המאמר היומי"),
+    BotCommand("about", "למד על המקורות"),
+    BotCommand("help", "הצג את כל הפקודות"),
+    BotCommand("feedback", "שלח משוב"),
 ]
 
 
@@ -70,13 +71,14 @@ def create_application() -> Application:  # type: ignore[type-arg]
     # Register command handlers
     # Order matters for help text, so add in logical order
     application.add_handler(CommandHandler("start", start_command))
+    application.add_handler(CommandHandler("maamar", maamar_command))
     application.add_handler(CommandHandler("today", today_command))
-    application.add_handler(CommandHandler("quote", quote_command))
+    application.add_handler(CommandHandler("quote", quote_command))  # Alias for maamar
     application.add_handler(CommandHandler("about", about_command))
     application.add_handler(CommandHandler("help", help_command))
     application.add_handler(CommandHandler("feedback", feedback_command))
 
-    logger.info("application_created", handlers=6)
+    logger.info("application_created", handlers=7)
     return application
 
 

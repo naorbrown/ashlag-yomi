@@ -17,12 +17,27 @@ from __future__ import annotations
 import json
 import random
 from datetime import date
+from functools import lru_cache
 from pathlib import Path
 
 from src.data.models import DailyBundle, Quote, QuoteCategory, SentRecord
 from src.utils.logger import get_logger
 
 logger = get_logger(__name__)
+
+
+@lru_cache(maxsize=1)
+def get_repository() -> QuoteRepository:
+    """
+    Get cached singleton repository instance.
+
+    This avoids re-creating the repository and re-loading quotes
+    on every command, significantly improving response time.
+    """
+    repo = QuoteRepository()
+    # Pre-load quotes into cache for fast access
+    repo._load_quotes()
+    return repo
 
 
 class QuoteRepository:

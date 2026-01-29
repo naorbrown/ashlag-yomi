@@ -1,0 +1,26 @@
+{
+  "source": "rabash",
+  "last_updated": "2026-01-29T22:58:37.094068",
+  "maamarim": [
+    {
+      "id": "rabash_sample_1",
+      "source": "rabash",
+      "title": "מהו שנתנו הסולם להעלות בו",
+      "subtitle": "מאמר ג",
+      "text": "נתנו לנו את הסולם להעלות בו, פירוש, שהאדם צריך לעלות ממדרגה למדרגה.\n\nוהעלייה היא בכח התורה והמצוות. כי בכל פעם שהאדם עוסק בתורה ומקיים מצוות, הוא עולה מדרגה אחת.\n\nאבל יש לדעת שהעלייה אינה אוטומטית. האדם צריך להשתוקק לעלות, צריך לרצות להתקרב לבורא.\n\nהעבודה היא לשים לב לכוונה - לא רק לעשות, אלא לעשות עם הכוונה הנכונה.\n\nוזוהי העבודה האמיתית - לתקן את הכוונה שלנו בכל מעשה ומעשה.",
+      "book": "שמעתי",
+      "page": "25",
+      "source_url": "https://ashlagbaroch.org/rbsMore/",
+      "pdf_filename": "shamati.pdf",
+      "pdf_start_page": 25,
+      "pdf_end_page": 26,
+      "scraped_at": "2026-01-29T22:58:37.094057",
+      "word_count": 68,
+      "char_count": 377,
+      "estimated_reading_minutes": 0.5,
+      "telegram_message_count": 1,
+      "full_source_citation": "הרב\"ש, שמעתי, עמ׳ 25"
+    }
+  ],
+  "count": 1
+}

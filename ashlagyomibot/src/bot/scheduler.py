@@ -16,7 +16,7 @@ from zoneinfo import ZoneInfo
 
 from src.bot.formatters import build_source_keyboard, format_quote
 from src.data.models import DailyBundle
-from src.data.repository import QuoteRepository
+from src.data.repository import get_repository
 from src.unified import is_unified_channel_enabled, publish_text_to_unified_channel
 from src.utils.config import get_settings
 from src.utils.logger import get_logger
@@ -43,7 +43,8 @@ async def send_daily_quotes(bot: object, chat_id: str) -> bool:
     settings = get_settings()
 
     try:
-        repository = QuoteRepository()
+        # Use cached repository for fast access
+        repository = get_repository()
         bundle = repository.get_daily_bundle(date.today())
 
         if not bundle.quotes:
