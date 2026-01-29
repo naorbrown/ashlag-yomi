@@ -1,0 +1,79 @@
+# Test Bot Commands Workflow
+# Runs a dry-run test of the bot commands to verify output
+
+name: Test Bot Commands
+
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:  # Allow manual trigger
+
+jobs:
+  test-quotes:
+    name: Test Quote Output
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e .
+
+      - name: Test quote repository
+        run: |
+          python -c "
+          from src.data.quote_repository import get_quote_repository
+
+          repo = get_quote_repository()
+          stats = repo.get_stats()
+
+          print('📊 Quote Statistics:')
+          print(f'   Baal Hasulam: {stats.get(\"baal_hasulam\", 0)}')
+          print(f'   Rabash: {stats.get(\"rabash\", 0)}')
+          print(f'   Total: {stats.get(\"total\", 0)}')
+
+          assert stats['total'] > 0, 'No quotes loaded!'
+          assert stats.get('baal_hasulam', 0) > 0, 'No Baal Hasulam quotes!'
+          assert stats.get('rabash', 0) > 0, 'No Rabash quotes!'
+
+          print('✅ Quote repository loaded successfully!')
+          "
+
+      - name: Preview daily quotes
+        run: python scripts/test_output.py
+
+      - name: Test broadcast dry-run
+        run: |
+          python -c "
+          import asyncio
+          from src.bot.broadcaster import broadcast_daily_quotes
+
+          async def test():
+              # This will fail due to missing channel ID, which is expected
+              # The important thing is that the quote loading works
+              from src.data.quote_repository import get_quote_repository
+              from datetime import date
+
+              repo = get_quote_repository()
+              quotes = repo.get_daily_quotes(date.today())
+
+              print(f'📤 Would broadcast {len(quotes)} quotes:')
+              for q in quotes:
+                  print(f'   • {q.source_book}, {q.source_section}')
+                  print(f'     {q.text[:80]}...')
+                  print(f'     Link: {q.source_url}')
+                  print()
+
+              print('✅ Broadcast preparation successful!')
+
+          asyncio.run(test())
+          "

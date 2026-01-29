@@ -1,79 +1,84 @@
 """
 Telegram command handlers for Ashlag Yomi.
 
-Each handler corresponds to a bot command (e.g., /start, /today, /maamar).
-Handlers should be:
-- Async (uses await)
-- Focused (one responsibility)
-- Graceful (handle errors without crashing)
+Handlers:
+- /start - Welcome message with brief explanation
+- /today - Send today's 2 quotes (Baal Hasulam + Rabash)
+
+Each quote displays:
+- Title (source book + section)
+- Full Hebrew text
+- Clickable source link
 """
 
 import asyncio
-import traceback
 from datetime import date
 
-from telegram import Update
+from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
 from telegram.ext import ContextTypes
 
-from src.bot.formatters import (
-    build_maamar_keyboard,
-    format_maamar,
-)
-from src.bot.rate_limit import is_rate_limited
-from src.data.maamar_repository import get_maamar_repository
+from src.data.models import Quote
+from src.data.quote_repository import get_quote_repository
 from src.utils.config import get_settings
 from src.utils.logger import get_logger
 
 logger = get_logger(__name__)
 
-# Delay between sending messages to avoid Telegram rate limits (seconds)
-# Telegram allows ~30 msg/sec for private chats, 0.05s is safe and fast
-MESSAGE_DELAY = 0.05
-
-# Rate limit message
-RATE_LIMIT_MSG = "⏳ אנא המתינו מעט לפני שליחת פקודה נוספת.\nPlease wait before sending another command."
+# Delay between sending messages to avoid Telegram rate limits
+MESSAGE_DELAY = 0.1
 
 
-async def _log_and_reply_error(
-    update: Update,
-    command: str,
-    error: Exception,
-) -> None:
-    """Log error with full traceback and send user-friendly message."""
-    error_tb = traceback.format_exc()
-    logger.error(
-        f"{command}_error",
-        error=str(error),
-        error_type=type(error).__name__,
-        traceback=error_tb,
-        user_id=update.effective_user.id if update.effective_user else None,
-    )
-
-    # In development, show the actual error
-    settings = get_settings()
-    if settings.is_development:
-        error_msg = f"❌ Error in /{command}:\n{type(error).__name__}: {error}"
-    else:
-        error_msg = "😔 Error. Please try again.\nאירעה שגיאה. נסו שוב."
-
-    if update.effective_message:
-        await update.effective_message.reply_text(error_msg)
-
-
-async def _check_rate_limit(update: Update) -> bool:
+def format_quote_message(quote: Quote) -> str:
     """
-    Check if user is rate limited and send message if so.
+    Format a quote for Telegram display.
 
-    Returns True if rate limited (command should not proceed).
+    Shows:
+    - Title: source_book, source_section
+    - Full text
+    - Source attribution
+
+    Args:
+        quote: The quote to format
+
+    Returns:
+        Formatted HTML string
     """
-    if not update.effective_user:
-        return False
+    # Build title from source book and section
+    title_parts = []
+    if quote.source_book:
+        title_parts.append(quote.source_book)
+    if quote.source_section:
+        title_parts.append(quote.source_section)
 
-    if is_rate_limited(update.effective_user.id):
-        if update.effective_message:
-            await update.effective_message.reply_text(RATE_LIMIT_MSG)
-        return True
-    return False
+    title = ", ".join(title_parts) if title_parts else quote.source_rabbi
+
+    # Format the message
+    parts = [
+        f"📖 <b>{title}</b>",
+        "",
+        quote.text,
+        "",
+        f"— {quote.source_rabbi}",
+    ]
+
+    return "\n".join(parts)
+
+
+def build_source_keyboard(quote: Quote) -> InlineKeyboardMarkup | None:
+    """
+    Build inline keyboard with source link button.
+
+    Args:
+        quote: The quote to build a keyboard for
+
+    Returns:
+        InlineKeyboardMarkup with source button, or None if no URL
+    """
+    if not quote.source_url:
+        return None
+
+    keyboard = [[InlineKeyboardButton(text="📖 מקור מלא", url=quote.source_url)]]
+    return InlineKeyboardMarkup(keyboard)
 
 
 async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
@@ -85,17 +90,11 @@ async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> N
     if not update.effective_message:
         return
 
-    if await _check_rate_limit(update):
-        return
-
     welcome_text = """🕯️ <b>אשלג יומי</b>
 
-מאמרים יומיים מבעל הסולם והרב"ש.
+ציטוטים יומיים מבעל הסולם והרב"ש.
 
-<b>פקודות:</b>
-/today – 2 מאמרים יומיים
-/maamar – מאמר אקראי
-/about – על המקורות
+/today - קבלו את הציטוטים של היום
 
 📅 כל יום ב-6:00 בבוקר
 """
@@ -113,32 +112,28 @@ async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> N
 
 async def today_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """
-    Handle /today command - send today's 2 maamarim.
+    Handle /today command - send today's 2 quotes.
 
-    Sends one maamar from Baal Hasulam and one from Rabash.
+    Sends one quote from Baal Hasulam and one from Rabash.
+    Each quote shows: title, full text, and clickable source link.
     """
     if not update.effective_message:
-        return
-
-    if await _check_rate_limit(update):
         return
 
     settings = get_settings()
 
     try:
-        repository = get_maamar_repository()
-        maamarim = repository.get_daily_maamarim()
+        repository = get_quote_repository()
+        quotes = repository.get_daily_quotes()
 
-        if not maamarim:
-            await update.effective_message.reply_text(
-                "😔 אין מאמרים זמינים.\nNo maamarim available."
-            )
+        if not quotes:
+            await update.effective_message.reply_text("😔 אין ציטוטים זמינים כרגע.")
             return
 
         if settings.dry_run:
-            titles = [m.title for m in maamarim]
+            titles = [f"{q.source_book}, {q.source_section}" for q in quotes]
             await update.effective_message.reply_text(
-                f"[DRY RUN] Would send {len(maamarim)} maamarim: {titles}"
+                f"[DRY RUN] Would send {len(quotes)} quotes: {titles}"
             )
             return
 
@@ -147,24 +142,19 @@ async def today_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> N
         header = f"🌅 <b>אשלג יומי - {date_str}</b>\n\n═══════════════════"
         await update.effective_message.reply_text(header, parse_mode="HTML")
 
-        # Send each maamar
-        for maamar in maamarim:
+        # Send each quote with source link button
+        for quote in quotes:
             await asyncio.sleep(MESSAGE_DELAY)
 
-            messages = format_maamar(maamar)
-            keyboard = build_maamar_keyboard(maamar)
+            message = format_quote_message(quote)
+            keyboard = build_source_keyboard(quote)
 
-            for i, message in enumerate(messages):
-                if i > 0:
-                    await asyncio.sleep(MESSAGE_DELAY)
-
-                reply_markup = keyboard if i == len(messages) - 1 else None
-                await update.effective_message.reply_text(
-                    message,
-                    parse_mode="HTML",
-                    reply_markup=reply_markup,
-                    disable_web_page_preview=True,
-                )
+            await update.effective_message.reply_text(
+                message,
+                parse_mode="HTML",
+                reply_markup=keyboard,
+                disable_web_page_preview=True,
+            )
 
         # Send footer
         await asyncio.sleep(MESSAGE_DELAY)
@@ -173,174 +163,13 @@ async def today_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> N
         logger.info(
             "today_command",
             user_id=update.effective_user.id if update.effective_user else None,
-            maamar_count=len(maamarim),
+            quote_count=len(quotes),
         )
 
     except Exception as e:
-        await _log_and_reply_error(update, "today", e)
-
-
-async def maamar_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-    """
-    Handle /maamar command - send a random maamar.
-
-    Sends a complete random maamar from Baal Hasulam or Rabash.
-    """
-    if not update.effective_message:
-        return
-
-    if await _check_rate_limit(update):
-        return
-
-    try:
-        # Use cached maamar repository for fast access
-        repository = get_maamar_repository()
-        maamar = repository.get_random_maamar()
-
-        if not maamar:
-            await update.effective_message.reply_text(
-                "😔 אין מאמרים זמינים.\nNo maamarim available."
-            )
-            return
-
-        # Format the maamar (may be split into multiple messages)
-        messages = format_maamar(maamar)
-        keyboard = build_maamar_keyboard(maamar)
-
-        # Send each message
-        for i, message in enumerate(messages):
-            if i > 0:
-                await asyncio.sleep(MESSAGE_DELAY)
-
-            # Only add keyboard to the last message
-            reply_markup = keyboard if i == len(messages) - 1 else None
-
-            await update.effective_message.reply_text(
-                message,
-                parse_mode="HTML",
-                reply_markup=reply_markup,
-                disable_web_page_preview=True,
-            )
-
-        logger.info(
-            "maamar_command",
+        logger.error(
+            "today_command_error",
+            error=str(e),
             user_id=update.effective_user.id if update.effective_user else None,
-            maamar_id=maamar.id,
-            message_count=len(messages),
         )
-
-    except Exception as e:
-        await _log_and_reply_error(update, "maamar", e)
-
-
-# Keep quote_command as alias for backward compatibility
-async def quote_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-    """
-    Handle /quote command - alias for /maamar.
-
-    Kept for backward compatibility.
-    """
-    await maamar_command(update, context)
-
-
-async def about_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-    """Handle /about command - explain the project and lineage."""
-    if not update.effective_message:
-        return
-
-    if await _check_rate_limit(update):
-        return
-
-    about_text = """📚 <b>על אשלג יומי</b>
-
-פרויקט זה נועד להפיץ את תורת הקבלה של שושלת אשלג - חכמה רוחנית מעמיקה לימינו.
-
-<b>המקורות:</b>
-
-📖 <b>בעל הסולם</b> (1884-1954)
-רבי יהודה לייב הלוי אשלג
-מחבר פירוש "הסולם" על ספר הזוהר, "תלמוד עשר הספירות", ומאמרים רבים בחכמת הקבלה.
-הנגיש את חכמת הקבלה לדורנו בשפה ברורה ומדויקת.
-
-💎 <b>הרב"ש</b> (1907-1991)
-רבי ברוך שלום הלוי אשלג
-בנו ותלמידו המובהק של בעל הסולם.
-המשיך את דרכו של אביו וכתב מאות מאמרים בעבודה הפנימית.
-
-<b>קישורים:</b>
-• <a href="https://search.orhasulam.org/">אור הסולם - כתבי בעל הסולם</a>
-• <a href="https://ashlagbaroch.org/rbsMore/">אשלג ברוך - כתבי הרב"ש</a>
-
-<i>קוד פתוח - נבנה באהבה</i>
-"""
-
-    await update.effective_message.reply_text(
-        about_text,
-        parse_mode="HTML",
-        disable_web_page_preview=True,
-    )
-
-    logger.info(
-        "about_command",
-        user_id=update.effective_user.id if update.effective_user else None,
-    )
-
-
-async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-    """Handle /help command - list available commands."""
-    if not update.effective_message:
-        return
-
-    if await _check_rate_limit(update):
-        return
-
-    help_text = """<b>פקודות:</b>
-
-/today – 2 מאמרים יומיים (בעל הסולם + רב"ש)
-/maamar – מאמר אקראי
-/about – על המקורות
-/feedback – משוב
-
-📅 כל יום ב-6:00 בבוקר
-"""
-
-    await update.effective_message.reply_text(
-        help_text,
-        parse_mode="HTML",
-    )
-
-    logger.info(
-        "help_command",
-        user_id=update.effective_user.id if update.effective_user else None,
-    )
-
-
-async def feedback_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-    """Handle /feedback command - explain how to send feedback."""
-    if not update.effective_message:
-        return
-
-    if await _check_rate_limit(update):
-        return
-
-    feedback_text = """💬 <b>Feedback</b>
-
-We'd love to hear from you!
-
-📧 To send feedback, report bugs, or suggest features:
-Open an issue on GitHub:
-https://github.com/naorbrown/ashlag-yomi/issues
-
-Thank you for helping improve the project! 🙏
-"""
-
-    await update.effective_message.reply_text(
-        feedback_text,
-        parse_mode="HTML",
-        disable_web_page_preview=True,
-    )
-
-    logger.info(
-        "feedback_command",
-        user_id=update.effective_user.id if update.effective_user else None,
-    )
+        await update.effective_message.reply_text("😔 אירעה שגיאה. נסו שוב מאוחר יותר.")
