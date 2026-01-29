@@ -8,6 +8,7 @@
 [![Python 3.11+](https://img.shields.io/badge/Python-3.11+-green.svg)](https://python.org)
 [![Telegram Bot](https://img.shields.io/badge/Telegram-@AshlagYomiBot-blue.svg)](https://t.me/AshlagYomiBot)
 [![CI](https://github.com/naorbrown/ashlag-yomi/actions/workflows/ci.yml/badge.svg)](https://github.com/naorbrown/ashlag-yomi/actions)
+[![Docker](https://img.shields.io/badge/Docker-Ready-2496ED.svg)](https://github.com/naorbrown/ashlag-yomi/pkgs/container/ashlag-yomi)
 
 [**Start Learning**](https://t.me/AshlagYomiBot) · [**Report Bug**](https://github.com/naorbrown/ashlag-yomi/issues) · [**Request Feature**](https://github.com/naorbrown/ashlag-yomi/issues)
 
@@ -86,6 +87,17 @@ cp .env.example .env
 
 # Run
 python -m src.bot.main
+```
+
+### Option 3: Docker
+
+```bash
+# Build and run locally
+docker-compose up -d
+
+# Or pull from GitHub Container Registry
+docker pull ghcr.io/naorbrown/ashlag-yomi:latest
+docker run -d --env-file .env ghcr.io/naorbrown/ashlag-yomi:latest
 ```
 
 ---

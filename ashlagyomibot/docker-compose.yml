@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  ashlag-yomi:
+    build: .
+    container_name: ashlag-yomi-bot
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      - ./data:/app/data
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
