@@ -17,14 +17,15 @@ from telegram.ext import ContextTypes
 
 from src.bot.formatters import build_source_keyboard, format_quote
 from src.bot.rate_limit import is_rate_limited
-from src.data.repository import QuoteRepository
+from src.data.repository import get_repository
 from src.utils.config import get_settings
 from src.utils.logger import get_logger
 
 logger = get_logger(__name__)
 
 # Delay between sending messages to avoid Telegram rate limits (seconds)
-MESSAGE_DELAY = 0.3
+# Telegram allows ~30 msg/sec for private chats, 0.05s is safe and fast
+MESSAGE_DELAY = 0.05
 
 # Rate limit message
 RATE_LIMIT_MSG = "⏳ אנא המתינו מעט לפני שליחת פקודה נוספת.\nPlease wait before sending another command."
@@ -115,27 +116,17 @@ async def today_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> N
     Useful for testing or catching up on missed quotes.
     """
     if not update.effective_message:
-        logger.warning("today_command_no_message")
         return
 
     if await _check_rate_limit(update):
-        logger.debug(
-            "today_command_rate_limited",
-            user_id=update.effective_user.id if update.effective_user else None,
-        )
         return
 
-    logger.debug(
-        "today_command_starting",
-        user_id=update.effective_user.id if update.effective_user else None,
-    )
     settings = get_settings()
 
     try:
-        logger.debug("today_command_loading_quotes")
-        repository = QuoteRepository()
+        # Use cached repository for fast access
+        repository = get_repository()
         bundle = repository.get_daily_bundle(date.today())
-        logger.debug("today_command_bundle_loaded", quote_count=len(bundle.quotes))
 
         if not bundle.quotes:
             await update.effective_message.reply_text(
@@ -203,7 +194,8 @@ async def quote_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> N
         return
 
     try:
-        repository = QuoteRepository()
+        # Use cached repository for fast access
+        repository = get_repository()
         quote = repository.get_random_quote()
 
         if not quote:
