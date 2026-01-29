@@ -9,6 +9,7 @@ Handlers should be:
 """
 
 import asyncio
+import traceback
 from datetime import date
 
 from telegram import Update
@@ -27,6 +28,32 @@ MESSAGE_DELAY = 0.3
 
 # Rate limit message
 RATE_LIMIT_MSG = "⏳ אנא המתינו מעט לפני שליחת פקודה נוספת.\nPlease wait before sending another command."
+
+
+async def _log_and_reply_error(
+    update: Update,
+    command: str,
+    error: Exception,
+) -> None:
+    """Log error with full traceback and send user-friendly message."""
+    error_tb = traceback.format_exc()
+    logger.error(
+        f"{command}_error",
+        error=str(error),
+        error_type=type(error).__name__,
+        traceback=error_tb,
+        user_id=update.effective_user.id if update.effective_user else None,
+    )
+
+    # In development, show the actual error
+    settings = get_settings()
+    if settings.is_development:
+        error_msg = f"❌ Error in /{command}:\n{type(error).__name__}: {error}"
+    else:
+        error_msg = "😔 Error. Please try again.\nאירעה שגיאה. נסו שוב."
+
+    if update.effective_message:
+        await update.effective_message.reply_text(error_msg)
 
 
 async def _check_rate_limit(update: Update) -> bool:
@@ -88,16 +115,21 @@ async def today_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> N
     Useful for testing or catching up on missed quotes.
     """
     if not update.effective_message:
+        logger.warning("today_command_no_message")
         return
 
     if await _check_rate_limit(update):
+        logger.debug("today_command_rate_limited", user_id=update.effective_user.id if update.effective_user else None)
         return
 
+    logger.debug("today_command_starting", user_id=update.effective_user.id if update.effective_user else None)
     settings = get_settings()
 
     try:
+        logger.debug("today_command_loading_quotes")
         repository = QuoteRepository()
         bundle = repository.get_daily_bundle(date.today())
+        logger.debug("today_command_bundle_loaded", quote_count=len(bundle.quotes))
 
         if not bundle.quotes:
             await update.effective_message.reply_text(
@@ -149,10 +181,7 @@ async def today_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> N
         )
 
     except Exception as e:
-        logger.error("today_command_error", error=str(e))
-        await update.effective_message.reply_text(
-            "😔 Error. Please try again.\n אירעה שגיאה. נסו שוב."
-        )
+        await _log_and_reply_error(update, "today", e)
 
 
 async def quote_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
@@ -194,10 +223,7 @@ async def quote_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> N
         )
 
     except Exception as e:
-        logger.error("quote_command_error", error=str(e))
-        await update.effective_message.reply_text(
-            "😔 Error. Please try again.\n אירעה שגיאה. נסו שוב."
-        )
+        await _log_and_reply_error(update, "quote", e)
 
 
 async def about_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
