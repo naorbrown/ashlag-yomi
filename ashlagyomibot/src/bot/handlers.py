@@ -1,7 +1,7 @@
 """
 Telegram command handlers for Ashlag Yomi.
 
-Each handler corresponds to a bot command (e.g., /start, /today).
+Each handler corresponds to a bot command (e.g., /start, /today, /maamar).
 Handlers should be:
 - Async (uses await)
 - Focused (one responsibility)
@@ -15,9 +15,12 @@ from datetime import date
 from telegram import Update
 from telegram.ext import ContextTypes
 
-from src.bot.formatters import build_source_keyboard, format_quote
+from src.bot.formatters import (
+    build_maamar_keyboard,
+    format_maamar,
+)
 from src.bot.rate_limit import is_rate_limited
-from src.data.repository import get_repository
+from src.data.maamar_repository import get_maamar_repository
 from src.utils.config import get_settings
 from src.utils.logger import get_logger
 
@@ -85,17 +88,21 @@ async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> N
     if await _check_rate_limit(update):
         return
 
-    welcome_text = """🕯️ <b>Ashlag Yomi</b>
+    welcome_text = """🕯️ <b>אשלג יומי</b>
 
-Daily Kabbalistic wisdom from six spiritual lineages.
+חכמת הקבלה היומית משושלת אשלג.
 
-<b>Commands:</b>
-/today – Get today's 6 quotes
-/quote – Get a random quote
-/about – Learn about the lineage
-/help – Show all commands
+<b>פקודות:</b>
+/maamar – קבל מאמר אקראי
+/today – קבל את המאמר של היום
+/about – למד על השושלת
+/help – הצג את כל הפקודות
 
-📅 New quotes daily at 6:00 AM Israel time
+📅 מאמר חדש כל יום ב-6:00 בבוקר
+
+<b>מקורות:</b>
+📖 בעל הסולם - כתבי רבי יהודה אשלג
+💎 הרב"ש - כתבי רבי ברוך שלום אשלג
 """
 
     await update.effective_message.reply_text(
@@ -111,9 +118,9 @@ Daily Kabbalistic wisdom from six spiritual lineages.
 
 async def today_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """
-    Handle /today command - send today's quotes immediately.
+    Handle /today command - send today's maamar.
 
-    Useful for testing or catching up on missed quotes.
+    Sends a complete maamar from Baal Hasulam or Rabash.
     """
     if not update.effective_message:
         return
@@ -124,68 +131,62 @@ async def today_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> N
     settings = get_settings()
 
     try:
-        # Use cached repository for fast access
-        repository = get_repository()
-        bundle = repository.get_daily_bundle(date.today())
+        # Use cached maamar repository for fast access
+        repository = get_maamar_repository()
+        daily = repository.get_daily_maamar(date.today())
 
-        if not bundle.quotes:
+        if not daily:
             await update.effective_message.reply_text(
-                "😔 No quotes available.\n אין ציטוטים זמינים."
+                "😔 אין מאמרים זמינים.\nNo maamarim available."
             )
             return
 
         if settings.dry_run:
-            logger.info("dry_run_today", quote_count=len(bundle.quotes))
+            logger.info(
+                "dry_run_today",
+                maamar_id=daily.maamar.id,
+                title=daily.maamar.title,
+            )
             await update.effective_message.reply_text(
-                f"[DRY RUN] Would send {len(bundle.quotes)} quotes"
+                f"[DRY RUN] Would send maamar: {daily.maamar.title}"
             )
             return
 
-        # Send header
-        date_str = bundle.date.strftime("%d.%m.%Y")
-        header = f"🌅 <b>אשלג יומי - {date_str}</b>\n\n═══════════════════"
-        await update.effective_message.reply_text(
-            header,
-            parse_mode="HTML",
-        )
+        # Format the maamar (may be split into multiple messages)
+        messages = format_maamar(daily.maamar, daily.date)
+        keyboard = build_maamar_keyboard(daily.maamar)
 
-        # Send each quote with its inline keyboard (nachyomi-bot pattern)
-        # Add delay between messages to avoid Telegram rate limits
-        for quote in bundle.quotes:
-            await asyncio.sleep(MESSAGE_DELAY)
+        # Send each message
+        for i, message in enumerate(messages):
+            if i > 0:
+                await asyncio.sleep(MESSAGE_DELAY)
 
-            message = format_quote(quote)
-            keyboard = build_source_keyboard(quote)
+            # Only add keyboard to the last message
+            reply_markup = keyboard if i == len(messages) - 1 else None
 
             await update.effective_message.reply_text(
                 message,
                 parse_mode="HTML",
-                reply_markup=keyboard,  # Inline keyboard for source link
+                reply_markup=reply_markup,
                 disable_web_page_preview=True,
             )
-
-        # Send footer
-        await asyncio.sleep(MESSAGE_DELAY)
-        await update.effective_message.reply_text(
-            "═══════════════════",
-            parse_mode="HTML",
-        )
 
         logger.info(
             "today_command",
             user_id=update.effective_user.id if update.effective_user else None,
-            quote_count=len(bundle.quotes),
+            maamar_id=daily.maamar.id,
+            message_count=len(messages),
         )
 
     except Exception as e:
         await _log_and_reply_error(update, "today", e)
 
 
-async def quote_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+async def maamar_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """
-    Handle /quote command - send a single random quote.
+    Handle /maamar command - send a random maamar.
 
-    Quick way to get a taste of the content without the full daily bundle.
+    Sends a complete random maamar from Baal Hasulam or Rabash.
     """
     if not update.effective_message:
         return
@@ -194,34 +195,54 @@ async def quote_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> N
         return
 
     try:
-        # Use cached repository for fast access
-        repository = get_repository()
-        quote = repository.get_random_quote()
+        # Use cached maamar repository for fast access
+        repository = get_maamar_repository()
+        maamar = repository.get_random_maamar()
 
-        if not quote:
+        if not maamar:
             await update.effective_message.reply_text(
-                "😔 No quotes available.\n אין ציטוטים זמינים."
+                "😔 אין מאמרים זמינים.\nNo maamarim available."
             )
             return
 
-        message = format_quote(quote)
-        keyboard = build_source_keyboard(quote)
+        # Format the maamar (may be split into multiple messages)
+        messages = format_maamar(maamar)
+        keyboard = build_maamar_keyboard(maamar)
 
-        await update.effective_message.reply_text(
-            message,
-            parse_mode="HTML",
-            reply_markup=keyboard,
-            disable_web_page_preview=True,
-        )
+        # Send each message
+        for i, message in enumerate(messages):
+            if i > 0:
+                await asyncio.sleep(MESSAGE_DELAY)
+
+            # Only add keyboard to the last message
+            reply_markup = keyboard if i == len(messages) - 1 else None
+
+            await update.effective_message.reply_text(
+                message,
+                parse_mode="HTML",
+                reply_markup=reply_markup,
+                disable_web_page_preview=True,
+            )
 
         logger.info(
-            "quote_command",
+            "maamar_command",
             user_id=update.effective_user.id if update.effective_user else None,
-            quote_id=quote.id,
+            maamar_id=maamar.id,
+            message_count=len(messages),
         )
 
     except Exception as e:
-        await _log_and_reply_error(update, "quote", e)
+        await _log_and_reply_error(update, "maamar", e)
+
+
+# Keep quote_command as alias for backward compatibility
+async def quote_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    """
+    Handle /quote command - alias for /maamar.
+
+    Kept for backward compatibility.
+    """
+    await maamar_command(update, context)
 
 
 async def about_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
@@ -234,31 +255,23 @@ async def about_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> N
 
     about_text = """📚 <b>על אשלג יומי</b>
 
-פרויקט זה נועד להפיץ את תורת הקבלה של שושלת אשלג - קו ישיר של חכמה רוחנית מהאר״י הקדוש ועד ימינו.
+פרויקט זה נועד להפיץ את תורת הקבלה של שושלת אשלג - חכמה רוחנית מעמיקה לימינו.
 
-<b>השושלת:</b>
-
-🕯️ <b>האר״י הקדוש</b> (1534-1572)
-רבי יצחק לוריא אשכנזי - אבי הקבלה הלוריאנית
-
-✨ <b>הבעל שם טוב</b> (1698-1760)
-רבי ישראל בן אליעזר - מייסד תנועת החסידות
-
-🔥 <b>חסידות פולין</b> (1700-1900)
-המגיד ממזריטש, פשיסחא, קוצק ועוד
+<b>המקורות:</b>
 
 📖 <b>בעל הסולם</b> (1884-1954)
-רבי יהודה אשלג - מחבר פירוש הסולם על הזוהר
+רבי יהודה לייב הלוי אשלג
+מחבר פירוש "הסולם" על ספר הזוהר, "תלמוד עשר הספירות", ומאמרים רבים בחכמת הקבלה.
+הנגיש את חכמת הקבלה לדורנו בשפה ברורה ומדויקת.
 
-💎 <b>הרב״ש</b> (1907-1991)
-רבי ברוך שלום אשלג - בנו ותלמידו של בעל הסולם
-
-🌱 <b>חסידי אשלג</b>
-ממשיכי הדרך בדורנו
+💎 <b>הרב"ש</b> (1907-1991)
+רבי ברוך שלום הלוי אשלג
+בנו ותלמידו המובהק של בעל הסולם.
+המשיך את דרכו של אביו וכתב מאות מאמרים בעבודה הפנימית.
 
 <b>קישורים:</b>
-• <a href="https://www.orhassulam.com/">אור הסולם</a>
-• <a href="https://www.sefaria.org/">ספריא</a>
+• <a href="https://search.orhasulam.org/">אור הסולם - כתבי בעל הסולם</a>
+• <a href="https://ashlagbaroch.org/rbsMore/">אשלג ברוך - כתבי הרב"ש</a>
 
 <i>קוד פתוח - נבנה באהבה</i>
 """
@@ -283,14 +296,20 @@ async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> No
     if await _check_rate_limit(update):
         return
 
-    help_text = """<b>Commands:</b>
+    help_text = """<b>פקודות:</b>
 
-/today – Get today's 6 quotes
-/quote – Get a random quote
-/about – Learn about the lineage
+/maamar – קבל מאמר אקראי מבעל הסולם או הרב"ש
+/today – קבל את המאמר היומי
+/about – למד על המקורות והשושלת
+/feedback – שלח משוב
+
+📅 מאמר חדש כל יום ב-6:00 בבוקר (שעון ישראל)
+
+<b>Commands:</b>
+/maamar – Get a random maamar
+/today – Get today's maamar
+/about – Learn about the sources
 /feedback – Send feedback
-
-📅 New quotes daily at 6:00 AM Israel time
 """
 
     await update.effective_message.reply_text(

@@ -34,6 +34,10 @@ dependencies = [
     "python-dotenv>=1.0.0",
     "structlog>=23.0.0",
     "apscheduler>=3.10.0",
+    # Scraper dependencies
+    "beautifulsoup4>=4.12.0",
+    "lxml>=4.9.0",
+    "PyMuPDF>=1.23.0",
 ]
 
 [project.optional-dependencies]
@@ -102,10 +106,15 @@ ignore = [
     "E501",   # line too long (handled by black)
     "PLR0913", # too many arguments
     "PLR2004", # magic value comparison
+    "PLW2901", # loop variable overwritten (intentional for processing)
     "RUF001", # ambiguous unicode (intentional Hebrew/unicode characters)
+    "RUF002", # ambiguous unicode in docstrings (intentional Hebrew)
+    "RUF005", # list concatenation (prefer explicit for readability)
+    "RUF022", # __all__ not sorted (we organize by category intentionally)
     "ARG001", # unused function argument (required by Telegram bot API signatures)
     "SIM105", # use contextlib.suppress (prefer explicit try-except for clarity)
     "SIM117", # nested with statements (more readable in tests)
+    "TC001",  # type checking imports (not critical for this project)
     "TC002",  # type checking imports (not critical for this project)
     "TC003",  # type checking imports (not critical for this project)
     "PLC0415", # import not at top level (sometimes intentional to avoid circular imports)
