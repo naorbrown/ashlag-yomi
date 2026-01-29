@@ -8,13 +8,16 @@ from telegram import BotCommand, Update
 
 from src.bot.main import (
     BOT_COMMANDS,
+    create_application,
+    error_handler,
+    register_commands,
+)
+from src.bot.rate_limit import (
     RATE_LIMIT,
     RATE_WINDOW,
     _rate_limits,
-    create_application,
-    error_handler,
+    clear_rate_limits,
     is_rate_limited,
-    register_commands,
 )
 
 
@@ -60,7 +63,7 @@ class TestRateLimiting:
 
     def setup_method(self):
         """Clear rate limits before each test."""
-        _rate_limits.clear()
+        clear_rate_limits()
 
     def test_first_request_not_limited(self):
         """First request should not be rate limited."""

@@ -21,8 +21,6 @@ Usage:
 import asyncio
 import signal
 import sys
-from collections import defaultdict
-from datetime import datetime, timedelta
 from typing import NoReturn
 
 from telegram import BotCommand, Update
@@ -41,11 +39,6 @@ from src.utils.logger import get_logger, setup_logging
 
 logger = get_logger(__name__)
 
-# Rate limiting configuration (nachyomi-bot pattern)
-RATE_LIMIT = 5  # requests per window
-RATE_WINDOW = timedelta(minutes=1)
-_rate_limits: dict[int, list[datetime]] = defaultdict(list)
-
 # Bot commands for registration with Telegram
 # Following nachyomi-bot pattern: short, English, verb + object
 BOT_COMMANDS = [
@@ -56,44 +49,6 @@ BOT_COMMANDS = [
     BotCommand("help", "Show all commands"),
     BotCommand("feedback", "Send feedback"),
 ]
-
-
-def is_rate_limited(user_id: int) -> bool:
-    """
-    Check if a user has exceeded the rate limit.
-
-    Uses a sliding window approach (nachyomi-bot pattern):
-    - Track timestamps of recent requests per user
-    - Clean up old entries outside the window
-    - Return True if limit exceeded
-
-    Args:
-        user_id: Telegram user ID
-
-    Returns:
-        True if rate limited, False otherwise
-    """
-    now = datetime.now()
-    window_start = now - RATE_WINDOW
-
-    # Filter to only recent requests within window
-    recent = [t for t in _rate_limits[user_id] if t > window_start]
-    _rate_limits[user_id] = recent
-
-    if len(recent) >= RATE_LIMIT:
-        return True
-
-    # Add current request
-    recent.append(now)
-    _rate_limits[user_id] = recent
-
-    # Cleanup old users (prevent memory leak)
-    if len(_rate_limits) > 1000:
-        for uid in list(_rate_limits.keys()):
-            if not _rate_limits[uid]:
-                del _rate_limits[uid]
-
-    return False
 
 
 def create_application() -> Application:  # type: ignore[type-arg]
