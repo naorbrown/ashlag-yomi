@@ -13,7 +13,11 @@
       "source_section": "שער א׳, ענף א׳",
       "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_HaKlalim.1",
       "category": "arizal",
-      "tags": ["צמצום", "אור אין סוף", "בריאה"],
+      "tags": [
+        "צמצום",
+        "אור אין סוף",
+        "בריאה"
+      ],
       "length_estimate": 35,
       "created_at": "2024-01-01T00:00:00"
     },
@@ -25,7 +29,11 @@
       "source_section": "הקדמה ז׳",
       "source_url": "https://www.sefaria.org/Shaar_HaGilgulim,_Introduction.7",
       "category": "arizal",
-      "tags": ["נשמות", "אדם הראשון", "גלגול"],
+      "tags": [
+        "נשמות",
+        "אדם הראשון",
+        "גלגול"
+      ],
       "length_estimate": 30,
       "created_at": "2024-01-01T00:00:00"
     },
@@ -37,7 +45,11 @@
       "source_section": "שער מ״ב, פרק א׳",
       "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_42.1",
       "category": "arizal",
-      "tags": ["תיקון", "עולמות", "מעשים טובים"],
+      "tags": [
+        "תיקון",
+        "עולמות",
+        "מעשים טובים"
+      ],
       "length_estimate": 28,
       "created_at": "2024-01-01T00:00:00"
     },
@@ -49,7 +61,11 @@
       "source_section": "דרוש הלילה",
       "source_url": "https://www.sefaria.org/Shaar_HaKavanot",
       "category": "arizal",
-      "tags": ["השגחה", "טבע", "מזל"],
+      "tags": [
+        "השגחה",
+        "טבע",
+        "מזל"
+      ],
       "length_estimate": 22,
       "created_at": "2024-01-01T00:00:00"
     },
@@ -61,7 +77,11 @@
       "source_section": "הקדמה י״א",
       "source_url": "https://www.sefaria.org/Shaar_HaGilgulim,_Introduction.11",
       "category": "arizal",
-      "tags": ["חטא", "תשובה", "תיקון"],
+      "tags": [
+        "חטא",
+        "תשובה",
+        "תיקון"
+      ],
       "length_estimate": 30,
       "created_at": "2024-01-01T00:00:00"
     },
@@ -73,7 +93,11 @@
       "source_section": "הקדמה א׳",
       "source_url": "https://www.sefaria.org/Shaar_HaGilgulim,_Introduction.1",
       "category": "arizal",
-      "tags": ["נשמה", "גלגול", "תיקון"],
+      "tags": [
+        "נשמה",
+        "גלגול",
+        "תיקון"
+      ],
       "length_estimate": 24,
       "created_at": "2024-01-01T00:00:00"
     },
@@ -85,7 +109,11 @@
       "source_section": "שער א׳, ענף ב׳",
       "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_HaKlalim.2",
       "category": "arizal",
-      "tags": ["צמצום", "רשימו", "אור"],
+      "tags": [
+        "צמצום",
+        "רשימו",
+        "אור"
+      ],
       "length_estimate": 26,
       "created_at": "2024-01-01T00:00:00"
     },
@@ -97,7 +125,11 @@
       "source_section": "הקדמה ד׳",
       "source_url": "https://www.sefaria.org/Shaar_HaGilgulim,_Introduction.4",
       "category": "arizal",
-      "tags": ["ניצוץ", "נשמה", "גלגול"],
+      "tags": [
+        "ניצוץ",
+        "נשמה",
+        "גלגול"
+      ],
       "length_estimate": 28,
       "created_at": "2024-01-01T00:00:00"
     },
@@ -109,7 +141,11 @@
       "source_section": "ענין התפילה",
       "source_url": "https://www.sefaria.org/Shaar_HaKavanot",
       "category": "arizal",
-      "tags": ["תפילה", "מיין נוקבין", "שפע"],
+      "tags": [
+        "תפילה",
+        "מיין נוקבין",
+        "שפע"
+      ],
       "length_estimate": 26,
       "created_at": "2024-01-01T00:00:00"
     },
@@ -121,7 +157,11 @@
       "source_section": "פרשת בראשית",
       "source_url": "https://www.sefaria.org/Shaar_HaMitzvot,_Bereshit",
       "category": "arizal",
-      "tags": ["מצוות", "ניצוץ", "תיקון"],
+      "tags": [
+        "מצוות",
+        "ניצוץ",
+        "תיקון"
+      ],
       "length_estimate": 26,
       "created_at": "2024-01-01T00:00:00"
     },
@@ -133,7 +173,11 @@
       "source_section": "הקדמה כ׳",
       "source_url": "https://www.sefaria.org/Shaar_HaGilgulim,_Introduction.20",
       "category": "arizal",
-      "tags": ["נשמה", "מצוה", "גלגול"],
+      "tags": [
+        "נשמה",
+        "מצוה",
+        "גלגול"
+      ],
       "length_estimate": 28,
       "created_at": "2024-01-01T00:00:00"
     },
@@ -145,7 +189,11 @@
       "source_section": "שער ל״ט, פרק א׳",
       "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_39.1",
       "category": "arizal",
-      "tags": ["עולם הזה", "תיקון", "הזדמנות"],
+      "tags": [
+        "עולם הזה",
+        "תיקון",
+        "הזדמנות"
+      ],
       "length_estimate": 26,
       "created_at": "2024-01-01T00:00:00"
     },
@@ -157,7 +205,11 @@
       "source_section": "שער מ״ב, פרק ד׳",
       "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_42.4",
       "category": "arizal",
-      "tags": ["עולם קטן", "אדם", "תיקון"],
+      "tags": [
+        "עולם קטן",
+        "אדם",
+        "תיקון"
+      ],
       "length_estimate": 32,
       "created_at": "2024-01-01T00:00:00"
     },
@@ -169,7 +221,11 @@
       "source_section": "שער א׳, ענף ה׳",
       "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_HaKlalim.5",
       "category": "arizal",
-      "tags": ["ספירות", "בריאה", "אלוקות"],
+      "tags": [
+        "ספירות",
+        "בריאה",
+        "אלוקות"
+      ],
       "length_estimate": 30,
       "created_at": "2024-01-01T00:00:00"
     },
@@ -181,7 +237,11 @@
       "source_section": "דרושי שבת",
       "source_url": "https://www.sefaria.org/Shaar_HaKavanot",
       "category": "arizal",
-      "tags": ["שבת", "ברכה", "שפע"],
+      "tags": [
+        "שבת",
+        "ברכה",
+        "שפע"
+      ],
       "length_estimate": 22,
       "created_at": "2024-01-01T00:00:00"
     },
@@ -193,7 +253,11 @@
       "source_section": "דרוש התפילה",
       "source_url": "https://www.sefaria.org/Shaar_HaKavanot",
       "category": "arizal",
-      "tags": ["תפילה", "כוונה", "עולמות"],
+      "tags": [
+        "תפילה",
+        "כוונה",
+        "עולמות"
+      ],
       "length_estimate": 28,
       "created_at": "2024-01-01T00:00:00"
     },
@@ -205,7 +269,11 @@
       "source_section": "הקדמה ב׳",
       "source_url": "https://www.sefaria.org/Shaar_HaGilgulim,_Introduction.2",
       "category": "arizal",
-      "tags": ["נרנח״י", "נשמה", "מדרגות"],
+      "tags": [
+        "נרנח״י",
+        "נשמה",
+        "מדרגות"
+      ],
       "length_estimate": 30,
       "created_at": "2024-01-01T00:00:00"
     },
@@ -217,7 +285,11 @@
       "source_section": "שער הזיווגים, פרק א׳",
       "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_HaZivugim.1",
       "category": "arizal",
-      "tags": ["זיווג", "ייחוד", "מעשים"],
+      "tags": [
+        "זיווג",
+        "ייחוד",
+        "מעשים"
+      ],
       "length_estimate": 28,
       "created_at": "2024-01-01T00:00:00"
     },
@@ -229,7 +301,11 @@
       "source_section": "שער הדינים, פרק א׳",
       "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_HaDinim.1",
       "category": "arizal",
-      "tags": ["דין", "חסד", "עולם"],
+      "tags": [
+        "דין",
+        "חסד",
+        "עולם"
+      ],
       "length_estimate": 26,
       "created_at": "2024-01-01T00:00:00"
     },
@@ -241,7 +317,11 @@
       "source_section": "דרוש הלילה",
       "source_url": "https://www.sefaria.org/Shaar_HaKavanot",
       "category": "arizal",
-      "tags": ["תורה", "לילה", "עולמות"],
+      "tags": [
+        "תורה",
+        "לילה",
+        "עולמות"
+      ],
       "length_estimate": 26,
       "created_at": "2024-01-01T00:00:00"
     },
@@ -253,7 +333,11 @@
       "source_section": "פרשת ראה",
       "source_url": "https://www.sefaria.org/Shaar_HaMitzvot,_Re'eh",
       "category": "arizal",
-      "tags": ["צדקה", "חיבור", "תיקון"],
+      "tags": [
+        "צדקה",
+        "חיבור",
+        "תיקון"
+      ],
       "length_estimate": 24,
       "created_at": "2024-01-01T00:00:00"
     },
@@ -265,7 +349,11 @@
       "source_section": "תיקון הדיבור",
       "source_url": "https://www.sefaria.org/Shaar_Ruach_HaKodesh",
       "category": "arizal",
-      "tags": ["דיבור", "מילה", "כוח"],
+      "tags": [
+        "דיבור",
+        "מילה",
+        "כוח"
+      ],
       "length_estimate": 26,
       "created_at": "2024-01-01T00:00:00"
     },
@@ -277,7 +365,11 @@
       "source_section": "דרוש החלומות",
       "source_url": "https://www.sefaria.org/Shaar_Ruach_HaKodesh",
       "category": "arizal",
-      "tags": ["חלום", "נשמה", "לילה"],
+      "tags": [
+        "חלום",
+        "נשמה",
+        "לילה"
+      ],
       "length_estimate": 28,
       "created_at": "2024-01-01T00:00:00"
     },
@@ -289,7 +381,11 @@
       "source_section": "הקדמה ט׳",
       "source_url": "https://www.sefaria.org/Shaar_HaGilgulim,_Introduction.9",
       "category": "arizal",
-      "tags": ["נשמה", "שורש", "ייחוד"],
+      "tags": [
+        "נשמה",
+        "שורש",
+        "ייחוד"
+      ],
       "length_estimate": 26,
       "created_at": "2024-01-01T00:00:00"
     },
@@ -301,7 +397,11 @@
       "source_section": "תיקון המחשבה",
       "source_url": "https://www.sefaria.org/Shaar_Ruach_HaKodesh",
       "category": "arizal",
-      "tags": ["מחשבה", "פגם", "עולמות"],
+      "tags": [
+        "מחשבה",
+        "פגם",
+        "עולמות"
+      ],
       "length_estimate": 24,
       "created_at": "2024-01-01T00:00:00"
     },
@@ -313,7 +413,11 @@
       "source_section": "שער א׳, פתיחה",
       "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_HaKlalim",
       "category": "arizal",
-      "tags": ["בריאה", "טוב", "תכלית"],
+      "tags": [
+        "בריאה",
+        "טוב",
+        "תכלית"
+      ],
       "length_estimate": 24,
       "created_at": "2024-01-01T00:00:00"
     },
@@ -325,7 +429,11 @@
       "source_section": "דרוש התפילה",
       "source_url": "https://www.sefaria.org/Shaar_HaKavanot",
       "category": "arizal",
-      "tags": ["חידוש", "יום", "עבודה"],
+      "tags": [
+        "חידוש",
+        "יום",
+        "עבודה"
+      ],
       "length_estimate": 26,
       "created_at": "2024-01-01T00:00:00"
     },
@@ -337,7 +445,11 @@
       "source_section": "שער מ״ד, פרק ג׳",
       "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_44.3",
       "category": "arizal",
-      "tags": ["תורה", "לשמה", "אור"],
+      "tags": [
+        "תורה",
+        "לשמה",
+        "אור"
+      ],
       "length_estimate": 22,
       "created_at": "2024-01-01T00:00:00"
     },
@@ -349,7 +461,11 @@
       "source_section": "תיקוני תשובה",
       "source_url": "https://www.sefaria.org/Shaar_Ruach_HaKodesh",
       "category": "arizal",
-      "tags": ["תשובה", "תיקון", "פגם"],
+      "tags": [
+        "תשובה",
+        "תיקון",
+        "פגם"
+      ],
       "length_estimate": 26,
       "created_at": "2024-01-01T00:00:00"
     },
@@ -361,10 +477,5374 @@
       "source_section": "שער הזיווגים, פרק ג׳",
       "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_HaZivugim.3",
       "category": "arizal",
-      "tags": ["נתינה", "שפע", "קבלה"],
+      "tags": [
+        "נתינה",
+        "שפע",
+        "קבלה"
+      ],
       "length_estimate": 24,
       "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-001",
+      "text": "אחר הצמצום נמשך קו דק מן האור העליון לתוך החלל, והוא המחבר את האין סוף עם העולמות",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער א׳, ענף ב׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim",
+      "category": "arizal",
+      "tags": [
+        "צמצום",
+        "קו",
+        "אור אין סוף"
+      ],
+      "length_estimate": 32,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-002",
+      "text": "הרשימו שנשאר אחר הצמצום הוא שורש כל הדינים, ומשם מתפשטים הגבורות לכל העולמות",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער א׳, ענף ג׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim",
+      "category": "arizal",
+      "tags": [
+        "רשימו",
+        "דינים",
+        "גבורות"
+      ],
+      "length_estimate": 30,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-003",
+      "text": "עולם האצילות הוא עולם האחדות הגמורה, ושם אין פירוד בין האורות והכלים",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער ב׳, פרק א׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim",
+      "category": "arizal",
+      "tags": [
+        "אצילות",
+        "אחדות",
+        "אורות וכלים"
+      ],
+      "length_estimate": 28,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-004",
+      "text": "הספירות הן עשר ולא תשע ולא אחת עשרה, וכל אחת כלולה מכולן",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער ג׳, פרק א׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim",
+      "category": "arizal",
+      "tags": [
+        "ספירות",
+        "עשר",
+        "התכללות"
+      ],
+      "length_estimate": 24,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-005",
+      "text": "הכתר הוא הממוצע בין המאציל לנאצלים, ודרכו עובר כל השפע מהאין סוף",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער ד׳, פרק א׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim",
+      "category": "arizal",
+      "tags": [
+        "כתר",
+        "שפע",
+        "ממוצע"
+      ],
+      "length_estimate": 26,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-006",
+      "text": "חכמה היא ראשית הגילוי, ומשם מתחילה ההשגה של הנבראים",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער ה׳, פרק א׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim",
+      "category": "arizal",
+      "tags": [
+        "חכמה",
+        "גילוי",
+        "השגה"
+      ],
+      "length_estimate": 22,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-007",
+      "text": "הבינה היא עולם התשובה, ומשם יוצאת כל התעוררות לשוב אל השורש",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער ו׳, פרק א׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim",
+      "category": "arizal",
+      "tags": [
+        "בינה",
+        "תשובה",
+        "שורש"
+      ],
+      "length_estimate": 24,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-008",
+      "text": "שבירת הכלים היתה הכרחית כדי שיהיה מקום לבחירה חופשית ולעבודת האדם",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער ח׳, פרק א׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim",
+      "category": "arizal",
+      "tags": [
+        "שבירת הכלים",
+        "בחירה",
+        "עבודה"
+      ],
+      "length_estimate": 26,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-009",
+      "text": "הניצוצות שנפלו בשבירה הם החיות של כל הנבראים, וצריך להעלותם לשורשם",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער ט׳, פרק א׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim",
+      "category": "arizal",
+      "tags": [
+        "ניצוצות",
+        "שבירה",
+        "העלאה"
+      ],
+      "length_estimate": 26,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-010",
+      "text": "עולם התיקון נבנה על ידי הפרצופים, שהם סדר חדש של האורות והכלים",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער י״א, פרק א׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim",
+      "category": "arizal",
+      "tags": [
+        "תיקון",
+        "פרצופים",
+        "אורות וכלים"
+      ],
+      "length_estimate": 26,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-011",
+      "text": "פרצוף אריך אנפין הוא הסבלנות העליונה, ממנו נמשכת הארך אפים לכל העולמות",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער י״ג, פרק א׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim",
+      "category": "arizal",
+      "tags": [
+        "אריך אנפין",
+        "סבלנות",
+        "פרצופים"
+      ],
+      "length_estimate": 28,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-012",
+      "text": "אבא ואמא הם חכמה ובינה, והם מולידים את המוחין לזעיר אנפין",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער י״ד, פרק א׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim",
+      "category": "arizal",
+      "tags": [
+        "אבא",
+        "אמא",
+        "מוחין"
+      ],
+      "length_estimate": 24,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-013",
+      "text": "זעיר אנפין הוא שש הספירות מחסד עד יסוד, והוא המידות שהאדם צריך לתקן",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער ט״ו, פרק א׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim",
+      "category": "arizal",
+      "tags": [
+        "זעיר אנפין",
+        "מידות",
+        "תיקון"
+      ],
+      "length_estimate": 28,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-014",
+      "text": "המלכות היא הנוקבא, והיא מקבלת מכל הספירות ומעבירה את השפע לעולמות התחתונים",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער י״ז, פרק א׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim",
+      "category": "arizal",
+      "tags": [
+        "מלכות",
+        "נוקבא",
+        "שפע"
+      ],
+      "length_estimate": 30,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-015",
+      "text": "עולם הבריאה הוא עולם הכיסא, ושם מתחילה ההרגשה של יש נפרד",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער י״ח, פרק א׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim",
+      "category": "arizal",
+      "tags": [
+        "בריאה",
+        "כיסא",
+        "נפרד"
+      ],
+      "length_estimate": 24,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-016",
+      "text": "עולם היצירה הוא עולם המלאכים, ושם יש התחלקות רבה יותר מעולם הבריאה",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער י״ט, פרק א׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim",
+      "category": "arizal",
+      "tags": [
+        "יצירה",
+        "מלאכים",
+        "התחלקות"
+      ],
+      "length_estimate": 28,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-017",
+      "text": "עולם העשיה הוא העולם הזה, ושם נמצאת עיקר עבודת הבירורים",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער כ׳, פרק א׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim",
+      "category": "arizal",
+      "tags": [
+        "עשיה",
+        "עולם הזה",
+        "בירורים"
+      ],
+      "length_estimate": 24,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-018",
+      "text": "הקליפות נוצרו מפסולת הכלים שנשברו, והן מסתירות את האור האלוקי",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער כ״ב, פרק א׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim",
+      "category": "arizal",
+      "tags": [
+        "קליפות",
+        "הסתרה",
+        "שבירה"
+      ],
+      "length_estimate": 26,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-019",
+      "text": "יש ארבע קליפות, ושלוש מהן טמאות לגמרי ואחת מעורבת טוב ורע",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער כ״ג, פרק א׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim",
+      "category": "arizal",
+      "tags": [
+        "קליפות",
+        "טוב ורע",
+        "ארבע"
+      ],
+      "length_estimate": 26,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-020",
+      "text": "הנוגה היא הקליפה הרביעית, ומשם באים כל הדברים המותרים שבעולם הזה",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער כ״ד, פרק א׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim",
+      "category": "arizal",
+      "tags": [
+        "נוגה",
+        "קליפה",
+        "מותר"
+      ],
+      "length_estimate": 28,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-021",
+      "text": "כשהאדם מקדש את עצמו במותר לו, הוא מברר ניצוצות מקליפת נוגה",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער כ״ה, פרק א׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim",
+      "category": "arizal",
+      "tags": [
+        "קדושה",
+        "בירורים",
+        "נוגה"
+      ],
+      "length_estimate": 26,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-022",
+      "text": "האורות הפנימיים הם בסדר ישר - הגדול במעלה גדול באור, והחיצוניים בהיפך",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער כ״ז, פרק א׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim",
+      "category": "arizal",
+      "tags": [
+        "אורות",
+        "פנימיים",
+        "חיצוניים"
+      ],
+      "length_estimate": 30,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-023",
+      "text": "האור המקיף הוא האור שלא נכנס לתוך הכלי, והוא מאיר מבחוץ ומעורר את הכלי לגדול",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער כ״ח, פרק א׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim",
+      "category": "arizal",
+      "tags": [
+        "אור מקיף",
+        "כלי",
+        "גדילה"
+      ],
+      "length_estimate": 32,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-024",
+      "text": "החסדים מכסים על הגבורות, ועל ידי זה נעשה ייחוד והרמוניה בספירות",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער ל׳, פרק א׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim",
+      "category": "arizal",
+      "tags": [
+        "חסדים",
+        "גבורות",
+        "ייחוד"
+      ],
+      "length_estimate": 26,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-025",
+      "text": "המוחין הם אורות החכמה והבינה שנכנסים לזעיר אנפין ומגדילים אותו",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער ל״א, פרק א׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim",
+      "category": "arizal",
+      "tags": [
+        "מוחין",
+        "גדלות",
+        "זעיר אנפין"
+      ],
+      "length_estimate": 26,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-026",
+      "text": "יש מוחין דקטנות ומוחין דגדלות, והאדם מעלה ומוריד אותם על ידי מעשיו",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער ל״ב, פרק א׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim",
+      "category": "arizal",
+      "tags": [
+        "קטנות",
+        "גדלות",
+        "מעשים"
+      ],
+      "length_estimate": 28,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-027",
+      "text": "הדעת היא המחברת בין חכמה לבינה, והיא כוח ההתקשרות והדביקות",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער ל״ד, פרק א׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim",
+      "category": "arizal",
+      "tags": [
+        "דעת",
+        "חיבור",
+        "דביקות"
+      ],
+      "length_estimate": 26,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-028",
+      "text": "התפארת היא קו האמצע, והיא ממזגת בין החסד והדין לעשות רחמים",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער ל״ו, פרק א׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim",
+      "category": "arizal",
+      "tags": [
+        "תפארת",
+        "אמצע",
+        "רחמים"
+      ],
+      "length_estimate": 26,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-029",
+      "text": "היסוד הוא המאחד את כל הספירות ומעביר את השפע למלכות",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער ל״ח, פרק א׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim",
+      "category": "arizal",
+      "tags": [
+        "יסוד",
+        "איחוד",
+        "שפע"
+      ],
+      "length_estimate": 22,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-030",
+      "text": "בכל עולם יש עשר ספירות, וכל ספירה כלולה מעשר, וכן עד אין סוף",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער מ׳, פרק א׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim",
+      "category": "arizal",
+      "tags": [
+        "ספירות",
+        "התכללות",
+        "אין סוף"
+      ],
+      "length_estimate": 26,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-031",
+      "text": "הגלגול הוא חסד גדול שהבורא עושה עם הנשמה, לתת לה הזדמנות נוספת לתקן",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער הגלגולים",
+      "source_section": "הקדמה ג׳",
+      "source_url": "https://www.sefaria.org/Shaar_HaGilgulim",
+      "category": "arizal",
+      "tags": [
+        "גלגול",
+        "חסד",
+        "תיקון"
+      ],
+      "length_estimate": 28,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-032",
+      "text": "יש נשמות שמתגלגלות בדומם, צומח, חי ומדבר, על פי חומרת הפגם שפגמו",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער הגלגולים",
+      "source_section": "הקדמה ה׳",
+      "source_url": "https://www.sefaria.org/Shaar_HaGilgulim",
+      "category": "arizal",
+      "tags": [
+        "גלגול",
+        "דצח״מ",
+        "פגם"
+      ],
+      "length_estimate": 28,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-033",
+      "text": "כל נשמה יש לה תרי״ג ניצוצות, וכל ניצוץ צריך לתקן מצווה אחת",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער הגלגולים",
+      "source_section": "הקדמה ו׳",
+      "source_url": "https://www.sefaria.org/Shaar_HaGilgulim",
+      "category": "arizal",
+      "tags": [
+        "ניצוצות",
+        "מצוות",
+        "תרי״ג"
+      ],
+      "length_estimate": 26,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-034",
+      "text": "הנשמה החדשה נקראת נשמה שלא באה עדיין לעולם הזה, והיא נקייה מפגמים קודמים",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער הגלגולים",
+      "source_section": "הקדמה ח׳",
+      "source_url": "https://www.sefaria.org/Shaar_HaGilgulim",
+      "category": "arizal",
+      "tags": [
+        "נשמה חדשה",
+        "גלגול",
+        "פגמים"
+      ],
+      "length_estimate": 30,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-035",
+      "text": "העיבור הוא כשנשמה באה להתחבר לאדם חי כדי לעזור לו או להתתקן על ידו",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער הגלגולים",
+      "source_section": "הקדמה י׳",
+      "source_url": "https://www.sefaria.org/Shaar_HaGilgulim",
+      "category": "arizal",
+      "tags": [
+        "עיבור",
+        "נשמה",
+        "עזרה"
+      ],
+      "length_estimate": 28,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-036",
+      "text": "יש עיבור לטובה כשצדיק בא לעזור, ויש עיבור שבא לדרוש תיקון מהאדם",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער הגלגולים",
+      "source_section": "הקדמה י״ב",
+      "source_url": "https://www.sefaria.org/Shaar_HaGilgulim",
+      "category": "arizal",
+      "tags": [
+        "עיבור",
+        "צדיק",
+        "תיקון"
+      ],
+      "length_estimate": 28,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-037",
+      "text": "נשמות הצדיקים מסייעות לצאצאיהם ולתלמידיהם גם אחרי פטירתם",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער הגלגולים",
+      "source_section": "הקדמה י״ג",
+      "source_url": "https://www.sefaria.org/Shaar_HaGilgulim",
+      "category": "arizal",
+      "tags": [
+        "צדיקים",
+        "סיוע",
+        "נשמות"
+      ],
+      "length_estimate": 22,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-038",
+      "text": "כל אדם יכול לזכות לרוח הקודש אם יתקן את עצמו כראוי ויטהר את נשמתו",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער הגלגולים",
+      "source_section": "הקדמה י״ד",
+      "source_url": "https://www.sefaria.org/Shaar_HaGilgulim",
+      "category": "arizal",
+      "tags": [
+        "רוח הקודש",
+        "תיקון",
+        "טהרה"
+      ],
+      "length_estimate": 28,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-039",
+      "text": "יש נשמות ששורשן מהחסד ויש ששורשן מהגבורה, ולפי זה משתנה אופן עבודתן",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער הגלגולים",
+      "source_section": "הקדמה ט״ו",
+      "source_url": "https://www.sefaria.org/Shaar_HaGilgulim",
+      "category": "arizal",
+      "tags": [
+        "שורש הנשמה",
+        "חסד",
+        "גבורה"
+      ],
+      "length_estimate": 30,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-040",
+      "text": "האדם יכול לתקן בגלגול זה גם את מה שפגם בגלגולים קודמים שאינו זוכר",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער הגלגולים",
+      "source_section": "הקדמה ט״ז",
+      "source_url": "https://www.sefaria.org/Shaar_HaGilgulim",
+      "category": "arizal",
+      "tags": [
+        "גלגול",
+        "תיקון",
+        "זכרון"
+      ],
+      "length_estimate": 28,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-041",
+      "text": "הזיווג בין איש לאשה הוא לפי שורש נשמותיהם, ומשמיים מזווגים זיווגים",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער הגלגולים",
+      "source_section": "הקדמה י״ז",
+      "source_url": "https://www.sefaria.org/Shaar_HaGilgulim",
+      "category": "arizal",
+      "tags": [
+        "זיווג",
+        "נשמות",
+        "שורש"
+      ],
+      "length_estimate": 28,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-042",
+      "text": "הילדים שנולדים הם ניצוצות מנשמת ההורים, ולכן יש חובה מיוחדת לחנכם",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער הגלגולים",
+      "source_section": "הקדמה י״ח",
+      "source_url": "https://www.sefaria.org/Shaar_HaGilgulim",
+      "category": "arizal",
+      "tags": [
+        "ילדים",
+        "ניצוצות",
+        "חינוך"
+      ],
+      "length_estimate": 28,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-043",
+      "text": "מי שמת בלא בנים, נשמתו חוזרת בייבום או בגלגול כדי להשלים את תיקונה",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער הגלגולים",
+      "source_section": "הקדמה י״ט",
+      "source_url": "https://www.sefaria.org/Shaar_HaGilgulim",
+      "category": "arizal",
+      "tags": [
+        "ייבום",
+        "גלגול",
+        "בנים"
+      ],
+      "length_estimate": 28,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-044",
+      "text": "יש נשמות של גרים שהן משורש ישראל ורק ירדו לאומות כדי להתברר ולחזור",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער הגלגולים",
+      "source_section": "הקדמה כ״א",
+      "source_url": "https://www.sefaria.org/Shaar_HaGilgulim",
+      "category": "arizal",
+      "tags": [
+        "גרים",
+        "נשמות",
+        "בירור"
+      ],
+      "length_estimate": 28,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-045",
+      "text": "העוסק בתיקון חברו מתקן גם את עצמו, כי כל ישראל ערבים זה לזה בנשמותיהם",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער הגלגולים",
+      "source_section": "הקדמה כ״ב",
+      "source_url": "https://www.sefaria.org/Shaar_HaGilgulim",
+      "category": "arizal",
+      "tags": [
+        "ערבות",
+        "תיקון",
+        "ישראל"
+      ],
+      "length_estimate": 30,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-046",
+      "text": "נשמות קין והבל ממשיכות להתגלגל עד סוף הדורות, לתקן את החטא הראשון",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער הגלגולים",
+      "source_section": "הקדמה כ״ג",
+      "source_url": "https://www.sefaria.org/Shaar_HaGilgulim",
+      "category": "arizal",
+      "tags": [
+        "קין והבל",
+        "גלגול",
+        "תיקון"
+      ],
+      "length_estimate": 28,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-047",
+      "text": "משה רבינו הוא תיקון הבל, ולכן הוא הביא את התורה שהיא עץ החיים",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער הגלגולים",
+      "source_section": "פרק ט׳",
+      "source_url": "https://www.sefaria.org/Shaar_HaGilgulim",
+      "category": "arizal",
+      "tags": [
+        "משה",
+        "הבל",
+        "תורה"
+      ],
+      "length_estimate": 26,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-048",
+      "text": "הנשמה מתחלקת לשורש וענפים, וכל הענפים צריכים להתתקן כדי שהשורש יתעלה",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער הגלגולים",
+      "source_section": "פרק ג׳",
+      "source_url": "https://www.sefaria.org/Shaar_HaGilgulim",
+      "category": "arizal",
+      "tags": [
+        "שורש",
+        "ענפים",
+        "תיקון"
+      ],
+      "length_estimate": 30,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-049",
+      "text": "לפעמים אדם סובל על חטאי גלגולים קודמים, וזהו צידוק הדין שלא תמיד מובן",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער הגלגולים",
+      "source_section": "פרק ד׳",
+      "source_url": "https://www.sefaria.org/Shaar_HaGilgulim",
+      "category": "arizal",
+      "tags": [
+        "סבל",
+        "צידוק הדין",
+        "גלגול"
+      ],
+      "length_estimate": 30,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-050",
+      "text": "התשובה מועילה לתקן גם חטאים מגלגולים קודמים, אם האדם שב באמת",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער הגלגולים",
+      "source_section": "פרק ה׳",
+      "source_url": "https://www.sefaria.org/Shaar_HaGilgulim",
+      "category": "arizal",
+      "tags": [
+        "תשובה",
+        "גלגול",
+        "תיקון"
+      ],
+      "length_estimate": 26,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-051",
+      "text": "כוונת התפילה היא לייחד קודשא בריך הוא ושכינתיה, ולהעלות העולמות לשורשם",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער הכוונות",
+      "source_section": "דרוש התפילה, דרוש א׳",
+      "source_url": "https://www.sefaria.org/Shaar_HaKavanot",
+      "category": "arizal",
+      "tags": [
+        "תפילה",
+        "ייחוד",
+        "כוונה"
+      ],
+      "length_estimate": 30,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-052",
+      "text": "ברכות השחר הן העלאת הנשמה משינתה והחזרתה לגוף בשלמות",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער הכוונות",
+      "source_section": "דרוש ברכות השחר",
+      "source_url": "https://www.sefaria.org/Shaar_HaKavanot",
+      "category": "arizal",
+      "tags": [
+        "ברכות השחר",
+        "נשמה",
+        "שינה"
+      ],
+      "length_estimate": 22,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-053",
+      "text": "פסוקי דזמרה הם הכנה לתפילה, והם מעוררים את כל העולמות להתעלות",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער הכוונות",
+      "source_section": "דרוש פסוקי דזמרה",
+      "source_url": "https://www.sefaria.org/Shaar_HaKavanot",
+      "category": "arizal",
+      "tags": [
+        "פסוקי דזמרה",
+        "הכנה",
+        "התעלות"
+      ],
+      "length_estimate": 26,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-054",
+      "text": "קריאת שמע היא קבלת עול מלכות שמים, ובה מתייחדות כל הספירות",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער הכוונות",
+      "source_section": "דרוש קריאת שמע",
+      "source_url": "https://www.sefaria.org/Shaar_HaKavanot",
+      "category": "arizal",
+      "tags": [
+        "קריאת שמע",
+        "ייחוד",
+        "מלכות שמים"
+      ],
+      "length_estimate": 24,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-055",
+      "text": "השמונה עשרה היא עמידה לפני המלך, ובה האדם מתעלה עד עולם האצילות",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער הכוונות",
+      "source_section": "דרוש העמידה",
+      "source_url": "https://www.sefaria.org/Shaar_HaKavanot",
+      "category": "arizal",
+      "tags": [
+        "שמונה עשרה",
+        "עמידה",
+        "אצילות"
+      ],
+      "length_estimate": 26,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-056",
+      "text": "הקדושה של ״קדוש קדוש קדוש״ ממשיכה אור עליון מג׳ העולמות העליונים",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער הכוונות",
+      "source_section": "דרוש הקדושה",
+      "source_url": "https://www.sefaria.org/Shaar_HaKavanot",
+      "category": "arizal",
+      "tags": [
+        "קדושה",
+        "אור",
+        "עולמות"
+      ],
+      "length_estimate": 26,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-057",
+      "text": "כוונת הקידוש בשבת היא להמשיך את קדושת השבת לכל השבוע הבא",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער הכוונות",
+      "source_section": "דרושי השבת",
+      "source_url": "https://www.sefaria.org/Shaar_HaKavanot",
+      "category": "arizal",
+      "tags": [
+        "קידוש",
+        "שבת",
+        "קדושה"
+      ],
+      "length_estimate": 24,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-058",
+      "text": "סעודות השבת הן המשכת שפע רוחני לכל ימי השבוע, וכל סעודה ממשיכה ממקום אחר",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער הכוונות",
+      "source_section": "דרושי סעודות שבת",
+      "source_url": "https://www.sefaria.org/Shaar_HaKavanot",
+      "category": "arizal",
+      "tags": [
+        "סעודות שבת",
+        "שפע",
+        "שבת"
+      ],
+      "length_estimate": 32,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-059",
+      "text": "בליל הסדר נמשך אור גדול של חירות, והכוונות מעלות את הנשמות ממצרים הרוחנית",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער הכוונות",
+      "source_section": "דרושי פסח",
+      "source_url": "https://www.sefaria.org/Shaar_HaKavanot",
+      "category": "arizal",
+      "tags": [
+        "פסח",
+        "חירות",
+        "מצרים"
+      ],
+      "length_estimate": 30,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-060",
+      "text": "ספירת העומר היא טהרת המידות, וכל יום מתקנים ספירה אחרת מתוך שבע הספירות",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער הכוונות",
+      "source_section": "דרושי ספירת העומר",
+      "source_url": "https://www.sefaria.org/Shaar_HaKavanot",
+      "category": "arizal",
+      "tags": [
+        "ספירת העומר",
+        "מידות",
+        "טהרה"
+      ],
+      "length_estimate": 30,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-061",
+      "text": "בשבועות נמשכת התורה מחדש, וצריך להיות ער כל הלילה להכין את הכלי לקבלתה",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער הכוונות",
+      "source_section": "דרושי שבועות",
+      "source_url": "https://www.sefaria.org/Shaar_HaKavanot",
+      "category": "arizal",
+      "tags": [
+        "שבועות",
+        "תורה",
+        "תיקון ליל שבועות"
+      ],
+      "length_estimate": 30,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-062",
+      "text": "בראש השנה נידון העולם, והכוונות של התקיעות מעוררות את הרחמים העליונים",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער הכוונות",
+      "source_section": "דרושי ראש השנה",
+      "source_url": "https://www.sefaria.org/Shaar_HaKavanot",
+      "category": "arizal",
+      "tags": [
+        "ראש השנה",
+        "תקיעות",
+        "רחמים"
+      ],
+      "length_estimate": 28,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-063",
+      "text": "ביום הכיפורים הנשמה מתעלית עד לפני ולפנים, ואז יכולה להתכפר מכל עוונותיה",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער הכוונות",
+      "source_section": "דרושי יום הכיפורים",
+      "source_url": "https://www.sefaria.org/Shaar_HaKavanot",
+      "category": "arizal",
+      "tags": [
+        "יום הכיפורים",
+        "כפרה",
+        "התעלות"
+      ],
+      "length_estimate": 30,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-064",
+      "text": "בסוכות יוצאים מבית קבע לדירת עראי כדי להמשיך אורות מקיפים של אמונה",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער הכוונות",
+      "source_section": "דרושי סוכות",
+      "source_url": "https://www.sefaria.org/Shaar_HaKavanot",
+      "category": "arizal",
+      "tags": [
+        "סוכות",
+        "אמונה",
+        "אורות מקיפים"
+      ],
+      "length_estimate": 28,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-065",
+      "text": "ארבעת המינים רומזים לארבעה סוגי אנשים בישראל, והנענוע מאחד אותם",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער הכוונות",
+      "source_section": "דרוש ארבעת המינים",
+      "source_url": "https://www.sefaria.org/Shaar_HaKavanot",
+      "category": "arizal",
+      "tags": [
+        "ארבעת המינים",
+        "אחדות",
+        "סוכות"
+      ],
+      "length_estimate": 28,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-066",
+      "text": "כל מצווה מתקנת ניצוץ מסוים בנשמה, ולכן יש תרי״ג מצוות כנגד תרי״ג ניצוצות",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער המצוות",
+      "source_section": "פרשת בראשית",
+      "source_url": "https://www.sefaria.org/Shaar_HaMitzvot",
+      "category": "arizal",
+      "tags": [
+        "מצוות",
+        "ניצוצות",
+        "תרי״ג"
+      ],
+      "length_estimate": 30,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-067",
+      "text": "מצוות עשה ממשיכות אור לנשמה, ומצוות לא תעשה מונעות פגם בנשמה",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער המצוות",
+      "source_section": "פרשת נח",
+      "source_url": "https://www.sefaria.org/Shaar_HaMitzvot",
+      "category": "arizal",
+      "tags": [
+        "עשה",
+        "לא תעשה",
+        "נשמה"
+      ],
+      "length_estimate": 26,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-068",
+      "text": "מצוות המילה מסירה את הערלה שהיא הקליפה המכסה על ברית הקודש",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער המצוות",
+      "source_section": "פרשת לך לך",
+      "source_url": "https://www.sefaria.org/Shaar_HaMitzvot",
+      "category": "arizal",
+      "tags": [
+        "מילה",
+        "ערלה",
+        "קליפה"
+      ],
+      "length_estimate": 26,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-069",
+      "text": "כיבוד אב ואם מתקן את הנשמות של ההורים ושל הבן כאחד",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער המצוות",
+      "source_section": "פרשת יתרו",
+      "source_url": "https://www.sefaria.org/Shaar_HaMitzvot",
+      "category": "arizal",
+      "tags": [
+        "כיבוד הורים",
+        "תיקון",
+        "נשמות"
+      ],
+      "length_estimate": 24,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-070",
+      "text": "איסור לשון הרע הוא כי הדיבור פוגם בעולמות עליונים יותר מהמעשה",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער המצוות",
+      "source_section": "פרשת קדושים",
+      "source_url": "https://www.sefaria.org/Shaar_HaMitzvot",
+      "category": "arizal",
+      "tags": [
+        "לשון הרע",
+        "דיבור",
+        "פגם"
+      ],
+      "length_estimate": 26,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-071",
+      "text": "מצוות ואהבת לרעך כמוך כוללת את כל התורה, כי כל ישראל נשמה אחת",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער המצוות",
+      "source_section": "פרשת קדושים",
+      "source_url": "https://www.sefaria.org/Shaar_HaMitzvot",
+      "category": "arizal",
+      "tags": [
+        "אהבת ישראל",
+        "נשמה",
+        "כלל"
+      ],
+      "length_estimate": 28,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-072",
+      "text": "הנחת תפילין קושרת את המוחין העליונים עם מוחו של האדם",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער המצוות",
+      "source_section": "פרשת בא",
+      "source_url": "https://www.sefaria.org/Shaar_HaMitzvot",
+      "category": "arizal",
+      "tags": [
+        "תפילין",
+        "מוחין",
+        "קשר"
+      ],
+      "length_estimate": 22,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-073",
+      "text": "ציצית היא להמשיך אור מקיף על האדם, ולכן היא מגינה מן החטא",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער המצוות",
+      "source_section": "פרשת שלח",
+      "source_url": "https://www.sefaria.org/Shaar_HaMitzvot",
+      "category": "arizal",
+      "tags": [
+        "ציצית",
+        "אור מקיף",
+        "שמירה"
+      ],
+      "length_estimate": 26,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-074",
+      "text": "מזוזה שומרת על הבית כי היא ממשיכה שמירה עליונה על כל הנכנסים והיוצאים",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער המצוות",
+      "source_section": "פרשת עקב",
+      "source_url": "https://www.sefaria.org/Shaar_HaMitzvot",
+      "category": "arizal",
+      "tags": [
+        "מזוזה",
+        "שמירה",
+        "בית"
+      ],
+      "length_estimate": 30,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-075",
+      "text": "ברכת המזון מחזירה את השפע הרוחני שירד יחד עם המזון הגשמי",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער המצוות",
+      "source_section": "פרשת עקב",
+      "source_url": "https://www.sefaria.org/Shaar_HaMitzvot",
+      "category": "arizal",
+      "tags": [
+        "ברכת המזון",
+        "שפע",
+        "אכילה"
+      ],
+      "length_estimate": 24,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-076",
+      "text": "שמירת השבת היא עדות שהבורא ברא את העולם, ולכן היא שקולה כנגד כל התורה",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער המצוות",
+      "source_section": "פרשת יתרו",
+      "source_url": "https://www.sefaria.org/Shaar_HaMitzvot",
+      "category": "arizal",
+      "tags": [
+        "שבת",
+        "בריאה",
+        "עדות"
+      ],
+      "length_estimate": 32,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-077",
+      "text": "מצוות פדיון הבן פודה את נשמת הבכור מהקליפות שיש להן חלק בבכורות",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער המצוות",
+      "source_section": "פרשת בא",
+      "source_url": "https://www.sefaria.org/Shaar_HaMitzvot",
+      "category": "arizal",
+      "tags": [
+        "פדיון הבן",
+        "בכור",
+        "קליפות"
+      ],
+      "length_estimate": 28,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-078",
+      "text": "נטילת ידיים מסירה את רוח הטומאה שנאחזת באצבעות בעת השינה",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער המצוות",
+      "source_section": "פרשת תצוה",
+      "source_url": "https://www.sefaria.org/Shaar_HaMitzvot",
+      "category": "arizal",
+      "tags": [
+        "נטילת ידיים",
+        "טומאה",
+        "שינה"
+      ],
+      "length_estimate": 26,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-079",
+      "text": "מצוות סוכה היא להיקף באור מקיף של אמונה, כענני הכבוד שהקיפו את ישראל",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער המצוות",
+      "source_section": "פרשת אמור",
+      "source_url": "https://www.sefaria.org/Shaar_HaMitzvot",
+      "category": "arizal",
+      "tags": [
+        "סוכה",
+        "אמונה",
+        "ענני כבוד"
+      ],
+      "length_estimate": 30,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-080",
+      "text": "מצוות לולב היא המשכת השפע מארבע כנפות הארץ ומארבע עולמות אבי״ע",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער המצוות",
+      "source_section": "פרשת אמור",
+      "source_url": "https://www.sefaria.org/Shaar_HaMitzvot",
+      "category": "arizal",
+      "tags": [
+        "לולב",
+        "שפע",
+        "עולמות"
+      ],
+      "length_estimate": 28,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-081",
+      "text": "רוח הקודש היא הארה מעולם הבריאה, והנבואה היא הארה מעולם האצילות",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער רוח הקודש",
+      "source_section": "הקדמה",
+      "source_url": "https://www.sefaria.org/Shaar_Ruach_HaKodesh",
+      "category": "arizal",
+      "tags": [
+        "רוח הקודש",
+        "נבואה",
+        "עולמות"
+      ],
+      "length_estimate": 26,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-082",
+      "text": "היחודים הם צירופי שמות שעל ידם יכול האדם להתעלות ולהתקרב לבורא",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער רוח הקודש",
+      "source_section": "דרוש היחודים",
+      "source_url": "https://www.sefaria.org/Shaar_Ruach_HaKodesh",
+      "category": "arizal",
+      "tags": [
+        "יחודים",
+        "שמות",
+        "התעלות"
+      ],
+      "length_estimate": 26,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-083",
+      "text": "תיקון חצות הוא בכייה על גלות השכינה, ועל ידו זוכים להארה עליונה",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער רוח הקודש",
+      "source_section": "תיקון חצות",
+      "source_url": "https://www.sefaria.org/Shaar_Ruach_HaKodesh",
+      "category": "arizal",
+      "tags": [
+        "תיקון חצות",
+        "גלות השכינה",
+        "הארה"
+      ],
+      "length_estimate": 28,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-084",
+      "text": "השתטחות על קברי צדיקים מחברת את נשמת האדם עם נשמת הצדיק",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער רוח הקודש",
+      "source_section": "דרוש ההשתטחות",
+      "source_url": "https://www.sefaria.org/Shaar_Ruach_HaKodesh",
+      "category": "arizal",
+      "tags": [
+        "קברי צדיקים",
+        "השתטחות",
+        "חיבור"
+      ],
+      "length_estimate": 24,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-085",
+      "text": "הכנה לרוח הקודש היא פרישות מתאוות העולם הזה והתקדשות בכל הדרכים",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער רוח הקודש",
+      "source_section": "דרוש ההכנה",
+      "source_url": "https://www.sefaria.org/Shaar_Ruach_HaKodesh",
+      "category": "arizal",
+      "tags": [
+        "פרישות",
+        "התקדשות",
+        "רוח הקודש"
+      ],
+      "length_estimate": 28,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-086",
+      "text": "טבילה במקווה מטהרת את הנשמה ומכינה אותה לקבל השראה עליונה",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער רוח הקודש",
+      "source_section": "דרוש הטבילה",
+      "source_url": "https://www.sefaria.org/Shaar_Ruach_HaKodesh",
+      "category": "arizal",
+      "tags": [
+        "מקווה",
+        "טהרה",
+        "השראה"
+      ],
+      "length_estimate": 24,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-087",
+      "text": "וידוי על החטאים הוא הכרחי לתיקון, כי בלי הכרה בפגם אי אפשר לתקנו",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער רוח הקודש",
+      "source_section": "תיקוני תשובה",
+      "source_url": "https://www.sefaria.org/Shaar_Ruach_HaKodesh",
+      "category": "arizal",
+      "tags": [
+        "וידוי",
+        "חטא",
+        "תיקון"
+      ],
+      "length_estimate": 28,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-088",
+      "text": "התבודדות ביער או במקום שאין אנשים מסייעת להתקשרות עם הבורא",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער רוח הקודש",
+      "source_section": "דרוש ההתבודדות",
+      "source_url": "https://www.sefaria.org/Shaar_Ruach_HaKodesh",
+      "category": "arizal",
+      "tags": [
+        "התבודדות",
+        "טבע",
+        "דביקות"
+      ],
+      "length_estimate": 24,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-089",
+      "text": "שירת הלויים במקדש היתה העלאת מיין נוקבין לעורר רחמים ושפע מלמעלה",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער רוח הקודש",
+      "source_section": "דרוש השירה",
+      "source_url": "https://www.sefaria.org/Shaar_Ruach_HaKodesh",
+      "category": "arizal",
+      "tags": [
+        "שירה",
+        "לויים",
+        "מקדש"
+      ],
+      "length_estimate": 28,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-090",
+      "text": "הצומות מכניעים את הגוף ומאפשרים לנשמה להתעלות ולהתחבר לעליונים",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער רוח הקודש",
+      "source_section": "דרוש התענית",
+      "source_url": "https://www.sefaria.org/Shaar_Ruach_HaKodesh",
+      "category": "arizal",
+      "tags": [
+        "תענית",
+        "גוף",
+        "נשמה"
+      ],
+      "length_estimate": 26,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-091",
+      "text": "סדר ההנהגה בכל יום הוא לברר ניצוצות ולהעלותם על ידי הכוונות הנכונות",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "פרי עץ חיים",
+      "source_section": "שער ההנהגה",
+      "source_url": "https://www.sefaria.org/Pri_Etz_Chaim",
+      "category": "arizal",
+      "tags": [
+        "הנהגה",
+        "ניצוצות",
+        "כוונות"
+      ],
+      "length_estimate": 28,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-092",
+      "text": "עניית אמן בכוונה היא יותר גדולה מהמברך, כי המענה ממשיך את האור",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "פרי עץ חיים",
+      "source_section": "שער הברכות",
+      "source_url": "https://www.sefaria.org/Pri_Etz_Chaim",
+      "category": "arizal",
+      "tags": [
+        "אמן",
+        "ברכות",
+        "כוונה"
+      ],
+      "length_estimate": 26,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-093",
+      "text": "ברכת כהנים ממשיכה שפע מג׳ הספירות הראשונות לכל עם ישראל",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "פרי עץ חיים",
+      "source_section": "שער ברכת כהנים",
+      "source_url": "https://www.sefaria.org/Pri_Etz_Chaim",
+      "category": "arizal",
+      "tags": [
+        "ברכת כהנים",
+        "שפע",
+        "ספירות"
+      ],
+      "length_estimate": 24,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-094",
+      "text": "כוונת נרות שבת היא להדליק את האורות העליונים ולהמשיכם לבית",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "פרי עץ חיים",
+      "source_section": "שער השבת",
+      "source_url": "https://www.sefaria.org/Pri_Etz_Chaim",
+      "category": "arizal",
+      "tags": [
+        "נרות שבת",
+        "אורות",
+        "בית"
+      ],
+      "length_estimate": 24,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-095",
+      "text": "הבדלה היא הפרדה בין קודש לחול, ועל ידה נשמר אור השבת לשבוע הבא",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "פרי עץ חיים",
+      "source_section": "שער ההבדלה",
+      "source_url": "https://www.sefaria.org/Pri_Etz_Chaim",
+      "category": "arizal",
+      "tags": [
+        "הבדלה",
+        "שבת",
+        "קודש וחול"
+      ],
+      "length_estimate": 28,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-096",
+      "text": "בראשית - בשביל ישראל שנקראו ראשית, ובשביל התורה שנקראה ראשית",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "ליקוטי תורה",
+      "source_section": "פרשת בראשית",
+      "source_url": "https://www.sefaria.org/Likutei_Torah_Arizal",
+      "category": "arizal",
+      "tags": [
+        "בראשית",
+        "ישראל",
+        "תורה"
+      ],
+      "length_estimate": 26,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-097",
+      "text": "נעשה אדם בצלמנו - הקדוש ברוך הוא נמלך עם הנשמות של הצדיקים שעתידים להיברא",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "ליקוטי תורה",
+      "source_section": "פרשת בראשית",
+      "source_url": "https://www.sefaria.org/Likutei_Torah_Arizal",
+      "category": "arizal",
+      "tags": [
+        "צלם",
+        "נשמות",
+        "צדיקים"
+      ],
+      "length_estimate": 30,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-098",
+      "text": "עץ הדעת טוב ורע הוא סוד הבחירה, ומשם כל ענין הניסיונות בעולם הזה",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "ליקוטי תורה",
+      "source_section": "פרשת בראשית",
+      "source_url": "https://www.sefaria.org/Likutei_Torah_Arizal",
+      "category": "arizal",
+      "tags": [
+        "עץ הדעת",
+        "בחירה",
+        "ניסיונות"
+      ],
+      "length_estimate": 28,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-099",
+      "text": "יציאת מצרים היא יציאה מן המיצר של הקליפות אל המרחב של הקדושה",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "ליקוטי תורה",
+      "source_section": "פרשת בא",
+      "source_url": "https://www.sefaria.org/Likutei_Torah_Arizal",
+      "category": "arizal",
+      "tags": [
+        "מצרים",
+        "גאולה",
+        "קליפות"
+      ],
+      "length_estimate": 26,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch1-100",
+      "text": "מתן תורה היה תיקון לחטא אדם הראשון, ולכן פסקה זוהמתן של ישראל באותה שעה",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "ליקוטי תורה",
+      "source_section": "פרשת יתרו",
+      "source_url": "https://www.sefaria.org/Likutei_Torah_Arizal",
+      "category": "arizal",
+      "tags": [
+        "מתן תורה",
+        "תיקון",
+        "חטא אדם"
+      ],
+      "length_estimate": 32,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-001",
+      "text": "הנקודים הם סוד שבירת הכלים, שנשברו מפני שהאור היה גדול מכפי יכולת הכלים להכילו",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער הנקודים, פרק א׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_HaNekudim",
+      "category": "arizal",
+      "tags": [
+        "שבירת הכלים",
+        "נקודים",
+        "אור וכלי"
+      ],
+      "length_estimate": 32,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-002",
+      "text": "בעולם הנקודים היו האורות זה תחת זה בקו אחד, ולא היה בהם בחינת פנים ואחור",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער הנקודים, פרק ב׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_HaNekudim",
+      "category": "arizal",
+      "tags": [
+        "נקודים",
+        "סדר האורות",
+        "פנים ואחור"
+      ],
+      "length_estimate": 28,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-003",
+      "text": "כאשר יצאו האורות דרך העיניים של אדם קדמון, לא היו יכולים הכלים לסבול האור ונשברו",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער הנקודים, פרק ג׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_HaNekudim",
+      "category": "arizal",
+      "tags": [
+        "אדם קדמון",
+        "שבירת הכלים",
+        "עיניים"
+      ],
+      "length_estimate": 30,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-004",
+      "text": "שבע המלכים שמתו הם בחינת ז׳ ספירות תחתונות שנשברו, והם סוד מלכי אדום",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער הנקודים, פרק ד׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_HaNekudim",
+      "category": "arizal",
+      "tags": [
+        "מלכי אדום",
+        "שבירה",
+        "ז׳ ספירות"
+      ],
+      "length_estimate": 26,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-005",
+      "text": "הניצוצות הקדושים שנפלו בשבירה הם חיות כל הנבראים, ותכלית העבודה לברר ולהעלותם",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער הנקודים, פרק ה׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_HaNekudim",
+      "category": "arizal",
+      "tags": [
+        "ניצוצות",
+        "בירורים",
+        "עבודה"
+      ],
+      "length_estimate": 30,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-006",
+      "text": "רפ״ח ניצוצין נפלו בקליפות, וכל מצוה שאדם עושה מברר ניצוץ אחד ומעלהו",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער הנקודים, פרק ו׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_HaNekudim",
+      "category": "arizal",
+      "tags": [
+        "רפ״ח ניצוצין",
+        "מצוות",
+        "בירורים"
+      ],
+      "length_estimate": 26,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-007",
+      "text": "סיבת השבירה היתה כדי שיהיה מקום לבחירה חופשית ולעבודת האדם בתיקון העולם",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער הנקודים, פרק ז׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_HaNekudim",
+      "category": "arizal",
+      "tags": [
+        "שבירה",
+        "בחירה",
+        "תיקון"
+      ],
+      "length_estimate": 27,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-008",
+      "text": "מתוך החושך של השבירה יצא אור גדול יותר, כי יתרון האור מן החושך",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער הנקודים, פרק ח׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_HaNekudim",
+      "category": "arizal",
+      "tags": [
+        "אור",
+        "חושך",
+        "יתרון"
+      ],
+      "length_estimate": 24,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-009",
+      "text": "הכלים שנשברו ונפלו נעשו שורש לקליפות, אך בתוכם נשארו ניצוצות קדושה",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער הנקודים, פרק ט׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_HaNekudim",
+      "category": "arizal",
+      "tags": [
+        "קליפות",
+        "כלים",
+        "ניצוצות"
+      ],
+      "length_estimate": 26,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-010",
+      "text": "ג׳ ראשונות - כתר חכמה בינה - לא נשברו לגמרי, רק נפגמו מעט ונתקנו מיד",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער הנקודים, פרק י׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_HaNekudim",
+      "category": "arizal",
+      "tags": [
+        "ג׳ ראשונות",
+        "שבירה",
+        "תיקון"
+      ],
+      "length_estimate": 28,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-011",
+      "text": "הדעת נפל עם שאר המידות, ועל כן צריך תיקון גדול להעלות הדעת למקומו",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער הנקודים, פרק י״א",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_HaNekudim",
+      "category": "arizal",
+      "tags": [
+        "דעת",
+        "תיקון",
+        "מידות"
+      ],
+      "length_estimate": 25,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-012",
+      "text": "בעולם הנקודים לא היה יחס וחיבור בין הספירות, ולכן נפלו כי לא החזיקו זה את זה",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער הנקודים, פרק י״ב",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_HaNekudim",
+      "category": "arizal",
+      "tags": [
+        "נקודים",
+        "יחס",
+        "התכללות"
+      ],
+      "length_estimate": 30,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-013",
+      "text": "התיקון הוא על ידי שכל ספירה תכלול בתוכה את כל הספירות, וזה סוד הפרצופים",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער הנקודים, פרק י״ג",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_HaNekudim",
+      "category": "arizal",
+      "tags": [
+        "תיקון",
+        "התכללות",
+        "פרצופים"
+      ],
+      "length_estimate": 28,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-014",
+      "text": "עולם התוהו קדם לעולם התיקון, כי מן התוהו יוצא התיקון, ומן החושך יוצא האור",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער הנקודים, פרק י״ד",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_HaNekudim",
+      "category": "arizal",
+      "tags": [
+        "תוהו",
+        "תיקון",
+        "סדר הבריאה"
+      ],
+      "length_estimate": 28,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-015",
+      "text": "מלכות דנקודים נפלה יותר מכולם, ועל כן צריכה תיקון הגדול ביותר - וזו עבודת האדם",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער הנקודים, פרק ט״ו",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_HaNekudim",
+      "category": "arizal",
+      "tags": [
+        "מלכות",
+        "נפילה",
+        "תיקון"
+      ],
+      "length_estimate": 30,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-016",
+      "text": "הצלם הוא בחינת המוחין הנכנסים באדם, והם בחינת נר״נ - נפש רוח נשמה",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער הצלם, פרק א׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_HaTzelem",
+      "category": "arizal",
+      "tags": [
+        "צלם",
+        "מוחין",
+        "נר״נ"
+      ],
+      "length_estimate": 26,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-017",
+      "text": "האדם נברא בצלם אלקים, כי יש בו התכללות של כל העולמות ושל כל הספירות",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער הצלם, פרק ב׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_HaTzelem",
+      "category": "arizal",
+      "tags": [
+        "צלם אלקים",
+        "אדם",
+        "התכללות"
+      ],
+      "length_estimate": 27,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-018",
+      "text": "שלושה צלמים יש באדם: צלם נפש, צלם רוח, צלם נשמה - כנגד שלוש בחינות המוחין",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער הצלם, פרק ג׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_HaTzelem",
+      "category": "arizal",
+      "tags": [
+        "צלם",
+        "נר״נ",
+        "מוחין"
+      ],
+      "length_estimate": 30,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-019",
+      "text": "כשאדם מגיע לשלושים שנה, מקבל את הצלם בשלמות, ואז נקרא איש",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער הצלם, פרק ד׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_HaTzelem",
+      "category": "arizal",
+      "tags": [
+        "צלם",
+        "גיל",
+        "שלמות"
+      ],
+      "length_estimate": 24,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-020",
+      "text": "הצלם מאיר בפני האדם, וכל מי שיש לו צלם - בני אדם יראים ממנו",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער הצלם, פרק ה׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_HaTzelem",
+      "category": "arizal",
+      "tags": [
+        "צלם",
+        "פנים",
+        "יראה"
+      ],
+      "length_estimate": 24,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-021",
+      "text": "כשאדם חוטא, הצלם מסתלק ממנו, ואז נופל פחדו מבני אדם ומחיות רעות",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער הצלם, פרק ו׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_HaTzelem",
+      "category": "arizal",
+      "tags": [
+        "צלם",
+        "חטא",
+        "הסתלקות"
+      ],
+      "length_estimate": 26,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-022",
+      "text": "בשבת מאיר צלם עליון באדם, ולכן נקרא שבת - שבו יורד תוספת קדושה לאדם",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער הצלם, פרק ז׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_HaTzelem",
+      "category": "arizal",
+      "tags": [
+        "שבת",
+        "צלם",
+        "קדושה"
+      ],
+      "length_estimate": 27,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-023",
+      "text": "על ידי לימוד התורה, האדם ממשיך עליו את הצלם ומחזק את הארתו",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער הצלם, פרק ח׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_HaTzelem",
+      "category": "arizal",
+      "tags": [
+        "תורה",
+        "צלם",
+        "לימוד"
+      ],
+      "length_estimate": 24,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-024",
+      "text": "הצלם נחלק לשלוש בחינות: צל - מקיף, צל״ם - מקיף ופנימי, צלם גמור - שלמות",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער הצלם, פרק ט׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_HaTzelem",
+      "category": "arizal",
+      "tags": [
+        "צלם",
+        "מקיף",
+        "פנימי"
+      ],
+      "length_estimate": 28,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-025",
+      "text": "מי שזוכה לצלם נשמה, יכול להשיג סודות התורה ולהתנבא",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער הצלם, פרק י׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_HaTzelem",
+      "category": "arizal",
+      "tags": [
+        "צלם",
+        "נבואה",
+        "סודות"
+      ],
+      "length_estimate": 21,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-026",
+      "text": "בעת התפילה עולה הצלם למעלה ומתחבר בשורשו, ואז יכול האדם לפעול ישועות",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער הצלם, פרק י״א",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_HaTzelem",
+      "category": "arizal",
+      "tags": [
+        "תפילה",
+        "צלם",
+        "ישועה"
+      ],
+      "length_estimate": 27,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-027",
+      "text": "הצלם הוא המלביש את הנשמה, כמו לבוש על הגוף, והוא קשר בין הנשמה לגוף",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער הצלם, פרק י״ב",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_HaTzelem",
+      "category": "arizal",
+      "tags": [
+        "צלם",
+        "לבוש",
+        "נשמה"
+      ],
+      "length_estimate": 28,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-028",
+      "text": "לאחר המוות, הצלם הולך עם הנשמה ומעיד על מעשי האדם בעולם הזה",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער הצלם, פרק י״ג",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_HaTzelem",
+      "category": "arizal",
+      "tags": [
+        "צלם",
+        "מוות",
+        "עדות"
+      ],
+      "length_estimate": 24,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-029",
+      "text": "יש צלם דכורא וצלם נוקבא, האיש והאשה משלימים זה את זה בצלמם",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער הצלם, פרק י״ד",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_HaTzelem",
+      "category": "arizal",
+      "tags": [
+        "צלם",
+        "זכר ונקבה",
+        "שלמות"
+      ],
+      "length_estimate": 25,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-030",
+      "text": "כשאדם ישן בלילה, הצלם עולה למעלה ורואה מראות, וזה סוד החלום",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער הצלם, פרק ט״ו",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_HaTzelem",
+      "category": "arizal",
+      "tags": [
+        "שינה",
+        "צלם",
+        "חלום"
+      ],
+      "length_estimate": 24,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-031",
+      "text": "הפרצופים הם בחינת התיקון, שכל ספירה כוללת עשר ספירות ומתחברות יחד",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער הפרצופים, פרק א׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_HaPartzufim",
+      "category": "arizal",
+      "tags": [
+        "פרצופים",
+        "תיקון",
+        "התכללות"
+      ],
+      "length_estimate": 26,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-032",
+      "text": "חמישה פרצופים עיקריים: עתיק יומין, אריך אנפין, אבא, אמא, וזעיר אנפין עם נוקביה",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער הפרצופים, פרק ב׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_HaPartzufim",
+      "category": "arizal",
+      "tags": [
+        "פרצופים",
+        "עתיק",
+        "אריך"
+      ],
+      "length_estimate": 30,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-033",
+      "text": "עתיק יומין הוא פנימיות הכתר, ובו מלובש אור אין סוף המאיר לכל העולמות",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער הפרצופים, פרק ג׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_HaPartzufim",
+      "category": "arizal",
+      "tags": [
+        "עתיק יומין",
+        "כתר",
+        "אין סוף"
+      ],
+      "length_estimate": 27,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-034",
+      "text": "אריך אנפין הוא חיצוניות הכתר, ממנו נמשך כל הארה אל התחתונים",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער הפרצופים, פרק ד׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_HaPartzufim",
+      "category": "arizal",
+      "tags": [
+        "אריך אנפין",
+        "כתר",
+        "הארה"
+      ],
+      "length_estimate": 24,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-035",
+      "text": "אבא הוא פרצוף החכמה, ואמא היא פרצוף הבינה, והם מזדווגים ומולידים את המוחין",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער הפרצופים, פרק ה׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_HaPartzufim",
+      "category": "arizal",
+      "tags": [
+        "אבא",
+        "אמא",
+        "מוחין"
+      ],
+      "length_estimate": 30,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-036",
+      "text": "זעיר אנפין כולל שש ספירות - מחסד ועד יסוד, והוא עיקר עבודת האדם",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער הפרצופים, פרק ו׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_HaPartzufim",
+      "category": "arizal",
+      "tags": [
+        "זעיר אנפין",
+        "ו״ק",
+        "עבודה"
+      ],
+      "length_estimate": 26,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-037",
+      "text": "הנוקבא היא פרצוף המלכות, והיא מקבלת מכל הפרצופים שלמעלה ממנה",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער הפרצופים, פרק ז׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_HaPartzufim",
+      "category": "arizal",
+      "tags": [
+        "נוקבא",
+        "מלכות",
+        "קבלה"
+      ],
+      "length_estimate": 25,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-038",
+      "text": "הפרצופים מסתכלים פנים בפנים, וזה סוד הזיווג והשפע היורד לעולם",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער הפרצופים, פרק ח׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_HaPartzufim",
+      "category": "arizal",
+      "tags": [
+        "פנים בפנים",
+        "זיווג",
+        "שפע"
+      ],
+      "length_estimate": 25,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-039",
+      "text": "כל פרצוף יש בו רמ״ח אברים ושס״ה גידים, כנגד רמ״ח מצוות עשה ושס״ה לא תעשה",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער הפרצופים, פרק ט׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_HaPartzufim",
+      "category": "arizal",
+      "tags": [
+        "רמ״ח אברים",
+        "מצוות",
+        "שס״ה גידים"
+      ],
+      "length_estimate": 30,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-040",
+      "text": "יעקב אבינו הוא בחינת זעיר אנפין, ורחל היא בחינת נוקבא",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער הפרצופים, פרק י׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_HaPartzufim",
+      "category": "arizal",
+      "tags": [
+        "יעקב",
+        "רחל",
+        "פרצופים"
+      ],
+      "length_estimate": 22,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-041",
+      "text": "לאה היא בחינת עלמא דאתכסיא, ורחל היא בחינת עלמא דאתגליא",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער הפרצופים, פרק י״א",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_HaPartzufim",
+      "category": "arizal",
+      "tags": [
+        "לאה",
+        "רחל",
+        "נסתר ונגלה"
+      ],
+      "length_estimate": 24,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-042",
+      "text": "בכל עולם יש חמישה פרצופים, ועולם האצילות הוא השורש לכל העולמות",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער הפרצופים, פרק י״ב",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_HaPartzufim",
+      "category": "arizal",
+      "tags": [
+        "פרצופים",
+        "עולמות",
+        "אצילות"
+      ],
+      "length_estimate": 25,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-043",
+      "text": "על ידי התפילה, האדם מעלה מ״ן ומעורר זיווג הפרצופים להמשיך שפע לעולם",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער הפרצופים, פרק י״ג",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_HaPartzufim",
+      "category": "arizal",
+      "tags": [
+        "תפילה",
+        "מ״ן",
+        "זיווג"
+      ],
+      "length_estimate": 27,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-044",
+      "text": "כל ראש חודש מתחדשים המוחין דזעיר אנפין, ולכן נקרא ראש - חידוש המוחין",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער הפרצופים, פרק י״ד",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_HaPartzufim",
+      "category": "arizal",
+      "tags": [
+        "ראש חודש",
+        "מוחין",
+        "חידוש"
+      ],
+      "length_estimate": 27,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-045",
+      "text": "בחינת ישראל סבא ותבונה הם פרצופי הדעת, המחברים את אבא ואמא לזעיר",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער הפרצופים, פרק ט״ו",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_HaPartzufim",
+      "category": "arizal",
+      "tags": [
+        "ישראל סבא",
+        "תבונה",
+        "דעת"
+      ],
+      "length_estimate": 26,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-046",
+      "text": "יש נשמות שבאות בסוד העיבור, ויש שבאות בסוד הגלגול, והפרש גדול ביניהם",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער הגלגולים",
+      "source_section": "הקדמה ח׳",
+      "source_url": "https://www.sefaria.org/Shaar_HaGilgulim,_Introduction.8",
+      "category": "arizal",
+      "tags": [
+        "עיבור",
+        "גלגול",
+        "נשמות"
+      ],
+      "length_estimate": 27,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-047",
+      "text": "הגלגול הוא כשהנשמה באה עם הגוף מתחילת לידתו, והעיבור הוא כשנשמה נוספת באה אחר כך",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער הגלגולים",
+      "source_section": "הקדמה ט׳",
+      "source_url": "https://www.sefaria.org/Shaar_HaGilgulim,_Introduction.9",
+      "category": "arizal",
+      "tags": [
+        "גלגול",
+        "עיבור",
+        "לידה"
+      ],
+      "length_estimate": 32,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-048",
+      "text": "כשאדם זוכה, יכול לקבל נשמת צדיק גדול בעיבור, ואז יכול להשיג מדרגות גבוהות",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער הגלגולים",
+      "source_section": "הקדמה י׳",
+      "source_url": "https://www.sefaria.org/Shaar_HaGilgulim,_Introduction.10",
+      "category": "arizal",
+      "tags": [
+        "עיבור",
+        "צדיקים",
+        "מדרגות"
+      ],
+      "length_estimate": 29,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-049",
+      "text": "מי שנפטר בלא בנים, מחויב לחזור בגלגול עד שיקיים מצות פרו ורבו",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער הגלגולים",
+      "source_section": "הקדמה י״א",
+      "source_url": "https://www.sefaria.org/Shaar_HaGilgulim,_Introduction.11",
+      "category": "arizal",
+      "tags": [
+        "גלגול",
+        "פרו ורבו",
+        "בנים"
+      ],
+      "length_estimate": 25,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-050",
+      "text": "יש שמתגלגל בבעל חיים או בצומח או בדומם, לפי חומר העוון שעשה",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער הגלגולים",
+      "source_section": "הקדמה י״ב",
+      "source_url": "https://www.sefaria.org/Shaar_HaGilgulim,_Introduction.12",
+      "category": "arizal",
+      "tags": [
+        "גלגול",
+        "בעל חיים",
+        "עונש"
+      ],
+      "length_estimate": 25,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-051",
+      "text": "מי שחילל שבת מתגלגל באבן, כי השבת היא סוד הדומם שנח ואינו עושה מלאכה",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער הגלגולים",
+      "source_section": "הקדמה י״ג",
+      "source_url": "https://www.sefaria.org/Shaar_HaGilgulim,_Introduction.13",
+      "category": "arizal",
+      "tags": [
+        "שבת",
+        "גלגול",
+        "דומם"
+      ],
+      "length_estimate": 28,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-052",
+      "text": "על ידי שהצדיק מברך על הפרי, מעלה את הניצוץ שבו ומתקנו",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער הגלגולים",
+      "source_section": "הקדמה י״ד",
+      "source_url": "https://www.sefaria.org/Shaar_HaGilgulim,_Introduction.14",
+      "category": "arizal",
+      "tags": [
+        "ברכה",
+        "ניצוץ",
+        "תיקון"
+      ],
+      "length_estimate": 22,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-053",
+      "text": "יש נשמות שבאות רק לעזור לאדם במצוה אחת, ואחר כך מסתלקות",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער הגלגולים",
+      "source_section": "הקדמה ט״ו",
+      "source_url": "https://www.sefaria.org/Shaar_HaGilgulim,_Introduction.15",
+      "category": "arizal",
+      "tags": [
+        "נשמות",
+        "עזרה",
+        "מצוה"
+      ],
+      "length_estimate": 23,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-054",
+      "text": "כל נשמה צריכה לתקן את כל רמ״ח אבריה על ידי קיום רמ״ח מצוות עשה",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער הגלגולים",
+      "source_section": "הקדמה ט״ז",
+      "source_url": "https://www.sefaria.org/Shaar_HaGilgulim,_Introduction.16",
+      "category": "arizal",
+      "tags": [
+        "רמ״ח אברים",
+        "מצוות עשה",
+        "תיקון"
+      ],
+      "length_estimate": 26,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-055",
+      "text": "מי שלא שמר על שס״ה גידיו, שהם שס״ה לא תעשה, צריך לתקנם בגלגולים הבאים",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער הגלגולים",
+      "source_section": "הקדמה י״ז",
+      "source_url": "https://www.sefaria.org/Shaar_HaGilgulim,_Introduction.17",
+      "category": "arizal",
+      "tags": [
+        "שס״ה גידים",
+        "לא תעשה",
+        "גלגול"
+      ],
+      "length_estimate": 28,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-056",
+      "text": "יש אדם שמתגלגל הרבה פעמים, ובכל פעם מתקן חלק אחד מנשמתו",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער הגלגולים",
+      "source_section": "הקדמה י״ח",
+      "source_url": "https://www.sefaria.org/Shaar_HaGilgulim,_Introduction.18",
+      "category": "arizal",
+      "tags": [
+        "גלגול",
+        "תיקון חלקי",
+        "נשמה"
+      ],
+      "length_estimate": 24,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-057",
+      "text": "יש זוג נשמות שתמיד מתגלגלים יחד, כי יש להם תיקון משותף לעשות",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער הגלגולים",
+      "source_section": "הקדמה י״ט",
+      "source_url": "https://www.sefaria.org/Shaar_HaGilgulim,_Introduction.19",
+      "category": "arizal",
+      "tags": [
+        "זיווג נשמות",
+        "גלגול",
+        "תיקון"
+      ],
+      "length_estimate": 25,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-058",
+      "text": "כל הנשמות של דור אחד, יש להן שורש משותף ותיקון משותף לעשות",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער הגלגולים",
+      "source_section": "הקדמה כ׳",
+      "source_url": "https://www.sefaria.org/Shaar_HaGilgulim,_Introduction.20",
+      "category": "arizal",
+      "tags": [
+        "דור",
+        "שורש",
+        "תיקון"
+      ],
+      "length_estimate": 24,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-059",
+      "text": "יש שמתגלגל בגוף של עכו״ם כדי לתקן חטא שחטא נגד אומות העולם",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער הגלגולים",
+      "source_section": "הקדמה כ״א",
+      "source_url": "https://www.sefaria.org/Shaar_HaGilgulim,_Introduction.21",
+      "category": "arizal",
+      "tags": [
+        "גלגול",
+        "אומות העולם",
+        "תיקון"
+      ],
+      "length_estimate": 25,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-060",
+      "text": "הגר שמתגייר, הרי הוא ניצוץ קדוש שהיה בין הקליפות וחוזר לשורשו",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער הגלגולים",
+      "source_section": "הקדמה כ״ב",
+      "source_url": "https://www.sefaria.org/Shaar_HaGilgulim,_Introduction.22",
+      "category": "arizal",
+      "tags": [
+        "גרות",
+        "ניצוץ",
+        "שורש"
+      ],
+      "length_estimate": 26,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-061",
+      "text": "כל נשמה יודעת מה צריכה לתקן בעולם הזה, אלא שבבואה לגוף שוכחת",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער הגלגולים",
+      "source_section": "הקדמה כ״ג",
+      "source_url": "https://www.sefaria.org/Shaar_HaGilgulim,_Introduction.23",
+      "category": "arizal",
+      "tags": [
+        "נשמה",
+        "תיקון",
+        "שכחה"
+      ],
+      "length_estimate": 25,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-062",
+      "text": "בהנחת תפילין יש לכוון להמשיך מוחין עליונים לזעיר אנפין",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "פרי עץ חיים",
+      "source_section": "שער התפילין, פרק א׳",
+      "source_url": "https://www.sefaria.org/Pri_Etz_Chaim",
+      "category": "arizal",
+      "tags": [
+        "תפילין",
+        "מוחין",
+        "כוונה"
+      ],
+      "length_estimate": 22,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-063",
+      "text": "תפילין של יד הם כנגד הנוקבא, ותפילין של ראש הם כנגד זעיר אנפין",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "פרי עץ חיים",
+      "source_section": "שער התפילין, פרק ב׳",
+      "source_url": "https://www.sefaria.org/Pri_Etz_Chaim",
+      "category": "arizal",
+      "tags": [
+        "תפילין",
+        "זעיר אנפין",
+        "נוקבא"
+      ],
+      "length_estimate": 26,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-064",
+      "text": "בברכת המוציא יש לכוון שהלחם הוא סוד המלכות המקבלת שפע מכל הספירות",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "פרי עץ חיים",
+      "source_section": "שער הברכות, פרק א׳",
+      "source_url": "https://www.sefaria.org/Pri_Etz_Chaim",
+      "category": "arizal",
+      "tags": [
+        "ברכה",
+        "לחם",
+        "מלכות"
+      ],
+      "length_estimate": 27,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-065",
+      "text": "בקידוש על היין יש לכוון להעלות את היין שהוא סוד הגבורות הממותקות",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "פרי עץ חיים",
+      "source_section": "שער הקידוש",
+      "source_url": "https://www.sefaria.org/Pri_Etz_Chaim",
+      "category": "arizal",
+      "tags": [
+        "קידוש",
+        "יין",
+        "גבורות"
+      ],
+      "length_estimate": 26,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-066",
+      "text": "בנטילת ידיים יש לכוון להמשיך חסדים לידיים שהם סוד החסד והגבורה",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "פרי עץ חיים",
+      "source_section": "שער הברכות, פרק ב׳",
+      "source_url": "https://www.sefaria.org/Pri_Etz_Chaim",
+      "category": "arizal",
+      "tags": [
+        "נטילת ידיים",
+        "חסד",
+        "גבורה"
+      ],
+      "length_estimate": 26,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-067",
+      "text": "בהדלקת נרות שבת יש לכוון להמשיך אור מאמא עילאה אל הנוקבא",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "פרי עץ חיים",
+      "source_section": "שער השבת, פרק א׳",
+      "source_url": "https://www.sefaria.org/Pri_Etz_Chaim",
+      "category": "arizal",
+      "tags": [
+        "נרות שבת",
+        "אמא",
+        "נוקבא"
+      ],
+      "length_estimate": 24,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-068",
+      "text": "בקבלת שבת יש לכוון שהשכינה עולה ומתחברת עם בעלה, וזהו סוד לכה דודי",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "פרי עץ חיים",
+      "source_section": "שער השבת, פרק ב׳",
+      "source_url": "https://www.sefaria.org/Pri_Etz_Chaim",
+      "category": "arizal",
+      "tags": [
+        "קבלת שבת",
+        "שכינה",
+        "לכה דודי"
+      ],
+      "length_estimate": 28,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-069",
+      "text": "בספירת העומר יש לכוון לתקן את ז׳ המידות, כל שבוע מידה אחרת",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "פרי עץ חיים",
+      "source_section": "שער ספירת העומר",
+      "source_url": "https://www.sefaria.org/Pri_Etz_Chaim",
+      "category": "arizal",
+      "tags": [
+        "ספירת העומר",
+        "מידות",
+        "תיקון"
+      ],
+      "length_estimate": 25,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-070",
+      "text": "בתקיעת שופר יש לכוון להעלות את המלכות ולהכתירה על ידי קולות השופר",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "פרי עץ חיים",
+      "source_section": "שער השופר",
+      "source_url": "https://www.sefaria.org/Pri_Etz_Chaim",
+      "category": "arizal",
+      "tags": [
+        "שופר",
+        "מלכות",
+        "ראש השנה"
+      ],
+      "length_estimate": 27,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-071",
+      "text": "בנטילת לולב יש לכוון לד׳ אותיות השם, לולב-ו, אתרוג-י, הדס-ה, ערבה-ה",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "פרי עץ חיים",
+      "source_section": "שער הלולב",
+      "source_url": "https://www.sefaria.org/Pri_Etz_Chaim",
+      "category": "arizal",
+      "tags": [
+        "לולב",
+        "ד׳ מינים",
+        "שם הוי״ה"
+      ],
+      "length_estimate": 28,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-072",
+      "text": "בהדלקת נר חנוכה יש לכוון להמשיך אור מלמעלה למטה, לברר את הקליפות",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "פרי עץ חיים",
+      "source_section": "שער החנוכה",
+      "source_url": "https://www.sefaria.org/Pri_Etz_Chaim",
+      "category": "arizal",
+      "tags": [
+        "חנוכה",
+        "נר",
+        "בירורים"
+      ],
+      "length_estimate": 27,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-073",
+      "text": "בקריאת המגילה בפורים יש לכוון להפוך את הרע לטוב ואת החושך לאור",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "פרי עץ חיים",
+      "source_section": "שער הפורים",
+      "source_url": "https://www.sefaria.org/Pri_Etz_Chaim",
+      "category": "arizal",
+      "tags": [
+        "פורים",
+        "מגילה",
+        "היפוך"
+      ],
+      "length_estimate": 26,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-074",
+      "text": "באכילת מצה בפסח יש לכוון שהמצה היא סוד האמונה הפשוטה בלי שאור",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "פרי עץ חיים",
+      "source_section": "שער הפסח",
+      "source_url": "https://www.sefaria.org/Pri_Etz_Chaim",
+      "category": "arizal",
+      "tags": [
+        "מצה",
+        "אמונה",
+        "פסח"
+      ],
+      "length_estimate": 26,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-075",
+      "text": "בקריאת שמע על המיטה יש לכוון למסור נפשו לה׳ ולהעלות נשמתו למקורה",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "פרי עץ חיים",
+      "source_section": "שער קריאת שמע על המיטה",
+      "source_url": "https://www.sefaria.org/Pri_Etz_Chaim",
+      "category": "arizal",
+      "tags": [
+        "קריאת שמע",
+        "שינה",
+        "מסירות נפש"
+      ],
+      "length_estimate": 28,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-076",
+      "text": "בברכת כהנים יש לכוון שהכהנים ממשיכים אור מחסד דאריך על ישראל",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "פרי עץ חיים",
+      "source_section": "שער ברכת כהנים",
+      "source_url": "https://www.sefaria.org/Pri_Etz_Chaim",
+      "category": "arizal",
+      "tags": [
+        "ברכת כהנים",
+        "חסד",
+        "אריך"
+      ],
+      "length_estimate": 26,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-077",
+      "text": "בטבילה במקוה יש לכוון שנכנס באם הבנים ויוצא כילוד חדש מטוהר",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "פרי עץ חיים",
+      "source_section": "שער הטבילה",
+      "source_url": "https://www.sefaria.org/Pri_Etz_Chaim",
+      "category": "arizal",
+      "tags": [
+        "מקוה",
+        "טבילה",
+        "טהרה"
+      ],
+      "length_estimate": 26,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-078",
+      "text": "בראשית - ב׳ ראשית, שתי ראשיות יש, אחת לקדושה ואחת לקליפה, וצריך לברר",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "ליקוטי תורה",
+      "source_section": "פרשת בראשית",
+      "source_url": "https://www.sefaria.org/Likutei_Torah",
+      "category": "arizal",
+      "tags": [
+        "בראשית",
+        "קדושה",
+        "קליפה"
+      ],
+      "length_estimate": 29,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-079",
+      "text": "נח נח - שני פעמים נח, רמז שנח היה בחינת יסוד דאבא ויסוד דאמא",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "ליקוטי תורה",
+      "source_section": "פרשת נח",
+      "source_url": "https://www.sefaria.org/Likutei_Torah",
+      "category": "arizal",
+      "tags": [
+        "נח",
+        "יסוד",
+        "אבא ואמא"
+      ],
+      "length_estimate": 26,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-080",
+      "text": "לך לך מארצך - לך לשורשך העליון, עזוב את הגשמיות ועלה לרוחניות",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "ליקוטי תורה",
+      "source_section": "פרשת לך לך",
+      "source_url": "https://www.sefaria.org/Likutei_Torah",
+      "category": "arizal",
+      "tags": [
+        "לך לך",
+        "אברהם",
+        "עליה"
+      ],
+      "length_estimate": 26,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-081",
+      "text": "העקידה היתה תיקון לפגם אדם הראשון, ואברהם ויצחק תיקנו מה שפגם אדם",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "ליקוטי תורה",
+      "source_section": "פרשת וירא",
+      "source_url": "https://www.sefaria.org/Likutei_Torah",
+      "category": "arizal",
+      "tags": [
+        "עקידה",
+        "תיקון",
+        "אדם הראשון"
+      ],
+      "length_estimate": 27,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-082",
+      "text": "יעקב אבינו הוא בחינת התפארת, והוא מכריע בין אברהם חסד ליצחק גבורה",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "ליקוטי תורה",
+      "source_section": "פרשת ויצא",
+      "source_url": "https://www.sefaria.org/Likutei_Torah",
+      "category": "arizal",
+      "tags": [
+        "יעקב",
+        "תפארת",
+        "הכרעה"
+      ],
+      "length_estimate": 27,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-083",
+      "text": "יוסף הצדיק הוא בחינת היסוד, ולכן נקרא צדיק - צדיק יסוד עולם",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "ליקוטי תורה",
+      "source_section": "פרשת וישב",
+      "source_url": "https://www.sefaria.org/Likutei_Torah",
+      "category": "arizal",
+      "tags": [
+        "יוסף",
+        "יסוד",
+        "צדיק"
+      ],
+      "length_estimate": 25,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-084",
+      "text": "משה רבינו הוא בחינת הדעת, ולכן יכול להמשיך תורה מלמעלה למטה",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "ליקוטי תורה",
+      "source_section": "פרשת שמות",
+      "source_url": "https://www.sefaria.org/Likutei_Torah",
+      "category": "arizal",
+      "tags": [
+        "משה",
+        "דעת",
+        "תורה"
+      ],
+      "length_estimate": 25,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-085",
+      "text": "קריעת ים סוף היתה בירור גדול, שנברר הטוב מן הרע ונטבעו המצרים",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "ליקוטי תורה",
+      "source_section": "פרשת בשלח",
+      "source_url": "https://www.sefaria.org/Likutei_Torah",
+      "category": "arizal",
+      "tags": [
+        "קריעת ים סוף",
+        "בירור",
+        "מצרים"
+      ],
+      "length_estimate": 26,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-086",
+      "text": "מתן תורה היה זיווג עליון, שנתחברו ז״א ונוקבא והמשיכו תורה לעולם",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "ליקוטי תורה",
+      "source_section": "פרשת יתרו",
+      "source_url": "https://www.sefaria.org/Likutei_Torah",
+      "category": "arizal",
+      "tags": [
+        "מתן תורה",
+        "זיווג",
+        "תורה"
+      ],
+      "length_estimate": 26,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-087",
+      "text": "המשכן הוא סוד עולם האצילות, וכל כליו הם כנגד הספירות העליונות",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "ליקוטי תורה",
+      "source_section": "פרשת תרומה",
+      "source_url": "https://www.sefaria.org/Likutei_Torah",
+      "category": "arizal",
+      "tags": [
+        "משכן",
+        "אצילות",
+        "כלים"
+      ],
+      "length_estimate": 25,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-088",
+      "text": "הארון הוא סוד הבינה, והלוחות הם סוד ז״א, ושניהם מתחברים יחד",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "ליקוטי תורה",
+      "source_section": "פרשת ויקהל",
+      "source_url": "https://www.sefaria.org/Likutei_Torah",
+      "category": "arizal",
+      "tags": [
+        "ארון",
+        "לוחות",
+        "בינה"
+      ],
+      "length_estimate": 25,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-089",
+      "text": "הקרבנות הם סוד העלאת מ״ן, שמעלים ניצוצות קדושה מלמטה למעלה",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "ליקוטי תורה",
+      "source_section": "פרשת ויקרא",
+      "source_url": "https://www.sefaria.org/Likutei_Torah",
+      "category": "arizal",
+      "tags": [
+        "קרבנות",
+        "מ״ן",
+        "העלאה"
+      ],
+      "length_estimate": 25,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-090",
+      "text": "בלעם רצה לפגום בברית, ולכן נשלח לקלל ישראל, אך נהפך לברכה",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "ליקוטי תורה",
+      "source_section": "פרשת בלק",
+      "source_url": "https://www.sefaria.org/Likutei_Torah",
+      "category": "arizal",
+      "tags": [
+        "בלעם",
+        "ברית",
+        "ברכה"
+      ],
+      "length_estimate": 25,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-091",
+      "text": "היחוד הוא התחברות אור ה׳ עם העולמות, ועל ידי היחוד נמשך שפע לעולם",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער היחודים",
+      "source_section": "פרק א׳",
+      "source_url": "https://www.sefaria.org/Shaar_HaYichudim",
+      "category": "arizal",
+      "tags": [
+        "יחוד",
+        "שפע",
+        "אור"
+      ],
+      "length_estimate": 28,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-092",
+      "text": "יש יחוד זו״ן ויש יחוד או״א, וכל תפילה צריכה לכוון לאיזה יחוד",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער היחודים",
+      "source_section": "פרק ב׳",
+      "source_url": "https://www.sefaria.org/Shaar_HaYichudim",
+      "category": "arizal",
+      "tags": [
+        "יחוד",
+        "תפילה",
+        "כוונה"
+      ],
+      "length_estimate": 26,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-093",
+      "text": "על ידי היחוד האדם מתקן את עצמו ואת כל העולמות, כי הכל תלוי בכוונה",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער היחודים",
+      "source_section": "פרק ג׳",
+      "source_url": "https://www.sefaria.org/Shaar_HaYichudim",
+      "category": "arizal",
+      "tags": [
+        "יחוד",
+        "תיקון",
+        "כוונה"
+      ],
+      "length_estimate": 28,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-094",
+      "text": "כשאדם אומר פסוק שמע ישראל, מייחד את כל העולמות ומחבר הכל באחדות",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער היחודים",
+      "source_section": "פרק ד׳",
+      "source_url": "https://www.sefaria.org/Shaar_HaYichudim",
+      "category": "arizal",
+      "tags": [
+        "שמע ישראל",
+        "יחוד",
+        "אחדות"
+      ],
+      "length_estimate": 27,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-095",
+      "text": "היחוד העליון הוא סוד אהיה אשר אהיה, שבו מתייחד הכתר עם החכמה",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער היחודים",
+      "source_section": "פרק ה׳",
+      "source_url": "https://www.sefaria.org/Shaar_HaYichudim",
+      "category": "arizal",
+      "tags": [
+        "אהיה",
+        "כתר",
+        "חכמה"
+      ],
+      "length_estimate": 26,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-096",
+      "text": "בכל יחוד יש לכוון לשם הוי״ה, כי הוא עיקר היחוד של כל הספירות",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער היחודים",
+      "source_section": "פרק ו׳",
+      "source_url": "https://www.sefaria.org/Shaar_HaYichudim",
+      "category": "arizal",
+      "tags": [
+        "שם הוי״ה",
+        "יחוד",
+        "ספירות"
+      ],
+      "length_estimate": 26,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-097",
+      "text": "מי שזוכה ליחודים יכול לפעול ישועות, כי על ידי היחוד פותח שערי שמים",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער היחודים",
+      "source_section": "פרק ז׳",
+      "source_url": "https://www.sefaria.org/Shaar_HaYichudim",
+      "category": "arizal",
+      "tags": [
+        "יחודים",
+        "ישועה",
+        "שערי שמים"
+      ],
+      "length_estimate": 28,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-098",
+      "text": "לפני כל יחוד צריך להתבודד ולטהר מחשבתו מכל מחשבות זרות",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער היחודים",
+      "source_section": "פרק ח׳",
+      "source_url": "https://www.sefaria.org/Shaar_HaYichudim",
+      "category": "arizal",
+      "tags": [
+        "התבודדות",
+        "טהרה",
+        "מחשבה"
+      ],
+      "length_estimate": 23,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-099",
+      "text": "היחוד הגדול ביותר הוא יחוד קוב״ה ושכינתיה, וזה תכלית כל העבודה",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער היחודים",
+      "source_section": "פרק ט׳",
+      "source_url": "https://www.sefaria.org/Shaar_HaYichudim",
+      "category": "arizal",
+      "tags": [
+        "קוב״ה",
+        "שכינה",
+        "יחוד"
+      ],
+      "length_estimate": 26,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch2-100",
+      "text": "כל מי שעוסק ביחודים בקדושה ובטהרה, זוכה לרוח הקודש ולהשגות עליונות",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער היחודים",
+      "source_section": "פרק י׳",
+      "source_url": "https://www.sefaria.org/Shaar_HaYichudim",
+      "category": "arizal",
+      "tags": [
+        "יחודים",
+        "רוח הקודש",
+        "השגה"
+      ],
+      "length_estimate": 27,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "ari-batch3-001",
+      "text": "הצמצום היה בבחינת הסתלקות האור אל הצדדים, ונשאר מקום פנוי וחלל באמצע האור",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער א׳, ענף ב׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_HaKlalim.2",
+      "category": "arizal",
+      "tags": [
+        "צמצום",
+        "אור אין סוף",
+        "חלל"
+      ],
+      "length_estimate": 30,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-002",
+      "text": "אחר הצמצום נמשך קו אור דק מן האור הפשוט אל תוך החלל, וממנו נאצלו כל העולמות",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער א׳, ענף ב׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_HaKlalim.2",
+      "category": "arizal",
+      "tags": [
+        "קו",
+        "אור",
+        "עולמות"
+      ],
+      "length_estimate": 30,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-003",
+      "text": "עשר ספירות הן כלים לקבל את האור האלקי, וכל ספירה מקבלת את האור לפי מידתה",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער ג׳, פרק א׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_3.1",
+      "category": "arizal",
+      "tags": [
+        "ספירות",
+        "כלים",
+        "אור"
+      ],
+      "length_estimate": 30,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-004",
+      "text": "הכתר הוא ספירה ראשונה הכוללת את כל הספירות, והיא בחינת הרצון העליון",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער ד׳, פרק א׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_4.1",
+      "category": "arizal",
+      "tags": [
+        "כתר",
+        "ספירות",
+        "רצון"
+      ],
+      "length_estimate": 30,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-005",
+      "text": "חכמה ובינה הם אבא ואמא עילאין, ומהם נולדים שש ספירות של זעיר אנפין",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער ה׳, פרק א׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_5.1",
+      "category": "arizal",
+      "tags": [
+        "חכמה",
+        "בינה",
+        "פרצופים"
+      ],
+      "length_estimate": 30,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-006",
+      "text": "שבירת הכלים היתה בעולם הנקודים, וממנה נפלו הניצוצות לתוך הקליפות",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער ח׳, פרק א׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_8.1",
+      "category": "arizal",
+      "tags": [
+        "שבירת הכלים",
+        "ניצוצות",
+        "קליפות"
+      ],
+      "length_estimate": 30,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-007",
+      "text": "תיקון העולמות הוא על ידי בירור הניצוצות והעלאתם למקומם הראוי",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער י״א, פרק א׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_11.1",
+      "category": "arizal",
+      "tags": [
+        "תיקון",
+        "ניצוצות",
+        "בירור"
+      ],
+      "length_estimate": 15,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-008",
+      "text": "כל מצוה שאדם עושה מברר ניצוצות קדושה ומעלה אותם לשורשם",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער המצוות",
+      "source_section": "פרשת בראשית",
+      "source_url": "https://www.sefaria.org/Shaar_HaMitzvot,_Bereshit",
+      "category": "arizal",
+      "tags": [
+        "מצוות",
+        "ניצוצות",
+        "בירור"
+      ],
+      "length_estimate": 15,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-009",
+      "text": "הנשמה יורדת לעולם הזה ללבוש גוף חומרי כדי לתקן את מה שצריכה לתקן",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער הגלגולים",
+      "source_section": "הקדמה ב׳",
+      "source_url": "https://www.sefaria.org/Shaar_HaGilgulim,_Introduction.2",
+      "category": "arizal",
+      "tags": [
+        "נשמה",
+        "גוף",
+        "תיקון"
+      ],
+      "length_estimate": 30,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-010",
+      "text": "יש נשמה רוח ונפש, והם שלוש מדרגות של החיות האלקית באדם",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער הגלגולים",
+      "source_section": "הקדמה א׳",
+      "source_url": "https://www.sefaria.org/Shaar_HaGilgulim,_Introduction.1",
+      "category": "arizal",
+      "tags": [
+        "נשמה",
+        "רוח",
+        "נפש"
+      ],
+      "length_estimate": 15,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-011",
+      "text": "הגלגול הוא חסד גדול מאת הבורא, שנותן הזדמנות נוספת לנשמה לתקן את עצמה",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער הגלגולים",
+      "source_section": "הקדמה ג׳",
+      "source_url": "https://www.sefaria.org/Shaar_HaGilgulim,_Introduction.3",
+      "category": "arizal",
+      "tags": [
+        "גלגול",
+        "חסד",
+        "תיקון"
+      ],
+      "length_estimate": 30,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-012",
+      "text": "כל אדם צריך לתקן את שורש נשמתו הפרטי, וזהו תכלית בואו לעולם",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער הגלגולים",
+      "source_section": "הקדמה ד׳",
+      "source_url": "https://www.sefaria.org/Shaar_HaGilgulim,_Introduction.4",
+      "category": "arizal",
+      "tags": [
+        "שורש נשמה",
+        "תיקון",
+        "תכלית"
+      ],
+      "length_estimate": 15,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-013",
+      "text": "התפילה היא עבודת הלב, ובה האדם מעלה את נפשו ומדביקה בבוראה",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער הכוונות",
+      "source_section": "דרוש התפילה",
+      "source_url": "https://www.sefaria.org/Shaar_HaKavanot,_Derush_HaTefillah",
+      "category": "arizal",
+      "tags": [
+        "תפילה",
+        "דביקות",
+        "עבודת הלב"
+      ],
+      "length_estimate": 30,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-014",
+      "text": "בכל תפילה יש כוונות עליונות המכוונות לספירות ולפרצופים העליונים",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער הכוונות",
+      "source_section": "דרוש הכוונות",
+      "source_url": "https://www.sefaria.org/Shaar_HaKavanot",
+      "category": "arizal",
+      "tags": [
+        "תפילה",
+        "כוונות",
+        "ספירות"
+      ],
+      "length_estimate": 30,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-015",
+      "text": "השבת היא בחינת עולם הבא, ובה מאיר אור עליון שאינו מאיר בימי החול",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער הכוונות",
+      "source_section": "דרוש השבת",
+      "source_url": "https://www.sefaria.org/Shaar_HaKavanot,_Derush_Shabbat",
+      "category": "arizal",
+      "tags": [
+        "שבת",
+        "עולם הבא",
+        "אור"
+      ],
+      "length_estimate": 30,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-016",
+      "text": "בליל שבת מקבלת הנשמה תוספת קדושה, והיא נשמה יתירה",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער הכוונות",
+      "source_section": "דרוש השבת",
+      "source_url": "https://www.sefaria.org/Shaar_HaKavanot,_Derush_Shabbat",
+      "category": "arizal",
+      "tags": [
+        "שבת",
+        "נשמה יתירה",
+        "קדושה"
+      ],
+      "length_estimate": 15,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-017",
+      "text": "רוח הקודש היא מדרגה גבוהה שהאדם יכול להגיע אליה על ידי תורה ומעשים טובים",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער רוח הקודש",
+      "source_section": "הקדמה",
+      "source_url": "https://www.sefaria.org/Shaar_Ruach_HaKodesh",
+      "category": "arizal",
+      "tags": [
+        "רוח הקודש",
+        "תורה",
+        "מעשים טובים"
+      ],
+      "length_estimate": 30,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-018",
+      "text": "הייחודים הם כוונות מיוחדות שמייחדות שמות קדושים ומושכות אור עליון",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער רוח הקודש",
+      "source_section": "דרוש הייחודים",
+      "source_url": "https://www.sefaria.org/Shaar_Ruach_HaKodesh",
+      "category": "arizal",
+      "tags": [
+        "ייחודים",
+        "שמות קדושים",
+        "אור"
+      ],
+      "length_estimate": 30,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-019",
+      "text": "התשובה מתקנת את הפגמים שנעשו בנשמה ובעולמות העליונים על ידי החטאים",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער רוח הקודש",
+      "source_section": "דרוש התשובה",
+      "source_url": "https://www.sefaria.org/Shaar_Ruach_HaKodesh",
+      "category": "arizal",
+      "tags": [
+        "תשובה",
+        "תיקון",
+        "פגם"
+      ],
+      "length_estimate": 30,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-020",
+      "text": "כל חטא פוגם בספירה מסוימת, והתשובה צריכה להיות מכוונת לתקן את אותו פגם",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער רוח הקודש",
+      "source_section": "תיקוני עוונות",
+      "source_url": "https://www.sefaria.org/Shaar_Ruach_HaKodesh",
+      "category": "arizal",
+      "tags": [
+        "חטא",
+        "ספירות",
+        "תשובה"
+      ],
+      "length_estimate": 30,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-021",
+      "text": "פרי עץ חיים הוא סודות התורה שנמסרו לאדם הראשון בגן עדן",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "פרי עץ חיים",
+      "source_section": "הקדמה",
+      "source_url": "https://www.sefaria.org/Pri_Etz_Chaim",
+      "category": "arizal",
+      "tags": [
+        "סודות",
+        "תורה",
+        "אדם הראשון"
+      ],
+      "length_estimate": 15,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-022",
+      "text": "כל הברכות יש להן כוונות עמוקות המייחדות את השם הקדוש",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "פרי עץ חיים",
+      "source_section": "שער הברכות",
+      "source_url": "https://www.sefaria.org/Pri_Etz_Chaim,_Shaar_HaBerachot",
+      "category": "arizal",
+      "tags": [
+        "ברכות",
+        "כוונות",
+        "ייחוד"
+      ],
+      "length_estimate": 15,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-023",
+      "text": "קריאת שמע היא קבלת עול מלכות שמים, ובה נכללים כל סודות הייחוד",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "פרי עץ חיים",
+      "source_section": "שער קריאת שמע",
+      "source_url": "https://www.sefaria.org/Pri_Etz_Chaim,_Shaar_Kriat_Shma",
+      "category": "arizal",
+      "tags": [
+        "קריאת שמע",
+        "ייחוד",
+        "מלכות שמים"
+      ],
+      "length_estimate": 30,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-024",
+      "text": "העולמות אצילות בריאה יצירה עשיה הם ארבע מדרגות של התגלות האלקות",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער מ״ב, פרק א׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_42.1",
+      "category": "arizal",
+      "tags": [
+        "עולמות",
+        "אבי״ע",
+        "התגלות"
+      ],
+      "length_estimate": 30,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-025",
+      "text": "עולם האצילות הוא עולם האחדות הגמורה, ששם אין פירוד בין האור והכלים",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער מ״ב, פרק ב׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_42.2",
+      "category": "arizal",
+      "tags": [
+        "אצילות",
+        "אחדות",
+        "אור וכלים"
+      ],
+      "length_estimate": 30,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-026",
+      "text": "עולם הבריאה הוא עולם הנשמות הגבוהות והמלאכים העליונים",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער מ״ב, פרק ג׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_42.3",
+      "category": "arizal",
+      "tags": [
+        "בריאה",
+        "נשמות",
+        "מלאכים"
+      ],
+      "length_estimate": 15,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-027",
+      "text": "עולם היצירה הוא עולם המלאכים המשרתים ובו מתגלה מידת הרחמים",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער מ״ב, פרק ד׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_42.4",
+      "category": "arizal",
+      "tags": [
+        "יצירה",
+        "מלאכים",
+        "רחמים"
+      ],
+      "length_estimate": 15,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-028",
+      "text": "עולם העשיה הוא עולם המעשה, ובו נמצאים הקליפות והטומאה",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער מ״ב, פרק ה׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_42.5",
+      "category": "arizal",
+      "tags": [
+        "עשיה",
+        "קליפות",
+        "מעשה"
+      ],
+      "length_estimate": 15,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-029",
+      "text": "הפרצופים הם בחינות של התלבשות האור האלקי בכלים מתוקנים",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער י״א, פרק ב׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_11.2",
+      "category": "arizal",
+      "tags": [
+        "פרצופים",
+        "אור",
+        "כלים"
+      ],
+      "length_estimate": 15,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-030",
+      "text": "אריך אנפין הוא פרצוף הכתר, ובו מתגלה הרצון העליון וארך האפים",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער י״ג, פרק א׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_13.1",
+      "category": "arizal",
+      "tags": [
+        "אריך אנפין",
+        "כתר",
+        "רצון"
+      ],
+      "length_estimate": 30,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-031",
+      "text": "אבא ואמא הם פרצופי החכמה והבינה, ומהם נמשכים המוחין לזעיר אנפין",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער ט״ו, פרק א׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_15.1",
+      "category": "arizal",
+      "tags": [
+        "אבא ואמא",
+        "מוחין",
+        "זעיר אנפין"
+      ],
+      "length_estimate": 30,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-032",
+      "text": "זעיר אנפין כולל שש ספירות מחסד עד יסוד, והוא בחינת הקדוש ברוך הוא",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער כ״ג, פרק א׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_23.1",
+      "category": "arizal",
+      "tags": [
+        "זעיר אנפין",
+        "ספירות",
+        "הקב״ה"
+      ],
+      "length_estimate": 30,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-033",
+      "text": "נוקבא דזעיר אנפין היא ספירת המלכות, והיא בחינת כנסת ישראל",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער כ״ט, פרק א׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_29.1",
+      "category": "arizal",
+      "tags": [
+        "נוקבא",
+        "מלכות",
+        "כנסת ישראל"
+      ],
+      "length_estimate": 30,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-034",
+      "text": "הייחוד העליון הוא התחברות זעיר אנפין ונוקבא, ומזה נמשכת השפע לעולמות",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער ל״ה, פרק א׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_35.1",
+      "category": "arizal",
+      "tags": [
+        "ייחוד",
+        "זו״ן",
+        "שפע"
+      ],
+      "length_estimate": 30,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-035",
+      "text": "האור ישר יורד מלמעלה למטה, והאור חוזר עולה מלמטה למעלה",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער ו׳, פרק א׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_6.1",
+      "category": "arizal",
+      "tags": [
+        "אור ישר",
+        "אור חוזר",
+        "השתלשלות"
+      ],
+      "length_estimate": 15,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-036",
+      "text": "כל כלי יכול לקבל רק כפי מידתו, והאור הנותר חוזר למעלה",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער ו׳, פרק ב׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_6.2",
+      "category": "arizal",
+      "tags": [
+        "כלים",
+        "אור",
+        "קבלה"
+      ],
+      "length_estimate": 15,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-037",
+      "text": "האור הפנימי הוא אור המתלבש בתוך הכלי, והאור מקיף סובב מבחוץ",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער ו׳, פרק ג׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_6.3",
+      "category": "arizal",
+      "tags": [
+        "אור פנימי",
+        "אור מקיף",
+        "כלים"
+      ],
+      "length_estimate": 30,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-038",
+      "text": "הרשימו הוא הרושם שנשאר מן האור הראשון אחרי הצמצום",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער א׳, ענף ג׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_HaKlalim.3",
+      "category": "arizal",
+      "tags": [
+        "רשימו",
+        "צמצום",
+        "אור"
+      ],
+      "length_estimate": 15,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-039",
+      "text": "המסך הוא כוח הצמצום שבכלי, המעכב את האור מלהיכנס",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער ו׳, פרק ד׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_6.4",
+      "category": "arizal",
+      "tags": [
+        "מסך",
+        "צמצום",
+        "כלי"
+      ],
+      "length_estimate": 15,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-040",
+      "text": "העקודים הוא עולם שבו כל העשר ספירות בכלי אחד",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער ו׳, פרק ה׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_6.5",
+      "category": "arizal",
+      "tags": [
+        "עקודים",
+        "ספירות",
+        "כלי"
+      ],
+      "length_estimate": 15,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-041",
+      "text": "הנקודים הוא עולם שבו כל ספירה בכלי נפרד, ושם היתה השבירה",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער ח׳, פרק א׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_8.1",
+      "category": "arizal",
+      "tags": [
+        "נקודים",
+        "שבירה",
+        "ספירות"
+      ],
+      "length_estimate": 15,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-042",
+      "text": "הברודים הוא עולם התיקון שבו הספירות מחוברות ומתוקנות",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער י״א, פרק א׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_11.1",
+      "category": "arizal",
+      "tags": [
+        "ברודים",
+        "תיקון",
+        "ספירות"
+      ],
+      "length_estimate": 15,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-043",
+      "text": "הקליפות נוצרו משברי הכלים שנפלו למטה ונתערבו עם הניצוצות",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער מ״ט, פרק א׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_49.1",
+      "category": "arizal",
+      "tags": [
+        "קליפות",
+        "שבירה",
+        "ניצוצות"
+      ],
+      "length_estimate": 30,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-044",
+      "text": "ארבע קליפות הן: קליפת נוגה, רוח סערה, ענן גדול, ואש מתלקחת",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער מ״ט, פרק ב׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_49.2",
+      "category": "arizal",
+      "tags": [
+        "קליפות",
+        "נוגה",
+        "טומאה"
+      ],
+      "length_estimate": 30,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-045",
+      "text": "קליפת נוגה יש בה תערובת טוב ורע, וממנה באים הדברים המותרים",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער מ״ט, פרק ג׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_49.3",
+      "category": "arizal",
+      "tags": [
+        "נוגה",
+        "טוב ורע",
+        "מותר"
+      ],
+      "length_estimate": 30,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-046",
+      "text": "שלוש הקליפות הטמאות הן רע גמור ואין בהן שום טוב",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער מ״ט, פרק ד׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_49.4",
+      "category": "arizal",
+      "tags": [
+        "קליפות",
+        "טומאה",
+        "רע"
+      ],
+      "length_estimate": 15,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-047",
+      "text": "על ידי עשיית המצוות מברר האדם את הניצוצות מתוך הקליפות",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער המצוות",
+      "source_section": "הקדמה",
+      "source_url": "https://www.sefaria.org/Shaar_HaMitzvot,_Introduction",
+      "category": "arizal",
+      "tags": [
+        "מצוות",
+        "בירור",
+        "ניצוצות"
+      ],
+      "length_estimate": 15,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-048",
+      "text": "כל מצוה מתייחסת לספירה מסוימת ומתקנת אותה",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער המצוות",
+      "source_section": "פרשת בראשית",
+      "source_url": "https://www.sefaria.org/Shaar_HaMitzvot,_Bereshit",
+      "category": "arizal",
+      "tags": [
+        "מצוות",
+        "ספירות",
+        "תיקון"
+      ],
+      "length_estimate": 15,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-049",
+      "text": "התורה היא בחינת אור, ובה נכללים כל הסודות של מעשה בראשית ומעשה מרכבה",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "ליקוטי תורה",
+      "source_section": "פרשת בראשית",
+      "source_url": "https://www.sefaria.org/Likutei_Torah,_Bereshit",
+      "category": "arizal",
+      "tags": [
+        "תורה",
+        "אור",
+        "סודות"
+      ],
+      "length_estimate": 30,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-050",
+      "text": "בכל אות מאותיות התורה יש עולמות ונשמות ואלקות",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "ליקוטי תורה",
+      "source_section": "הקדמה",
+      "source_url": "https://www.sefaria.org/Likutei_Torah",
+      "category": "arizal",
+      "tags": [
+        "תורה",
+        "אותיות",
+        "עולמות"
+      ],
+      "length_estimate": 15,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-051",
+      "text": "שם הוי״ה מכוון לארבעה עולמות: י׳ לאצילות, ה׳ לבריאה, ו׳ ליצירה, ה׳ לעשיה",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער מ״ב, פרק ו׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_42.6",
+      "category": "arizal",
+      "tags": [
+        "שם הוי״ה",
+        "עולמות",
+        "אבי״ע"
+      ],
+      "length_estimate": 30,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-052",
+      "text": "שם אלקים מורה על מידת הדין והצמצום, ושם הוי״ה מורה על הרחמים",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער ג׳, פרק ב׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_3.2",
+      "category": "arizal",
+      "tags": [
+        "שמות",
+        "דין",
+        "רחמים"
+      ],
+      "length_estimate": 30,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-053",
+      "text": "ע״ב שמות קדושים נכללים בשם הוי״ה, והם מקור לכל הברכות",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער הכוונות",
+      "source_section": "דרוש ע״ב",
+      "source_url": "https://www.sefaria.org/Shaar_HaKavanot",
+      "category": "arizal",
+      "tags": [
+        "ע״ב שמות",
+        "הוי״ה",
+        "ברכות"
+      ],
+      "length_estimate": 15,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-054",
+      "text": "הנשמה מתחלקת לחמש מדרגות: נפש, רוח, נשמה, חיה, יחידה",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער הגלגולים",
+      "source_section": "הקדמה א׳",
+      "source_url": "https://www.sefaria.org/Shaar_HaGilgulim,_Introduction.1",
+      "category": "arizal",
+      "tags": [
+        "נר״נ",
+        "חיה",
+        "יחידה"
+      ],
+      "length_estimate": 15,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-055",
+      "text": "הנפש באה מעולם העשיה, הרוח מיצירה, הנשמה מבריאה, והחיה ויחידה מאצילות",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער הגלגולים",
+      "source_section": "הקדמה ב׳",
+      "source_url": "https://www.sefaria.org/Shaar_HaGilgulim,_Introduction.2",
+      "category": "arizal",
+      "tags": [
+        "נר״נ",
+        "עולמות",
+        "מדרגות"
+      ],
+      "length_estimate": 30,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-056",
+      "text": "כל נשמה יש לה שורש באחת מהספירות, וזהו השורש הפרטי שלה",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער הגלגולים",
+      "source_section": "הקדמה ג׳",
+      "source_url": "https://www.sefaria.org/Shaar_HaGilgulim,_Introduction.3",
+      "category": "arizal",
+      "tags": [
+        "נשמה",
+        "שורש",
+        "ספירות"
+      ],
+      "length_estimate": 15,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-057",
+      "text": "יש עיבור של נשמה, שנשמה עליונה באה ומתעברת באדם לעזור לו",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער הגלגולים",
+      "source_section": "הקדמה ח׳",
+      "source_url": "https://www.sefaria.org/Shaar_HaGilgulim,_Introduction.8",
+      "category": "arizal",
+      "tags": [
+        "עיבור",
+        "נשמה",
+        "סיוע"
+      ],
+      "length_estimate": 30,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-058",
+      "text": "הנשמות מתחלקות לשורש קין ושורש הבל, וכל אחד צריך לתקן את שורשו",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער הגלגולים",
+      "source_section": "פרק ו׳",
+      "source_url": "https://www.sefaria.org/Shaar_HaGilgulim.6",
+      "category": "arizal",
+      "tags": [
+        "קין",
+        "הבל",
+        "שורשי נשמות"
+      ],
+      "length_estimate": 30,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-059",
+      "text": "משה רבינו היה משורש הבל, ותיקן את הפגם של הבל על ידי קבלת התורה",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער הגלגולים",
+      "source_section": "פרק י״ט",
+      "source_url": "https://www.sefaria.org/Shaar_HaGilgulim.19",
+      "category": "arizal",
+      "tags": [
+        "משה",
+        "הבל",
+        "תורה"
+      ],
+      "length_estimate": 30,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-060",
+      "text": "אדם הראשון כלל בנשמתו את כל נשמות ישראל שעתידים להיוולד",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער הגלגולים",
+      "source_section": "הקדמה ז׳",
+      "source_url": "https://www.sefaria.org/Shaar_HaGilgulim,_Introduction.7",
+      "category": "arizal",
+      "tags": [
+        "אדם הראשון",
+        "נשמות",
+        "כללות"
+      ],
+      "length_estimate": 30,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-061",
+      "text": "חטא אדם הראשון גרם לנפילת הניצוצות לתוך הקליפות",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער הגלגולים",
+      "source_section": "הקדמה ז׳",
+      "source_url": "https://www.sefaria.org/Shaar_HaGilgulim,_Introduction.7",
+      "category": "arizal",
+      "tags": [
+        "חטא",
+        "אדם הראשון",
+        "ניצוצות"
+      ],
+      "length_estimate": 15,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-062",
+      "text": "תיקון העולם יושלם כשכל הניצוצות יתבררו ויעלו למקומם",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער מ״ט, פרק ה׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_49.5",
+      "category": "arizal",
+      "tags": [
+        "תיקון",
+        "ניצוצות",
+        "גאולה"
+      ],
+      "length_estimate": 15,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-063",
+      "text": "בכל דור יש נשמות שיורדות לברר את הניצוצות השייכים לאותו דור",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער הגלגולים",
+      "source_section": "הקדמה ט׳",
+      "source_url": "https://www.sefaria.org/Shaar_HaGilgulim,_Introduction.9",
+      "category": "arizal",
+      "tags": [
+        "דורות",
+        "נשמות",
+        "בירור"
+      ],
+      "length_estimate": 30,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-064",
+      "text": "הצדיקים בכל דור ממשיכים אור עליון ומתקנים את העולם",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער הגלגולים",
+      "source_section": "הקדמה י׳",
+      "source_url": "https://www.sefaria.org/Shaar_HaGilgulim,_Introduction.10",
+      "category": "arizal",
+      "tags": [
+        "צדיקים",
+        "אור",
+        "תיקון"
+      ],
+      "length_estimate": 15,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-065",
+      "text": "לימוד הקבלה מאיר את הנשמה ומקרב את הגאולה",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער רוח הקודש",
+      "source_section": "הקדמה",
+      "source_url": "https://www.sefaria.org/Shaar_Ruach_HaKodesh",
+      "category": "arizal",
+      "tags": [
+        "קבלה",
+        "נשמה",
+        "גאולה"
+      ],
+      "length_estimate": 15,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-066",
+      "text": "חסד הוא ההתפשטות והנתינה, וגבורה היא הצמצום והדין",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער ד׳, פרק ב׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_4.2",
+      "category": "arizal",
+      "tags": [
+        "חסד",
+        "גבורה",
+        "ספירות"
+      ],
+      "length_estimate": 15,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-067",
+      "text": "תפארת היא הממוצע בין חסד וגבורה, והיא מידת הרחמים",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער ד׳, פרק ג׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_4.3",
+      "category": "arizal",
+      "tags": [
+        "תפארת",
+        "רחמים",
+        "ממוצע"
+      ],
+      "length_estimate": 15,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-068",
+      "text": "נצח והוד הם שני עמודים שעליהם נשענת כל ההשפעה לעולם",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער ד׳, פרק ד׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_4.4",
+      "category": "arizal",
+      "tags": [
+        "נצח",
+        "הוד",
+        "השפעה"
+      ],
+      "length_estimate": 15,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-069",
+      "text": "היסוד הוא נקודת החיבור בין העליון לתחתון, ובו נאספת כל ההשפעה",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער ד׳, פרק ה׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_4.5",
+      "category": "arizal",
+      "tags": [
+        "יסוד",
+        "חיבור",
+        "השפעה"
+      ],
+      "length_estimate": 30,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-070",
+      "text": "המלכות היא הכלי המקבל את כל האורות ומשפיעה אותם לעולמות התחתונים",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער ד׳, פרק ו׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_4.6",
+      "category": "arizal",
+      "tags": [
+        "מלכות",
+        "קבלה",
+        "השפעה"
+      ],
+      "length_estimate": 30,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-071",
+      "text": "בשעת התפילה צריך לכוון להעלות את הנשמה ולדבקה באור האין סוף",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער הכוונות",
+      "source_section": "דרוש התפילה",
+      "source_url": "https://www.sefaria.org/Shaar_HaKavanot,_Derush_HaTefillah",
+      "category": "arizal",
+      "tags": [
+        "תפילה",
+        "כוונה",
+        "דביקות"
+      ],
+      "length_estimate": 30,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-072",
+      "text": "ברכות השחר מעוררות את האורות העליונים ומורידות שפע לעולם",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער הכוונות",
+      "source_section": "דרוש ברכות השחר",
+      "source_url": "https://www.sefaria.org/Shaar_HaKavanot",
+      "category": "arizal",
+      "tags": [
+        "ברכות השחר",
+        "אורות",
+        "שפע"
+      ],
+      "length_estimate": 30,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-073",
+      "text": "פסוקי דזמרה מכינים את הנשמה לקבל את אור התפילה",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער הכוונות",
+      "source_section": "דרוש פסוקי דזמרה",
+      "source_url": "https://www.sefaria.org/Shaar_HaKavanot",
+      "category": "arizal",
+      "tags": [
+        "פסוקי דזמרה",
+        "הכנה",
+        "תפילה"
+      ],
+      "length_estimate": 15,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-074",
+      "text": "בשמונה עשרה האדם עומד לפני המלך, וזהו עיקר העבודה שבלב",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער הכוונות",
+      "source_section": "דרוש שמונה עשרה",
+      "source_url": "https://www.sefaria.org/Shaar_HaKavanot",
+      "category": "arizal",
+      "tags": [
+        "שמונה עשרה",
+        "עבודת הלב",
+        "מלכות"
+      ],
+      "length_estimate": 30,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-075",
+      "text": "כל ברכה בשמונה עשרה מכוונת לספירה מסוימת ולתיקון מיוחד",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער הכוונות",
+      "source_section": "דרוש שמונה עשרה",
+      "source_url": "https://www.sefaria.org/Shaar_HaKavanot",
+      "category": "arizal",
+      "tags": [
+        "ברכות",
+        "ספירות",
+        "כוונות"
+      ],
+      "length_estimate": 15,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-076",
+      "text": "הלל הוא שירה והודאה להשם על הניסים ועל הגאולה",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער הכוונות",
+      "source_section": "דרוש ההלל",
+      "source_url": "https://www.sefaria.org/Shaar_HaKavanot",
+      "category": "arizal",
+      "tags": [
+        "הלל",
+        "שירה",
+        "הודאה"
+      ],
+      "length_estimate": 15,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-077",
+      "text": "בראש השנה נברא האדם ובו יום הדין, ואז מתחדשים כל העולמות",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "פרי עץ חיים",
+      "source_section": "שער ראש השנה",
+      "source_url": "https://www.sefaria.org/Pri_Etz_Chaim,_Shaar_Rosh_HaShanah",
+      "category": "arizal",
+      "tags": [
+        "ראש השנה",
+        "דין",
+        "התחדשות"
+      ],
+      "length_estimate": 30,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-078",
+      "text": "תקיעת השופר מעוררת רחמים עליונים וממתקת את הדינים",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "פרי עץ חיים",
+      "source_section": "שער השופר",
+      "source_url": "https://www.sefaria.org/Pri_Etz_Chaim,_Shaar_HaShofar",
+      "category": "arizal",
+      "tags": [
+        "שופר",
+        "רחמים",
+        "דינים"
+      ],
+      "length_estimate": 15,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-079",
+      "text": "ביום הכיפורים עולות כל הנשמות עד הכתר העליון ושם נטהרות",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "פרי עץ חיים",
+      "source_section": "שער יום הכיפורים",
+      "source_url": "https://www.sefaria.org/Pri_Etz_Chaim,_Shaar_Yom_HaKippurim",
+      "category": "arizal",
+      "tags": [
+        "יום כיפור",
+        "טהרה",
+        "כתר"
+      ],
+      "length_estimate": 30,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-080",
+      "text": "הסוכה היא בחינת אור מקיף שסובב ומגן על האדם",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "פרי עץ חיים",
+      "source_section": "שער הסוכות",
+      "source_url": "https://www.sefaria.org/Pri_Etz_Chaim,_Shaar_HaSukkot",
+      "category": "arizal",
+      "tags": [
+        "סוכה",
+        "אור מקיף",
+        "הגנה"
+      ],
+      "length_estimate": 15,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-081",
+      "text": "ארבעת המינים מכוונים לארבע אותיות שם הוי״ה ולארבעה עולמות",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "פרי עץ חיים",
+      "source_section": "שער הלולב",
+      "source_url": "https://www.sefaria.org/Pri_Etz_Chaim,_Shaar_HaLulav",
+      "category": "arizal",
+      "tags": [
+        "ארבעת המינים",
+        "הוי״ה",
+        "עולמות"
+      ],
+      "length_estimate": 30,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-082",
+      "text": "בחנוכה מאיר אור חדש שלא היה מעולם, והוא אור המשיח",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "פרי עץ חיים",
+      "source_section": "שער החנוכה",
+      "source_url": "https://www.sefaria.org/Pri_Etz_Chaim,_Shaar_HaChanukah",
+      "category": "arizal",
+      "tags": [
+        "חנוכה",
+        "אור",
+        "משיח"
+      ],
+      "length_estimate": 15,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-083",
+      "text": "בפורים מתגלה הנס שבתוך הטבע, והארת פנים שבתוך ההסתר",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "פרי עץ חיים",
+      "source_section": "שער הפורים",
+      "source_url": "https://www.sefaria.org/Pri_Etz_Chaim,_Shaar_HaPurim",
+      "category": "arizal",
+      "tags": [
+        "פורים",
+        "נס",
+        "הסתר"
+      ],
+      "length_estimate": 15,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-084",
+      "text": "ליל הסדר הוא זמן חירות הנשמה מכבלי הקליפות",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "פרי עץ חיים",
+      "source_section": "שער הפסח",
+      "source_url": "https://www.sefaria.org/Pri_Etz_Chaim,_Shaar_HaPesach",
+      "category": "arizal",
+      "tags": [
+        "פסח",
+        "חירות",
+        "קליפות"
+      ],
+      "length_estimate": 15,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-085",
+      "text": "המצה היא לחם העוני ולחם האמונה, והיא מאכל הנשמה",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "פרי עץ חיים",
+      "source_section": "שער המצה",
+      "source_url": "https://www.sefaria.org/Pri_Etz_Chaim,_Shaar_HaMatzah",
+      "category": "arizal",
+      "tags": [
+        "מצה",
+        "אמונה",
+        "נשמה"
+      ],
+      "length_estimate": 15,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-086",
+      "text": "ספירת העומר היא הכנה לקבלת התורה, ובה מתקנים מ״ט שערי בינה",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "פרי עץ חיים",
+      "source_section": "שער ספירת העומר",
+      "source_url": "https://www.sefaria.org/Pri_Etz_Chaim,_Shaar_Sefirat_HaOmer",
+      "category": "arizal",
+      "tags": [
+        "ספירת העומר",
+        "בינה",
+        "תורה"
+      ],
+      "length_estimate": 30,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-087",
+      "text": "בשבועות ניתנה התורה מחדש בכל שנה, ואז מאיר אור החכמה העליונה",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "פרי עץ חיים",
+      "source_section": "שער השבועות",
+      "source_url": "https://www.sefaria.org/Pri_Etz_Chaim,_Shaar_HaShavuot",
+      "category": "arizal",
+      "tags": [
+        "שבועות",
+        "תורה",
+        "חכמה"
+      ],
+      "length_estimate": 30,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-088",
+      "text": "בתשעה באב חרב הבית והניצוצות נפלו עמוק יותר לתוך הקליפות",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער הכוונות",
+      "source_section": "דרוש תשעה באב",
+      "source_url": "https://www.sefaria.org/Shaar_HaKavanot",
+      "category": "arizal",
+      "tags": [
+        "תשעה באב",
+        "חורבן",
+        "ניצוצות"
+      ],
+      "length_estimate": 30,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-089",
+      "text": "בניין בית המקדש השלישי יהיה על ידי תיקון כל הפגמים",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "עץ חיים",
+      "source_section": "שער מ״ט, פרק ו׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_49.6",
+      "category": "arizal",
+      "tags": [
+        "בית המקדש",
+        "תיקון",
+        "גאולה"
+      ],
+      "length_estimate": 15,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-090",
+      "text": "המילה היא ברית בין האדם לבוראו, ומסירה את הערלה שהיא קליפה",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער המצוות",
+      "source_section": "פרשת לך לך",
+      "source_url": "https://www.sefaria.org/Shaar_HaMitzvot,_Lech_Lecha",
+      "category": "arizal",
+      "tags": [
+        "מילה",
+        "ברית",
+        "קליפה"
+      ],
+      "length_estimate": 30,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-091",
+      "text": "התפילין הם אורות מקיפים למוחין, ובהם מתקשר האדם לעליונים",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "פרי עץ חיים",
+      "source_section": "שער התפילין",
+      "source_url": "https://www.sefaria.org/Pri_Etz_Chaim,_Shaar_HaTefillin",
+      "category": "arizal",
+      "tags": [
+        "תפילין",
+        "מוחין",
+        "קשר"
+      ],
+      "length_estimate": 30,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-092",
+      "text": "הציצית היא אורות מקיפים לגוף, ומזכירה את כל המצוות",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "פרי עץ חיים",
+      "source_section": "שער הציצית",
+      "source_url": "https://www.sefaria.org/Pri_Etz_Chaim,_Shaar_HaTzitzit",
+      "category": "arizal",
+      "tags": [
+        "ציצית",
+        "אור מקיף",
+        "מצוות"
+      ],
+      "length_estimate": 15,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-093",
+      "text": "המזוזה שומרת את הבית ומגינה מן המזיקים על ידי שם שד״י",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער המצוות",
+      "source_section": "פרשת ואתחנן",
+      "source_url": "https://www.sefaria.org/Shaar_HaMitzvot,_Vaetchanan",
+      "category": "arizal",
+      "tags": [
+        "מזוזה",
+        "הגנה",
+        "שד״י"
+      ],
+      "length_estimate": 30,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-094",
+      "text": "נטילת ידיים בבוקר מסירה את הטומאה שחנתה על הידיים בלילה",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער הכוונות",
+      "source_section": "דרוש נטילת ידיים",
+      "source_url": "https://www.sefaria.org/Shaar_HaKavanot",
+      "category": "arizal",
+      "tags": [
+        "נטילת ידיים",
+        "טומאה",
+        "בוקר"
+      ],
+      "length_estimate": 30,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-095",
+      "text": "האכילה בקדושה מבררת ניצוצות מן המאכל ומעלה אותם לקדושה",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער המצוות",
+      "source_section": "פרשת עקב",
+      "source_url": "https://www.sefaria.org/Shaar_HaMitzvot,_Eikev",
+      "category": "arizal",
+      "tags": [
+        "אכילה",
+        "בירור",
+        "ניצוצות"
+      ],
+      "length_estimate": 30,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-096",
+      "text": "ברכת המזון מעלה את הניצוצות שנתבררו מן המאכל לשורשם",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "פרי עץ חיים",
+      "source_section": "שער ברכת המזון",
+      "source_url": "https://www.sefaria.org/Pri_Etz_Chaim,_Shaar_Birkat_HaMazon",
+      "category": "arizal",
+      "tags": [
+        "ברכת המזון",
+        "ניצוצות",
+        "העלאה"
+      ],
+      "length_estimate": 30,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-097",
+      "text": "קידוש על היין ממשיך את קדושת השבת לתוך הגוף והנשמה",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "פרי עץ חיים",
+      "source_section": "שער הקידוש",
+      "source_url": "https://www.sefaria.org/Pri_Etz_Chaim,_Shaar_HaKiddush",
+      "category": "arizal",
+      "tags": [
+        "קידוש",
+        "שבת",
+        "יין"
+      ],
+      "length_estimate": 15,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-098",
+      "text": "הבדלה מפרידה בין קודש לחול ושומרת על קדושת השבת לכל השבוע",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "פרי עץ חיים",
+      "source_section": "שער ההבדלה",
+      "source_url": "https://www.sefaria.org/Pri_Etz_Chaim,_Shaar_HaHavdalah",
+      "category": "arizal",
+      "tags": [
+        "הבדלה",
+        "קודש",
+        "חול"
+      ],
+      "length_estimate": 30,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-099",
+      "text": "השינה היא בחינת מיתה קטנה, ובה הנשמה עולה למעלה ומתחדשת",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער הכוונות",
+      "source_section": "דרוש הלילה",
+      "source_url": "https://www.sefaria.org/Shaar_HaKavanot",
+      "category": "arizal",
+      "tags": [
+        "שינה",
+        "נשמה",
+        "התחדשות"
+      ],
+      "length_estimate": 30,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch3-100",
+      "text": "קריאת שמע על המיטה שומרת את הנשמה בעת השינה ומגינה מפני המזיקים",
+      "source_rabbi": "האר״י הקדוש",
+      "source_book": "שער הכוונות",
+      "source_section": "דרוש קריאת שמע על המיטה",
+      "source_url": "https://www.sefaria.org/Shaar_HaKavanot",
+      "category": "arizal",
+      "tags": [
+        "קריאת שמע",
+        "שינה",
+        "הגנה"
+      ],
+      "length_estimate": 30,
+      "created_at": "2026-01-28T18:41:43.003343"
+    },
+    {
+      "id": "ari-batch4-001",
+      "text": "סוד הצמצום הוא שהאור האין סוף צמצם את עצמו כביכול, ונשאר חלל ריקן באמצע האור, ובתוכו נברא כל המציאות",
+      "source_rabbi": "רבי יצחק לוריא (האר\"י הקדוש)",
+      "source_book": "עץ חיים",
+      "source_section": "שער א׳, ענף ב׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_HaKlalim.1",
+      "category": "arizal",
+      "tags": [
+        "צמצום",
+        "אור אין סוף",
+        "חלל"
+      ],
+      "length_estimate": 98,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "ari-batch4-002",
+      "text": "הקו והרשימו הם שני בחינות שנשארו בתוך החלל אחר הצמצום, והם שורש כל ההשתלשלות",
+      "source_rabbi": "רבי יצחק לוריא (האר\"י הקדוש)",
+      "source_book": "עץ חיים",
+      "source_section": "שער א׳, ענף ג׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_HaKlalim.1",
+      "category": "arizal",
+      "tags": [
+        "קו",
+        "רשימו",
+        "צמצום"
+      ],
+      "length_estimate": 78,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "ari-batch4-003",
+      "text": "העיגולים והיושר הם שני אופנים של התפשטות האור, העיגולים מקיפים והיושר פנימי",
+      "source_rabbi": "רבי יצחק לוריא (האר\"י הקדוש)",
+      "source_book": "עץ חיים",
+      "source_section": "שער א׳, ענף ד׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_HaKlalim.1",
+      "category": "arizal",
+      "tags": [
+        "עיגולים",
+        "יושר",
+        "אור"
+      ],
+      "length_estimate": 76,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "ari-batch4-004",
+      "text": "אדם קדמון הוא הצורה הראשונה שנתהוותה מן האור שנכנס לחלל, והוא שורש כל העולמות",
+      "source_rabbi": "רבי יצחק לוריא (האר\"י הקדוש)",
+      "source_book": "עץ חיים",
+      "source_section": "שער ג׳, פרק א׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_3.1",
+      "category": "arizal",
+      "tags": [
+        "אדם קדמון",
+        "אור",
+        "שורש"
+      ],
+      "length_estimate": 82,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "ari-batch4-005",
+      "text": "מאורות היוצאים מאזני אדם קדמון הם שורש עולם האצילות, ומהם נמשכים כל הפרצופים",
+      "source_rabbi": "רבי יצחק לוריא (האר\"י הקדוש)",
+      "source_book": "עץ חיים",
+      "source_section": "שער ה׳, פרק א׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_5.1",
+      "category": "arizal",
+      "tags": [
+        "אדם קדמון",
+        "אצילות",
+        "פרצופים"
+      ],
+      "length_estimate": 79,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "ari-batch4-006",
+      "text": "שבירת הכלים היתה בעולם הנקודים, כאשר לא יכלו הכלים להכיל את האור הרב שנכנס בהם",
+      "source_rabbi": "רבי יצחק לוריא (האר\"י הקדוש)",
+      "source_book": "עץ חיים",
+      "source_section": "שער ח׳, פרק ב׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_8.2",
+      "category": "arizal",
+      "tags": [
+        "שבירת הכלים",
+        "נקודים",
+        "אור"
+      ],
+      "length_estimate": 82,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "ari-batch4-007",
+      "text": "רפ״ח ניצוצות קדושים נפלו בשבירת הכלים, והם מפוזרים בכל המציאות וצריכים תיקון",
+      "source_rabbi": "רבי יצחק לוריא (האר\"י הקדוש)",
+      "source_book": "עץ חיים",
+      "source_section": "שער ח׳, פרק ה׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_8.5",
+      "category": "arizal",
+      "tags": [
+        "רפ״ח ניצוצות",
+        "שבירה",
+        "תיקון"
+      ],
+      "length_estimate": 79,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "ari-batch4-008",
+      "text": "עולם התיקון בא לתקן את שבירת הכלים, על ידי בניין הפרצופים שמחברים את האורות והכלים",
+      "source_rabbi": "רבי יצחק לוריא (האר\"י הקדוש)",
+      "source_book": "עץ חיים",
+      "source_section": "שער י״א, פרק א׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_11.1",
+      "category": "arizal",
+      "tags": [
+        "תיקון",
+        "פרצופים",
+        "אור וכלי"
+      ],
+      "length_estimate": 86,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "ari-batch4-009",
+      "text": "פרצוף אריך אנפין הוא הכתר דאצילות, ממנו נמשכת ההארה לכל שאר הפרצופים",
+      "source_rabbi": "רבי יצחק לוריא (האר\"י הקדוש)",
+      "source_book": "עץ חיים",
+      "source_section": "שער י״ג, פרק א׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_13.1",
+      "category": "arizal",
+      "tags": [
+        "אריך אנפין",
+        "כתר",
+        "פרצופים"
+      ],
+      "length_estimate": 72,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "ari-batch4-010",
+      "text": "אבא ואימא הם פרצופי החכמה והבינה, והם מולידים את הזעיר אנפין והנוקבא",
+      "source_rabbi": "רבי יצחק לוריא (האר\"י הקדוש)",
+      "source_book": "עץ חיים",
+      "source_section": "שער ט״ו, פרק א׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_15.1",
+      "category": "arizal",
+      "tags": [
+        "אבא ואימא",
+        "חכמה ובינה",
+        "הולדה"
+      ],
+      "length_estimate": 70,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "ari-batch4-011",
+      "text": "זעיר אנפין כולל שש ספירות מחסד עד יסוד, והוא הממוצע בין העליונים לתחתונים",
+      "source_rabbi": "רבי יצחק לוריא (האר\"י הקדוש)",
+      "source_book": "עץ חיים",
+      "source_section": "שער כ״ב, פרק א׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_22.1",
+      "category": "arizal",
+      "tags": [
+        "זעיר אנפין",
+        "שש ספירות",
+        "ממוצע"
+      ],
+      "length_estimate": 76,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "ari-batch4-012",
+      "text": "הנוקבא היא פרצוף המלכות, והיא מקבלת מכל הפרצופים העליונים ומשפיעה לעולמות התחתונים",
+      "source_rabbi": "רבי יצחק לוריא (האר\"י הקדוש)",
+      "source_book": "עץ חיים",
+      "source_section": "שער ל״ה, פרק א׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_35.1",
+      "category": "arizal",
+      "tags": [
+        "נוקבא",
+        "מלכות",
+        "השפעה"
+      ],
+      "length_estimate": 84,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "ari-batch4-013",
+      "text": "המוחין הם אורות פנימיים הנכנסים לפרצוף, והם נותנים לו חיות ודעת",
+      "source_rabbi": "רבי יצחק לוריא (האר\"י הקדוש)",
+      "source_book": "עץ חיים",
+      "source_section": "שער כ״ג, פרק א׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_23.1",
+      "category": "arizal",
+      "tags": [
+        "מוחין",
+        "אור פנימי",
+        "דעת"
+      ],
+      "length_estimate": 66,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "ari-batch4-014",
+      "text": "גדלות ראשונה וגדלות שניה הם שני שלבים בקבלת המוחין, ובהם נשלם בניין הפרצוף",
+      "source_rabbi": "רבי יצחק לוריא (האר\"י הקדוש)",
+      "source_book": "עץ חיים",
+      "source_section": "שער כ״ד, פרק א׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_24.1",
+      "category": "arizal",
+      "tags": [
+        "גדלות",
+        "מוחין",
+        "פרצוף"
+      ],
+      "length_estimate": 78,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "ari-batch4-015",
+      "text": "הנשמה מתחלקת לחמש בחינות: נפש, רוח, נשמה, חיה ויחידה, זו למעלה מזו",
+      "source_rabbi": "רבי יצחק לוריא (האר\"י הקדוש)",
+      "source_book": "שער הגלגולים",
+      "source_section": "הקדמה א׳",
+      "source_url": "https://www.sefaria.org/Shaar_HaGilgulim,_Introduction.1",
+      "category": "arizal",
+      "tags": [
+        "נר״נ",
+        "חיה",
+        "יחידה"
+      ],
+      "length_estimate": 70,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "ari-batch4-016",
+      "text": "כל נשמה שייכת לאחד מחמשת הפרצופים, ומשורשה נקבע תפקידה בעולם",
+      "source_rabbi": "רבי יצחק לוריא (האר\"י הקדוש)",
+      "source_book": "שער הגלגולים",
+      "source_section": "הקדמה ב׳",
+      "source_url": "https://www.sefaria.org/Shaar_HaGilgulim,_Introduction.2",
+      "category": "arizal",
+      "tags": [
+        "נשמה",
+        "פרצופים",
+        "שורש"
+      ],
+      "length_estimate": 64,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "ari-batch4-017",
+      "text": "העיבור הוא כאשר נשמה עליונה באה לעזור לאדם בעבודתו, בלי שיצטרך למות ולהתגלגל",
+      "source_rabbi": "רבי יצחק לוריא (האר\"י הקדוש)",
+      "source_book": "שער הגלגולים",
+      "source_section": "הקדמה ב׳",
+      "source_url": "https://www.sefaria.org/Shaar_HaGilgulim,_Introduction.2",
+      "category": "arizal",
+      "tags": [
+        "עיבור",
+        "נשמה",
+        "עזרה"
+      ],
+      "length_estimate": 79,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "ari-batch4-018",
+      "text": "יש גלגול שנשמה באה בתחילת יצירת הולד, ויש שבאה אחר שנולד ונעשה בר דעת",
+      "source_rabbi": "רבי יצחק לוריא (האר\"י הקדוש)",
+      "source_book": "שער הגלגולים",
+      "source_section": "הקדמה ג׳",
+      "source_url": "https://www.sefaria.org/Shaar_HaGilgulim,_Introduction.3",
+      "category": "arizal",
+      "tags": [
+        "גלגול",
+        "לידה",
+        "דעת"
+      ],
+      "length_estimate": 72,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "ari-batch4-019",
+      "text": "הצדיקים מתגלגלים לפעמים כדי לזכות את הרבים, אף שאין להם חוב משל עצמם",
+      "source_rabbi": "רבי יצחק לוריא (האר\"י הקדוש)",
+      "source_book": "שער הגלגולים",
+      "source_section": "הקדמה ד׳",
+      "source_url": "https://www.sefaria.org/Shaar_HaGilgulim,_Introduction.4",
+      "category": "arizal",
+      "tags": [
+        "צדיקים",
+        "גלגול",
+        "זכות הרבים"
+      ],
+      "length_estimate": 71,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "ari-batch4-020",
+      "text": "כוונת התפילה היא להעלות את האותיות והמילים למקורן העליון, ולהמשיך משם שפע",
+      "source_rabbi": "רבי יצחק לוריא (האר\"י הקדוש)",
+      "source_book": "שער הכוונות",
+      "source_section": "דרוש א׳",
+      "source_url": "https://www.sefaria.org/Shaar_HaKavanot,_Drush_1",
+      "category": "arizal",
+      "tags": [
+        "תפילה",
+        "כוונה",
+        "העלאה"
+      ],
+      "length_estimate": 77,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "ari-batch4-021",
+      "text": "בברכות השחר מעוררים את כל חלקי הנשמה בזה אחר זה, עד שכולה מתעוררת",
+      "source_rabbi": "רבי יצחק לוריא (האר\"י הקדוש)",
+      "source_book": "שער הכוונות",
+      "source_section": "דרוש ברכות השחר",
+      "source_url": "https://www.sefaria.org/Shaar_HaKavanot,_Birchot_HaShachar",
+      "category": "arizal",
+      "tags": [
+        "ברכות השחר",
+        "נשמה",
+        "התעוררות"
+      ],
+      "length_estimate": 69,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "ari-batch4-022",
+      "text": "פסוקי דזמרה מכינים את הנפש לתפילה, ובהם מתרוממת הנפש מבחינה לבחינה",
+      "source_rabbi": "רבי יצחק לוריא (האר\"י הקדוש)",
+      "source_book": "שער הכוונות",
+      "source_section": "דרוש פסוקי דזמרה",
+      "source_url": "https://www.sefaria.org/Shaar_HaKavanot,_Pesukei_DeZimra",
+      "category": "arizal",
+      "tags": [
+        "פסוקי דזמרה",
+        "תפילה",
+        "עליה"
+      ],
+      "length_estimate": 71,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "ari-batch4-023",
+      "text": "בשמונה עשרה עומד האדם כעבד לפני רבו, ושם עיקר התפילה והבקשה",
+      "source_rabbi": "רבי יצחק לוריא (האר\"י הקדוש)",
+      "source_book": "שער הכוונות",
+      "source_section": "דרוש העמידה",
+      "source_url": "https://www.sefaria.org/Shaar_HaKavanot,_Amidah",
+      "category": "arizal",
+      "tags": [
+        "שמונה עשרה",
+        "עמידה",
+        "בקשה"
+      ],
+      "length_estimate": 63,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "ari-batch4-024",
+      "text": "מצות התורה הן תיקונים לנשמה ולעולמות, וכל מצוה מתקנת בחינה מיוחדת",
+      "source_rabbi": "רבי יצחק לוריא (האר\"י הקדוש)",
+      "source_book": "שער המצוות",
+      "source_section": "הקדמה",
+      "source_url": "https://www.sefaria.org/Shaar_HaMitzvot,_Introduction",
+      "category": "arizal",
+      "tags": [
+        "מצוות",
+        "תיקון",
+        "נשמה"
+      ],
+      "length_estimate": 68,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "ari-batch4-025",
+      "text": "מצות הצדקה ממשיכה חסד עליון ומתקנת את מידת החסד בנפש האדם",
+      "source_rabbi": "רבי יצחק לוריא (האר\"י הקדוש)",
+      "source_book": "שער המצוות",
+      "source_section": "פרשת ראה",
+      "source_url": "https://www.sefaria.org/Shaar_HaMitzvot,_Reeh",
+      "category": "arizal",
+      "tags": [
+        "צדקה",
+        "חסד",
+        "תיקון"
+      ],
+      "length_estimate": 60,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "ari-batch4-026",
+      "text": "כיבוד אב ואם הוא כנגד אבא ואימא העליונים, ועל ידו ממשיכים מוחין",
+      "source_rabbi": "רבי יצחק לוריא (האר\"י הקדוש)",
+      "source_book": "שער המצוות",
+      "source_section": "פרשת יתרו",
+      "source_url": "https://www.sefaria.org/Shaar_HaMitzvot,_Yitro",
+      "category": "arizal",
+      "tags": [
+        "כיבוד אב ואם",
+        "אבא ואימא",
+        "מוחין"
+      ],
+      "length_estimate": 67,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "ari-batch4-027",
+      "text": "רוח הקודש היא מדרגה שהאדם יכול להגיע אליה על ידי טהרת המידות והקדושה",
+      "source_rabbi": "רבי יצחק לוריא (האר\"י הקדוש)",
+      "source_book": "שער רוח הקודש",
+      "source_section": "הקדמה",
+      "source_url": "https://www.sefaria.org/Shaar_Ruach_HaKodesh,_Introduction",
+      "category": "arizal",
+      "tags": [
+        "רוח הקודש",
+        "טהרה",
+        "קדושה"
+      ],
+      "length_estimate": 72,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "ari-batch4-028",
+      "text": "התבודדות ופרישות מעניני העולם הזה מסייעים להשגת רוח הקודש",
+      "source_rabbi": "רבי יצחק לוריא (האר\"י הקדוש)",
+      "source_book": "שער רוח הקודש",
+      "source_section": "דרוש א׳",
+      "source_url": "https://www.sefaria.org/Shaar_Ruach_HaKodesh,_Drush_1",
+      "category": "arizal",
+      "tags": [
+        "התבודדות",
+        "פרישות",
+        "רוח הקודש"
+      ],
+      "length_estimate": 59,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "ari-batch4-029",
+      "text": "סוד הקרבנות הוא העלאת הניצוצות מן הבהמה והצומח לקדושה עליונה",
+      "source_rabbi": "רבי יצחק לוריא (האר\"י הקדוש)",
+      "source_book": "ליקוטי תורה",
+      "source_section": "פרשת ויקרא",
+      "source_url": "https://www.sefaria.org/Likutei_Torah,_Vayikra",
+      "category": "arizal",
+      "tags": [
+        "קרבנות",
+        "ניצוצות",
+        "העלאה"
+      ],
+      "length_estimate": 63,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "ari-batch4-030",
+      "text": "עולם העשיה הוא התחתון בארבעת העולמות, ובו עיקר עבודת האדם בתיקון",
+      "source_rabbi": "רבי יצחק לוריא (האר\"י הקדוש)",
+      "source_book": "עץ חיים",
+      "source_section": "שער מ״ז, פרק א׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_47.1",
+      "category": "arizal",
+      "tags": [
+        "עשיה",
+        "עולמות",
+        "עבודה"
+      ],
+      "length_estimate": 66,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "ari-batch4-031",
+      "text": "עולם היצירה הוא עולם המלאכים, והוא כנגד מידת התפארת",
+      "source_rabbi": "רבי יצחק לוריא (האר\"י הקדוש)",
+      "source_book": "עץ חיים",
+      "source_section": "שער מ״ו, פרק א׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_46.1",
+      "category": "arizal",
+      "tags": [
+        "יצירה",
+        "מלאכים",
+        "תפארת"
+      ],
+      "length_estimate": 54,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "ari-batch4-032",
+      "text": "עולם הבריאה הוא עולם הנשמות, ושם משיגים את אחדות הבורא יתברך",
+      "source_rabbi": "רבי יצחק לוריא (האר\"י הקדוש)",
+      "source_book": "עץ חיים",
+      "source_section": "שער מ״ה, פרק א׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_45.1",
+      "category": "arizal",
+      "tags": [
+        "בריאה",
+        "נשמות",
+        "אחדות"
+      ],
+      "length_estimate": 62,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "ari-batch4-033",
+      "text": "עולם האצילות הוא עולם האלוקות, ושם אין פירוד כלל אלא הכל אחדות גמורה",
+      "source_rabbi": "רבי יצחק לוריא (האר\"י הקדוש)",
+      "source_book": "עץ חיים",
+      "source_section": "שער מ״ד, פרק א׳",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_44.1",
+      "category": "arizal",
+      "tags": [
+        "אצילות",
+        "אלוקות",
+        "אחדות"
+      ],
+      "length_estimate": 69,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "ari-batch4-034",
+      "text": "סוד השבת הוא עליית כל העולמות למדרגה גבוהה יותר, ולכן אסורה בו מלאכה",
+      "source_rabbi": "רבי יצחק לוריא (האר\"י הקדוש)",
+      "source_book": "פרי עץ חיים",
+      "source_section": "שער השבת",
+      "source_url": "https://www.sefaria.org/Pri_Etz_Chaim,_Shaar_HaShabbat",
+      "category": "arizal",
+      "tags": [
+        "שבת",
+        "עליה",
+        "עולמות"
+      ],
+      "length_estimate": 70,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "ari-batch4-035",
+      "text": "תכלית כל הבריאה והתיקון היא לגלות את אחדות הבורא יתברך בכל המציאות כולה",
+      "source_rabbi": "רבי יצחק לוריא (האר\"י הקדוש)",
+      "source_book": "עץ חיים",
+      "source_section": "שער נ׳, סיום",
+      "source_url": "https://www.sefaria.org/Etz_Chaim,_Shaar_50",
+      "category": "arizal",
+      "tags": [
+        "תכלית",
+        "אחדות",
+        "גילוי"
+      ],
+      "length_estimate": 72,
+      "created_at": "2025-01-28T12:00:00Z"
     }
   ],
-  "last_updated": "2024-01-28T00:00:00"
+  "last_updated": "2026-01-28T18:45:56.703056"
 }

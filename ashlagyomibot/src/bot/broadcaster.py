@@ -13,7 +13,7 @@ from datetime import date
 
 from telegram import Bot
 
-from src.bot.formatters import format_channel_message
+from src.bot.formatters import build_source_keyboard, format_channel_message
 from src.data.models import QuoteCategory
 from src.data.repository import QuoteRepository
 from src.utils.config import get_settings
@@ -53,6 +53,11 @@ async def broadcast_daily_quote(
     try:
         repository = QuoteRepository()
 
+        # Idempotency check for dual cron DST handling
+        if repository.was_broadcast_today(target_date):
+            logger.info("already_broadcast_today", date=str(target_date))
+            return True
+
         # Select a random category, weighted toward core Ashlag teachers
         weighted_categories = [
             QuoteCategory.BAAL_HASULAM,  # Higher weight
@@ -61,9 +66,8 @@ async def broadcast_daily_quote(
             QuoteCategory.RABASH,
             QuoteCategory.ARIZAL,
             QuoteCategory.BAAL_SHEM_TOV,
-            QuoteCategory.KOTZKER,
-            QuoteCategory.SIMCHA_BUNIM,
-            QuoteCategory.TALMIDIM,
+            QuoteCategory.POLISH_CHASSIDUT,
+            QuoteCategory.CHASDEI_ASHLAG,
         ]
 
         # Use day of year for deterministic but varied selection
@@ -79,8 +83,9 @@ async def broadcast_daily_quote(
             logger.error("no_quote_available", category=category.value)
             return False
 
-        # Format the message
+        # Format the message and build keyboard (nachyomi-bot pattern)
         message = format_channel_message(quote, target_date)
+        keyboard = build_source_keyboard(quote)
 
         if dry_run or settings.dry_run:
             logger.info(
@@ -92,12 +97,13 @@ async def broadcast_daily_quote(
             )
             return True
 
-        # Send to channel
+        # Send to channel with inline keyboard for source link
         bot = Bot(token=settings.telegram_bot_token.get_secret_value())
         await bot.send_message(
             chat_id=channel_id,
             text=message,
-            parse_mode="Markdown",
+            parse_mode="HTML",
+            reply_markup=keyboard,  # Inline keyboard for source link
             disable_web_page_preview=True,
         )
 
@@ -166,20 +172,22 @@ async def broadcast_daily_bundle(
 
         # Send header
         date_str = target_date.strftime("%d.%m.%Y")
-        header = f"🌅 *אשלג יומי - {date_str}*\n\n═══════════════════"
+        header = f"🌅 <b>אשלג יומי - {date_str}</b>\n\n═══════════════════"
         await bot.send_message(
             chat_id=channel_id,
             text=header,
-            parse_mode="Markdown",
+            parse_mode="HTML",
         )
 
-        # Send each quote with a small delay
+        # Send each quote with inline keyboard and small delay (nachyomi-bot pattern)
         for quote in bundle.quotes:
             message = format_channel_message(quote, target_date)
+            keyboard = build_source_keyboard(quote)
             await bot.send_message(
                 chat_id=channel_id,
                 text=message,
-                parse_mode="Markdown",
+                parse_mode="HTML",
+                reply_markup=keyboard,  # Inline keyboard for source link
                 disable_web_page_preview=True,
             )
             repository.mark_as_sent(quote, target_date)

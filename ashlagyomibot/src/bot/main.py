@@ -4,6 +4,12 @@ Main entry point for the Ashlag Yomi Telegram bot.
 This module initializes the bot and registers all command handlers.
 Uses python-telegram-bot v20+ with async/await pattern.
 
+Follows nachyomi-bot patterns:
+- Programmatic command registration with setMyCommands()
+- Rate limiting per user (5 requests/minute)
+- Graceful error handling with user-friendly messages
+- Proper shutdown handling for SIGTERM/SIGINT
+
 Usage:
     # Run directly
     python -m src.bot.main
@@ -15,15 +21,18 @@ Usage:
 import asyncio
 import signal
 import sys
+from collections import defaultdict
+from datetime import datetime, timedelta
 from typing import NoReturn
 
-from telegram import Update
+from telegram import BotCommand, Update
 from telegram.ext import Application, CommandHandler, ContextTypes
 
 from src.bot.handlers import (
     about_command,
     feedback_command,
     help_command,
+    quote_command,
     start_command,
     today_command,
 )
@@ -31,6 +40,60 @@ from src.utils.config import get_settings
 from src.utils.logger import get_logger, setup_logging
 
 logger = get_logger(__name__)
+
+# Rate limiting configuration (nachyomi-bot pattern)
+RATE_LIMIT = 5  # requests per window
+RATE_WINDOW = timedelta(minutes=1)
+_rate_limits: dict[int, list[datetime]] = defaultdict(list)
+
+# Bot commands for registration with Telegram
+# Following nachyomi-bot pattern: short, English, action-oriented
+BOT_COMMANDS = [
+    BotCommand("start", "Welcome & info"),
+    BotCommand("today", "Get today's quotes"),
+    BotCommand("quote", "Get a single quote"),
+    BotCommand("about", "About this project"),
+    BotCommand("help", "Show commands"),
+    BotCommand("feedback", "Send feedback"),
+]
+
+
+def is_rate_limited(user_id: int) -> bool:
+    """
+    Check if a user has exceeded the rate limit.
+
+    Uses a sliding window approach (nachyomi-bot pattern):
+    - Track timestamps of recent requests per user
+    - Clean up old entries outside the window
+    - Return True if limit exceeded
+
+    Args:
+        user_id: Telegram user ID
+
+    Returns:
+        True if rate limited, False otherwise
+    """
+    now = datetime.now()
+    window_start = now - RATE_WINDOW
+
+    # Filter to only recent requests within window
+    recent = [t for t in _rate_limits[user_id] if t > window_start]
+    _rate_limits[user_id] = recent
+
+    if len(recent) >= RATE_LIMIT:
+        return True
+
+    # Add current request
+    recent.append(now)
+    _rate_limits[user_id] = recent
+
+    # Cleanup old users (prevent memory leak)
+    if len(_rate_limits) > 1000:
+        for uid in list(_rate_limits.keys()):
+            if not _rate_limits[uid]:
+                del _rate_limits[uid]
+
+    return False
 
 
 def create_application() -> Application:  # type: ignore[type-arg]
@@ -53,25 +116,49 @@ def create_application() -> Application:  # type: ignore[type-arg]
     # Order matters for help text, so add in logical order
     application.add_handler(CommandHandler("start", start_command))
     application.add_handler(CommandHandler("today", today_command))
+    application.add_handler(CommandHandler("quote", quote_command))
     application.add_handler(CommandHandler("about", about_command))
     application.add_handler(CommandHandler("help", help_command))
     application.add_handler(CommandHandler("feedback", feedback_command))
 
-    logger.info("application_created", handlers=5)
+    logger.info("application_created", handlers=6)
     return application
+
+
+async def register_commands(application: Application) -> None:  # type: ignore[type-arg]
+    """
+    Register bot commands with Telegram (nachyomi-bot pattern).
+
+    This makes commands appear in the Telegram menu when users type '/'.
+    """
+    try:
+        await application.bot.set_my_commands(BOT_COMMANDS)
+        logger.info("commands_registered", count=len(BOT_COMMANDS))
+    except Exception as e:
+        logger.error("failed_to_register_commands", error=str(e))
 
 
 async def error_handler(update: object, context: ContextTypes.DEFAULT_TYPE) -> None:
     """
     Global error handler for the bot.
 
-    Logs errors and prevents them from crashing the bot.
+    Logs errors and sends user-friendly message to prevent confusion.
     """
     logger.error(
         "telegram_error",
         error=str(context.error),
         update=str(update) if update else None,
     )
+
+    # Send user-friendly error message if we have an update with a message
+    if isinstance(update, Update) and update.effective_message:
+        try:
+            await update.effective_message.reply_text(
+                "😔 אירעה שגיאה. אנא נסו שוב מאוחר יותר.\n"
+                "An error occurred. Please try again later."
+            )
+        except Exception:
+            pass  # Don't fail on error message send failure
 
 
 async def run_bot() -> None:
@@ -90,6 +177,9 @@ async def run_bot() -> None:
     # Initialize and start polling
     await application.initialize()
     await application.start()
+
+    # Register commands with Telegram (nachyomi-bot pattern)
+    await register_commands(application)
 
     logger.info("bot_started", mode="polling")
 

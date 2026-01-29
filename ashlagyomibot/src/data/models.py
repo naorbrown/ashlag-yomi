@@ -26,20 +26,18 @@ class QuoteCategory(str, Enum):
     The order represents the historical flow of Kabbalistic wisdom:
     1. Arizal (1534-1572) - Foundation of Lurianic Kabbalah
     2. Baal Shem Tov (1698-1760) - Founder of Chassidut
-    3. Simcha Bunim (1765-1827) - Peshischa school
-    4. Kotzker (1787-1859) - Student of Simcha Bunim
-    5. Baal HaSulam (1884-1954) - Modern Kabbalah systematizer
-    6. Rabash (1907-1991) - Son of Baal HaSulam
-    7. Talmidim - Contemporary students
+    3. Polish Chassidut - Maggid, Peshischa, Kotzk, Lublin, Piaseczno schools
+    4. Baal HaSulam (1884-1954) - Modern Kabbalah systematizer
+    5. Rabash (1907-1991) - Son of Baal HaSulam
+    6. Chasdei Ashlag - Contemporary students of the Ashlag lineage
     """
 
     ARIZAL = "arizal"
     BAAL_SHEM_TOV = "baal_shem_tov"
-    SIMCHA_BUNIM = "simcha_bunim"
-    KOTZKER = "kotzker"
+    POLISH_CHASSIDUT = "polish_chassidut"
     BAAL_HASULAM = "baal_hasulam"
     RABASH = "rabash"
-    TALMIDIM = "talmidim"
+    CHASDEI_ASHLAG = "chasdei_ashlag"
 
     @property
     def display_name_hebrew(self) -> str:
@@ -47,11 +45,10 @@ class QuoteCategory(str, Enum):
         names = {
             QuoteCategory.ARIZAL: "האר״י הקדוש",
             QuoteCategory.BAAL_SHEM_TOV: "הבעל שם טוב",
-            QuoteCategory.SIMCHA_BUNIM: "רבי שמחה בונים מפשיסחא",
-            QuoteCategory.KOTZKER: "הרבי מקוצק",
+            QuoteCategory.POLISH_CHASSIDUT: "חסידות פולין",
             QuoteCategory.BAAL_HASULAM: "בעל הסולם",
             QuoteCategory.RABASH: 'הרב"ש',
-            QuoteCategory.TALMIDIM: "התלמידים",
+            QuoteCategory.CHASDEI_ASHLAG: "חסידי אשלג",
         }
         return names[self]
 
@@ -61,11 +58,10 @@ class QuoteCategory(str, Enum):
         names = {
             QuoteCategory.ARIZAL: "The Holy Arizal",
             QuoteCategory.BAAL_SHEM_TOV: "The Baal Shem Tov",
-            QuoteCategory.SIMCHA_BUNIM: "Rebbe Simcha Bunim of Peshischa",
-            QuoteCategory.KOTZKER: "The Kotzker Rebbe",
+            QuoteCategory.POLISH_CHASSIDUT: "Polish Chassidut",
             QuoteCategory.BAAL_HASULAM: "Baal HaSulam",
             QuoteCategory.RABASH: "Rabash",
-            QuoteCategory.TALMIDIM: "The Students",
+            QuoteCategory.CHASDEI_ASHLAG: "Chasdei Ashlag",
         }
         return names[self]
 
@@ -86,12 +82,12 @@ class Quote(BaseModel):
     # The actual quote text in Hebrew
     text: Annotated[str, Field(min_length=10, max_length=5000)]
 
-    # Source attribution
+    # Source attribution - the specific rabbi who said/wrote this
     source_rabbi: Annotated[str, Field(min_length=1, max_length=200)]
     source_book: str | None = None
     source_section: str | None = None  # Chapter, page, or section reference
 
-    # Link to original source (Sefaria, OrHaSulam, etc.)
+    # Link to original source (Sefaria, OrHaSulam, AshlagBaruch, HebrewBooks, etc.)
     source_url: Annotated[str, Field(pattern=r"^https?://")]
 
     # Classification
@@ -123,7 +119,7 @@ class DailyBundle(BaseModel):
     """
     A collection of quotes for a single day.
 
-    Each day gets one quote from each category (7 quotes total).
+    Each day gets one quote from each category (6 quotes total).
     This ensures balanced representation of the lineage.
     """
 
@@ -133,7 +129,7 @@ class DailyBundle(BaseModel):
     date: date
 
     # One quote from each category
-    quotes: Annotated[list[Quote], Field(min_length=1, max_length=7)]
+    quotes: Annotated[list[Quote], Field(min_length=1, max_length=6)]
 
     @computed_field
     @property

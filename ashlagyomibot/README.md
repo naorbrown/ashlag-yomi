@@ -5,22 +5,22 @@
 [![CI](https://github.com/yourusername/ashlag-yomi/actions/workflows/ci.yml/badge.svg)](https://github.com/yourusername/ashlag-yomi/actions/workflows/ci.yml)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Telegram Bot](https://img.shields.io/badge/Telegram-Bot-blue.svg)](https://t.me/AshlagYomiBot)
 
 A Telegram bot that delivers daily quotes from the Ashlag spiritual lineage every morning at 6:00 AM Israel time.
 
 ## 🌟 The Lineage
 
-The bot shares wisdom from seven generations of Kabbalistic masters:
+The bot shares wisdom from six categories of Kabbalistic masters:
 
-| Rabbi | Years | Contribution |
-|-------|-------|--------------|
-| 🕯️ **האר״י הקדוש** | 1534-1572 | Foundation of Lurianic Kabbalah |
-| ✨ **הבעל שם טוב** | 1698-1760 | Founder of Chassidut |
-| 🌟 **רבי שמחה בונים** | 1765-1827 | Peshischa school |
-| 🔥 **הרבי מקוצק** | 1787-1859 | Uncompromising truth |
-| 📖 **בעל הסולם** | 1884-1954 | Modern Kabbalah systematizer |
-| 💎 **הרב״ש** | 1907-1991 | Practical application |
-| 🌱 **התלמידים** | Present | Contemporary students |
+| Category | Emoji | Description |
+|----------|-------|-------------|
+| 🕯️ **האר״י הקדוש** | ARIZAL | Foundation of Lurianic Kabbalah |
+| ✨ **הבעל שם טוב** | BAAL_SHEM_TOV | Founder of Chassidut and his students |
+| 🔥 **חסידות פולין** | POLISH_CHASSIDUT | Maggid, Peshischa, Kotzk and more |
+| 📖 **בעל הסולם** | BAAL_HASULAM | Modern Kabbalah systematizer |
+| 💎 **הרב״ש** | RABASH | Practical application |
+| 🌱 **חסידי אשלג** | CHASDEI_ASHLAG | Contemporary students |
 
 ## 🚀 Quick Start
 
@@ -72,18 +72,60 @@ Once the bot is running, you can use these commands in Telegram:
 - `/help` - Show available commands
 - `/feedback` - How to send feedback
 
+## 🏗️ Architecture
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                     GitHub Actions                          │
+│  ┌─────────────────┐        ┌─────────────────────────────┐│
+│  │ daily-quote.yml │        │        ci.yml               ││
+│  │ (3am + 4am UTC) │        │ (lint, test, type-check)    ││
+│  └────────┬────────┘        └─────────────────────────────┘│
+└───────────┼────────────────────────────────────────────────┘
+            │
+            ▼
+┌─────────────────────────────────────────────────────────────┐
+│                      Bot Layer                              │
+│   main.py ──── handlers.py ──── broadcaster.py              │
+│      │              │                 │                     │
+│      └──────────────┼─────────────────┘                     │
+│                     ▼                                       │
+│              formatters.py                                  │
+└─────────────────────────────────────────────────────────────┘
+            │
+            ▼
+┌─────────────────────────────────────────────────────────────┐
+│                     Data Layer                              │
+│   repository.py ──── models.py                              │
+│         │                                                   │
+│         ▼                                                   │
+│   data/quotes/*.json (2000+ quotes)                         │
+└─────────────────────────────────────────────────────────────┘
+```
+
 ## 📁 Project Structure
 
 ```
 ashlag-yomi/
 ├── src/
-│   ├── bot/           # Telegram bot logic
-│   ├── data/          # Models, repository, data sources
-│   └── utils/         # Configuration, logging
-├── data/quotes/       # Quote JSON files
-├── scripts/           # CLI scripts
-├── tests/             # Test suite
-└── .github/workflows/ # CI/CD pipelines
+│   ├── bot/
+│   │   ├── main.py         # Bot entry point
+│   │   ├── handlers.py     # Command handlers (/start, /today, etc.)
+│   │   ├── broadcaster.py  # Channel broadcasts
+│   │   ├── scheduler.py    # Local scheduling (dev only)
+│   │   └── formatters.py   # Message formatting (HTML)
+│   ├── data/
+│   │   ├── models.py       # Pydantic models
+│   │   └── repository.py   # Data access layer
+│   └── utils/
+│       ├── config.py       # Settings (Pydantic Settings)
+│       └── logger.py       # Structured logging
+├── data/quotes/            # Quote JSON files (365 per category)
+├── scripts/                # CLI scripts
+├── tests/
+│   ├── unit/              # Unit tests
+│   └── fixtures/          # Test fixtures
+└── .github/workflows/      # CI/CD pipelines
 ```
 
 ## 🧪 Development
@@ -144,11 +186,21 @@ The bot runs via GitHub Actions cron job - no server required!
 
 1. Fork this repository
 2. Add secrets in repository settings:
-   - `TELEGRAM_BOT_TOKEN`
-   - `TELEGRAM_CHAT_ID`
+   - `TELEGRAM_BOT_TOKEN` - from [@BotFather](https://t.me/BotFather)
+   - `TELEGRAM_CHAT_ID` - your chat ID for testing
+   - `TELEGRAM_CHANNEL_ID` - channel for daily broadcasts (e.g., `@AshlagYomi`)
 3. Enable GitHub Actions
 
-The daily quote workflow runs at 3:00 AM UTC (6:00 AM Israel time).
+### Daily Broadcast Timing
+
+The bot broadcasts at **6:00 AM Israel time** year-round. Due to Israel's daylight saving time changes, we use a dual-cron schedule:
+
+| Season | Israel TZ | UTC Cron | Result |
+|--------|-----------|----------|--------|
+| Summer (IDT) | UTC+3 | `0 3 * * *` | 6:00 AM Israel |
+| Winter (IST) | UTC+2 | `0 4 * * *` | 6:00 AM Israel |
+
+The broadcaster is **idempotent** - if the same day's quote is already sent, duplicate cron triggers are safely ignored.
 
 ## 🤝 Contributing
 

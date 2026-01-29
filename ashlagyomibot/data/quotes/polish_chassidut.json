@@ -1,0 +1,5534 @@
+{
+  "category": "polish_chassidut",
+  "display_name_hebrew": "חסידות פולין",
+  "display_name_english": "Polish Chassidut",
+  "description": "Teachings from the Polish Chassidic masters: Maggid of Mezeritch, Chozeh of Lublin, Simcha Bunim of Peshischa, Kotzker Rebbe, and Eish Kodesh of Piaseczno",
+  "rabbis": [
+    {
+      "name_hebrew": "המגיד ממזריטש",
+      "name_english": "Maggid of Mezeritch",
+      "years": "1704-1772"
+    },
+    {
+      "name_hebrew": "החוזה מלובלין",
+      "name_english": "Chozeh of Lublin",
+      "years": "1745-1815"
+    },
+    {
+      "name_hebrew": "רבי שמחה בונים מפשיסחא",
+      "name_english": "Simcha Bunim of Peshischa",
+      "years": "1765-1827"
+    },
+    {
+      "name_hebrew": "הרבי מקוצק",
+      "name_english": "Kotzker Rebbe",
+      "years": "1787-1859"
+    },
+    {
+      "name_hebrew": "האש קודש מפיאסצנא",
+      "name_english": "Eish Kodesh of Piaseczno",
+      "years": "1889-1943"
+    }
+  ],
+  "quotes": [
+    {
+      "id": "pc-maggid-001",
+      "text": "כשאדם לומד תורה, צריך שירגיש שהתורה מדברת אליו ישירות. לא כדבר שהיה פעם, אלא כדבר שקורה עכשיו, בינו לבין בוראו.",
+      "source_rabbi": "המגיד ממזריטש",
+      "source_book": "מגיד דבריו ליעקב",
+      "source_section": "ליקוטים",
+      "source_url": "https://www.sefaria.org/Maggid_Devarav_L'Yaakov",
+      "category": "polish_chassidut",
+      "tags": [
+        "תורה",
+        "לימוד",
+        "התקשרות"
+      ],
+      "length_estimate": 40
+    },
+    {
+      "id": "pc-maggid-002",
+      "text": "עיקר העבודה הוא לדבוק במחשבה בהשם יתברך. וזה עניין 'בכל דרכיך דעהו' - שבכל מעשה ומעשה יחשוב על השם יתברך.",
+      "source_rabbi": "המגיד ממזריטש",
+      "source_book": "מגיד דבריו ליעקב",
+      "source_section": "על הדבקות",
+      "source_url": "https://www.sefaria.org/Maggid_Devarav_L'Yaakov",
+      "category": "polish_chassidut",
+      "tags": [
+        "דבקות",
+        "מחשבה",
+        "עבודה"
+      ],
+      "length_estimate": 42
+    },
+    {
+      "id": "pc-maggid-003",
+      "text": "כל המילים שאדם מדבר, הם כלים. וכשמדבר דברי תורה ותפילה, הכלים האלה מתמלאים באור אלוקי. ולכן צריך לדבר בקדושה.",
+      "source_rabbi": "המגיד ממזריטש",
+      "source_book": "אור תורה",
+      "source_section": "בראשית",
+      "source_url": "https://www.sefaria.org/Or_Torah",
+      "category": "polish_chassidut",
+      "tags": [
+        "דיבור",
+        "כלים",
+        "קדושה"
+      ],
+      "length_estimate": 42
+    },
+    {
+      "id": "pc-maggid-004",
+      "text": "האדם צריך להיות כמו צינור שהמים עוברים דרכו - לא לעכב את השפע בעצמו אלא להעבירו הלאה. מי שעוצר השפע אצלו, סוגר את הצינור.",
+      "source_rabbi": "המגיד ממזריטש",
+      "source_book": "מגיד דבריו ליעקב",
+      "source_section": "על ההשפעה",
+      "source_url": "https://www.sefaria.org/Maggid_Devarav_L'Yaakov",
+      "category": "polish_chassidut",
+      "tags": [
+        "צינור",
+        "שפע",
+        "נתינה"
+      ],
+      "length_estimate": 45
+    },
+    {
+      "id": "pc-maggid-005",
+      "text": "כשאדם מתפלל, צריך לחשוב שהוא עומד לפני מלך מלכי המלכים. ואם היה עומד לפני מלך בשר ודם, כמה היה נזהר בכל מילה. על אחת כמה וכמה לפני הקב\"ה.",
+      "source_rabbi": "המגיד ממזריטש",
+      "source_book": "אור האמת",
+      "source_section": "על התפילה",
+      "source_url": "https://www.sefaria.org/Maggid_Devarav_L'Yaakov",
+      "category": "polish_chassidut",
+      "tags": [
+        "תפילה",
+        "יראה",
+        "מלכות"
+      ],
+      "length_estimate": 50
+    },
+    {
+      "id": "pc-chozeh-001",
+      "text": "החסיד האמיתי צריך לראות את הטוב שבכל אדם. כי כל אדם יש בו ניצוץ אלוקי, וצריך לחפש ולמצוא את הניצוץ הזה.",
+      "source_rabbi": "החוזה מלובלין",
+      "source_book": "זכרון זאת",
+      "source_section": "הנהגות",
+      "source_url": "https://www.sefaria.org/Chozeh_of_Lublin",
+      "category": "polish_chassidut",
+      "tags": [
+        "ניצוץ",
+        "ראיית הטוב",
+        "אהבת ישראל"
+      ],
+      "length_estimate": 40
+    },
+    {
+      "id": "pc-chozeh-002",
+      "text": "השמחה היא המפתח לכל השערים. אפילו שערים שנסגרו לתפילה ולתשובה, נפתחים על ידי השמחה.",
+      "source_rabbi": "החוזה מלובלין",
+      "source_book": "דברי אמת",
+      "source_section": "על השמחה",
+      "source_url": "https://www.sefaria.org/Divrei_Emet",
+      "category": "polish_chassidut",
+      "tags": [
+        "שמחה",
+        "שערים",
+        "תפילה"
+      ],
+      "length_estimate": 35
+    },
+    {
+      "id": "pc-chozeh-003",
+      "text": "מי שרואה רק את החיצוניות של הדברים - רואה רק את הקליפה. מי שרואה את הפנימיות - רואה את האור האלוקי שבכל דבר.",
+      "source_rabbi": "החוזה מלובלין",
+      "source_book": "זכרון זאת",
+      "source_section": "על הראייה",
+      "source_url": "https://www.sefaria.org/Chozeh_of_Lublin",
+      "category": "polish_chassidut",
+      "tags": [
+        "ראייה",
+        "פנימיות",
+        "אור"
+      ],
+      "length_estimate": 40
+    },
+    {
+      "id": "pc-chozeh-004",
+      "text": "כל יהודי הוא בן מלך. ואפילו אם הוא מתנהג שלא כראוי, הוא עדיין בן מלך. וצריך להתייחס אליו ככה.",
+      "source_rabbi": "החוזה מלובלין",
+      "source_book": "זכרון זאת",
+      "source_section": "על אהבת ישראל",
+      "source_url": "https://www.sefaria.org/Chozeh_of_Lublin",
+      "category": "polish_chassidut",
+      "tags": [
+        "בן מלך",
+        "כבוד",
+        "ישראל"
+      ],
+      "length_estimate": 38
+    },
+    {
+      "id": "pc-chozeh-005",
+      "text": "אין לך דבר העומד בפני התשובה. ואפילו מי שחטא הרבה, ברגע שהוא שב - הקב\"ה מקבלו באהבה.",
+      "source_rabbi": "החוזה מלובלין",
+      "source_book": "דברי אמת",
+      "source_section": "על התשובה",
+      "source_url": "https://www.sefaria.org/Divrei_Emet",
+      "category": "polish_chassidut",
+      "tags": [
+        "תשובה",
+        "קבלה",
+        "אהבה"
+      ],
+      "length_estimate": 35
+    },
+    {
+      "id": "pc-simcha-001",
+      "text": "כל אדם צריך שיהיו לו שני כיסים. בכיס אחד פתק שכתוב בו 'בשבילי נברא העולם', ובכיס השני פתק שכתוב בו 'אנכי עפר ואפר'. וידע מתי להשתמש בכל אחד.",
+      "source_rabbi": "רבי שמחה בונים מפשיסחא",
+      "source_book": "קול שמחה",
+      "source_section": "הנהגות",
+      "source_url": "https://www.sefaria.org/Simcha_Bunim_of_Peshischa",
+      "category": "polish_chassidut",
+      "tags": [
+        "גדלות",
+        "שפלות",
+        "מידות"
+      ],
+      "length_estimate": 50
+    },
+    {
+      "id": "pc-simcha-002",
+      "text": "האמת היא היסוד של הכל. בלי אמת אי אפשר להתקדם ברוחניות. כי כל בניין שבנוי על שקר - סופו ליפול.",
+      "source_rabbi": "רבי שמחה בונים מפשיסחא",
+      "source_book": "קול שמחה",
+      "source_section": "על האמת",
+      "source_url": "https://www.sefaria.org/Simcha_Bunim_of_Peshischa",
+      "category": "polish_chassidut",
+      "tags": [
+        "אמת",
+        "יסוד",
+        "רוחניות"
+      ],
+      "length_estimate": 38
+    },
+    {
+      "id": "pc-simcha-003",
+      "text": "עבודת ה' האמיתית היא לא כשעושים מה שנוח, אלא כשעושים מה שצריך. ולפעמים מה שצריך הוא הדבר הכי קשה.",
+      "source_rabbi": "רבי שמחה בונים מפשיסחא",
+      "source_book": "קול שמחה",
+      "source_section": "על העבודה",
+      "source_url": "https://www.sefaria.org/Simcha_Bunim_of_Peshischa",
+      "category": "polish_chassidut",
+      "tags": [
+        "עבודה",
+        "מסירות",
+        "אמת"
+      ],
+      "length_estimate": 38
+    },
+    {
+      "id": "pc-simcha-004",
+      "text": "ההכנעה האמיתית היא לא לחשוב שאני שום דבר. ההכנעה היא לדעת שיש לי כוחות גדולים, אבל הכוחות האלה באו לי מהבורא.",
+      "source_rabbi": "רבי שמחה בונים מפשיסחא",
+      "source_book": "שפתי צדיקים",
+      "source_section": "על הענווה",
+      "source_url": "https://www.sefaria.org/Simcha_Bunim_of_Peshischa",
+      "category": "polish_chassidut",
+      "tags": [
+        "הכנעה",
+        "ענווה",
+        "כוחות"
+      ],
+      "length_estimate": 42
+    },
+    {
+      "id": "pc-simcha-005",
+      "text": "מה שנקרא עבודה בפנימיות - זה כשהאדם עובד על עצמו באמת, בלי שאף אחד רואה. לא למען הכבוד ולא למען השבח.",
+      "source_rabbi": "רבי שמחה בונים מפשיסחא",
+      "source_book": "קול שמחה",
+      "source_section": "על הפנימיות",
+      "source_url": "https://www.sefaria.org/Simcha_Bunim_of_Peshischa",
+      "category": "polish_chassidut",
+      "tags": [
+        "פנימיות",
+        "צניעות",
+        "עבודה"
+      ],
+      "length_estimate": 40
+    },
+    {
+      "id": "pc-kotzk-001",
+      "text": "אם אני אני בגלל שאתה אתה, ואתה אתה בגלל שאני אני - אז אני לא אני ואתה לא אתה. אבל אם אני אני בגלל שאני אני, ואתה אתה בגלל שאתה אתה - אז אני אני ואתה אתה.",
+      "source_rabbi": "הרבי מקוצק",
+      "source_book": "אמת מקוצק",
+      "source_section": "מאמרי אמת",
+      "source_url": "https://www.sefaria.org/Kotzker_Rebbe",
+      "category": "polish_chassidut",
+      "tags": [
+        "זהות",
+        "אמת",
+        "עצמיות"
+      ],
+      "length_estimate": 55
+    },
+    {
+      "id": "pc-kotzk-002",
+      "text": "אין דבר שלם יותר מלב שבור.",
+      "source_rabbi": "הרבי מקוצק",
+      "source_book": "אמרי אמת",
+      "source_section": "על התשובה",
+      "source_url": "https://www.sefaria.org/Kotzker_Rebbe",
+      "category": "polish_chassidut",
+      "tags": [
+        "לב",
+        "שלמות",
+        "שבירה"
+      ],
+      "length_estimate": 12
+    },
+    {
+      "id": "pc-kotzk-003",
+      "text": "הכל יכול להיות מזויף - חוץ מהאמת. האמת היא הדבר היחיד שאי אפשר לזייף.",
+      "source_rabbi": "הרבי מקוצק",
+      "source_book": "אמת מקוצק",
+      "source_section": "על האמת",
+      "source_url": "https://www.sefaria.org/Kotzker_Rebbe",
+      "category": "polish_chassidut",
+      "tags": [
+        "אמת",
+        "זיוף",
+        "אותנטיות"
+      ],
+      "length_estimate": 28
+    },
+    {
+      "id": "pc-kotzk-004",
+      "text": "אל תהיה מה שאתה לא. תהיה מה שאתה. וזה הדבר הכי קשה בעולם.",
+      "source_rabbi": "הרבי מקוצק",
+      "source_book": "אמת מקוצק",
+      "source_section": "על העצמי",
+      "source_url": "https://www.sefaria.org/Kotzker_Rebbe",
+      "category": "polish_chassidut",
+      "tags": [
+        "אמת",
+        "עצמיות",
+        "כנות"
+      ],
+      "length_estimate": 25
+    },
+    {
+      "id": "pc-kotzk-005",
+      "text": "איפה נמצא הקב\"ה? בכל מקום שנותנים לו להיכנס.",
+      "source_rabbi": "הרבי מקוצק",
+      "source_book": "אמת מקוצק",
+      "source_section": "על השכינה",
+      "source_url": "https://www.sefaria.org/Kotzker_Rebbe",
+      "category": "polish_chassidut",
+      "tags": [
+        "שכינה",
+        "לב",
+        "פתיחות"
+      ],
+      "length_estimate": 18
+    },
+    {
+      "id": "pc-kotzk-006",
+      "text": "שקר לא עומד על רגל אחת - כי אם היה עומד, היה נופל. לכן הוא צריך תמיד עוד שקר לתמוך בו.",
+      "source_rabbi": "הרבי מקוצק",
+      "source_book": "אמרי קודש",
+      "source_section": "על השקר",
+      "source_url": "https://www.sefaria.org/Kotzker_Rebbe",
+      "category": "polish_chassidut",
+      "tags": [
+        "שקר",
+        "אמת",
+        "משל"
+      ],
+      "length_estimate": 35
+    },
+    {
+      "id": "pc-kotzk-007",
+      "text": "מותר לשאול 'למה?', אבל אסור להפסיק לעבוד עד שתמצא את התשובה.",
+      "source_rabbi": "הרבי מקוצק",
+      "source_book": "אמת מקוצק",
+      "source_section": "על השאלות",
+      "source_url": "https://www.sefaria.org/Kotzker_Rebbe",
+      "category": "polish_chassidut",
+      "tags": [
+        "שאלות",
+        "עבודה",
+        "אמונה"
+      ],
+      "length_estimate": 25
+    },
+    {
+      "id": "pc-kotzk-008",
+      "text": "אין לך דבר עומד בפני הרצון. כל מה שאדם רוצה באמת - הוא יכול להשיג.",
+      "source_rabbi": "הרבי מקוצק",
+      "source_book": "אמרי אמת",
+      "source_section": "על הרצון",
+      "source_url": "https://www.sefaria.org/Kotzker_Rebbe",
+      "category": "polish_chassidut",
+      "tags": [
+        "רצון",
+        "כוח",
+        "השגה"
+      ],
+      "length_estimate": 28
+    },
+    {
+      "id": "pc-kotzk-009",
+      "text": "עדיף לחיות יום אחד כאריה מאשר מאה שנה ככבשה.",
+      "source_rabbi": "הרבי מקוצק",
+      "source_book": "שיחות קודש",
+      "source_section": "על הגבורה",
+      "source_url": "https://www.sefaria.org/Kotzker_Rebbe",
+      "category": "polish_chassidut",
+      "tags": [
+        "גבורה",
+        "חיים",
+        "אומץ"
+      ],
+      "length_estimate": 18
+    },
+    {
+      "id": "pc-kotzk-010",
+      "text": "הבעיה היא לא שהאנשים משקרים, הבעיה היא שהם מאמינים לשקרים שלהם.",
+      "source_rabbi": "הרבי מקוצק",
+      "source_book": "אמת מקוצק",
+      "source_section": "על האמת",
+      "source_url": "https://www.sefaria.org/Kotzker_Rebbe",
+      "category": "polish_chassidut",
+      "tags": [
+        "שקר",
+        "אמת",
+        "הונאה עצמית"
+      ],
+      "length_estimate": 28
+    },
+    {
+      "id": "pc-eish-001",
+      "text": "בזמנים קשים, כשקשה לראות את יד ה', דווקא אז צריך להאמין יותר. כי האמונה הגדולה ביותר היא בזמן ההסתרה.",
+      "source_rabbi": "האש קודש מפיאסצנא",
+      "source_book": "אש קודש",
+      "source_section": "דרשות מגטו ורשה",
+      "source_url": "https://www.sefaria.org/Aish_Kodesh",
+      "category": "polish_chassidut",
+      "tags": [
+        "אמונה",
+        "הסתרה",
+        "גבורה"
+      ],
+      "length_estimate": 40
+    },
+    {
+      "id": "pc-eish-002",
+      "text": "גם בגיהנום אפשר לעבוד את ה'. ואם אפשר לעבוד את ה' בגיהנום, על אחת כמה וכמה בכל מקום אחר.",
+      "source_rabbi": "האש קודש מפיאסצנא",
+      "source_book": "אש קודש",
+      "source_section": "תש\"ב",
+      "source_url": "https://www.sefaria.org/Aish_Kodesh",
+      "category": "polish_chassidut",
+      "tags": [
+        "עבודה",
+        "קושי",
+        "אמונה"
+      ],
+      "length_estimate": 35
+    },
+    {
+      "id": "pc-eish-003",
+      "text": "הילד שבכל אדם - זה החלק הכי טהור. ואת הילד הזה צריך לשמור, גם כשגדלים. כי הילד הוא שיודע להתפעל, לשמוח, ולהאמין.",
+      "source_rabbi": "האש קודש מפיאסצנא",
+      "source_book": "חובת התלמידים",
+      "source_section": "על החינוך",
+      "source_url": "https://www.sefaria.org/Chovat_HaTalmidim",
+      "category": "polish_chassidut",
+      "tags": [
+        "ילדות",
+        "טהרה",
+        "התפעלות"
+      ],
+      "length_estimate": 45
+    },
+    {
+      "id": "pc-eish-004",
+      "text": "כל אדם הוא עולם מלא. ואם מישהו סובל - עולם מלא סובל. ולכן צריך להתייחס לסבל של כל אדם בכובד ראש.",
+      "source_rabbi": "האש קודש מפיאסצנא",
+      "source_book": "אש קודש",
+      "source_section": "תש\"ג",
+      "source_url": "https://www.sefaria.org/Aish_Kodesh",
+      "category": "polish_chassidut",
+      "tags": [
+        "סבל",
+        "אדם",
+        "עולם"
+      ],
+      "length_estimate": 40
+    },
+    {
+      "id": "pc-eish-005",
+      "text": "התפילה היא לא רק בקשה - היא שיחה עם הבורא. וכשמדברים עם מישהו שאוהבים, לא צריך מילים גדולות. מספיק לפתוח את הלב.",
+      "source_rabbi": "האש קודש מפיאסצנא",
+      "source_book": "בני מחשבה טובה",
+      "source_section": "על התפילה",
+      "source_url": "https://www.sefaria.org/Bnei_Machshava_Tova",
+      "category": "polish_chassidut",
+      "tags": [
+        "תפילה",
+        "שיחה",
+        "לב"
+      ],
+      "length_estimate": 45
+    },
+    {
+      "id": "pc-eish-006",
+      "text": "האדם צריך לחפש את הקב\"ה לא רק בבית הכנסת, אלא בכל מקום - ברחוב, בעבודה, בבית. כי הקב\"ה נמצא בכל מקום.",
+      "source_rabbi": "האש קודש מפיאסצנא",
+      "source_book": "צו וזרוז",
+      "source_section": "על העבודה",
+      "source_url": "https://www.sefaria.org/Tzav_V'Ziruz",
+      "category": "polish_chassidut",
+      "tags": [
+        "עבודה",
+        "מציאת ה'",
+        "יומיום"
+      ],
+      "length_estimate": 40
+    },
+    {
+      "id": "pc-eish-007",
+      "text": "כל ייסורים שבאים על האדם, באים לטהר אותו. וכשמבינים את זה, הייסורים הופכים לכלי לעלייה.",
+      "source_rabbi": "האש קודש מפיאסצנא",
+      "source_book": "אש קודש",
+      "source_section": "תש\"א",
+      "source_url": "https://www.sefaria.org/Aish_Kodesh",
+      "category": "polish_chassidut",
+      "tags": [
+        "ייסורים",
+        "טהרה",
+        "עלייה"
+      ],
+      "length_estimate": 35
+    },
+    {
+      "id": "pc-eish-008",
+      "text": "הדמעות שלנו הן תפילות. כל דמעה שנשפכת על סבל רוחני או גשמי - עולה למעלה ומדברת בשם האדם.",
+      "source_rabbi": "האש קודש מפיאסצנא",
+      "source_book": "אש קודש",
+      "source_section": "דרשות השואה",
+      "source_url": "https://www.sefaria.org/Aish_Kodesh",
+      "category": "polish_chassidut",
+      "tags": [
+        "דמעות",
+        "תפילה",
+        "סבל"
+      ],
+      "length_estimate": 35
+    },
+    {
+      "id": "pc-maggid-006",
+      "text": "כשאדם לומד תורה לשמה, הוא נעשה שותף להקב\"ה במעשה בראשית. כי התורה היא השורש של כל הבריאה.",
+      "source_rabbi": "המגיד ממזריטש",
+      "source_book": "אור תורה",
+      "source_section": "על התורה",
+      "source_url": "https://www.sefaria.org/Or_Torah",
+      "category": "polish_chassidut",
+      "tags": [
+        "תורה",
+        "בריאה",
+        "שותפות"
+      ],
+      "length_estimate": 38
+    },
+    {
+      "id": "pc-maggid-007",
+      "text": "העולם נברא בדיבור. וכשאדם מדבר דברי קדושה, הוא ממשיך את מעשה הבריאה.",
+      "source_rabbi": "המגיד ממזריטש",
+      "source_book": "מגיד דבריו ליעקב",
+      "source_section": "על הדיבור",
+      "source_url": "https://www.sefaria.org/Maggid_Devarav_L'Yaakov",
+      "category": "polish_chassidut",
+      "tags": [
+        "דיבור",
+        "בריאה",
+        "קדושה"
+      ],
+      "length_estimate": 30
+    },
+    {
+      "id": "pc-chozeh-006",
+      "text": "הצדיק האמיתי לא מחפש כבוד. הוא מחפש רק את טובת ישראל ואת כבוד שמים.",
+      "source_rabbi": "החוזה מלובלין",
+      "source_book": "זכרון זאת",
+      "source_section": "על הצדיק",
+      "source_url": "https://www.sefaria.org/Chozeh_of_Lublin",
+      "category": "polish_chassidut",
+      "tags": [
+        "צדיק",
+        "ענווה",
+        "ישראל"
+      ],
+      "length_estimate": 28
+    },
+    {
+      "id": "pc-simcha-006",
+      "text": "לפני שמתפללים על משהו, צריך קודם להודות על מה שיש. כי ההודיה פותחת את השערים לברכה.",
+      "source_rabbi": "רבי שמחה בונים מפשיסחא",
+      "source_book": "קול שמחה",
+      "source_section": "על התפילה",
+      "source_url": "https://www.sefaria.org/Simcha_Bunim_of_Peshischa",
+      "category": "polish_chassidut",
+      "tags": [
+        "הודיה",
+        "תפילה",
+        "ברכה"
+      ],
+      "length_estimate": 35
+    },
+    {
+      "id": "pc-simcha-007",
+      "text": "אדם צריך לעבוד על המידות שלו כל יום. כי מי שלא מתקדם - נסוג. אין עמידה במקום בעבודת ה'.",
+      "source_rabbi": "רבי שמחה בונים מפשיסחא",
+      "source_book": "קול שמחה",
+      "source_section": "על המידות",
+      "source_url": "https://www.sefaria.org/Simcha_Bunim_of_Peshischa",
+      "category": "polish_chassidut",
+      "tags": [
+        "מידות",
+        "התקדמות",
+        "עבודה"
+      ],
+      "length_estimate": 35
+    },
+    {
+      "id": "pc-kotzk-011",
+      "text": "יותר קל לעשות את כל התלמוד מאשר לשנות מידה אחת רעה.",
+      "source_rabbi": "הרבי מקוצק",
+      "source_book": "אמת מקוצק",
+      "source_section": "על המידות",
+      "source_url": "https://www.sefaria.org/Kotzker_Rebbe",
+      "category": "polish_chassidut",
+      "tags": [
+        "מידות",
+        "תיקון",
+        "עבודה"
+      ],
+      "length_estimate": 22
+    },
+    {
+      "id": "pc-kotzk-012",
+      "text": "אם אתה הולך לשקר, לפחות תדע שאתה משקר. הבעיה מתחילה כשמאמינים לשקר של עצמך.",
+      "source_rabbi": "הרבי מקוצק",
+      "source_book": "שיחות קודש",
+      "source_section": "על האמת",
+      "source_url": "https://www.sefaria.org/Kotzker_Rebbe",
+      "category": "polish_chassidut",
+      "tags": [
+        "אמת",
+        "שקר",
+        "מודעות"
+      ],
+      "length_estimate": 32
+    },
+    {
+      "id": "pc-eish-009",
+      "text": "גם כשהחושך הכי גדול, יש אור. ואפילו ניצוץ קטן של אור יכול להאיר את כל החושך.",
+      "source_rabbi": "האש קודש מפיאסצנא",
+      "source_book": "אש קודש",
+      "source_section": "תש\"ב",
+      "source_url": "https://www.sefaria.org/Aish_Kodesh",
+      "category": "polish_chassidut",
+      "tags": [
+        "אור",
+        "חושך",
+        "תקווה"
+      ],
+      "length_estimate": 32
+    },
+    {
+      "id": "pc-eish-010",
+      "text": "המחשבה יכולה לשנות את המציאות. כשחושבים טוב - יהיה טוב. לא רק בגלל שמרגישים טוב, אלא בגלל שמושכים טוב.",
+      "source_rabbi": "האש קודש מפיאסצנא",
+      "source_book": "חובת התלמידים",
+      "source_section": "על המחשבה",
+      "source_url": "https://www.sefaria.org/Chovat_HaTalmidim",
+      "category": "polish_chassidut",
+      "tags": [
+        "מחשבה",
+        "אופטימיות",
+        "השפעה"
+      ],
+      "length_estimate": 42
+    },
+    {
+      "id": "polish-batch1-001",
+      "text": "כל מחשבה שאדם חושב, יש בה ניצוץ אלוקי. ואם מכוון את המחשבה לטוב, הניצוץ עולה למעלה.",
+      "source_rabbi": "המגיד ממזריטש",
+      "source_book": "מגיד דבריו ליעקב",
+      "source_section": "על המחשבה",
+      "source_url": "https://www.sefaria.org/Maggid_Devarav_L'Yaakov",
+      "category": "polish_chassidut",
+      "tags": [
+        "מחשבה",
+        "ניצוץ",
+        "עלייה"
+      ],
+      "length_estimate": 35
+    },
+    {
+      "id": "polish-batch1-002",
+      "text": "הביטול הוא השער לדבקות. כשאדם מבטל את עצמו, הוא מתאחד עם האין סוף.",
+      "source_rabbi": "המגיד ממזריטש",
+      "source_book": "אור תורה",
+      "source_section": "על הביטול",
+      "source_url": "https://www.sefaria.org/Or_Torah",
+      "category": "polish_chassidut",
+      "tags": [
+        "ביטול",
+        "דבקות",
+        "אין סוף"
+      ],
+      "length_estimate": 30
+    },
+    {
+      "id": "polish-batch1-003",
+      "text": "אין עוד מלבדו - זה לא רק אמונה, זה מציאות. כשמבינים את זה באמת, כל הפחדים נעלמים.",
+      "source_rabbi": "המגיד ממזריטש",
+      "source_book": "מגיד דבריו ליעקב",
+      "source_section": "פרשת ואתחנן",
+      "source_url": "https://www.sefaria.org/Maggid_Devarav_L'Yaakov",
+      "category": "polish_chassidut",
+      "tags": [
+        "אין עוד מלבדו",
+        "אמונה",
+        "פחד"
+      ],
+      "length_estimate": 38
+    },
+    {
+      "id": "polish-batch1-004",
+      "text": "התפילה היא סולם שעולים בו לשמים. כל מילה היא שלב, וכל כוונה היא עלייה.",
+      "source_rabbi": "המגיד ממזריטש",
+      "source_book": "אור האמת",
+      "source_section": "על התפילה",
+      "source_url": "https://www.sefaria.org/Maggid_Devarav_L'Yaakov",
+      "category": "polish_chassidut",
+      "tags": [
+        "תפילה",
+        "סולם",
+        "עלייה"
+      ],
+      "length_estimate": 32
+    },
+    {
+      "id": "polish-batch1-005",
+      "text": "כל העולם הוא לבוש לאלוקות. מי שיודע להסתכל נכון, רואה את הבורא בכל פרט ופרט.",
+      "source_rabbi": "המגיד ממזריטש",
+      "source_book": "אור תורה",
+      "source_section": "פרשת בראשית",
+      "source_url": "https://www.sefaria.org/Or_Torah",
+      "category": "polish_chassidut",
+      "tags": [
+        "אלוקות",
+        "ראייה",
+        "עולם"
+      ],
+      "length_estimate": 35
+    },
+    {
+      "id": "polish-batch1-006",
+      "text": "הדבקות אינה עניין של לימוד בלבד, אלא עניין של חיים. צריך לחיות עם הקב\"ה בכל רגע.",
+      "source_rabbi": "המגיד ממזריטש",
+      "source_book": "מגיד דבריו ליעקב",
+      "source_section": "על הדבקות",
+      "source_url": "https://www.sefaria.org/Maggid_Devarav_L'Yaakov",
+      "category": "polish_chassidut",
+      "tags": [
+        "דבקות",
+        "חיים",
+        "רגע"
+      ],
+      "length_estimate": 36
+    },
+    {
+      "id": "polish-batch1-007",
+      "text": "כשאדם מדבק עצמו באותיות התורה, הוא מתקשר לשורש הנשמות.",
+      "source_rabbi": "המגיד ממזריטש",
+      "source_book": "אור תורה",
+      "source_section": "על התורה",
+      "source_url": "https://www.sefaria.org/Or_Torah",
+      "category": "polish_chassidut",
+      "tags": [
+        "אותיות",
+        "תורה",
+        "נשמות"
+      ],
+      "length_estimate": 25
+    },
+    {
+      "id": "polish-batch1-008",
+      "text": "האדם הוא עולם קטן, וכל מה שיש בעולם הגדול יש בתוכו. ולכן בתיקון עצמו הוא מתקן את העולם.",
+      "source_rabbi": "המגיד ממזריטש",
+      "source_book": "מגיד דבריו ליעקב",
+      "source_section": "על האדם",
+      "source_url": "https://www.sefaria.org/Maggid_Devarav_L'Yaakov",
+      "category": "polish_chassidut",
+      "tags": [
+        "עולם קטן",
+        "תיקון",
+        "אדם"
+      ],
+      "length_estimate": 40
+    },
+    {
+      "id": "polish-batch1-009",
+      "text": "השמחה מרחיבה את הכלים לקבל שפע. העצבות מצמצמת אותם. לכן עבודת ה' צריכה להיות בשמחה.",
+      "source_rabbi": "המגיד ממזריטש",
+      "source_book": "אור האמת",
+      "source_section": "על השמחה",
+      "source_url": "https://www.sefaria.org/Maggid_Devarav_L'Yaakov",
+      "category": "polish_chassidut",
+      "tags": [
+        "שמחה",
+        "כלים",
+        "שפע"
+      ],
+      "length_estimate": 38
+    },
+    {
+      "id": "polish-batch1-010",
+      "text": "כל נפילה היא הכנה לעלייה גדולה יותר. כי צריך לרדת כדי לקפוץ גבוה יותר.",
+      "source_rabbi": "המגיד ממזריטש",
+      "source_book": "אור תורה",
+      "source_section": "על הנפילה",
+      "source_url": "https://www.sefaria.org/Or_Torah",
+      "category": "polish_chassidut",
+      "tags": [
+        "נפילה",
+        "עלייה",
+        "התחדשות"
+      ],
+      "length_estimate": 32
+    },
+    {
+      "id": "polish-batch1-011",
+      "text": "מי שמכיר את האין שבתוכו, מתחיל להכיר את האין סוף שמחוצה לו.",
+      "source_rabbi": "המגיד ממזריטש",
+      "source_book": "מגיד דבריו ליעקב",
+      "source_section": "על הביטול",
+      "source_url": "https://www.sefaria.org/Maggid_Devarav_L'Yaakov",
+      "category": "polish_chassidut",
+      "tags": [
+        "אין",
+        "אין סוף",
+        "הכרה"
+      ],
+      "length_estimate": 28
+    },
+    {
+      "id": "polish-batch1-012",
+      "text": "התורה ניתנה באש. וכך צריכה להיות הלימוד - בהתלהבות ובאש פנימית.",
+      "source_rabbi": "המגיד ממזריטש",
+      "source_book": "אור תורה",
+      "source_section": "פרשת יתרו",
+      "source_url": "https://www.sefaria.org/Or_Torah",
+      "category": "polish_chassidut",
+      "tags": [
+        "תורה",
+        "אש",
+        "התלהבות"
+      ],
+      "length_estimate": 28
+    },
+    {
+      "id": "polish-batch1-013",
+      "text": "כשאדם מתפלל, צריך להרגיש שהוא עומד לפני המלך. ואם אינו מרגיש כך, עליו לעבוד על עצמו עד שירגיש.",
+      "source_rabbi": "המגיד ממזריטש",
+      "source_book": "מגיד דבריו ליעקב",
+      "source_section": "על התפילה",
+      "source_url": "https://www.sefaria.org/Maggid_Devarav_L'Yaakov",
+      "category": "polish_chassidut",
+      "tags": [
+        "תפילה",
+        "מלכות",
+        "הרגשה"
+      ],
+      "length_estimate": 42
+    },
+    {
+      "id": "polish-batch1-014",
+      "text": "האהבה והיראה הם שני כנפיים. בלי שניהם, אי אפשר לעוף למעלה.",
+      "source_rabbi": "המגיד ממזריטש",
+      "source_book": "אור האמת",
+      "source_section": "על האהבה והיראה",
+      "source_url": "https://www.sefaria.org/Maggid_Devarav_L'Yaakov",
+      "category": "polish_chassidut",
+      "tags": [
+        "אהבה",
+        "יראה",
+        "עלייה"
+      ],
+      "length_estimate": 26
+    },
+    {
+      "id": "polish-batch1-015",
+      "text": "כל הנבראים הם אותיות בספר שהקב\"ה כותב. ומי שיודע לקרוא, רואה את החכמה האלוקית בכל דבר.",
+      "source_rabbi": "המגיד ממזריטש",
+      "source_book": "אור תורה",
+      "source_section": "על הבריאה",
+      "source_url": "https://www.sefaria.org/Or_Torah",
+      "category": "polish_chassidut",
+      "tags": [
+        "אותיות",
+        "בריאה",
+        "חכמה"
+      ],
+      "length_estimate": 40
+    },
+    {
+      "id": "polish-batch1-016",
+      "text": "הענווה האמיתית היא לא לחשוב שאני קטן, אלא לדעת שהכל מהבורא ושום דבר מעצמי.",
+      "source_rabbi": "המגיד ממזריטש",
+      "source_book": "מגיד דבריו ליעקב",
+      "source_section": "על הענווה",
+      "source_url": "https://www.sefaria.org/Maggid_Devarav_L'Yaakov",
+      "category": "polish_chassidut",
+      "tags": [
+        "ענווה",
+        "ביטול",
+        "בורא"
+      ],
+      "length_estimate": 35
+    },
+    {
+      "id": "polish-batch1-017",
+      "text": "כשאדם מקדש את האכילה, הוא מעלה את הניצוצות שבמאכל. כי בכל דבר גשמי יש רוחניות חבויה.",
+      "source_rabbi": "המגיד ממזריטש",
+      "source_book": "אור תורה",
+      "source_section": "על האכילה",
+      "source_url": "https://www.sefaria.org/Or_Torah",
+      "category": "polish_chassidut",
+      "tags": [
+        "אכילה",
+        "ניצוצות",
+        "קדושה"
+      ],
+      "length_estimate": 38
+    },
+    {
+      "id": "polish-batch1-018",
+      "text": "המחשבה היא כוח אדיר. במחשבה אחת יכול אדם להתרומם לשמים או ליפול לתהום.",
+      "source_rabbi": "המגיד ממזריטש",
+      "source_book": "מגיד דבריו ליעקב",
+      "source_section": "על המחשבה",
+      "source_url": "https://www.sefaria.org/Maggid_Devarav_L'Yaakov",
+      "category": "polish_chassidut",
+      "tags": [
+        "מחשבה",
+        "כוח",
+        "עלייה"
+      ],
+      "length_estimate": 32
+    },
+    {
+      "id": "polish-batch1-019",
+      "text": "כל יום הוא בריאה חדשה. והאדם צריך להתייחס לכל יום כאילו העולם נברא היום.",
+      "source_rabbi": "המגיד ממזריטש",
+      "source_book": "אור האמת",
+      "source_section": "על ההתחדשות",
+      "source_url": "https://www.sefaria.org/Maggid_Devarav_L'Yaakov",
+      "category": "polish_chassidut",
+      "tags": [
+        "יום",
+        "בריאה",
+        "התחדשות"
+      ],
+      "length_estimate": 32
+    },
+    {
+      "id": "polish-batch1-020",
+      "text": "הדבקות היא חיבור הטיפה לים. כשהטיפה מתחברת לים, היא נעשית חלק מהאין סוף.",
+      "source_rabbi": "המגיד ממזריטש",
+      "source_book": "אור תורה",
+      "source_section": "על הדבקות",
+      "source_url": "https://www.sefaria.org/Or_Torah",
+      "category": "polish_chassidut",
+      "tags": [
+        "דבקות",
+        "טיפה",
+        "ים"
+      ],
+      "length_estimate": 32
+    },
+    {
+      "id": "polish-batch1-021",
+      "text": "הראייה הרוחנית היא מתנה שצריך לפתח אותה. ככל שאדם מטהר את עצמו, כך הוא רואה יותר.",
+      "source_rabbi": "החוזה מלובלין",
+      "source_book": "זכרון זאת",
+      "source_section": "על הראייה",
+      "source_url": "https://www.sefaria.org/Chozeh_of_Lublin",
+      "category": "polish_chassidut",
+      "tags": [
+        "ראייה",
+        "טהרה",
+        "פיתוח"
+      ],
+      "length_estimate": 38
+    },
+    {
+      "id": "polish-batch1-022",
+      "text": "כל יהודי יכול להגיע למדרגת נבואה. הדרך היא דרך טהרת הלב והמחשבה.",
+      "source_rabbi": "החוזה מלובלין",
+      "source_book": "דברי אמת",
+      "source_section": "על הנבואה",
+      "source_url": "https://www.sefaria.org/Divrei_Emet",
+      "category": "polish_chassidut",
+      "tags": [
+        "נבואה",
+        "טהרה",
+        "מדרגה"
+      ],
+      "length_estimate": 30
+    },
+    {
+      "id": "polish-batch1-023",
+      "text": "החסידות היא דרך של אהבה. אהבת ה', אהבת התורה, ואהבת ישראל - שלושתם יחד.",
+      "source_rabbi": "החוזה מלובלין",
+      "source_book": "זכרון זאת",
+      "source_section": "על החסידות",
+      "source_url": "https://www.sefaria.org/Chozeh_of_Lublin",
+      "category": "polish_chassidut",
+      "tags": [
+        "חסידות",
+        "אהבה",
+        "ישראל"
+      ],
+      "length_estimate": 32
+    },
+    {
+      "id": "polish-batch1-024",
+      "text": "מי שרואה את הנסתר שבנגלה, הוא באמת חכם. כי החכמה האמיתית היא לראות מעבר למה שהעין רואה.",
+      "source_rabbi": "החוזה מלובלין",
+      "source_book": "דברי אמת",
+      "source_section": "על החכמה",
+      "source_url": "https://www.sefaria.org/Divrei_Emet",
+      "category": "polish_chassidut",
+      "tags": [
+        "נסתר",
+        "נגלה",
+        "חכמה"
+      ],
+      "length_estimate": 40
+    },
+    {
+      "id": "polish-batch1-025",
+      "text": "הצדיק רואה את השורש של כל דבר. ולכן הוא יכול לתקן גם דברים שנראים אבודים.",
+      "source_rabbi": "החוזה מלובלין",
+      "source_book": "זכרון זאת",
+      "source_section": "על הצדיק",
+      "source_url": "https://www.sefaria.org/Chozeh_of_Lublin",
+      "category": "polish_chassidut",
+      "tags": [
+        "צדיק",
+        "שורש",
+        "תיקון"
+      ],
+      "length_estimate": 32
+    },
+    {
+      "id": "polish-batch1-026",
+      "text": "כשאדם מתפלל בכוונה, הוא פותח חלון בשמים. דרך החלון הזה יורדת הברכה לעולם.",
+      "source_rabbi": "החוזה מלובלין",
+      "source_book": "דברי אמת",
+      "source_section": "על התפילה",
+      "source_url": "https://www.sefaria.org/Divrei_Emet",
+      "category": "polish_chassidut",
+      "tags": [
+        "תפילה",
+        "כוונה",
+        "ברכה"
+      ],
+      "length_estimate": 34
+    },
+    {
+      "id": "polish-batch1-027",
+      "text": "האמונה הפשוטה יקרה יותר מכל החקירות. כי האמונה באה מהלב, והחקירות מהשכל בלבד.",
+      "source_rabbi": "החוזה מלובלין",
+      "source_book": "זכרון זאת",
+      "source_section": "על האמונה",
+      "source_url": "https://www.sefaria.org/Chozeh_of_Lublin",
+      "category": "polish_chassidut",
+      "tags": [
+        "אמונה",
+        "לב",
+        "פשטות"
+      ],
+      "length_estimate": 36
+    },
+    {
+      "id": "polish-batch1-028",
+      "text": "הניגון יכול להעלות את האדם למקומות שהתפילה במילים לא יכולה. כי הניגון הוא שפת הנשמה.",
+      "source_rabbi": "החוזה מלובלין",
+      "source_book": "דברי אמת",
+      "source_section": "על הניגון",
+      "source_url": "https://www.sefaria.org/Divrei_Emet",
+      "category": "polish_chassidut",
+      "tags": [
+        "ניגון",
+        "נשמה",
+        "עלייה"
+      ],
+      "length_estimate": 40
+    },
+    {
+      "id": "polish-batch1-029",
+      "text": "מי שמבקש את האמת, סופו למצוא אותה. כי האמת רוצה להימצא יותר ממה שאנחנו רוצים למצוא אותה.",
+      "source_rabbi": "החוזה מלובלין",
+      "source_book": "זכרון זאת",
+      "source_section": "על האמת",
+      "source_url": "https://www.sefaria.org/Chozeh_of_Lublin",
+      "category": "polish_chassidut",
+      "tags": [
+        "אמת",
+        "חיפוש",
+        "מציאה"
+      ],
+      "length_estimate": 40
+    },
+    {
+      "id": "polish-batch1-030",
+      "text": "השבת היא מעין עולם הבא. ומי שיודע לשמור את השבת כראוי, טועם מהעולם הבא בעולם הזה.",
+      "source_rabbi": "החוזה מלובלין",
+      "source_book": "דברי אמת",
+      "source_section": "על השבת",
+      "source_url": "https://www.sefaria.org/Divrei_Emet",
+      "category": "polish_chassidut",
+      "tags": [
+        "שבת",
+        "עולם הבא",
+        "קדושה"
+      ],
+      "length_estimate": 38
+    },
+    {
+      "id": "polish-batch1-031",
+      "text": "כל אדם הוא אות בספר התורה. ואם חסרה אות אחת, הספר כולו פסול.",
+      "source_rabbi": "החוזה מלובלין",
+      "source_book": "זכרון זאת",
+      "source_section": "על ישראל",
+      "source_url": "https://www.sefaria.org/Chozeh_of_Lublin",
+      "category": "polish_chassidut",
+      "tags": [
+        "אות",
+        "תורה",
+        "אחדות"
+      ],
+      "length_estimate": 28
+    },
+    {
+      "id": "polish-batch1-032",
+      "text": "החסיד צריך לראות את עצמו כשליח של הבורא. כל מעשה שהוא עושה, הוא עושה בשם שמים.",
+      "source_rabbi": "החוזה מלובלין",
+      "source_book": "דברי אמת",
+      "source_section": "על החסיד",
+      "source_url": "https://www.sefaria.org/Divrei_Emet",
+      "category": "polish_chassidut",
+      "tags": [
+        "שליחות",
+        "חסידות",
+        "שמים"
+      ],
+      "length_estimate": 36
+    },
+    {
+      "id": "polish-batch1-033",
+      "text": "הברכה שורה על דבר שיש בו שלום. ולכן השלום הוא הכלי הגדול ביותר לקבלת שפע.",
+      "source_rabbi": "החוזה מלובלין",
+      "source_book": "זכרון זאת",
+      "source_section": "על השלום",
+      "source_url": "https://www.sefaria.org/Chozeh_of_Lublin",
+      "category": "polish_chassidut",
+      "tags": [
+        "שלום",
+        "ברכה",
+        "שפע"
+      ],
+      "length_estimate": 34
+    },
+    {
+      "id": "polish-batch1-034",
+      "text": "הלב הוא המקדש הפנימי. וכשהלב טהור, השכינה שורה בתוכו.",
+      "source_rabbi": "החוזה מלובלין",
+      "source_book": "דברי אמת",
+      "source_section": "על הלב",
+      "source_url": "https://www.sefaria.org/Divrei_Emet",
+      "category": "polish_chassidut",
+      "tags": [
+        "לב",
+        "מקדש",
+        "שכינה"
+      ],
+      "length_estimate": 24
+    },
+    {
+      "id": "polish-batch1-035",
+      "text": "מי שמחפש כבוד, מאבד את עצמו. מי שבורח מהכבוד, הכבוד רודף אחריו.",
+      "source_rabbi": "החוזה מלובלין",
+      "source_book": "זכרון זאת",
+      "source_section": "על הכבוד",
+      "source_url": "https://www.sefaria.org/Chozeh_of_Lublin",
+      "category": "polish_chassidut",
+      "tags": [
+        "כבוד",
+        "ענווה",
+        "בריחה"
+      ],
+      "length_estimate": 30
+    },
+    {
+      "id": "polish-batch1-036",
+      "text": "הרבי הוא כמו נר. הוא שורף את עצמו כדי להאיר לאחרים.",
+      "source_rabbi": "החוזה מלובלין",
+      "source_book": "דברי אמת",
+      "source_section": "על הרבי",
+      "source_url": "https://www.sefaria.org/Divrei_Emet",
+      "category": "polish_chassidut",
+      "tags": [
+        "רבי",
+        "נר",
+        "מסירות"
+      ],
+      "length_estimate": 22
+    },
+    {
+      "id": "polish-batch1-037",
+      "text": "התשובה מתחילה ברגע שאדם מודה שטעה. ההודאה הזו היא המפתח לכל התיקון.",
+      "source_rabbi": "החוזה מלובלין",
+      "source_book": "זכרון זאת",
+      "source_section": "על התשובה",
+      "source_url": "https://www.sefaria.org/Chozeh_of_Lublin",
+      "category": "polish_chassidut",
+      "tags": [
+        "תשובה",
+        "הודאה",
+        "תיקון"
+      ],
+      "length_estimate": 32
+    },
+    {
+      "id": "polish-batch1-038",
+      "text": "הסבלנות היא מידה גדולה. מי שסבלן, מראה שהוא שולט על עצמו ולא שהיצר שולט בו.",
+      "source_rabbi": "החוזה מלובלין",
+      "source_book": "דברי אמת",
+      "source_section": "על הסבלנות",
+      "source_url": "https://www.sefaria.org/Divrei_Emet",
+      "category": "polish_chassidut",
+      "tags": [
+        "סבלנות",
+        "שליטה",
+        "יצר"
+      ],
+      "length_estimate": 36
+    },
+    {
+      "id": "polish-batch1-039",
+      "text": "כשאדם שמח במה שיש לו, הוא עשיר. כשאדם רוצה מה שאין לו, הוא עני.",
+      "source_rabbi": "החוזה מלובלין",
+      "source_book": "זכרון זאת",
+      "source_section": "על העושר",
+      "source_url": "https://www.sefaria.org/Chozeh_of_Lublin",
+      "category": "polish_chassidut",
+      "tags": [
+        "שמחה",
+        "עושר",
+        "הסתפקות"
+      ],
+      "length_estimate": 30
+    },
+    {
+      "id": "polish-batch1-040",
+      "text": "הגאולה תבוא כשכל ישראל יהיו באחדות. כי האחדות היא הכלי לגאולה.",
+      "source_rabbi": "החוזה מלובלין",
+      "source_book": "דברי אמת",
+      "source_section": "על הגאולה",
+      "source_url": "https://www.sefaria.org/Divrei_Emet",
+      "category": "polish_chassidut",
+      "tags": [
+        "גאולה",
+        "אחדות",
+        "ישראל"
+      ],
+      "length_estimate": 28
+    },
+    {
+      "id": "polish-batch1-041",
+      "text": "האמת היא כמו מים - היא תמיד מוצאת את דרכה. אפשר לחסום אותה זמנית, אבל בסוף היא פורצת.",
+      "source_rabbi": "רבי שמחה בונם מפשיסחא",
+      "source_book": "קול שמחה",
+      "source_section": "על האמת",
+      "source_url": "https://www.sefaria.org/Simcha_Bunim_of_Peshischa",
+      "category": "polish_chassidut",
+      "tags": [
+        "אמת",
+        "מים",
+        "התמדה"
+      ],
+      "length_estimate": 40
+    },
+    {
+      "id": "polish-batch1-042",
+      "text": "הפנימיות חשובה יותר מהחיצוניות. מה שבלב זה מה שקובע, לא מה שבפה.",
+      "source_rabbi": "רבי שמחה בונם מפשיסחא",
+      "source_book": "קול שמחה",
+      "source_section": "על הפנימיות",
+      "source_url": "https://www.sefaria.org/Simcha_Bunim_of_Peshischa",
+      "category": "polish_chassidut",
+      "tags": [
+        "פנימיות",
+        "לב",
+        "כוונה"
+      ],
+      "length_estimate": 30
+    },
+    {
+      "id": "polish-batch1-043",
+      "text": "עבודת הלב היא העבודה הכי קשה. כי קל לעבוד עם הידיים ועם הפה, אבל קשה לעבוד עם הלב.",
+      "source_rabbi": "רבי שמחה בונם מפשיסחא",
+      "source_book": "קול שמחה",
+      "source_section": "על העבודה",
+      "source_url": "https://www.sefaria.org/Simcha_Bunim_of_Peshischa",
+      "category": "polish_chassidut",
+      "tags": [
+        "לב",
+        "עבודה",
+        "קושי"
+      ],
+      "length_estimate": 38
+    },
+    {
+      "id": "polish-batch1-044",
+      "text": "אל תחפש את הקב\"ה בשמים. חפש אותו בתוך עצמך, כי שם הוא הכי קרוב.",
+      "source_rabbi": "רבי שמחה בונם מפשיסחא",
+      "source_book": "שפתי צדיקים",
+      "source_section": "על החיפוש",
+      "source_url": "https://www.sefaria.org/Simcha_Bunim_of_Peshischa",
+      "category": "polish_chassidut",
+      "tags": [
+        "חיפוש",
+        "פנימיות",
+        "קירבה"
+      ],
+      "length_estimate": 30
+    },
+    {
+      "id": "polish-batch1-045",
+      "text": "מי שאומר 'אני יודע' - עדיין לא יודע. מי שאומר 'אני לא יודע' - מתחיל לדעת.",
+      "source_rabbi": "רבי שמחה בונם מפשיסחא",
+      "source_book": "קול שמחה",
+      "source_section": "על הידיעה",
+      "source_url": "https://www.sefaria.org/Simcha_Bunim_of_Peshischa",
+      "category": "polish_chassidut",
+      "tags": [
+        "ידיעה",
+        "ענווה",
+        "חכמה"
+      ],
+      "length_estimate": 35
+    },
+    {
+      "id": "polish-batch1-046",
+      "text": "התפילה האמיתית היא כשהאדם שופך את לבו לפני הבורא. לא מילים יפות, אלא מילים אמיתיות.",
+      "source_rabbi": "רבי שמחה בונם מפשיסחא",
+      "source_book": "קול שמחה",
+      "source_section": "על התפילה",
+      "source_url": "https://www.sefaria.org/Simcha_Bunim_of_Peshischa",
+      "category": "polish_chassidut",
+      "tags": [
+        "תפילה",
+        "לב",
+        "אמת"
+      ],
+      "length_estimate": 38
+    },
+    {
+      "id": "polish-batch1-047",
+      "text": "השקר הכי גדול הוא לשקר לעצמך. כי לאחרים אתה יכול לשקר פעם או פעמיים, אבל לעצמך אתה משקר כל הזמן.",
+      "source_rabbi": "רבי שמחה בונם מפשיסחא",
+      "source_book": "שפתי צדיקים",
+      "source_section": "על השקר",
+      "source_url": "https://www.sefaria.org/Simcha_Bunim_of_Peshischa",
+      "category": "polish_chassidut",
+      "tags": [
+        "שקר",
+        "אמת",
+        "הונאה עצמית"
+      ],
+      "length_estimate": 45
+    },
+    {
+      "id": "polish-batch1-048",
+      "text": "כשאדם עובד על מידה אחת בכנות, כל המידות האחרות מתחילות להשתפר.",
+      "source_rabbi": "רבי שמחה בונם מפשיסחא",
+      "source_book": "קול שמחה",
+      "source_section": "על המידות",
+      "source_url": "https://www.sefaria.org/Simcha_Bunim_of_Peshischa",
+      "category": "polish_chassidut",
+      "tags": [
+        "מידות",
+        "עבודה",
+        "תיקון"
+      ],
+      "length_estimate": 28
+    },
+    {
+      "id": "polish-batch1-049",
+      "text": "הגדלות האמיתית היא בפשטות. מי שצריך להראות שהוא גדול, מוכיח שהוא קטן.",
+      "source_rabbi": "רבי שמחה בונם מפשיסחא",
+      "source_book": "קול שמחה",
+      "source_section": "על הפשטות",
+      "source_url": "https://www.sefaria.org/Simcha_Bunim_of_Peshischa",
+      "category": "polish_chassidut",
+      "tags": [
+        "גדלות",
+        "פשטות",
+        "ענווה"
+      ],
+      "length_estimate": 32
+    },
+    {
+      "id": "polish-batch1-050",
+      "text": "אל תדאג ממה שאנשים חושבים עליך. דאג ממה שאתה באמת.",
+      "source_rabbi": "רבי שמחה בונם מפשיסחא",
+      "source_book": "שפתי צדיקים",
+      "source_section": "על העצמי",
+      "source_url": "https://www.sefaria.org/Simcha_Bunim_of_Peshischa",
+      "category": "polish_chassidut",
+      "tags": [
+        "עצמי",
+        "אמת",
+        "דאגה"
+      ],
+      "length_estimate": 22
+    },
+    {
+      "id": "polish-batch1-051",
+      "text": "כל אדם צריך לתקן את עצמו לפני שהוא מנסה לתקן אחרים. כי איך תוציא קיסם מעין חברך אם יש קורה בעינך?",
+      "source_rabbi": "רבי שמחה בונם מפשיסחא",
+      "source_book": "קול שמחה",
+      "source_section": "על התיקון",
+      "source_url": "https://www.sefaria.org/Simcha_Bunim_of_Peshischa",
+      "category": "polish_chassidut",
+      "tags": [
+        "תיקון",
+        "עצמי",
+        "אחרים"
+      ],
+      "length_estimate": 42
+    },
+    {
+      "id": "polish-batch1-052",
+      "text": "השתיקה היא חכמה גדולה. לפעמים מילה אחת יכולה להרוס מה שמאה מילים לא יכולות לבנות.",
+      "source_rabbi": "רבי שמחה בונם מפשיסחא",
+      "source_book": "קול שמחה",
+      "source_section": "על השתיקה",
+      "source_url": "https://www.sefaria.org/Simcha_Bunim_of_Peshischa",
+      "category": "polish_chassidut",
+      "tags": [
+        "שתיקה",
+        "חכמה",
+        "דיבור"
+      ],
+      "length_estimate": 38
+    },
+    {
+      "id": "polish-batch1-053",
+      "text": "מי שרוצה להשפיע על אחרים, צריך קודם להשפיע על עצמו. כי אי אפשר לתת מה שאין לך.",
+      "source_rabbi": "רבי שמחה בונם מפשיסחא",
+      "source_book": "שפתי צדיקים",
+      "source_section": "על ההשפעה",
+      "source_url": "https://www.sefaria.org/Simcha_Bunim_of_Peshischa",
+      "category": "polish_chassidut",
+      "tags": [
+        "השפעה",
+        "עצמי",
+        "נתינה"
+      ],
+      "length_estimate": 36
+    },
+    {
+      "id": "polish-batch1-054",
+      "text": "הלב השבור הוא הכלי הכי טוב לקבלת השפע האלוקי. כי הכלי השלם מלא בעצמו.",
+      "source_rabbi": "רבי שמחה בונם מפשיסחא",
+      "source_book": "קול שמחה",
+      "source_section": "על הלב",
+      "source_url": "https://www.sefaria.org/Simcha_Bunim_of_Peshischa",
+      "category": "polish_chassidut",
+      "tags": [
+        "לב",
+        "שבירה",
+        "שפע"
+      ],
+      "length_estimate": 34
+    },
+    {
+      "id": "polish-batch1-055",
+      "text": "עדיף להיות יהודי פשוט שעובד את ה' באמת, מאשר תלמיד חכם שעובד את עצמו.",
+      "source_rabbi": "רבי שמחה בונם מפשיסחא",
+      "source_book": "קול שמחה",
+      "source_section": "על העבודה",
+      "source_url": "https://www.sefaria.org/Simcha_Bunim_of_Peshischa",
+      "category": "polish_chassidut",
+      "tags": [
+        "פשטות",
+        "אמת",
+        "עבודה"
+      ],
+      "length_estimate": 32
+    },
+    {
+      "id": "polish-batch1-056",
+      "text": "החיפוש אחרי האמת הוא עצמו האמת. כי מי שמחפש בכנות, כבר נמצא בדרך.",
+      "source_rabbi": "רבי שמחה בונם מפשיסחא",
+      "source_book": "שפתי צדיקים",
+      "source_section": "על האמת",
+      "source_url": "https://www.sefaria.org/Simcha_Bunim_of_Peshischa",
+      "category": "polish_chassidut",
+      "tags": [
+        "אמת",
+        "חיפוש",
+        "דרך"
+      ],
+      "length_estimate": 30
+    },
+    {
+      "id": "polish-batch1-057",
+      "text": "מי שאוהב את האמת, צריך להיות מוכן לשלם את המחיר. כי האמת לא תמיד נוחה.",
+      "source_rabbi": "רבי שמחה בונם מפשיסחא",
+      "source_book": "קול שמחה",
+      "source_section": "על האמת",
+      "source_url": "https://www.sefaria.org/Simcha_Bunim_of_Peshischa",
+      "category": "polish_chassidut",
+      "tags": [
+        "אמת",
+        "מחיר",
+        "מסירות"
+      ],
+      "length_estimate": 34
+    },
+    {
+      "id": "polish-batch1-058",
+      "text": "כשאדם מתבונן בעצמו באמת, הוא מגלה עולמות שלמים בתוכו.",
+      "source_rabbi": "רבי שמחה בונם מפשיסחא",
+      "source_book": "קול שמחה",
+      "source_section": "על ההתבוננות",
+      "source_url": "https://www.sefaria.org/Simcha_Bunim_of_Peshischa",
+      "category": "polish_chassidut",
+      "tags": [
+        "התבוננות",
+        "עצמי",
+        "גילוי"
+      ],
+      "length_estimate": 24
+    },
+    {
+      "id": "polish-batch1-059",
+      "text": "הכנות היא הדרך הקצרה ביותר אל הקב\"ה. כי הקב\"ה לא רוצה תחפושות, הוא רוצה אותך.",
+      "source_rabbi": "רבי שמחה בונם מפשיסחא",
+      "source_book": "שפתי צדיקים",
+      "source_section": "על הכנות",
+      "source_url": "https://www.sefaria.org/Simcha_Bunim_of_Peshischa",
+      "category": "polish_chassidut",
+      "tags": [
+        "כנות",
+        "אמת",
+        "קירבה"
+      ],
+      "length_estimate": 36
+    },
+    {
+      "id": "polish-batch1-060",
+      "text": "אל תשווה את עצמך לאחרים. אתה צריך להיות הגרסה הכי טובה של עצמך, לא העתק של מישהו אחר.",
+      "source_rabbi": "רבי שמחה בונם מפשיסחא",
+      "source_book": "קול שמחה",
+      "source_section": "על העצמי",
+      "source_url": "https://www.sefaria.org/Simcha_Bunim_of_Peshischa",
+      "category": "polish_chassidut",
+      "tags": [
+        "עצמי",
+        "השוואה",
+        "ייחוד"
+      ],
+      "length_estimate": 40
+    },
+    {
+      "id": "polish-batch1-061",
+      "text": "העולם אומר שהאמת הולכת על פני כל הארץ. אני אומר שהאמת הולכת לבדה כי אף אחד לא רוצה ללכת איתה.",
+      "source_rabbi": "הרבי מקוצק",
+      "source_book": "אמת מקוצק",
+      "source_section": "על האמת",
+      "source_url": "https://www.sefaria.org/Kotzker_Rebbe",
+      "category": "polish_chassidut",
+      "tags": [
+        "אמת",
+        "בדידות",
+        "עולם"
+      ],
+      "length_estimate": 45
+    },
+    {
+      "id": "polish-batch1-062",
+      "text": "אני לא מחפש חסידים שעושים מצוות. אני מחפש חסידים שבוערת בהם אש.",
+      "source_rabbi": "הרבי מקוצק",
+      "source_book": "אמרי אמת",
+      "source_section": "על החסידות",
+      "source_url": "https://www.sefaria.org/Kotzker_Rebbe",
+      "category": "polish_chassidut",
+      "tags": [
+        "אש",
+        "חסידות",
+        "פנימיות"
+      ],
+      "length_estimate": 28
+    },
+    {
+      "id": "polish-batch1-063",
+      "text": "מי שעובד את ה' בשביל שכר - הוא סוחר. מי שעובד מאהבה - הוא בן.",
+      "source_rabbi": "הרבי מקוצק",
+      "source_book": "אמת מקוצק",
+      "source_section": "על העבודה",
+      "source_url": "https://www.sefaria.org/Kotzker_Rebbe",
+      "category": "polish_chassidut",
+      "tags": [
+        "עבודה",
+        "אהבה",
+        "שכר"
+      ],
+      "length_estimate": 30
+    },
+    {
+      "id": "polish-batch1-064",
+      "text": "הכנות היא לא להיות מושלם. הכנות היא לדעת בדיוק איפה אתה לא מושלם.",
+      "source_rabbi": "הרבי מקוצק",
+      "source_book": "אמרי אמת",
+      "source_section": "על הכנות",
+      "source_url": "https://www.sefaria.org/Kotzker_Rebbe",
+      "category": "polish_chassidut",
+      "tags": [
+        "כנות",
+        "שלמות",
+        "מודעות"
+      ],
+      "length_estimate": 30
+    },
+    {
+      "id": "polish-batch1-065",
+      "text": "לחיות עם שאלות קשה. לחיות עם תשובות שקריות קל, אבל מסוכן.",
+      "source_rabbi": "הרבי מקוצק",
+      "source_book": "אמת מקוצק",
+      "source_section": "על השאלות",
+      "source_url": "https://www.sefaria.org/Kotzker_Rebbe",
+      "category": "polish_chassidut",
+      "tags": [
+        "שאלות",
+        "אמת",
+        "חיים"
+      ],
+      "length_estimate": 26
+    },
+    {
+      "id": "polish-batch1-066",
+      "text": "התרגלות היא המוות של העבודה. כשעושים דברים מהרגל, כבר לא עושים אותם באמת.",
+      "source_rabbi": "הרבי מקוצק",
+      "source_book": "שיחות קודש",
+      "source_section": "על ההתרגלות",
+      "source_url": "https://www.sefaria.org/Kotzker_Rebbe",
+      "category": "polish_chassidut",
+      "tags": [
+        "הרגל",
+        "עבודה",
+        "התחדשות"
+      ],
+      "length_estimate": 32
+    },
+    {
+      "id": "polish-batch1-067",
+      "text": "עדיף להיות רשע שיודע שהוא רשע, מאשר צדיק שחושב שהוא צדיק.",
+      "source_rabbi": "הרבי מקוצק",
+      "source_book": "אמת מקוצק",
+      "source_section": "על הצדיקות",
+      "source_url": "https://www.sefaria.org/Kotzker_Rebbe",
+      "category": "polish_chassidut",
+      "tags": [
+        "רשע",
+        "צדיק",
+        "מודעות"
+      ],
+      "length_estimate": 28
+    },
+    {
+      "id": "polish-batch1-068",
+      "text": "אם תרוץ אחרי הכבוד, הוא יברח ממך. אם תברח ממנו, הוא ירדוף אחריך.",
+      "source_rabbi": "הרבי מקוצק",
+      "source_book": "אמרי אמת",
+      "source_section": "על הכבוד",
+      "source_url": "https://www.sefaria.org/Kotzker_Rebbe",
+      "category": "polish_chassidut",
+      "tags": [
+        "כבוד",
+        "בריחה",
+        "רדיפה"
+      ],
+      "length_estimate": 30
+    },
+    {
+      "id": "polish-batch1-069",
+      "text": "השקט הפנימי יקר יותר מכל האוצרות. מי שמצא שקט בתוך עצמו, מצא הכל.",
+      "source_rabbi": "הרבי מקוצק",
+      "source_book": "אמת מקוצק",
+      "source_section": "על השקט",
+      "source_url": "https://www.sefaria.org/Kotzker_Rebbe",
+      "category": "polish_chassidut",
+      "tags": [
+        "שקט",
+        "פנימיות",
+        "אוצר"
+      ],
+      "length_estimate": 30
+    },
+    {
+      "id": "polish-batch1-070",
+      "text": "האמונה שבאה אחרי ספקות חזקה יותר מאמונה שלא נבחנה מעולם.",
+      "source_rabbi": "הרבי מקוצק",
+      "source_book": "שיחות קודש",
+      "source_section": "על האמונה",
+      "source_url": "https://www.sefaria.org/Kotzker_Rebbe",
+      "category": "polish_chassidut",
+      "tags": [
+        "אמונה",
+        "ספק",
+        "חוזק"
+      ],
+      "length_estimate": 26
+    },
+    {
+      "id": "polish-batch1-071",
+      "text": "מי שמפחד מהאמת, מפחד מעצמו.",
+      "source_rabbi": "הרבי מקוצק",
+      "source_book": "אמת מקוצק",
+      "source_section": "על הפחד",
+      "source_url": "https://www.sefaria.org/Kotzker_Rebbe",
+      "category": "polish_chassidut",
+      "tags": [
+        "אמת",
+        "פחד",
+        "עצמי"
+      ],
+      "length_estimate": 12
+    },
+    {
+      "id": "polish-batch1-072",
+      "text": "לא מספיק ללמוד תורה. צריך שהתורה תלמד אותך.",
+      "source_rabbi": "הרבי מקוצק",
+      "source_book": "אמרי אמת",
+      "source_section": "על התורה",
+      "source_url": "https://www.sefaria.org/Kotzker_Rebbe",
+      "category": "polish_chassidut",
+      "tags": [
+        "תורה",
+        "לימוד",
+        "שינוי"
+      ],
+      "length_estimate": 18
+    },
+    {
+      "id": "polish-batch1-073",
+      "text": "הגאווה היא שורש כל החטאים. כי מי שחושב שהוא משהו, כבר התרחק מהבורא.",
+      "source_rabbi": "הרבי מקוצק",
+      "source_book": "אמת מקוצק",
+      "source_section": "על הגאווה",
+      "source_url": "https://www.sefaria.org/Kotzker_Rebbe",
+      "category": "polish_chassidut",
+      "tags": [
+        "גאווה",
+        "חטא",
+        "ריחוק"
+      ],
+      "length_estimate": 32
+    },
+    {
+      "id": "polish-batch1-074",
+      "text": "מילה אחת של אמת שווה יותר מאלף מילים של שקר.",
+      "source_rabbi": "הרבי מקוצק",
+      "source_book": "אמרי אמת",
+      "source_section": "על האמת",
+      "source_url": "https://www.sefaria.org/Kotzker_Rebbe",
+      "category": "polish_chassidut",
+      "tags": [
+        "אמת",
+        "שקר",
+        "מילה"
+      ],
+      "length_estimate": 18
+    },
+    {
+      "id": "polish-batch1-075",
+      "text": "כשאדם אומר 'אני לא יכול', הוא צודק - כי הוא החליט שהוא לא יכול.",
+      "source_rabbi": "הרבי מקוצק",
+      "source_book": "שיחות קודש",
+      "source_section": "על היכולת",
+      "source_url": "https://www.sefaria.org/Kotzker_Rebbe",
+      "category": "polish_chassidut",
+      "tags": [
+        "יכולת",
+        "רצון",
+        "החלטה"
+      ],
+      "length_estimate": 30
+    },
+    {
+      "id": "polish-batch1-076",
+      "text": "אל תחפש את האמת בספרים בלבד. האמת נמצאת גם בחיים, אם יודעים להסתכל.",
+      "source_rabbi": "הרבי מקוצק",
+      "source_book": "אמת מקוצק",
+      "source_section": "על האמת",
+      "source_url": "https://www.sefaria.org/Kotzker_Rebbe",
+      "category": "polish_chassidut",
+      "tags": [
+        "אמת",
+        "ספרים",
+        "חיים"
+      ],
+      "length_estimate": 32
+    },
+    {
+      "id": "polish-batch1-077",
+      "text": "העצלות היא לא רק בגוף. יש עצלות של הנשמה, וזו עצלות יותר מסוכנת.",
+      "source_rabbi": "הרבי מקוצק",
+      "source_book": "אמרי אמת",
+      "source_section": "על העצלות",
+      "source_url": "https://www.sefaria.org/Kotzker_Rebbe",
+      "category": "polish_chassidut",
+      "tags": [
+        "עצלות",
+        "נשמה",
+        "סכנה"
+      ],
+      "length_estimate": 30
+    },
+    {
+      "id": "polish-batch1-078",
+      "text": "כשאתה נופל, אל תשכב על הרצפה. תקום מיד ותמשיך לנסות.",
+      "source_rabbi": "הרבי מקוצק",
+      "source_book": "אמת מקוצק",
+      "source_section": "על הנפילה",
+      "source_url": "https://www.sefaria.org/Kotzker_Rebbe",
+      "category": "polish_chassidut",
+      "tags": [
+        "נפילה",
+        "קימה",
+        "התמדה"
+      ],
+      "length_estimate": 24
+    },
+    {
+      "id": "polish-batch1-079",
+      "text": "אין טעם לחיות חיים של העמדת פנים. כי בסוף, אתה נשאר לבד עם עצמך.",
+      "source_rabbi": "הרבי מקוצק",
+      "source_book": "שיחות קודש",
+      "source_section": "על הכנות",
+      "source_url": "https://www.sefaria.org/Kotzker_Rebbe",
+      "category": "polish_chassidut",
+      "tags": [
+        "העמדת פנים",
+        "כנות",
+        "עצמי"
+      ],
+      "length_estimate": 30
+    },
+    {
+      "id": "polish-batch1-080",
+      "text": "הלב צריך להיות חם והראש צריך להיות קר. להפך - זו בעיה.",
+      "source_rabbi": "הרבי מקוצק",
+      "source_book": "אמת מקוצק",
+      "source_section": "על המידות",
+      "source_url": "https://www.sefaria.org/Kotzker_Rebbe",
+      "category": "polish_chassidut",
+      "tags": [
+        "לב",
+        "ראש",
+        "איזון"
+      ],
+      "length_estimate": 26
+    },
+    {
+      "id": "polish-batch1-081",
+      "text": "דווקא בזמן החורבן, צריך לבנות. דווקא בזמן החושך, צריך להדליק נרות.",
+      "source_rabbi": "האש קודש",
+      "source_book": "אש קודש",
+      "source_section": "דרשות מגטו ורשה",
+      "source_url": "https://www.sefaria.org/Aish_Kodesh",
+      "category": "polish_chassidut",
+      "tags": [
+        "חורבן",
+        "בנייה",
+        "אור"
+      ],
+      "length_estimate": 28
+    },
+    {
+      "id": "polish-batch1-082",
+      "text": "האמונה היא לא להבין את הכל. האמונה היא להמשיך כשלא מבינים.",
+      "source_rabbi": "האש קודש",
+      "source_book": "אש קודש",
+      "source_section": "תש\"א",
+      "source_url": "https://www.sefaria.org/Aish_Kodesh",
+      "category": "polish_chassidut",
+      "tags": [
+        "אמונה",
+        "הבנה",
+        "המשכיות"
+      ],
+      "length_estimate": 26
+    },
+    {
+      "id": "polish-batch1-083",
+      "text": "כשהעולם מסביב מתמוטט, צריך לבנות עולם פנימי חזק יותר.",
+      "source_rabbi": "האש קודש",
+      "source_book": "חובת התלמידים",
+      "source_section": "על החינוך",
+      "source_url": "https://www.sefaria.org/Chovat_HaTalmidim",
+      "category": "polish_chassidut",
+      "tags": [
+        "עולם פנימי",
+        "חוזק",
+        "בנייה"
+      ],
+      "length_estimate": 22
+    },
+    {
+      "id": "polish-batch1-084",
+      "text": "התפילה בזמני צרה היא אחרת. היא יוצאת מעומק הלב ומגיעה לעומק השמים.",
+      "source_rabbi": "האש קודש",
+      "source_book": "אש קודש",
+      "source_section": "תש\"ב",
+      "source_url": "https://www.sefaria.org/Aish_Kodesh",
+      "category": "polish_chassidut",
+      "tags": [
+        "תפילה",
+        "צרה",
+        "עומק"
+      ],
+      "length_estimate": 30
+    },
+    {
+      "id": "polish-batch1-085",
+      "text": "הקב\"ה נמצא גם בגיהנום. ואם הוא שם, אז גם אנחנו יכולים להיות שם ולהישאר יהודים.",
+      "source_rabbi": "האש קודש",
+      "source_book": "אש קודש",
+      "source_section": "תש\"ג",
+      "source_url": "https://www.sefaria.org/Aish_Kodesh",
+      "category": "polish_chassidut",
+      "tags": [
+        "גיהנום",
+        "אמונה",
+        "יהדות"
+      ],
+      "length_estimate": 38
+    },
+    {
+      "id": "polish-batch1-086",
+      "text": "הסבל יכול לשבור אדם, או לבנות אותו. הבחירה היא שלנו.",
+      "source_rabbi": "האש קודש",
+      "source_book": "צו וזרוז",
+      "source_section": "על הסבל",
+      "source_url": "https://www.sefaria.org/Tzav_V'Ziruz",
+      "category": "polish_chassidut",
+      "tags": [
+        "סבל",
+        "בחירה",
+        "בנייה"
+      ],
+      "length_estimate": 24
+    },
+    {
+      "id": "polish-batch1-087",
+      "text": "כשאין לך כוח להתפלל, עצם הרצון להתפלל הוא תפילה.",
+      "source_rabbi": "האש קודש",
+      "source_book": "אש קודש",
+      "source_section": "על התפילה",
+      "source_url": "https://www.sefaria.org/Aish_Kodesh",
+      "category": "polish_chassidut",
+      "tags": [
+        "תפילה",
+        "רצון",
+        "כוח"
+      ],
+      "length_estimate": 20
+    },
+    {
+      "id": "polish-batch1-088",
+      "text": "הילדים הם הנרות שלנו. גם בחושך הכי גדול, הם מאירים את הדרך.",
+      "source_rabbi": "האש קודש",
+      "source_book": "חובת התלמידים",
+      "source_section": "על הילדים",
+      "source_url": "https://www.sefaria.org/Chovat_HaTalmidim",
+      "category": "polish_chassidut",
+      "tags": [
+        "ילדים",
+        "אור",
+        "תקווה"
+      ],
+      "length_estimate": 26
+    },
+    {
+      "id": "polish-batch1-089",
+      "text": "האמונה בזמן הטוב קלה. האמונה בזמן הרע היא המבחן האמיתי.",
+      "source_rabbi": "האש קודש",
+      "source_book": "אש קודש",
+      "source_section": "על האמונה",
+      "source_url": "https://www.sefaria.org/Aish_Kodesh",
+      "category": "polish_chassidut",
+      "tags": [
+        "אמונה",
+        "מבחן",
+        "קושי"
+      ],
+      "length_estimate": 24
+    },
+    {
+      "id": "polish-batch1-090",
+      "text": "כשאתה שומע ילד צוחק, אתה שומע את קול הקב\"ה.",
+      "source_rabbi": "האש קודש",
+      "source_book": "חובת התלמידים",
+      "source_section": "על הילדות",
+      "source_url": "https://www.sefaria.org/Chovat_HaTalmidim",
+      "category": "polish_chassidut",
+      "tags": [
+        "ילד",
+        "צחוק",
+        "אלוקות"
+      ],
+      "length_estimate": 18
+    },
+    {
+      "id": "polish-batch1-091",
+      "text": "המחשבה הטובה יכולה לשנות את המציאות. גם כשהמציאות קשה, המחשבה יכולה להרים.",
+      "source_rabbi": "האש קודש",
+      "source_book": "בני מחשבה טובה",
+      "source_section": "על המחשבה",
+      "source_url": "https://www.sefaria.org/Bnei_Machshava_Tova",
+      "category": "polish_chassidut",
+      "tags": [
+        "מחשבה",
+        "מציאות",
+        "שינוי"
+      ],
+      "length_estimate": 34
+    },
+    {
+      "id": "polish-batch1-092",
+      "text": "התורה היא האור שמאיר גם בחושך הכי עמוק. כשלומדים תורה, החושך נסוג.",
+      "source_rabbi": "האש קודש",
+      "source_book": "אש קודש",
+      "source_section": "על התורה",
+      "source_url": "https://www.sefaria.org/Aish_Kodesh",
+      "category": "polish_chassidut",
+      "tags": [
+        "תורה",
+        "אור",
+        "חושך"
+      ],
+      "length_estimate": 30
+    },
+    {
+      "id": "polish-batch1-093",
+      "text": "הקב\"ה בוכה איתנו כשאנחנו סובלים. הוא לא אדיש לכאב שלנו.",
+      "source_rabbi": "האש קודש",
+      "source_book": "אש קודש",
+      "source_section": "דרשות השואה",
+      "source_url": "https://www.sefaria.org/Aish_Kodesh",
+      "category": "polish_chassidut",
+      "tags": [
+        "סבל",
+        "בכי",
+        "שותפות"
+      ],
+      "length_estimate": 24
+    },
+    {
+      "id": "polish-batch1-094",
+      "text": "כל יום שאנחנו נשארים יהודים בזמן כזה, זה ניצחון.",
+      "source_rabbi": "האש קודש",
+      "source_book": "אש קודש",
+      "source_section": "תש\"ב",
+      "source_url": "https://www.sefaria.org/Aish_Kodesh",
+      "category": "polish_chassidut",
+      "tags": [
+        "יהדות",
+        "ניצחון",
+        "עמידה"
+      ],
+      "length_estimate": 20
+    },
+    {
+      "id": "polish-batch1-095",
+      "text": "ההתחזקות היא לא להעמיד פנים שהכל בסדר. ההתחזקות היא להמשיך גם כשלא בסדר.",
+      "source_rabbi": "האש קודש",
+      "source_book": "צו וזרוז",
+      "source_section": "על ההתחזקות",
+      "source_url": "https://www.sefaria.org/Tzav_V'Ziruz",
+      "category": "polish_chassidut",
+      "tags": [
+        "התחזקות",
+        "המשכיות",
+        "קושי"
+      ],
+      "length_estimate": 34
+    },
+    {
+      "id": "polish-batch1-096",
+      "text": "הנשמה היהודית לא נשברת. היא מתכופפת, היא סובלת, אבל היא לא נשברת.",
+      "source_rabbi": "האש קודש",
+      "source_book": "אש קודש",
+      "source_section": "דרשות מגטו ורשה",
+      "source_url": "https://www.sefaria.org/Aish_Kodesh",
+      "category": "polish_chassidut",
+      "tags": [
+        "נשמה",
+        "חוזק",
+        "עמידה"
+      ],
+      "length_estimate": 30
+    },
+    {
+      "id": "polish-batch1-097",
+      "text": "כשאין מה לתת, תן את הלב. הלב הוא המתנה הכי גדולה.",
+      "source_rabbi": "האש קודש",
+      "source_book": "חובת התלמידים",
+      "source_section": "על הנתינה",
+      "source_url": "https://www.sefaria.org/Chovat_HaTalmidim",
+      "category": "polish_chassidut",
+      "tags": [
+        "נתינה",
+        "לב",
+        "מתנה"
+      ],
+      "length_estimate": 22
+    },
+    {
+      "id": "polish-batch1-098",
+      "text": "השמחה בעבודת ה' היא לא מותרות. בזמנים קשים, היא הכרח.",
+      "source_rabbi": "האש קודש",
+      "source_book": "אש קודש",
+      "source_section": "על השמחה",
+      "source_url": "https://www.sefaria.org/Aish_Kodesh",
+      "category": "polish_chassidut",
+      "tags": [
+        "שמחה",
+        "עבודה",
+        "הכרח"
+      ],
+      "length_estimate": 24
+    },
+    {
+      "id": "polish-batch1-099",
+      "text": "האהבה בין יהודים היא החומה שלנו. כשאנחנו ביחד, אף אחד לא יכול לנצח אותנו.",
+      "source_rabbi": "האש קודש",
+      "source_book": "צו וזרוז",
+      "source_section": "על אחדות ישראל",
+      "source_url": "https://www.sefaria.org/Tzav_V'Ziruz",
+      "category": "polish_chassidut",
+      "tags": [
+        "אהבה",
+        "אחדות",
+        "חומה"
+      ],
+      "length_estimate": 34
+    },
+    {
+      "id": "polish-batch1-100",
+      "text": "התקווה היא לא אשליה. התקווה היא הכוח שמאפשר לנו להמשיך עד שהאור יגיע.",
+      "source_rabbi": "האש קודש",
+      "source_book": "אש קודש",
+      "source_section": "על התקווה",
+      "source_url": "https://www.sefaria.org/Aish_Kodesh",
+      "category": "polish_chassidut",
+      "tags": [
+        "תקווה",
+        "כוח",
+        "אור"
+      ],
+      "length_estimate": 32
+    },
+    {
+      "id": "polish-batch2-001",
+      "text": "כל מחשבה שאדם חושב היא כמו זרע. אם חושב מחשבות טובות - יצמחו פירות טובים. ואם חושב מחשבות רעות - יצמחו קוצים.",
+      "source_rabbi": "המגיד ממזריטש",
+      "source_book": "אור תורה",
+      "source_section": "פרשת בראשית",
+      "source_url": "https://www.sefaria.org/Or_Torah",
+      "category": "polish_chassidut",
+      "tags": [
+        "מחשבה",
+        "זריעה",
+        "פירות"
+      ],
+      "length_estimate": 42
+    },
+    {
+      "id": "polish-batch2-002",
+      "text": "השכינה נמצאת בכל מקום, אבל האדם צריך לפתוח את עיניו לראות אותה. כמו השמש שמאירה תמיד, אבל מי שעיניו עצומות לא רואה את האור.",
+      "source_rabbi": "המגיד ממזריטש",
+      "source_book": "מגיד דבריו ליעקב",
+      "source_section": "על השכינה",
+      "source_url": "https://www.sefaria.org/Maggid_Devarav_L'Yaakov",
+      "category": "polish_chassidut",
+      "tags": [
+        "שכינה",
+        "ראייה",
+        "התבוננות"
+      ],
+      "length_estimate": 50
+    },
+    {
+      "id": "polish-batch2-003",
+      "text": "כשאדם מתפלל, צריך להרגיש שהמילים יוצאות מעומק הלב. תפילה שיוצאת רק מהשפתיים - נשארת למטה. תפילה שיוצאת מהלב - עולה למעלה.",
+      "source_rabbi": "המגיד ממזריטש",
+      "source_book": "אור תורה",
+      "source_section": "על התפילה",
+      "source_url": "https://www.sefaria.org/Or_Torah",
+      "category": "polish_chassidut",
+      "tags": [
+        "תפילה",
+        "לב",
+        "כוונה"
+      ],
+      "length_estimate": 48
+    },
+    {
+      "id": "polish-batch2-004",
+      "text": "הענווה האמיתית היא לא לחשוב שאתה קטן. הענווה היא לדעת שכל מה שיש לך - בא מהבורא. וממילא אין לך במה להתגאות.",
+      "source_rabbi": "המגיד ממזריטש",
+      "source_book": "מגיד דבריו ליעקב",
+      "source_section": "על הענווה",
+      "source_url": "https://www.sefaria.org/Maggid_Devarav_L'Yaakov",
+      "category": "polish_chassidut",
+      "tags": [
+        "ענווה",
+        "גאווה",
+        "הכרת הטוב"
+      ],
+      "length_estimate": 45
+    },
+    {
+      "id": "polish-batch2-005",
+      "text": "כשאדם לומד תורה, הוא צריך להרגיש שהקב\"ה מדבר אליו דרך התורה. לא ללמוד כמו ספר רגיל, אלא כמו מכתב אישי מהבורא.",
+      "source_rabbi": "המגיד ממזריטש",
+      "source_book": "אור תורה",
+      "source_section": "פרשת יתרו",
+      "source_url": "https://www.sefaria.org/Or_Torah",
+      "category": "polish_chassidut",
+      "tags": [
+        "תורה",
+        "לימוד",
+        "התגלות"
+      ],
+      "length_estimate": 48
+    },
+    {
+      "id": "polish-batch2-006",
+      "text": "הדבקות בה' היא כמו אש. כשמקרבים נר לנר - האש עוברת. כך כשמתקרבים לצדיק שדבוק בה' - הדבקות עוברת גם לתלמיד.",
+      "source_rabbi": "המגיד ממזריטש",
+      "source_book": "מגיד דבריו ליעקב",
+      "source_section": "על הצדיק",
+      "source_url": "https://www.sefaria.org/Maggid_Devarav_L'Yaakov",
+      "category": "polish_chassidut",
+      "tags": [
+        "דבקות",
+        "צדיק",
+        "השפעה"
+      ],
+      "length_estimate": 45
+    },
+    {
+      "id": "polish-batch2-007",
+      "text": "כל אות בתורה היא עולם שלם. וכשאדם לומד אות אחת בכוונה - הוא נכנס לעולם שלם של אור.",
+      "source_rabbi": "המגיד ממזריטש",
+      "source_book": "אור תורה",
+      "source_section": "פרשת בראשית",
+      "source_url": "https://www.sefaria.org/Or_Torah",
+      "category": "polish_chassidut",
+      "tags": [
+        "תורה",
+        "אותיות",
+        "עולמות"
+      ],
+      "length_estimate": 38
+    },
+    {
+      "id": "polish-batch2-008",
+      "text": "האדם הוא סולם מוצב ארצה וראשו מגיע השמימה. הרגליים בארץ, אבל הראש צריך להיות תמיד מחובר לשמים.",
+      "source_rabbi": "המגיד ממזריטש",
+      "source_book": "מגיד דבריו ליעקב",
+      "source_section": "פרשת ויצא",
+      "source_url": "https://www.sefaria.org/Maggid_Devarav_L'Yaakov",
+      "category": "polish_chassidut",
+      "tags": [
+        "סולם",
+        "עליה",
+        "חיבור"
+      ],
+      "length_estimate": 42
+    },
+    {
+      "id": "polish-batch2-009",
+      "text": "כשאדם עושה מצווה, הוא צריך לחשוב שהוא עושה נחת רוח לבורא. לא לעשות בשביל שכר, אלא בשביל לשמח את הקב\"ה.",
+      "source_rabbi": "המגיד ממזריטש",
+      "source_book": "אור תורה",
+      "source_section": "על המצוות",
+      "source_url": "https://www.sefaria.org/Or_Torah",
+      "category": "polish_chassidut",
+      "tags": [
+        "מצוות",
+        "נחת רוח",
+        "עבודה לשמה"
+      ],
+      "length_estimate": 45
+    },
+    {
+      "id": "polish-batch2-010",
+      "text": "הניגון הוא שער לנשמה. כשאדם שר ניגון קדוש, הנשמה שלו מתעוררת ומתחברת לשורשה.",
+      "source_rabbi": "המגיד ממזריטש",
+      "source_book": "מגיד דבריו ליעקב",
+      "source_section": "על הניגון",
+      "source_url": "https://www.sefaria.org/Maggid_Devarav_L'Yaakov",
+      "category": "polish_chassidut",
+      "tags": [
+        "ניגון",
+        "נשמה",
+        "התעוררות"
+      ],
+      "length_estimate": 35
+    },
+    {
+      "id": "polish-batch2-011",
+      "text": "כל יום הוא בריאה חדשה. האדם שקם בבוקר הוא לא אותו אדם שהלך לישון. יש לו הזדמנות להתחיל מחדש.",
+      "source_rabbi": "המגיד ממזריטש",
+      "source_book": "אור תורה",
+      "source_section": "על ההתחדשות",
+      "source_url": "https://www.sefaria.org/Or_Torah",
+      "category": "polish_chassidut",
+      "tags": [
+        "התחדשות",
+        "בריאה",
+        "תשובה"
+      ],
+      "length_estimate": 42
+    },
+    {
+      "id": "polish-batch2-012",
+      "text": "השמחה פורצת כל הגדרות. כשאדם שמח באמת, אין דבר שיכול לעמוד בדרכו.",
+      "source_rabbi": "המגיד ממזריטש",
+      "source_book": "מגיד דבריו ליעקב",
+      "source_section": "על השמחה",
+      "source_url": "https://www.sefaria.org/Maggid_Devarav_L'Yaakov",
+      "category": "polish_chassidut",
+      "tags": [
+        "שמחה",
+        "כוח",
+        "פריצה"
+      ],
+      "length_estimate": 30
+    },
+    {
+      "id": "polish-batch2-013",
+      "text": "הביטול הוא היסוד של כל העבודה. כשאדם מבטל את עצמו - הוא נותן מקום לאלוקות להיכנס.",
+      "source_rabbi": "המגיד ממזריטש",
+      "source_book": "אור תורה",
+      "source_section": "על הביטול",
+      "source_url": "https://www.sefaria.org/Or_Torah",
+      "category": "polish_chassidut",
+      "tags": [
+        "ביטול",
+        "אלוקות",
+        "עבודה"
+      ],
+      "length_estimate": 38
+    },
+    {
+      "id": "polish-batch2-014",
+      "text": "כשאדם אומר 'שמע ישראל' בכוונה, הוא מייחד את השם. הוא מחבר את כל העולמות לאחדות אחת.",
+      "source_rabbi": "המגיד ממזריטש",
+      "source_book": "מגיד דבריו ליעקב",
+      "source_section": "על קריאת שמע",
+      "source_url": "https://www.sefaria.org/Maggid_Devarav_L'Yaakov",
+      "category": "polish_chassidut",
+      "tags": [
+        "קריאת שמע",
+        "ייחוד",
+        "אחדות"
+      ],
+      "length_estimate": 40
+    },
+    {
+      "id": "polish-batch2-015",
+      "text": "התשובה היא לא רק על עבירות. התשובה היא לחזור לשורש, לחזור לקב\"ה. וזה אפשר לעשות בכל רגע.",
+      "source_rabbi": "המגיד ממזריטש",
+      "source_book": "אור תורה",
+      "source_section": "על התשובה",
+      "source_url": "https://www.sefaria.org/Or_Torah",
+      "category": "polish_chassidut",
+      "tags": [
+        "תשובה",
+        "שורש",
+        "חזרה"
+      ],
+      "length_estimate": 40
+    },
+    {
+      "id": "polish-batch2-016",
+      "text": "כשאדם נותן צדקה, הוא לא רק עוזר לעני. הוא פותח צינור של שפע מלמעלה, שדרכו יורדת ברכה לכל העולם.",
+      "source_rabbi": "המגיד ממזריטש",
+      "source_book": "מגיד דבריו ליעקב",
+      "source_section": "על הצדקה",
+      "source_url": "https://www.sefaria.org/Maggid_Devarav_L'Yaakov",
+      "category": "polish_chassidut",
+      "tags": [
+        "צדקה",
+        "שפע",
+        "ברכה"
+      ],
+      "length_estimate": 45
+    },
+    {
+      "id": "polish-batch2-017",
+      "text": "העולם הזה הוא כמו פרוזדור לעולם הבא. אבל בפרוזדור הזה אפשר להשיג דברים שאי אפשר להשיג בשום מקום אחר.",
+      "source_rabbi": "המגיד ממזריטש",
+      "source_book": "אור תורה",
+      "source_section": "על העולם הזה",
+      "source_url": "https://www.sefaria.org/Or_Torah",
+      "category": "polish_chassidut",
+      "tags": [
+        "עולם הזה",
+        "עולם הבא",
+        "הזדמנות"
+      ],
+      "length_estimate": 45
+    },
+    {
+      "id": "polish-batch2-018",
+      "text": "כל דבר בעולם יש לו ניצוץ קדוש. העבודה של האדם היא להעלות את הניצוצות האלה לשורשם.",
+      "source_rabbi": "המגיד ממזריטש",
+      "source_book": "מגיד דבריו ליעקב",
+      "source_section": "על הניצוצות",
+      "source_url": "https://www.sefaria.org/Maggid_Devarav_L'Yaakov",
+      "category": "polish_chassidut",
+      "tags": [
+        "ניצוצות",
+        "תיקון",
+        "העלאה"
+      ],
+      "length_estimate": 38
+    },
+    {
+      "id": "polish-batch2-019",
+      "text": "האהבה לה' והיראה ממנו הם כמו שתי כנפיים. בלי שתיהן - אי אפשר לעוף.",
+      "source_rabbi": "המגיד ממזריטש",
+      "source_book": "אור תורה",
+      "source_section": "על אהבה ויראה",
+      "source_url": "https://www.sefaria.org/Or_Torah",
+      "category": "polish_chassidut",
+      "tags": [
+        "אהבה",
+        "יראה",
+        "כנפיים"
+      ],
+      "length_estimate": 32
+    },
+    {
+      "id": "polish-batch2-020",
+      "text": "כשאדם מקדש את עצמו למטה - מקדשים אותו מלמעלה. ההתעוררות מלמטה גורמת להתעוררות מלמעלה.",
+      "source_rabbi": "המגיד ממזריטש",
+      "source_book": "מגיד דבריו ליעקב",
+      "source_section": "על הקדושה",
+      "source_url": "https://www.sefaria.org/Maggid_Devarav_L'Yaakov",
+      "category": "polish_chassidut",
+      "tags": [
+        "קדושה",
+        "התעוררות",
+        "מעלה ומטה"
+      ],
+      "length_estimate": 40
+    },
+    {
+      "id": "polish-batch2-021",
+      "text": "כל יהודי הוא כמו יהלום. גם אם הוא מכוסה באבק ובלכלוך, הוא עדיין יהלום. צריך רק לנקות אותו.",
+      "source_rabbi": "החוזה מלובלין",
+      "source_book": "זכרון זאת",
+      "source_section": "פרשת בראשית",
+      "source_url": "https://www.sefaria.org/Chozeh_of_Lublin",
+      "category": "polish_chassidut",
+      "tags": [
+        "יהודי",
+        "יהלום",
+        "נשמה"
+      ],
+      "length_estimate": 42
+    },
+    {
+      "id": "polish-batch2-022",
+      "text": "לראות את הטוב בזולת זה לא נאיביות - זה חכמה. כי מי שרואה רק את הרע, חי בעולם חשוך.",
+      "source_rabbi": "החוזה מלובלין",
+      "source_book": "דברי אמת",
+      "source_section": "פרשת נח",
+      "source_url": "https://www.sefaria.org/Divrei_Emet",
+      "category": "polish_chassidut",
+      "tags": [
+        "ראיית הטוב",
+        "חכמה",
+        "אור"
+      ],
+      "length_estimate": 40
+    },
+    {
+      "id": "polish-batch2-023",
+      "text": "התפילה של הלב פשוטה וכנה עולה למעלה יותר מתפילה של חכם גדול בלי כוונה.",
+      "source_rabbi": "החוזה מלובלין",
+      "source_book": "זכרון זאת",
+      "source_section": "על התפילה",
+      "source_url": "https://www.sefaria.org/Chozeh_of_Lublin",
+      "category": "polish_chassidut",
+      "tags": [
+        "תפילה",
+        "כנות",
+        "לב"
+      ],
+      "length_estimate": 35
+    },
+    {
+      "id": "polish-batch2-024",
+      "text": "כשאדם שמח, הוא מושך שמחה מלמעלה. וכשהוא עצוב, הוא מושך עצבות. לכן חובה לשמוח!",
+      "source_rabbi": "החוזה מלובלין",
+      "source_book": "דברי אמת",
+      "source_section": "פרשת לך לך",
+      "source_url": "https://www.sefaria.org/Divrei_Emet",
+      "category": "polish_chassidut",
+      "tags": [
+        "שמחה",
+        "משיכה",
+        "השפעה"
+      ],
+      "length_estimate": 38
+    },
+    {
+      "id": "polish-batch2-025",
+      "text": "הצדיק האמיתי לא רוצה שיכבדו אותו. הוא רוצה רק דבר אחד - שיכבדו את הקב\"ה.",
+      "source_rabbi": "החוזה מלובלין",
+      "source_book": "זכרון זאת",
+      "source_section": "על הצדיק",
+      "source_url": "https://www.sefaria.org/Chozeh_of_Lublin",
+      "category": "polish_chassidut",
+      "tags": [
+        "צדיק",
+        "כבוד",
+        "ענווה"
+      ],
+      "length_estimate": 35
+    },
+    {
+      "id": "polish-batch2-026",
+      "text": "המחלוקת היא כמו אש שאוכלת הכל. ושלום הוא כמו מים שמכבים את האש ומגדלים חיים.",
+      "source_rabbi": "החוזה מלובלין",
+      "source_book": "דברי אמת",
+      "source_section": "פרשת וירא",
+      "source_url": "https://www.sefaria.org/Divrei_Emet",
+      "category": "polish_chassidut",
+      "tags": [
+        "שלום",
+        "מחלוקת",
+        "משל"
+      ],
+      "length_estimate": 38
+    },
+    {
+      "id": "polish-batch2-027",
+      "text": "כל יום שעובר הוא מתנה מהקב\"ה. ואם אדם לא ניצל את היום - הוא איבד מתנה שאי אפשר להחזיר.",
+      "source_rabbi": "החוזה מלובלין",
+      "source_book": "זכרון זאת",
+      "source_section": "פרשת חיי שרה",
+      "source_url": "https://www.sefaria.org/Chozeh_of_Lublin",
+      "category": "polish_chassidut",
+      "tags": [
+        "זמן",
+        "מתנה",
+        "ניצול"
+      ],
+      "length_estimate": 42
+    },
+    {
+      "id": "polish-batch2-028",
+      "text": "להאמין בקב\"ה זה לא מספיק. צריך גם להאמין בעצמך - שאתה יכול לעשות גדולות למען הבורא.",
+      "source_rabbi": "החוזה מלובלין",
+      "source_book": "דברי אמת",
+      "source_section": "פרשת תולדות",
+      "source_url": "https://www.sefaria.org/Divrei_Emet",
+      "category": "polish_chassidut",
+      "tags": [
+        "אמונה",
+        "ביטחון עצמי",
+        "כוח"
+      ],
+      "length_estimate": 40
+    },
+    {
+      "id": "polish-batch2-029",
+      "text": "הענק של הדור לא מי שיודע הכי הרבה, אלא מי שעושה הכי הרבה. הידע בלי מעשה הוא כמו עץ בלי פירות.",
+      "source_rabbi": "החוזה מלובלין",
+      "source_book": "זכרון זאת",
+      "source_section": "על המעשה",
+      "source_url": "https://www.sefaria.org/Chozeh_of_Lublin",
+      "category": "polish_chassidut",
+      "tags": [
+        "מעשה",
+        "ידע",
+        "פירות"
+      ],
+      "length_estimate": 45
+    },
+    {
+      "id": "polish-batch2-030",
+      "text": "כשמישהו בא אליך בצרה, אל תתן לו עצות - תרגיש איתו. לפעמים האדם צריך רק אוזן קשבת ולב פתוח.",
+      "source_rabbi": "החוזה מלובלין",
+      "source_book": "דברי אמת",
+      "source_section": "פרשת ויצא",
+      "source_url": "https://www.sefaria.org/Divrei_Emet",
+      "category": "polish_chassidut",
+      "tags": [
+        "הקשבה",
+        "אמפתיה",
+        "עזרה"
+      ],
+      "length_estimate": 42
+    },
+    {
+      "id": "polish-batch2-031",
+      "text": "הגאווה היא שורש כל הרע. ומי שזוכר שהוא עפר ואפר - לא יכול להתגאות.",
+      "source_rabbi": "החוזה מלובלין",
+      "source_book": "זכרון זאת",
+      "source_section": "פרשת וישלח",
+      "source_url": "https://www.sefaria.org/Chozeh_of_Lublin",
+      "category": "polish_chassidut",
+      "tags": [
+        "גאווה",
+        "ענווה",
+        "שורש"
+      ],
+      "length_estimate": 32
+    },
+    {
+      "id": "polish-batch2-032",
+      "text": "התורה היא כמו מים. כמו שהמים יורדים למקום הנמוך, כך התורה יורדת למי שמשפיל את עצמו.",
+      "source_rabbi": "החוזה מלובלין",
+      "source_book": "דברי אמת",
+      "source_section": "פרשת וישב",
+      "source_url": "https://www.sefaria.org/Divrei_Emet",
+      "category": "polish_chassidut",
+      "tags": [
+        "תורה",
+        "מים",
+        "שפלות"
+      ],
+      "length_estimate": 40
+    },
+    {
+      "id": "polish-batch2-033",
+      "text": "כשאדם מתפלל על חברו, התפילה שלו נענית קודם. כי מי שדואג לאחרים - דואגים לו מלמעלה.",
+      "source_rabbi": "החוזה מלובלין",
+      "source_book": "זכרון זאת",
+      "source_section": "פרשת מקץ",
+      "source_url": "https://www.sefaria.org/Chozeh_of_Lublin",
+      "category": "polish_chassidut",
+      "tags": [
+        "תפילה",
+        "זולת",
+        "דאגה"
+      ],
+      "length_estimate": 40
+    },
+    {
+      "id": "polish-batch2-034",
+      "text": "השבת היא מעין עולם הבא. ומי שיודע לשמור שבת באמת - טועם טעם של גן עדן כבר בעולם הזה.",
+      "source_rabbi": "החוזה מלובלין",
+      "source_book": "דברי אמת",
+      "source_section": "פרשת ויגש",
+      "source_url": "https://www.sefaria.org/Divrei_Emet",
+      "category": "polish_chassidut",
+      "tags": [
+        "שבת",
+        "עולם הבא",
+        "גן עדן"
+      ],
+      "length_estimate": 42
+    },
+    {
+      "id": "polish-batch2-035",
+      "text": "אל תדון את חברך עד שתגיע למקומו. ואתה לעולם לא תגיע למקומו - אז אל תדון אותו בכלל.",
+      "source_rabbi": "החוזה מלובלין",
+      "source_book": "זכרון זאת",
+      "source_section": "פרשת ויחי",
+      "source_url": "https://www.sefaria.org/Chozeh_of_Lublin",
+      "category": "polish_chassidut",
+      "tags": [
+        "שיפוט",
+        "הבנה",
+        "סובלנות"
+      ],
+      "length_estimate": 40
+    },
+    {
+      "id": "polish-batch2-036",
+      "text": "הגאולה תבוא כשכל יהודי יאהב את חברו כנפשו. כי השנאת חינם החריבה - ואהבת חינם תבנה.",
+      "source_rabbi": "החוזה מלובלין",
+      "source_book": "דברי אמת",
+      "source_section": "פרשת שמות",
+      "source_url": "https://www.sefaria.org/Divrei_Emet",
+      "category": "polish_chassidut",
+      "tags": [
+        "גאולה",
+        "אהבת ישראל",
+        "אחדות"
+      ],
+      "length_estimate": 40
+    },
+    {
+      "id": "polish-batch2-037",
+      "text": "כשאתה נותן צדקה, אל תחשוב שאתה עושה טובה לעני. הוא עושה לך טובה - שנותן לך הזדמנות לקיים מצווה.",
+      "source_rabbi": "החוזה מלובלין",
+      "source_book": "זכרון זאת",
+      "source_section": "פרשת וארא",
+      "source_url": "https://www.sefaria.org/Chozeh_of_Lublin",
+      "category": "polish_chassidut",
+      "tags": [
+        "צדקה",
+        "נתינה",
+        "הזדמנות"
+      ],
+      "length_estimate": 45
+    },
+    {
+      "id": "polish-batch2-038",
+      "text": "האמונה היא לא להבין הכל. האמונה היא לסמוך על הקב\"ה גם כשלא מבינים. זה נקרא אמונה תמימה.",
+      "source_rabbi": "החוזה מלובלין",
+      "source_book": "דברי אמת",
+      "source_section": "פרשת בא",
+      "source_url": "https://www.sefaria.org/Divrei_Emet",
+      "category": "polish_chassidut",
+      "tags": [
+        "אמונה",
+        "תמימות",
+        "ביטחון"
+      ],
+      "length_estimate": 42
+    },
+    {
+      "id": "polish-batch2-039",
+      "text": "כל נשמה ירדה לעולם למשימה מיוחדת. ואף אחד לא יכול לעשות את המשימה שלך חוץ ממך.",
+      "source_rabbi": "החוזה מלובלין",
+      "source_book": "זכרון זאת",
+      "source_section": "פרשת בשלח",
+      "source_url": "https://www.sefaria.org/Chozeh_of_Lublin",
+      "category": "polish_chassidut",
+      "tags": [
+        "נשמה",
+        "משימה",
+        "ייעוד"
+      ],
+      "length_estimate": 38
+    },
+    {
+      "id": "polish-batch2-040",
+      "text": "השמחה מרחיבה את הלב, והלב הרחב יכול להכיל יותר קדושה. לכן השמחה היא כלי לעבודת ה'.",
+      "source_rabbi": "החוזה מלובלין",
+      "source_book": "דברי אמת",
+      "source_section": "פרשת יתרו",
+      "source_url": "https://www.sefaria.org/Divrei_Emet",
+      "category": "polish_chassidut",
+      "tags": [
+        "שמחה",
+        "לב",
+        "קדושה"
+      ],
+      "length_estimate": 40
+    },
+    {
+      "id": "polish-batch2-041",
+      "text": "האמת היא כמו אש - היא שורפת את כל השקר סביבה. לכן אנשים מפחדים מהאמת.",
+      "source_rabbi": "רבי שמחה בונים מפשיסחא",
+      "source_book": "קול שמחה",
+      "source_section": "על האמת",
+      "source_url": "https://www.sefaria.org/Simcha_Bunim_of_Peshischa",
+      "category": "polish_chassidut",
+      "tags": [
+        "אמת",
+        "שקר",
+        "אש"
+      ],
+      "length_estimate": 35
+    },
+    {
+      "id": "polish-batch2-042",
+      "text": "מי שמחפש כבוד - הכבוד בורח ממנו. ומי שבורח מהכבוד - הכבוד רודף אחריו.",
+      "source_rabbi": "רבי שמחה בונים מפשיסחא",
+      "source_book": "קול שמחה",
+      "source_section": "על הכבוד",
+      "source_url": "https://www.sefaria.org/Simcha_Bunim_of_Peshischa",
+      "category": "polish_chassidut",
+      "tags": [
+        "כבוד",
+        "ענווה",
+        "בריחה"
+      ],
+      "length_estimate": 32
+    },
+    {
+      "id": "polish-batch2-043",
+      "text": "העבודה הגדולה ביותר היא לעבוד על המידות. כי אפשר להיות למדן גדול ועדיין להיות בעל מידות רעות.",
+      "source_rabbi": "רבי שמחה בונים מפשיסחא",
+      "source_book": "קול שמחה",
+      "source_section": "על המידות",
+      "source_url": "https://www.sefaria.org/Simcha_Bunim_of_Peshischa",
+      "category": "polish_chassidut",
+      "tags": [
+        "מידות",
+        "עבודה",
+        "תיקון"
+      ],
+      "length_estimate": 42
+    },
+    {
+      "id": "polish-batch2-044",
+      "text": "תפילה בלי כוונה היא כמו גוף בלי נשמה. היא קיימת, אבל אין בה חיים.",
+      "source_rabbi": "רבי שמחה בונים מפשיסחא",
+      "source_book": "קול שמחה",
+      "source_section": "על התפילה",
+      "source_url": "https://www.sefaria.org/Simcha_Bunim_of_Peshischa",
+      "category": "polish_chassidut",
+      "tags": [
+        "תפילה",
+        "כוונה",
+        "חיים"
+      ],
+      "length_estimate": 32
+    },
+    {
+      "id": "polish-batch2-045",
+      "text": "אדם צריך לחשוב כל יום: מה אני יכול לתקן היום שלא תיקנתי אתמול?",
+      "source_rabbi": "רבי שמחה בונים מפשיסחא",
+      "source_book": "קול שמחה",
+      "source_section": "על התיקון",
+      "source_url": "https://www.sefaria.org/Simcha_Bunim_of_Peshischa",
+      "category": "polish_chassidut",
+      "tags": [
+        "תיקון",
+        "התקדמות",
+        "חשבון נפש"
+      ],
+      "length_estimate": 30
+    },
+    {
+      "id": "polish-batch2-046",
+      "text": "הגדולה האמיתית היא לא להראות לאחרים כמה אתה גדול. הגדולה היא לעזור לאחרים להיות גדולים.",
+      "source_rabbi": "רבי שמחה בונים מפשיסחא",
+      "source_book": "קול שמחה",
+      "source_section": "על הגדולה",
+      "source_url": "https://www.sefaria.org/Simcha_Bunim_of_Peshischa",
+      "category": "polish_chassidut",
+      "tags": [
+        "גדולה",
+        "עזרה",
+        "ענווה"
+      ],
+      "length_estimate": 40
+    },
+    {
+      "id": "polish-batch2-047",
+      "text": "כשאדם מודה בטעות שלו - הוא מתקן אותה. כשהוא מתעקש שהוא צודק - הטעות גדלה.",
+      "source_rabbi": "רבי שמחה בונים מפשיסחא",
+      "source_book": "קול שמחה",
+      "source_section": "על ההודאה",
+      "source_url": "https://www.sefaria.org/Simcha_Bunim_of_Peshischa",
+      "category": "polish_chassidut",
+      "tags": [
+        "טעות",
+        "הודאה",
+        "תיקון"
+      ],
+      "length_estimate": 35
+    },
+    {
+      "id": "polish-batch2-048",
+      "text": "היצר הרע לא מפתה את האדם לעשות רע. הוא מפתה אותו לחשוב שהרע הוא טוב.",
+      "source_rabbi": "רבי שמחה בונים מפשיסחא",
+      "source_book": "קול שמחה",
+      "source_section": "על היצר",
+      "source_url": "https://www.sefaria.org/Simcha_Bunim_of_Peshischa",
+      "category": "polish_chassidut",
+      "tags": [
+        "יצר הרע",
+        "פיתוי",
+        "הטעיה"
+      ],
+      "length_estimate": 35
+    },
+    {
+      "id": "polish-batch2-049",
+      "text": "לימוד תורה בלי יראת שמים הוא כמו בניין בלי יסוד. הוא עלול ליפול בכל רגע.",
+      "source_rabbi": "רבי שמחה בונים מפשיסחא",
+      "source_book": "קול שמחה",
+      "source_section": "על לימוד התורה",
+      "source_url": "https://www.sefaria.org/Simcha_Bunim_of_Peshischa",
+      "category": "polish_chassidut",
+      "tags": [
+        "תורה",
+        "יראה",
+        "יסוד"
+      ],
+      "length_estimate": 35
+    },
+    {
+      "id": "polish-batch2-050",
+      "text": "החסיד האמיתי לא מתבונן כמה אחרים חוטאים, אלא כמה הוא עצמו יכול להשתפר.",
+      "source_rabbi": "רבי שמחה בונים מפשיסחא",
+      "source_book": "קול שמחה",
+      "source_section": "על הביקורת",
+      "source_url": "https://www.sefaria.org/Simcha_Bunim_of_Peshischa",
+      "category": "polish_chassidut",
+      "tags": [
+        "התבוננות",
+        "שיפור",
+        "ענווה"
+      ],
+      "length_estimate": 35
+    },
+    {
+      "id": "polish-batch2-051",
+      "text": "אדם יכול לרמות את כל העולם, אבל הוא לא יכול לרמות את עצמו. בעומק הלב הוא יודע את האמת.",
+      "source_rabbi": "רבי שמחה בונים מפשיסחא",
+      "source_book": "קול שמחה",
+      "source_section": "על הכנות",
+      "source_url": "https://www.sefaria.org/Simcha_Bunim_of_Peshischa",
+      "category": "polish_chassidut",
+      "tags": [
+        "רמאות",
+        "אמת",
+        "פנימיות"
+      ],
+      "length_estimate": 42
+    },
+    {
+      "id": "polish-batch2-052",
+      "text": "הדרך לשמים עוברת דרך הארץ. מי שלא יודע להתנהג כראוי עם בני אדם - לא יידע להתנהג כראוי עם הקב\"ה.",
+      "source_rabbi": "רבי שמחה בונים מפשיסחא",
+      "source_book": "קול שמחה",
+      "source_section": "על בין אדם לחברו",
+      "source_url": "https://www.sefaria.org/Simcha_Bunim_of_Peshischa",
+      "category": "polish_chassidut",
+      "tags": [
+        "דרך ארץ",
+        "בין אדם לחברו",
+        "עבודת ה'"
+      ],
+      "length_estimate": 48
+    },
+    {
+      "id": "polish-batch2-053",
+      "text": "השתיקה היא גדר לחכמה. מי שיודע מתי לשתוק - יודע גם מתי לדבר.",
+      "source_rabbi": "רבי שמחה בונים מפשיסחא",
+      "source_book": "קול שמחה",
+      "source_section": "על השתיקה",
+      "source_url": "https://www.sefaria.org/Simcha_Bunim_of_Peshischa",
+      "category": "polish_chassidut",
+      "tags": [
+        "שתיקה",
+        "חכמה",
+        "דיבור"
+      ],
+      "length_estimate": 30
+    },
+    {
+      "id": "polish-batch2-054",
+      "text": "אין עבירה גדולה מלהתייאש. כי מי שמתייאש - מוותר על הסיכוי להשתפר.",
+      "source_rabbi": "רבי שמחה בונים מפשיסחא",
+      "source_book": "קול שמחה",
+      "source_section": "על הייאוש",
+      "source_url": "https://www.sefaria.org/Simcha_Bunim_of_Peshischa",
+      "category": "polish_chassidut",
+      "tags": [
+        "ייאוש",
+        "תקווה",
+        "שיפור"
+      ],
+      "length_estimate": 32
+    },
+    {
+      "id": "polish-batch2-055",
+      "text": "כשאדם עושה חסד, הוא צריך לעשות אותו בסתר. חסד שעושים בגלוי - חצי ממנו הולך לגאווה.",
+      "source_rabbi": "רבי שמחה בונים מפשיסחא",
+      "source_book": "קול שמחה",
+      "source_section": "על החסד",
+      "source_url": "https://www.sefaria.org/Simcha_Bunim_of_Peshischa",
+      "category": "polish_chassidut",
+      "tags": [
+        "חסד",
+        "סתר",
+        "גאווה"
+      ],
+      "length_estimate": 40
+    },
+    {
+      "id": "polish-batch2-056",
+      "text": "המחלוקת הורסת יותר מכל עבירה. כי עבירה פוגעת באדם אחד, אבל מחלוקת פוגעת בציבור שלם.",
+      "source_rabbi": "רבי שמחה בונים מפשיסחא",
+      "source_book": "קול שמחה",
+      "source_section": "על השלום",
+      "source_url": "https://www.sefaria.org/Simcha_Bunim_of_Peshischa",
+      "category": "polish_chassidut",
+      "tags": [
+        "מחלוקת",
+        "שלום",
+        "ציבור"
+      ],
+      "length_estimate": 42
+    },
+    {
+      "id": "polish-batch2-057",
+      "text": "הכעס הוא כמו אש שאדם מדליק בתוך עצמו. הוא חושב שהוא שורף את האויב, אבל הוא שורף רק את עצמו.",
+      "source_rabbi": "רבי שמחה בונים מפשיסחא",
+      "source_book": "קול שמחה",
+      "source_section": "על הכעס",
+      "source_url": "https://www.sefaria.org/Simcha_Bunim_of_Peshischa",
+      "category": "polish_chassidut",
+      "tags": [
+        "כעס",
+        "אש",
+        "נזק עצמי"
+      ],
+      "length_estimate": 45
+    },
+    {
+      "id": "polish-batch2-058",
+      "text": "מי שמודד את ההצלחה שלו במה שיש לאחרים - לעולם לא יהיה מאושר. המדד האמיתי הוא כמה התקדמת מאתמול.",
+      "source_rabbi": "רבי שמחה בונים מפשיסחא",
+      "source_book": "קול שמחה",
+      "source_section": "על ההצלחה",
+      "source_url": "https://www.sefaria.org/Simcha_Bunim_of_Peshischa",
+      "category": "polish_chassidut",
+      "tags": [
+        "הצלחה",
+        "השוואה",
+        "התקדמות"
+      ],
+      "length_estimate": 48
+    },
+    {
+      "id": "polish-batch2-059",
+      "text": "עדיף לעשות מצווה אחת בשלמות מאשר מאה מצוות בחיפזון ובלי כוונה.",
+      "source_rabbi": "רבי שמחה בונים מפשיסחא",
+      "source_book": "קול שמחה",
+      "source_section": "על המצוות",
+      "source_url": "https://www.sefaria.org/Simcha_Bunim_of_Peshischa",
+      "category": "polish_chassidut",
+      "tags": [
+        "מצוות",
+        "שלמות",
+        "כוונה"
+      ],
+      "length_estimate": 32
+    },
+    {
+      "id": "polish-batch2-060",
+      "text": "התורה לא ניתנה למלאכים. היא ניתנה לבני אדם עם יצר הרע ונפילות. וזה מה שעושה אותה כל כך גדולה.",
+      "source_rabbi": "רבי שמחה בונים מפשיסחא",
+      "source_book": "קול שמחה",
+      "source_section": "על התורה",
+      "source_url": "https://www.sefaria.org/Simcha_Bunim_of_Peshischa",
+      "category": "polish_chassidut",
+      "tags": [
+        "תורה",
+        "יצר הרע",
+        "גדולה"
+      ],
+      "length_estimate": 45
+    },
+    {
+      "id": "polish-batch2-061",
+      "text": "מי שאומר שהוא צדיק - בטוח שהוא לא צדיק. כי הצדיק האמיתי לעולם לא חושב שהוא צדיק.",
+      "source_rabbi": "הרבי מקוצק",
+      "source_book": "אמת מקוצק",
+      "source_section": "על הצדיק",
+      "source_url": "https://www.sefaria.org/Kotzker_Rebbe",
+      "category": "polish_chassidut",
+      "tags": [
+        "צדיק",
+        "ענווה",
+        "אמת"
+      ],
+      "length_estimate": 40
+    },
+    {
+      "id": "polish-batch2-062",
+      "text": "העולם מלא שקרים יפים. האמת לפעמים מכוערת, אבל היא האמת.",
+      "source_rabbi": "הרבי מקוצק",
+      "source_book": "שיח שרפי קודש",
+      "source_section": "על האמת",
+      "source_url": "https://www.sefaria.org/Kotzker_Rebbe",
+      "category": "polish_chassidut",
+      "tags": [
+        "אמת",
+        "שקר",
+        "יופי"
+      ],
+      "length_estimate": 28
+    },
+    {
+      "id": "polish-batch2-063",
+      "text": "אדם יכול להתפלל כל היום ועדיין לא לדבר עם הקב\"ה אפילו פעם אחת.",
+      "source_rabbi": "הרבי מקוצק",
+      "source_book": "אמת מקוצק",
+      "source_section": "על התפילה",
+      "source_url": "https://www.sefaria.org/Kotzker_Rebbe",
+      "category": "polish_chassidut",
+      "tags": [
+        "תפילה",
+        "כוונה",
+        "דיבור"
+      ],
+      "length_estimate": 30
+    },
+    {
+      "id": "polish-batch2-064",
+      "text": "הפחד הגדול ביותר צריך להיות הפחד משקר. כי השקר הורס את כל מה שהאמת בנתה.",
+      "source_rabbi": "הרבי מקוצק",
+      "source_book": "שיח שרפי קודש",
+      "source_section": "על היראה",
+      "source_url": "https://www.sefaria.org/Kotzker_Rebbe",
+      "category": "polish_chassidut",
+      "tags": [
+        "פחד",
+        "שקר",
+        "אמת"
+      ],
+      "length_estimate": 35
+    },
+    {
+      "id": "polish-batch2-065",
+      "text": "מי שחי בשביל מה שאנשים חושבים עליו - הוא עבד שלהם. מי שחי בשביל האמת - הוא בן חורין.",
+      "source_rabbi": "הרבי מקוצק",
+      "source_book": "אמת מקוצק",
+      "source_section": "על החירות",
+      "source_url": "https://www.sefaria.org/Kotzker_Rebbe",
+      "category": "polish_chassidut",
+      "tags": [
+        "חירות",
+        "עבדות",
+        "אמת"
+      ],
+      "length_estimate": 42
+    },
+    {
+      "id": "polish-batch2-066",
+      "text": "לא כל מה שנראה טוב הוא באמת טוב. ולא כל מה שנראה רע הוא באמת רע. צריך לראות את הפנימיות.",
+      "source_rabbi": "הרבי מקוצק",
+      "source_book": "שיח שרפי קודש",
+      "source_section": "על הראייה",
+      "source_url": "https://www.sefaria.org/Kotzker_Rebbe",
+      "category": "polish_chassidut",
+      "tags": [
+        "ראייה",
+        "פנימיות",
+        "שיפוט"
+      ],
+      "length_estimate": 42
+    },
+    {
+      "id": "polish-batch2-067",
+      "text": "מילה אחת של אמת שווה יותר מאלף נאומים של שקר.",
+      "source_rabbi": "הרבי מקוצק",
+      "source_book": "אמת מקוצק",
+      "source_section": "על הדיבור",
+      "source_url": "https://www.sefaria.org/Kotzker_Rebbe",
+      "category": "polish_chassidut",
+      "tags": [
+        "מילה",
+        "אמת",
+        "ערך"
+      ],
+      "length_estimate": 22
+    },
+    {
+      "id": "polish-batch2-068",
+      "text": "הגאווה היא השקר הגדול ביותר. כי מי שמתגאה - משקר לעצמו על מה שהוא באמת.",
+      "source_rabbi": "הרבי מקוצק",
+      "source_book": "שיח שרפי קודש",
+      "source_section": "על הגאווה",
+      "source_url": "https://www.sefaria.org/Kotzker_Rebbe",
+      "category": "polish_chassidut",
+      "tags": [
+        "גאווה",
+        "שקר",
+        "עצמי"
+      ],
+      "length_estimate": 35
+    },
+    {
+      "id": "polish-batch2-069",
+      "text": "אל תחפש את הקב\"ה בחוץ. הוא נמצא בפנים. ואם לא מצאת אותו בפנים - לא תמצא אותו בחוץ.",
+      "source_rabbi": "הרבי מקוצק",
+      "source_book": "אמת מקוצק",
+      "source_section": "על מציאת ה'",
+      "source_url": "https://www.sefaria.org/Kotzker_Rebbe",
+      "category": "polish_chassidut",
+      "tags": [
+        "חיפוש",
+        "פנימיות",
+        "אלוקות"
+      ],
+      "length_estimate": 40
+    },
+    {
+      "id": "polish-batch2-070",
+      "text": "התשובה האמיתית היא לא לחזור על אותן טעויות. מי שחוזר על הטעויות - לא עשה תשובה באמת.",
+      "source_rabbi": "הרבי מקוצק",
+      "source_book": "שיח שרפי קודש",
+      "source_section": "על התשובה",
+      "source_url": "https://www.sefaria.org/Kotzker_Rebbe",
+      "category": "polish_chassidut",
+      "tags": [
+        "תשובה",
+        "טעויות",
+        "שינוי"
+      ],
+      "length_estimate": 40
+    },
+    {
+      "id": "polish-batch2-071",
+      "text": "אל תהיה טוב מדי עם אנשים - תהיה אמיתי איתם. הטוב המזויף גרוע מהרע הגלוי.",
+      "source_rabbi": "הרבי מקוצק",
+      "source_book": "אמת מקוצק",
+      "source_section": "על היחסים",
+      "source_url": "https://www.sefaria.org/Kotzker_Rebbe",
+      "category": "polish_chassidut",
+      "tags": [
+        "אמת",
+        "יחסים",
+        "כנות"
+      ],
+      "length_estimate": 38
+    },
+    {
+      "id": "polish-batch2-072",
+      "text": "העולם רוצה להיות מרומה. ומי שלא מרמה - נחשב למשוגע.",
+      "source_rabbi": "הרבי מקוצק",
+      "source_book": "שיח שרפי קודש",
+      "source_section": "על העולם",
+      "source_url": "https://www.sefaria.org/Kotzker_Rebbe",
+      "category": "polish_chassidut",
+      "tags": [
+        "עולם",
+        "רמאות",
+        "אמת"
+      ],
+      "length_estimate": 25
+    },
+    {
+      "id": "polish-batch2-073",
+      "text": "כשאתה עושה עבירה - לפחות תדע שאתה עושה עבירה. הגרוע ביותר הוא לעשות עבירה ולחשוב שזו מצווה.",
+      "source_rabbi": "הרבי מקוצק",
+      "source_book": "אמת מקוצק",
+      "source_section": "על העבירות",
+      "source_url": "https://www.sefaria.org/Kotzker_Rebbe",
+      "category": "polish_chassidut",
+      "tags": [
+        "עבירה",
+        "מודעות",
+        "טעות"
+      ],
+      "length_estimate": 45
+    },
+    {
+      "id": "polish-batch2-074",
+      "text": "אין דבר יותר חזק מאדם שיודע מה הוא רוצה ולא מוותר.",
+      "source_rabbi": "הרבי מקוצק",
+      "source_book": "שיח שרפי קודש",
+      "source_section": "על הרצון",
+      "source_url": "https://www.sefaria.org/Kotzker_Rebbe",
+      "category": "polish_chassidut",
+      "tags": [
+        "רצון",
+        "עוצמה",
+        "התמדה"
+      ],
+      "length_estimate": 25
+    },
+    {
+      "id": "polish-batch2-075",
+      "text": "מי שמפחד ממה שאנשים יגידו - יפחד כל החיים שלו. מי שמפחד רק מהקב\"ה - לא יפחד משום דבר אחר.",
+      "source_rabbi": "הרבי מקוצק",
+      "source_book": "אמת מקוצק",
+      "source_section": "על היראה",
+      "source_url": "https://www.sefaria.org/Kotzker_Rebbe",
+      "category": "polish_chassidut",
+      "tags": [
+        "פחד",
+        "יראת שמים",
+        "חירות"
+      ],
+      "length_estimate": 45
+    },
+    {
+      "id": "polish-batch2-076",
+      "text": "השקט הוא לא תמיד שלום. לפעמים השקט הוא פחדנות.",
+      "source_rabbi": "הרבי מקוצק",
+      "source_book": "שיח שרפי קודש",
+      "source_section": "על השלום",
+      "source_url": "https://www.sefaria.org/Kotzker_Rebbe",
+      "category": "polish_chassidut",
+      "tags": [
+        "שקט",
+        "שלום",
+        "אומץ"
+      ],
+      "length_estimate": 22
+    },
+    {
+      "id": "polish-batch2-077",
+      "text": "לא צריך להיות גאון כדי להבין את התורה. צריך להיות כן.",
+      "source_rabbi": "הרבי מקוצק",
+      "source_book": "אמת מקוצק",
+      "source_section": "על התורה",
+      "source_url": "https://www.sefaria.org/Kotzker_Rebbe",
+      "category": "polish_chassidut",
+      "tags": [
+        "תורה",
+        "כנות",
+        "הבנה"
+      ],
+      "length_estimate": 25
+    },
+    {
+      "id": "polish-batch2-078",
+      "text": "אם אתה לא יכול להיות טוב - לפחות אל תעמיד פנים שאתה טוב. זה גרוע יותר.",
+      "source_rabbi": "הרבי מקוצק",
+      "source_book": "שיח שרפי קודש",
+      "source_section": "על הצביעות",
+      "source_url": "https://www.sefaria.org/Kotzker_Rebbe",
+      "category": "polish_chassidut",
+      "tags": [
+        "צביעות",
+        "אמת",
+        "כנות"
+      ],
+      "length_estimate": 35
+    },
+    {
+      "id": "polish-batch2-079",
+      "text": "האדם צריך לחיות כאילו כל יום הוא היום האחרון שלו. כי אז הוא יעשה רק מה שחשוב באמת.",
+      "source_rabbi": "הרבי מקוצק",
+      "source_book": "אמת מקוצק",
+      "source_section": "על החיים",
+      "source_url": "https://www.sefaria.org/Kotzker_Rebbe",
+      "category": "polish_chassidut",
+      "tags": [
+        "חיים",
+        "מוות",
+        "חשיבות"
+      ],
+      "length_estimate": 42
+    },
+    {
+      "id": "polish-batch2-080",
+      "text": "מי שמחפש תירוצים - תמיד ימצא. ומי שמחפש דרך - גם הוא תמיד ימצא.",
+      "source_rabbi": "הרבי מקוצק",
+      "source_book": "שיח שרפי קודש",
+      "source_section": "על הבחירה",
+      "source_url": "https://www.sefaria.org/Kotzker_Rebbe",
+      "category": "polish_chassidut",
+      "tags": [
+        "תירוצים",
+        "דרך",
+        "בחירה"
+      ],
+      "length_estimate": 32
+    },
+    {
+      "id": "polish-batch2-081",
+      "text": "בזמן הכי קשה, כשהחושך הכי גדול, דווקא אז יש הזדמנות לאור הכי גדול. כי האור ניכר רק בחושך.",
+      "source_rabbi": "האש קודש מפיאסצנא",
+      "source_book": "אש קודש",
+      "source_section": "תש\"א",
+      "source_url": "https://www.sefaria.org/Aish_Kodesh",
+      "category": "polish_chassidut",
+      "tags": [
+        "חושך",
+        "אור",
+        "תקווה"
+      ],
+      "length_estimate": 45
+    },
+    {
+      "id": "polish-batch2-082",
+      "text": "הנשמה של הילד היא טהורה לגמרי. והמחנך צריך לשמור על הטהרה הזו, לא לכלכל אותה.",
+      "source_rabbi": "האש קודש מפיאסצנא",
+      "source_book": "חובת התלמידים",
+      "source_section": "פרק א",
+      "source_url": "https://www.sefaria.org/Chovat_HaTalmidim",
+      "category": "polish_chassidut",
+      "tags": [
+        "חינוך",
+        "טהרה",
+        "ילדים"
+      ],
+      "length_estimate": 40
+    },
+    {
+      "id": "polish-batch2-083",
+      "text": "כשאדם בוכה מעומק הלב, הדמעות שלו הופכות לתפילה. ואין תפילה שנשמעת יותר מתפילה של דמעות.",
+      "source_rabbi": "האש קודש מפיאסצנא",
+      "source_book": "אש קודש",
+      "source_section": "תש\"ב",
+      "source_url": "https://www.sefaria.org/Aish_Kodesh",
+      "category": "polish_chassidut",
+      "tags": [
+        "דמעות",
+        "תפילה",
+        "לב"
+      ],
+      "length_estimate": 42
+    },
+    {
+      "id": "polish-batch2-084",
+      "text": "המחנך צריך לאהוב את התלמיד לפני שהוא מלמד אותו. כי בלי אהבה - הלימוד לא נכנס ללב.",
+      "source_rabbi": "האש קודש מפיאסצנא",
+      "source_book": "דרכי חינוך",
+      "source_section": "על האהבה",
+      "source_url": "https://www.sefaria.org/Chovat_HaTalmidim",
+      "category": "polish_chassidut",
+      "tags": [
+        "חינוך",
+        "אהבה",
+        "לימוד"
+      ],
+      "length_estimate": 40
+    },
+    {
+      "id": "polish-batch2-085",
+      "text": "גם בגיהנום של מלחמה אפשר למצוא את הקב\"ה. כי הוא נמצא בכל מקום, גם במקומות הכי נוראים.",
+      "source_rabbi": "האש קודש מפיאסצנא",
+      "source_book": "אש קודש",
+      "source_section": "תש\"ג",
+      "source_url": "https://www.sefaria.org/Aish_Kodesh",
+      "category": "polish_chassidut",
+      "tags": [
+        "מציאות ה'",
+        "סבל",
+        "אמונה"
+      ],
+      "length_estimate": 42
+    },
+    {
+      "id": "polish-batch2-086",
+      "text": "הילד לא צריך להיות כמו המבוגר. הוא צריך להיות ילד - עם השמחה, הסקרנות והתמימות של ילד.",
+      "source_rabbi": "האש קודש מפיאסצנא",
+      "source_book": "חובת התלמידים",
+      "source_section": "פרק ב",
+      "source_url": "https://www.sefaria.org/Chovat_HaTalmidim",
+      "category": "polish_chassidut",
+      "tags": [
+        "ילדות",
+        "שמחה",
+        "תמימות"
+      ],
+      "length_estimate": 42
+    },
+    {
+      "id": "polish-batch2-087",
+      "text": "כשהכל נראה אבוד, דווקא אז צריך להחזיק באמונה הכי חזק. כי האמונה היא המגן האחרון.",
+      "source_rabbi": "האש קודש מפיאסצנא",
+      "source_book": "אש קודש",
+      "source_section": "דרשות השואה",
+      "source_url": "https://www.sefaria.org/Aish_Kodesh",
+      "category": "polish_chassidut",
+      "tags": [
+        "אמונה",
+        "מגן",
+        "קושי"
+      ],
+      "length_estimate": 40
+    },
+    {
+      "id": "polish-batch2-088",
+      "text": "העונש הכי גדול למחנך רע הוא לראות מה קרה לתלמידים שלו. והשכר הכי גדול למחנך טוב הוא אותו הדבר.",
+      "source_rabbi": "האש קודש מפיאסצנא",
+      "source_book": "דרכי חינוך",
+      "source_section": "על האחריות",
+      "source_url": "https://www.sefaria.org/Chovat_HaTalmidim",
+      "category": "polish_chassidut",
+      "tags": [
+        "חינוך",
+        "אחריות",
+        "תוצאות"
+      ],
+      "length_estimate": 48
+    },
+    {
+      "id": "polish-batch2-089",
+      "text": "הסבל יכול לשבור את האדם, אבל הוא יכול גם לבנות אותו. זה תלוי באיך האדם מתייחס אליו.",
+      "source_rabbi": "האש קודש מפיאסצנא",
+      "source_book": "אש קודש",
+      "source_section": "תש\"ב",
+      "source_url": "https://www.sefaria.org/Aish_Kodesh",
+      "category": "polish_chassidut",
+      "tags": [
+        "סבל",
+        "בחירה",
+        "צמיחה"
+      ],
+      "length_estimate": 42
+    },
+    {
+      "id": "polish-batch2-090",
+      "text": "כל ילד הוא עולם בפני עצמו. ומי שפוגע בילד אחד - פוגע בעולם שלם.",
+      "source_rabbi": "האש קודש מפיאסצנא",
+      "source_book": "חובת התלמידים",
+      "source_section": "פרק ג",
+      "source_url": "https://www.sefaria.org/Chovat_HaTalmidim",
+      "category": "polish_chassidut",
+      "tags": [
+        "ילדים",
+        "עולם",
+        "אחריות"
+      ],
+      "length_estimate": 32
+    },
+    {
+      "id": "polish-batch2-091",
+      "text": "התפילה בזמן צרה היא לא רק בקשה - היא גם חיבור. האדם מחבר את עצמו לבורא ומקבל כוח.",
+      "source_rabbi": "האש קודש מפיאסצנא",
+      "source_book": "אש קודש",
+      "source_section": "תש\"ג",
+      "source_url": "https://www.sefaria.org/Aish_Kodesh",
+      "category": "polish_chassidut",
+      "tags": [
+        "תפילה",
+        "צרה",
+        "חיבור"
+      ],
+      "length_estimate": 42
+    },
+    {
+      "id": "polish-batch2-092",
+      "text": "המחנך צריך להאמין בתלמיד יותר מהתלמיד מאמין בעצמו. כי האמונה הזו נותנת לתלמיד כוח לגדול.",
+      "source_rabbi": "האש קודש מפיאסצנא",
+      "source_book": "דרכי חינוך",
+      "source_section": "על האמונה בתלמיד",
+      "source_url": "https://www.sefaria.org/Chovat_HaTalmidim",
+      "category": "polish_chassidut",
+      "tags": [
+        "חינוך",
+        "אמונה",
+        "צמיחה"
+      ],
+      "length_estimate": 45
+    },
+    {
+      "id": "polish-batch2-093",
+      "text": "כשהגוף סובל, הנשמה יכולה לעלות. כי הסבל משחרר את הנשמה מהכבלים של הגשמיות.",
+      "source_rabbi": "האש קודש מפיאסצנא",
+      "source_book": "אש קודש",
+      "source_section": "תש\"א",
+      "source_url": "https://www.sefaria.org/Aish_Kodesh",
+      "category": "polish_chassidut",
+      "tags": [
+        "סבל",
+        "נשמה",
+        "עלייה"
+      ],
+      "length_estimate": 38
+    },
+    {
+      "id": "polish-batch2-094",
+      "text": "אל תלמד את הילד מה לחשוב - למד אותו איך לחשוב. כי המחשבה העצמאית היא הבסיס לכל.",
+      "source_rabbi": "האש קודש מפיאסצנא",
+      "source_book": "חובת התלמידים",
+      "source_section": "פרק ד",
+      "source_url": "https://www.sefaria.org/Chovat_HaTalmidim",
+      "category": "polish_chassidut",
+      "tags": [
+        "חינוך",
+        "מחשבה",
+        "עצמאות"
+      ],
+      "length_estimate": 42
+    },
+    {
+      "id": "polish-batch2-095",
+      "text": "האור של השבת מאיר גם בימי החול הכי חשוכים. צריך רק לזכור אותו.",
+      "source_rabbi": "האש קודש מפיאסצנא",
+      "source_book": "אש קודש",
+      "source_section": "על השבת",
+      "source_url": "https://www.sefaria.org/Aish_Kodesh",
+      "category": "polish_chassidut",
+      "tags": [
+        "שבת",
+        "אור",
+        "זיכרון"
+      ],
+      "length_estimate": 32
+    },
+    {
+      "id": "polish-batch2-096",
+      "text": "הילד שנפגע - לא נפגע רק עכשיו. הפגיעה הולכת איתו כל החיים. לכן המחנך צריך להיזהר בכל מילה.",
+      "source_rabbi": "האש קודש מפיאסצנא",
+      "source_book": "דרכי חינוך",
+      "source_section": "על הזהירות",
+      "source_url": "https://www.sefaria.org/Chovat_HaTalmidim",
+      "category": "polish_chassidut",
+      "tags": [
+        "חינוך",
+        "פגיעה",
+        "זהירות"
+      ],
+      "length_estimate": 45
+    },
+    {
+      "id": "polish-batch2-097",
+      "text": "בכל רגע של חיים יש משמעות. גם ברגעים הכי קשים. כי הקב\"ה לא נותן לאדם רגע מיותר.",
+      "source_rabbi": "האש קודש מפיאסצנא",
+      "source_book": "אש קודש",
+      "source_section": "תש\"ב",
+      "source_url": "https://www.sefaria.org/Aish_Kodesh",
+      "category": "polish_chassidut",
+      "tags": [
+        "משמעות",
+        "חיים",
+        "קושי"
+      ],
+      "length_estimate": 40
+    },
+    {
+      "id": "polish-batch2-098",
+      "text": "התלמיד הטוב הוא לא מי שיודע את כל התשובות, אלא מי שיודע לשאול את השאלות הנכונות.",
+      "source_rabbi": "האש קודש מפיאסצנא",
+      "source_book": "חובת התלמידים",
+      "source_section": "פרק ה",
+      "source_url": "https://www.sefaria.org/Chovat_HaTalmidim",
+      "category": "polish_chassidut",
+      "tags": [
+        "לימוד",
+        "שאלות",
+        "תלמיד"
+      ],
+      "length_estimate": 42
+    },
+    {
+      "id": "polish-batch2-099",
+      "text": "כשאדם מאבד את הכל בעולם הזה, הוא יכול לגלות שיש לו משהו שאי אפשר לקחת ממנו - את הנשמה.",
+      "source_rabbi": "האש קודש מפיאסצנא",
+      "source_book": "אש קודש",
+      "source_section": "תש\"ג",
+      "source_url": "https://www.sefaria.org/Aish_Kodesh",
+      "category": "polish_chassidut",
+      "tags": [
+        "נשמה",
+        "אובדן",
+        "תקווה"
+      ],
+      "length_estimate": 45
+    },
+    {
+      "id": "polish-batch2-100",
+      "text": "החינוך האמיתי הוא לא מה שאומרים לילד, אלא מה שמראים לו. הילד לומד ממה שהוא רואה, לא ממה שהוא שומע.",
+      "source_rabbi": "האש קודש מפיאסצנא",
+      "source_book": "דרכי חינוך",
+      "source_section": "על הדוגמה האישית",
+      "source_url": "https://www.sefaria.org/Chovat_HaTalmidim",
+      "category": "polish_chassidut",
+      "tags": [
+        "חינוך",
+        "דוגמה",
+        "מעשים"
+      ],
+      "length_estimate": 48
+    },
+    {
+      "id": "polish-batch3-001",
+      "text": "כל נשמה היא חלק אלוה ממעל. וכשאדם יודע זאת באמת, הוא מתנהג אחרת לגמרי - בענווה ובגדלות כאחד.",
+      "source_rabbi": "המגיד ממזריטש",
+      "source_book": "מגיד דבריו ליעקב",
+      "source_section": "על הנשמה",
+      "source_url": "https://www.sefaria.org/Maggid_Devarav_L'Yaakov",
+      "category": "polish_chassidut",
+      "tags": [
+        "נשמה",
+        "ענווה",
+        "גדלות"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-002",
+      "text": "התורה נקראת 'אור' - כי כמו שהאור מגלה את הדברים שבחושך, כך התורה מגלה את האמת הנסתרת בעולם.",
+      "source_rabbi": "המגיד ממזריטש",
+      "source_book": "אור תורה",
+      "source_section": "הקדמה",
+      "source_url": "https://www.sefaria.org/Or_Torah",
+      "category": "polish_chassidut",
+      "tags": [
+        "תורה",
+        "אור",
+        "אמת"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-003",
+      "text": "מי שרוצה להתקרב להשם יתברך, צריך קודם להתרחק מהרע. כי אי אפשר לאחוז בשני דברים הפכיים בבת אחת.",
+      "source_rabbi": "המגיד ממזריטש",
+      "source_book": "מגיד דבריו ליעקב",
+      "source_section": "על התשובה",
+      "source_url": "https://www.sefaria.org/Maggid_Devarav_L'Yaakov",
+      "category": "polish_chassidut",
+      "tags": [
+        "תשובה",
+        "קירבה",
+        "התרחקות מהרע"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-004",
+      "text": "הלב הוא המזבח הפנימי. כל רגש טוב שאדם מרגיש - זה קרבן שהוא מקריב להשם יתברך על המזבח הזה.",
+      "source_rabbi": "המגיד ממזריטש",
+      "source_book": "אור האמת",
+      "source_section": "ויקרא",
+      "source_url": "https://www.sefaria.org/Maggid_Devarav_L'Yaakov",
+      "category": "polish_chassidut",
+      "tags": [
+        "לב",
+        "קרבנות",
+        "רגש"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-005",
+      "text": "כשאדם שמח, הוא פותח צינורות של שפע. וכשהוא עצוב, הוא סוגר אותם. לכן השמחה היא עבודה גדולה.",
+      "source_rabbi": "המגיד ממזריטש",
+      "source_book": "מגיד דבריו ליעקב",
+      "source_section": "על השמחה",
+      "source_url": "https://www.sefaria.org/Maggid_Devarav_L'Yaakov",
+      "category": "polish_chassidut",
+      "tags": [
+        "שמחה",
+        "שפע",
+        "עבודה"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-006",
+      "text": "המחשבה היא כמו אב, והדיבור כמו אם, והמעשה כמו הבן. כשכולם מתאחדים לטובה - נולד דבר שלם.",
+      "source_rabbi": "המגיד ממזריטש",
+      "source_book": "אור תורה",
+      "source_section": "על המחשבה והמעשה",
+      "source_url": "https://www.sefaria.org/Or_Torah",
+      "category": "polish_chassidut",
+      "tags": [
+        "מחשבה",
+        "דיבור",
+        "מעשה"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-007",
+      "text": "כל מילה בתפילה היא כמו מפתח לשער אחר בשמים. ומי שיודע לכוון, יכול לפתוח שערים רבים.",
+      "source_rabbi": "המגיד ממזריטש",
+      "source_book": "מגיד דבריו ליעקב",
+      "source_section": "על התפילה",
+      "source_url": "https://www.sefaria.org/Maggid_Devarav_L'Yaakov",
+      "category": "polish_chassidut",
+      "tags": [
+        "תפילה",
+        "כוונה",
+        "שערים"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-008",
+      "text": "העולם הזה הוא כמו פרוזדור. ומי שחושב שהפרוזדור הוא הטרקלין - טועה טעות גדולה.",
+      "source_rabbi": "המגיד ממזריטש",
+      "source_book": "אור האמת",
+      "source_section": "על העולם הזה",
+      "source_url": "https://www.sefaria.org/Maggid_Devarav_L'Yaakov",
+      "category": "polish_chassidut",
+      "tags": [
+        "עולם הזה",
+        "עולם הבא",
+        "משל"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-009",
+      "text": "כשיהודי אומר 'ברוך אתה' - הוא מודה שכל הטוב בא מהשם יתברך. וההודאה הזו עצמה ממשיכה עוד טוב.",
+      "source_rabbi": "המגיד ממזריטש",
+      "source_book": "מגיד דבריו ליעקב",
+      "source_section": "על הברכות",
+      "source_url": "https://www.sefaria.org/Maggid_Devarav_L'Yaakov",
+      "category": "polish_chassidut",
+      "tags": [
+        "ברכות",
+        "הודאה",
+        "שפע"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-010",
+      "text": "האדם נברא עם שתי עיניים - אחת לראות את גדלות הבורא, ואחת לראות את שפלות עצמו. ושתיהן צריכות לעבוד יחד.",
+      "source_rabbi": "המגיד ממזריטש",
+      "source_book": "אור תורה",
+      "source_section": "על הענווה",
+      "source_url": "https://www.sefaria.org/Or_Torah",
+      "category": "polish_chassidut",
+      "tags": [
+        "ענווה",
+        "גדלות",
+        "שפלות"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-011",
+      "text": "כשאדם לומד תורה לשמה, הוא נעשה שותף עם הקב\"ה במעשה בראשית. כי התורה היא התכנית שבה נברא העולם.",
+      "source_rabbi": "המגיד ממזריטש",
+      "source_book": "מגיד דבריו ליעקב",
+      "source_section": "על לימוד התורה",
+      "source_url": "https://www.sefaria.org/Maggid_Devarav_L'Yaakov",
+      "category": "polish_chassidut",
+      "tags": [
+        "תורה לשמה",
+        "בריאה",
+        "שותפות"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-012",
+      "text": "הצדיק הוא כמו חלון - הוא לא מאיר מעצמו, אלא מעביר את האור מלמעלה למטה. ככל שהוא נקי יותר, כך יותר אור עובר דרכו.",
+      "source_rabbi": "המגיד ממזריטש",
+      "source_book": "אור האמת",
+      "source_section": "על הצדיק",
+      "source_url": "https://www.sefaria.org/Maggid_Devarav_L'Yaakov",
+      "category": "polish_chassidut",
+      "tags": [
+        "צדיק",
+        "אור",
+        "השפעה"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-013",
+      "text": "התפילה צריכה לבוא מהלב, לא רק מהשפתיים. כי הקב\"ה רוצה את הלב, ומילים בלי לב הן כגוף בלי נשמה.",
+      "source_rabbi": "המגיד ממזריטש",
+      "source_book": "מגיד דבריו ליעקב",
+      "source_section": "על התפילה",
+      "source_url": "https://www.sefaria.org/Maggid_Devarav_L'Yaakov",
+      "category": "polish_chassidut",
+      "tags": [
+        "תפילה",
+        "לב",
+        "כוונה"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-014",
+      "text": "כל ניצוץ קדוש שאדם מעלה מהגשמיות - מאיר את העולם. וזו עבודת האדם: להפוך חושך לאור.",
+      "source_rabbi": "המגיד ממזריטש",
+      "source_book": "אור תורה",
+      "source_section": "על העלאת ניצוצות",
+      "source_url": "https://www.sefaria.org/Or_Torah",
+      "category": "polish_chassidut",
+      "tags": [
+        "ניצוצות",
+        "העלאה",
+        "תיקון"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-015",
+      "text": "מי שמדבר לשון הרע - הורס שלושה: את עצמו, את השומע, ואת מי שמדברים עליו. והלשון חזקה יותר מחרב.",
+      "source_rabbi": "המגיד ממזריטש",
+      "source_book": "מגיד דבריו ליעקב",
+      "source_section": "על שמירת הלשון",
+      "source_url": "https://www.sefaria.org/Maggid_Devarav_L'Yaakov",
+      "category": "polish_chassidut",
+      "tags": [
+        "לשון הרע",
+        "דיבור",
+        "שמירה"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-016",
+      "text": "השבת היא מעין עולם הבא. ומי שיודע לשמור את השבת כראוי - טועם טעם של גן עדן בעולם הזה.",
+      "source_rabbi": "המגיד ממזריטש",
+      "source_book": "אור האמת",
+      "source_section": "על השבת",
+      "source_url": "https://www.sefaria.org/Maggid_Devarav_L'Yaakov",
+      "category": "polish_chassidut",
+      "tags": [
+        "שבת",
+        "עולם הבא",
+        "קדושה"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-017",
+      "text": "הענווה האמיתית היא לדעת שכל מה שיש לך - בא מהשם יתברך. ולכן אין מקום לגאווה, אבל יש מקום להודיה.",
+      "source_rabbi": "המגיד ממזריטש",
+      "source_book": "מגיד דבריו ליעקב",
+      "source_section": "על הענווה",
+      "source_url": "https://www.sefaria.org/Maggid_Devarav_L'Yaakov",
+      "category": "polish_chassidut",
+      "tags": [
+        "ענווה",
+        "הודיה",
+        "גאווה"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-018",
+      "text": "כשאדם עושה מצווה בשמחה - המצווה עולה למעלה עם כנפיים. וכשעושה מצווה בעצבות - היא נשארת למטה.",
+      "source_rabbi": "המגיד ממזריטש",
+      "source_book": "אור תורה",
+      "source_section": "על המצוות",
+      "source_url": "https://www.sefaria.org/Or_Torah",
+      "category": "polish_chassidut",
+      "tags": [
+        "מצוות",
+        "שמחה",
+        "עליה"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-019",
+      "text": "האמונה היא היסוד של הכל. בלי אמונה, אפילו תורה ומצוות הם כבניין בלי יסוד - עלולים ליפול.",
+      "source_rabbi": "המגיד ממזריטש",
+      "source_book": "מגיד דבריו ליעקב",
+      "source_section": "על האמונה",
+      "source_url": "https://www.sefaria.org/Maggid_Devarav_L'Yaakov",
+      "category": "polish_chassidut",
+      "tags": [
+        "אמונה",
+        "יסוד",
+        "עבודה"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-020",
+      "text": "כל יום הוא מתנה חדשה מהשם יתברך. ומי שמתעורר בבוקר ומודה על היום החדש - מקבל את המתנה כראוי.",
+      "source_rabbi": "המגיד ממזריטש",
+      "source_book": "אור האמת",
+      "source_section": "על ההודאה",
+      "source_url": "https://www.sefaria.org/Maggid_Devarav_L'Yaakov",
+      "category": "polish_chassidut",
+      "tags": [
+        "הודאה",
+        "יום חדש",
+        "מתנה"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-021",
+      "text": "הצדיק רואה את האור הגנוז בכל דבר. ולכן נקרא 'חוזה' - כי הוא רואה מה שאחרים לא רואים.",
+      "source_rabbi": "החוזה מלובלין",
+      "source_book": "זכרון זאת",
+      "source_section": "על הצדיק",
+      "source_url": "https://www.sefaria.org/Zikaron_Zot",
+      "category": "polish_chassidut",
+      "tags": [
+        "צדיק",
+        "ראייה",
+        "אור גנוז"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-022",
+      "text": "כל יהודי הוא אבן יקרה בכתר של מלך מלכי המלכים. ואפילו האבן הקטנה ביותר - חשובה לשלמות הכתר.",
+      "source_rabbi": "החוזה מלובלין",
+      "source_book": "דברי אמת",
+      "source_section": "על ישראל",
+      "source_url": "https://www.sefaria.org/Divrei_Emet",
+      "category": "polish_chassidut",
+      "tags": [
+        "ישראל",
+        "יחוד",
+        "חשיבות"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-023",
+      "text": "התפילה היא סולם שמחבר את הארץ לשמים. ובכל מילה, האדם עולה שלב נוסף בסולם הזה.",
+      "source_rabbi": "החוזה מלובלין",
+      "source_book": "זכרון זאת",
+      "source_section": "על התפילה",
+      "source_url": "https://www.sefaria.org/Zikaron_Zot",
+      "category": "polish_chassidut",
+      "tags": [
+        "תפילה",
+        "סולם",
+        "עליה"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-024",
+      "text": "השמחה שוברת כל המחיצות. וכשאדם שמח באמת - אפילו שערי ברזל נפתחים לפניו.",
+      "source_rabbi": "החוזה מלובלין",
+      "source_book": "דברי אמת",
+      "source_section": "על השמחה",
+      "source_url": "https://www.sefaria.org/Divrei_Emet",
+      "category": "polish_chassidut",
+      "tags": [
+        "שמחה",
+        "שערים",
+        "פריצת מחיצות"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-025",
+      "text": "מי שיודע שהשם יתברך אוהב אותו - יכול לעבור כל קושי. כי האהבה נותנת כוח שאין לו גבול.",
+      "source_rabbi": "החוזה מלובלין",
+      "source_book": "זכרון זאת",
+      "source_section": "על אהבת ה'",
+      "source_url": "https://www.sefaria.org/Zikaron_Zot",
+      "category": "polish_chassidut",
+      "tags": [
+        "אהבה",
+        "כוח",
+        "קשיים"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-026",
+      "text": "התשובה מאהבה הופכת את הזדונות לזכויות. כי כשאדם חוזר מאהבה, כל העבר מקבל משמעות חדשה.",
+      "source_rabbi": "החוזה מלובלין",
+      "source_book": "דברי אמת",
+      "source_section": "על התשובה",
+      "source_url": "https://www.sefaria.org/Divrei_Emet",
+      "category": "polish_chassidut",
+      "tags": [
+        "תשובה",
+        "אהבה",
+        "זכויות"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-027",
+      "text": "כל יום יש ניסיונות חדשים. ומי שעובר את הניסיון של היום - מוכן לניסיון של מחר.",
+      "source_rabbi": "החוזה מלובלין",
+      "source_book": "זכרון זאת",
+      "source_section": "על הניסיונות",
+      "source_url": "https://www.sefaria.org/Zikaron_Zot",
+      "category": "polish_chassidut",
+      "tags": [
+        "ניסיונות",
+        "התמודדות",
+        "צמיחה"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-028",
+      "text": "הלב של יהודי הוא כמו ארץ ישראל - הוא שייך רק להשם יתברך. ואסור לתת לזרים להיכנס לשם.",
+      "source_rabbi": "החוזה מלובלין",
+      "source_book": "דברי אמת",
+      "source_section": "על הלב",
+      "source_url": "https://www.sefaria.org/Divrei_Emet",
+      "category": "polish_chassidut",
+      "tags": [
+        "לב",
+        "קדושה",
+        "שמירה"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-029",
+      "text": "מי ששומע סיפורי צדיקים ומתפעל מהם - מתקשר לאותם צדיקים. וההתקשרות הזו מרוממת אותו.",
+      "source_rabbi": "החוזה מלובלין",
+      "source_book": "זכרון זאת",
+      "source_section": "על סיפורי צדיקים",
+      "source_url": "https://www.sefaria.org/Zikaron_Zot",
+      "category": "polish_chassidut",
+      "tags": [
+        "צדיקים",
+        "סיפורים",
+        "התקשרות"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-030",
+      "text": "השבת היא הכלה והקב\"ה הוא החתן. וישראל הם האורחים בחתונה הזו, שזוכים לראות את השמחה.",
+      "source_rabbi": "החוזה מלובלין",
+      "source_book": "דברי אמת",
+      "source_section": "על השבת",
+      "source_url": "https://www.sefaria.org/Divrei_Emet",
+      "category": "polish_chassidut",
+      "tags": [
+        "שבת",
+        "כלה",
+        "שמחה"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-031",
+      "text": "האמונה הפשוטה יותר חזקה מכל החכמות. כי היא באה מעומק הנשמה, ממקום שהשכל לא מגיע אליו.",
+      "source_rabbi": "החוזה מלובלין",
+      "source_book": "זכרון זאת",
+      "source_section": "על האמונה",
+      "source_url": "https://www.sefaria.org/Zikaron_Zot",
+      "category": "polish_chassidut",
+      "tags": [
+        "אמונה",
+        "פשטות",
+        "נשמה"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-032",
+      "text": "כשיהודים מתאחדים - השכינה שורה ביניהם. ולכן האחדות היא לא רק דבר טוב, אלא דבר קדוש.",
+      "source_rabbi": "החוזה מלובלין",
+      "source_book": "דברי אמת",
+      "source_section": "על האחדות",
+      "source_url": "https://www.sefaria.org/Divrei_Emet",
+      "category": "polish_chassidut",
+      "tags": [
+        "אחדות",
+        "שכינה",
+        "קדושה"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-033",
+      "text": "הפחד מהשם יתברך צריך להיות פחד של אהבה, לא פחד של עונש. כמו בן שמפחד לצער את אביו האוהב.",
+      "source_rabbi": "החוזה מלובלין",
+      "source_book": "זכרון זאת",
+      "source_section": "על יראת ה'",
+      "source_url": "https://www.sefaria.org/Zikaron_Zot",
+      "category": "polish_chassidut",
+      "tags": [
+        "יראה",
+        "אהבה",
+        "אב"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-034",
+      "text": "כל מחשבה טובה יוצרת מלאך. וכל מחשבה רעה יוצרת מקטרג. לכן צריך להיזהר במה שחושבים.",
+      "source_rabbi": "החוזה מלובלין",
+      "source_book": "דברי אמת",
+      "source_section": "על המחשבה",
+      "source_url": "https://www.sefaria.org/Divrei_Emet",
+      "category": "polish_chassidut",
+      "tags": [
+        "מחשבה",
+        "מלאכים",
+        "זהירות"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-035",
+      "text": "הביטחון בהשם יתברך הוא כמו לצוף על המים - מי שבוטח באמת, לא שוקע גם בים של צרות.",
+      "source_rabbi": "החוזה מלובלין",
+      "source_book": "זכרון זאת",
+      "source_section": "על הביטחון",
+      "source_url": "https://www.sefaria.org/Zikaron_Zot",
+      "category": "polish_chassidut",
+      "tags": [
+        "ביטחון",
+        "צרות",
+        "משל"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-036",
+      "text": "מי שמכבד את הבריות - מכבד את הבורא. כי כל אדם נברא בצלם אלוקים, וצריך להתייחס אליו בהתאם.",
+      "source_rabbi": "החוזה מלובלין",
+      "source_book": "דברי אמת",
+      "source_section": "על כבוד הבריות",
+      "source_url": "https://www.sefaria.org/Divrei_Emet",
+      "category": "polish_chassidut",
+      "tags": [
+        "כבוד",
+        "בריות",
+        "צלם אלוקים"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-037",
+      "text": "הנגינה והזמר פותחים שערי שמים. כי יש דברים שהלב יכול לבטא רק דרך המוזיקה.",
+      "source_rabbi": "החוזה מלובלין",
+      "source_book": "זכרון זאת",
+      "source_section": "על הנגינה",
+      "source_url": "https://www.sefaria.org/Zikaron_Zot",
+      "category": "polish_chassidut",
+      "tags": [
+        "נגינה",
+        "זמר",
+        "לב"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-038",
+      "text": "התענית עוזרת לשבור את הגוף ולהרים את הנשמה. אבל התענית העיקרית היא תענית הרצון - לא לעשות את מה שהיצר רוצה.",
+      "source_rabbi": "החוזה מלובלין",
+      "source_book": "דברי אמת",
+      "source_section": "על התעניות",
+      "source_url": "https://www.sefaria.org/Divrei_Emet",
+      "category": "polish_chassidut",
+      "tags": [
+        "תענית",
+        "יצר",
+        "שבירה"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-039",
+      "text": "כל קושי שאדם עובר - הוא צעד בדרך לתיקון. ומי שמבין זאת, מקבל את הקשיים בשמחה.",
+      "source_rabbi": "החוזה מלובלין",
+      "source_book": "זכרון זאת",
+      "source_section": "על הקשיים",
+      "source_url": "https://www.sefaria.org/Zikaron_Zot",
+      "category": "polish_chassidut",
+      "tags": [
+        "קשיים",
+        "תיקון",
+        "קבלה"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-040",
+      "text": "הגאולה תבוא כשכל יהודי יחזיר את הניצוץ שלו למקורו. וזו עבודת כל אחד ואחד.",
+      "source_rabbi": "החוזה מלובלין",
+      "source_book": "דברי אמת",
+      "source_section": "על הגאולה",
+      "source_url": "https://www.sefaria.org/Divrei_Emet",
+      "category": "polish_chassidut",
+      "tags": [
+        "גאולה",
+        "ניצוץ",
+        "תיקון"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-041",
+      "text": "האמת היא הדרך הקצרה ביותר להשם יתברך. ומי שמנסה דרכים עקלקלות - בסוף מתעכב.",
+      "source_rabbi": "רבי שמחה בונם מפשיסחא",
+      "source_book": "קול שמחה",
+      "source_section": "על האמת",
+      "source_url": "https://www.sefaria.org/Kol_Simcha",
+      "category": "polish_chassidut",
+      "tags": [
+        "אמת",
+        "דרך",
+        "ישרות"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-042",
+      "text": "לכל אדם יש בכיס אחד פתק שכתוב בו 'בשבילי נברא העולם', ובכיס השני פתק 'ואנכי עפר ואפר'. וצריך לדעת מתי להוציא כל פתק.",
+      "source_rabbi": "רבי שמחה בונם מפשיסחא",
+      "source_book": "קול שמחה",
+      "source_section": "על הענווה והגדלות",
+      "source_url": "https://www.sefaria.org/Kol_Simcha",
+      "category": "polish_chassidut",
+      "tags": [
+        "ענווה",
+        "גדלות",
+        "איזון"
+      ],
+      "length_estimate": 30
+    },
+    {
+      "id": "polish-batch3-043",
+      "text": "התפילה האמיתית היא כשאדם מרגיש שהוא עני מדפק על הדלת ומבקש. לא כמי שתובע, אלא כמי שמבקש חסד.",
+      "source_rabbi": "רבי שמחה בונם מפשיסחא",
+      "source_book": "קול שמחה",
+      "source_section": "על התפילה",
+      "source_url": "https://www.sefaria.org/Kol_Simcha",
+      "category": "polish_chassidut",
+      "tags": [
+        "תפילה",
+        "ענווה",
+        "בקשה"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-044",
+      "text": "מי שמחפש כבוד - מפסיד את הכבוד האמיתי. כי הכבוד האמיתי הוא הכבוד שבא מלמעלה, לא מבני אדם.",
+      "source_rabbi": "רבי שמחה בונם מפשיסחא",
+      "source_book": "קול שמחה",
+      "source_section": "על הכבוד",
+      "source_url": "https://www.sefaria.org/Kol_Simcha",
+      "category": "polish_chassidut",
+      "tags": [
+        "כבוד",
+        "ענווה",
+        "אמת"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-045",
+      "text": "עבודת ה' צריכה להיות בשמחה, אבל לא שמחה של שטות. שמחה של עומק, שמחה שבאה מהידיעה שאנחנו עובדים את המלך.",
+      "source_rabbi": "רבי שמחה בונם מפשיסחא",
+      "source_book": "קול שמחה",
+      "source_section": "על השמחה",
+      "source_url": "https://www.sefaria.org/Kol_Simcha",
+      "category": "polish_chassidut",
+      "tags": [
+        "שמחה",
+        "עבודה",
+        "עומק"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-046",
+      "text": "הלימוד האמיתי הוא כשהתורה משנה אותך. אם אתה לומד הרבה ונשאר אותו דבר - משהו לא בסדר.",
+      "source_rabbi": "רבי שמחה בונם מפשיסחא",
+      "source_book": "קול שמחה",
+      "source_section": "על לימוד התורה",
+      "source_url": "https://www.sefaria.org/Kol_Simcha",
+      "category": "polish_chassidut",
+      "tags": [
+        "תורה",
+        "שינוי",
+        "לימוד"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-047",
+      "text": "אדם צריך לעבוד על עצמו יותר ממה שהוא עובד לתקן אחרים. כי קודם כל צריך לתקן את עצמך.",
+      "source_rabbi": "רבי שמחה בונם מפשיסחא",
+      "source_book": "קול שמחה",
+      "source_section": "על עבודת המידות",
+      "source_url": "https://www.sefaria.org/Kol_Simcha",
+      "category": "polish_chassidut",
+      "tags": [
+        "תיקון עצמי",
+        "מידות",
+        "עבודה"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-048",
+      "text": "הרבי אמר: מוטב לי להיות אמיתי ופשוט, מאשר להיות גדול ומזויף. הפשטות היא הגדלות.",
+      "source_rabbi": "רבי שמחה בונם מפשיסחא",
+      "source_book": "קול שמחה",
+      "source_section": "על הפשטות",
+      "source_url": "https://www.sefaria.org/Kol_Simcha",
+      "category": "polish_chassidut",
+      "tags": [
+        "פשטות",
+        "אמת",
+        "גדלות"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-049",
+      "text": "חבר אמיתי הוא מי שאומר לך את האמת גם כשזה כואב. כי מי שאוהב - מוכיח.",
+      "source_rabbi": "רבי שמחה בונם מפשיסחא",
+      "source_book": "קול שמחה",
+      "source_section": "על חברות",
+      "source_url": "https://www.sefaria.org/Kol_Simcha",
+      "category": "polish_chassidut",
+      "tags": [
+        "חברות",
+        "אמת",
+        "תוכחה"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-050",
+      "text": "השתיקה לפעמים יותר חזקה מאלף מילים. ויש לדעת מתי לדבר ומתי לשתוק.",
+      "source_rabbi": "רבי שמחה בונם מפשיסחא",
+      "source_book": "קול שמחה",
+      "source_section": "על השתיקה",
+      "source_url": "https://www.sefaria.org/Kol_Simcha",
+      "category": "polish_chassidut",
+      "tags": [
+        "שתיקה",
+        "דיבור",
+        "חכמה"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-051",
+      "text": "מי שמתגאה בידיעותיו - מראה שלא יודע כלום. כי מי שיודע באמת - יודע כמה הוא לא יודע.",
+      "source_rabbi": "רבי שמחה בונם מפשיסחא",
+      "source_book": "קול שמחה",
+      "source_section": "על הענווה",
+      "source_url": "https://www.sefaria.org/Kol_Simcha",
+      "category": "polish_chassidut",
+      "tags": [
+        "ענווה",
+        "ידיעה",
+        "גאווה"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-052",
+      "text": "התשובה האמיתית היא לא רק להתחרט על העבר, אלא לשנות את העתיד. מי שמתחרט ולא משתנה - לא עשה תשובה.",
+      "source_rabbi": "רבי שמחה בונם מפשיסחא",
+      "source_book": "קול שמחה",
+      "source_section": "על התשובה",
+      "source_url": "https://www.sefaria.org/Kol_Simcha",
+      "category": "polish_chassidut",
+      "tags": [
+        "תשובה",
+        "שינוי",
+        "עתיד"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-053",
+      "text": "הלב שבור יותר יקר לפני הקב\"ה מכל הקרבנות. כי הקב\"ה קרוב לנשברי לב.",
+      "source_rabbi": "רבי שמחה בונם מפשיסחא",
+      "source_book": "קול שמחה",
+      "source_section": "על הלב",
+      "source_url": "https://www.sefaria.org/Kol_Simcha",
+      "category": "polish_chassidut",
+      "tags": [
+        "לב נשבר",
+        "קרבנות",
+        "קירבה"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-054",
+      "text": "מי שחי באמת - לא צריך להוכיח לאחרים שהוא צדיק. החיים עצמם מעידים.",
+      "source_rabbi": "רבי שמחה בונם מפשיסחא",
+      "source_book": "קול שמחה",
+      "source_section": "על החיים",
+      "source_url": "https://www.sefaria.org/Kol_Simcha",
+      "category": "polish_chassidut",
+      "tags": [
+        "אמת",
+        "חיים",
+        "עדות"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-055",
+      "text": "העניין של התורה הוא לחיות אותה, לא רק לדעת אותה. ידיעה בלי חיים - זה כמו גוף בלי נשמה.",
+      "source_rabbi": "רבי שמחה בונם מפשיסחא",
+      "source_book": "קול שמחה",
+      "source_section": "על לימוד התורה",
+      "source_url": "https://www.sefaria.org/Kol_Simcha",
+      "category": "polish_chassidut",
+      "tags": [
+        "תורה",
+        "חיים",
+        "יישום"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-056",
+      "text": "הגאווה היא אם כל החטאים. כי מי שמתגאה - שוכח מאיפה הוא בא ולאן הוא הולך.",
+      "source_rabbi": "רבי שמחה בונם מפשיסחא",
+      "source_book": "קול שמחה",
+      "source_section": "על הגאווה",
+      "source_url": "https://www.sefaria.org/Kol_Simcha",
+      "category": "polish_chassidut",
+      "tags": [
+        "גאווה",
+        "חטא",
+        "זיכרון"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-057",
+      "text": "העצה הטובה ביותר היא להתחיל מחדש כל יום. לא להיתקע בעבר, אלא להתחיל מחדש כאילו עכשיו נולדת.",
+      "source_rabbi": "רבי שמחה בונם מפשיסחא",
+      "source_book": "קול שמחה",
+      "source_section": "על ההתחדשות",
+      "source_url": "https://www.sefaria.org/Kol_Simcha",
+      "category": "polish_chassidut",
+      "tags": [
+        "התחדשות",
+        "התחלה",
+        "עבר"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-058",
+      "text": "מי שמבקש עצה ולא מקשיב לה - בזבז את הזמן של שניהם. ומי שמקשיב ולא עושה - עוד יותר גרוע.",
+      "source_rabbi": "רבי שמחה בונם מפשיסחא",
+      "source_book": "קול שמחה",
+      "source_section": "על העצה",
+      "source_url": "https://www.sefaria.org/Kol_Simcha",
+      "category": "polish_chassidut",
+      "tags": [
+        "עצה",
+        "הקשבה",
+        "מעשה"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-059",
+      "text": "האהבה האמיתית היא לא לאהוב את מי שטוב לך. אלא לאהוב גם את מי שקשה לאהוב.",
+      "source_rabbi": "רבי שמחה בונם מפשיסחא",
+      "source_book": "קול שמחה",
+      "source_section": "על אהבת ישראל",
+      "source_url": "https://www.sefaria.org/Kol_Simcha",
+      "category": "polish_chassidut",
+      "tags": [
+        "אהבה",
+        "אהבת ישראל",
+        "קושי"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-060",
+      "text": "הסבלנות היא מידה שצריך לעבוד עליה כל החיים. כי בלי סבלנות, אפילו הדברים הטובים נהרסים.",
+      "source_rabbi": "רבי שמחה בונם מפשיסחא",
+      "source_book": "קול שמחה",
+      "source_section": "על הסבלנות",
+      "source_url": "https://www.sefaria.org/Kol_Simcha",
+      "category": "polish_chassidut",
+      "tags": [
+        "סבלנות",
+        "מידות",
+        "עבודה"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-061",
+      "text": "אל תהיה מזויף. עדיף להיות רשע אמיתי מאשר צדיק מזויף. כי מזויף זה הדבר הכי רע שיש.",
+      "source_rabbi": "הרבי מקוצק",
+      "source_book": "אמת ואמונה",
+      "source_section": "על האמת",
+      "source_url": "https://www.sefaria.org/Kotzker_Rebbe",
+      "category": "polish_chassidut",
+      "tags": [
+        "אמת",
+        "זיוף",
+        "ישרות"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-062",
+      "text": "הקב\"ה נמצא במקום שנותנים לו להיכנס. אבל הוא לא נכנס בכוח - צריך לפתוח לו את הדלת.",
+      "source_rabbi": "הרבי מקוצק",
+      "source_book": "אמת ואמונה",
+      "source_section": "על השראת השכינה",
+      "source_url": "https://www.sefaria.org/Kotzker_Rebbe",
+      "category": "polish_chassidut",
+      "tags": [
+        "שכינה",
+        "פתיחות",
+        "רצון"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-063",
+      "text": "מה שהלב יודע - הפה לא תמיד יכול לומר. יש דברים שרק אפשר להרגיש, לא לבטא.",
+      "source_rabbi": "הרבי מקוצק",
+      "source_book": "אמת ואמונה",
+      "source_section": "על הלב",
+      "source_url": "https://www.sefaria.org/Kotzker_Rebbe",
+      "category": "polish_chassidut",
+      "tags": [
+        "לב",
+        "הרגשה",
+        "שתיקה"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-064",
+      "text": "אם אני אני כי אתה אתה, ואתה אתה כי אני אני - אז אני לא אני ואתה לא אתה. צריך להיות מי שאתה באמת, לא בגלל אחרים.",
+      "source_rabbi": "הרבי מקוצק",
+      "source_book": "אמת ואמונה",
+      "source_section": "על האני",
+      "source_url": "https://www.sefaria.org/Kotzker_Rebbe",
+      "category": "polish_chassidut",
+      "tags": [
+        "זהות",
+        "אמת עצמית",
+        "אחרים"
+      ],
+      "length_estimate": 30
+    },
+    {
+      "id": "polish-batch3-065",
+      "text": "כל מה שאי אפשר לעשות בלי לשקר - לא צריך לעשות בכלל. אין דבר ששווה את מחיר השקר.",
+      "source_rabbi": "הרבי מקוצק",
+      "source_book": "אמת ואמונה",
+      "source_section": "על האמת",
+      "source_url": "https://www.sefaria.org/Kotzker_Rebbe",
+      "category": "polish_chassidut",
+      "tags": [
+        "אמת",
+        "שקר",
+        "עקרונות"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-066",
+      "text": "התפילה צריכה להיות כמו חייל שנלחם, לא כמו קבצן שמתחנן. צריך לבקש בכוח, לא בחולשה.",
+      "source_rabbi": "הרבי מקוצק",
+      "source_book": "אמת ואמונה",
+      "source_section": "על התפילה",
+      "source_url": "https://www.sefaria.org/Kotzker_Rebbe",
+      "category": "polish_chassidut",
+      "tags": [
+        "תפילה",
+        "כוח",
+        "מלחמה"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-067",
+      "text": "מי שרץ אחרי הכבוד - הכבוד בורח ממנו. ומי שבורח מן הכבוד - הכבוד רודף אחריו.",
+      "source_rabbi": "הרבי מקוצק",
+      "source_book": "אמת ואמונה",
+      "source_section": "על הכבוד",
+      "source_url": "https://www.sefaria.org/Kotzker_Rebbe",
+      "category": "polish_chassidut",
+      "tags": [
+        "כבוד",
+        "ענווה",
+        "בריחה"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-068",
+      "text": "השפלות האמיתית היא לא לחשוב שאני גרוע. אלא לא לחשוב על עצמי בכלל.",
+      "source_rabbi": "הרבי מקוצק",
+      "source_book": "אמת ואמונה",
+      "source_section": "על הענווה",
+      "source_url": "https://www.sefaria.org/Kotzker_Rebbe",
+      "category": "polish_chassidut",
+      "tags": [
+        "ענווה",
+        "שפלות",
+        "ביטול"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-069",
+      "text": "אסור לשקר אפילו לעצמך. ומי שמשקר לעצמו - בסוף יאמין לשקרים שלו.",
+      "source_rabbi": "הרבי מקוצק",
+      "source_book": "אמת ואמונה",
+      "source_section": "על השקר",
+      "source_url": "https://www.sefaria.org/Kotzker_Rebbe",
+      "category": "polish_chassidut",
+      "tags": [
+        "שקר",
+        "אמת",
+        "עצמי"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-070",
+      "text": "העולם מלא באנשים שמחפשים דרכים קלות. אבל הדרך הקלה מובילה למקום קשה.",
+      "source_rabbi": "הרבי מקוצק",
+      "source_book": "אמת ואמונה",
+      "source_section": "על הדרך",
+      "source_url": "https://www.sefaria.org/Kotzker_Rebbe",
+      "category": "polish_chassidut",
+      "tags": [
+        "דרך",
+        "קלות",
+        "קושי"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-071",
+      "text": "מי שחי למען דעת אנשים - הוא עבד של אנשים. ומי שחי למען האמת - הוא בן חורין.",
+      "source_rabbi": "הרבי מקוצק",
+      "source_book": "אמת ואמונה",
+      "source_section": "על החירות",
+      "source_url": "https://www.sefaria.org/Kotzker_Rebbe",
+      "category": "polish_chassidut",
+      "tags": [
+        "חירות",
+        "דעת אחרים",
+        "אמת"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-072",
+      "text": "התשובה האמיתית היא לא מילים. היא שינוי. ומי שלא השתנה - לא עשה תשובה.",
+      "source_rabbi": "הרבי מקוצק",
+      "source_book": "אמת ואמונה",
+      "source_section": "על התשובה",
+      "source_url": "https://www.sefaria.org/Kotzker_Rebbe",
+      "category": "polish_chassidut",
+      "tags": [
+        "תשובה",
+        "שינוי",
+        "מעשה"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-073",
+      "text": "לא הלימוד עושה את האדם. אלא מה שהאדם עושה עם הלימוד.",
+      "source_rabbi": "הרבי מקוצק",
+      "source_book": "אמת ואמונה",
+      "source_section": "על הלימוד",
+      "source_url": "https://www.sefaria.org/Kotzker_Rebbe",
+      "category": "polish_chassidut",
+      "tags": [
+        "לימוד",
+        "מעשה",
+        "יישום"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-074",
+      "text": "השקט הפנימי יותר חשוב מכל הרעש החיצוני. ומי שאין לו שקט בפנים - לא יעזור לו כל העולם.",
+      "source_rabbi": "הרבי מקוצק",
+      "source_book": "אמת ואמונה",
+      "source_section": "על השקט",
+      "source_url": "https://www.sefaria.org/Kotzker_Rebbe",
+      "category": "polish_chassidut",
+      "tags": [
+        "שקט",
+        "פנימיות",
+        "שלווה"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-075",
+      "text": "הקושיות לא צריכות להפריע. כי מי שמחפש באמת - ימצא תשובות. ומי שלא מחפש - גם התשובות לא יעזרו לו.",
+      "source_rabbi": "הרבי מקוצק",
+      "source_book": "אמת ואמונה",
+      "source_section": "על השאלות",
+      "source_url": "https://www.sefaria.org/Kotzker_Rebbe",
+      "category": "polish_chassidut",
+      "tags": [
+        "שאלות",
+        "חיפוש",
+        "תשובות"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-076",
+      "text": "מה שאדם עושה בסתר - זה מראה מי הוא באמת. כי בגלוי אפשר לשחק, בסתר אי אפשר.",
+      "source_rabbi": "הרבי מקוצק",
+      "source_book": "אמת ואמונה",
+      "source_section": "על האמת",
+      "source_url": "https://www.sefaria.org/Kotzker_Rebbe",
+      "category": "polish_chassidut",
+      "tags": [
+        "סתר",
+        "גלוי",
+        "אמת"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-077",
+      "text": "אין דבר יותר מסוכן מחצי אמת. כי חצי אמת יכול להיות שקר שלם.",
+      "source_rabbi": "הרבי מקוצק",
+      "source_book": "אמת ואמונה",
+      "source_section": "על האמת",
+      "source_url": "https://www.sefaria.org/Kotzker_Rebbe",
+      "category": "polish_chassidut",
+      "tags": [
+        "אמת",
+        "שקר",
+        "זהירות"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-078",
+      "text": "החיים קצרים מכדי לבזבז אותם על דברים קטנים. צריך להתמקד בדברים שבאמת חשובים.",
+      "source_rabbi": "הרבי מקוצק",
+      "source_book": "אמת ואמונה",
+      "source_section": "על החיים",
+      "source_url": "https://www.sefaria.org/Kotzker_Rebbe",
+      "category": "polish_chassidut",
+      "tags": [
+        "חיים",
+        "מיקוד",
+        "חשיבות"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-079",
+      "text": "מי שמפחד מאנשים - לא יכול לעשות דברים גדולים. צריך להפחד רק מהשם יתברך.",
+      "source_rabbi": "הרבי מקוצק",
+      "source_book": "אמת ואמונה",
+      "source_section": "על הפחד",
+      "source_url": "https://www.sefaria.org/Kotzker_Rebbe",
+      "category": "polish_chassidut",
+      "tags": [
+        "פחד",
+        "יראת ה'",
+        "גדלות"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-080",
+      "text": "הישרות היא לא רק לא לשקר. אלא לחיות באופן שאין צורך לשקר.",
+      "source_rabbi": "הרבי מקוצק",
+      "source_book": "אמת ואמונה",
+      "source_section": "על הישרות",
+      "source_url": "https://www.sefaria.org/Kotzker_Rebbe",
+      "category": "polish_chassidut",
+      "tags": [
+        "ישרות",
+        "אמת",
+        "חיים"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-081",
+      "text": "החינוך האמיתי הוא לגלות את האור שכבר נמצא בתוך הילד, לא לשים בו משהו מבחוץ.",
+      "source_rabbi": "האש קודש",
+      "source_book": "חובת התלמידים",
+      "source_section": "הקדמה",
+      "source_url": "https://www.sefaria.org/Chovat_HaTalmidim",
+      "category": "polish_chassidut",
+      "tags": [
+        "חינוך",
+        "אור פנימי",
+        "גילוי"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-082",
+      "text": "גם בתוך החושך הכי עמוק, יש ניצוץ של אור. והעבודה היא למצוא את הניצוץ ולהגדיל אותו.",
+      "source_rabbi": "האש קודש",
+      "source_book": "אש קודש",
+      "source_section": "דרשות תש\"א",
+      "source_url": "https://www.sefaria.org/Eish_Kodesh",
+      "category": "polish_chassidut",
+      "tags": [
+        "חושך",
+        "אור",
+        "תקווה"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-083",
+      "text": "הנשמה של כל אחד היא חלק מהשם יתברך. וכשאדם מזכך את עצמו, הוא מגלה את החלק האלוקי הזה.",
+      "source_rabbi": "האש קודש",
+      "source_book": "חובת התלמידים",
+      "source_section": "על הנשמה",
+      "source_url": "https://www.sefaria.org/Chovat_HaTalmidim",
+      "category": "polish_chassidut",
+      "tags": [
+        "נשמה",
+        "זיכוך",
+        "אלוקות"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-084",
+      "text": "הסבל יכול לשבור אדם, או לזכך אותו. תלוי איך הוא מתייחס לסבל ומה הוא עושה איתו.",
+      "source_rabbi": "האש קודש",
+      "source_book": "אש קודש",
+      "source_section": "דרשות תש\"ב",
+      "source_url": "https://www.sefaria.org/Eish_Kodesh",
+      "category": "polish_chassidut",
+      "tags": [
+        "סבל",
+        "זיכוך",
+        "גישה"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-085",
+      "text": "התפילה בזמן צרה היא לא רק בקשה. היא גם דבקות בהשם יתברך, שזה עצמו הישועה.",
+      "source_rabbi": "האש קודש",
+      "source_book": "אש קודש",
+      "source_section": "דרשות תש\"ג",
+      "source_url": "https://www.sefaria.org/Eish_Kodesh",
+      "category": "polish_chassidut",
+      "tags": [
+        "תפילה",
+        "צרה",
+        "דבקות"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-086",
+      "text": "כל נער וילד יש בו עולם שלם. והמחנך הטוב הוא מי שיודע להיכנס לעולם הזה ולהבין אותו.",
+      "source_rabbi": "האש קודש",
+      "source_book": "חובת התלמידים",
+      "source_section": "על החינוך",
+      "source_url": "https://www.sefaria.org/Chovat_HaTalmidim",
+      "category": "polish_chassidut",
+      "tags": [
+        "חינוך",
+        "ילדים",
+        "הבנה"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-087",
+      "text": "האמונה שנשארת בזמן של חושך - היא האמונה הכי חזקה. כי היא עומדת בניסיון.",
+      "source_rabbi": "האש קודש",
+      "source_book": "אש קודש",
+      "source_section": "דרשות תש\"ג",
+      "source_url": "https://www.sefaria.org/Eish_Kodesh",
+      "category": "polish_chassidut",
+      "tags": [
+        "אמונה",
+        "חושך",
+        "ניסיון"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-088",
+      "text": "השמחה היא לא תוצאה של מצב טוב. היא בחירה. ואפשר לבחור לשמוח גם כשהמצב קשה.",
+      "source_rabbi": "האש קודש",
+      "source_book": "חובת התלמידים",
+      "source_section": "על השמחה",
+      "source_url": "https://www.sefaria.org/Chovat_HaTalmidim",
+      "category": "polish_chassidut",
+      "tags": [
+        "שמחה",
+        "בחירה",
+        "קושי"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-089",
+      "text": "הדמעות שיהודי שופך בתפילה - הן לא סימן של חולשה. הן סימן של עוצמה פנימית והתחברות.",
+      "source_rabbi": "האש קודש",
+      "source_book": "אש קודש",
+      "source_section": "על התפילה",
+      "source_url": "https://www.sefaria.org/Eish_Kodesh",
+      "category": "polish_chassidut",
+      "tags": [
+        "דמעות",
+        "תפילה",
+        "עוצמה"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-090",
+      "text": "כשאדם עוזר לאחר - הוא גם עוזר לעצמו. כי הנתינה מזככת את הנותן לא פחות מהמקבל.",
+      "source_rabbi": "האש קודש",
+      "source_book": "חובת התלמידים",
+      "source_section": "על הנתינה",
+      "source_url": "https://www.sefaria.org/Chovat_HaTalmidim",
+      "category": "polish_chassidut",
+      "tags": [
+        "נתינה",
+        "עזרה",
+        "זיכוך"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-091",
+      "text": "הילד צריך לדעת שהוא אהוב לא בגלל הישגיו, אלא בגלל עצם מציאותו. זו הבסיס של כל חינוך.",
+      "source_rabbi": "האש קודש",
+      "source_book": "חובת התלמידים",
+      "source_section": "על אהבת תלמידים",
+      "source_url": "https://www.sefaria.org/Chovat_HaTalmidim",
+      "category": "polish_chassidut",
+      "tags": [
+        "חינוך",
+        "אהבה",
+        "הישגים"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-092",
+      "text": "התורה צריכה להיות חיה, לא ספר ישן על המדף. היא צריכה לדבר אל הלב של הדור הזה.",
+      "source_rabbi": "האש קודש",
+      "source_book": "חובת התלמידים",
+      "source_section": "על לימוד התורה",
+      "source_url": "https://www.sefaria.org/Chovat_HaTalmidim",
+      "category": "polish_chassidut",
+      "tags": [
+        "תורה",
+        "חיות",
+        "דור"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-093",
+      "text": "בכל מצב יש אפשרות לעבוד את השם יתברך. גם כשהכל נראה אבוד, יש דרך להתקרב.",
+      "source_rabbi": "האש קודש",
+      "source_book": "אש קודש",
+      "source_section": "דרשות תש\"ג",
+      "source_url": "https://www.sefaria.org/Eish_Kodesh",
+      "category": "polish_chassidut",
+      "tags": [
+        "עבודה",
+        "קירבה",
+        "אפשרות"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-094",
+      "text": "המדמיון הוא כוח גדול. אפשר להשתמש בו לטוב - לדמיין את הקדושה ולהתעלות אליה.",
+      "source_rabbi": "האש קודש",
+      "source_book": "חובת התלמידים",
+      "source_section": "על הדמיון",
+      "source_url": "https://www.sefaria.org/Chovat_HaTalmidim",
+      "category": "polish_chassidut",
+      "tags": [
+        "דמיון",
+        "קדושה",
+        "כוח"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-095",
+      "text": "אסור לייאש אף ילד. כי גם הילד שנראה הכי רחוק - יש בו ניצוץ שאפשר להדליק.",
+      "source_rabbi": "האש קודש",
+      "source_book": "חובת התלמידים",
+      "source_section": "על החינוך",
+      "source_url": "https://www.sefaria.org/Chovat_HaTalmidim",
+      "category": "polish_chassidut",
+      "tags": [
+        "חינוך",
+        "תקווה",
+        "ניצוץ"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-096",
+      "text": "הקב\"ה לא רוצה רובוטים שעושים מה שאומרים להם. הוא רוצה בנים שעובדים אותו מאהבה ומרצון.",
+      "source_rabbi": "האש קודש",
+      "source_book": "חובת התלמידים",
+      "source_section": "על העבודה",
+      "source_url": "https://www.sefaria.org/Chovat_HaTalmidim",
+      "category": "polish_chassidut",
+      "tags": [
+        "עבודה",
+        "אהבה",
+        "רצון"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-097",
+      "text": "הצעיר של היום יהיה המנהיג של מחר. לכן צריך להשקיע בחינוך הצעירים יותר מכל דבר.",
+      "source_rabbi": "האש קודש",
+      "source_book": "חובת התלמידים",
+      "source_section": "הקדמה",
+      "source_url": "https://www.sefaria.org/Chovat_HaTalmidim",
+      "category": "polish_chassidut",
+      "tags": [
+        "חינוך",
+        "מנהיגות",
+        "השקעה"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-098",
+      "text": "כשאדם מתפלל על אחרים - הוא עצמו נענה קודם. כי מי שדואג לאחרים, השם יתברך דואג לו.",
+      "source_rabbi": "האש קודש",
+      "source_book": "אש קודש",
+      "source_section": "על התפילה",
+      "source_url": "https://www.sefaria.org/Eish_Kodesh",
+      "category": "polish_chassidut",
+      "tags": [
+        "תפילה",
+        "אחרים",
+        "דאגה"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-099",
+      "text": "האמונה היא לא רק להאמין כשהכל טוב. האמונה האמיתית היא להחזיק מעמד כשהכל קשה.",
+      "source_rabbi": "האש קודש",
+      "source_book": "אש קודש",
+      "source_section": "דרשות תש\"ג",
+      "source_url": "https://www.sefaria.org/Eish_Kodesh",
+      "category": "polish_chassidut",
+      "tags": [
+        "אמונה",
+        "קושי",
+        "עמידה"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch3-100",
+      "text": "כל יום שעובר בלי שהתקדמנו - הוא יום שלא נוכל להחזיר. לכן צריך לנצל כל רגע.",
+      "source_rabbi": "האש קודש",
+      "source_book": "חובת התלמידים",
+      "source_section": "על הזמן",
+      "source_url": "https://www.sefaria.org/Chovat_HaTalmidim",
+      "category": "polish_chassidut",
+      "tags": [
+        "זמן",
+        "התקדמות",
+        "ניצול"
+      ],
+      "length_estimate": 15
+    },
+    {
+      "id": "polish-batch4-001",
+      "text": "כשאדם מתפלל, צריך לשים את כל כוחו בכל אות ואות, עד שתהיה כל אות עולם שלם של קדושה.",
+      "source_rabbi": "המגיד ממזריטש",
+      "source_book": "מגיד דבריו ליעקב",
+      "source_section": "אות א",
+      "source_url": "https://www.sefaria.org/Maggid_Devarav_l'Yaakov",
+      "category": "polish_chassidut",
+      "tags": [
+        "תפילה",
+        "אותיות",
+        "כוונה"
+      ],
+      "length_estimate": 85,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "polish-batch4-002",
+      "text": "העולם כולו מלא כבודו יתברך, ואין מקום פנוי ממנו. והאדם צריך לראות את האלוקות בכל דבר ודבר.",
+      "source_rabbi": "המגיד ממזריטש",
+      "source_book": "אור תורה",
+      "source_section": "בראשית",
+      "source_url": "https://www.sefaria.org/Or_Torah_(Maggid_of_Mezeritch)",
+      "category": "polish_chassidut",
+      "tags": [
+        "אלוקות",
+        "עולם",
+        "השגחה"
+      ],
+      "length_estimate": 95,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "polish-batch4-003",
+      "text": "כל מחשבה שעולה בלב האדם היא מן השמים, כדי שיעלה אותה ויתקן אותה בשורשה.",
+      "source_rabbi": "המגיד ממזריטש",
+      "source_book": "מגיד דבריו ליעקב",
+      "source_section": "אות נ",
+      "source_url": "https://www.sefaria.org/Maggid_Devarav_l'Yaakov",
+      "category": "polish_chassidut",
+      "tags": [
+        "מחשבה",
+        "תיקון",
+        "העלאה"
+      ],
+      "length_estimate": 78,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "polish-batch4-004",
+      "text": "הדיבור הוא עולם הנפש, ובכל מילה שאדם מוציא מפיו הוא בורא עולמות או מחריב עולמות.",
+      "source_rabbi": "המגיד ממזריטש",
+      "source_book": "אור תורה",
+      "source_section": "וארא",
+      "source_url": "https://www.sefaria.org/Or_Torah_(Maggid_of_Mezeritch)",
+      "category": "polish_chassidut",
+      "tags": [
+        "דיבור",
+        "כוח",
+        "בריאה"
+      ],
+      "length_estimate": 82,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "polish-batch4-005",
+      "text": "מלך מלכי המלכים משרה שכינתו על מי שמשפיל עצמו ורואה עצמו כאין.",
+      "source_rabbi": "המגיד ממזריטש",
+      "source_book": "מגיד דבריו ליעקב",
+      "source_section": "אות ק",
+      "source_url": "https://www.sefaria.org/Maggid_Devarav_l'Yaakov",
+      "category": "polish_chassidut",
+      "tags": [
+        "ענווה",
+        "שכינה",
+        "ביטול"
+      ],
+      "length_estimate": 65,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "polish-batch4-006",
+      "text": "עיקר העבודה היא השמחה. כי בשמחה אדם יכול לעבור את כל הקשיים ולהגיע למדרגות הגבוהות ביותר.",
+      "source_rabbi": "החוזה מלובלין",
+      "source_book": "דברי אמת",
+      "source_section": "פרשת בשלח",
+      "source_url": "https://hebrewbooks.org/14203",
+      "category": "polish_chassidut",
+      "tags": [
+        "שמחה",
+        "עבודה",
+        "מדרגות"
+      ],
+      "length_estimate": 92,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "polish-batch4-007",
+      "text": "האדם נברא להטיב לזולת. וכל מי שאינו מיטיב לחברו - לא מילא את תפקידו בעולם.",
+      "source_rabbi": "החוזה מלובלין",
+      "source_book": "דברי אמת",
+      "source_section": "פרשת וירא",
+      "source_url": "https://hebrewbooks.org/14203",
+      "category": "polish_chassidut",
+      "tags": [
+        "חסד",
+        "זולת",
+        "תפקיד"
+      ],
+      "length_estimate": 78,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "polish-batch4-008",
+      "text": "רואה אני שהדור הולך ומתמעט, אבל הניצוצות של כל נשמה הולכים ומתגברים לקראת הגאולה.",
+      "source_rabbi": "החוזה מלובלין",
+      "source_book": "דברי אמת",
+      "source_section": "ליקוטים",
+      "source_url": "https://hebrewbooks.org/14203",
+      "category": "polish_chassidut",
+      "tags": [
+        "גאולה",
+        "ניצוצות",
+        "דורות"
+      ],
+      "length_estimate": 88,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "polish-batch4-009",
+      "text": "אין דבר העומד בפני הרצון. אדם שרוצה באמת - הקב\"ה פותח לו את כל השערים.",
+      "source_rabbi": "החוזה מלובלין",
+      "source_book": "דברי אמת",
+      "source_section": "פרשת ויחי",
+      "source_url": "https://hebrewbooks.org/14203",
+      "category": "polish_chassidut",
+      "tags": [
+        "רצון",
+        "שערים",
+        "התגברות"
+      ],
+      "length_estimate": 72,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "polish-batch4-010",
+      "text": "התפילה היא הסולם שבו עולים לשמים. וכל תפילה בכוונה היא מדרגה נוספת בסולם.",
+      "source_rabbi": "החוזה מלובלין",
+      "source_book": "דברי אמת",
+      "source_section": "פרשת ויצא",
+      "source_url": "https://hebrewbooks.org/14203",
+      "category": "polish_chassidut",
+      "tags": [
+        "תפילה",
+        "סולם",
+        "עלייה"
+      ],
+      "length_estimate": 76,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "polish-batch4-011",
+      "text": "כל אדם צריך לדעת שהעולם נברא בשבילו, ועליו לתקן את העולם כפי כוחו.",
+      "source_rabbi": "רבי שמחה בונם מפשיסחא",
+      "source_book": "קול שמחה",
+      "source_section": "ליקוטים",
+      "source_url": "https://hebrewbooks.org/43312",
+      "category": "polish_chassidut",
+      "tags": [
+        "תיקון",
+        "אחריות",
+        "עולם"
+      ],
+      "length_estimate": 68,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "polish-batch4-012",
+      "text": "מוטב להיות רשע היודע שהוא רשע, מצדיק החושב שהוא צדיק. כי הראשון עוד יכול לחזור בתשובה.",
+      "source_rabbi": "רבי שמחה בונם מפשיסחא",
+      "source_book": "קול שמחה",
+      "source_section": "על התשובה",
+      "source_url": "https://hebrewbooks.org/43312",
+      "category": "polish_chassidut",
+      "tags": [
+        "תשובה",
+        "אמת",
+        "הכרה עצמית"
+      ],
+      "length_estimate": 92,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "polish-batch4-013",
+      "text": "האדם צריך שתהיה לו שתי כיסים: בכיס אחד - 'בשבילי נברא העולם', ובשני - 'ואנכי עפר ואפר'.",
+      "source_rabbi": "רבי שמחה בונם מפשיסחא",
+      "source_book": "קול שמחה",
+      "source_section": "ליקוטים",
+      "source_url": "https://hebrewbooks.org/43312",
+      "category": "polish_chassidut",
+      "tags": [
+        "ענווה",
+        "גדלות",
+        "איזון"
+      ],
+      "length_estimate": 95,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "polish-batch4-014",
+      "text": "אמת היא היסוד לכל. בלי אמת - אין תורה, אין תפילה, ואין עבודת ה'.",
+      "source_rabbi": "רבי שמחה בונם מפשיסחא",
+      "source_book": "קול שמחה",
+      "source_section": "על האמת",
+      "source_url": "https://hebrewbooks.org/43312",
+      "category": "polish_chassidut",
+      "tags": [
+        "אמת",
+        "יסוד",
+        "עבודה"
+      ],
+      "length_estimate": 65,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "polish-batch4-015",
+      "text": "אם אני אני מפני שאני אני, ואתה אתה מפני שאתה אתה - אז אני אני ואתה אתה. אבל אם אני אני מפני שאתה אתה - אז אני לא אני ואתה לא אתה.",
+      "source_rabbi": "הרבי מקוצק",
+      "source_book": "אמת ואמונה",
+      "source_section": "ליקוטים",
+      "source_url": "https://hebrewbooks.org/14066",
+      "category": "polish_chassidut",
+      "tags": [
+        "זהות",
+        "אמת",
+        "עצמיות"
+      ],
+      "length_estimate": 122,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "polish-batch4-016",
+      "text": "לא הכל מה שחושבים צריך לומר, לא הכל מה שאומרים צריך לכתוב, ולא הכל מה שכותבים צריך לפרסם.",
+      "source_rabbi": "הרבי מקוצק",
+      "source_book": "אמת ואמונה",
+      "source_section": "על הדיבור",
+      "source_url": "https://hebrewbooks.org/14066",
+      "category": "polish_chassidut",
+      "tags": [
+        "דיבור",
+        "שתיקה",
+        "זהירות"
+      ],
+      "length_estimate": 95,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "polish-batch4-017",
+      "text": "היכן נמצא הקב\"ה? בכל מקום שנותנים לו להיכנס.",
+      "source_rabbi": "הרבי מקוצק",
+      "source_book": "אמת ואמונה",
+      "source_section": "ליקוטים",
+      "source_url": "https://hebrewbooks.org/14066",
+      "category": "polish_chassidut",
+      "tags": [
+        "אלוקות",
+        "לב",
+        "פתיחות"
+      ],
+      "length_estimate": 45,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "polish-batch4-018",
+      "text": "אסור לשקר לעצמו. כי מי ששקר לעצמו - כבר לא יכול להגיע לאמת.",
+      "source_rabbi": "הרבי מקוצק",
+      "source_book": "אמת ואמונה",
+      "source_section": "על האמת",
+      "source_url": "https://hebrewbooks.org/14066",
+      "category": "polish_chassidut",
+      "tags": [
+        "אמת",
+        "שקר",
+        "הכרה עצמית"
+      ],
+      "length_estimate": 62,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "polish-batch4-019",
+      "text": "אין לי מה לתת לתלמידיי אלא אמת אחת: שיחפשו את האמת בעצמם ולא יסמכו על אחרים.",
+      "source_rabbi": "הרבי מקוצק",
+      "source_book": "אמת ואמונה",
+      "source_section": "על החינוך",
+      "source_url": "https://hebrewbooks.org/14066",
+      "category": "polish_chassidut",
+      "tags": [
+        "אמת",
+        "חיפוש",
+        "עצמאות"
+      ],
+      "length_estimate": 80,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "polish-batch4-020",
+      "text": "גם בגיהנום, גם בתוך האש הגדולה ביותר - שם נמצא הקב\"ה. ומי שמוצא אותו שם - מוצא גאולה.",
+      "source_rabbi": "האש קודש",
+      "source_book": "אש קודש",
+      "source_section": "דרשות תש\"ב",
+      "source_url": "https://www.sefaria.org/Eish_Kodesh",
+      "category": "polish_chassidut",
+      "tags": [
+        "אמונה",
+        "קושי",
+        "גאולה"
+      ],
+      "length_estimate": 88,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "polish-batch4-021",
+      "text": "החינוך האמיתי הוא לא להכריח את הילד להיות מה שאנחנו רוצים, אלא לעזור לו להיות מה שהוא באמת.",
+      "source_rabbi": "האש קודש",
+      "source_book": "חובת התלמידים",
+      "source_section": "פרק ג",
+      "source_url": "https://www.sefaria.org/Chovat_HaTalmidim",
+      "category": "polish_chassidut",
+      "tags": [
+        "חינוך",
+        "אמת",
+        "הורות"
+      ],
+      "length_estimate": 95,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "polish-batch4-022",
+      "text": "כשאדם בוכה מעומק הלב - הדמעות שלו פותחות שערי שמים שאף תפילה לא יכולה לפתוח.",
+      "source_rabbi": "האש קודש",
+      "source_book": "אש קודש",
+      "source_section": "דרשות תש\"ג",
+      "source_url": "https://www.sefaria.org/Eish_Kodesh",
+      "category": "polish_chassidut",
+      "tags": [
+        "דמעות",
+        "תפילה",
+        "שערים"
+      ],
+      "length_estimate": 82,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "polish-batch4-023",
+      "text": "התורה ניתנה בשביל לחיות אותה, לא בשביל לדעת אותה. ידיעה בלי חיים - היא כגוף בלי נשמה.",
+      "source_rabbi": "האש קודש",
+      "source_book": "חובת התלמידים",
+      "source_section": "הקדמה",
+      "source_url": "https://www.sefaria.org/Chovat_HaTalmidim",
+      "category": "polish_chassidut",
+      "tags": [
+        "תורה",
+        "חיים",
+        "יישום"
+      ],
+      "length_estimate": 90,
+      "created_at": "2025-01-28T12:00:00Z"
+    }
+  ],
+  "last_updated": "2026-01-28T18:45:14"
+}

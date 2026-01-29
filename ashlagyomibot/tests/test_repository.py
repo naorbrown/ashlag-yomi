@@ -55,6 +55,20 @@ class TestQuoteRepository:
         quote = mock_repository.get_random_by_category(QuoteCategory.ARIZAL)
         assert quote is None
 
+    def test_get_random_quote(self, mock_repository: QuoteRepository) -> None:
+        """Should return a random quote from any category."""
+        quote = mock_repository.get_random_quote()
+        assert quote is not None
+        assert isinstance(quote, Quote)
+
+    def test_get_random_quote_returns_none_when_empty(
+        self, mock_repository: QuoteRepository
+    ) -> None:
+        """Should return None if no quotes available."""
+        mock_repository._quotes_cache = {cat: [] for cat in QuoteCategory}
+        quote = mock_repository.get_random_quote()
+        assert quote is None
+
     def test_mark_as_sent(self, mock_repository: QuoteRepository) -> None:
         """Should record sent quote in history."""
         quote = mock_repository.get_random_by_category(QuoteCategory.BAAL_HASULAM)
@@ -70,7 +84,7 @@ class TestQuoteRepository:
         bundle = mock_repository.get_daily_bundle(date(2024, 1, 15))
 
         assert bundle.date == date(2024, 1, 15)
-        assert len(bundle.quotes) == 7  # One per category
+        assert len(bundle.quotes) == 6  # One per category
 
         # Check all categories are represented
         categories = {q.category for q in bundle.quotes}
@@ -95,7 +109,7 @@ class TestQuoteRepository:
         stats = mock_repository.validate_all()
 
         assert "total" in stats
-        assert stats["total"] == 7  # One per category
+        assert stats["total"] == 6  # One per category
         assert stats["baal_hasulam"] == 1
 
 

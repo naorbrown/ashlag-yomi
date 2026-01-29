@@ -13,7 +13,7 @@ from datetime import date
 from telegram import Update
 from telegram.ext import ContextTypes
 
-from src.bot.formatters import format_daily_bundle, format_quote
+from src.bot.formatters import build_source_keyboard, format_daily_bundle, format_quote
 from src.data.repository import QuoteRepository
 from src.utils.config import get_settings
 from src.utils.logger import get_logger
@@ -30,31 +30,21 @@ async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> N
     if not update.effective_message:
         return
 
-    welcome_text = """🕯️ *ברוכים הבאים לאשלג יומי*
+    welcome_text = """🕯️ <b>Ashlag Yomi</b>
 
-מדי יום נשלח אליכם ציטוט מתוך שושלת החכמה של אשלג:
+Daily Kabbalistic wisdom from the Ashlag lineage.
 
-• *האר״י הקדוש* - יסודות הקבלה הלוריאנית
-• *הבעל שם טוב* - מייסד החסידות
-• *רבי שמחה בונים מפשיסחא*
-• *הרבי מקוצק*
-• *בעל הסולם* - רבי יהודה אשלג
-• *הרב״ש* - רבי ברוך שלום אשלג
-• *התלמידים*
+<b>Commands:</b>
+/today - Get today's quotes
+/quote - Get a single quote
+/about - Learn more
 
-📖 הציטוטים נשלחים בכל בוקר בשעה 6:00 (שעון ישראל)
-
-*פקודות זמינות:*
-/today - קבלו את הציטוט של היום
-/about - על הפרויקט
-/help - עזרה
-
-_״אין אור גדול יותר מהאור היוצא מתוך החושך״_
+📅 Daily quotes at 6:00 AM Israel time
 """
 
     await update.effective_message.reply_text(
         welcome_text,
-        parse_mode="Markdown",
+        parse_mode="HTML",
     )
 
     logger.info(
@@ -84,22 +74,38 @@ async def today_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> N
             )
             return
 
-        # Send each quote as a separate message for better readability
-        messages = format_daily_bundle(bundle)
-
         if settings.dry_run:
-            logger.info("dry_run_today", message_count=len(messages))
+            logger.info("dry_run_today", quote_count=len(bundle.quotes))
             await update.effective_message.reply_text(
-                f"[DRY RUN] Would send {len(messages)} messages"
+                f"[DRY RUN] Would send {len(bundle.quotes)} quotes"
             )
             return
 
-        for message in messages:
+        # Send header
+        date_str = bundle.date.strftime("%d.%m.%Y")
+        header = f"🌅 <b>אשלג יומי - {date_str}</b>\n\n═══════════════════"
+        await update.effective_message.reply_text(
+            header,
+            parse_mode="HTML",
+        )
+
+        # Send each quote with its inline keyboard (nachyomi-bot pattern)
+        for quote in bundle.quotes:
+            message = format_quote(quote)
+            keyboard = build_source_keyboard(quote)
+
             await update.effective_message.reply_text(
                 message,
-                parse_mode="Markdown",
+                parse_mode="HTML",
+                reply_markup=keyboard,  # Inline keyboard for source link
                 disable_web_page_preview=True,
             )
+
+        # Send footer
+        await update.effective_message.reply_text(
+            "═══════════════════",
+            parse_mode="HTML",
+        )
 
         logger.info(
             "today_command",
@@ -114,48 +120,87 @@ async def today_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> N
         )
 
 
+async def quote_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    """
+    Handle /quote command - send a single random quote.
+
+    Quick way to get a taste of the content without the full daily bundle.
+    """
+    if not update.effective_message:
+        return
+
+    try:
+        repository = QuoteRepository()
+        quote = repository.get_random_quote()
+
+        if not quote:
+            await update.effective_message.reply_text(
+                "😔 No quotes available right now."
+            )
+            return
+
+        message = format_quote(quote)
+        keyboard = build_source_keyboard(quote)
+
+        await update.effective_message.reply_text(
+            message,
+            parse_mode="HTML",
+            reply_markup=keyboard,
+            disable_web_page_preview=True,
+        )
+
+        logger.info(
+            "quote_command",
+            user_id=update.effective_user.id if update.effective_user else None,
+            quote_id=quote.id,
+        )
+
+    except Exception as e:
+        logger.error("quote_command_error", error=str(e))
+        await update.effective_message.reply_text(
+            "😔 Error. Please try again."
+        )
+
+
 async def about_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """Handle /about command - explain the project and lineage."""
     if not update.effective_message:
         return
 
-    about_text = """📚 *על אשלג יומי*
+    about_text = """📚 <b>על אשלג יומי</b>
 
 פרויקט זה נועד להפיץ את תורת הקבלה של שושלת אשלג - קו ישיר של חכמה רוחנית מהאר״י הקדוש ועד ימינו.
 
-*השושלת:*
+<b>השושלת:</b>
 
-🕯️ *האר״י הקדוש* (1534-1572)
+🕯️ <b>האר״י הקדוש</b> (1534-1572)
 רבי יצחק לוריא אשכנזי - אבי הקבלה הלוריאנית
 
-🕯️ *הבעל שם טוב* (1698-1760)
+✨ <b>הבעל שם טוב</b> (1698-1760)
 רבי ישראל בן אליעזר - מייסד תנועת החסידות
 
-🕯️ *רבי שמחה בונים* (1765-1827)
-מפשיסחא - מנהיג בית החסידות של פשיסחא
+🔥 <b>חסידות פולין</b> (1700-1900)
+המגיד ממזריטש, פשיסחא, קוצק ועוד
 
-🕯️ *הרבי מקוצק* (1787-1859)
-רבי מנחם מנדל מורגנשטרן - ידוע באמת הבלתי מתפשרת שלו
-
-🕯️ *בעל הסולם* (1884-1954)
+📖 <b>בעל הסולם</b> (1884-1954)
 רבי יהודה אשלג - מחבר פירוש הסולם על הזוהר
 
-🕯️ *הרב״ש* (1907-1991)
+💎 <b>הרב״ש</b> (1907-1991)
 רבי ברוך שלום אשלג - בנו ותלמידו של בעל הסולם
 
-🕯️ *התלמידים*
+🌱 <b>חסידי אשלג</b>
 ממשיכי הדרך בדורנו
 
-*קישורים:*
-• [אור הסולם](https://www.orhassulam.com/)
-• [ספריא](https://www.sefaria.org/)
+<b>קישורים:</b>
+• <a href="https://www.orhassulam.com/">אור הסולם</a>
+• <a href="https://www.sefaria.org/">ספריא</a>
 
-_קוד פתוח - נבנה באהבה_
+<i>קוד פתוח - נבנה באהבה</i>
 """
 
     await update.effective_message.reply_text(
         about_text,
-        parse_mode="Markdown",
+        parse_mode="HTML",
         disable_web_page_preview=True,
     )
 
@@ -170,24 +215,19 @@ async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> No
     if not update.effective_message:
         return
 
-    help_text = """📋 *פקודות זמינות:*
+    help_text = """<b>Commands:</b>
 
-/start - הודעת פתיחה
-/today - קבלו את הציטוטים של היום
-/about - על הפרויקט ושושלת אשלג
-/help - הצגת הודעה זו
-/feedback - שליחת משוב
+/today - Get today's quotes
+/quote - Get a single quote
+/about - About this project
+/feedback - Send feedback
 
-📖 *ציטוטים יומיים:*
-הציטוטים נשלחים אוטומטית בכל בוקר בשעה 6:00 (שעון ישראל)
-
-❓ *שאלות?*
-השתמשו ב-/feedback לשליחת שאלות או הצעות
+📅 Quotes sent daily at 6:00 AM (Israel)
 """
 
     await update.effective_message.reply_text(
         help_text,
-        parse_mode="Markdown",
+        parse_mode="HTML",
     )
 
     logger.info(
@@ -201,7 +241,7 @@ async def feedback_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -
     if not update.effective_message:
         return
 
-    feedback_text = """💬 *משוב והצעות*
+    feedback_text = """💬 <b>משוב והצעות</b>
 
 אנו שמחים לשמוע מכם!
 
@@ -216,7 +256,7 @@ https://github.com/yourusername/ashlag-yomi/issues
 
     await update.effective_message.reply_text(
         feedback_text,
-        parse_mode="Markdown",
+        parse_mode="HTML",
         disable_web_page_preview=True,
     )
 

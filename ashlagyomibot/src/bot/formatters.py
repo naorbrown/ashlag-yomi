@@ -3,14 +3,16 @@ Message formatters for Telegram output.
 
 Handles:
 - Hebrew RTL text formatting
-- Telegram MarkdownV2 syntax
+- Telegram HTML formatting (more reliable than Markdown for links)
 - Quote presentation with proper attribution
 - Daily bundle composition
 - Channel vs Bot formatting differences
+- Inline keyboards for clickable links (nachyomi-bot pattern)
 """
 
-import random
 from datetime import date
+
+from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 
 from src.data.models import DailyBundle, Quote, QuoteCategory
 from src.utils.logger import get_logger
@@ -21,72 +23,63 @@ logger = get_logger(__name__)
 CATEGORY_EMOJI: dict[QuoteCategory, str] = {
     QuoteCategory.ARIZAL: "🕯️",
     QuoteCategory.BAAL_SHEM_TOV: "✨",
-    QuoteCategory.SIMCHA_BUNIM: "🌟",
-    QuoteCategory.KOTZKER: "🔥",
+    QuoteCategory.POLISH_CHASSIDUT: "🔥",
     QuoteCategory.BAAL_HASULAM: "📖",
     QuoteCategory.RABASH: "💎",
-    QuoteCategory.TALMIDIM: "🌱",
+    QuoteCategory.CHASDEI_ASHLAG: "🌱",
 }
 
-# Daily greetings for variety - rotate based on day
-DAILY_GREETINGS: list[str] = [
-    "בוקר אור ✨",
-    "יום טוב ומבורך 🌅",
-    "שבוע טוב 🌟",
-    "שלום וברכה 🕊️",
-    "יום מאיר 🌞",
-    "בהצלחה ביומכם 💪",
-    "חזקו ואמצו 🌿",
-]
 
-# Inspirational footers - rotate for variety
-DAILY_FOOTERS: list[str] = [
-    "״הסתכלות בתכלית מביאה את האדם לשלמות״",
-    "״אין אור גדול יותר מהאור היוצא מתוך החושך״",
-    "״כל ישראל ערבים זה לזה״",
-    "״ואהבת לרעך כמוך - זהו כלל גדול בתורה״",
-    "״תכלית הבריאה היא להיטיב לנבראיו״",
-    "״החירות האמיתית היא חירות מהרצון לקבל לעצמו״",
-    "״אהבת חברים היא הסולם לעלות לאהבת הבורא״",
-]
+def build_source_keyboard(quote: Quote) -> InlineKeyboardMarkup | None:
+    """
+    Build inline keyboard with source link (nachyomi-bot pattern).
 
+    Uses URL buttons instead of inline text links for reliable clickability.
 
-def _get_daily_greeting(target_date: date | None = None) -> str:
-    """Get a greeting based on the day of year for consistent daily rotation."""
-    if target_date is None:
-        target_date = date.today()
-    day_of_year = target_date.timetuple().tm_yday
-    return DAILY_GREETINGS[day_of_year % len(DAILY_GREETINGS)]
+    Args:
+        quote: The quote to build a keyboard for
+
+    Returns:
+        InlineKeyboardMarkup with source button, or None if no source URL
+    """
+    if not quote.source_url:
+        return None
+
+    keyboard = [
+        [InlineKeyboardButton(text="📖 מקור", url=quote.source_url)]
+    ]
+    return InlineKeyboardMarkup(keyboard)
 
 
-def _get_daily_footer(target_date: date | None = None) -> str:
-    """Get a footer based on the day of year for consistent daily rotation."""
-    if target_date is None:
-        target_date = date.today()
-    day_of_year = target_date.timetuple().tm_yday
-    return DAILY_FOOTERS[day_of_year % len(DAILY_FOOTERS)]
-
-
-def format_quote(quote: Quote, *, include_source_link: bool = True) -> str:
+def format_quote(quote: Quote) -> str:
     """
     Format a single quote for Telegram.
 
-    Uses Markdown formatting with Hebrew RTL support.
+    Uses HTML formatting with Hebrew RTL support.
     Telegram automatically handles RTL for Hebrew text.
+
+    Note: Source links are provided via inline keyboard (build_source_keyboard),
+    not as inline text links. This follows the nachyomi-bot pattern for
+    reliable clickable links.
 
     Args:
         quote: The quote to format
-        include_source_link: Whether to include the source URL
 
     Returns:
-        Formatted Markdown string
+        Formatted HTML string
     """
     emoji = CATEGORY_EMOJI.get(quote.category, "📜")
-    rabbi_name = quote.category.display_name_hebrew
 
-    # Build the message parts
+    # For categories with multiple rabbis, show the specific rabbi name
+    # Otherwise show the category name
+    if quote.category in (QuoteCategory.POLISH_CHASSIDUT, QuoteCategory.CHASDEI_ASHLAG):
+        rabbi_name = quote.source_rabbi
+    else:
+        rabbi_name = quote.source_rabbi or quote.category.display_name_hebrew
+
+    # Build the message parts (HTML formatting)
     parts: list[str] = [
-        f"{emoji} *{rabbi_name}*",
+        f"{emoji} <b>{rabbi_name}</b>",
         "",  # Blank line
         f"״{quote.text}״",
     ]
@@ -99,9 +92,8 @@ def format_quote(quote: Quote, *, include_source_link: bool = True) -> str:
         parts.append("")
         parts.append(source_line)
 
-    # Add source link
-    if include_source_link and quote.source_url:
-        parts.append(f"[📎 מקור]({quote.source_url})")
+    # Source link is provided via inline keyboard (build_source_keyboard)
+    # not as inline text link - this follows nachyomi-bot pattern
 
     return "\n".join(parts)
 
@@ -112,54 +104,54 @@ def format_channel_message(quote: Quote, target_date: date | None = None) -> str
 
     Different from bot format - designed for passive consumption.
 
+    Note: Source links are provided via inline keyboard (build_source_keyboard),
+    not as inline text links. This follows the nachyomi-bot pattern.
+
     Args:
         quote: The quote to send
-        target_date: Date for greeting/footer rotation
+        target_date: Date for header
 
     Returns:
-        Formatted Markdown string
+        Formatted HTML string
     """
     if target_date is None:
         target_date = date.today()
 
     emoji = CATEGORY_EMOJI.get(quote.category, "📜")
-    rabbi_name = quote.category.display_name_hebrew
-    greeting = _get_daily_greeting(target_date)
-    footer = _get_daily_footer(target_date)
+
+    # For categories with multiple rabbis, show the specific rabbi name
+    if quote.category in (QuoteCategory.POLISH_CHASSIDUT, QuoteCategory.CHASDEI_ASHLAG):
+        rabbi_name = quote.source_rabbi
+    else:
+        rabbi_name = quote.source_rabbi or quote.category.display_name_hebrew
 
     # Hebrew date format
     date_str = target_date.strftime("%d.%m.%Y")
 
     parts: list[str] = [
-        f"🌅 *אשלג יומי* | {date_str}",
-        f"{greeting}",
+        f"🌅 <b>אשלג יומי</b> | {date_str}",
         "",
         "═══════════════════",
         "",
-        f"{emoji} *{rabbi_name}*",
+        f"{emoji} <b>{rabbi_name}</b>",
         "",
         f"״{quote.text}״",
     ]
 
     # Add source attribution
     if quote.source_book:
-        source_line = f"📚 _{quote.source_book}_"
+        source_line = f"📚 <i>{quote.source_book}</i>"
         if quote.source_section:
-            source_line += f", _{quote.source_section}_"
+            source_line += f", <i>{quote.source_section}</i>"
         parts.append("")
         parts.append(source_line)
 
-    # Add source link
-    if quote.source_url:
-        parts.append(f"[📎 מקור]({quote.source_url})")
+    # Source link is provided via inline keyboard (build_source_keyboard)
+    # not as inline text link - this follows nachyomi-bot pattern
 
     parts.extend([
         "",
         "═══════════════════",
-        "",
-        f"_{footer}_",
-        "",
-        "🤖 @AshlagYomiBot | 📢 @AshlagYomi",
     ])
 
     return "\n".join(parts)
@@ -176,7 +168,7 @@ def format_daily_bundle(bundle: DailyBundle) -> list[str]:
         bundle: The daily bundle to format
 
     Returns:
-        List of formatted Markdown strings (one per quote)
+        List of formatted HTML strings (one per quote)
     """
     if not bundle.quotes:
         return ["אין ציטוטים זמינים להיום 😔"]
@@ -185,11 +177,8 @@ def format_daily_bundle(bundle: DailyBundle) -> list[str]:
 
     # Header message
     date_str = bundle.date.strftime("%d.%m.%Y")
-    greeting = _get_daily_greeting(bundle.date)
 
-    header = f"🌅 *אשלג יומי - {date_str}*\n"
-    header += f"{greeting}\n\n"
-    header += f"_זמן קריאה משוער: {bundle.total_reading_time_minutes} דקות_"
+    header = f"🌅 <b>אשלג יומי - {date_str}</b>"
     header += "\n\n═══════════════════"
     messages.append(header)
 
@@ -199,10 +188,7 @@ def format_daily_bundle(bundle: DailyBundle) -> list[str]:
         messages.append(formatted)
 
     # Footer message
-    footer_quote = _get_daily_footer(bundle.date)
-    footer = "═══════════════════\n\n"
-    footer += f"_{footer_quote}_\n\n"
-    footer += "📲 /today לציטוט נוסף | /about על הפרויקט"
+    footer = "═══════════════════"
     messages.append(footer)
 
     return messages
@@ -218,33 +204,37 @@ def format_single_quote_message(quote: Quote) -> str:
         quote: The quote to format
 
     Returns:
-        Formatted Markdown string
+        Formatted HTML string
     """
     formatted_quote = format_quote(quote)
 
-    return f"""📜 *ציטוט יומי*
+    return f"""📜 <b>ציטוט יומי</b>
 
 {formatted_quote}
 
 ═══════════════════
-📲 /today | /about
 """
 
 
-def escape_markdown(text: str) -> str:
+def escape_html(text: str) -> str:
     """
-    Escape special Markdown characters in text.
+    Escape special HTML characters in text.
 
     Use this for user-provided content that shouldn't be interpreted
-    as Markdown formatting.
+    as HTML formatting.
 
     Args:
         text: Raw text to escape
 
     Returns:
-        Text with Markdown special characters escaped
+        Text with HTML special characters escaped
     """
-    special_chars = ["_", "*", "[", "]", "(", ")", "~", "`", ">", "#", "+", "-", "=", "|", "{", "}", ".", "!"]
-    for char in special_chars:
-        text = text.replace(char, f"\\{char}")
-    return text
+    return (
+        text.replace("&", "&amp;")
+        .replace("<", "&lt;")
+        .replace(">", "&gt;")
+    )
+
+
+# Keep for backwards compatibility
+escape_markdown = escape_html

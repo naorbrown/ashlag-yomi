@@ -13,7 +13,11 @@
       "source_section": "פרק א׳",
       "source_url": "https://www.sefaria.org/Tzava'at_HaRivash.1",
       "category": "baal_shem_tov",
-      "tags": ["עבודת השם", "תמימות", "הרגל"],
+      "tags": [
+        "עבודת השם",
+        "תמימות",
+        "הרגל"
+      ],
       "length_estimate": 35,
       "created_at": "2024-01-01T00:00:00"
     },
@@ -25,7 +29,11 @@
       "source_section": "פרק נ״ו",
       "source_url": "https://www.sefaria.org/Tzava'at_HaRivash.56",
       "category": "baal_shem_tov",
-      "tags": ["מחשבה", "ריכוז", "נוכחות"],
+      "tags": [
+        "מחשבה",
+        "ריכוז",
+        "נוכחות"
+      ],
       "length_estimate": 15,
       "created_at": "2024-01-01T00:00:00"
     },
@@ -37,7 +45,11 @@
       "source_section": "פרק ב׳",
       "source_url": "https://www.sefaria.org/Tzava'at_HaRivash.2",
       "category": "baal_shem_tov",
-      "tags": ["השתוות", "ענווה", "מידות"],
+      "tags": [
+        "השתוות",
+        "ענווה",
+        "מידות"
+      ],
       "length_estimate": 30,
       "created_at": "2024-01-01T00:00:00"
     },
@@ -49,7 +61,11 @@
       "source_section": "פרק קמ״ד",
       "source_url": "https://www.sefaria.org/Tzava'at_HaRivash.144",
       "category": "baal_shem_tov",
-      "tags": ["אהבת ישראל", "תפילה", "אחדות"],
+      "tags": [
+        "אהבת ישראל",
+        "תפילה",
+        "אחדות"
+      ],
       "length_estimate": 25,
       "created_at": "2024-01-01T00:00:00"
     },
@@ -61,7 +77,11 @@
       "source_section": "פרק ס״ח",
       "source_url": "https://www.sefaria.org/Tzava'at_HaRivash.68",
       "category": "baal_shem_tov",
-      "tags": ["תפילה", "דבקות", "שכינה"],
+      "tags": [
+        "תפילה",
+        "דבקות",
+        "שכינה"
+      ],
       "length_estimate": 25,
       "created_at": "2024-01-01T00:00:00"
     },
@@ -73,7 +93,11 @@
       "source_section": "אות כ״א",
       "source_url": "https://www.sefaria.org/Keter_Shem_Tov.21",
       "category": "baal_shem_tov",
-      "tags": ["ביטחון עצמי", "כוח האדם", "עבודת השם"],
+      "tags": [
+        "ביטחון עצמי",
+        "כוח האדם",
+        "עבודת השם"
+      ],
       "length_estimate": 30,
       "created_at": "2024-01-01T00:00:00"
     },
@@ -85,7 +109,11 @@
       "source_section": "אות ק״ח",
       "source_url": "https://www.sefaria.org/Keter_Shem_Tov.108",
       "category": "baal_shem_tov",
-      "tags": ["תיקון עצמי", "ראייה", "מוסר"],
+      "tags": [
+        "תיקון עצמי",
+        "ראייה",
+        "מוסר"
+      ],
       "length_estimate": 30,
       "created_at": "2024-01-01T00:00:00"
     },
@@ -97,7 +125,11 @@
       "source_section": "פרק ק״ט",
       "source_url": "https://www.sefaria.org/Tzava'at_HaRivash.109",
       "category": "baal_shem_tov",
-      "tags": ["ניצוצות", "קדושה", "בריאה"],
+      "tags": [
+        "ניצוצות",
+        "קדושה",
+        "בריאה"
+      ],
       "length_estimate": 25,
       "created_at": "2024-01-01T00:00:00"
     },
@@ -109,7 +141,11 @@
       "source_section": "אות נ״ב",
       "source_url": "https://www.sefaria.org/Keter_Shem_Tov.52",
       "category": "baal_shem_tov",
-      "tags": ["יצר הרע", "שלמות", "תיקון"],
+      "tags": [
+        "יצר הרע",
+        "שלמות",
+        "תיקון"
+      ],
       "length_estimate": 30,
       "created_at": "2024-01-01T00:00:00"
     },
@@ -121,7 +157,11 @@
       "source_section": "אות ל״ד",
       "source_url": "https://www.sefaria.org/Keter_Shem_Tov.34",
       "category": "baal_shem_tov",
-      "tags": ["תשובה", "חטא", "התעוררות"],
+      "tags": [
+        "תשובה",
+        "חטא",
+        "התעוררות"
+      ],
       "length_estimate": 35,
       "created_at": "2024-01-01T00:00:00"
     },
@@ -133,7 +173,11 @@
       "source_section": "אות רי״ט",
       "source_url": "https://www.sefaria.org/Keter_Shem_Tov.219",
       "category": "baal_shem_tov",
-      "tags": ["השגחה פרטית", "עבודת השם", "ראייה"],
+      "tags": [
+        "השגחה פרטית",
+        "עבודת השם",
+        "ראייה"
+      ],
       "length_estimate": 28,
       "created_at": "2024-01-01T00:00:00"
     },
@@ -145,7 +189,11 @@
       "source_section": "אות שכ״א",
       "source_url": "https://www.sefaria.org/Keter_Shem_Tov.321",
       "category": "baal_shem_tov",
-      "tags": ["שלום בית", "כבוד אשה", "ברכה"],
+      "tags": [
+        "שלום בית",
+        "כבוד אשה",
+        "ברכה"
+      ],
       "length_estimate": 30,
       "created_at": "2024-01-01T00:00:00"
     },
@@ -157,7 +205,11 @@
       "source_section": "פרק ט״ו",
       "source_url": "https://www.sefaria.org/Tzava'at_HaRivash.15",
       "category": "baal_shem_tov",
-      "tags": ["לשמה", "כוונה", "עבודת השם"],
+      "tags": [
+        "לשמה",
+        "כוונה",
+        "עבודת השם"
+      ],
       "length_estimate": 32,
       "created_at": "2024-01-01T00:00:00"
     },
@@ -169,7 +221,11 @@
       "source_section": "פרק ל״ב",
       "source_url": "https://www.sefaria.org/Tzava'at_HaRivash.32",
       "category": "baal_shem_tov",
-      "tags": ["התעוררות", "לילה", "עבודת השם"],
+      "tags": [
+        "התעוררות",
+        "לילה",
+        "עבודת השם"
+      ],
       "length_estimate": 25,
       "created_at": "2024-01-01T00:00:00"
     },
@@ -181,7 +237,11 @@
       "source_section": "פרק מ״ד",
       "source_url": "https://www.sefaria.org/Tzava'at_HaRivash.44",
       "category": "baal_shem_tov",
-      "tags": ["שמחה", "עצבות", "עבודת השם"],
+      "tags": [
+        "שמחה",
+        "עצבות",
+        "עבודת השם"
+      ],
       "length_estimate": 28,
       "created_at": "2024-01-01T00:00:00"
     },
@@ -193,7 +253,11 @@
       "source_section": "אות פ״ז",
       "source_url": "https://www.sefaria.org/Keter_Shem_Tov.87",
       "category": "baal_shem_tov",
-      "tags": ["אותיות", "תורה", "בריאה"],
+      "tags": [
+        "אותיות",
+        "תורה",
+        "בריאה"
+      ],
       "length_estimate": 32,
       "created_at": "2024-01-01T00:00:00"
     },
@@ -205,7 +269,11 @@
       "source_section": "פרק ס״ד",
       "source_url": "https://www.sefaria.org/Tzava'at_HaRivash.64",
       "category": "baal_shem_tov",
-      "tags": ["תפילה", "כוונה", "נשמה"],
+      "tags": [
+        "תפילה",
+        "כוונה",
+        "נשמה"
+      ],
       "length_estimate": 12,
       "created_at": "2024-01-01T00:00:00"
     },
@@ -217,7 +285,11 @@
       "source_section": "אות ש״ל",
       "source_url": "https://www.sefaria.org/Keter_Shem_Tov.330",
       "category": "baal_shem_tov",
-      "tags": ["צדקה", "גמילות חסדים", "הלוואה"],
+      "tags": [
+        "צדקה",
+        "גמילות חסדים",
+        "הלוואה"
+      ],
       "length_estimate": 25,
       "created_at": "2024-01-01T00:00:00"
     },
@@ -229,7 +301,11 @@
       "source_section": "פרק כ״ח",
       "source_url": "https://www.sefaria.org/Tzava'at_HaRivash.28",
       "category": "baal_shem_tov",
-      "tags": ["חשבון נפש", "שינה", "תשובה"],
+      "tags": [
+        "חשבון נפש",
+        "שינה",
+        "תשובה"
+      ],
       "length_estimate": 28,
       "created_at": "2024-01-01T00:00:00"
     },
@@ -241,7 +317,11 @@
       "source_section": "אות קע״ה",
       "source_url": "https://www.sefaria.org/Keter_Shem_Tov.175",
       "category": "baal_shem_tov",
-      "tags": ["אהבה", "אהבת השם", "אהבת ישראל"],
+      "tags": [
+        "אהבה",
+        "אהבת השם",
+        "אהבת ישראל"
+      ],
       "length_estimate": 18,
       "created_at": "2024-01-01T00:00:00"
     },
@@ -253,7 +333,11 @@
       "source_section": "אות ס״ה",
       "source_url": "https://www.sefaria.org/Keter_Shem_Tov.65",
       "category": "baal_shem_tov",
-      "tags": ["שכינה", "שמחה", "תורה"],
+      "tags": [
+        "שכינה",
+        "שמחה",
+        "תורה"
+      ],
       "length_estimate": 30,
       "created_at": "2024-01-01T00:00:00"
     },
@@ -265,7 +349,11 @@
       "source_section": "פרק נ״א",
       "source_url": "https://www.sefaria.org/Tzava'at_HaRivash.51",
       "category": "baal_shem_tov",
-      "tags": ["דיבור", "נחת", "בין אדם לחברו"],
+      "tags": [
+        "דיבור",
+        "נחת",
+        "בין אדם לחברו"
+      ],
       "length_estimate": 22,
       "created_at": "2024-01-01T00:00:00"
     },
@@ -277,7 +365,11 @@
       "source_section": "אות רמ״ב",
       "source_url": "https://www.sefaria.org/Keter_Shem_Tov.242",
       "category": "baal_shem_tov",
-      "tags": ["חסד", "יסורין", "בריאה"],
+      "tags": [
+        "חסד",
+        "יסורין",
+        "בריאה"
+      ],
       "length_estimate": 30,
       "created_at": "2024-01-01T00:00:00"
     },
@@ -289,7 +381,11 @@
       "source_section": "פרק י״א",
       "source_url": "https://www.sefaria.org/Tzava'at_HaRivash.11",
       "category": "baal_shem_tov",
-      "tags": ["ענווה", "גאווה", "עבודת השם"],
+      "tags": [
+        "ענווה",
+        "גאווה",
+        "עבודת השם"
+      ],
       "length_estimate": 25,
       "created_at": "2024-01-01T00:00:00"
     },
@@ -301,7 +397,11 @@
       "source_section": "אות קצ״ג",
       "source_url": "https://www.sefaria.org/Keter_Shem_Tov.193",
       "category": "baal_shem_tov",
-      "tags": ["תשובה", "תיקון", "תקווה"],
+      "tags": [
+        "תשובה",
+        "תיקון",
+        "תקווה"
+      ],
       "length_estimate": 24,
       "created_at": "2024-01-01T00:00:00"
     },
@@ -313,7 +413,11 @@
       "source_section": "פרק ע״ז",
       "source_url": "https://www.sefaria.org/Tzava'at_HaRivash.77",
       "category": "baal_shem_tov",
-      "tags": ["אמת", "שקר", "דיבור"],
+      "tags": [
+        "אמת",
+        "שקר",
+        "דיבור"
+      ],
       "length_estimate": 15,
       "created_at": "2024-01-01T00:00:00"
     },
@@ -325,7 +429,11 @@
       "source_section": "אות ט״ז",
       "source_url": "https://www.sefaria.org/Keter_Shem_Tov.16",
       "category": "baal_shem_tov",
-      "tags": ["יראת שמים", "דבקות", "מחשבה"],
+      "tags": [
+        "יראת שמים",
+        "דבקות",
+        "מחשבה"
+      ],
       "length_estimate": 26,
       "created_at": "2024-01-01T00:00:00"
     },
@@ -337,7 +445,11 @@
       "source_section": "פרק צ״ב",
       "source_url": "https://www.sefaria.org/Tzava'at_HaRivash.92",
       "category": "baal_shem_tov",
-      "tags": ["יסורין", "טובה", "טהרה"],
+      "tags": [
+        "יסורין",
+        "טובה",
+        "טהרה"
+      ],
       "length_estimate": 25,
       "created_at": "2024-01-01T00:00:00"
     },
@@ -349,7 +461,11 @@
       "source_section": "אות קנ״ט",
       "source_url": "https://www.sefaria.org/Keter_Shem_Tov.159",
       "category": "baal_shem_tov",
-      "tags": ["אהבה", "יראה", "תורה"],
+      "tags": [
+        "אהבה",
+        "יראה",
+        "תורה"
+      ],
       "length_estimate": 30,
       "created_at": "2024-01-01T00:00:00"
     },
@@ -361,10 +477,5374 @@
       "source_section": "פרק ע׳",
       "source_url": "https://www.sefaria.org/Tzava'at_HaRivash.70",
       "category": "baal_shem_tov",
-      "tags": ["תפילה", "נועם", "כוונה"],
+      "tags": [
+        "תפילה",
+        "נועם",
+        "כוונה"
+      ],
       "length_estimate": 24,
       "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch1-001",
+      "text": "העיקר הוא הדבקות בה' יתברך, שיהיה מחשבתו תמיד דבוקה בבורא עולם",
+      "source_rabbi": "הבעל שם טוב",
+      "source_book": "צוואת הריב\"ש",
+      "source_section": "פרק ג'",
+      "source_url": "https://www.sefaria.org/Tzava'at_HaRivash.3",
+      "category": "baal_shem_tov",
+      "tags": [
+        "דבקות",
+        "מחשבה",
+        "עבודת השם"
+      ],
+      "length_estimate": 22,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-002",
+      "text": "כשאדם מתפלל, יכוון שהוא מדבר עם מלך מלכי המלכים הקדוש ברוך הוא, ויתבייש מלפניו",
+      "source_rabbi": "הבעל שם טוב",
+      "source_book": "צוואת הריב\"ש",
+      "source_section": "פרק ס\"ה",
+      "source_url": "https://www.sefaria.org/Tzava'at_HaRivash.65",
+      "category": "baal_shem_tov",
+      "tags": [
+        "תפילה",
+        "יראה",
+        "כוונה"
+      ],
+      "length_estimate": 28,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-003",
+      "text": "אל יחשוב אדם שבעבודתו הגדולה מגיע לו שכר, אלא יחשוב שזה חסד גדול שהקב\"ה נותן לו לעבדו",
+      "source_rabbi": "הבעל שם טוב",
+      "source_book": "צוואת הריב\"ש",
+      "source_section": "פרק י\"ב",
+      "source_url": "https://www.sefaria.org/Tzava'at_HaRivash.12",
+      "category": "baal_shem_tov",
+      "tags": [
+        "ענווה",
+        "עבודת השם",
+        "חסד"
+      ],
+      "length_estimate": 32,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-004",
+      "text": "יזהר מאוד מן הכעס, כי הכעס הוא עבודה זרה ממש",
+      "source_rabbi": "הבעל שם טוב",
+      "source_book": "צוואת הריב\"ש",
+      "source_section": "פרק כ\"ד",
+      "source_url": "https://www.sefaria.org/Tzava'at_HaRivash.24",
+      "category": "baal_shem_tov",
+      "tags": [
+        "כעס",
+        "מידות",
+        "עבודה זרה"
+      ],
+      "length_estimate": 16,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-005",
+      "text": "כשאדם מתחזק באמונה פשוטה, הוא מעלה את כל העולמות",
+      "source_rabbi": "הבעל שם טוב",
+      "source_book": "צוואת הריב\"ש",
+      "source_section": "פרק ק\"כ",
+      "source_url": "https://www.sefaria.org/Tzava'at_HaRivash.120",
+      "category": "baal_shem_tov",
+      "tags": [
+        "אמונה פשוטה",
+        "עולמות",
+        "התעלות"
+      ],
+      "length_estimate": 18,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-006",
+      "text": "הקב\"ה שוכן בכל מקום, ואין מקום פנוי ממנו. וכשאדם יודע זאת, הוא תמיד בשמחה",
+      "source_rabbi": "הבעל שם טוב",
+      "source_book": "כתר שם טוב",
+      "source_section": "אות ל\"ז",
+      "source_url": "https://www.sefaria.org/Keter_Shem_Tov.37",
+      "category": "baal_shem_tov",
+      "tags": [
+        "שכינה",
+        "שמחה",
+        "אמונה"
+      ],
+      "length_estimate": 26,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-007",
+      "text": "על ידי השמחה יכול האדם לעבור כל המניעות והעיכובים בעבודת ה'",
+      "source_rabbi": "הבעל שם טוב",
+      "source_book": "כתר שם טוב",
+      "source_section": "אות מ\"ד",
+      "source_url": "https://www.sefaria.org/Keter_Shem_Tov.44",
+      "category": "baal_shem_tov",
+      "tags": [
+        "שמחה",
+        "מניעות",
+        "עבודת השם"
+      ],
+      "length_estimate": 22,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-008",
+      "text": "האדם צריך לעבוד את ה' בכל כוחותיו, בגוף ובנפש, ולא יהיה לו שום מחשבה אחרת",
+      "source_rabbi": "הבעל שם טוב",
+      "source_book": "כתר שם טוב",
+      "source_section": "אות נ\"ח",
+      "source_url": "https://www.sefaria.org/Keter_Shem_Tov.58",
+      "category": "baal_shem_tov",
+      "tags": [
+        "עבודת השם",
+        "התלהבות",
+        "מסירות"
+      ],
+      "length_estimate": 28,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-009",
+      "text": "כל יהודי הוא חלק אלוק ממעל ממש, ויש בו נשמה קדושה",
+      "source_rabbi": "הבעל שם טוב",
+      "source_book": "כתר שם טוב",
+      "source_section": "אות ס\"ב",
+      "source_url": "https://www.sefaria.org/Keter_Shem_Tov.62",
+      "category": "baal_shem_tov",
+      "tags": [
+        "נשמה",
+        "קדושה",
+        "אהבת ישראל"
+      ],
+      "length_estimate": 18,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-010",
+      "text": "התורה היא אור, והמצוות הן כלים לקבל את האור",
+      "source_rabbi": "הבעל שם טוב",
+      "source_book": "כתר שם טוב",
+      "source_section": "אות ע\"ג",
+      "source_url": "https://www.sefaria.org/Keter_Shem_Tov.73",
+      "category": "baal_shem_tov",
+      "tags": [
+        "תורה",
+        "מצוות",
+        "אור"
+      ],
+      "length_estimate": 15,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-011",
+      "text": "העולם הזה הוא מעבר לעולם הבא, ולכן צריך לנצל כל רגע לעבודת ה'",
+      "source_rabbi": "רבי יעקב יוסף מפולנאה",
+      "source_book": "תולדות יעקב יוסף",
+      "source_section": "פרשת בראשית",
+      "source_url": "https://www.sefaria.org/Toldot_Yaakov_Yosef",
+      "category": "baal_shem_tov",
+      "tags": [
+        "עולם הזה",
+        "עולם הבא",
+        "ניצול זמן"
+      ],
+      "length_estimate": 24,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-012",
+      "text": "כשאדם לומד תורה לשמה, הוא מתדבק בדבר ה' ממש",
+      "source_rabbi": "רבי יעקב יוסף מפולנאה",
+      "source_book": "תולדות יעקב יוסף",
+      "source_section": "פרשת נח",
+      "source_url": "https://www.sefaria.org/Toldot_Yaakov_Yosef",
+      "category": "baal_shem_tov",
+      "tags": [
+        "תורה לשמה",
+        "דבקות",
+        "לימוד"
+      ],
+      "length_estimate": 16,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-013",
+      "text": "הצדיק יכול להעלות את כל הנשמות שבדורו על ידי תפילתו",
+      "source_rabbi": "רבי יעקב יוסף מפולנאה",
+      "source_book": "תולדות יעקב יוסף",
+      "source_section": "פרשת לך לך",
+      "source_url": "https://www.sefaria.org/Toldot_Yaakov_Yosef",
+      "category": "baal_shem_tov",
+      "tags": [
+        "צדיק",
+        "תפילה",
+        "נשמות"
+      ],
+      "length_estimate": 18,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-014",
+      "text": "על ידי אהבת ישראל זוכים לאהבת ה', כי ישראל וקודשא בריך הוא כולא חד",
+      "source_rabbi": "רבי יעקב יוסף מפולנאה",
+      "source_book": "תולדות יעקב יוסף",
+      "source_section": "פרשת וירא",
+      "source_url": "https://www.sefaria.org/Toldot_Yaakov_Yosef",
+      "category": "baal_shem_tov",
+      "tags": [
+        "אהבת ישראל",
+        "אהבת השם",
+        "אחדות"
+      ],
+      "length_estimate": 26,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-015",
+      "text": "העניו באמת הוא זה שמרגיש שהכל מהקב\"ה, ואין לו שום דבר משלו",
+      "source_rabbi": "רבי יעקב יוסף מפולנאה",
+      "source_book": "תולדות יעקב יוסף",
+      "source_section": "פרשת חיי שרה",
+      "source_url": "https://www.sefaria.org/Toldot_Yaakov_Yosef",
+      "category": "baal_shem_tov",
+      "tags": [
+        "ענווה",
+        "ביטול",
+        "אמונה"
+      ],
+      "length_estimate": 24,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-016",
+      "text": "כל העולם מלא כבודו, ואין שום מקום פנוי ממנו יתברך",
+      "source_rabbi": "רבי מנחם נחום מטשרנוביל",
+      "source_book": "מאור עינים",
+      "source_section": "פרשת בראשית",
+      "source_url": "https://www.sefaria.org/Meor_Einayim",
+      "category": "baal_shem_tov",
+      "tags": [
+        "שכינה",
+        "אמונה",
+        "בריאה"
+      ],
+      "length_estimate": 18,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-017",
+      "text": "האדם יכול לעבוד את ה' בכל דרכיו, אפילו באכילה ושתייה ובשאר עניני העולם",
+      "source_rabbi": "רבי מנחם נחום מטשרנוביל",
+      "source_book": "מאור עינים",
+      "source_section": "פרשת נח",
+      "source_url": "https://www.sefaria.org/Meor_Einayim",
+      "category": "baal_shem_tov",
+      "tags": [
+        "עבודת השם",
+        "קדושת היומיום",
+        "אכילה"
+      ],
+      "length_estimate": 26,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-018",
+      "text": "התפילה היא סולם מוצב ארצה וראשו מגיע השמימה, ועל ידה עולים לעולמות העליונים",
+      "source_rabbi": "רבי מנחם נחום מטשרנוביל",
+      "source_book": "מאור עינים",
+      "source_section": "פרשת ויצא",
+      "source_url": "https://www.sefaria.org/Meor_Einayim",
+      "category": "baal_shem_tov",
+      "tags": [
+        "תפילה",
+        "עליות",
+        "סולם"
+      ],
+      "length_estimate": 28,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-019",
+      "text": "כל מה שמדבר האדם, אם מכוון לשם שמים, נעשה מזה תפילה",
+      "source_rabbi": "רבי מנחם נחום מטשרנוביל",
+      "source_book": "מאור עינים",
+      "source_section": "פרשת וישלח",
+      "source_url": "https://www.sefaria.org/Meor_Einayim",
+      "category": "baal_shem_tov",
+      "tags": [
+        "דיבור",
+        "תפילה",
+        "לשם שמים"
+      ],
+      "length_estimate": 20,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-020",
+      "text": "השמחה פורצת כל הגדרים והמחיצות שבין האדם לבוראו",
+      "source_rabbi": "רבי מנחם נחום מטשרנוביל",
+      "source_book": "מאור עינים",
+      "source_section": "פרשת וישב",
+      "source_url": "https://www.sefaria.org/Meor_Einayim",
+      "category": "baal_shem_tov",
+      "tags": [
+        "שמחה",
+        "דבקות",
+        "מחיצות"
+      ],
+      "length_estimate": 18,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-021",
+      "text": "כל אדם צריך לתקן את נשמתו, וזהו עיקר ביאתו לעולם הזה",
+      "source_rabbi": "רבי אלימלך מליזענסק",
+      "source_book": "נועם אלימלך",
+      "source_section": "פרשת בראשית",
+      "source_url": "https://www.sefaria.org/Noam_Elimelech",
+      "category": "baal_shem_tov",
+      "tags": [
+        "תיקון",
+        "נשמה",
+        "עולם הזה"
+      ],
+      "length_estimate": 20,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-022",
+      "text": "הצדיק האמיתי הוא זה שמשפיל את עצמו ומרים את כלל ישראל",
+      "source_rabbi": "רבי אלימלך מליזענסק",
+      "source_book": "נועם אלימלך",
+      "source_section": "פרשת נח",
+      "source_url": "https://www.sefaria.org/Noam_Elimelech",
+      "category": "baal_shem_tov",
+      "tags": [
+        "צדיק",
+        "ענווה",
+        "אהבת ישראל"
+      ],
+      "length_estimate": 20,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-023",
+      "text": "כשאדם מקבל יסורים באהבה, הם נהפכים לטובה גדולה",
+      "source_rabbi": "רבי אלימלך מליזענסק",
+      "source_book": "נועם אלימלך",
+      "source_section": "פרשת לך לך",
+      "source_url": "https://www.sefaria.org/Noam_Elimelech",
+      "category": "baal_shem_tov",
+      "tags": [
+        "יסורים",
+        "אהבה",
+        "קבלה"
+      ],
+      "length_estimate": 17,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-024",
+      "text": "התשובה מועילה לכל דבר, ואפילו לחטאים החמורים ביותר",
+      "source_rabbi": "רבי אלימלך מליזענסק",
+      "source_book": "נועם אלימלך",
+      "source_section": "פרשת וירא",
+      "source_url": "https://www.sefaria.org/Noam_Elimelech",
+      "category": "baal_shem_tov",
+      "tags": [
+        "תשובה",
+        "תיקון",
+        "חטא"
+      ],
+      "length_estimate": 18,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-025",
+      "text": "אין דבר העומד בפני הרצון, וכשאדם רוצה באמת - הוא יכול להגיע",
+      "source_rabbi": "רבי אלימלך מליזענסק",
+      "source_book": "נועם אלימלך",
+      "source_section": "פרשת חיי שרה",
+      "source_url": "https://www.sefaria.org/Noam_Elimelech",
+      "category": "baal_shem_tov",
+      "tags": [
+        "רצון",
+        "כוח",
+        "השגה"
+      ],
+      "length_estimate": 24,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-026",
+      "text": "כל יהודי הוא בן מלך, ועליו להתנהג בהתאם לכבוד אביו",
+      "source_rabbi": "רבי לוי יצחק מברדיטשוב",
+      "source_book": "קדושת לוי",
+      "source_section": "פרשת בראשית",
+      "source_url": "https://www.sefaria.org/Kedushat_Levi",
+      "category": "baal_shem_tov",
+      "tags": [
+        "כבוד",
+        "בן מלך",
+        "התנהגות"
+      ],
+      "length_estimate": 20,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-027",
+      "text": "ה' יתברך רוצה את הלב, ועיקר העבודה היא בלב",
+      "source_rabbi": "רבי לוי יצחק מברדיטשוב",
+      "source_book": "קדושת לוי",
+      "source_section": "פרשת נח",
+      "source_url": "https://www.sefaria.org/Kedushat_Levi",
+      "category": "baal_shem_tov",
+      "tags": [
+        "לב",
+        "עבודת השם",
+        "כוונה"
+      ],
+      "length_estimate": 15,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-028",
+      "text": "אף על פי שאני קטן וחלש, מכל מקום הקב\"ה שומע תפילתי",
+      "source_rabbi": "רבי לוי יצחק מברדיטשוב",
+      "source_book": "קדושת לוי",
+      "source_section": "פרשת לך לך",
+      "source_url": "https://www.sefaria.org/Kedushat_Levi",
+      "category": "baal_shem_tov",
+      "tags": [
+        "תפילה",
+        "אמונה",
+        "ביטחון"
+      ],
+      "length_estimate": 18,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-029",
+      "text": "כל מעשה של יהודי, כשעושה לשם שמים, הוא מעלה ניצוצות קדושה",
+      "source_rabbi": "רבי לוי יצחק מברדיטשוב",
+      "source_book": "קדושת לוי",
+      "source_section": "פרשת וירא",
+      "source_url": "https://www.sefaria.org/Kedushat_Levi",
+      "category": "baal_shem_tov",
+      "tags": [
+        "ניצוצות",
+        "קדושה",
+        "לשם שמים"
+      ],
+      "length_estimate": 22,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-030",
+      "text": "הברכה שורה במקום שיש בו שלום ואהבה",
+      "source_rabbi": "רבי לוי יצחק מברדיטשוב",
+      "source_book": "קדושת לוי",
+      "source_section": "פרשת חיי שרה",
+      "source_url": "https://www.sefaria.org/Kedushat_Levi",
+      "category": "baal_shem_tov",
+      "tags": [
+        "ברכה",
+        "שלום",
+        "אהבה"
+      ],
+      "length_estimate": 12,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-031",
+      "text": "סבא אמר לי: כל דבר שרואה האדם או שומע, הכל מן השמים להורות לו דרך",
+      "source_rabbi": "רבי משה חיים אפרים מסודילקוב",
+      "source_book": "דגל מחנה אפרים",
+      "source_section": "פרשת בראשית",
+      "source_url": "https://www.sefaria.org/Degel_Machaneh_Ephraim",
+      "category": "baal_shem_tov",
+      "tags": [
+        "השגחה פרטית",
+        "הדרכה",
+        "ראייה"
+      ],
+      "length_estimate": 28,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-032",
+      "text": "שמעתי מסבי: עיקר העבודה הוא להיות בשמחה תמיד, גם בעת הירידה",
+      "source_rabbi": "רבי משה חיים אפרים מסודילקוב",
+      "source_book": "דגל מחנה אפרים",
+      "source_section": "פרשת נח",
+      "source_url": "https://www.sefaria.org/Degel_Machaneh_Ephraim",
+      "category": "baal_shem_tov",
+      "tags": [
+        "שמחה",
+        "ירידה",
+        "עבודת השם"
+      ],
+      "length_estimate": 24,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-033",
+      "text": "אמר סבי הקדוש: האמונה היא היסוד של כל התורה כולה",
+      "source_rabbi": "רבי משה חיים אפרים מסודילקוב",
+      "source_book": "דגל מחנה אפרים",
+      "source_section": "פרשת לך לך",
+      "source_url": "https://www.sefaria.org/Degel_Machaneh_Ephraim",
+      "category": "baal_shem_tov",
+      "tags": [
+        "אמונה",
+        "תורה",
+        "יסוד"
+      ],
+      "length_estimate": 18,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-034",
+      "text": "שמעתי מסבי: כשאדם מתפלל בבכיה, תפילתו נשמעת יותר",
+      "source_rabbi": "רבי משה חיים אפרים מסודילקוב",
+      "source_book": "דגל מחנה אפרים",
+      "source_section": "פרשת וירא",
+      "source_url": "https://www.sefaria.org/Degel_Machaneh_Ephraim",
+      "category": "baal_shem_tov",
+      "tags": [
+        "תפילה",
+        "בכיה",
+        "שמיעה"
+      ],
+      "length_estimate": 18,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-035",
+      "text": "סבי אמר: ה' יתברך נמצא בכל מקום, וכשאדם יודע זאת - אין לו מה לפחד",
+      "source_rabbi": "רבי משה חיים אפרים מסודילקוב",
+      "source_book": "דגל מחנה אפרים",
+      "source_section": "פרשת חיי שרה",
+      "source_url": "https://www.sefaria.org/Degel_Machaneh_Ephraim",
+      "category": "baal_shem_tov",
+      "tags": [
+        "אמונה",
+        "ביטחון",
+        "שכינה"
+      ],
+      "length_estimate": 26,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-036",
+      "text": "כשאדם אוכל לשם שמים, הוא מתקן את האוכל ומעלהו לקדושה",
+      "source_rabbi": "הבעל שם טוב",
+      "source_book": "צוואת הריב\"ש",
+      "source_section": "פרק מ\"ו",
+      "source_url": "https://www.sefaria.org/Tzava'at_HaRivash.46",
+      "category": "baal_shem_tov",
+      "tags": [
+        "אכילה",
+        "קדושה",
+        "תיקון"
+      ],
+      "length_estimate": 20,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-037",
+      "text": "יתרחק מאוד ממחלוקת, ואפילו מחלוקת לשם שמים אינה טובה",
+      "source_rabbi": "הבעל שם טוב",
+      "source_book": "צוואת הריב\"ש",
+      "source_section": "פרק ע\"ט",
+      "source_url": "https://www.sefaria.org/Tzava'at_HaRivash.79",
+      "category": "baal_shem_tov",
+      "tags": [
+        "מחלוקת",
+        "שלום",
+        "בין אדם לחברו"
+      ],
+      "length_estimate": 20,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-038",
+      "text": "צריך לחשוב תמיד: מה רוצה ה' ממני ברגע הזה?",
+      "source_rabbi": "הבעל שם טוב",
+      "source_book": "צוואת הריב\"ש",
+      "source_section": "פרק פ\"ח",
+      "source_url": "https://www.sefaria.org/Tzava'at_HaRivash.88",
+      "category": "baal_shem_tov",
+      "tags": [
+        "רצון ה'",
+        "מחשבה",
+        "נוכחות"
+      ],
+      "length_estimate": 15,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-039",
+      "text": "כשאדם עוסק בתורה, ידע שהקב\"ה מדבר עמו ממש",
+      "source_rabbi": "הבעל שם טוב",
+      "source_book": "צוואת הריב\"ש",
+      "source_section": "פרק צ\"ט",
+      "source_url": "https://www.sefaria.org/Tzava'at_HaRivash.99",
+      "category": "baal_shem_tov",
+      "tags": [
+        "תורה",
+        "דבקות",
+        "דיבור"
+      ],
+      "length_estimate": 16,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-040",
+      "text": "השפלות היא השער לכל המעלות, ובלעדיה אי אפשר להגיע לשום דבר",
+      "source_rabbi": "הבעל שם טוב",
+      "source_book": "צוואת הריב\"ש",
+      "source_section": "פרק ק\"ג",
+      "source_url": "https://www.sefaria.org/Tzava'at_HaRivash.103",
+      "category": "baal_shem_tov",
+      "tags": [
+        "ענווה",
+        "שפלות",
+        "מעלות"
+      ],
+      "length_estimate": 24,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-041",
+      "text": "כל מצווה שאדם עושה בשמחה, שוה יותר ממצווה שעושה בעצבות",
+      "source_rabbi": "הבעל שם טוב",
+      "source_book": "כתר שם טוב",
+      "source_section": "אות צ\"ה",
+      "source_url": "https://www.sefaria.org/Keter_Shem_Tov.95",
+      "category": "baal_shem_tov",
+      "tags": [
+        "מצוות",
+        "שמחה",
+        "עצבות"
+      ],
+      "length_estimate": 22,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-042",
+      "text": "האדם לא נברא אלא לשבר את המדות הרעות ולתקן את נפשו",
+      "source_rabbi": "הבעל שם טוב",
+      "source_book": "כתר שם טוב",
+      "source_section": "אות ק\"ב",
+      "source_url": "https://www.sefaria.org/Keter_Shem_Tov.102",
+      "category": "baal_shem_tov",
+      "tags": [
+        "מידות",
+        "תיקון",
+        "נפש"
+      ],
+      "length_estimate": 20,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-043",
+      "text": "כל הירידות הם לצורך עליה, ואין שום ירידה בלי תכלית",
+      "source_rabbi": "הבעל שם טוב",
+      "source_book": "כתר שם טוב",
+      "source_section": "אות קי\"ז",
+      "source_url": "https://www.sefaria.org/Keter_Shem_Tov.117",
+      "category": "baal_shem_tov",
+      "tags": [
+        "ירידה",
+        "עליה",
+        "תכלית"
+      ],
+      "length_estimate": 20,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-044",
+      "text": "אפילו בשיחת חולין של תלמידי חכמים יש ללמוד תורה",
+      "source_rabbi": "הבעל שם טוב",
+      "source_book": "כתר שם טוב",
+      "source_section": "אות קכ\"ד",
+      "source_url": "https://www.sefaria.org/Keter_Shem_Tov.124",
+      "category": "baal_shem_tov",
+      "tags": [
+        "שיחה",
+        "תורה",
+        "תלמידי חכמים"
+      ],
+      "length_estimate": 18,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-045",
+      "text": "כשאדם חושב מחשבות טובות, הוא ממשיך השפעות טובות מלמעלה",
+      "source_rabbi": "הבעל שם טוב",
+      "source_book": "כתר שם טוב",
+      "source_section": "אות קל\"ג",
+      "source_url": "https://www.sefaria.org/Keter_Shem_Tov.133",
+      "category": "baal_shem_tov",
+      "tags": [
+        "מחשבה",
+        "השפעה",
+        "טובה"
+      ],
+      "length_estimate": 20,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-046",
+      "text": "הדיבור הוא כלי להשפעה רוחנית, ולכן צריך להיזהר בכל מילה",
+      "source_rabbi": "רבי יעקב יוסף מפולנאה",
+      "source_book": "תולדות יעקב יוסף",
+      "source_section": "פרשת תולדות",
+      "source_url": "https://www.sefaria.org/Toldot_Yaakov_Yosef",
+      "category": "baal_shem_tov",
+      "tags": [
+        "דיבור",
+        "השפעה",
+        "זהירות"
+      ],
+      "length_estimate": 22,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-047",
+      "text": "כל פרט ופרט בחיים הוא מכוון מלמעלה בדיוק נפלא",
+      "source_rabbi": "רבי יעקב יוסף מפולנאה",
+      "source_book": "תולדות יעקב יוסף",
+      "source_section": "פרשת ויצא",
+      "source_url": "https://www.sefaria.org/Toldot_Yaakov_Yosef",
+      "category": "baal_shem_tov",
+      "tags": [
+        "השגחה פרטית",
+        "דיוק",
+        "שמים"
+      ],
+      "length_estimate": 18,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-048",
+      "text": "התורה היא עץ חיים למחזיקים בה, ונותנת חיים לנפש האדם",
+      "source_rabbi": "רבי יעקב יוסף מפולנאה",
+      "source_book": "תולדות יעקב יוסף",
+      "source_section": "פרשת וישלח",
+      "source_url": "https://www.sefaria.org/Toldot_Yaakov_Yosef",
+      "category": "baal_shem_tov",
+      "tags": [
+        "תורה",
+        "חיים",
+        "נפש"
+      ],
+      "length_estimate": 20,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-049",
+      "text": "כשאדם מודה להקב\"ה על הטובות שקיבל, הוא פותח צינור לקבל עוד",
+      "source_rabbi": "רבי יעקב יוסף מפולנאה",
+      "source_book": "תולדות יעקב יוסף",
+      "source_section": "פרשת וישב",
+      "source_url": "https://www.sefaria.org/Toldot_Yaakov_Yosef",
+      "category": "baal_shem_tov",
+      "tags": [
+        "הודיה",
+        "טובה",
+        "שפע"
+      ],
+      "length_estimate": 24,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-050",
+      "text": "על האדם להיות כמו תינוק שזה עתה נולד, שאינו יודע כלום ורוצה ללמוד הכל",
+      "source_rabbi": "רבי יעקב יוסף מפולנאה",
+      "source_book": "תולדות יעקב יוסף",
+      "source_section": "פרשת מקץ",
+      "source_url": "https://www.sefaria.org/Toldot_Yaakov_Yosef",
+      "category": "baal_shem_tov",
+      "tags": [
+        "ענווה",
+        "לימוד",
+        "תמימות"
+      ],
+      "length_estimate": 28,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-051",
+      "text": "כשאדם מתבודד עם קונו, הוא יכול להגיע למדרגות עליונות",
+      "source_rabbi": "רבי מנחם נחום מטשרנוביל",
+      "source_book": "מאור עינים",
+      "source_section": "פרשת ויגש",
+      "source_url": "https://www.sefaria.org/Meor_Einayim",
+      "category": "baal_shem_tov",
+      "tags": [
+        "התבודדות",
+        "מדרגות",
+        "עליות"
+      ],
+      "length_estimate": 20,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-052",
+      "text": "העולם הזה הוא אותיות עלם, שהקדושה נעלמת בתוכו",
+      "source_rabbi": "רבי מנחם נחום מטשרנוביל",
+      "source_book": "מאור עינים",
+      "source_section": "פרשת ויחי",
+      "source_url": "https://www.sefaria.org/Meor_Einayim",
+      "category": "baal_shem_tov",
+      "tags": [
+        "עולם",
+        "קדושה",
+        "הסתר"
+      ],
+      "length_estimate": 17,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-053",
+      "text": "כל יום יש בו הארה מיוחדת מלמעלה, ואי אפשר להשיגה ביום אחר",
+      "source_rabbi": "רבי מנחם נחום מטשרנוביל",
+      "source_book": "מאור עינים",
+      "source_section": "פרשת שמות",
+      "source_url": "https://www.sefaria.org/Meor_Einayim",
+      "category": "baal_shem_tov",
+      "tags": [
+        "זמן",
+        "הארה",
+        "יחוד"
+      ],
+      "length_estimate": 24,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-054",
+      "text": "הגאולה תלויה בתשובה ובאמונה פשוטה של כל יהודי",
+      "source_rabbi": "רבי מנחם נחום מטשרנוביל",
+      "source_book": "מאור עינים",
+      "source_section": "פרשת וארא",
+      "source_url": "https://www.sefaria.org/Meor_Einayim",
+      "category": "baal_shem_tov",
+      "tags": [
+        "גאולה",
+        "תשובה",
+        "אמונה"
+      ],
+      "length_estimate": 18,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-055",
+      "text": "כשהצדיק מתפלל על הכלל, הוא מושך שפע לכל ישראל",
+      "source_rabbi": "רבי מנחם נחום מטשרנוביל",
+      "source_book": "מאור עינים",
+      "source_section": "פרשת בא",
+      "source_url": "https://www.sefaria.org/Meor_Einayim",
+      "category": "baal_shem_tov",
+      "tags": [
+        "צדיק",
+        "תפילה",
+        "שפע"
+      ],
+      "length_estimate": 18,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-056",
+      "text": "העיקר הוא לשמוח במצוות, כי השמחה היא פנימיות המצווה",
+      "source_rabbi": "רבי אלימלך מליזענסק",
+      "source_book": "נועם אלימלך",
+      "source_section": "פרשת תולדות",
+      "source_url": "https://www.sefaria.org/Noam_Elimelech",
+      "category": "baal_shem_tov",
+      "tags": [
+        "שמחה",
+        "מצוות",
+        "פנימיות"
+      ],
+      "length_estimate": 20,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-057",
+      "text": "אין הקב\"ה מבקש אלא לפי כוחו של אדם",
+      "source_rabbi": "רבי אלימלך מליזענסק",
+      "source_book": "נועם אלימלך",
+      "source_section": "פרשת ויצא",
+      "source_url": "https://www.sefaria.org/Noam_Elimelech",
+      "category": "baal_shem_tov",
+      "tags": [
+        "כוח",
+        "עבודת השם",
+        "דרישה"
+      ],
+      "length_estimate": 14,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-058",
+      "text": "הביטחון בה' הוא סגולה להמשיך ישועות ונפלאות",
+      "source_rabbi": "רבי אלימלך מליזענסק",
+      "source_book": "נועם אלימלך",
+      "source_section": "פרשת וישלח",
+      "source_url": "https://www.sefaria.org/Noam_Elimelech",
+      "category": "baal_shem_tov",
+      "tags": [
+        "ביטחון",
+        "ישועה",
+        "נפלאות"
+      ],
+      "length_estimate": 16,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-059",
+      "text": "כל מה שקורה לאדם, הכל בא לעוררו לתשובה ולקרבו להקב\"ה",
+      "source_rabbi": "רבי אלימלך מליזענסק",
+      "source_book": "נועם אלימלך",
+      "source_section": "פרשת וישב",
+      "source_url": "https://www.sefaria.org/Noam_Elimelech",
+      "category": "baal_shem_tov",
+      "tags": [
+        "התעוררות",
+        "תשובה",
+        "קירבה"
+      ],
+      "length_estimate": 22,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-060",
+      "text": "עיקר התיקון של העולם הוא על ידי אחדות ישראל",
+      "source_rabbi": "רבי אלימלך מליזענסק",
+      "source_book": "נועם אלימלך",
+      "source_section": "פרשת מקץ",
+      "source_url": "https://www.sefaria.org/Noam_Elimelech",
+      "category": "baal_shem_tov",
+      "tags": [
+        "תיקון",
+        "אחדות",
+        "אהבת ישראל"
+      ],
+      "length_estimate": 17,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-061",
+      "text": "בכל דבר יש חיות אלוקית, ועל ידי ראיית החיות הזו האדם מתקדש",
+      "source_rabbi": "רבי לוי יצחק מברדיטשוב",
+      "source_book": "קדושת לוי",
+      "source_section": "פרשת תולדות",
+      "source_url": "https://www.sefaria.org/Kedushat_Levi",
+      "category": "baal_shem_tov",
+      "tags": [
+        "חיות",
+        "קדושה",
+        "ראייה"
+      ],
+      "length_estimate": 24,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-062",
+      "text": "השבת היא מקור הברכה לכל ימי השבוע",
+      "source_rabbi": "רבי לוי יצחק מברדיטשוב",
+      "source_book": "קדושת לוי",
+      "source_section": "פרשת ויצא",
+      "source_url": "https://www.sefaria.org/Kedushat_Levi",
+      "category": "baal_shem_tov",
+      "tags": [
+        "שבת",
+        "ברכה",
+        "שבוע"
+      ],
+      "length_estimate": 14,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-063",
+      "text": "כשאדם מברך בכוונה, הוא ממשיך שפע לכל העולמות",
+      "source_rabbi": "רבי לוי יצחק מברדיטשוב",
+      "source_book": "קדושת לוי",
+      "source_section": "פרשת וישלח",
+      "source_url": "https://www.sefaria.org/Kedushat_Levi",
+      "category": "baal_shem_tov",
+      "tags": [
+        "ברכה",
+        "כוונה",
+        "שפע"
+      ],
+      "length_estimate": 18,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-064",
+      "text": "על האדם לראות את עצמו כאילו כל העולם תלוי בו",
+      "source_rabbi": "רבי לוי יצחק מברדיטשוב",
+      "source_book": "קדושת לוי",
+      "source_section": "פרשת וישב",
+      "source_url": "https://www.sefaria.org/Kedushat_Levi",
+      "category": "baal_shem_tov",
+      "tags": [
+        "אחריות",
+        "עולם",
+        "חשיבות"
+      ],
+      "length_estimate": 17,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-065",
+      "text": "אפילו כשאדם נופל, עליו לזכור שה' נמצא אתו גם בנפילה",
+      "source_rabbi": "רבי לוי יצחק מברדיטשוב",
+      "source_book": "קדושת לוי",
+      "source_section": "פרשת מקץ",
+      "source_url": "https://www.sefaria.org/Kedushat_Levi",
+      "category": "baal_shem_tov",
+      "tags": [
+        "נפילה",
+        "אמונה",
+        "שכינה"
+      ],
+      "length_estimate": 22,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-066",
+      "text": "סבי אמר: כשאדם מדבר דברי תורה בהתלהבות, הוא מעורר את העולמות העליונים",
+      "source_rabbi": "רבי משה חיים אפרים מסודילקוב",
+      "source_book": "דגל מחנה אפרים",
+      "source_section": "פרשת תולדות",
+      "source_url": "https://www.sefaria.org/Degel_Machaneh_Ephraim",
+      "category": "baal_shem_tov",
+      "tags": [
+        "תורה",
+        "התלהבות",
+        "עולמות"
+      ],
+      "length_estimate": 28,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-067",
+      "text": "שמעתי מסבי: צריך לעבוד את ה' בפשיטות גמורה, בלי חכמות",
+      "source_rabbi": "רבי משה חיים אפרים מסודילקוב",
+      "source_book": "דגל מחנה אפרים",
+      "source_section": "פרשת ויצא",
+      "source_url": "https://www.sefaria.org/Degel_Machaneh_Ephraim",
+      "category": "baal_shem_tov",
+      "tags": [
+        "פשיטות",
+        "עבודת השם",
+        "תמימות"
+      ],
+      "length_estimate": 22,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-068",
+      "text": "אמר סבי: כל מה שברא הקב\"ה בעולמו, ברא לכבודו",
+      "source_rabbi": "רבי משה חיים אפרים מסודילקוב",
+      "source_book": "דגל מחנה אפרים",
+      "source_section": "פרשת וישלח",
+      "source_url": "https://www.sefaria.org/Degel_Machaneh_Ephraim",
+      "category": "baal_shem_tov",
+      "tags": [
+        "בריאה",
+        "כבוד",
+        "תכלית"
+      ],
+      "length_estimate": 18,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-069",
+      "text": "שמעתי מסבי הקדוש: מי שיש לו אמונה בצדיקים, מקבל מהארתם",
+      "source_rabbi": "רבי משה חיים אפרים מסודילקוב",
+      "source_book": "דגל מחנה אפרים",
+      "source_section": "פרשת וישב",
+      "source_url": "https://www.sefaria.org/Degel_Machaneh_Ephraim",
+      "category": "baal_shem_tov",
+      "tags": [
+        "אמונה",
+        "צדיקים",
+        "הארה"
+      ],
+      "length_estimate": 22,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-070",
+      "text": "סבי אמר: התשובה מועילה על הכל, ואין שום דבר שאי אפשר לתקן",
+      "source_rabbi": "רבי משה חיים אפרים מסודילקוב",
+      "source_book": "דגל מחנה אפרים",
+      "source_section": "פרשת מקץ",
+      "source_url": "https://www.sefaria.org/Degel_Machaneh_Ephraim",
+      "category": "baal_shem_tov",
+      "tags": [
+        "תשובה",
+        "תיקון",
+        "תקווה"
+      ],
+      "length_estimate": 24,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-071",
+      "text": "כשאדם שומר את עיניו, הוא שומר את נשמתו",
+      "source_rabbi": "הבעל שם טוב",
+      "source_book": "צוואת הריב\"ש",
+      "source_section": "פרק קי\"א",
+      "source_url": "https://www.sefaria.org/Tzava'at_HaRivash.111",
+      "category": "baal_shem_tov",
+      "tags": [
+        "שמירת עינים",
+        "נשמה",
+        "קדושה"
+      ],
+      "length_estimate": 14,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-072",
+      "text": "מי שמאמין שהכל מהקב\"ה, אינו יכול לכעוס על שום אדם",
+      "source_rabbi": "הבעל שם טוב",
+      "source_book": "כתר שם טוב",
+      "source_section": "אות קמ\"ו",
+      "source_url": "https://www.sefaria.org/Keter_Shem_Tov.146",
+      "category": "baal_shem_tov",
+      "tags": [
+        "אמונה",
+        "כעס",
+        "השגחה פרטית"
+      ],
+      "length_estimate": 20,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-073",
+      "text": "האדם צריך לדעת שהוא חשוב מאוד בעיני הקב\"ה, ואסור לו לשקוע בעצבות",
+      "source_rabbi": "רבי יעקב יוסף מפולנאה",
+      "source_book": "תולדות יעקב יוסף",
+      "source_section": "פרשת ויגש",
+      "source_url": "https://www.sefaria.org/Toldot_Yaakov_Yosef",
+      "category": "baal_shem_tov",
+      "tags": [
+        "ערך עצמי",
+        "עצבות",
+        "שמחה"
+      ],
+      "length_estimate": 26,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-074",
+      "text": "כל מחשבה שחושב האדם יש לה כוח גדול בעולמות העליונים",
+      "source_rabbi": "רבי מנחם נחום מטשרנוביל",
+      "source_book": "מאור עינים",
+      "source_section": "פרשת בשלח",
+      "source_url": "https://www.sefaria.org/Meor_Einayim",
+      "category": "baal_shem_tov",
+      "tags": [
+        "מחשבה",
+        "כוח",
+        "עולמות"
+      ],
+      "length_estimate": 20,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-075",
+      "text": "הצדיק הוא צינור להשפיע טובה וברכה לכל העולם",
+      "source_rabbi": "רבי אלימלך מליזענסק",
+      "source_book": "נועם אלימלך",
+      "source_section": "פרשת ויגש",
+      "source_url": "https://www.sefaria.org/Noam_Elimelech",
+      "category": "baal_shem_tov",
+      "tags": [
+        "צדיק",
+        "השפעה",
+        "ברכה"
+      ],
+      "length_estimate": 18,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-076",
+      "text": "כשאדם לומד תורה, הוא מתלבש באור אין סוף",
+      "source_rabbi": "רבי לוי יצחק מברדיטשוב",
+      "source_book": "קדושת לוי",
+      "source_section": "פרשת ויגש",
+      "source_url": "https://www.sefaria.org/Kedushat_Levi",
+      "category": "baal_shem_tov",
+      "tags": [
+        "תורה",
+        "אור",
+        "לבוש"
+      ],
+      "length_estimate": 15,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-077",
+      "text": "שמעתי מסבי: כל יהודי הוא אבר מן השכינה הקדושה",
+      "source_rabbi": "רבי משה חיים אפרים מסודילקוב",
+      "source_book": "דגל מחנה אפרים",
+      "source_section": "פרשת ויגש",
+      "source_url": "https://www.sefaria.org/Degel_Machaneh_Ephraim",
+      "category": "baal_shem_tov",
+      "tags": [
+        "שכינה",
+        "יהודי",
+        "קדושה"
+      ],
+      "length_estimate": 18,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-078",
+      "text": "העצבות היא כלי לסטרא אחרא, והשמחה היא כלי לקדושה",
+      "source_rabbi": "הבעל שם טוב",
+      "source_book": "צוואת הריב\"ש",
+      "source_section": "פרק קי\"ט",
+      "source_url": "https://www.sefaria.org/Tzava'at_HaRivash.119",
+      "category": "baal_shem_tov",
+      "tags": [
+        "שמחה",
+        "עצבות",
+        "קדושה"
+      ],
+      "length_estimate": 20,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-079",
+      "text": "כל דבר שנראה לאדם כמקרה, הוא בעצם השגחה פרטית מלמעלה",
+      "source_rabbi": "הבעל שם טוב",
+      "source_book": "כתר שם טוב",
+      "source_section": "אות קנ\"ב",
+      "source_url": "https://www.sefaria.org/Keter_Shem_Tov.152",
+      "category": "baal_shem_tov",
+      "tags": [
+        "השגחה פרטית",
+        "מקרה",
+        "אמונה"
+      ],
+      "length_estimate": 22,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-080",
+      "text": "התפילה צריכה להיות בדבקות גדולה, כאילו מדבר עם מלך",
+      "source_rabbi": "רבי יעקב יוסף מפולנאה",
+      "source_book": "תולדות יעקב יוסף",
+      "source_section": "פרשת ויחי",
+      "source_url": "https://www.sefaria.org/Toldot_Yaakov_Yosef",
+      "category": "baal_shem_tov",
+      "tags": [
+        "תפילה",
+        "דבקות",
+        "מלך"
+      ],
+      "length_estimate": 20,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-081",
+      "text": "כל העולם הוא מראה, ומה שאדם רואה בזולת - זה מה שיש בו",
+      "source_rabbi": "רבי מנחם נחום מטשרנוביל",
+      "source_book": "מאור עינים",
+      "source_section": "פרשת יתרו",
+      "source_url": "https://www.sefaria.org/Meor_Einayim",
+      "category": "baal_shem_tov",
+      "tags": [
+        "מראה",
+        "ראייה",
+        "תיקון עצמי"
+      ],
+      "length_estimate": 24,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-082",
+      "text": "אין לך דבר שעומד בפני התשובה, אפילו לרשע הגדול ביותר",
+      "source_rabbi": "רבי אלימלך מליזענסק",
+      "source_book": "נועם אלימלך",
+      "source_section": "פרשת ויחי",
+      "source_url": "https://www.sefaria.org/Noam_Elimelech",
+      "category": "baal_shem_tov",
+      "tags": [
+        "תשובה",
+        "רשע",
+        "תיקון"
+      ],
+      "length_estimate": 22,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-083",
+      "text": "הקב\"ה רוצה שנעבוד אותו בשמחה, לא מתוך יראה בלבד",
+      "source_rabbi": "רבי לוי יצחק מברדיטשוב",
+      "source_book": "קדושת לוי",
+      "source_section": "פרשת ויחי",
+      "source_url": "https://www.sefaria.org/Kedushat_Levi",
+      "category": "baal_shem_tov",
+      "tags": [
+        "שמחה",
+        "עבודת השם",
+        "יראה"
+      ],
+      "length_estimate": 20,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-084",
+      "text": "סבי אמר: לעולם אל יתייאש האדם, כי ה' קרוב לכל הקוראים אליו",
+      "source_rabbi": "רבי משה חיים אפרים מסודילקוב",
+      "source_book": "דגל מחנה אפרים",
+      "source_section": "פרשת ויחי",
+      "source_url": "https://www.sefaria.org/Degel_Machaneh_Ephraim",
+      "category": "baal_shem_tov",
+      "tags": [
+        "ייאוש",
+        "תקווה",
+        "קריאה"
+      ],
+      "length_estimate": 24,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-085",
+      "text": "כשאדם עושה מצווה, הוא בונה עולמות בשמים",
+      "source_rabbi": "הבעל שם טוב",
+      "source_book": "צוואת הריב\"ש",
+      "source_section": "פרק קכ\"ב",
+      "source_url": "https://www.sefaria.org/Tzava'at_HaRivash.122",
+      "category": "baal_shem_tov",
+      "tags": [
+        "מצוות",
+        "עולמות",
+        "בניה"
+      ],
+      "length_estimate": 14,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-086",
+      "text": "האמת היא חותמו של הקב\"ה, ולכן צריך לדבוק באמת תמיד",
+      "source_rabbi": "הבעל שם טוב",
+      "source_book": "כתר שם טוב",
+      "source_section": "אות קס\"ה",
+      "source_url": "https://www.sefaria.org/Keter_Shem_Tov.165",
+      "category": "baal_shem_tov",
+      "tags": [
+        "אמת",
+        "דבקות",
+        "חותם"
+      ],
+      "length_estimate": 20,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-087",
+      "text": "כשאדם מרגיש רחוק מה', זו עצמה הזדמנות להתקרב",
+      "source_rabbi": "רבי יעקב יוסף מפולנאה",
+      "source_book": "תולדות יעקב יוסף",
+      "source_section": "פרשת שמות",
+      "source_url": "https://www.sefaria.org/Toldot_Yaakov_Yosef",
+      "category": "baal_shem_tov",
+      "tags": [
+        "ריחוק",
+        "קירבה",
+        "הזדמנות"
+      ],
+      "length_estimate": 18,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-088",
+      "text": "על ידי לימוד תורה בעמל, האדם מזכך את נשמתו",
+      "source_rabbi": "רבי מנחם נחום מטשרנוביל",
+      "source_book": "מאור עינים",
+      "source_section": "פרשת משפטים",
+      "source_url": "https://www.sefaria.org/Meor_Einayim",
+      "category": "baal_shem_tov",
+      "tags": [
+        "תורה",
+        "עמל",
+        "זיכוך"
+      ],
+      "length_estimate": 17,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-089",
+      "text": "הענווה מביאה לידי יראת שמים אמיתית",
+      "source_rabbi": "רבי אלימלך מליזענסק",
+      "source_book": "נועם אלימלך",
+      "source_section": "פרשת שמות",
+      "source_url": "https://www.sefaria.org/Noam_Elimelech",
+      "category": "baal_shem_tov",
+      "tags": [
+        "ענווה",
+        "יראת שמים",
+        "מידות"
+      ],
+      "length_estimate": 12,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-090",
+      "text": "כל יהודי הוא עולם מלא, וכשמצילים יהודי אחד - מצילים עולם שלם",
+      "source_rabbi": "רבי לוי יצחק מברדיטשוב",
+      "source_book": "קדושת לוי",
+      "source_section": "פרשת שמות",
+      "source_url": "https://www.sefaria.org/Kedushat_Levi",
+      "category": "baal_shem_tov",
+      "tags": [
+        "יהודי",
+        "עולם",
+        "הצלה"
+      ],
+      "length_estimate": 24,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-091",
+      "text": "שמעתי מסבי: עיקר הגאולה תהיה על ידי הפצת אור החסידות",
+      "source_rabbi": "רבי משה חיים אפרים מסודילקוב",
+      "source_book": "דגל מחנה אפרים",
+      "source_section": "פרשת שמות",
+      "source_url": "https://www.sefaria.org/Degel_Machaneh_Ephraim",
+      "category": "baal_shem_tov",
+      "tags": [
+        "גאולה",
+        "חסידות",
+        "הפצה"
+      ],
+      "length_estimate": 22,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-092",
+      "text": "כשאדם מרגיש שהוא קטן, אז דווקא הוא יכול להתגדל",
+      "source_rabbi": "הבעל שם טוב",
+      "source_book": "צוואת הריב\"ש",
+      "source_section": "פרק קכ\"ה",
+      "source_url": "https://www.sefaria.org/Tzava'at_HaRivash.125",
+      "category": "baal_shem_tov",
+      "tags": [
+        "ענווה",
+        "גדלות",
+        "עליה"
+      ],
+      "length_estimate": 19,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-093",
+      "text": "האהבה לה' צריכה להיות כאש בוערת שאינה נכבית לעולם",
+      "source_rabbi": "הבעל שם טוב",
+      "source_book": "כתר שם טוב",
+      "source_section": "אות קע\"א",
+      "source_url": "https://www.sefaria.org/Keter_Shem_Tov.171",
+      "category": "baal_shem_tov",
+      "tags": [
+        "אהבת השם",
+        "אש",
+        "התלהבות"
+      ],
+      "length_estimate": 20,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-094",
+      "text": "כל מעשה טוב שאדם עושה, נרשם בשמים לנצח",
+      "source_rabbi": "רבי יעקב יוסף מפולנאה",
+      "source_book": "תולדות יעקב יוסף",
+      "source_section": "פרשת וארא",
+      "source_url": "https://www.sefaria.org/Toldot_Yaakov_Yosef",
+      "category": "baal_shem_tov",
+      "tags": [
+        "מעשים טובים",
+        "שמים",
+        "נצח"
+      ],
+      "length_estimate": 16,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-095",
+      "text": "הקב\"ה מסתכל בלב, לא במעשה החיצוני בלבד",
+      "source_rabbi": "רבי מנחם נחום מטשרנוביל",
+      "source_book": "מאור עינים",
+      "source_section": "פרשת תרומה",
+      "source_url": "https://www.sefaria.org/Meor_Einayim",
+      "category": "baal_shem_tov",
+      "tags": [
+        "לב",
+        "כוונה",
+        "מעשה"
+      ],
+      "length_estimate": 15,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-096",
+      "text": "כשאדם מתפלל על חברו, נענה תחילה בעצמו",
+      "source_rabbi": "רבי אלימלך מליזענסק",
+      "source_book": "נועם אלימלך",
+      "source_section": "פרשת וארא",
+      "source_url": "https://www.sefaria.org/Noam_Elimelech",
+      "category": "baal_shem_tov",
+      "tags": [
+        "תפילה",
+        "אהבת ישראל",
+        "ענייה"
+      ],
+      "length_estimate": 15,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-097",
+      "text": "השפעת הצדיק על הדור היא כמו השמש המאירה לכל העולם",
+      "source_rabbi": "רבי לוי יצחק מברדיטשוב",
+      "source_book": "קדושת לוי",
+      "source_section": "פרשת וארא",
+      "source_url": "https://www.sefaria.org/Kedushat_Levi",
+      "category": "baal_shem_tov",
+      "tags": [
+        "צדיק",
+        "השפעה",
+        "אור"
+      ],
+      "length_estimate": 20,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-098",
+      "text": "סבי אמר: כל יום שאדם חי הוא מתנה מאת ה', וצריך לנצל אותו",
+      "source_rabbi": "רבי משה חיים אפרים מסודילקוב",
+      "source_book": "דגל מחנה אפרים",
+      "source_section": "פרשת וארא",
+      "source_url": "https://www.sefaria.org/Degel_Machaneh_Ephraim",
+      "category": "baal_shem_tov",
+      "tags": [
+        "יום",
+        "מתנה",
+        "ניצול זמן"
+      ],
+      "length_estimate": 26,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-099",
+      "text": "כל ישראל ערבים זה לזה, ומה שקורה לאחד משפיע על כולם",
+      "source_rabbi": "הבעל שם טוב",
+      "source_book": "צוואת הריב\"ש",
+      "source_section": "פרק קכ\"ח",
+      "source_url": "https://www.sefaria.org/Tzava'at_HaRivash.128",
+      "category": "baal_shem_tov",
+      "tags": [
+        "ערבות",
+        "אחדות",
+        "כלל ישראל"
+      ],
+      "length_estimate": 22,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch1-100",
+      "text": "סוף דבר הכל נשמע: את האלוקים ירא ואת מצוותיו שמור, כי זה כל האדם",
+      "source_rabbi": "הבעל שם טוב",
+      "source_book": "כתר שם טוב",
+      "source_section": "אות קפ\"ג",
+      "source_url": "https://www.sefaria.org/Keter_Shem_Tov.183",
+      "category": "baal_shem_tov",
+      "tags": [
+        "יראת שמים",
+        "מצוות",
+        "תכלית"
+      ],
+      "length_estimate": 28,
+      "created_at": "2026-01-28T18:22:38"
+    },
+    {
+      "id": "besht-batch2-001",
+      "text": "כל מה שאדם רואה או שומע, הכל הוא הוראה לעבודת ה׳. וזהו עבודה גדולה ללמוד מכל דבר",
+      "source_rabbi": "רבי יעקב יוסף מפולנאה",
+      "source_book": "תולדות יעקב יוסף",
+      "source_section": "פרשת וישלח",
+      "source_url": "https://www.sefaria.org/Toldot_Yaakov_Yosef%2C_Vayishlach",
+      "category": "baal_shem_tov",
+      "tags": [
+        "הכל מאתו",
+        "עבודת השם",
+        "השגחה פרטית"
+      ],
+      "length_estimate": 25,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-002",
+      "text": "העיקר הוא האמונה. שיאמין שהקב״ה מלא כל הארץ כבודו, ובכל תנועה ובכל מחשבה הוא יתברך שם",
+      "source_rabbi": "רבי יעקב יוסף מפולנאה",
+      "source_book": "תולדות יעקב יוסף",
+      "source_section": "פרשת מקץ",
+      "source_url": "https://www.sefaria.org/Toldot_Yaakov_Yosef%2C_Miketz",
+      "category": "baal_shem_tov",
+      "tags": [
+        "אמונה",
+        "השגחה",
+        "דבקות"
+      ],
+      "length_estimate": 28,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-003",
+      "text": "כשאדם רוצה לדבר דברי תורה או תפילה, יחשוב תחילה שהשכינה מדברת מפיו, ואז יכול לדבר דברים קדושים",
+      "source_rabbi": "רבי יעקב יוסף מפולנאה",
+      "source_book": "תולדות יעקב יוסף",
+      "source_section": "פרשת ויגש",
+      "source_url": "https://www.sefaria.org/Toldot_Yaakov_Yosef%2C_Vayigash",
+      "category": "baal_shem_tov",
+      "tags": [
+        "שכינה",
+        "תפילה",
+        "תורה"
+      ],
+      "length_estimate": 30,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-004",
+      "text": "הצדיק צריך לרדת לפעמים ממדרגתו כדי להעלות את ישראל, וזהו בחינת ירידה צורך עלייה",
+      "source_rabbi": "רבי יעקב יוסף מפולנאה",
+      "source_book": "תולדות יעקב יוסף",
+      "source_section": "פרשת ויחי",
+      "source_url": "https://www.sefaria.org/Toldot_Yaakov_Yosef%2C_Vayechi",
+      "category": "baal_shem_tov",
+      "tags": [
+        "צדיק",
+        "עליה וירידה",
+        "תיקון"
+      ],
+      "length_estimate": 25,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-005",
+      "text": "כל ניצוץ קדוש שנופל לקליפות, האדם צריך להעלותו על ידי עבודתו בקדושה",
+      "source_rabbi": "רבי יעקב יוסף מפולנאה",
+      "source_book": "תולדות יעקב יוסף",
+      "source_section": "פרשת שמות",
+      "source_url": "https://www.sefaria.org/Toldot_Yaakov_Yosef%2C_Shemot",
+      "category": "baal_shem_tov",
+      "tags": [
+        "ניצוצות",
+        "תיקון",
+        "עבודת השם"
+      ],
+      "length_estimate": 22,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-006",
+      "text": "כשאדם עושה מצוה בשמחה, השמחה היא יותר חשובה מהמצוה עצמה",
+      "source_rabbi": "רבי יעקב יוסף מפולנאה",
+      "source_book": "תולדות יעקב יוסף",
+      "source_section": "פרשת וארא",
+      "source_url": "https://www.sefaria.org/Toldot_Yaakov_Yosef%2C_Vaera",
+      "category": "baal_shem_tov",
+      "tags": [
+        "שמחה",
+        "מצוות",
+        "עבודת השם"
+      ],
+      "length_estimate": 18,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-007",
+      "text": "הגאולה תלויה בעבודת ה׳ בשמחה. כי השמחה היא כלי לקבל שפע מלמעלה",
+      "source_rabbi": "רבי יעקב יוסף מפולנאה",
+      "source_book": "תולדות יעקב יוסף",
+      "source_section": "פרשת בא",
+      "source_url": "https://www.sefaria.org/Toldot_Yaakov_Yosef%2C_Bo",
+      "category": "baal_shem_tov",
+      "tags": [
+        "גאולה",
+        "שמחה",
+        "שפע"
+      ],
+      "length_estimate": 22,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-008",
+      "text": "בכל אות ואות מהתורה יש עולמות ונשמות ואלקות. וכשאדם לומד, הוא מתדבק בכל אלו",
+      "source_rabbi": "רבי יעקב יוסף מפולנאה",
+      "source_book": "תולדות יעקב יוסף",
+      "source_section": "פרשת בשלח",
+      "source_url": "https://www.sefaria.org/Toldot_Yaakov_Yosef%2C_Beshalach",
+      "category": "baal_shem_tov",
+      "tags": [
+        "תורה",
+        "אותיות",
+        "דבקות"
+      ],
+      "length_estimate": 25,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-009",
+      "text": "העצבות היא מנעול לכל שערי הקדושה, והשמחה היא מפתח לכל השערים",
+      "source_rabbi": "רבי יעקב יוסף מפולנאה",
+      "source_book": "תולדות יעקב יוסף",
+      "source_section": "פרשת יתרו",
+      "source_url": "https://www.sefaria.org/Toldot_Yaakov_Yosef%2C_Yitro",
+      "category": "baal_shem_tov",
+      "tags": [
+        "שמחה",
+        "עצבות",
+        "עבודת השם"
+      ],
+      "length_estimate": 20,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-010",
+      "text": "בכל דבר יש ניצוץ אלוקי, ומי שאינו רואה את הניצוץ הזה, אינו רואה כלום",
+      "source_rabbi": "רבי יעקב יוסף מפולנאה",
+      "source_book": "תולדות יעקב יוסף",
+      "source_section": "פרשת משפטים",
+      "source_url": "https://www.sefaria.org/Toldot_Yaakov_Yosef%2C_Mishpatim",
+      "category": "baal_shem_tov",
+      "tags": [
+        "ניצוצות",
+        "ראיה רוחנית",
+        "אמונה"
+      ],
+      "length_estimate": 22,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-011",
+      "text": "כשאדם מתפלל, יחשוב שהוא עומד לפני המלך. ואם עומד לפני מלך בשר ודם היה מתיירא, קל וחומר לפני מלך מלכי המלכים",
+      "source_rabbi": "רבי מנחם נחום מטשרנוביל",
+      "source_book": "מאור עינים",
+      "source_section": "פרשת בראשית",
+      "source_url": "https://www.sefaria.org/Meor_Einayim%2C_Bereshit",
+      "category": "baal_shem_tov",
+      "tags": [
+        "תפילה",
+        "יראה",
+        "מלכות"
+      ],
+      "length_estimate": 32,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-012",
+      "text": "התורה היא שמותיו של הקב״ה, וכשאדם לומד תורה, הוא קורא בשמותיו ומתדבק בו",
+      "source_rabbi": "רבי מנחם נחום מטשרנוביל",
+      "source_book": "מאור עינים",
+      "source_section": "פרשת נח",
+      "source_url": "https://www.sefaria.org/Meor_Einayim%2C_Noach",
+      "category": "baal_shem_tov",
+      "tags": [
+        "תורה",
+        "שמות הקודש",
+        "דבקות"
+      ],
+      "length_estimate": 24,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-013",
+      "text": "כל הנבראים מקבלים חיותם מהדיבור האלוקי שברא אותם. ואותו הדיבור נמצא בהם תמיד",
+      "source_rabbi": "רבי מנחם נחום מטשרנוביל",
+      "source_book": "מאור עינים",
+      "source_section": "פרשת לך לך",
+      "source_url": "https://www.sefaria.org/Meor_Einayim%2C_Lech_Lecha",
+      "category": "baal_shem_tov",
+      "tags": [
+        "חיות אלוקית",
+        "בריאה",
+        "דיבור"
+      ],
+      "length_estimate": 26,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-014",
+      "text": "הצדיק רואה את האור הגנוז בכל דבר, ועל ידי זה הוא מעלה את הדבר לשורשו",
+      "source_rabbi": "רבי מנחם נחום מטשרנוביל",
+      "source_book": "מאור עינים",
+      "source_section": "פרשת וירא",
+      "source_url": "https://www.sefaria.org/Meor_Einayim%2C_Vayera",
+      "category": "baal_shem_tov",
+      "tags": [
+        "צדיק",
+        "אור הגנוז",
+        "העלאה"
+      ],
+      "length_estimate": 23,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-015",
+      "text": "האדם צריך לעבוד את ה׳ בכל כוחותיו, גם בכוחות הגשמיים. כי הכל ניתן לעבודתו",
+      "source_rabbi": "רבי מנחם נחום מטשרנוביל",
+      "source_book": "מאור עינים",
+      "source_section": "פרשת חיי שרה",
+      "source_url": "https://www.sefaria.org/Meor_Einayim%2C_Chayei_Sarah",
+      "category": "baal_shem_tov",
+      "tags": [
+        "עבודה בגשמיות",
+        "כוחות הנפש",
+        "עבודת השם"
+      ],
+      "length_estimate": 25,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-016",
+      "text": "מחשבה רעה היא כמו אבן שנפלה לבור. וכשאדם מעלה אותה למחשבה טובה, הוא מוציא את האבן מהבור",
+      "source_rabbi": "רבי מנחם נחום מטשרנוביל",
+      "source_book": "מאור עינים",
+      "source_section": "פרשת תולדות",
+      "source_url": "https://www.sefaria.org/Meor_Einayim%2C_Toldot",
+      "category": "baal_shem_tov",
+      "tags": [
+        "מחשבה",
+        "תשובה",
+        "תיקון"
+      ],
+      "length_estimate": 28,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-017",
+      "text": "כל מה שקורה לאדם, הכל הוא מאת ה׳. ואפילו דבר קטן אינו במקרה",
+      "source_rabbi": "רבי מנחם נחום מטשרנוביל",
+      "source_book": "מאור עינים",
+      "source_section": "פרשת ויצא",
+      "source_url": "https://www.sefaria.org/Meor_Einayim%2C_Vayetzei",
+      "category": "baal_shem_tov",
+      "tags": [
+        "השגחה פרטית",
+        "אמונה",
+        "ביטחון"
+      ],
+      "length_estimate": 20,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-018",
+      "text": "הדיבור הוא נשמה. וכשאדם מדבר דברי תורה, הוא מחיה את עצמו ואת העולם",
+      "source_rabbi": "רבי מנחם נחום מטשרנוביל",
+      "source_book": "מאור עינים",
+      "source_section": "פרשת ויקרא",
+      "source_url": "https://www.sefaria.org/Meor_Einayim%2C_Vayikra",
+      "category": "baal_shem_tov",
+      "tags": [
+        "דיבור",
+        "תורה",
+        "חיות"
+      ],
+      "length_estimate": 22,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-019",
+      "text": "האהבה והיראה הם שני כנפיים שבהם האדם עולה למעלה. בלי שניהם אי אפשר לעלות",
+      "source_rabbi": "רבי מנחם נחום מטשרנוביל",
+      "source_book": "מאור עינים",
+      "source_section": "פרשת צו",
+      "source_url": "https://www.sefaria.org/Meor_Einayim%2C_Tzav",
+      "category": "baal_shem_tov",
+      "tags": [
+        "אהבה",
+        "יראה",
+        "עליה רוחנית"
+      ],
+      "length_estimate": 24,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-020",
+      "text": "כשאדם מברך, צריך לחשוב שהוא ממשיך שפע לכל העולמות על ידי הברכה",
+      "source_rabbi": "רבי מנחם נחום מטשרנוביל",
+      "source_book": "מאור עינים",
+      "source_section": "פרשת שמיני",
+      "source_url": "https://www.sefaria.org/Meor_Einayim%2C_Shemini",
+      "category": "baal_shem_tov",
+      "tags": [
+        "ברכות",
+        "שפע",
+        "כוונה"
+      ],
+      "length_estimate": 21,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-021",
+      "text": "הצדיק יכול לפעול בעולם על ידי מחשבתו לבד, כי מחשבתו דבוקה בבורא",
+      "source_rabbi": "רבי אלימלך מליזענסק",
+      "source_book": "נועם אלימלך",
+      "source_section": "פרשת בראשית",
+      "source_url": "https://www.sefaria.org/Noam_Elimelech%2C_Bereshit",
+      "category": "baal_shem_tov",
+      "tags": [
+        "צדיק",
+        "מחשבה",
+        "דבקות"
+      ],
+      "length_estimate": 21,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-022",
+      "text": "התפילה צריכה להיות בלב שלם, כאילו זו התפילה האחרונה בחייו",
+      "source_rabbi": "רבי אלימלך מליזענסק",
+      "source_book": "נועם אלימלך",
+      "source_section": "פרשת נח",
+      "source_url": "https://www.sefaria.org/Noam_Elimelech%2C_Noach",
+      "category": "baal_shem_tov",
+      "tags": [
+        "תפילה",
+        "כוונה",
+        "לב שלם"
+      ],
+      "length_estimate": 18,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-023",
+      "text": "כל יום הקב״ה בורא את העולם מחדש, ומי שמאמין בזה, מתחדש גם הוא בכל יום",
+      "source_rabbi": "רבי אלימלך מליזענסק",
+      "source_book": "נועם אלימלך",
+      "source_section": "פרשת לך לך",
+      "source_url": "https://www.sefaria.org/Noam_Elimelech%2C_Lech_Lecha",
+      "category": "baal_shem_tov",
+      "tags": [
+        "בריאה מתמדת",
+        "אמונה",
+        "התחדשות"
+      ],
+      "length_estimate": 24,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-024",
+      "text": "המחשבה היא ההתחלה של הכל. ומחשבה טובה, הקב״ה מצרפה למעשה",
+      "source_rabbi": "רבי אלימלך מליזענסק",
+      "source_book": "נועם אלימלך",
+      "source_section": "פרשת וירא",
+      "source_url": "https://www.sefaria.org/Noam_Elimelech%2C_Vayera",
+      "category": "baal_shem_tov",
+      "tags": [
+        "מחשבה",
+        "כוונה",
+        "מעשה"
+      ],
+      "length_estimate": 18,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-025",
+      "text": "כשאדם לומד תורה לשמה, הוא ממשיך אור לכל העולמות",
+      "source_rabbi": "רבי אלימלך מליזענסק",
+      "source_book": "נועם אלימלך",
+      "source_section": "פרשת חיי שרה",
+      "source_url": "https://www.sefaria.org/Noam_Elimelech%2C_Chayei_Sarah",
+      "category": "baal_shem_tov",
+      "tags": [
+        "תורה לשמה",
+        "אור",
+        "עולמות"
+      ],
+      "length_estimate": 15,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-026",
+      "text": "הענווה היא שורש כל המידות הטובות, ובלעדיה אין האדם יכול להתקדם בעבודת ה׳",
+      "source_rabbi": "רבי אלימלך מליזענסק",
+      "source_book": "נועם אלימלך",
+      "source_section": "פרשת תולדות",
+      "source_url": "https://www.sefaria.org/Noam_Elimelech%2C_Toldot",
+      "category": "baal_shem_tov",
+      "tags": [
+        "ענווה",
+        "מידות",
+        "עבודת השם"
+      ],
+      "length_estimate": 24,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-027",
+      "text": "בכל מקום שאדם נמצא, שם הוא יכול לעבוד את ה׳. אין מקום פנוי ממנו",
+      "source_rabbi": "רבי אלימלך מליזענסק",
+      "source_book": "נועם אלימלך",
+      "source_section": "פרשת ויצא",
+      "source_url": "https://www.sefaria.org/Noam_Elimelech%2C_Vayetzei",
+      "category": "baal_shem_tov",
+      "tags": [
+        "עבודה בכל מקום",
+        "דבקות",
+        "השגחה"
+      ],
+      "length_estimate": 22,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-028",
+      "text": "השפע יורד מלמעלה דרך הצדיק, והצדיק הוא כמו צינור שממשיך את השפע לעולם",
+      "source_rabbi": "רבי אלימלך מליזענסק",
+      "source_book": "נועם אלימלך",
+      "source_section": "פרשת וישלח",
+      "source_url": "https://www.sefaria.org/Noam_Elimelech%2C_Vayishlach",
+      "category": "baal_shem_tov",
+      "tags": [
+        "צדיק",
+        "שפע",
+        "צינור"
+      ],
+      "length_estimate": 23,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-029",
+      "text": "התשובה מאהבה הופכת את העבירות לזכויות, כי האהבה מכסה על כל פשעים",
+      "source_rabbi": "רבי אלימלך מליזענסק",
+      "source_book": "נועם אלימלך",
+      "source_section": "פרשת וישב",
+      "source_url": "https://www.sefaria.org/Noam_Elimelech%2C_Vayeshev",
+      "category": "baal_shem_tov",
+      "tags": [
+        "תשובה",
+        "אהבה",
+        "תיקון"
+      ],
+      "length_estimate": 22,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-030",
+      "text": "כל מה שהאדם רואה ושומע בעולם הזה, הכל הוא רמז לעבודתו מהשמים",
+      "source_rabbi": "רבי אלימלך מליזענסק",
+      "source_book": "נועם אלימלך",
+      "source_section": "פרשת מקץ",
+      "source_url": "https://www.sefaria.org/Noam_Elimelech%2C_Miketz",
+      "category": "baal_shem_tov",
+      "tags": [
+        "רמזים",
+        "השגחה",
+        "עבודת השם"
+      ],
+      "length_estimate": 21,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-031",
+      "text": "האדם צריך לדעת שכל מחשבותיו באות מלמעלה, ועליו לבחור במחשבות הטובות",
+      "source_rabbi": "רבי משה חיים אפרים מסודילקוב",
+      "source_book": "דגל מחנה אפרים",
+      "source_section": "פרשת בראשית",
+      "source_url": "https://www.sefaria.org/Degel_Machaneh_Ephraim%2C_Bereshit",
+      "category": "baal_shem_tov",
+      "tags": [
+        "מחשבה",
+        "בחירה",
+        "עבודת השם"
+      ],
+      "length_estimate": 22,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-032",
+      "text": "התיבה של נח היא בחינת התורה, ומי שנכנס לתורה, ניצל מכל הרעות",
+      "source_rabbi": "רבי משה חיים אפרים מסודילקוב",
+      "source_book": "דגל מחנה אפרים",
+      "source_section": "פרשת נח",
+      "source_url": "https://www.sefaria.org/Degel_Machaneh_Ephraim%2C_Noach",
+      "category": "baal_shem_tov",
+      "tags": [
+        "תורה",
+        "הגנה",
+        "תיבה"
+      ],
+      "length_estimate": 20,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-033",
+      "text": "לך לך מארצך - צא מהרגלי הטבע שלך, ולך אל הארץ הרוחנית שה׳ מראה לך",
+      "source_rabbi": "רבי משה חיים אפרים מסודילקוב",
+      "source_book": "דגל מחנה אפרים",
+      "source_section": "פרשת לך לך",
+      "source_url": "https://www.sefaria.org/Degel_Machaneh_Ephraim%2C_Lech_Lecha",
+      "category": "baal_shem_tov",
+      "tags": [
+        "שינוי",
+        "התעלות",
+        "עבודת השם"
+      ],
+      "length_estimate": 24,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-034",
+      "text": "כשאדם צועק אל ה׳ מעומק הלב, הקב״ה שומע אותו אפילו בלי מילים",
+      "source_rabbi": "רבי משה חיים אפרים מסודילקוב",
+      "source_book": "דגל מחנה אפרים",
+      "source_section": "פרשת וירא",
+      "source_url": "https://www.sefaria.org/Degel_Machaneh_Ephraim%2C_Vayera",
+      "category": "baal_shem_tov",
+      "tags": [
+        "תפילה",
+        "צעקה",
+        "לב"
+      ],
+      "length_estimate": 20,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-035",
+      "text": "חיי שרה - החיים האמיתיים הם חיי הנשמה, והם נצחיים לעולם",
+      "source_rabbi": "רבי משה חיים אפרים מסודילקוב",
+      "source_book": "דגל מחנה אפרים",
+      "source_section": "פרשת חיי שרה",
+      "source_url": "https://www.sefaria.org/Degel_Machaneh_Ephraim%2C_Chayei_Sarah",
+      "category": "baal_shem_tov",
+      "tags": [
+        "נשמה",
+        "חיים נצחיים",
+        "רוחניות"
+      ],
+      "length_estimate": 18,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-036",
+      "text": "יעקב ועשו - הם כנגד הטוב והרע שבאדם. וצריך לברר את הטוב מהרע",
+      "source_rabbi": "רבי משה חיים אפרים מסודילקוב",
+      "source_book": "דגל מחנה אפרים",
+      "source_section": "פרשת תולדות",
+      "source_url": "https://www.sefaria.org/Degel_Machaneh_Ephraim%2C_Toldot",
+      "category": "baal_shem_tov",
+      "tags": [
+        "טוב ורע",
+        "בירור",
+        "עבודה פנימית"
+      ],
+      "length_estimate": 21,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-037",
+      "text": "הסולם מוצב ארצה וראשו מגיע השמימה - זה האדם שראשו בשמים ורגליו בארץ",
+      "source_rabbi": "רבי משה חיים אפרים מסודילקוב",
+      "source_book": "דגל מחנה אפרים",
+      "source_section": "פרשת ויצא",
+      "source_url": "https://www.sefaria.org/Degel_Machaneh_Ephraim%2C_Vayetzei",
+      "category": "baal_shem_tov",
+      "tags": [
+        "סולם",
+        "עליה",
+        "חיבור"
+      ],
+      "length_estimate": 22,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-038",
+      "text": "כשאדם מתגבר על יצרו, הוא עושה נחת רוח להקב״ה יותר מהמלאכים",
+      "source_rabbi": "רבי משה חיים אפרים מסודילקוב",
+      "source_book": "דגל מחנה אפרים",
+      "source_section": "פרשת וישלח",
+      "source_url": "https://www.sefaria.org/Degel_Machaneh_Ephraim%2C_Vayishlach",
+      "category": "baal_shem_tov",
+      "tags": [
+        "יצר",
+        "התגברות",
+        "נחת רוח"
+      ],
+      "length_estimate": 20,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-039",
+      "text": "הירידה לגלות היא כדי לעלות יותר. כל ירידה היא לצורך עלייה גדולה יותר",
+      "source_rabbi": "רבי משה חיים אפרים מסודילקוב",
+      "source_book": "דגל מחנה אפרים",
+      "source_section": "פרשת מקץ",
+      "source_url": "https://www.sefaria.org/Degel_Machaneh_Ephraim%2C_Miketz",
+      "category": "baal_shem_tov",
+      "tags": [
+        "ירידה לצורך עלייה",
+        "גלות",
+        "תיקון"
+      ],
+      "length_estimate": 23,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-040",
+      "text": "ויגש אליו יהודה - כשאדם מתקרב אל הקדושה, הקדושה מתקרבת אליו",
+      "source_rabbi": "רבי משה חיים אפרים מסודילקוב",
+      "source_book": "דגל מחנה אפרים",
+      "source_section": "פרשת ויגש",
+      "source_url": "https://www.sefaria.org/Degel_Machaneh_Ephraim%2C_Vayigash",
+      "category": "baal_shem_tov",
+      "tags": [
+        "התקרבות",
+        "קדושה",
+        "עבודת השם"
+      ],
+      "length_estimate": 19,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-041",
+      "text": "בראשית - בשביל ישראל שנקראו ראשית, נברא העולם. כל הבריאה היא בשבילנו",
+      "source_rabbi": "רבי לוי יצחק מברדיטשוב",
+      "source_book": "קדושת לוי",
+      "source_section": "פרשת בראשית",
+      "source_url": "https://www.sefaria.org/Kedushat_Levi%2C_Bereshit",
+      "category": "baal_shem_tov",
+      "tags": [
+        "ישראל",
+        "בריאה",
+        "תכלית"
+      ],
+      "length_estimate": 23,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-042",
+      "text": "נח איש צדיק היה - כל איש מישראל יכול להיות צדיק אם ילך בדרך ה׳",
+      "source_rabbi": "רבי לוי יצחק מברדיטשוב",
+      "source_book": "קדושת לוי",
+      "source_section": "פרשת נח",
+      "source_url": "https://www.sefaria.org/Kedushat_Levi%2C_Noach",
+      "category": "baal_shem_tov",
+      "tags": [
+        "צדיק",
+        "עבודת השם",
+        "פוטנציאל"
+      ],
+      "length_estimate": 22,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-043",
+      "text": "אברהם עבד את ה׳ מתוך אהבה, ולכן נקרא אוהבי. האהבה היא העבודה העליונה",
+      "source_rabbi": "רבי לוי יצחק מברדיטשוב",
+      "source_book": "קדושת לוי",
+      "source_section": "פרשת לך לך",
+      "source_url": "https://www.sefaria.org/Kedushat_Levi%2C_Lech_Lecha",
+      "category": "baal_shem_tov",
+      "tags": [
+        "אהבת ה׳",
+        "אברהם",
+        "עבודה"
+      ],
+      "length_estimate": 24,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-044",
+      "text": "הכנסת אורחים היא מצוה גדולה, כי על ידה ממשיכים שפע לעולם",
+      "source_rabbi": "רבי לוי יצחק מברדיטשוב",
+      "source_book": "קדושת לוי",
+      "source_section": "פרשת וירא",
+      "source_url": "https://www.sefaria.org/Kedushat_Levi%2C_Vayera",
+      "category": "baal_shem_tov",
+      "tags": [
+        "הכנסת אורחים",
+        "חסד",
+        "שפע"
+      ],
+      "length_estimate": 18,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-045",
+      "text": "רבקה אמנו לימדה אותנו שגמילות חסדים צריכה להיות מעבר למה שנתבקשנו",
+      "source_rabbi": "רבי לוי יצחק מברדיטשוב",
+      "source_book": "קדושת לוי",
+      "source_section": "פרשת חיי שרה",
+      "source_url": "https://www.sefaria.org/Kedushat_Levi%2C_Chayei_Sarah",
+      "category": "baal_shem_tov",
+      "tags": [
+        "גמילות חסדים",
+        "רבקה",
+        "חסד"
+      ],
+      "length_estimate": 21,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-046",
+      "text": "קול יעקב וידי עשו - הקול של התפילה מנצח את הכוח הגשמי",
+      "source_rabbi": "רבי לוי יצחק מברדיטשוב",
+      "source_book": "קדושת לוי",
+      "source_section": "פרשת תולדות",
+      "source_url": "https://www.sefaria.org/Kedushat_Levi%2C_Toldot",
+      "category": "baal_shem_tov",
+      "tags": [
+        "תפילה",
+        "כוח רוחני",
+        "ניצחון"
+      ],
+      "length_estimate": 17,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-047",
+      "text": "מלאכי אלוקים עולים ויורדים בו - המחשבות הטובות עולות והשפע יורד",
+      "source_rabbi": "רבי לוי יצחק מברדיטשוב",
+      "source_book": "קדושת לוי",
+      "source_section": "פרשת ויצא",
+      "source_url": "https://www.sefaria.org/Kedushat_Levi%2C_Vayetzei",
+      "category": "baal_shem_tov",
+      "tags": [
+        "מלאכים",
+        "מחשבה",
+        "שפע"
+      ],
+      "length_estimate": 20,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-048",
+      "text": "כשיעקב נאבק עם המלאך, הוא נאבק עם יצרו. וניצח, ולכן נקרא ישראל",
+      "source_rabbi": "רבי לוי יצחק מברדיטשוב",
+      "source_book": "קדושת לוי",
+      "source_section": "פרשת וישלח",
+      "source_url": "https://www.sefaria.org/Kedushat_Levi%2C_Vayishlach",
+      "category": "baal_shem_tov",
+      "tags": [
+        "מאבק",
+        "יצר",
+        "ניצחון"
+      ],
+      "length_estimate": 21,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-049",
+      "text": "יוסף הצדיק שמר על קדושתו בגלות, ולכן זכה להיות משנה למלך",
+      "source_rabbi": "רבי לוי יצחק מברדיטשוב",
+      "source_book": "קדושת לוי",
+      "source_section": "פרשת וישב",
+      "source_url": "https://www.sefaria.org/Kedushat_Levi%2C_Vayeshev",
+      "category": "baal_shem_tov",
+      "tags": [
+        "יוסף",
+        "קדושה",
+        "שכר"
+      ],
+      "length_estimate": 19,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-050",
+      "text": "החלומות של פרעה רמזו על הגאולה העתידה, כי אפילו הגויים מרגישים בגאולה",
+      "source_rabbi": "רבי לוי יצחק מברדיטשוב",
+      "source_book": "קדושת לוי",
+      "source_section": "פרשת מקץ",
+      "source_url": "https://www.sefaria.org/Kedushat_Levi%2C_Miketz",
+      "category": "baal_shem_tov",
+      "tags": [
+        "חלומות",
+        "גאולה",
+        "נבואה"
+      ],
+      "length_estimate": 23,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-051",
+      "text": "פעם אחת הבעש״ט ראה נשמה גבוהה באיש פשוט, ואמר: אין לשפוט אדם לפי חיצוניותו",
+      "source_rabbi": "הבעל שם טוב",
+      "source_book": "שבחי הבעל שם טוב",
+      "source_section": "סיפור י״ב",
+      "source_url": "https://www.sefaria.org/Shivchei_HaBaal_Shem_Tov",
+      "category": "baal_shem_tov",
+      "tags": [
+        "ראיה רוחנית",
+        "ענווה",
+        "כבוד הבריות"
+      ],
+      "length_estimate": 26,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-052",
+      "text": "הבעש״ט לימד שכשאדם שומע לשון הרע על חברו, זה סימן שיש בו עצמו משהו מאותו פגם",
+      "source_rabbi": "הבעל שם טוב",
+      "source_book": "שבחי הבעל שם טוב",
+      "source_section": "סיפור כ״ג",
+      "source_url": "https://www.sefaria.org/Shivchei_HaBaal_Shem_Tov",
+      "category": "baal_shem_tov",
+      "tags": [
+        "לשון הרע",
+        "מראה",
+        "תיקון עצמי"
+      ],
+      "length_estimate": 28,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-053",
+      "text": "סיפר הבעש״ט: פעם שמעתי איש פשוט מתפלל בלב שלם, ותפילתו עלתה יותר מתפילת הלמדנים",
+      "source_rabbi": "הבעל שם טוב",
+      "source_book": "שבחי הבעל שם טוב",
+      "source_section": "סיפור ל״ד",
+      "source_url": "https://www.sefaria.org/Shivchei_HaBaal_Shem_Tov",
+      "category": "baal_shem_tov",
+      "tags": [
+        "תפילה",
+        "פשטות",
+        "לב"
+      ],
+      "length_estimate": 27,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-054",
+      "text": "הבעש״ט אמר: כשאדם עושה תשובה מאהבה, כל עבירותיו נהפכות לזכויות",
+      "source_rabbi": "הבעל שם טוב",
+      "source_book": "שבחי הבעל שם טוב",
+      "source_section": "סיפור מ״ה",
+      "source_url": "https://www.sefaria.org/Shivchei_HaBaal_Shem_Tov",
+      "category": "baal_shem_tov",
+      "tags": [
+        "תשובה",
+        "אהבה",
+        "זכויות"
+      ],
+      "length_estimate": 20,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-055",
+      "text": "פעם שאל תלמיד את הבעש״ט: מה עדיף, תורה או תפילה? ענה: תורה ותפילה ביחד, כי הם כגוף ונשמה",
+      "source_rabbi": "הבעל שם טוב",
+      "source_book": "שבחי הבעל שם טוב",
+      "source_section": "סיפור נ״ו",
+      "source_url": "https://www.sefaria.org/Shivchei_HaBaal_Shem_Tov",
+      "category": "baal_shem_tov",
+      "tags": [
+        "תורה",
+        "תפילה",
+        "איזון"
+      ],
+      "length_estimate": 30,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-056",
+      "text": "הבעש״ט גילה לתלמידיו: בכל דיבור של האדם יש ניצוצות קדושים, ועל ידי הדיבור הטוב הוא מעלה אותם",
+      "source_rabbi": "הבעל שם טוב",
+      "source_book": "שבחי הבעל שם טוב",
+      "source_section": "סיפור ס״ז",
+      "source_url": "https://www.sefaria.org/Shivchei_HaBaal_Shem_Tov",
+      "category": "baal_shem_tov",
+      "tags": [
+        "דיבור",
+        "ניצוצות",
+        "תיקון"
+      ],
+      "length_estimate": 32,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-057",
+      "text": "סיפר הבעש״ט על נסיעה לארץ ישראל: הרצון לעלות לארץ ישראל הוא כמו העלייה עצמה",
+      "source_rabbi": "הבעל שם טוב",
+      "source_book": "שבחי הבעל שם טוב",
+      "source_section": "סיפור ע״ח",
+      "source_url": "https://www.sefaria.org/Shivchei_HaBaal_Shem_Tov",
+      "category": "baal_shem_tov",
+      "tags": [
+        "ארץ ישראל",
+        "רצון",
+        "עליה"
+      ],
+      "length_estimate": 26,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-058",
+      "text": "הבעש״ט לימד: כשאדם אומר אמן בכוונה, הוא פותח שערי שמים",
+      "source_rabbi": "הבעל שם טוב",
+      "source_book": "שבחי הבעל שם טוב",
+      "source_section": "סיפור פ״ט",
+      "source_url": "https://www.sefaria.org/Shivchei_HaBaal_Shem_Tov",
+      "category": "baal_shem_tov",
+      "tags": [
+        "אמן",
+        "כוונה",
+        "תפילה"
+      ],
+      "length_estimate": 18,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-059",
+      "text": "פעם ראה הבעש״ט יהודי עני ואמר: עני הדומה למת, זה מי שאינו שמח בחלקו. אבל עני השמח בחלקו הוא עשיר",
+      "source_rabbi": "הבעל שם טוב",
+      "source_book": "שבחי הבעל שם טוב",
+      "source_section": "סיפור צ״ג",
+      "source_url": "https://www.sefaria.org/Shivchei_HaBaal_Shem_Tov",
+      "category": "baal_shem_tov",
+      "tags": [
+        "שמחה",
+        "עניות",
+        "הסתפקות"
+      ],
+      "length_estimate": 34,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-060",
+      "text": "הבעש״ט אמר: אל תדון את חברך עד שתגיע למקומו. ואתה לעולם לא תגיע למקומו, לכן אל תדון",
+      "source_rabbi": "הבעל שם טוב",
+      "source_book": "שבחי הבעל שם טוב",
+      "source_section": "סיפור ק״ד",
+      "source_url": "https://www.sefaria.org/Shivchei_HaBaal_Shem_Tov",
+      "category": "baal_shem_tov",
+      "tags": [
+        "דין לכף זכות",
+        "ענווה",
+        "מידות"
+      ],
+      "length_estimate": 28,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-061",
+      "text": "האדם הוא עולם קטן, וכל מה שיש בעולם הגדול יש באדם. לכן יכול לתקן את כל העולם",
+      "source_rabbi": "רבי יעקב יוסף מפולנאה",
+      "source_book": "תולדות יעקב יוסף",
+      "source_section": "פרשת תרומה",
+      "source_url": "https://www.sefaria.org/Toldot_Yaakov_Yosef%2C_Terumah",
+      "category": "baal_shem_tov",
+      "tags": [
+        "עולם קטן",
+        "תיקון",
+        "אדם"
+      ],
+      "length_estimate": 27,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-062",
+      "text": "המשכן הוא בלב האדם. כשאדם מכין את לבו, הקב״ה שוכן בתוכו",
+      "source_rabbi": "רבי יעקב יוסף מפולנאה",
+      "source_book": "תולדות יעקב יוסף",
+      "source_section": "פרשת תצוה",
+      "source_url": "https://www.sefaria.org/Toldot_Yaakov_Yosef%2C_Tetzaveh",
+      "category": "baal_shem_tov",
+      "tags": [
+        "משכן",
+        "לב",
+        "השראת שכינה"
+      ],
+      "length_estimate": 19,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-063",
+      "text": "כי תשא את ראש - כשאדם מרים את ראשו לשמים, הוא מתעלה למעלה מהעולם הזה",
+      "source_rabbi": "רבי יעקב יוסף מפולנאה",
+      "source_book": "תולדות יעקב יוסף",
+      "source_section": "פרשת כי תשא",
+      "source_url": "https://www.sefaria.org/Toldot_Yaakov_Yosef%2C_Ki_Tisa",
+      "category": "baal_shem_tov",
+      "tags": [
+        "התעלות",
+        "ראש",
+        "עליה רוחנית"
+      ],
+      "length_estimate": 24,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-064",
+      "text": "ויקהל משה - הצדיק מקהיל את הנשמות ומאחד אותן לעבודת ה׳",
+      "source_rabbi": "רבי יעקב יוסף מפולנאה",
+      "source_book": "תולדות יעקב יוסף",
+      "source_section": "פרשת ויקהל",
+      "source_url": "https://www.sefaria.org/Toldot_Yaakov_Yosef%2C_Vayakhel",
+      "category": "baal_shem_tov",
+      "tags": [
+        "צדיק",
+        "אחדות",
+        "קהילה"
+      ],
+      "length_estimate": 18,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-065",
+      "text": "פקודי המשכן - כל פרט בעבודת ה׳ נחשב ונספר למעלה",
+      "source_rabbi": "רבי יעקב יוסף מפולנאה",
+      "source_book": "תולדות יעקב יוסף",
+      "source_section": "פרשת פקודי",
+      "source_url": "https://www.sefaria.org/Toldot_Yaakov_Yosef%2C_Pekudei",
+      "category": "baal_shem_tov",
+      "tags": [
+        "עבודת השם",
+        "דקדוק",
+        "חשבון"
+      ],
+      "length_estimate": 16,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-066",
+      "text": "ויקרא אל משה - הקב״ה קורא לכל אדם, אך לא כולם שומעים את הקריאה",
+      "source_rabbi": "רבי יעקב יוסף מפולנאה",
+      "source_book": "תולדות יעקב יוסף",
+      "source_section": "פרשת ויקרא",
+      "source_url": "https://www.sefaria.org/Toldot_Yaakov_Yosef%2C_Vayikra",
+      "category": "baal_shem_tov",
+      "tags": [
+        "קריאה",
+        "שמיעה",
+        "התקשרות"
+      ],
+      "length_estimate": 21,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-067",
+      "text": "הקרבנות הם כנגד הקרבת הנפש. כשאדם מקריב את רצונותיו לה׳, זו הקרבה אמיתית",
+      "source_rabbi": "רבי יעקב יוסף מפולנאה",
+      "source_book": "תולדות יעקב יוסף",
+      "source_section": "פרשת צו",
+      "source_url": "https://www.sefaria.org/Toldot_Yaakov_Yosef%2C_Tzav",
+      "category": "baal_shem_tov",
+      "tags": [
+        "קרבנות",
+        "מסירות נפש",
+        "עבודת השם"
+      ],
+      "length_estimate": 24,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-068",
+      "text": "אש תמיד תוקד - האש של האהבה לה׳ צריכה לבעור תמיד בלב האדם",
+      "source_rabbi": "רבי יעקב יוסף מפולנאה",
+      "source_book": "תולדות יעקב יוסף",
+      "source_section": "פרשת שמיני",
+      "source_url": "https://www.sefaria.org/Toldot_Yaakov_Yosef%2C_Shemini",
+      "category": "baal_shem_tov",
+      "tags": [
+        "אהבת ה׳",
+        "אש",
+        "התמדה"
+      ],
+      "length_estimate": 20,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-069",
+      "text": "טהרת הגוף מביאה לטהרת הנפש. הגוף והנפש קשורים זה בזה",
+      "source_rabbi": "רבי יעקב יוסף מפולנאה",
+      "source_book": "תולדות יעקב יוסף",
+      "source_section": "פרשת תזריע",
+      "source_url": "https://www.sefaria.org/Toldot_Yaakov_Yosef%2C_Tazria",
+      "category": "baal_shem_tov",
+      "tags": [
+        "טהרה",
+        "גוף ונפש",
+        "קדושה"
+      ],
+      "length_estimate": 18,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-070",
+      "text": "המצורע מטהר על ידי שפלות. כי הצרעת באה מגאוה, והתיקון הוא ענווה",
+      "source_rabbi": "רבי יעקב יוסף מפולנאה",
+      "source_book": "תולדות יעקב יוסף",
+      "source_section": "פרשת מצורע",
+      "source_url": "https://www.sefaria.org/Toldot_Yaakov_Yosef%2C_Metzora",
+      "category": "baal_shem_tov",
+      "tags": [
+        "ענווה",
+        "גאוה",
+        "תיקון"
+      ],
+      "length_estimate": 21,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-071",
+      "text": "אחרי מות - אחרי שאדם ממית את יצרו הרע, הוא יכול להיכנס לקודש",
+      "source_rabbi": "רבי מנחם נחום מטשרנוביל",
+      "source_book": "מאור עינים",
+      "source_section": "פרשת אחרי מות",
+      "source_url": "https://www.sefaria.org/Meor_Einayim%2C_Acharei_Mot",
+      "category": "baal_shem_tov",
+      "tags": [
+        "יצר",
+        "קדושה",
+        "עבודה פנימית"
+      ],
+      "length_estimate": 21,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-072",
+      "text": "קדושים תהיו - התקדשו במותר לכם, כי הקדושה היא גם בדברים הגשמיים",
+      "source_rabbi": "רבי מנחם נחום מטשרנוביל",
+      "source_book": "מאור עינים",
+      "source_section": "פרשת קדושים",
+      "source_url": "https://www.sefaria.org/Meor_Einayim%2C_Kedoshim",
+      "category": "baal_shem_tov",
+      "tags": [
+        "קדושה",
+        "גשמיות",
+        "פרישות"
+      ],
+      "length_estimate": 21,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-073",
+      "text": "אמור אל הכהנים - הדיבור הטוב הוא ככהן שמברך את ישראל",
+      "source_rabbi": "רבי מנחם נחום מטשרנוביל",
+      "source_book": "מאור עינים",
+      "source_section": "פרשת אמור",
+      "source_url": "https://www.sefaria.org/Meor_Einayim%2C_Emor",
+      "category": "baal_shem_tov",
+      "tags": [
+        "דיבור",
+        "ברכה",
+        "כהונה"
+      ],
+      "length_estimate": 17,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-074",
+      "text": "בהר סיני - כל מקום יכול להיות הר סיני אם האדם מכין את עצמו לקבל תורה",
+      "source_rabbi": "רבי מנחם נחום מטשרנוביל",
+      "source_book": "מאור עינים",
+      "source_section": "פרשת בהר",
+      "source_url": "https://www.sefaria.org/Meor_Einayim%2C_Behar",
+      "category": "baal_shem_tov",
+      "tags": [
+        "תורה",
+        "קבלה",
+        "מקום"
+      ],
+      "length_estimate": 24,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-075",
+      "text": "בחוקותי תלכו - ההליכה בדרך ה׳ היא תמידית, אין עמידה במקום",
+      "source_rabbi": "רבי מנחם נחום מטשרנוביל",
+      "source_book": "מאור עינים",
+      "source_section": "פרשת בחוקותי",
+      "source_url": "https://www.sefaria.org/Meor_Einayim%2C_Bechukotai",
+      "category": "baal_shem_tov",
+      "tags": [
+        "הליכה",
+        "התמדה",
+        "עבודת השם"
+      ],
+      "length_estimate": 19,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-076",
+      "text": "במדבר סיני - התורה ניתנה במדבר כי צריך להיות כמדבר, שפל ופנוי מגאוה",
+      "source_rabbi": "רבי מנחם נחום מטשרנוביל",
+      "source_book": "מאור עינים",
+      "source_section": "פרשת במדבר",
+      "source_url": "https://www.sefaria.org/Meor_Einayim%2C_Bamidbar",
+      "category": "baal_shem_tov",
+      "tags": [
+        "תורה",
+        "ענווה",
+        "מדבר"
+      ],
+      "length_estimate": 23,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-077",
+      "text": "נשא את ראש - להרים את הראש זה להתעלות מעל הטבע האנושי",
+      "source_rabbi": "רבי מנחם נחום מטשרנוביל",
+      "source_book": "מאור עינים",
+      "source_section": "פרשת נשא",
+      "source_url": "https://www.sefaria.org/Meor_Einayim%2C_Naso",
+      "category": "baal_shem_tov",
+      "tags": [
+        "התעלות",
+        "טבע",
+        "עליה"
+      ],
+      "length_estimate": 18,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-078",
+      "text": "בהעלותך את הנרות - כל נשמה היא נר, ועל האדם להאיר את נשמתו",
+      "source_rabbi": "רבי מנחם נחום מטשרנוביל",
+      "source_book": "מאור עינים",
+      "source_section": "פרשת בהעלותך",
+      "source_url": "https://www.sefaria.org/Meor_Einayim%2C_Behaalotcha",
+      "category": "baal_shem_tov",
+      "tags": [
+        "נשמה",
+        "אור",
+        "הארה"
+      ],
+      "length_estimate": 20,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-079",
+      "text": "שלח לך - האדם שולח את עצמו לתור את הארץ הרוחנית שבתוכו",
+      "source_rabbi": "רבי מנחם נחום מטשרנוביל",
+      "source_book": "מאור עינים",
+      "source_section": "פרשת שלח",
+      "source_url": "https://www.sefaria.org/Meor_Einayim%2C_Shelach",
+      "category": "baal_shem_tov",
+      "tags": [
+        "חיפוש",
+        "עבודה פנימית",
+        "גילוי"
+      ],
+      "length_estimate": 18,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-080",
+      "text": "ויקח קרח - הפירוד והמחלוקת הם שורש כל הרעות. האחדות היא שורש הטוב",
+      "source_rabbi": "רבי מנחם נחום מטשרנוביל",
+      "source_book": "מאור עינים",
+      "source_section": "פרשת קרח",
+      "source_url": "https://www.sefaria.org/Meor_Einayim%2C_Korach",
+      "category": "baal_shem_tov",
+      "tags": [
+        "מחלוקת",
+        "אחדות",
+        "שלום"
+      ],
+      "length_estimate": 22,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-081",
+      "text": "זאת חקת התורה - החוקים שאין להם טעם הם הגבוהים ביותר, כי הם מעל השכל",
+      "source_rabbi": "רבי אלימלך מליזענסק",
+      "source_book": "נועם אלימלך",
+      "source_section": "פרשת חקת",
+      "source_url": "https://www.sefaria.org/Noam_Elimelech%2C_Chukat",
+      "category": "baal_shem_tov",
+      "tags": [
+        "חוקים",
+        "אמונה",
+        "מעל השכל"
+      ],
+      "length_estimate": 24,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-082",
+      "text": "וירא בלק - גם הגויים יכולים לראות את גדולת ישראל, אך הם מקנאים במקום ללמוד",
+      "source_rabbi": "רבי אלימלך מליזענסק",
+      "source_book": "נועם אלימלך",
+      "source_section": "פרשת בלק",
+      "source_url": "https://www.sefaria.org/Noam_Elimelech%2C_Balak",
+      "category": "baal_shem_tov",
+      "tags": [
+        "ישראל",
+        "גויים",
+        "קנאה"
+      ],
+      "length_estimate": 26,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-083",
+      "text": "פנחס קנא לה׳ - הקנאה לשם שמים היא מדה טובה, אך קנאה לשם עצמו היא רעה",
+      "source_rabbi": "רבי אלימלך מליזענסק",
+      "source_book": "נועם אלימלך",
+      "source_section": "פרשת פנחס",
+      "source_url": "https://www.sefaria.org/Noam_Elimelech%2C_Pinchas",
+      "category": "baal_shem_tov",
+      "tags": [
+        "קנאה",
+        "לשם שמים",
+        "מידות"
+      ],
+      "length_estimate": 24,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-084",
+      "text": "אלה מסעי - כל מסע בחיים הוא צעד בדרך הרוחנית. אין מסע לשווא",
+      "source_rabbi": "רבי אלימלך מליזענסק",
+      "source_book": "נועם אלימלך",
+      "source_section": "פרשת מסעי",
+      "source_url": "https://www.sefaria.org/Noam_Elimelech%2C_Masei",
+      "category": "baal_shem_tov",
+      "tags": [
+        "מסע",
+        "דרך",
+        "תכלית"
+      ],
+      "length_estimate": 20,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-085",
+      "text": "דברים אלה דבר משה - הדיבור של הצדיק הוא דבר ה׳ המתלבש בפיו",
+      "source_rabbi": "רבי אלימלך מליזענסק",
+      "source_book": "נועם אלימלך",
+      "source_section": "פרשת דברים",
+      "source_url": "https://www.sefaria.org/Noam_Elimelech%2C_Devarim",
+      "category": "baal_shem_tov",
+      "tags": [
+        "דיבור",
+        "צדיק",
+        "התלבשות"
+      ],
+      "length_estimate": 20,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-086",
+      "text": "ואתחנן אל ה׳ - התפילה צריכה להיות בחינם, בלי ציפייה לשכר",
+      "source_rabbi": "רבי אלימלך מליזענסק",
+      "source_book": "נועם אלימלך",
+      "source_section": "פרשת ואתחנן",
+      "source_url": "https://www.sefaria.org/Noam_Elimelech%2C_Vaetchanan",
+      "category": "baal_shem_tov",
+      "tags": [
+        "תפילה",
+        "חינם",
+        "עבודה טהורה"
+      ],
+      "length_estimate": 18,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-087",
+      "text": "והיה עקב תשמעון - השכר בא בעקב, אחרי שהאדם שוכח שעשה מצוה",
+      "source_rabbi": "רבי אלימלך מליזענסק",
+      "source_book": "נועם אלימלך",
+      "source_section": "פרשת עקב",
+      "source_url": "https://www.sefaria.org/Noam_Elimelech%2C_Eikev",
+      "category": "baal_shem_tov",
+      "tags": [
+        "שכר",
+        "ענווה",
+        "מצוות"
+      ],
+      "length_estimate": 19,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-088",
+      "text": "ראה אנכי נותן - לראות את האנכי האלוקי בכל דבר, זו ראיה אמיתית",
+      "source_rabbi": "רבי אלימלך מליזענסק",
+      "source_book": "נועם אלימלך",
+      "source_section": "פרשת ראה",
+      "source_url": "https://www.sefaria.org/Noam_Elimelech%2C_Re'eh",
+      "category": "baal_shem_tov",
+      "tags": [
+        "ראיה",
+        "אלקות",
+        "השגה"
+      ],
+      "length_estimate": 19,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-089",
+      "text": "שופטים ושוטרים - האדם צריך לשפוט את עצמו בכל יום ולשמור על מעשיו",
+      "source_rabbi": "רבי אלימלך מליזענסק",
+      "source_book": "נועם אלימלך",
+      "source_section": "פרשת שופטים",
+      "source_url": "https://www.sefaria.org/Noam_Elimelech%2C_Shoftim",
+      "category": "baal_shem_tov",
+      "tags": [
+        "משפט עצמי",
+        "חשבון נפש",
+        "שמירה"
+      ],
+      "length_estimate": 21,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-090",
+      "text": "כי תצא למלחמה - היציאה למלחמה היא נגד היצר, ובטוח שתנצח אם תלך עם ה׳",
+      "source_rabbi": "רבי אלימלך מליזענסק",
+      "source_book": "נועם אלימלך",
+      "source_section": "פרשת כי תצא",
+      "source_url": "https://www.sefaria.org/Noam_Elimelech%2C_Ki_Teitzei",
+      "category": "baal_shem_tov",
+      "tags": [
+        "מלחמה",
+        "יצר",
+        "ניצחון"
+      ],
+      "length_estimate": 25,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-091",
+      "text": "הבעש״ט אמר: כל יום שעובר הוא כמו יום ראשון של הבריאה, והכל מתחדש",
+      "source_rabbi": "הבעל שם טוב",
+      "source_book": "שבחי הבעל שם טוב",
+      "source_section": "סיפור קט״ו",
+      "source_url": "https://www.sefaria.org/Shivchei_HaBaal_Shem_Tov",
+      "category": "baal_shem_tov",
+      "tags": [
+        "התחדשות",
+        "בריאה",
+        "כל יום"
+      ],
+      "length_estimate": 22,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-092",
+      "text": "סיפר הבעש״ט: ראיתי צדיק שנפל ממדרגתו, אך דווקא הנפילה הביאה אותו לעלייה גדולה יותר",
+      "source_rabbi": "הבעל שם טוב",
+      "source_book": "שבחי הבעל שם טוב",
+      "source_section": "סיפור קכ״ו",
+      "source_url": "https://www.sefaria.org/Shivchei_HaBaal_Shem_Tov",
+      "category": "baal_shem_tov",
+      "tags": [
+        "נפילה",
+        "עליה",
+        "צדיק"
+      ],
+      "length_estimate": 28,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-093",
+      "text": "הבעש״ט לימד: הקב״ה שונא את הגאוה יותר מכל. אפילו גאוה בעבודת ה׳ היא גאוה",
+      "source_rabbi": "הבעל שם טוב",
+      "source_book": "שבחי הבעל שם טוב",
+      "source_section": "סיפור קל״ז",
+      "source_url": "https://www.sefaria.org/Shivchei_HaBaal_Shem_Tov",
+      "category": "baal_shem_tov",
+      "tags": [
+        "גאוה",
+        "ענווה",
+        "עבודת השם"
+      ],
+      "length_estimate": 26,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-094",
+      "text": "פעם בא עני לבעש״ט וקיבל ממנו צדקה. אמר הבעש״ט: הוא עשה לי טובה שנתן לי לקיים מצוה",
+      "source_rabbi": "הבעל שם טוב",
+      "source_book": "שבחי הבעל שם טוב",
+      "source_section": "סיפור קמ״ח",
+      "source_url": "https://www.sefaria.org/Shivchei_HaBaal_Shem_Tov",
+      "category": "baal_shem_tov",
+      "tags": [
+        "צדקה",
+        "הכרת הטוב",
+        "ענווה"
+      ],
+      "length_estimate": 30,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-095",
+      "text": "הבעש״ט אמר: המחשבה רצה מסוף העולם ועד סופו ברגע. לכן צריך לשמור על המחשבה",
+      "source_rabbi": "הבעל שם טוב",
+      "source_book": "שבחי הבעל שם טוב",
+      "source_section": "סיפור קנ״ט",
+      "source_url": "https://www.sefaria.org/Shivchei_HaBaal_Shem_Tov",
+      "category": "baal_shem_tov",
+      "tags": [
+        "מחשבה",
+        "שמירה",
+        "כוח"
+      ],
+      "length_estimate": 26,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-096",
+      "text": "סיפר הבעש״ט: ראיתי שכל התפילות של ישראל עולות למעלה, גם הפשוטות ביותר",
+      "source_rabbi": "הבעל שם טוב",
+      "source_book": "שבחי הבעל שם טוב",
+      "source_section": "סיפור ק״ע",
+      "source_url": "https://www.sefaria.org/Shivchei_HaBaal_Shem_Tov",
+      "category": "baal_shem_tov",
+      "tags": [
+        "תפילה",
+        "עליה",
+        "ישראל"
+      ],
+      "length_estimate": 23,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-097",
+      "text": "הבעש״ט לימד: כשאדם מדליק נר, הוא ממשיך אור לכל העולמות. כל מעשה קטן משפיע",
+      "source_rabbi": "הבעל שם טוב",
+      "source_book": "שבחי הבעל שם טוב",
+      "source_section": "סיפור קפ״א",
+      "source_url": "https://www.sefaria.org/Shivchei_HaBaal_Shem_Tov",
+      "category": "baal_shem_tov",
+      "tags": [
+        "נר",
+        "אור",
+        "השפעה"
+      ],
+      "length_estimate": 26,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-098",
+      "text": "פעם שאלו את הבעש״ט: מדוע יש יסורים? ענה: היסורים מטהרים את הנשמה כמו האש מטהרת את הזהב",
+      "source_rabbi": "הבעל שם טוב",
+      "source_book": "שבחי הבעל שם טוב",
+      "source_section": "סיפור קצ״ב",
+      "source_url": "https://www.sefaria.org/Shivchei_HaBaal_Shem_Tov",
+      "category": "baal_shem_tov",
+      "tags": [
+        "יסורים",
+        "טהרה",
+        "נשמה"
+      ],
+      "length_estimate": 31,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-099",
+      "text": "הבעש״ט אמר: כל יהודי הוא אבר בגוף השכינה. כשפוגעים באחד, פוגעים בכולם",
+      "source_rabbi": "הבעל שם טוב",
+      "source_book": "שבחי הבעל שם טוב",
+      "source_section": "סיפור ר״ג",
+      "source_url": "https://www.sefaria.org/Shivchei_HaBaal_Shem_Tov",
+      "category": "baal_shem_tov",
+      "tags": [
+        "אחדות ישראל",
+        "שכינה",
+        "ערבות"
+      ],
+      "length_estimate": 24,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch2-100",
+      "text": "לפני פטירתו אמר הבעש״ט: אני לא דואג, כי יודע אני שיוצא מדלת אחת ונכנס בדלת אחרת",
+      "source_rabbi": "הבעל שם טוב",
+      "source_book": "שבחי הבעל שם טוב",
+      "source_section": "סיפור האחרון",
+      "source_url": "https://www.sefaria.org/Shivchei_HaBaal_Shem_Tov",
+      "category": "baal_shem_tov",
+      "tags": [
+        "פטירה",
+        "אמונה",
+        "עולם הבא"
+      ],
+      "length_estimate": 28,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-001",
+      "text": "כל מה שאדם רואה או שומע, הכל הוא הוראה בעבודת השם. וזהו פירוש מלוא כל הארץ כבודו",
+      "source_rabbi": "רבי יעקב יוסף מפולנאה",
+      "source_book": "תולדות יעקב יוסף",
+      "source_section": "פרשת בראשית",
+      "source_url": "https://www.sefaria.org/Toldot_Yaakov_Yosef",
+      "category": "baal_shem_tov",
+      "tags": [
+        "השגחה פרטית",
+        "עבודת השם",
+        "ראייה"
+      ],
+      "length_estimate": 28,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-002",
+      "text": "העיקר הוא הדבקות, שיהיה דבוק בבורא יתברך בכל עת ובכל רגע, ואפילו בעסקיו ובמשאו ומתנו",
+      "source_rabbi": "רבי יעקב יוסף מפולנאה",
+      "source_book": "תולדות יעקב יוסף",
+      "source_section": "פרשת נח",
+      "source_url": "https://www.sefaria.org/Toldot_Yaakov_Yosef",
+      "category": "baal_shem_tov",
+      "tags": [
+        "דבקות",
+        "עבודת השם",
+        "תמידיות"
+      ],
+      "length_estimate": 29,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-003",
+      "text": "האדם צריך לידע שכל התנועות שלו הם מהבורא יתברך, והוא כגרזן ביד החוצב",
+      "source_rabbi": "רבי יעקב יוסף מפולנאה",
+      "source_book": "תולדות יעקב יוסף",
+      "source_section": "פרשת לך לך",
+      "source_url": "https://www.sefaria.org/Toldot_Yaakov_Yosef",
+      "category": "baal_shem_tov",
+      "tags": [
+        "ביטול",
+        "השגחה",
+        "ענווה"
+      ],
+      "length_estimate": 24,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-004",
+      "text": "בכל דבר שבעולם יש ניצוצות קדושה, ועל האדם להעלותם לשורשם על ידי כוונה טובה",
+      "source_rabbi": "רבי יעקב יוסף מפולנאה",
+      "source_book": "תולדות יעקב יוסף",
+      "source_section": "פרשת וירא",
+      "source_url": "https://www.sefaria.org/Toldot_Yaakov_Yosef",
+      "category": "baal_shem_tov",
+      "tags": [
+        "ניצוצות",
+        "העלאה",
+        "תיקון"
+      ],
+      "length_estimate": 26,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-005",
+      "text": "כשאדם מתפלל, יחשוב שהוא עומד בהיכל המלך, ויתבייש לחשוב מחשבות זרות",
+      "source_rabbi": "רבי יעקב יוסף מפולנאה",
+      "source_book": "תולדות יעקב יוסף",
+      "source_section": "פרשת חיי שרה",
+      "source_url": "https://www.sefaria.org/Toldot_Yaakov_Yosef",
+      "category": "baal_shem_tov",
+      "tags": [
+        "תפילה",
+        "כוונה",
+        "יראה"
+      ],
+      "length_estimate": 23,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-006",
+      "text": "השמחה פותחת כל השערים. העצבות סוגרת את כל השערים",
+      "source_rabbi": "רבי יעקב יוסף מפולנאה",
+      "source_book": "תולדות יעקב יוסף",
+      "source_section": "פרשת תולדות",
+      "source_url": "https://www.sefaria.org/Toldot_Yaakov_Yosef",
+      "category": "baal_shem_tov",
+      "tags": [
+        "שמחה",
+        "עצבות",
+        "שערים"
+      ],
+      "length_estimate": 16,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-007",
+      "text": "כל אדם צריך לתקן את חלק נשמתו שהוא ירד לתקן, ולא יסתכל על חברו",
+      "source_rabbi": "רבי יעקב יוסף מפולנאה",
+      "source_book": "תולדות יעקב יוסף",
+      "source_section": "פרשת ויצא",
+      "source_url": "https://www.sefaria.org/Toldot_Yaakov_Yosef",
+      "category": "baal_shem_tov",
+      "tags": [
+        "תיקון",
+        "נשמה",
+        "עבודה עצמית"
+      ],
+      "length_estimate": 22,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-008",
+      "text": "מי שרואה רע בחברו, זה סימן שיש בו עצמו מאותו רע, שהרי מראים לו מלמעלה כמראה",
+      "source_rabbi": "רבי יעקב יוסף מפולנאה",
+      "source_book": "תולדות יעקב יוסף",
+      "source_section": "פרשת וישלח",
+      "source_url": "https://www.sefaria.org/Toldot_Yaakov_Yosef",
+      "category": "baal_shem_tov",
+      "tags": [
+        "מראה",
+        "תיקון עצמי",
+        "שיפוט"
+      ],
+      "length_estimate": 27,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-009",
+      "text": "עבודת ה׳ האמיתית היא בלב, ולא די במעשה לבד. הלב הוא העיקר",
+      "source_rabbi": "רבי יעקב יוסף מפולנאה",
+      "source_book": "תולדות יעקב יוסף",
+      "source_section": "פרשת וישב",
+      "source_url": "https://www.sefaria.org/Toldot_Yaakov_Yosef",
+      "category": "baal_shem_tov",
+      "tags": [
+        "עבודת הלב",
+        "כוונה",
+        "פנימיות"
+      ],
+      "length_estimate": 20,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-010",
+      "text": "הצדיק הוא כמו צינור להמשיך שפע לכל העולם. ככל שהוא בטל יותר, כך ממשיך יותר",
+      "source_rabbi": "רבי יעקב יוסף מפולנאה",
+      "source_book": "תולדות יעקב יוסף",
+      "source_section": "פרשת מקץ",
+      "source_url": "https://www.sefaria.org/Toldot_Yaakov_Yosef",
+      "category": "baal_shem_tov",
+      "tags": [
+        "צדיק",
+        "שפע",
+        "ביטול"
+      ],
+      "length_estimate": 26,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-011",
+      "text": "כשאדם נופל ממדרגתו, ידע שזה מן השמים כדי שיעלה אחר כך למדרגה גבוהה יותר",
+      "source_rabbi": "רבי יעקב יוסף מפולנאה",
+      "source_book": "תולדות יעקב יוסף",
+      "source_section": "פרשת ויגש",
+      "source_url": "https://www.sefaria.org/Toldot_Yaakov_Yosef",
+      "category": "baal_shem_tov",
+      "tags": [
+        "נפילה",
+        "עלייה",
+        "השגחה"
+      ],
+      "length_estimate": 25,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-012",
+      "text": "התורה היא שמותיו של הקדוש ברוך הוא. כשלומד תורה, מתדבק בשמו יתברך",
+      "source_rabbi": "רבי יעקב יוסף מפולנאה",
+      "source_book": "תולדות יעקב יוסף",
+      "source_section": "פרשת ויחי",
+      "source_url": "https://www.sefaria.org/Toldot_Yaakov_Yosef",
+      "category": "baal_shem_tov",
+      "tags": [
+        "תורה",
+        "דבקות",
+        "שמות"
+      ],
+      "length_estimate": 22,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-013",
+      "text": "אין לך דבר שאין בו חיות אלוקית. גם האבן שבדרך, גם העשב שבשדה",
+      "source_rabbi": "רבי יעקב יוסף מפולנאה",
+      "source_book": "תולדות יעקב יוסף",
+      "source_section": "פרשת שמות",
+      "source_url": "https://www.sefaria.org/Toldot_Yaakov_Yosef",
+      "category": "baal_shem_tov",
+      "tags": [
+        "חיות אלוקית",
+        "עולם",
+        "אמונה"
+      ],
+      "length_estimate": 21,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-014",
+      "text": "כל מחשבה זרה שבאה לאדם בתפילה, היא באה כדי שיעלה אותה לשורשה",
+      "source_rabbi": "רבי יעקב יוסף מפולנאה",
+      "source_book": "תולדות יעקב יוסף",
+      "source_section": "פרשת וארא",
+      "source_url": "https://www.sefaria.org/Toldot_Yaakov_Yosef",
+      "category": "baal_shem_tov",
+      "tags": [
+        "מחשבות זרות",
+        "תפילה",
+        "העלאה"
+      ],
+      "length_estimate": 21,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-015",
+      "text": "השם יתברך ברא את העולם כדי להיטיב לברואיו. וכל הנהגתו היא חסד",
+      "source_rabbi": "רבי יעקב יוסף מפולנאה",
+      "source_book": "תולדות יעקב יוסף",
+      "source_section": "פרשת בא",
+      "source_url": "https://www.sefaria.org/Toldot_Yaakov_Yosef",
+      "category": "baal_shem_tov",
+      "tags": [
+        "חסד",
+        "בריאה",
+        "הטבה"
+      ],
+      "length_estimate": 21,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-016",
+      "text": "כל ירידה היא לצורך עלייה. אין ירידה שאין אחריה עלייה גדולה יותר",
+      "source_rabbi": "רבי יעקב יוסף מפולנאה",
+      "source_book": "תולדות יעקב יוסף",
+      "source_section": "פרשת בשלח",
+      "source_url": "https://www.sefaria.org/Toldot_Yaakov_Yosef",
+      "category": "baal_shem_tov",
+      "tags": [
+        "ירידה",
+        "עלייה",
+        "התחזקות"
+      ],
+      "length_estimate": 21,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-017",
+      "text": "התפילה צריכה להיות בהתלהבות ובשמחה, כאילו מצא אוצר גדול",
+      "source_rabbi": "רבי יעקב יוסף מפולנאה",
+      "source_book": "תולדות יעקב יוסף",
+      "source_section": "פרשת יתרו",
+      "source_url": "https://www.sefaria.org/Toldot_Yaakov_Yosef",
+      "category": "baal_shem_tov",
+      "tags": [
+        "תפילה",
+        "התלהבות",
+        "שמחה"
+      ],
+      "length_estimate": 18,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-018",
+      "text": "כשאדם אומר דברי תורה, צריך לראות את עצמו כאילו הוא עומד בהר סיני",
+      "source_rabbi": "רבי יעקב יוסף מפולנאה",
+      "source_book": "תולדות יעקב יוסף",
+      "source_section": "פרשת משפטים",
+      "source_url": "https://www.sefaria.org/Toldot_Yaakov_Yosef",
+      "category": "baal_shem_tov",
+      "tags": [
+        "תורה",
+        "הר סיני",
+        "לימוד"
+      ],
+      "length_estimate": 23,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-019",
+      "text": "האדם נברא יחידי ללמדך שכל אחד חייב לומר: בשבילי נברא העולם",
+      "source_rabbi": "רבי יעקב יוסף מפולנאה",
+      "source_book": "תולדות יעקב יוסף",
+      "source_section": "פרשת תרומה",
+      "source_url": "https://www.sefaria.org/Toldot_Yaakov_Yosef",
+      "category": "baal_shem_tov",
+      "tags": [
+        "ייחוד",
+        "אחריות",
+        "ערך האדם"
+      ],
+      "length_estimate": 20,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-020",
+      "text": "המשכן הוא בתוך כל אדם. כל אחד צריך לעשות מעצמו משכן לשכינה",
+      "source_rabbi": "רבי יעקב יוסף מפולנאה",
+      "source_book": "תולדות יעקב יוסף",
+      "source_section": "פרשת תצוה",
+      "source_url": "https://www.sefaria.org/Toldot_Yaakov_Yosef",
+      "category": "baal_shem_tov",
+      "tags": [
+        "משכן",
+        "שכינה",
+        "פנימיות"
+      ],
+      "length_estimate": 20,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-021",
+      "text": "אמר הבעש״ט: כל העולם מלא כבודו, ואין מקום פנוי ממנו יתברך כלל",
+      "source_rabbi": "רבי מנחם נחום מטשרנוביל",
+      "source_book": "מאור עינים",
+      "source_section": "פרשת בראשית",
+      "source_url": "https://www.sefaria.org/Meor_Einayim",
+      "category": "baal_shem_tov",
+      "tags": [
+        "מלא כל הארץ",
+        "אלוקות",
+        "נוכחות"
+      ],
+      "length_estimate": 21,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-022",
+      "text": "כשאדם מכיר שאין עוד מלבדו, אזי כל הקליפות נופלות ממילא",
+      "source_rabbi": "רבי מנחם נחום מטשרנוביל",
+      "source_book": "מאור עינים",
+      "source_section": "פרשת נח",
+      "source_url": "https://www.sefaria.org/Meor_Einayim",
+      "category": "baal_shem_tov",
+      "tags": [
+        "אין עוד מלבדו",
+        "קליפות",
+        "אמונה"
+      ],
+      "length_estimate": 18,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-023",
+      "text": "העבודה האמיתית היא לראות את האור האלוקי שבכל דבר ולהתקשר אליו",
+      "source_rabbi": "רבי מנחם נחום מטשרנוביל",
+      "source_book": "מאור עינים",
+      "source_section": "פרשת לך לך",
+      "source_url": "https://www.sefaria.org/Meor_Einayim",
+      "category": "baal_shem_tov",
+      "tags": [
+        "אור",
+        "התקשרות",
+        "ראייה"
+      ],
+      "length_estimate": 21,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-024",
+      "text": "אמר הבעש״ט: הדבקות היא יסוד כל העבודה. בלי דבקות, כל המעשים הם כגוף בלי נשמה",
+      "source_rabbi": "רבי מנחם נחום מטשרנוביל",
+      "source_book": "מאור עינים",
+      "source_section": "פרשת וירא",
+      "source_url": "https://www.sefaria.org/Meor_Einayim",
+      "category": "baal_shem_tov",
+      "tags": [
+        "דבקות",
+        "יסוד",
+        "נשמה"
+      ],
+      "length_estimate": 27,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-025",
+      "text": "לימד הבעש״ט: כל אות מאותיות התורה היא עולם שלם, מלא אור וחיות",
+      "source_rabbi": "רבי מנחם נחום מטשרנוביל",
+      "source_book": "מאור עינים",
+      "source_section": "פרשת חיי שרה",
+      "source_url": "https://www.sefaria.org/Meor_Einayim",
+      "category": "baal_shem_tov",
+      "tags": [
+        "אותיות",
+        "תורה",
+        "אור"
+      ],
+      "length_estimate": 21,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-026",
+      "text": "השמחה היא כלי לקבל את השפע האלוקי. בלי שמחה, אי אפשר לקבל",
+      "source_rabbi": "רבי מנחם נחום מטשרנוביל",
+      "source_book": "מאור עינים",
+      "source_section": "פרשת תולדות",
+      "source_url": "https://www.sefaria.org/Meor_Einayim",
+      "category": "baal_shem_tov",
+      "tags": [
+        "שמחה",
+        "שפע",
+        "קבלה"
+      ],
+      "length_estimate": 19,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-027",
+      "text": "אמר הבעש״ט: כשאדם עובד את ה׳ בשמחה, הוא ממשיך שמחה לכל העולמות",
+      "source_rabbi": "רבי מנחם נחום מטשרנוביל",
+      "source_book": "מאור עינים",
+      "source_section": "פרשת ויצא",
+      "source_url": "https://www.sefaria.org/Meor_Einayim",
+      "category": "baal_shem_tov",
+      "tags": [
+        "שמחה",
+        "עבודת השם",
+        "עולמות"
+      ],
+      "length_estimate": 22,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-028",
+      "text": "הבעש״ט לימד: כל נשמה יש לה תפקיד מיוחד שרק היא יכולה למלא",
+      "source_rabbi": "רבי מנחם נחום מטשרנוביל",
+      "source_book": "מאור עינים",
+      "source_section": "פרשת וישלח",
+      "source_url": "https://www.sefaria.org/Meor_Einayim",
+      "category": "baal_shem_tov",
+      "tags": [
+        "נשמה",
+        "תפקיד",
+        "ייחוד"
+      ],
+      "length_estimate": 20,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-029",
+      "text": "אמר הבעש״ט: הקדוש ברוך הוא אוהב את ישראל יותר מאהבת אב לבנו יחידו שנולד לו לעת זקנתו",
+      "source_rabbi": "רבי מנחם נחום מטשרנוביל",
+      "source_book": "מאור עינים",
+      "source_section": "פרשת וישב",
+      "source_url": "https://www.sefaria.org/Meor_Einayim",
+      "category": "baal_shem_tov",
+      "tags": [
+        "אהבת ישראל",
+        "אהבת ה׳",
+        "בן"
+      ],
+      "length_estimate": 30,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-030",
+      "text": "לימד הבעש״ט: כשאדם מתפלל, צריך להפשיט מעצמו את הגשמיות ולהתעלות",
+      "source_rabbi": "רבי מנחם נחום מטשרנוביל",
+      "source_book": "מאור עינים",
+      "source_section": "פרשת מקץ",
+      "source_url": "https://www.sefaria.org/Meor_Einayim",
+      "category": "baal_shem_tov",
+      "tags": [
+        "תפילה",
+        "התעלות",
+        "גשמיות"
+      ],
+      "length_estimate": 22,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-031",
+      "text": "אמר הבעש״ט: כל מילה שיוצאת מפי האדם בתפילה, היא בריאה חדשה",
+      "source_rabbi": "רבי מנחם נחום מטשרנוביל",
+      "source_book": "מאור עינים",
+      "source_section": "פרשת ויגש",
+      "source_url": "https://www.sefaria.org/Meor_Einayim",
+      "category": "baal_shem_tov",
+      "tags": [
+        "תפילה",
+        "דיבור",
+        "בריאה"
+      ],
+      "length_estimate": 20,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-032",
+      "text": "הבעש״ט לימד: אין אדם יכול לעמוד במקום אחד. או שהוא עולה או שהוא יורד",
+      "source_rabbi": "רבי מנחם נחום מטשרנוביל",
+      "source_book": "מאור עינים",
+      "source_section": "פרשת ויחי",
+      "source_url": "https://www.sefaria.org/Meor_Einayim",
+      "category": "baal_shem_tov",
+      "tags": [
+        "עלייה",
+        "ירידה",
+        "תנועה"
+      ],
+      "length_estimate": 24,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-033",
+      "text": "אמר הבעש״ט: כל חסד שאדם עושה עם חברו, הוא עושה עם השכינה",
+      "source_rabbi": "רבי מנחם נחום מטשרנוביל",
+      "source_book": "מאור עינים",
+      "source_section": "פרשת שמות",
+      "source_url": "https://www.sefaria.org/Meor_Einayim",
+      "category": "baal_shem_tov",
+      "tags": [
+        "חסד",
+        "שכינה",
+        "גמילות חסדים"
+      ],
+      "length_estimate": 20,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-034",
+      "text": "לימד הבעש״ט: התשובה היא לשוב לשורש הנשמה, למקום שממנו באה",
+      "source_rabbi": "רבי מנחם נחום מטשרנוביל",
+      "source_book": "מאור עינים",
+      "source_section": "פרשת וארא",
+      "source_url": "https://www.sefaria.org/Meor_Einayim",
+      "category": "baal_shem_tov",
+      "tags": [
+        "תשובה",
+        "נשמה",
+        "שורש"
+      ],
+      "length_estimate": 19,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-035",
+      "text": "אמר הבעש״ט: כשאדם עושה מצווה בשמחה, היא עולה למעלה ומעוררת שמחה בכל העולמות",
+      "source_rabbi": "רבי מנחם נחום מטשרנוביל",
+      "source_book": "מאור עינים",
+      "source_section": "פרשת בא",
+      "source_url": "https://www.sefaria.org/Meor_Einayim",
+      "category": "baal_shem_tov",
+      "tags": [
+        "מצווה",
+        "שמחה",
+        "עולמות"
+      ],
+      "length_estimate": 26,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-036",
+      "text": "הבעש״ט לימד: בכל צרה שבאה על האדם, יש בה טובה גנוזה",
+      "source_rabbi": "רבי מנחם נחום מטשרנוביל",
+      "source_book": "מאור עינים",
+      "source_section": "פרשת בשלח",
+      "source_url": "https://www.sefaria.org/Meor_Einayim",
+      "category": "baal_shem_tov",
+      "tags": [
+        "צרה",
+        "טובה",
+        "אמונה"
+      ],
+      "length_estimate": 18,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-037",
+      "text": "אמר הבעש״ט: השבת היא מעין עולם הבא. בשבת, נשמה יתירה שורה על האדם",
+      "source_rabbi": "רבי מנחם נחום מטשרנוביל",
+      "source_book": "מאור עינים",
+      "source_section": "פרשת יתרו",
+      "source_url": "https://www.sefaria.org/Meor_Einayim",
+      "category": "baal_shem_tov",
+      "tags": [
+        "שבת",
+        "נשמה יתירה",
+        "עולם הבא"
+      ],
+      "length_estimate": 23,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-038",
+      "text": "לימד הבעש״ט: כשאדם לומד תורה לשמה, הוא מתאחד עם התורה עצמה",
+      "source_rabbi": "רבי מנחם נחום מטשרנוביל",
+      "source_book": "מאור עינים",
+      "source_section": "פרשת משפטים",
+      "source_url": "https://www.sefaria.org/Meor_Einayim",
+      "category": "baal_shem_tov",
+      "tags": [
+        "תורה לשמה",
+        "התאחדות",
+        "לימוד"
+      ],
+      "length_estimate": 20,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-039",
+      "text": "אמר הבעש״ט: כל יהודי הוא חלק אלוק ממעל, ממש",
+      "source_rabbi": "רבי מנחם נחום מטשרנוביל",
+      "source_book": "מאור עינים",
+      "source_section": "פרשת תרומה",
+      "source_url": "https://www.sefaria.org/Meor_Einayim",
+      "category": "baal_shem_tov",
+      "tags": [
+        "נשמה",
+        "אלוקות",
+        "ישראל"
+      ],
+      "length_estimate": 14,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-040",
+      "text": "הבעש״ט לימד: כל מה שקורה בעולם, הכל בהשגחה פרטית עד פרט הקטן ביותר",
+      "source_rabbi": "רבי מנחם נחום מטשרנוביל",
+      "source_book": "מאור עינים",
+      "source_section": "פרשת תצוה",
+      "source_url": "https://www.sefaria.org/Meor_Einayim",
+      "category": "baal_shem_tov",
+      "tags": [
+        "השגחה פרטית",
+        "אמונה",
+        "פרטים"
+      ],
+      "length_estimate": 23,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-041",
+      "text": "אמר הבעש״ט: הענווה היא שער לכל המידות הטובות",
+      "source_rabbi": "רבי אלימלך מליזענסק",
+      "source_book": "נועם אלימלך",
+      "source_section": "פרשת בראשית",
+      "source_url": "https://www.sefaria.org/Noam_Elimelech",
+      "category": "baal_shem_tov",
+      "tags": [
+        "ענווה",
+        "מידות",
+        "שער"
+      ],
+      "length_estimate": 14,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-042",
+      "text": "לימד הבעש״ט: כל אדם צריך להאמין שהעולם נברא בשבילו, ועליו לתקנו",
+      "source_rabbi": "רבי אלימלך מליזענסק",
+      "source_book": "נועם אלימלך",
+      "source_section": "פרשת נח",
+      "source_url": "https://www.sefaria.org/Noam_Elimelech",
+      "category": "baal_shem_tov",
+      "tags": [
+        "אמונה",
+        "תיקון",
+        "אחריות"
+      ],
+      "length_estimate": 21,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-043",
+      "text": "אמר הבעש״ט: כשאדם מתעורר לעבוד את ה׳, זה סימן שמעוררים אותו מלמעלה",
+      "source_rabbi": "רבי אלימלך מליזענסק",
+      "source_book": "נועם אלימלך",
+      "source_section": "פרשת לך לך",
+      "source_url": "https://www.sefaria.org/Noam_Elimelech",
+      "category": "baal_shem_tov",
+      "tags": [
+        "התעוררות",
+        "עבודת השם",
+        "סיוע"
+      ],
+      "length_estimate": 23,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-044",
+      "text": "הבעש״ט לימד: כל התפילות של ישראל הן יקרות מאוד למעלה, גם הפשוטות",
+      "source_rabbi": "רבי אלימלך מליזענסק",
+      "source_book": "נועם אלימלך",
+      "source_section": "פרשת וירא",
+      "source_url": "https://www.sefaria.org/Noam_Elimelech",
+      "category": "baal_shem_tov",
+      "tags": [
+        "תפילה",
+        "ישראל",
+        "ערך"
+      ],
+      "length_estimate": 22,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-045",
+      "text": "אמר הבעש״ט: השמחה שוברת כל המחיצות שבין האדם לבוראו",
+      "source_rabbi": "רבי אלימלך מליזענסק",
+      "source_book": "נועם אלימלך",
+      "source_section": "פרשת חיי שרה",
+      "source_url": "https://www.sefaria.org/Noam_Elimelech",
+      "category": "baal_shem_tov",
+      "tags": [
+        "שמחה",
+        "מחיצות",
+        "קרבת ה׳"
+      ],
+      "length_estimate": 17,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-046",
+      "text": "לימד הבעש״ט: כשאדם מודה על הטוב שיש לו, הוא ממשיך עוד טוב",
+      "source_rabbi": "רבי אלימלך מליזענסק",
+      "source_book": "נועם אלימלך",
+      "source_section": "פרשת תולדות",
+      "source_url": "https://www.sefaria.org/Noam_Elimelech",
+      "category": "baal_shem_tov",
+      "tags": [
+        "הודאה",
+        "טוב",
+        "המשכה"
+      ],
+      "length_estimate": 20,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-047",
+      "text": "אמר הבעש״ט: הצדיק מעלה את כל העולם איתו כשהוא עולה בעבודתו",
+      "source_rabbi": "רבי אלימלך מליזענסק",
+      "source_book": "נועם אלימלך",
+      "source_section": "פרשת ויצא",
+      "source_url": "https://www.sefaria.org/Noam_Elimelech",
+      "category": "baal_shem_tov",
+      "tags": [
+        "צדיק",
+        "עלייה",
+        "העלאה"
+      ],
+      "length_estimate": 20,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-048",
+      "text": "הבעש״ט לימד: כל פגישה עם אדם אחר היא מסובבת משמים לצורך תיקון",
+      "source_rabbi": "רבי אלימלך מליזענסק",
+      "source_book": "נועם אלימלך",
+      "source_section": "פרשת וישלח",
+      "source_url": "https://www.sefaria.org/Noam_Elimelech",
+      "category": "baal_shem_tov",
+      "tags": [
+        "פגישה",
+        "תיקון",
+        "השגחה"
+      ],
+      "length_estimate": 21,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-049",
+      "text": "אמר הבעש״ט: כל מצווה שאדם עושה, הוא בונה היכל למעלה",
+      "source_rabbi": "רבי אלימלך מליזענסק",
+      "source_book": "נועם אלימלך",
+      "source_section": "פרשת וישב",
+      "source_url": "https://www.sefaria.org/Noam_Elimelech",
+      "category": "baal_shem_tov",
+      "tags": [
+        "מצווה",
+        "היכל",
+        "בניין"
+      ],
+      "length_estimate": 17,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-050",
+      "text": "לימד הבעש״ט: אין יאוש בעולם כלל. תמיד אפשר לחזור ולהתחיל מחדש",
+      "source_rabbi": "רבי אלימלך מליזענסק",
+      "source_book": "נועם אלימלך",
+      "source_section": "פרשת מקץ",
+      "source_url": "https://www.sefaria.org/Noam_Elimelech",
+      "category": "baal_shem_tov",
+      "tags": [
+        "יאוש",
+        "תקווה",
+        "התחדשות"
+      ],
+      "length_estimate": 21,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-051",
+      "text": "אמר הבעש״ט: כל יהודי הוא אבר בגוף כנסת ישראל, ופגיעה באחד פוגעת בכולם",
+      "source_rabbi": "רבי אלימלך מליזענסק",
+      "source_book": "נועם אלימלך",
+      "source_section": "פרשת ויגש",
+      "source_url": "https://www.sefaria.org/Noam_Elimelech",
+      "category": "baal_shem_tov",
+      "tags": [
+        "אחדות ישראל",
+        "כנסת ישראל",
+        "ערבות"
+      ],
+      "length_estimate": 24,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-052",
+      "text": "הבעש״ט לימד: הביטחון בה׳ הוא המפתח לכל הברכות",
+      "source_rabbi": "רבי אלימלך מליזענסק",
+      "source_book": "נועם אלימלך",
+      "source_section": "פרשת ויחי",
+      "source_url": "https://www.sefaria.org/Noam_Elimelech",
+      "category": "baal_shem_tov",
+      "tags": [
+        "ביטחון",
+        "ברכה",
+        "אמונה"
+      ],
+      "length_estimate": 15,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-053",
+      "text": "אמר הבעש״ט: כשאדם מקבל יסורים באהבה, הם מתמתקים בשורשם",
+      "source_rabbi": "רבי אלימלך מליזענסק",
+      "source_book": "נועם אלימלך",
+      "source_section": "פרשת שמות",
+      "source_url": "https://www.sefaria.org/Noam_Elimelech",
+      "category": "baal_shem_tov",
+      "tags": [
+        "יסורים",
+        "אהבה",
+        "המתקה"
+      ],
+      "length_estimate": 18,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-054",
+      "text": "לימד הבעש״ט: האמונה הפשוטה גבוהה יותר מכל החכמות",
+      "source_rabbi": "רבי אלימלך מליזענסק",
+      "source_book": "נועם אלימלך",
+      "source_section": "פרשת וארא",
+      "source_url": "https://www.sefaria.org/Noam_Elimelech",
+      "category": "baal_shem_tov",
+      "tags": [
+        "אמונה פשוטה",
+        "חכמה",
+        "תמימות"
+      ],
+      "length_estimate": 16,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-055",
+      "text": "אמר הבעש״ט: כל רגע הוא הזדמנות חדשה לעבוד את ה׳",
+      "source_rabbi": "רבי אלימלך מליזענסק",
+      "source_book": "נועם אלימלך",
+      "source_section": "פרשת בא",
+      "source_url": "https://www.sefaria.org/Noam_Elimelech",
+      "category": "baal_shem_tov",
+      "tags": [
+        "רגע",
+        "הזדמנות",
+        "עבודת השם"
+      ],
+      "length_estimate": 16,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-056",
+      "text": "אמר זקני הבעש״ט: כל אדם צריך לעבוד את ה׳ לפי שורש נשמתו",
+      "source_rabbi": "רבי משה חיים אפרים מסודילקוב",
+      "source_book": "דגל מחנה אפרים",
+      "source_section": "פרשת בראשית",
+      "source_url": "https://www.sefaria.org/Degel_Machaneh_Ephraim",
+      "category": "baal_shem_tov",
+      "tags": [
+        "נשמה",
+        "עבודה",
+        "שורש"
+      ],
+      "length_estimate": 19,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-057",
+      "text": "שמעתי מזקני הבעש״ט: כשאדם מדבר דברי תורה, צריך שיהיו הדברים דבוקים בשורשם",
+      "source_rabbi": "רבי משה חיים אפרים מסודילקוב",
+      "source_book": "דגל מחנה אפרים",
+      "source_section": "פרשת נח",
+      "source_url": "https://www.sefaria.org/Degel_Machaneh_Ephraim",
+      "category": "baal_shem_tov",
+      "tags": [
+        "תורה",
+        "דבקות",
+        "שורש"
+      ],
+      "length_estimate": 25,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-058",
+      "text": "אמר זקני הבעש״ט: הקדוש ברוך הוא משתוקק לתפילתם של ישראל",
+      "source_rabbi": "רבי משה חיים אפרים מסודילקוב",
+      "source_book": "דגל מחנה אפרים",
+      "source_section": "פרשת לך לך",
+      "source_url": "https://www.sefaria.org/Degel_Machaneh_Ephraim",
+      "category": "baal_shem_tov",
+      "tags": [
+        "תפילה",
+        "ישראל",
+        "תשוקה"
+      ],
+      "length_estimate": 18,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-059",
+      "text": "שמעתי מזקני: כל האותיות הן כלים להמשיך אור אין סוף",
+      "source_rabbi": "רבי משה חיים אפרים מסודילקוב",
+      "source_book": "דגל מחנה אפרים",
+      "source_section": "פרשת וירא",
+      "source_url": "https://www.sefaria.org/Degel_Machaneh_Ephraim",
+      "category": "baal_shem_tov",
+      "tags": [
+        "אותיות",
+        "אור",
+        "כלים"
+      ],
+      "length_estimate": 16,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-060",
+      "text": "אמר זקני הבעש״ט: כשאדם אוכל לשם שמים, הוא מעלה את הניצוצות שבמאכל",
+      "source_rabbi": "רבי משה חיים אפרים מסודילקוב",
+      "source_book": "דגל מחנה אפרים",
+      "source_section": "פרשת חיי שרה",
+      "source_url": "https://www.sefaria.org/Degel_Machaneh_Ephraim",
+      "category": "baal_shem_tov",
+      "tags": [
+        "אכילה",
+        "ניצוצות",
+        "העלאה"
+      ],
+      "length_estimate": 23,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-061",
+      "text": "שמעתי מזקני: העולם הוא מלא אלוקות, ואין מקום ריק ממנו",
+      "source_rabbi": "רבי משה חיים אפרים מסודילקוב",
+      "source_book": "דגל מחנה אפרים",
+      "source_section": "פרשת תולדות",
+      "source_url": "https://www.sefaria.org/Degel_Machaneh_Ephraim",
+      "category": "baal_shem_tov",
+      "tags": [
+        "אלוקות",
+        "עולם",
+        "נוכחות"
+      ],
+      "length_estimate": 18,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-062",
+      "text": "אמר זקני הבעש״ט: כל המחשבות הזרות שבאות לאדם, יכול להעלותן לקדושה",
+      "source_rabbi": "רבי משה חיים אפרים מסודילקוב",
+      "source_book": "דגל מחנה אפרים",
+      "source_section": "פרשת ויצא",
+      "source_url": "https://www.sefaria.org/Degel_Machaneh_Ephraim",
+      "category": "baal_shem_tov",
+      "tags": [
+        "מחשבות זרות",
+        "העלאה",
+        "קדושה"
+      ],
+      "length_estimate": 23,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-063",
+      "text": "שמעתי מזקני: השפלות היא הכלי הגדול ביותר לקבל שפע מלמעלה",
+      "source_rabbi": "רבי משה חיים אפרים מסודילקוב",
+      "source_book": "דגל מחנה אפרים",
+      "source_section": "פרשת וישלח",
+      "source_url": "https://www.sefaria.org/Degel_Machaneh_Ephraim",
+      "category": "baal_shem_tov",
+      "tags": [
+        "שפלות",
+        "שפע",
+        "כלי"
+      ],
+      "length_estimate": 19,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-064",
+      "text": "אמר זקני הבעש״ט: כל דיבור ודיבור צריך להיות בכוונה שלמה",
+      "source_rabbi": "רבי משה חיים אפרים מסודילקוב",
+      "source_book": "דגל מחנה אפרים",
+      "source_section": "פרשת וישב",
+      "source_url": "https://www.sefaria.org/Degel_Machaneh_Ephraim",
+      "category": "baal_shem_tov",
+      "tags": [
+        "דיבור",
+        "כוונה",
+        "שלמות"
+      ],
+      "length_estimate": 18,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-065",
+      "text": "שמעתי מזקני: כל העולמות תלויים בעבודת האדם למטה",
+      "source_rabbi": "רבי משה חיים אפרים מסודילקוב",
+      "source_book": "דגל מחנה אפרים",
+      "source_section": "פרשת מקץ",
+      "source_url": "https://www.sefaria.org/Degel_Machaneh_Ephraim",
+      "category": "baal_shem_tov",
+      "tags": [
+        "עולמות",
+        "עבודה",
+        "השפעה"
+      ],
+      "length_estimate": 15,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-066",
+      "text": "אמר זקני הבעש״ט: כשאדם בשמחה, הוא יכול להתפלל ברוח הקודש",
+      "source_rabbi": "רבי משה חיים אפרים מסודילקוב",
+      "source_book": "דגל מחנה אפרים",
+      "source_section": "פרשת ויגש",
+      "source_url": "https://www.sefaria.org/Degel_Machaneh_Ephraim",
+      "category": "baal_shem_tov",
+      "tags": [
+        "שמחה",
+        "תפילה",
+        "רוח הקודש"
+      ],
+      "length_estimate": 19,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-067",
+      "text": "שמעתי מזקני: התורה היא אור, וכשלומד אותה מאיר לכל העולם",
+      "source_rabbi": "רבי משה חיים אפרים מסודילקוב",
+      "source_book": "דגל מחנה אפרים",
+      "source_section": "פרשת ויחי",
+      "source_url": "https://www.sefaria.org/Degel_Machaneh_Ephraim",
+      "category": "baal_shem_tov",
+      "tags": [
+        "תורה",
+        "אור",
+        "לימוד"
+      ],
+      "length_estimate": 18,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-068",
+      "text": "אמר זקני הבעש״ט: כל צער שאדם מצטער, הקדוש ברוך הוא מצטער עמו",
+      "source_rabbi": "רבי משה חיים אפרים מסודילקוב",
+      "source_book": "דגל מחנה אפרים",
+      "source_section": "פרשת שמות",
+      "source_url": "https://www.sefaria.org/Degel_Machaneh_Ephraim",
+      "category": "baal_shem_tov",
+      "tags": [
+        "צער",
+        "שכינה",
+        "שותפות"
+      ],
+      "length_estimate": 21,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-069",
+      "text": "שמעתי מזקני: האמונה היא למעלה מכל ההשגות",
+      "source_rabbi": "רבי משה חיים אפרים מסודילקוב",
+      "source_book": "דגל מחנה אפרים",
+      "source_section": "פרשת וארא",
+      "source_url": "https://www.sefaria.org/Degel_Machaneh_Ephraim",
+      "category": "baal_shem_tov",
+      "tags": [
+        "אמונה",
+        "השגה",
+        "גבהות"
+      ],
+      "length_estimate": 13,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-070",
+      "text": "אמר זקני הבעש״ט: כל יום צריך להיות חדש בעיני האדם",
+      "source_rabbi": "רבי משה חיים אפרים מסודילקוב",
+      "source_book": "דגל מחנה אפרים",
+      "source_section": "פרשת בא",
+      "source_url": "https://www.sefaria.org/Degel_Machaneh_Ephraim",
+      "category": "baal_shem_tov",
+      "tags": [
+        "יום חדש",
+        "התחדשות",
+        "עבודה"
+      ],
+      "length_estimate": 16,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-071",
+      "text": "אמר הבעש״ט: כל יהודי מחובר לשורש נשמתו בשמים",
+      "source_rabbi": "רבי לוי יצחק מברדיטשוב",
+      "source_book": "קדושת לוי",
+      "source_section": "פרשת בראשית",
+      "source_url": "https://www.sefaria.org/Kedushat_Levi",
+      "category": "baal_shem_tov",
+      "tags": [
+        "נשמה",
+        "שורש",
+        "חיבור"
+      ],
+      "length_estimate": 14,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-072",
+      "text": "שמעתי בשם הבעש״ט: כשאדם עושה תשובה מאהבה, כל עוונותיו נהפכים לזכויות",
+      "source_rabbi": "רבי לוי יצחק מברדיטשוב",
+      "source_book": "קדושת לוי",
+      "source_section": "פרשת נח",
+      "source_url": "https://www.sefaria.org/Kedushat_Levi",
+      "category": "baal_shem_tov",
+      "tags": [
+        "תשובה מאהבה",
+        "זכויות",
+        "הפיכה"
+      ],
+      "length_estimate": 23,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-073",
+      "text": "אמר הבעש״ט: כל מילה של תפילה היא מלאך",
+      "source_rabbi": "רבי לוי יצחק מברדיטשוב",
+      "source_book": "קדושת לוי",
+      "source_section": "פרשת לך לך",
+      "source_url": "https://www.sefaria.org/Kedushat_Levi",
+      "category": "baal_shem_tov",
+      "tags": [
+        "תפילה",
+        "מלאך",
+        "דיבור"
+      ],
+      "length_estimate": 12,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-074",
+      "text": "שמעתי בשם הבעש״ט: הקדוש ברוך הוא רוצה את הלב",
+      "source_rabbi": "רבי לוי יצחק מברדיטשוב",
+      "source_book": "קדושת לוי",
+      "source_section": "פרשת וירא",
+      "source_url": "https://www.sefaria.org/Kedushat_Levi",
+      "category": "baal_shem_tov",
+      "tags": [
+        "לב",
+        "רצון",
+        "עבודה"
+      ],
+      "length_estimate": 14,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-075",
+      "text": "אמר הבעש״ט: כשאדם מברך ברכה, הוא ממשיך שפע לכל העולם",
+      "source_rabbi": "רבי לוי יצחק מברדיטשוב",
+      "source_book": "קדושת לוי",
+      "source_section": "פרשת חיי שרה",
+      "source_url": "https://www.sefaria.org/Kedushat_Levi",
+      "category": "baal_shem_tov",
+      "tags": [
+        "ברכה",
+        "שפע",
+        "עולם"
+      ],
+      "length_estimate": 18,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-076",
+      "text": "שמעתי בשם הבעש״ט: האדם נקרא מהלך, שצריך תמיד ללכת מחיל אל חיל",
+      "source_rabbi": "רבי לוי יצחק מברדיטשוב",
+      "source_book": "קדושת לוי",
+      "source_section": "פרשת תולדות",
+      "source_url": "https://www.sefaria.org/Kedushat_Levi",
+      "category": "baal_shem_tov",
+      "tags": [
+        "מהלך",
+        "עלייה",
+        "התקדמות"
+      ],
+      "length_estimate": 21,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-077",
+      "text": "אמר הבעש״ט: כל מעשה טוב עושה רושם בכל העולמות",
+      "source_rabbi": "רבי לוי יצחק מברדיטשוב",
+      "source_book": "קדושת לוי",
+      "source_section": "פרשת ויצא",
+      "source_url": "https://www.sefaria.org/Kedushat_Levi",
+      "category": "baal_shem_tov",
+      "tags": [
+        "מעשה טוב",
+        "רושם",
+        "עולמות"
+      ],
+      "length_estimate": 15,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-078",
+      "text": "שמעתי בשם הבעש״ט: כשאדם מתפלל בעד חברו, נענה תחילה",
+      "source_rabbi": "רבי לוי יצחק מברדיטשוב",
+      "source_book": "קדושת לוי",
+      "source_section": "פרשת וישלח",
+      "source_url": "https://www.sefaria.org/Kedushat_Levi",
+      "category": "baal_shem_tov",
+      "tags": [
+        "תפילה",
+        "חבר",
+        "עזרה"
+      ],
+      "length_estimate": 16,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-079",
+      "text": "אמר הבעש״ט: כל הנהגה מלמעלה היא לטובת האדם, גם אם לא מבין",
+      "source_rabbi": "רבי לוי יצחק מברדיטשוב",
+      "source_book": "קדושת לוי",
+      "source_section": "פרשת וישב",
+      "source_url": "https://www.sefaria.org/Kedushat_Levi",
+      "category": "baal_shem_tov",
+      "tags": [
+        "הנהגה",
+        "טובה",
+        "אמונה"
+      ],
+      "length_estimate": 21,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-080",
+      "text": "שמעתי בשם הבעש״ט: כל השירה והזמרה מעלים את הנשמה",
+      "source_rabbi": "רבי לוי יצחק מברדיטשוב",
+      "source_book": "קדושת לוי",
+      "source_section": "פרשת מקץ",
+      "source_url": "https://www.sefaria.org/Kedushat_Levi",
+      "category": "baal_shem_tov",
+      "tags": [
+        "שירה",
+        "זמרה",
+        "עליית נשמה"
+      ],
+      "length_estimate": 16,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-081",
+      "text": "אמר הבעש״ט: כשאדם לומד תורה, הוא מתלבש באור התורה",
+      "source_rabbi": "רבי לוי יצחק מברדיטשוב",
+      "source_book": "קדושת לוי",
+      "source_section": "פרשת ויגש",
+      "source_url": "https://www.sefaria.org/Kedushat_Levi",
+      "category": "baal_shem_tov",
+      "tags": [
+        "תורה",
+        "אור",
+        "לבוש"
+      ],
+      "length_estimate": 16,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-082",
+      "text": "שמעתי בשם הבעש״ט: הכנעה, הבדלה, המתקה - שלוש מדרגות בעבודת ה׳",
+      "source_rabbi": "רבי לוי יצחק מברדיטשוב",
+      "source_book": "קדושת לוי",
+      "source_section": "פרשת ויחי",
+      "source_url": "https://www.sefaria.org/Kedushat_Levi",
+      "category": "baal_shem_tov",
+      "tags": [
+        "הכנעה",
+        "הבדלה",
+        "המתקה"
+      ],
+      "length_estimate": 20,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-083",
+      "text": "אמר הבעש״ט: כל צדיק צריך להאיר לכל הדור כולו",
+      "source_rabbi": "רבי לוי יצחק מברדיטשוב",
+      "source_book": "קדושת לוי",
+      "source_section": "פרשת שמות",
+      "source_url": "https://www.sefaria.org/Kedushat_Levi",
+      "category": "baal_shem_tov",
+      "tags": [
+        "צדיק",
+        "הארה",
+        "דור"
+      ],
+      "length_estimate": 14,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-084",
+      "text": "שמעתי בשם הבעש״ט: כל עניין שבעולם הוא הוראה בעבודת ה׳",
+      "source_rabbi": "רבי לוי יצחק מברדיטשוב",
+      "source_book": "קדושת לוי",
+      "source_section": "פרשת וארא",
+      "source_url": "https://www.sefaria.org/Kedushat_Levi",
+      "category": "baal_shem_tov",
+      "tags": [
+        "הוראה",
+        "עולם",
+        "עבודה"
+      ],
+      "length_estimate": 17,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-085",
+      "text": "אמר הבעש״ט: השבת היא נשמת כל הימים",
+      "source_rabbi": "רבי לוי יצחק מברדיטשוב",
+      "source_book": "קדושת לוי",
+      "source_section": "פרשת בא",
+      "source_url": "https://www.sefaria.org/Kedushat_Levi",
+      "category": "baal_shem_tov",
+      "tags": [
+        "שבת",
+        "נשמה",
+        "ימים"
+      ],
+      "length_estimate": 12,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-086",
+      "text": "הבעש״ט אמר: כל נשמה יורדת לעולם לתקן דבר מסוים",
+      "source_rabbi": "הבעל שם טוב",
+      "source_book": "שבחי הבעל שם טוב",
+      "source_section": "סיפור א׳",
+      "source_url": "https://www.sefaria.org/Shivchei_HaBaal_Shem_Tov",
+      "category": "baal_shem_tov",
+      "tags": [
+        "נשמה",
+        "תיקון",
+        "ייעוד"
+      ],
+      "length_estimate": 15,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-087",
+      "text": "הבעש״ט לימד: אדם צריך להסתכל תמיד בטוב שבחברו",
+      "source_rabbi": "הבעל שם טוב",
+      "source_book": "שבחי הבעל שם טוב",
+      "source_section": "סיפור י״ב",
+      "source_url": "https://www.sefaria.org/Shivchei_HaBaal_Shem_Tov",
+      "category": "baal_shem_tov",
+      "tags": [
+        "טוב",
+        "חבר",
+        "ראייה"
+      ],
+      "length_estimate": 15,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-088",
+      "text": "הבעש״ט אמר: כל יהודי הוא יקר מאוד בעיני השם יתברך",
+      "source_rabbi": "הבעל שם טוב",
+      "source_book": "שבחי הבעל שם טוב",
+      "source_section": "סיפור כ״ג",
+      "source_url": "https://www.sefaria.org/Shivchei_HaBaal_Shem_Tov",
+      "category": "baal_shem_tov",
+      "tags": [
+        "יהודי",
+        "יקר",
+        "אהבת ה׳"
+      ],
+      "length_estimate": 16,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-089",
+      "text": "הבעש״ט לימד: כל השפע שבא לעולם הוא דרך ישראל",
+      "source_rabbi": "הבעל שם טוב",
+      "source_book": "שבחי הבעל שם טוב",
+      "source_section": "סיפור ל״ד",
+      "source_url": "https://www.sefaria.org/Shivchei_HaBaal_Shem_Tov",
+      "category": "baal_shem_tov",
+      "tags": [
+        "שפע",
+        "ישראל",
+        "עולם"
+      ],
+      "length_estimate": 15,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-090",
+      "text": "הבעש״ט אמר: כל התנועות שאדם עושה, הכל בהשגחה",
+      "source_rabbi": "הבעל שם טוב",
+      "source_book": "שבחי הבעל שם טוב",
+      "source_section": "סיפור מ״ה",
+      "source_url": "https://www.sefaria.org/Shivchei_HaBaal_Shem_Tov",
+      "category": "baal_shem_tov",
+      "tags": [
+        "תנועה",
+        "השגחה",
+        "פרטיות"
+      ],
+      "length_estimate": 14,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-091",
+      "text": "הבעש״ט לימד: כל צער שאדם עובר, מכפר על עוונותיו",
+      "source_rabbi": "הבעל שם טוב",
+      "source_book": "שבחי הבעל שם טוב",
+      "source_section": "סיפור נ״ו",
+      "source_url": "https://www.sefaria.org/Shivchei_HaBaal_Shem_Tov",
+      "category": "baal_shem_tov",
+      "tags": [
+        "צער",
+        "כפרה",
+        "עוונות"
+      ],
+      "length_estimate": 15,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-092",
+      "text": "הבעש״ט אמר: כשאדם מתפלל בכוונה, הוא פותח שערי שמים",
+      "source_rabbi": "הבעל שם טוב",
+      "source_book": "שבחי הבעל שם טוב",
+      "source_section": "סיפור ס״ז",
+      "source_url": "https://www.sefaria.org/Shivchei_HaBaal_Shem_Tov",
+      "category": "baal_shem_tov",
+      "tags": [
+        "תפילה",
+        "כוונה",
+        "שערים"
+      ],
+      "length_estimate": 17,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-093",
+      "text": "הבעש״ט לימד: התפילה היא כמו חץ - צריכה כוונה וכוח",
+      "source_rabbi": "הבעל שם טוב",
+      "source_book": "שבחי הבעל שם טוב",
+      "source_section": "סיפור ע״ח",
+      "source_url": "https://www.sefaria.org/Shivchei_HaBaal_Shem_Tov",
+      "category": "baal_shem_tov",
+      "tags": [
+        "תפילה",
+        "חץ",
+        "כוח"
+      ],
+      "length_estimate": 16,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-094",
+      "text": "הבעש״ט אמר: כל אדם צריך להיות כמו כלי לקבל אור",
+      "source_rabbi": "הבעל שם טוב",
+      "source_book": "שבחי הבעל שם טוב",
+      "source_section": "סיפור פ״ט",
+      "source_url": "https://www.sefaria.org/Shivchei_HaBaal_Shem_Tov",
+      "category": "baal_shem_tov",
+      "tags": [
+        "כלי",
+        "אור",
+        "קבלה"
+      ],
+      "length_estimate": 15,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-095",
+      "text": "הבעש״ט לימד: כל יהודי יש בו ניצוץ של משיח",
+      "source_rabbi": "הבעל שם טוב",
+      "source_book": "שבחי הבעל שם טוב",
+      "source_section": "סיפור ק׳",
+      "source_url": "https://www.sefaria.org/Shivchei_HaBaal_Shem_Tov",
+      "category": "baal_shem_tov",
+      "tags": [
+        "משיח",
+        "ניצוץ",
+        "יהודי"
+      ],
+      "length_estimate": 14,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-096",
+      "text": "אמר הבעש״ט: כל דבר שאדם לומד, צריך לקשר אותו לעבודת ה׳",
+      "source_rabbi": "הבעל שם טוב",
+      "source_book": "כתר שם טוב",
+      "source_section": "אות ק״ל",
+      "source_url": "https://www.sefaria.org/Keter_Shem_Tov",
+      "category": "baal_shem_tov",
+      "tags": [
+        "לימוד",
+        "קישור",
+        "עבודה"
+      ],
+      "length_estimate": 19,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-097",
+      "text": "הבעש״ט לימד: כל אדם צריך לדעת שהקדוש ברוך הוא אוהב אותו",
+      "source_rabbi": "הבעל שם טוב",
+      "source_book": "כתר שם טוב",
+      "source_section": "אות קמ״א",
+      "source_url": "https://www.sefaria.org/Keter_Shem_Tov",
+      "category": "baal_shem_tov",
+      "tags": [
+        "אהבה",
+        "ידיעה",
+        "ה׳"
+      ],
+      "length_estimate": 19,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-098",
+      "text": "אמר הבעש״ט: כל האותיות של התפילה הן נשמות",
+      "source_rabbi": "הבעל שם טוב",
+      "source_book": "כתר שם טוב",
+      "source_section": "אות קנ״ב",
+      "source_url": "https://www.sefaria.org/Keter_Shem_Tov",
+      "category": "baal_shem_tov",
+      "tags": [
+        "אותיות",
+        "תפילה",
+        "נשמות"
+      ],
+      "length_estimate": 14,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-099",
+      "text": "הבעש״ט לימד: הגאולה תלויה בעבודת כל אחד ואחד",
+      "source_rabbi": "הבעל שם טוב",
+      "source_book": "כתר שם טוב",
+      "source_section": "אות קס״ג",
+      "source_url": "https://www.sefaria.org/Keter_Shem_Tov",
+      "category": "baal_shem_tov",
+      "tags": [
+        "גאולה",
+        "עבודה",
+        "אחריות"
+      ],
+      "length_estimate": 15,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch3-100",
+      "text": "אמר הבעש״ט: כשתבוא הגאולה, יתגלה האור שבכל יהודי",
+      "source_rabbi": "הבעל שם טוב",
+      "source_book": "כתר שם טוב",
+      "source_section": "אות קע״ד",
+      "source_url": "https://www.sefaria.org/Keter_Shem_Tov",
+      "category": "baal_shem_tov",
+      "tags": [
+        "גאולה",
+        "אור",
+        "יהודי"
+      ],
+      "length_estimate": 16,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "besht-batch4-001",
+      "text": "שמעתי מהבעש״ט: כל מה שאדם רואה ושומע, הכל הוא הוראה לעבודת הבורא",
+      "source_rabbi": "רבי יעקב יוסף מפולנאה",
+      "source_book": "תולדות יעקב יוסף",
+      "source_section": "פרשת וישב",
+      "source_url": "https://www.sefaria.org/Toldot_Yaakov_Yosef%2C_Vayeshev",
+      "category": "baal_shem_tov",
+      "tags": [
+        "השגחה פרטית",
+        "עבודת השם",
+        "ראייה"
+      ],
+      "length_estimate": 56,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "besht-batch4-002",
+      "text": "הבעש״ט אמר: אין שום דבר בעולם שאין בו ניצוץ אלוקי, ועל ידי הניצוץ הזה הדבר קיים",
+      "source_rabbi": "רבי ישראל בעל שם טוב",
+      "source_book": "כתר שם טוב",
+      "source_section": "אות קפ״ה",
+      "source_url": "https://www.sefaria.org/Keter_Shem_Tov.185",
+      "category": "baal_shem_tov",
+      "tags": [
+        "ניצוצות",
+        "אלוקות",
+        "קיום העולם"
+      ],
+      "length_estimate": 70,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "besht-batch4-003",
+      "text": "למדנו מהבעש״ט: כשאדם מתפלל צריך לכוון שהוא עומד לפני מלך מלכי המלכים",
+      "source_rabbi": "רבי ישראל בעל שם טוב",
+      "source_book": "צוואת הריב״ש",
+      "source_section": "פרק ע״ה",
+      "source_url": "https://www.sefaria.org/Tzavaat_HaRivash.75",
+      "category": "baal_shem_tov",
+      "tags": [
+        "תפילה",
+        "כוונה",
+        "יראת שמים"
+      ],
+      "length_estimate": 62,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "besht-batch4-004",
+      "text": "הבעש״ט לימד: השמחה היא מפתח לכל השערים, ובפרט לשערי תשובה",
+      "source_rabbi": "רבי משה חיים אפרים מסודילקוב",
+      "source_book": "דגל מחנה אפרים",
+      "source_section": "פרשת כי תבוא",
+      "source_url": "https://www.sefaria.org/Degel_Machaneh_Ephraim%2C_Ki_Tavo",
+      "category": "baal_shem_tov",
+      "tags": [
+        "שמחה",
+        "תשובה",
+        "שערים"
+      ],
+      "length_estimate": 52,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "besht-batch4-005",
+      "text": "שמעתי ממורי הבעש״ט: כל יהודי הוא חלק אלוק ממעל ממש",
+      "source_rabbi": "רבי יעקב יוסף מפולנאה",
+      "source_book": "תולדות יעקב יוסף",
+      "source_section": "פרשת בראשית",
+      "source_url": "https://www.sefaria.org/Toldot_Yaakov_Yosef%2C_Bereshit",
+      "category": "baal_shem_tov",
+      "tags": [
+        "נשמה",
+        "אלוקות",
+        "יהודי"
+      ],
+      "length_estimate": 45,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "besht-batch4-006",
+      "text": "הבעש״ט אמר: כשאדם לומד תורה צריך לראות את האור שבתוך האותיות",
+      "source_rabbi": "רבי מנחם נחום מטשרנוביל",
+      "source_book": "מאור עינים",
+      "source_section": "פרשת בשלח",
+      "source_url": "https://www.sefaria.org/Meor_Einayim%2C_Beshalach",
+      "category": "baal_shem_tov",
+      "tags": [
+        "תורה",
+        "אור",
+        "אותיות"
+      ],
+      "length_estimate": 53,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "besht-batch4-007",
+      "text": "למדנו מהבעש״ט: אדם צריך לעבוד את ה׳ בכל כוחותיו, גם בגשמיות",
+      "source_rabbi": "רבי ישראל בעל שם טוב",
+      "source_book": "צוואת הריב״ש",
+      "source_section": "פרק כ״ג",
+      "source_url": "https://www.sefaria.org/Tzavaat_HaRivash.23",
+      "category": "baal_shem_tov",
+      "tags": [
+        "עבודת השם",
+        "גשמיות",
+        "כוחות"
+      ],
+      "length_estimate": 54,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "besht-batch4-008",
+      "text": "הבעש״ט לימד: כל מחשבה שעולה באדם היא מן השמים להעלותה",
+      "source_rabbi": "רבי ישראל בעל שם טוב",
+      "source_book": "כתר שם טוב",
+      "source_section": "אות קצ״ו",
+      "source_url": "https://www.sefaria.org/Keter_Shem_Tov.196",
+      "category": "baal_shem_tov",
+      "tags": [
+        "מחשבה",
+        "העלאה",
+        "השגחה"
+      ],
+      "length_estimate": 49,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "besht-batch4-009",
+      "text": "שמעתי ממורי: הקדוש ברוך הוא רוצה את הלב, ולא רק את המעשה",
+      "source_rabbi": "רבי יעקב יוסף מפולנאה",
+      "source_book": "תולדות יעקב יוסף",
+      "source_section": "פרשת תרומה",
+      "source_url": "https://www.sefaria.org/Toldot_Yaakov_Yosef%2C_Terumah",
+      "category": "baal_shem_tov",
+      "tags": [
+        "לב",
+        "כוונה",
+        "עבודת השם"
+      ],
+      "length_estimate": 51,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "besht-batch4-010",
+      "text": "הבעש״ט אמר: בכל דבר יש חיות אלוקית, ובלעדיה לא היה יכול להתקיים",
+      "source_rabbi": "רבי משה חיים אפרים מסודילקוב",
+      "source_book": "דגל מחנה אפרים",
+      "source_section": "פרשת בראשית",
+      "source_url": "https://www.sefaria.org/Degel_Machaneh_Ephraim%2C_Bereshit",
+      "category": "baal_shem_tov",
+      "tags": [
+        "חיות אלוקית",
+        "קיום",
+        "בריאה"
+      ],
+      "length_estimate": 56,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "besht-batch4-011",
+      "text": "למדנו מהבעש״ט: התפילה צריכה להיות בדבקות ובהתלהבות",
+      "source_rabbi": "רבי ישראל בעל שם טוב",
+      "source_book": "צוואת הריב״ש",
+      "source_section": "פרק ס״ד",
+      "source_url": "https://www.sefaria.org/Tzavaat_HaRivash.64",
+      "category": "baal_shem_tov",
+      "tags": [
+        "תפילה",
+        "דבקות",
+        "התלהבות"
+      ],
+      "length_estimate": 46,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "besht-batch4-012",
+      "text": "הבעש״ט לימד: אהבת ישראל היא יסוד כל התורה כולה",
+      "source_rabbi": "רבי לוי יצחק מברדיטשוב",
+      "source_book": "קדושת לוי",
+      "source_section": "פרשת קדושים",
+      "source_url": "https://www.sefaria.org/Kedushat_Levi%2C_Kedoshim",
+      "category": "baal_shem_tov",
+      "tags": [
+        "אהבת ישראל",
+        "תורה",
+        "יסוד"
+      ],
+      "length_estimate": 44,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "besht-batch4-013",
+      "text": "שמעתי ממורי הבעש״ט: כל אות בתורה היא עולם מלא",
+      "source_rabbi": "רבי יעקב יוסף מפולנאה",
+      "source_book": "תולדות יעקב יוסף",
+      "source_section": "פרשת יתרו",
+      "source_url": "https://www.sefaria.org/Toldot_Yaakov_Yosef%2C_Yitro",
+      "category": "baal_shem_tov",
+      "tags": [
+        "תורה",
+        "אותיות",
+        "עולמות"
+      ],
+      "length_estimate": 42,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "besht-batch4-014",
+      "text": "הבעש״ט אמר: מי שאינו מאמין שהקב״ה נמצא בכל מקום, עדיין לא התחיל לעבוד את ה׳",
+      "source_rabbi": "רבי ישראל בעל שם טוב",
+      "source_book": "כתר שם טוב",
+      "source_section": "אות ר״ז",
+      "source_url": "https://www.sefaria.org/Keter_Shem_Tov.207",
+      "category": "baal_shem_tov",
+      "tags": [
+        "אמונה",
+        "השגחה",
+        "עבודת השם"
+      ],
+      "length_estimate": 68,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "besht-batch4-015",
+      "text": "למדנו מהבעש״ט: כשאדם עושה תשובה מאהבה, הזדונות נהפכות לזכויות",
+      "source_rabbi": "רבי אלימלך מליזענסק",
+      "source_book": "נועם אלימלך",
+      "source_section": "פרשת האזינו",
+      "source_url": "https://www.sefaria.org/Noam_Elimelech%2C_Haazinu",
+      "category": "baal_shem_tov",
+      "tags": [
+        "תשובה",
+        "אהבה",
+        "זכויות"
+      ],
+      "length_estimate": 57,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "besht-batch4-016",
+      "text": "הבעש״ט לימד: הצדיק צריך לרדת למקום שהחוטא נמצא כדי להעלותו",
+      "source_rabbi": "רבי מנחם נחום מטשרנוביל",
+      "source_book": "מאור עינים",
+      "source_section": "פרשת נח",
+      "source_url": "https://www.sefaria.org/Meor_Einayim%2C_Noach",
+      "category": "baal_shem_tov",
+      "tags": [
+        "צדיק",
+        "ירידה",
+        "העלאה"
+      ],
+      "length_estimate": 54,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "besht-batch4-017",
+      "text": "שמעתי מהבעש״ט: האדם צריך להתבונן תמיד בגדולת הבורא",
+      "source_rabbi": "רבי ישראל בעל שם טוב",
+      "source_book": "צוואת הריב״ש",
+      "source_section": "פרק צ״ב",
+      "source_url": "https://www.sefaria.org/Tzavaat_HaRivash.92",
+      "category": "baal_shem_tov",
+      "tags": [
+        "התבוננות",
+        "גדולת ה׳",
+        "עבודה"
+      ],
+      "length_estimate": 46,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "besht-batch4-018",
+      "text": "הבעש״ט אמר: כל יום צריך להיות כחדש בעיני האדם",
+      "source_rabbi": "רבי משה חיים אפרים מסודילקוב",
+      "source_book": "דגל מחנה אפרים",
+      "source_section": "פרשת בהר",
+      "source_url": "https://www.sefaria.org/Degel_Machaneh_Ephraim%2C_Behar",
+      "category": "baal_shem_tov",
+      "tags": [
+        "התחדשות",
+        "עבודה",
+        "יום"
+      ],
+      "length_estimate": 43,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "besht-batch4-019",
+      "text": "למדנו מהבעש״ט: כשאדם שש ושמח בעבודת ה׳, השכינה שורה עליו",
+      "source_rabbi": "רבי לוי יצחק מברדיטשוב",
+      "source_book": "קדושת לוי",
+      "source_section": "פרשת תצוה",
+      "source_url": "https://www.sefaria.org/Kedushat_Levi%2C_Tetzaveh",
+      "category": "baal_shem_tov",
+      "tags": [
+        "שמחה",
+        "שכינה",
+        "עבודת השם"
+      ],
+      "length_estimate": 52,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "besht-batch4-020",
+      "text": "הבעש״ט לימד: הביטול עצמי הוא הדרך להתקרב אל ה׳",
+      "source_rabbi": "רבי ישראל בעל שם טוב",
+      "source_book": "כתר שם טוב",
+      "source_section": "אות רי״ח",
+      "source_url": "https://www.sefaria.org/Keter_Shem_Tov.218",
+      "category": "baal_shem_tov",
+      "tags": [
+        "ביטול",
+        "התקרבות",
+        "דבקות"
+      ],
+      "length_estimate": 43,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "besht-batch4-021",
+      "text": "שמעתי ממורי: כל העולמות תלויים בעבודת האדם התחתון",
+      "source_rabbi": "רבי יעקב יוסף מפולנאה",
+      "source_book": "תולדות יעקב יוסף",
+      "source_section": "פרשת ויצא",
+      "source_url": "https://www.sefaria.org/Toldot_Yaakov_Yosef%2C_Vayetze",
+      "category": "baal_shem_tov",
+      "tags": [
+        "עולמות",
+        "עבודה",
+        "תיקון"
+      ],
+      "length_estimate": 47,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "besht-batch4-022",
+      "text": "הבעש״ט אמר: כל הרהור תשובה מועיל, אפילו לרגע אחד",
+      "source_rabbi": "רבי ישראל בעל שם טוב",
+      "source_book": "שבחי הבעל שם טוב",
+      "source_section": "סיפור ק״י",
+      "source_url": "https://www.sefaria.org/Shivchei_HaBaal_Shem_Tov",
+      "category": "baal_shem_tov",
+      "tags": [
+        "תשובה",
+        "הרהור",
+        "רגע"
+      ],
+      "length_estimate": 44,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "besht-batch4-023",
+      "text": "למדנו מהבעש״ט: האדם נברא להיטיב עם הבריות",
+      "source_rabbi": "רבי אלימלך מליזענסק",
+      "source_book": "נועם אלימלך",
+      "source_section": "פרשת וירא",
+      "source_url": "https://www.sefaria.org/Noam_Elimelech%2C_Vayera",
+      "category": "baal_shem_tov",
+      "tags": [
+        "חסד",
+        "הטבה",
+        "בריות"
+      ],
+      "length_estimate": 39,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "besht-batch4-024",
+      "text": "הבעש״ט לימד: כשאדם מדבר דברי תורה, הקב״ה שומע ומקשיב",
+      "source_rabbi": "רבי מנחם נחום מטשרנוביל",
+      "source_book": "מאור עינים",
+      "source_section": "פרשת וישלח",
+      "source_url": "https://www.sefaria.org/Meor_Einayim%2C_Vayishlach",
+      "category": "baal_shem_tov",
+      "tags": [
+        "תורה",
+        "דיבור",
+        "השגחה"
+      ],
+      "length_estimate": 50,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "besht-batch4-025",
+      "text": "שמעתי מהבעש״ט: העניות והעשירות שניהם ניסיונות מן השמים",
+      "source_rabbi": "רבי ישראל בעל שם טוב",
+      "source_book": "צוואת הריב״ש",
+      "source_section": "פרק ק״ג",
+      "source_url": "https://www.sefaria.org/Tzavaat_HaRivash.103",
+      "category": "baal_shem_tov",
+      "tags": [
+        "עניות",
+        "עשירות",
+        "ניסיון"
+      ],
+      "length_estimate": 50,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "besht-batch4-026",
+      "text": "הבעש״ט אמר: הענווה האמיתית היא לדעת שכל מה שיש לך הוא מאת ה׳",
+      "source_rabbi": "רבי משה חיים אפרים מסודילקוב",
+      "source_book": "דגל מחנה אפרים",
+      "source_section": "פרשת עקב",
+      "source_url": "https://www.sefaria.org/Degel_Machaneh_Ephraim%2C_Eikev",
+      "category": "baal_shem_tov",
+      "tags": [
+        "ענווה",
+        "הכרה",
+        "מתנה"
+      ],
+      "length_estimate": 56,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "besht-batch4-027",
+      "text": "למדנו מהבעש״ט: כל דבר שקורה בעולם הוא בהשגחה פרטית",
+      "source_rabbi": "רבי ישראל בעל שם טוב",
+      "source_book": "כתר שם טוב",
+      "source_section": "אות רכ״ט",
+      "source_url": "https://www.sefaria.org/Keter_Shem_Tov.229",
+      "category": "baal_shem_tov",
+      "tags": [
+        "השגחה פרטית",
+        "אמונה",
+        "עולם"
+      ],
+      "length_estimate": 48,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "besht-batch4-028",
+      "text": "הבעש״ט לימד: אין יאוש בעולם כלל, כי ה׳ קרוב לכל קוראיו",
+      "source_rabbi": "רבי לוי יצחק מברדיטשוב",
+      "source_book": "קדושת לוי",
+      "source_section": "פרשת וארא",
+      "source_url": "https://www.sefaria.org/Kedushat_Levi%2C_Vaera",
+      "category": "baal_shem_tov",
+      "tags": [
+        "תקווה",
+        "קרבת ה׳",
+        "תפילה"
+      ],
+      "length_estimate": 50,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "besht-batch4-029",
+      "text": "שמעתי ממורי הבעש״ט: כשאדם מקדש את עצמו למטה, מקדשים אותו מלמעלה",
+      "source_rabbi": "רבי יעקב יוסף מפולנאה",
+      "source_book": "תולדות יעקב יוסף",
+      "source_section": "פרשת קדושים",
+      "source_url": "https://www.sefaria.org/Toldot_Yaakov_Yosef%2C_Kedoshim",
+      "category": "baal_shem_tov",
+      "tags": [
+        "קדושה",
+        "התעלות",
+        "סיוע שמימי"
+      ],
+      "length_estimate": 60,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "besht-batch4-030",
+      "text": "הבעש״ט אמר: הניגון הוא סולם לעלות לעולמות העליונים",
+      "source_rabbi": "רבי ישראל בעל שם טוב",
+      "source_book": "שבחי הבעל שם טוב",
+      "source_section": "סיפור קכ״ה",
+      "source_url": "https://www.sefaria.org/Shivchei_HaBaal_Shem_Tov",
+      "category": "baal_shem_tov",
+      "tags": [
+        "ניגון",
+        "עלייה",
+        "עולמות"
+      ],
+      "length_estimate": 47,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "besht-batch4-031",
+      "text": "למדנו מהבעש״ט: מחשבה טובה הקב״ה מצרפה למעשה",
+      "source_rabbi": "רבי אלימלך מליזענסק",
+      "source_book": "נועם אלימלך",
+      "source_section": "פרשת צו",
+      "source_url": "https://www.sefaria.org/Noam_Elimelech%2C_Tzav",
+      "category": "baal_shem_tov",
+      "tags": [
+        "מחשבה",
+        "מעשה",
+        "חסד"
+      ],
+      "length_estimate": 42,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "besht-batch4-032",
+      "text": "הבעש״ט לימד: כל יהודי יכול לעורר רחמי שמים על עצמו ועל כל העולם",
+      "source_rabbi": "רבי מנחם נחום מטשרנוביל",
+      "source_book": "מאור עינים",
+      "source_section": "פרשת וירא",
+      "source_url": "https://www.sefaria.org/Meor_Einayim%2C_Vayera",
+      "category": "baal_shem_tov",
+      "tags": [
+        "רחמים",
+        "תפילה",
+        "יהודי"
+      ],
+      "length_estimate": 57,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "besht-batch4-033",
+      "text": "שמעתי מהבעש״ט: האדם צריך לעבוד את ה׳ בפשטות ובתמימות",
+      "source_rabbi": "רבי ישראל בעל שם טוב",
+      "source_book": "צוואת הריב״ש",
+      "source_section": "פרק קי״ז",
+      "source_url": "https://www.sefaria.org/Tzavaat_HaRivash.117",
+      "category": "baal_shem_tov",
+      "tags": [
+        "פשטות",
+        "תמימות",
+        "עבודה"
+      ],
+      "length_estimate": 49,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "besht-batch4-034",
+      "text": "הבעש״ט אמר: כל יום שעובר ואדם לא עשה בו טובה לחברו, נחשב ליום אבוד",
+      "source_rabbi": "רבי ישראל בעל שם טוב",
+      "source_book": "כתר שם טוב",
+      "source_section": "אות ר״מ",
+      "source_url": "https://www.sefaria.org/Keter_Shem_Tov.240",
+      "category": "baal_shem_tov",
+      "tags": [
+        "חסד",
+        "יום",
+        "חבר"
+      ],
+      "length_estimate": 60,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "besht-batch4-035",
+      "text": "הבעש״ט לימד: אין דבר העומד בפני הרצון האמיתי לעבוד את הבורא",
+      "source_rabbi": "רבי משה חיים אפרים מסודילקוב",
+      "source_book": "דגל מחנה אפרים",
+      "source_section": "פרשת ויחי",
+      "source_url": "https://www.sefaria.org/Degel_Machaneh_Ephraim%2C_Vayechi",
+      "category": "baal_shem_tov",
+      "tags": [
+        "רצון",
+        "עבודת השם",
+        "התמדה"
+      ],
+      "length_estimate": 54,
+      "created_at": "2025-01-28T12:00:00Z"
     }
   ],
-  "last_updated": "2024-01-28T00:00:00"
+  "last_updated": "2026-01-28T18:45:53.343314"
 }

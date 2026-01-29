@@ -190,6 +190,27 @@ class QuoteRepository:
 
         return random.choice(available)
 
+    def get_random_quote(self) -> Quote | None:
+        """
+        Get a single random quote from any category.
+
+        Useful for the /quote command to show a quick sample.
+
+        Returns:
+            A random quote, or None if no quotes available
+        """
+        all_quotes: list[Quote] = []
+        quotes_by_category = self._load_quotes()
+
+        for category_quotes in quotes_by_category.values():
+            all_quotes.extend(category_quotes)
+
+        if not all_quotes:
+            logger.warning("no_quotes_available_for_random")
+            return None
+
+        return random.choice(all_quotes)
+
     def get_sent_ids_by_category(self, category: QuoteCategory) -> set[str]:
         """Get IDs of quotes that have been sent for a category."""
         history = self._load_history()
@@ -222,6 +243,11 @@ class QuoteRepository:
                 logger.warning("missing_quote_for_category", category=category.value)
 
         return DailyBundle(date=target_date, quotes=quotes)
+
+    def was_broadcast_today(self, target_date: date) -> bool:
+        """Check if any quotes were already broadcast for this date."""
+        history = self._load_history()
+        return any(r.sent_date == target_date for r in history)
 
     def clear_history(self) -> None:
         """Clear all sent history (use with caution!)."""

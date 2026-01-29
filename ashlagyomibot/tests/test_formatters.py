@@ -6,6 +6,7 @@ import pytest
 
 from src.bot.formatters import (
     CATEGORY_EMOJI,
+    build_source_keyboard,
     escape_markdown,
     format_daily_bundle,
     format_quote,
@@ -29,16 +30,17 @@ class TestFormatQuote:
         assert "״" in formatted
         assert sample_quote.text in formatted
 
-    def test_includes_source_link(self, sample_quote: Quote) -> None:
-        """Formatted quote should include source URL as markdown link."""
+    def test_no_inline_link_in_text(self, sample_quote: Quote) -> None:
+        """Source link should NOT be in text (moved to keyboard per nachyomi-bot pattern)."""
         formatted = format_quote(sample_quote)
-        assert "מקור" in formatted
-        assert sample_quote.source_url in formatted
+        # Links are now in inline keyboard, not in message text
+        assert '<a href="' not in formatted
 
-    def test_excludes_source_link_when_disabled(self, sample_quote: Quote) -> None:
-        """Should not include source link when disabled."""
-        formatted = format_quote(sample_quote, include_source_link=False)
-        assert "מקור]" not in formatted
+    def test_source_book_in_text(self, sample_quote: Quote) -> None:
+        """Source book attribution should still be in text."""
+        formatted = format_quote(sample_quote)
+        assert "📚" in formatted
+        assert sample_quote.source_book in formatted
 
     def test_includes_category_emoji(self, sample_quote: Quote) -> None:
         """Formatted quote should include the category emoji."""
@@ -73,24 +75,23 @@ class TestFormatDailyBundle:
         assert "אשלג יומי" in header
         assert "15.01.2024" in header
 
-    def test_includes_reading_time(self, sample_bundle: DailyBundle) -> None:
-        """Header should include estimated reading time."""
+    def test_header_format(self, sample_bundle: DailyBundle) -> None:
+        """Header should include date and separator."""
         messages = format_daily_bundle(sample_bundle)
         header = messages[0]
-        assert "דקות" in header
+        assert "═══════════════════" in header
 
     def test_includes_all_quotes(self, sample_bundle: DailyBundle) -> None:
         """Should include all quotes from the bundle."""
         messages = format_daily_bundle(sample_bundle)
-        # Header + 7 quotes + footer = 9 messages
-        assert len(messages) == 9
+        # Header + 6 quotes + footer = 8 messages
+        assert len(messages) == 8
 
     def test_includes_footer(self, sample_bundle: DailyBundle) -> None:
-        """Last message should be a footer."""
+        """Last message should be a footer separator."""
         messages = format_daily_bundle(sample_bundle)
         footer = messages[-1]
-        assert "/today" in footer
-        assert "/about" in footer
+        assert "═══════════════════" in footer
 
     def test_empty_bundle_handling(self, sample_quotes: list[Quote]) -> None:
         """Should handle bundle with single quote gracefully."""
@@ -113,32 +114,67 @@ class TestFormatSingleQuoteMessage:
         formatted = format_single_quote_message(sample_quote)
         assert sample_quote.text in formatted
 
-    def test_includes_footer_commands(self, sample_quote: Quote) -> None:
-        """Should include command references."""
+    def test_includes_footer_separator(self, sample_quote: Quote) -> None:
+        """Should include footer separator."""
         formatted = format_single_quote_message(sample_quote)
-        assert "/today" in formatted
-        assert "/about" in formatted
+        assert "═══════════════════" in formatted
 
 
-class TestEscapeMarkdown:
-    """Tests for escape_markdown function."""
+class TestEscapeHtml:
+    """Tests for escape_html function (alias: escape_markdown)."""
 
-    def test_escapes_asterisks(self) -> None:
-        """Should escape asterisks."""
-        assert escape_markdown("*bold*") == "\\*bold\\*"
+    def test_escapes_ampersand(self) -> None:
+        """Should escape ampersands."""
+        assert escape_markdown("a & b") == "a &amp; b"
 
-    def test_escapes_underscores(self) -> None:
-        """Should escape underscores."""
-        assert escape_markdown("_italic_") == "\\_italic\\_"
+    def test_escapes_less_than(self) -> None:
+        """Should escape less-than signs."""
+        assert escape_markdown("<tag>") == "&lt;tag&gt;"
 
-    def test_escapes_brackets(self) -> None:
-        """Should escape brackets."""
-        assert escape_markdown("[link](url)") == "\\[link\\]\\(url\\)"
+    def test_escapes_greater_than(self) -> None:
+        """Should escape greater-than signs."""
+        assert escape_markdown("a > b") == "a &gt; b"
 
     def test_preserves_regular_text(self) -> None:
         """Should not modify regular text."""
         text = "שלום עולם"
         assert escape_markdown(text) == text
+
+
+class TestBuildSourceKeyboard:
+    """Tests for build_source_keyboard function (nachyomi-bot pattern)."""
+
+    def test_returns_keyboard_when_source_url_exists(self, sample_quote: Quote) -> None:
+        """Should return InlineKeyboardMarkup when quote has source_url."""
+        keyboard = build_source_keyboard(sample_quote)
+        assert keyboard is not None
+        # Verify it's the correct type
+        from telegram import InlineKeyboardMarkup
+        assert isinstance(keyboard, InlineKeyboardMarkup)
+
+    def test_keyboard_structure_is_valid(self, sample_quote: Quote) -> None:
+        """Keyboard should have proper structure (single row, single button)."""
+        keyboard = build_source_keyboard(sample_quote)
+        assert keyboard is not None
+        # Should have exactly one row
+        assert len(keyboard.inline_keyboard) == 1
+        # Row should have exactly one button
+        assert len(keyboard.inline_keyboard[0]) == 1
+
+    def test_keyboard_contains_source_url(self, sample_quote: Quote) -> None:
+        """Keyboard button should contain the source URL."""
+        keyboard = build_source_keyboard(sample_quote)
+        assert keyboard is not None
+        # Access the button
+        button = keyboard.inline_keyboard[0][0]
+        assert button.url == sample_quote.source_url
+
+    def test_keyboard_button_text_is_hebrew(self, sample_quote: Quote) -> None:
+        """Keyboard button should have Hebrew text 'מקור'."""
+        keyboard = build_source_keyboard(sample_quote)
+        assert keyboard is not None
+        button = keyboard.inline_keyboard[0][0]
+        assert "מקור" in button.text
 
 
 class TestCategoryEmoji:

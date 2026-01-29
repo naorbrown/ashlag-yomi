@@ -1,0 +1,2985 @@
+{
+  "category": "chasdei_ashlag",
+  "display_name_hebrew": "חסידי אשלג",
+  "display_name_english": "Chasdei Ashlag",
+  "description": "תלמידי בעל הסולם והרב\"ש ממשיכי דרכם",
+  "quotes": [
+    {
+      "id": "chasdei-ashlag-003",
+      "text": "החברה היא הכלי שבו האדם יכול להגיע לידי השגת הרוחניות. בלי חברה אין אפשרות להתקדם, כי האגו של האדם חזק מדי",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "שיעורי הבוקר",
+      "source_section": "על החברה",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "חברה",
+        "רוחניות",
+        "אגו"
+      ],
+      "length_estimate": 42,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "chasdei-ashlag-004",
+      "text": "כל מה שהאדם עובר הוא לתועלתו, אם רק ידע להשתמש בזה נכון. המצבים הקשים הם הזדמנויות לצמיחה",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "קבלה למתחיל",
+      "source_section": "על הדרך",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "מצבים",
+        "צמיחה",
+        "הזדמנות"
+      ],
+      "length_estimate": 38,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "chasdei-ashlag-005",
+      "text": "הקשר בין האדם לחברו הוא המקום שבו מתגלה הבורא. כשיש אהבה אמיתית בין אנשים, שם נמצא האור העליון",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "שיעורי הבוקר",
+      "source_section": "על האהבה",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "קשר",
+        "אהבה",
+        "אור"
+      ],
+      "length_estimate": 40,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "chasdei-ashlag-007",
+      "text": "הביטול היא המידה הכי חשובה. כשאדם מבטל את עצמו לפני הכלל, הוא מתחבר לכוח שלמעלה מהטבע שלו",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "שיעורי הבוקר",
+      "source_section": "על הביטול",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "ביטול",
+        "כלל",
+        "טבע"
+      ],
+      "length_estimate": 38,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "chasdei-ashlag-008",
+      "text": "הלימוד בחבורה הוא לא לימוד רגיל. זה עבודה על הלב, על הקשר בין האנשים. הידע הוא רק אמצעי",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "קבלה למתחיל",
+      "source_section": "על הלימוד",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "לימוד",
+        "חבורה",
+        "לב"
+      ],
+      "length_estimate": 38,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "chasdei-ashlag-010",
+      "text": "הערבות הדדית היא היסוד של העבודה. כולם ערבים זה לזה, וההצלחה של אחד היא הצלחה של כולם",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "שיעורי הבוקר",
+      "source_section": "על הערבות",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "ערבות",
+        "הצלחה",
+        "כלל"
+      ],
+      "length_estimate": 38,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "chasdei-ashlag-012",
+      "text": "הייסורים הם לא עונש. הם הזדמנות לתיקון, לעליה למדרגה יותר גבוהה. צריך לקבל אותם באהבה",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "קבלה למתחיל",
+      "source_section": "על הייסורים",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "ייסורים",
+        "תיקון",
+        "עליה"
+      ],
+      "length_estimate": 38,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "chasdei-ashlag-013",
+      "text": "אי אפשר להבין את חכמת הקבלה בשכל. צריך להרגיש אותה בלב. הלב מבין מה שהשכל לא יכול",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "שיעורי הבוקר",
+      "source_section": "על ההבנה",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "קבלה",
+        "לב",
+        "הבנה"
+      ],
+      "length_estimate": 38,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "chasdei-ashlag-015",
+      "text": "האדם לא צריך להיות מושלם. הוא צריך להיות אמיתי, עם כל החסרונות שלו. האמת היא הכוח הכי גדול",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "שיעורי הבוקר",
+      "source_section": "על האמת",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "אמת",
+        "שלמות",
+        "חסרונות"
+      ],
+      "length_estimate": 40,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "chasdei-ashlag-016",
+      "text": "הסביבה קובעת את האדם יותר מכל דבר אחר. לכן חשוב כל כך לבחור סביבה שתומכת בהתקדמות הרוחנית",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "קבלה למתחיל",
+      "source_section": "על הסביבה",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "סביבה",
+        "בחירה",
+        "התקדמות"
+      ],
+      "length_estimate": 40,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "chasdei-ashlag-018",
+      "text": "השמחה היא לא תוצאה של משהו טוב שקרה. השמחה היא עמדה, גישה לחיים, בחירה להיות שמח בכל מצב",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "שיעורי הבוקר",
+      "source_section": "על השמחה",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "שמחה",
+        "גישה",
+        "בחירה"
+      ],
+      "length_estimate": 42,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "chasdei-ashlag-020",
+      "text": "כל אדם הוא עולם מלא. כשאתה פוגע באדם אחר, אתה פוגע בעולם שלם. כשאתה עוזר לאדם אחר, אתה עוזר לעולם שלם",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "שיעורי הבוקר",
+      "source_section": "על האדם",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "אדם",
+        "עולם",
+        "עזרה"
+      ],
+      "length_estimate": 45,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "chasdei-ashlag-022",
+      "text": "העבודה הרוחנית היא עבודה יומיומית, רגע אחרי רגע. אין פעולות גדולות, יש פעולות קטנות וקבועות",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "קבלה למתחיל",
+      "source_section": "על העבודה",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "עבודה",
+        "יומיום",
+        "קביעות"
+      ],
+      "length_estimate": 40,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "chasdei-ashlag-024",
+      "text": "הקבוצה היא המקום שבו אנחנו מתרגלים להיות אנושיים אמיתיים. בלי הקבוצה, נשארים באגו",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "שיעורי הבוקר",
+      "source_section": "על הקבוצה",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "קבוצה",
+        "אנושיות",
+        "אגו"
+      ],
+      "length_estimate": 38,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "chasdei-ashlag-025",
+      "text": "הזוהר הוא אור. לא צריך להבין את המילים, צריך לפתוח את הלב ולתת לאור להיכנס",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "שיעורי הבוקר",
+      "source_section": "על הזוהר",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "זוהר",
+        "אור",
+        "לב"
+      ],
+      "length_estimate": 35,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "chasdei-ashlag-027",
+      "text": "התיקון הוא לא לתקן את העולם החיצוני. התיקון הוא לתקן את היחס שלנו לעולם, את האופן שבו אנו רואים את הזולת",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "קבלה למתחיל",
+      "source_section": "על התיקון",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "תיקון",
+        "יחס",
+        "זולת"
+      ],
+      "length_estimate": 45,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "chasdei-ashlag-029",
+      "text": "הכל תלוי בכוונה. אותו מעשה בדיוק יכול להיות קדוש או חולין, הכל לפי הכוונה שמאחוריו",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "שיעורי הבוקר",
+      "source_section": "על הכוונה",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "כוונה",
+        "מעשה",
+        "קדושה"
+      ],
+      "length_estimate": 38,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "chasdei-ashlag-030",
+      "text": "הסוף טוב. זה לא תקווה, זה ידיעה. הבריאה מתקדמת לכיוון השלמות, ואנחנו חלק מהתהליך הזה",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "קבלה למתחיל",
+      "source_section": "על הסוף",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "סוף",
+        "שלמות",
+        "בריאה"
+      ],
+      "length_estimate": 38,
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "chasdei-batch1-051",
+      "text": "הפצת חכמת הקבלה היא החובה של דורנו. העולם זקוק לחכמה הזו כדי לצאת מהמשבר",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "שיעורי הבוקר",
+      "source_section": "על ההפצה",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "הפצה",
+        "קבלה",
+        "דור"
+      ],
+      "length_estimate": 38,
+      "created_at": "2024-01-28T00:00:00"
+    },
+    {
+      "id": "chasdei-batch1-052",
+      "text": "העולם המודרני מציב אתגרים חדשים, אבל הפתרונות נמצאים באותה חכמה עתיקה. הקבלה רלוונטית היום יותר מתמיד",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "קבלה למתחיל",
+      "source_section": "מבוא",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "עולם מודרני",
+        "קבלה",
+        "רלוונטיות"
+      ],
+      "length_estimate": 45,
+      "created_at": "2024-01-28T00:00:00"
+    },
+    {
+      "id": "chasdei-batch1-053",
+      "text": "התיקון המודרני הוא בחיבור בין אנשים. לא בבידוד, לא בבריחה מהעולם, אלא בבניית קשרים נכונים",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "מאמרים",
+      "source_section": "על התיקון",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "תיקון",
+        "חיבור",
+        "קשרים"
+      ],
+      "length_estimate": 42,
+      "created_at": "2024-01-28T00:00:00"
+    },
+    {
+      "id": "chasdei-batch1-054",
+      "text": "האגו הוא לא האויב. הוא החומר שממנו בונים את הכלי הרוחני. צריך להשתמש בו נכון",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "שיעורי הבוקר",
+      "source_section": "על האגו",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "אגו",
+        "כלי",
+        "רוחניות"
+      ],
+      "length_estimate": 38,
+      "created_at": "2024-01-28T00:00:00"
+    },
+    {
+      "id": "chasdei-batch1-055",
+      "text": "הלימוד בקבוצה יוצר כוח משותף שלא קיים בלימוד יחיד. הקבוצה מגבירה את האור פי כמה וכמה",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "קבלה למתחיל",
+      "source_section": "על הלימוד",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "לימוד",
+        "קבוצה",
+        "כוח"
+      ],
+      "length_estimate": 42,
+      "created_at": "2024-01-28T00:00:00"
+    },
+    {
+      "id": "chasdei-batch1-056",
+      "text": "הערבות בימינו היא גלובלית. כל העולם מחובר, וההצלחה של אחד תלויה בהצלחה של כולם",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "מאמרים",
+      "source_section": "על הערבות",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "ערבות",
+        "גלובליזציה",
+        "חיבור"
+      ],
+      "length_estimate": 40,
+      "created_at": "2024-01-28T00:00:00"
+    },
+    {
+      "id": "chasdei-batch1-057",
+      "text": "האינטרנט הוא כלי שיכול לשמש להפצת הקבלה בכל העולם. זו הזדמנות שלא הייתה קיימת בעבר",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "שיעורי הבוקר",
+      "source_section": "על ההפצה",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "אינטרנט",
+        "הפצה",
+        "הזדמנות"
+      ],
+      "length_estimate": 42,
+      "created_at": "2024-01-28T00:00:00"
+    },
+    {
+      "id": "chasdei-batch1-058",
+      "text": "המשבר העולמי הוא לא מקרה. הוא קריאה להתעוררות, לשינוי בתודעה האנושית",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "קבלה למתחיל",
+      "source_section": "על המשבר",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "משבר",
+        "התעוררות",
+        "תודעה"
+      ],
+      "length_estimate": 35,
+      "created_at": "2024-01-28T00:00:00"
+    },
+    {
+      "id": "chasdei-batch1-059",
+      "text": "החינוך המשולב הוא הדרך לדור הבא. ללמד ילדים לא רק ידע, אלא גם ערכים של נתינה וחיבור",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "מאמרים",
+      "source_section": "על החינוך",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "חינוך",
+        "דור הבא",
+        "ערכים"
+      ],
+      "length_estimate": 42,
+      "created_at": "2024-01-28T00:00:00"
+    },
+    {
+      "id": "chasdei-batch1-060",
+      "text": "הסביבה הוירטואלית יכולה להיות סביבה רוחנית. החברים ברשת יכולים להשפיע כמו חברים פיזיים",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "שיעורי הבוקר",
+      "source_section": "על הסביבה",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "סביבה",
+        "וירטואלי",
+        "חברים"
+      ],
+      "length_estimate": 42,
+      "created_at": "2024-01-28T00:00:00"
+    },
+    {
+      "id": "chasdei-batch1-061",
+      "text": "העליות והירידות הן המנוע של ההתפתחות. בלעדיהן היינו נשארים במקום, בלי התקדמות",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "קבלה למתחיל",
+      "source_section": "על העליות והירידות",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "עליות",
+        "ירידות",
+        "התפתחות"
+      ],
+      "length_estimate": 38,
+      "created_at": "2024-01-28T00:00:00"
+    },
+    {
+      "id": "chasdei-batch1-062",
+      "text": "האמונה למעלה מהדעת היא הכלי לעבור את הירידות. כשהדעת אומרת שאי אפשר, האמונה נותנת כוח להמשיך",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "מאמרים",
+      "source_section": "על האמונה",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "אמונה",
+        "דעת",
+        "ירידות"
+      ],
+      "length_estimate": 45,
+      "created_at": "2024-01-28T00:00:00"
+    },
+    {
+      "id": "chasdei-batch1-063",
+      "text": "הכלי הקבוצתי הוא חזק יותר מכל כלי פרטי. כשהקבוצה מאוחדת, היא מושכת אור עצום",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "שיעורי הבוקר",
+      "source_section": "על הקבוצה",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "כלי",
+        "קבוצה",
+        "אור"
+      ],
+      "length_estimate": 38,
+      "created_at": "2024-01-28T00:00:00"
+    },
+    {
+      "id": "chasdei-batch1-064",
+      "text": "הנקודה שבלב היא הניצוץ האלוקי שבכל אדם. העבודה היא להגדיל את הנקודה הזו עד שתמלא את כל הלב",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "קבלה למתחיל",
+      "source_section": "על הנקודה שבלב",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "נקודה שבלב",
+        "ניצוץ",
+        "לב"
+      ],
+      "length_estimate": 45,
+      "created_at": "2024-01-28T00:00:00"
+    },
+    {
+      "id": "chasdei-batch1-065",
+      "text": "הבורא מתגלה בין הכלים, לא בתוך הכלי הפרטי. לכן צריך קשר עם אחרים כדי לגלות את הבורא",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "מאמרים",
+      "source_section": "על גילוי הבורא",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "בורא",
+        "כלים",
+        "גילוי"
+      ],
+      "length_estimate": 42,
+      "created_at": "2024-01-28T00:00:00"
+    },
+    {
+      "id": "chasdei-batch1-066",
+      "text": "החוכמה ניתנת לכל מי שרוצה. אין הגבלות של גיל, מין, לאום או דת. הדלת פתוחה לכולם",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "שיעורי הבוקר",
+      "source_section": "על הלימוד",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "חוכמה",
+        "לימוד",
+        "פתיחות"
+      ],
+      "length_estimate": 40,
+      "created_at": "2024-01-28T00:00:00"
+    },
+    {
+      "id": "chasdei-batch1-067",
+      "text": "השאלות הקשות הן השאלות החשובות. לא לברוח מהן, אלא להתמודד איתן בכנות",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "קבלה למתחיל",
+      "source_section": "על השאלות",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "שאלות",
+        "התמודדות",
+        "כנות"
+      ],
+      "length_estimate": 35,
+      "created_at": "2024-01-28T00:00:00"
+    },
+    {
+      "id": "chasdei-batch1-068",
+      "text": "הזוהר פועל על האדם גם בלי שהוא מבין. האור שבו מתקן, גם אם המילים לא מובנות",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "מאמרים",
+      "source_section": "על הזוהר",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "זוהר",
+        "אור",
+        "תיקון"
+      ],
+      "length_estimate": 38,
+      "created_at": "2024-01-28T00:00:00"
+    },
+    {
+      "id": "chasdei-batch1-069",
+      "text": "הקונגרס הוא הזדמנות להתחבר בצורה מיוחדת. כשאלפי אנשים נפגשים עם כוונה אחת, האור מתגלה",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "שיעורי הבוקר",
+      "source_section": "על הקונגרס",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "קונגרס",
+        "חיבור",
+        "אור"
+      ],
+      "length_estimate": 42,
+      "created_at": "2024-01-28T00:00:00"
+    },
+    {
+      "id": "chasdei-batch1-070",
+      "text": "המדע והקבלה לא סותרים זה את זה. הקבלה מדברת על מה שמעל החומר, המדע על מה שבתוך החומר",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "קבלה למתחיל",
+      "source_section": "על המדע",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "מדע",
+        "קבלה",
+        "חומר"
+      ],
+      "length_estimate": 42,
+      "created_at": "2024-01-28T00:00:00"
+    },
+    {
+      "id": "chasdei-batch1-071",
+      "text": "התקשורת המודרנית יכולה לשמש להפצת אור או להפצת חושך. הבחירה בידינו",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "מאמרים",
+      "source_section": "על התקשורת",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "תקשורת",
+        "אור",
+        "בחירה"
+      ],
+      "length_estimate": 35,
+      "created_at": "2024-01-28T00:00:00"
+    },
+    {
+      "id": "chasdei-batch1-072",
+      "text": "העבודה בחברה היא המעבדה הרוחנית. שם אנחנו מתרגלים את מה שלמדנו בתיאוריה",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "שיעורי הבוקר",
+      "source_section": "על החברה",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "חברה",
+        "מעבדה",
+        "תרגול"
+      ],
+      "length_estimate": 35,
+      "created_at": "2024-01-28T00:00:00"
+    },
+    {
+      "id": "chasdei-batch1-073",
+      "text": "הספרים של בעל הסולם הם המפתח להבנת הזוהר. בלעדיהם, הזוהר נשאר סתום",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "קבלה למתחיל",
+      "source_section": "על בעל הסולם",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "בעל הסולם",
+        "זוהר",
+        "הבנה"
+      ],
+      "length_estimate": 35,
+      "created_at": "2024-01-28T00:00:00"
+    },
+    {
+      "id": "chasdei-batch1-074",
+      "text": "הדור שלנו מיוחד כי הוא הדור שיכול להשלים את התיקון. זו אחריות גדולה וגם זכות גדולה",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "מאמרים",
+      "source_section": "על הדור",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "דור",
+        "תיקון",
+        "אחריות"
+      ],
+      "length_estimate": 40,
+      "created_at": "2024-01-28T00:00:00"
+    },
+    {
+      "id": "chasdei-batch1-075",
+      "text": "האישה בקבלה היא כוח חשוב. בלי הנשים, אין אפשרות להתקדם. הן מביאות את הכוח של הרצון",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "שיעורי הבוקר",
+      "source_section": "על האישה",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "אישה",
+        "כוח",
+        "רצון"
+      ],
+      "length_estimate": 42,
+      "created_at": "2024-01-28T00:00:00"
+    },
+    {
+      "id": "chasdei-batch1-076",
+      "text": "הילדים של היום הם הדור הבא של המקובלים. צריך להכין להם את הקרקע",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "קבלה למתחיל",
+      "source_section": "על הילדים",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "ילדים",
+        "דור הבא",
+        "הכנה"
+      ],
+      "length_estimate": 32,
+      "created_at": "2024-01-28T00:00:00"
+    },
+    {
+      "id": "chasdei-batch1-077",
+      "text": "המשפחה היא הקבוצה הראשונה. שם מתחילים ללמוד לחיות עם אחרים, לתת ולקבל",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "מאמרים",
+      "source_section": "על המשפחה",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "משפחה",
+        "קבוצה",
+        "למידה"
+      ],
+      "length_estimate": 35,
+      "created_at": "2024-01-28T00:00:00"
+    },
+    {
+      "id": "chasdei-batch1-078",
+      "text": "העבודה לא נגמרת אף פעם. גם אחרי השגה גדולה, יש עוד מה להשיג. הדרך היא אינסופית",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "שיעורי הבוקר",
+      "source_section": "על העבודה",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "עבודה",
+        "השגה",
+        "אינסוף"
+      ],
+      "length_estimate": 40,
+      "created_at": "2024-01-28T00:00:00"
+    },
+    {
+      "id": "chasdei-batch1-079",
+      "text": "הרגש הוא הכלי האמיתי, לא השכל. השכל רק מסביר מה שהרגש משיג",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "קבלה למתחיל",
+      "source_section": "על ההשגה",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "רגש",
+        "שכל",
+        "השגה"
+      ],
+      "length_estimate": 30,
+      "created_at": "2024-01-28T00:00:00"
+    },
+    {
+      "id": "chasdei-batch1-080",
+      "text": "הביטול האמיתי הוא לא להעלים את עצמי, אלא להיות כלי ריק שיכול להתמלא",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "מאמרים",
+      "source_section": "על הביטול",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "ביטול",
+        "כלי",
+        "ריקון"
+      ],
+      "length_estimate": 35,
+      "created_at": "2024-01-28T00:00:00"
+    },
+    {
+      "id": "chasdei-batch1-081",
+      "text": "השפע הרוחני זורם לפי החוק של השתוות הצורה. ככל שאנו דומים יותר לבורא, כך מקבלים יותר",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "שיעורי הבוקר",
+      "source_section": "על השפע",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "שפע",
+        "השתוות הצורה",
+        "בורא"
+      ],
+      "length_estimate": 42,
+      "created_at": "2024-01-28T00:00:00"
+    },
+    {
+      "id": "chasdei-batch1-082",
+      "text": "הגאולה תבוא דרך החיבור בין אנשים. לא דרך נסים, אלא דרך עבודה משותפת",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "קבלה למתחיל",
+      "source_section": "על הגאולה",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "גאולה",
+        "חיבור",
+        "עבודה"
+      ],
+      "length_estimate": 35,
+      "created_at": "2024-01-28T00:00:00"
+    },
+    {
+      "id": "chasdei-batch1-083",
+      "text": "הסתרת הבורא היא לטובתנו. היא נותנת לנו את החופש לבחור, לגדול, להתפתח",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "מאמרים",
+      "source_section": "על ההסתרה",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "הסתרה",
+        "בורא",
+        "בחירה"
+      ],
+      "length_estimate": 35,
+      "created_at": "2024-01-28T00:00:00"
+    },
+    {
+      "id": "chasdei-batch1-084",
+      "text": "התקווה היא כוח רוחני. היא מחזיקה את האדם בדרך גם בזמנים קשים",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "שיעורי הבוקר",
+      "source_section": "על התקווה",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "תקווה",
+        "כוח",
+        "דרך"
+      ],
+      "length_estimate": 30,
+      "created_at": "2024-01-28T00:00:00"
+    },
+    {
+      "id": "chasdei-batch1-085",
+      "text": "הרב\"ש המשיך את דרכו של בעל הסולם והפך אותה לנגישה יותר. הוא גשר בין החוכמה לעבודה המעשית",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "קבלה למתחיל",
+      "source_section": "על הרב\"ש",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "רב\"ש",
+        "בעל הסולם",
+        "חוכמה"
+      ],
+      "length_estimate": 45,
+      "created_at": "2024-01-28T00:00:00"
+    },
+    {
+      "id": "chasdei-batch1-086",
+      "text": "הפחד מהעתיד הוא חוסר אמונה. מי שמאמין יודע שהכל לטובה, גם מה שעוד לא קרה",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "מאמרים",
+      "source_section": "על הפחד",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "פחד",
+        "עתיד",
+        "אמונה"
+      ],
+      "length_estimate": 38,
+      "created_at": "2024-01-28T00:00:00"
+    },
+    {
+      "id": "chasdei-batch1-087",
+      "text": "השירה והמוזיקה פותחות את הלב. הן כלי חשוב בעבודה הרוחנית, לא רק בילוי",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "שיעורי הבוקר",
+      "source_section": "על השירה",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "שירה",
+        "מוזיקה",
+        "לב"
+      ],
+      "length_estimate": 35,
+      "created_at": "2024-01-28T00:00:00"
+    },
+    {
+      "id": "chasdei-batch1-088",
+      "text": "הסעודה המשותפת היא הזדמנות לחיבור. לא רק לאכול יחד, אלא להתחבר בלב",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "קבלה למתחיל",
+      "source_section": "על הסעודה",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "סעודה",
+        "חיבור",
+        "לב"
+      ],
+      "length_estimate": 32,
+      "created_at": "2024-01-28T00:00:00"
+    },
+    {
+      "id": "chasdei-batch1-089",
+      "text": "התרגומים מאפשרים לחוכמה להגיע לכל העולם. כל שפה פותחת דלת חדשה",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "מאמרים",
+      "source_section": "על ההפצה",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "תרגום",
+        "עולם",
+        "שפה"
+      ],
+      "length_estimate": 32,
+      "created_at": "2024-01-28T00:00:00"
+    },
+    {
+      "id": "chasdei-batch1-090",
+      "text": "הצניעות האמיתית היא לא להתבלט, לא לחפש כבוד. לעשות את העבודה בשקט",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "שיעורי הבוקר",
+      "source_section": "על הצניעות",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "צניעות",
+        "כבוד",
+        "עבודה"
+      ],
+      "length_estimate": 35,
+      "created_at": "2024-01-28T00:00:00"
+    },
+    {
+      "id": "chasdei-batch1-091",
+      "text": "המבחן של ההתקדמות הוא ביחס לזולת. אם היחס משתפר, זה סימן שיש התקדמות",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "קבלה למתחיל",
+      "source_section": "על ההתקדמות",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "מבחן",
+        "זולת",
+        "התקדמות"
+      ],
+      "length_estimate": 35,
+      "created_at": "2024-01-28T00:00:00"
+    },
+    {
+      "id": "chasdei-batch1-092",
+      "text": "הוויכוחים בקבוצה יכולים להיות בונים או הורסים. הכל תלוי בכוונה שמאחוריהם",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "מאמרים",
+      "source_section": "על הוויכוח",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "ויכוח",
+        "קבוצה",
+        "כוונה"
+      ],
+      "length_estimate": 38,
+      "created_at": "2024-01-28T00:00:00"
+    },
+    {
+      "id": "chasdei-batch1-093",
+      "text": "הרצון לקבל הוא הכוח היחיד שנברא. כל העבודה היא לתת לו כיוון נכון - לקבל על מנת להשפיע",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "שיעורי הבוקר",
+      "source_section": "על הרצון",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "רצון",
+        "כיוון",
+        "השפעה"
+      ],
+      "length_estimate": 42,
+      "created_at": "2024-01-28T00:00:00"
+    },
+    {
+      "id": "chasdei-batch1-094",
+      "text": "הסבל מעורר שאלות. השאלות מובילות לחיפוש. החיפוש מוביל לקבלה. זה התהליך",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "קבלה למתחיל",
+      "source_section": "על הדרך",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "סבל",
+        "שאלות",
+        "חיפוש"
+      ],
+      "length_estimate": 35,
+      "created_at": "2024-01-28T00:00:00"
+    },
+    {
+      "id": "chasdei-batch1-095",
+      "text": "העזרה לזולת היא עזרה לעצמי. אנחנו כולנו חלקים של אותו גוף אחד",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "מאמרים",
+      "source_section": "על העזרה",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "עזרה",
+        "זולת",
+        "אחדות"
+      ],
+      "length_estimate": 30,
+      "created_at": "2024-01-28T00:00:00"
+    },
+    {
+      "id": "chasdei-batch1-096",
+      "text": "הלילה הוא זמן להתבוננות. לפני השינה, לבדוק מה היה היום, מה למדתי, מה עשיתי",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "שיעורי הבוקר",
+      "source_section": "על ההתבוננות",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "לילה",
+        "התבוננות",
+        "יום"
+      ],
+      "length_estimate": 38,
+      "created_at": "2024-01-28T00:00:00"
+    },
+    {
+      "id": "chasdei-batch1-097",
+      "text": "הבוקר הוא התחלה חדשה. כל יום הוא הזדמנות להתחיל מחדש, עם כוחות חדשים",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "קבלה למתחיל",
+      "source_section": "על הבוקר",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "בוקר",
+        "התחלה",
+        "כוחות"
+      ],
+      "length_estimate": 35,
+      "created_at": "2024-01-28T00:00:00"
+    },
+    {
+      "id": "chasdei-batch1-098",
+      "text": "הפשטות היא המפתח. לא לסבך את הדברים. הדרך פשוטה - לאהוב את הזולת כמו את עצמך",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "מאמרים",
+      "source_section": "על הדרך",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "פשטות",
+        "אהבה",
+        "זולת"
+      ],
+      "length_estimate": 40,
+      "created_at": "2024-01-28T00:00:00"
+    },
+    {
+      "id": "chasdei-batch1-099",
+      "text": "התמדה היא יותר חשובה מכישרון. מי שמתמיד מגיע יותר רחוק ממי שמוכשר אבל לא מתמיד",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "שיעורי הבוקר",
+      "source_section": "על ההתמדה",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "התמדה",
+        "כישרון",
+        "הצלחה"
+      ],
+      "length_estimate": 40,
+      "created_at": "2024-01-28T00:00:00"
+    },
+    {
+      "id": "chasdei-batch1-100",
+      "text": "האור מחכה לנו. הוא תמיד שם, רק צריך לפתוח את הכלים לקבל אותו. העבודה היא לפתוח את הכלים",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "קבלה למתחיל",
+      "source_section": "על האור",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "אור",
+        "כלים",
+        "פתיחה"
+      ],
+      "length_estimate": 42,
+      "created_at": "2024-01-28T00:00:00"
+    },
+    {
+      "id": "chasdei-batch2-051",
+      "text": "העבודה בעשירייה היא המודל של העתיד. כל החברה האנושית תעבוד בעשיריות, זו הצורה הטבעית של התחברות",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "שיעורי הבוקר",
+      "source_section": "על העתיד",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "עבודה בעשירייה",
+        "עתיד",
+        "חברה"
+      ],
+      "length_estimate": 95,
+      "created_at": "2024-01-15T00:00:00"
+    },
+    {
+      "id": "chasdei-batch2-052",
+      "text": "ביטול האגו אינו מטרה בפני עצמה. המטרה היא להגיע לאהבת הזולת, והביטול הוא הדרך",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "שיעורי הבוקר",
+      "source_section": "על המטרה",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "ביטול האגו",
+        "אהבת הזולת",
+        "דרך"
+      ],
+      "length_estimate": 77,
+      "created_at": "2024-01-15T00:00:00"
+    },
+    {
+      "id": "chasdei-batch2-053",
+      "text": "החיבור הכללי הוא החוק העליון של הטבע. כל הטבע שואף לחיבור ולאיזון",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "שיעורי הבוקר",
+      "source_section": "על הטבע",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "חיבור כללי",
+        "טבע",
+        "איזון"
+      ],
+      "length_estimate": 65,
+      "created_at": "2024-01-15T00:00:00"
+    },
+    {
+      "id": "chasdei-batch2-054",
+      "text": "השתוות הצורה היא החוק הרוחני הבסיסי. דומה נמשך לדומה, והשונה נדחה",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "שיעורי הבוקר",
+      "source_section": "על החוק הרוחני",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "השתוות הצורה",
+        "חוק",
+        "דמיון"
+      ],
+      "length_estimate": 65,
+      "created_at": "2024-01-15T00:00:00"
+    },
+    {
+      "id": "chasdei-batch2-055",
+      "text": "האור המקיף הוא הכוח שמושך אותנו קדימה. בלעדיו לא היינו מתקדמים לעולם",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "שיעורי הבוקר",
+      "source_section": "על ההתקדמות",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "אור מקיף",
+        "כוח",
+        "התקדמות"
+      ],
+      "length_estimate": 68,
+      "created_at": "2024-01-15T00:00:00"
+    },
+    {
+      "id": "chasdei-batch2-056",
+      "text": "האור הפנימי הוא ההרגשה של הנצחיות. כשמקבלים אור פנימי, מרגישים שייכים לנצח",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "שיעורי הבוקר",
+      "source_section": "על הנצחיות",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "אור פנימי",
+        "נצחיות",
+        "הרגשה"
+      ],
+      "length_estimate": 74,
+      "created_at": "2024-01-15T00:00:00"
+    },
+    {
+      "id": "chasdei-batch2-057",
+      "text": "בעשירייה אפשר לתרגל את כל העקרונות הרוחניים. זה כמו סימולטור לחיים הרוחניים",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "שיעורי הבוקר",
+      "source_section": "על התרגול",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "עבודה בעשירייה",
+        "תרגול",
+        "עקרונות"
+      ],
+      "length_estimate": 75,
+      "created_at": "2024-01-15T00:00:00"
+    },
+    {
+      "id": "chasdei-batch2-058",
+      "text": "האגו הוא המחסום היחיד בין האדם לבורא. הסר את האגו, ותגלה את האלוקות",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "שיעורי הבוקר",
+      "source_section": "על המחסום",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "ביטול האגו",
+        "מחסום",
+        "אלוקות"
+      ],
+      "length_estimate": 67,
+      "created_at": "2024-01-15T00:00:00"
+    },
+    {
+      "id": "chasdei-batch2-059",
+      "text": "החיבור בין אנשים הוא הכלי לגילוי האור. בלי חיבור אין כלי, ובלי כלי אין אור",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "שיעורי הבוקר",
+      "source_section": "על הכלי",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "חיבור כללי",
+        "כלי",
+        "אור"
+      ],
+      "length_estimate": 74,
+      "created_at": "2024-01-15T00:00:00"
+    },
+    {
+      "id": "chasdei-batch2-060",
+      "text": "השתוות הצורה נמדדת במידת ההשפעה. ככל שאדם משפיע יותר, כך הוא יותר דומה לבורא",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "שיעורי הבוקר",
+      "source_section": "על המדידה",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "השתוות הצורה",
+        "השפעה",
+        "מדידה"
+      ],
+      "length_estimate": 76,
+      "created_at": "2024-01-15T00:00:00"
+    },
+    {
+      "id": "chasdei-batch2-061",
+      "text": "האור המקיף הוא האור של העתיד. הוא מאיר לנו את הדרך למקום שאנחנו עוד לא מכירים",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "מאמרים",
+      "source_section": "על האור",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "אור מקיף",
+        "עתיד",
+        "דרך"
+      ],
+      "length_estimate": 77,
+      "created_at": "2024-01-15T00:00:00"
+    },
+    {
+      "id": "chasdei-batch2-062",
+      "text": "האור הפנימי הוא האור של ההווה. הוא ממלא אותנו עכשיו, ברגע הזה",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "מאמרים",
+      "source_section": "על ההווה",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "אור פנימי",
+        "הווה",
+        "מילוי"
+      ],
+      "length_estimate": 61,
+      "created_at": "2024-01-15T00:00:00"
+    },
+    {
+      "id": "chasdei-batch2-063",
+      "text": "העשירייה היא כמו משפחה רוחנית. שם מוצאים את החום, התמיכה, והאהבה שהנשמה צריכה",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "מאמרים",
+      "source_section": "על המשפחה הרוחנית",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "עבודה בעשירייה",
+        "משפחה",
+        "אהבה"
+      ],
+      "length_estimate": 77,
+      "created_at": "2024-01-15T00:00:00"
+    },
+    {
+      "id": "chasdei-batch2-064",
+      "text": "ביטול האגו פירושו לשים את הזולת במרכז. במקום לחשוב על עצמי, לחשוב על האחר",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "מאמרים",
+      "source_section": "על הזולת",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "ביטול האגו",
+        "זולת",
+        "מחשבה"
+      ],
+      "length_estimate": 73,
+      "created_at": "2024-01-15T00:00:00"
+    },
+    {
+      "id": "chasdei-batch2-065",
+      "text": "החיבור הכללי אינו ביטול הייחודיות. להיפך, כל אחד שומר על הייחודיות שלו ותורם אותה לכלל",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "מאמרים",
+      "source_section": "על הייחודיות",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "חיבור כללי",
+        "ייחודיות",
+        "תרומה"
+      ],
+      "length_estimate": 86,
+      "created_at": "2024-01-15T00:00:00"
+    },
+    {
+      "id": "chasdei-batch2-066",
+      "text": "השתוות הצורה היא לא חיקוי. זה להגיע לאותה תכונה מתוך הבנה עמוקה ורצון אמיתי",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "מאמרים",
+      "source_section": "על ההבנה",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "השתוות הצורה",
+        "הבנה",
+        "רצון"
+      ],
+      "length_estimate": 75,
+      "created_at": "2024-01-15T00:00:00"
+    },
+    {
+      "id": "chasdei-batch2-067",
+      "text": "האור המקיף פועל גם כשאנחנו לא מרגישים. הוא עובד ברקע, מכין אותנו למדרגה הבאה",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "מאמרים",
+      "source_section": "על העבודה ברקע",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "אור מקיף",
+        "הרגשה",
+        "מדרגה"
+      ],
+      "length_estimate": 76,
+      "created_at": "2024-01-15T00:00:00"
+    },
+    {
+      "id": "chasdei-batch2-068",
+      "text": "האור הפנימי מגלה את האמת. כשיש אור פנימי, רואים את המציאות כמו שהיא באמת",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "מאמרים",
+      "source_section": "על האמת",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "אור פנימי",
+        "אמת",
+        "מציאות"
+      ],
+      "length_estimate": 72,
+      "created_at": "2024-01-15T00:00:00"
+    },
+    {
+      "id": "chasdei-batch2-069",
+      "text": "בעשירייה לומדים לראות את הטוב בכל אחד. זו העבודה הכי קשה והכי חשובה",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "מאמרים",
+      "source_section": "על ראיית הטוב",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "עבודה בעשירייה",
+        "טוב",
+        "ראייה"
+      ],
+      "length_estimate": 67,
+      "created_at": "2024-01-15T00:00:00"
+    },
+    {
+      "id": "chasdei-batch2-070",
+      "text": "האגו רוצה להפריד. הנשמה רוצה לחבר. העבודה שלנו היא לתת לנשמה לנצח",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "מאמרים",
+      "source_section": "על הנשמה והאגו",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "ביטול האגו",
+        "נשמה",
+        "חיבור"
+      ],
+      "length_estimate": 65,
+      "created_at": "2024-01-15T00:00:00"
+    },
+    {
+      "id": "chasdei-batch2-071",
+      "text": "החיבור הכללי הוא ההכרח של העידן הגלובלי. העולם מחובר, ואנחנו צריכים להתחבר איתו",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "קבלה בעידן הגלובליזציה",
+      "source_section": "על הגלובליזציה",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "חיבור כללי",
+        "גלובליזציה",
+        "עולם"
+      ],
+      "length_estimate": 79,
+      "created_at": "2024-01-15T00:00:00"
+    },
+    {
+      "id": "chasdei-batch2-072",
+      "text": "השתוות הצורה היא הפתרון למשבר העולמי. כשנהיה דומים לטבע, נחיה בהרמוניה",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "קבלה בעידן הגלובליזציה",
+      "source_section": "על המשבר",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "השתוות הצורה",
+        "משבר",
+        "הרמוניה"
+      ],
+      "length_estimate": 70,
+      "created_at": "2024-01-15T00:00:00"
+    },
+    {
+      "id": "chasdei-batch2-073",
+      "text": "האור המקיף מאיר לכל האנושות. זה לא אור פרטי, זה אור כללי שמושך את כולם לחיבור",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "קבלה בעידן הגלובליזציה",
+      "source_section": "על האנושות",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "אור מקיף",
+        "אנושות",
+        "חיבור"
+      ],
+      "length_estimate": 77,
+      "created_at": "2024-01-15T00:00:00"
+    },
+    {
+      "id": "chasdei-batch2-074",
+      "text": "האור הפנימי מתגלה בחברה מתוקנת. כשהחברה מתחברת, האור הפנימי מאיר לכולם",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "קבלה בעידן הגלובליזציה",
+      "source_section": "על החברה המתוקנת",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "אור פנימי",
+        "חברה",
+        "תיקון"
+      ],
+      "length_estimate": 70,
+      "created_at": "2024-01-15T00:00:00"
+    },
+    {
+      "id": "chasdei-batch2-075",
+      "text": "העשירייה היא הדגם לחברה העתידית. אם זה עובד בעשירייה, זה יעבוד בכל העולם",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "קבלה בעידן הגלובליזציה",
+      "source_section": "על הדגם",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "עבודה בעשירייה",
+        "דגם",
+        "עולם"
+      ],
+      "length_estimate": 72,
+      "created_at": "2024-01-15T00:00:00"
+    },
+    {
+      "id": "chasdei-batch2-076",
+      "text": "ביטול האגו הוא ההכרח האקולוגי. האגו הורס את הסביבה, רק ביטולו יציל את כדור הארץ",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "קבלה בעידן הגלובליזציה",
+      "source_section": "על האקולוגיה",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "ביטול האגו",
+        "אקולוגיה",
+        "סביבה"
+      ],
+      "length_estimate": 79,
+      "created_at": "2024-01-15T00:00:00"
+    },
+    {
+      "id": "chasdei-batch2-077",
+      "text": "החיבור הכללי הוא הפתרון הכלכלי. כלכלה של נתינה במקום כלכלה של לקיחה",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "קבלה בעידן הגלובליזציה",
+      "source_section": "על הכלכלה",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "חיבור כללי",
+        "כלכלה",
+        "נתינה"
+      ],
+      "length_estimate": 67,
+      "created_at": "2024-01-15T00:00:00"
+    },
+    {
+      "id": "chasdei-batch2-078",
+      "text": "השתוות הצורה היא הפתרון הפוליטי. מנהיגים שרוצים לתת במקום לקחת",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "קבלה בעידן הגלובליזציה",
+      "source_section": "על הפוליטיקה",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "השתוות הצורה",
+        "פוליטיקה",
+        "מנהיגות"
+      ],
+      "length_estimate": 62,
+      "created_at": "2024-01-15T00:00:00"
+    },
+    {
+      "id": "chasdei-batch2-079",
+      "text": "האור המקיף דוחף את האנושות להתפתח. המשברים הם הלחץ של האור המקיף",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "קבלה בעידן הגלובליזציה",
+      "source_section": "על ההתפתחות",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "אור מקיף",
+        "משברים",
+        "התפתחות"
+      ],
+      "length_estimate": 64,
+      "created_at": "2024-01-15T00:00:00"
+    },
+    {
+      "id": "chasdei-batch2-080",
+      "text": "האור הפנימי יביא שלום עולמי. כשכולם מרגישים את האור, אין סיבה למלחמות",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "קבלה בעידן הגלובליזציה",
+      "source_section": "על השלום",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "אור פנימי",
+        "שלום",
+        "עולם"
+      ],
+      "length_estimate": 69,
+      "created_at": "2024-01-15T00:00:00"
+    },
+    {
+      "id": "chasdei-batch2-081",
+      "text": "בעשירייה מתגלים כל הכוחות של הנפש. זה המקום שבו האדם יכול להכיר את עצמו באמת",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "שיעורי הבוקר",
+      "source_section": "על כוחות הנפש",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "עבודה בעשירייה",
+        "נפש",
+        "הכרה עצמית"
+      ],
+      "length_estimate": 76,
+      "created_at": "2024-01-15T00:00:00"
+    },
+    {
+      "id": "chasdei-batch2-082",
+      "text": "האגו מתגבר דווקא כשמתקדמים. ככל שמתקדמים יותר, האגו מתנגד יותר",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "שיעורי הבוקר",
+      "source_section": "על ההתנגדות",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "ביטול האגו",
+        "התקדמות",
+        "התנגדות"
+      ],
+      "length_estimate": 62,
+      "created_at": "2024-01-15T00:00:00"
+    },
+    {
+      "id": "chasdei-batch2-083",
+      "text": "החיבור הכללי מתחיל מנקודה אחת בלב. נקודה קטנה של רצון לחיבור שמתפשטת",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "שיעורי הבוקר",
+      "source_section": "על הנקודה בלב",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "חיבור כללי",
+        "לב",
+        "רצון"
+      ],
+      "length_estimate": 68,
+      "created_at": "2024-01-15T00:00:00"
+    },
+    {
+      "id": "chasdei-batch2-084",
+      "text": "השתוות הצורה מתחילה מהכוונה. המעשה יכול להיות אותו מעשה, אבל הכוונה משנה הכל",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "שיעורי הבוקר",
+      "source_section": "על הכוונה",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "השתוות הצורה",
+        "כוונה",
+        "מעשה"
+      ],
+      "length_estimate": 76,
+      "created_at": "2024-01-15T00:00:00"
+    },
+    {
+      "id": "chasdei-batch2-085",
+      "text": "האור המקיף נקרא גם אור החסדים. הוא מלביש את אור החכמה ומאפשר לקבלו",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "שיעורי הבוקר",
+      "source_section": "על אור החסדים",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "אור מקיף",
+        "חסדים",
+        "חכמה"
+      ],
+      "length_estimate": 66,
+      "created_at": "2024-01-15T00:00:00"
+    },
+    {
+      "id": "chasdei-batch2-086",
+      "text": "האור הפנימי הוא אור החכמה שנכנס לכלי. זה האור שמביא את ההשגה וההבנה",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "שיעורי הבוקר",
+      "source_section": "על אור החכמה",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "אור פנימי",
+        "חכמה",
+        "השגה"
+      ],
+      "length_estimate": 67,
+      "created_at": "2024-01-15T00:00:00"
+    },
+    {
+      "id": "chasdei-batch2-087",
+      "text": "העשירייה מלמדת אותנו לסמוך על אחרים. זה אחד הדברים הכי קשים לאגו",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "שיעורי הבוקר",
+      "source_section": "על האמון",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "עבודה בעשירייה",
+        "אמון",
+        "אגו"
+      ],
+      "length_estimate": 64,
+      "created_at": "2024-01-15T00:00:00"
+    },
+    {
+      "id": "chasdei-batch2-088",
+      "text": "ביטול האגו פירושו לוותר על השליטה. לתת למשהו גדול יותר להנהיג",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "שיעורי הבוקר",
+      "source_section": "על השליטה",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "ביטול האגו",
+        "שליטה",
+        "ויתור"
+      ],
+      "length_estimate": 61,
+      "created_at": "2024-01-15T00:00:00"
+    },
+    {
+      "id": "chasdei-batch2-089",
+      "text": "החיבור הכללי יוצר שדה רוחני. השדה הזה משפיע על כל מי שנמצא בו",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "שיעורי הבוקר",
+      "source_section": "על השדה הרוחני",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "חיבור כללי",
+        "שדה",
+        "השפעה"
+      ],
+      "length_estimate": 61,
+      "created_at": "2024-01-15T00:00:00"
+    },
+    {
+      "id": "chasdei-batch2-090",
+      "text": "השתוות הצורה היא עניין של תודעה. לא מספיק לעשות, צריך להבין ולהרגיש",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "שיעורי הבוקר",
+      "source_section": "על התודעה",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "השתוות הצורה",
+        "תודעה",
+        "הבנה"
+      ],
+      "length_estimate": 67,
+      "created_at": "2024-01-15T00:00:00"
+    },
+    {
+      "id": "chasdei-batch2-091",
+      "text": "האור המקיף פועל על כל האנושות בו זמנית. לכן המשברים הם גלובליים",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "מאמרים",
+      "source_section": "על המשברים הגלובליים",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "אור מקיף",
+        "אנושות",
+        "משברים"
+      ],
+      "length_estimate": 63,
+      "created_at": "2024-01-15T00:00:00"
+    },
+    {
+      "id": "chasdei-batch2-092",
+      "text": "האור הפנימי מרפא את הנפש. כשיש מספיק אור פנימי, הנפש בריאה ושלמה",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "מאמרים",
+      "source_section": "על בריאות הנפש",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "אור פנימי",
+        "נפש",
+        "ריפוי"
+      ],
+      "length_estimate": 64,
+      "created_at": "2024-01-15T00:00:00"
+    },
+    {
+      "id": "chasdei-batch2-093",
+      "text": "בעשירייה מגלים את הכוח של הריבוי. עשרה ביחד חזקים הרבה יותר מעשרה לבד",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "מאמרים",
+      "source_section": "על כוח הריבוי",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "עבודה בעשירייה",
+        "כוח",
+        "ריבוי"
+      ],
+      "length_estimate": 69,
+      "created_at": "2024-01-15T00:00:00"
+    },
+    {
+      "id": "chasdei-batch2-094",
+      "text": "האגו הוא כמו צל. ככל שהאור חזק יותר, כך הצל נראה כהה יותר",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "מאמרים",
+      "source_section": "על האגו והאור",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "ביטול האגו",
+        "צל",
+        "אור"
+      ],
+      "length_estimate": 57,
+      "created_at": "2024-01-15T00:00:00"
+    },
+    {
+      "id": "chasdei-batch2-095",
+      "text": "החיבור הכללי אינו אחידות. זה הרמוניה של שונים, כמו תזמורת עם כלים שונים",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "מאמרים",
+      "source_section": "על ההרמוניה",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "חיבור כללי",
+        "הרמוניה",
+        "שונות"
+      ],
+      "length_estimate": 71,
+      "created_at": "2024-01-15T00:00:00"
+    },
+    {
+      "id": "chasdei-batch2-096",
+      "text": "השתוות הצורה נמדדת בשמחה. ככל שאדם יותר שמח לתת, כך הוא יותר דומה לבורא",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "מאמרים",
+      "source_section": "על השמחה",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "השתוות הצורה",
+        "שמחה",
+        "נתינה"
+      ],
+      "length_estimate": 71,
+      "created_at": "2024-01-15T00:00:00"
+    },
+    {
+      "id": "chasdei-batch2-097",
+      "text": "האור המקיף הוא התקווה. הוא מזכיר לנו שיש משהו טוב יותר קדימה",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "מאמרים",
+      "source_section": "על התקווה",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "אור מקיף",
+        "תקווה",
+        "עתיד"
+      ],
+      "length_estimate": 60,
+      "created_at": "2024-01-15T00:00:00"
+    },
+    {
+      "id": "chasdei-batch2-098",
+      "text": "האור הפנימי הוא הסיפוק. לא סיפוק מקבלה, אלא סיפוק מנתינה",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "מאמרים",
+      "source_section": "על הסיפוק",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "אור פנימי",
+        "סיפוק",
+        "נתינה"
+      ],
+      "length_estimate": 56,
+      "created_at": "2024-01-15T00:00:00"
+    },
+    {
+      "id": "chasdei-batch2-099",
+      "text": "העשירייה היא המקום הבטוח לנפילות. שם אפשר ליפול ולדעת שיש מי שיתפוס",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "מאמרים",
+      "source_section": "על הנפילות",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "עבודה בעשירייה",
+        "נפילה",
+        "תמיכה"
+      ],
+      "length_estimate": 67,
+      "created_at": "2024-01-15T00:00:00"
+    },
+    {
+      "id": "chasdei-batch2-100",
+      "text": "ביטול האגו הוא כמו פתיחת דלת. כשהאגו מתבטל, נפתחת הדלת לעולם הרוחני",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "מאמרים",
+      "source_section": "על הדלת הרוחנית",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "ביטול האגו",
+        "דלת",
+        "עולם רוחני"
+      ],
+      "length_estimate": 67,
+      "created_at": "2024-01-15T00:00:00"
+    },
+    {
+      "id": "chasdei-batch3-011",
+      "text": "הפצת הקבלה היא לא רק מצווה, היא הכרח. העולם צריך את החוכמה הזו כדי לשרוד",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "שיעורי הבוקר",
+      "source_section": "על ההפצה",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "הפצה",
+        "קבלה",
+        "עולם"
+      ],
+      "length_estimate": 55,
+      "created_at": "2026-01-28T18:37:18.960503"
+    },
+    {
+      "id": "chasdei-batch3-012",
+      "text": "הקבוצה היא הכלי הרוחני. לא האדם הבודד, אלא הקשר בין האנשים הוא המקום שבו שוכן האור",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "מאמרים",
+      "source_section": "על הקבוצה",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "קבוצה",
+        "כלי",
+        "אור"
+      ],
+      "length_estimate": 55,
+      "created_at": "2026-01-28T18:37:18.960503"
+    },
+    {
+      "id": "chasdei-batch3-013",
+      "text": "האינטגרליות היא חוק הטבע. אנחנו חייבים להתחבר כי זו המציאות, לא רק אידיאל יפה",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "שיעורי הבוקר",
+      "source_section": "על האינטגרליות",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "אינטגרליות",
+        "חיבור",
+        "טבע"
+      ],
+      "length_estimate": 55,
+      "created_at": "2026-01-28T18:37:18.960503"
+    },
+    {
+      "id": "chasdei-batch3-014",
+      "text": "המשבר העולמי הוא הזדמנות. הוא מראה לנו שהדרך הישנה לא עובדת, וצריך דרך חדשה",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "מאמרים",
+      "source_section": "על המשבר",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "משבר",
+        "הזדמנות",
+        "שינוי"
+      ],
+      "length_estimate": 55,
+      "created_at": "2026-01-28T18:37:18.960503"
+    },
+    {
+      "id": "chasdei-batch3-015",
+      "text": "החינוך האמיתי הוא חינוך לחיבור. ילד שלומד להתחבר עם אחרים יהיה מאושר בחייו",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "שיעורי הבוקר",
+      "source_section": "על החינוך",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "חינוך",
+        "חיבור",
+        "אושר"
+      ],
+      "length_estimate": 55,
+      "created_at": "2026-01-28T18:37:18.960503"
+    },
+    {
+      "id": "chasdei-batch3-016",
+      "text": "הנקודה שבלב היא הניצוץ האלוקי. כשהיא מתעוררת, האדם מתחיל לחפש משמעות",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "קבלה למתחיל",
+      "source_section": "על הנקודה שבלב",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "נקודה שבלב",
+        "ניצוץ",
+        "משמעות"
+      ],
+      "length_estimate": 55,
+      "created_at": "2026-01-28T18:37:18.960503"
+    },
+    {
+      "id": "chasdei-batch3-017",
+      "text": "העולם הרוחני אינו מקום אחר, הוא תפיסה אחרת. כשמשנים את הכוונה, משנים את המציאות",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "שיעורי הבוקר",
+      "source_section": "על העולם הרוחני",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "עולם רוחני",
+        "כוונה",
+        "מציאות"
+      ],
+      "length_estimate": 55,
+      "created_at": "2026-01-28T18:37:18.960503"
+    },
+    {
+      "id": "chasdei-batch3-018",
+      "text": "המסך הוא הכוח להגיד לא לאגו. ככל שהמסך חזק יותר, כך האדם חופשי יותר",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "מאמרים",
+      "source_section": "על המסך",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "מסך",
+        "אגו",
+        "חירות"
+      ],
+      "length_estimate": 55,
+      "created_at": "2026-01-28T18:37:18.960503"
+    },
+    {
+      "id": "chasdei-batch3-019",
+      "text": "הזוהר הוא אור מתקן. הקריאה בו פועלת גם בלי הבנה שכלית, כי האור עובד על הנשמה",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "שיעורי הבוקר",
+      "source_section": "על הזוהר",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "זוהר",
+        "אור מתקן",
+        "נשמה"
+      ],
+      "length_estimate": 55,
+      "created_at": "2026-01-28T18:37:18.960503"
+    },
+    {
+      "id": "chasdei-batch3-020",
+      "text": "הסביבה קובעת את האדם. בחר סביבה טובה ותהפוך לאדם טוב. זה פשוט וזה עובד",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "מאמרים",
+      "source_section": "על הסביבה",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "סביבה",
+        "השפעה",
+        "בחירה"
+      ],
+      "length_estimate": 55,
+      "created_at": "2026-01-28T18:37:18.960503"
+    },
+    {
+      "id": "chasdei-batch3-026",
+      "text": "העולמות הם מדרגות של הסתרה. ככל שעולים, ההסתרה פוחתת והאור מתגלה יותר",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "שיעורי הבוקר",
+      "source_section": "על העולמות",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "עולמות",
+        "הסתרה",
+        "אור"
+      ],
+      "length_estimate": 55,
+      "created_at": "2026-01-28T18:37:18.960503"
+    },
+    {
+      "id": "chasdei-batch3-027",
+      "text": "הכוונה משנה את הכל. אותו מעשה בדיוק יכול להיות קדושה או טומאה, תלוי בכוונה",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "מאמרים",
+      "source_section": "על הכוונה",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "כוונה",
+        "קדושה",
+        "מעשה"
+      ],
+      "length_estimate": 55,
+      "created_at": "2026-01-28T18:37:18.960503"
+    },
+    {
+      "id": "chasdei-batch3-028",
+      "text": "הספירות הן תכונות של הבורא. כשלומדים אותן, לומדים להיות דומים לו",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "קבלה למתחיל",
+      "source_section": "על הספירות",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "ספירות",
+        "תכונות",
+        "דמיון"
+      ],
+      "length_estimate": 35,
+      "created_at": "2026-01-28T18:37:18.960503"
+    },
+    {
+      "id": "chasdei-batch3-029",
+      "text": "הפרצוף הוא מערכת שלמה. כל חלק תלוי בכל חלק, כמו גוף אחד עם איברים רבים",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "שיעורי הבוקר",
+      "source_section": "על הפרצופים",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "פרצוף",
+        "מערכת",
+        "שלמות"
+      ],
+      "length_estimate": 55,
+      "created_at": "2026-01-28T18:37:18.960503"
+    },
+    {
+      "id": "chasdei-batch3-030",
+      "text": "האדם הראשון הוא נשמה אחת. כולנו חלקים ממנה, וכולנו צריכים לחזור להתאחד",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "מאמרים",
+      "source_section": "על אדם הראשון",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "אדם הראשון",
+        "נשמה",
+        "איחוד"
+      ],
+      "length_estimate": 55,
+      "created_at": "2026-01-28T18:37:18.960503"
+    },
+    {
+      "id": "chasdei-batch3-036",
+      "text": "הבינה היא כוח ההשפעה. ממנה לומדים איך לתת, איך לאהוב בלי תנאי",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "שיעורי הבוקר",
+      "source_section": "על הבינה",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "בינה",
+        "השפעה",
+        "אהבה"
+      ],
+      "length_estimate": 35,
+      "created_at": "2026-01-28T18:37:18.960503"
+    },
+    {
+      "id": "chasdei-batch3-037",
+      "text": "הכתר הוא הבורא עצמו. אנחנו לא יכולים להשיג אותו ישירות, רק את התכונות שלו",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "קבלה למתחיל",
+      "source_section": "על הכתר",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "כתר",
+        "בורא",
+        "השגה"
+      ],
+      "length_estimate": 55,
+      "created_at": "2026-01-28T18:37:18.960503"
+    },
+    {
+      "id": "chasdei-batch3-038",
+      "text": "החכמה היא האור שממלא את הכלי. ככל שהכלי גדול יותר, כך החכמה שמתגלה בו גדולה יותר",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "שיעורי הבוקר",
+      "source_section": "על החכמה",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "חכמה",
+        "אור",
+        "כלי"
+      ],
+      "length_estimate": 55,
+      "created_at": "2026-01-28T18:37:18.960503"
+    },
+    {
+      "id": "chasdei-batch3-039",
+      "text": "זעיר אנפין הוא המתווך. הוא מחבר בין האור העליון לכלי התחתון",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "מאמרים",
+      "source_section": "על זעיר אנפין",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "זעיר אנפין",
+        "מתווך",
+        "חיבור"
+      ],
+      "length_estimate": 35,
+      "created_at": "2026-01-28T18:37:18.960503"
+    },
+    {
+      "id": "chasdei-batch3-040",
+      "text": "הנוקבא היא הרצון המתוקן. היא מקבלת לא לעצמה, אלא כדי להשפיע",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "שיעורי הבוקר",
+      "source_section": "על הנוקבא",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "נוקבא",
+        "רצון",
+        "השפעה"
+      ],
+      "length_estimate": 35,
+      "created_at": "2026-01-28T18:37:18.960503"
+    },
+    {
+      "id": "chasdei-batch3-046",
+      "text": "העיבור הרוחני הוא ביטול מוחלט. כמו עובר ברחם שמקבל את כל ההזנה מהאם",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "שיעורי הבוקר",
+      "source_section": "על העיבור",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "עיבור",
+        "ביטול",
+        "הזנה"
+      ],
+      "length_estimate": 55,
+      "created_at": "2026-01-28T18:37:18.960503"
+    },
+    {
+      "id": "chasdei-batch3-047",
+      "text": "היניקה היא תחילת הקבלה. התינוק הרוחני מתחיל לקבל במידה מוגבלת",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "מאמרים",
+      "source_section": "על היניקה",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "יניקה",
+        "קבלה",
+        "גדילה"
+      ],
+      "length_estimate": 35,
+      "created_at": "2026-01-28T18:37:18.960503"
+    },
+    {
+      "id": "chasdei-batch3-048",
+      "text": "המוחין הם האור שמתגלה. ככל שהכלים מתוקנים יותר, כך המוחין גדולים יותר",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "קבלה למתחיל",
+      "source_section": "על המוחין",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "מוחין",
+        "אור",
+        "כלים"
+      ],
+      "length_estimate": 55,
+      "created_at": "2026-01-28T18:37:18.960503"
+    },
+    {
+      "id": "chasdei-batch3-049",
+      "text": "האורות והכלים תמיד הפוכים. אור גדול שוכן בכלי קטן, ואור קטן בכלי גדול",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "שיעורי הבוקר",
+      "source_section": "על האורות והכלים",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "אורות",
+        "כלים",
+        "יחס"
+      ],
+      "length_estimate": 55,
+      "created_at": "2026-01-28T18:37:18.960503"
+    },
+    {
+      "id": "chasdei-batch3-050",
+      "text": "הרשימות הן זיכרונות רוחניים. הן מנחות את הדרך בחזרה לשורש",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "מאמרים",
+      "source_section": "על הרשימות",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "רשימות",
+        "זיכרון",
+        "שורש"
+      ],
+      "length_estimate": 35,
+      "created_at": "2026-01-28T18:37:18.960503"
+    },
+    {
+      "id": "chasdei-batch3-056",
+      "text": "הגבורה היא הכוח לצמצם. הכוח להגיד לא לרצון לקבל כשצריך",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "שיעורי הבוקר",
+      "source_section": "על הגבורה",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "גבורה",
+        "צמצום",
+        "רצון"
+      ],
+      "length_estimate": 35,
+      "created_at": "2026-01-28T18:37:18.960503"
+    },
+    {
+      "id": "chasdei-batch3-057",
+      "text": "התפארת היא האיזון. היא משלבת בין חסד לגבורה, בין נתינה לצמצום",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "מאמרים",
+      "source_section": "על התפארת",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "תפארת",
+        "איזון",
+        "חסד וגבורה"
+      ],
+      "length_estimate": 55,
+      "created_at": "2026-01-28T18:37:18.960503"
+    },
+    {
+      "id": "chasdei-batch3-058",
+      "text": "הנצח וההוד הם כוחות הפעולה. הם מביאים את האור אל המציאות",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "קבלה למתחיל",
+      "source_section": "על נצח והוד",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "נצח",
+        "הוד",
+        "פעולה"
+      ],
+      "length_estimate": 35,
+      "created_at": "2026-01-28T18:37:18.960503"
+    },
+    {
+      "id": "chasdei-batch3-059",
+      "text": "היסוד הוא החיבור. הוא מאחד את כל הכוחות ומעביר אותם למלכות",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "שיעורי הבוקר",
+      "source_section": "על היסוד",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "יסוד",
+        "חיבור",
+        "מלכות"
+      ],
+      "length_estimate": 35,
+      "created_at": "2026-01-28T18:37:18.960503"
+    },
+    {
+      "id": "chasdei-batch3-060",
+      "text": "הדעת היא הקו האמצעי. היא משלבת בין ימין לשמאל, בין חכמה לבינה",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "מאמרים",
+      "source_section": "על הדעת",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "דעת",
+        "קו אמצעי",
+        "איזון"
+      ],
+      "length_estimate": 55,
+      "created_at": "2026-01-28T18:37:18.960503"
+    },
+    {
+      "id": "chasdei-batch3-066",
+      "text": "הסוד אינו נסתר בכוונה. הוא נסתר כי אין לנו כלים להבין אותו. ככל שהכלים גדלים, הסוד מתגלה",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "שיעורי הבוקר",
+      "source_section": "על הסוד",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "סוד",
+        "כלים",
+        "גילוי"
+      ],
+      "length_estimate": 80,
+      "created_at": "2026-01-28T18:37:18.960503"
+    },
+    {
+      "id": "chasdei-batch3-067",
+      "text": "התורה מדברת בשפה של ענפים. הענפים הם העולם הזה, השורשים הם העולם העליון",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "מאמרים",
+      "source_section": "על שפת הענפים",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "ענפים",
+        "שורשים",
+        "שפה"
+      ],
+      "length_estimate": 55,
+      "created_at": "2026-01-28T18:37:18.960503"
+    },
+    {
+      "id": "chasdei-batch3-068",
+      "text": "כל סיפור בתורה מתאר מצבים פנימיים. אברהם, יצחק ויעקב הם תכונות בנשמה",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "קבלה למתחיל",
+      "source_section": "על סיפורי התורה",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "תורה",
+        "מצבים",
+        "אבות"
+      ],
+      "length_estimate": 55,
+      "created_at": "2026-01-28T18:37:18.960503"
+    },
+    {
+      "id": "chasdei-batch3-069",
+      "text": "מצרים היא האגו. יציאת מצרים היא היציאה מהשליטה של האגו",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "שיעורי הבוקר",
+      "source_section": "על יציאת מצרים",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "מצרים",
+        "אגו",
+        "יציאה"
+      ],
+      "length_estimate": 35,
+      "created_at": "2026-01-28T18:37:18.960503"
+    },
+    {
+      "id": "chasdei-batch3-070",
+      "text": "המדבר הוא מקום ההכנה. שם מקבלים את התורה, את הכלים לעבודה",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "מאמרים",
+      "source_section": "על המדבר",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "מדבר",
+        "הכנה",
+        "תורה"
+      ],
+      "length_estimate": 35,
+      "created_at": "2026-01-28T18:37:18.960503"
+    },
+    {
+      "id": "chasdei-batch3-076",
+      "text": "התחייה היא התעוררות הנשמות. כשהנשמות מתעוררות, העולם משתנה",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "שיעורי הבוקר",
+      "source_section": "על התחייה",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "תחייה",
+        "נשמות",
+        "התעוררות"
+      ],
+      "length_estimate": 35,
+      "created_at": "2026-01-28T18:37:18.960503"
+    },
+    {
+      "id": "chasdei-batch3-077",
+      "text": "העולם הבא אינו אחרי המוות. הוא מצב של תודעה שאפשר להגיע אליו עכשיו",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "מאמרים",
+      "source_section": "על העולם הבא",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "עולם הבא",
+        "תודעה",
+        "הווה"
+      ],
+      "length_estimate": 55,
+      "created_at": "2026-01-28T18:37:18.960503"
+    },
+    {
+      "id": "chasdei-batch3-078",
+      "text": "גן עדן הוא מצב של השפעה טהורה. גיהנום הוא מצב של קבלה לעצמו",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "קבלה למתחיל",
+      "source_section": "על גן עדן וגיהנום",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "גן עדן",
+        "גיהנום",
+        "השפעה"
+      ],
+      "length_estimate": 55,
+      "created_at": "2026-01-28T18:37:18.960503"
+    },
+    {
+      "id": "chasdei-batch3-079",
+      "text": "המלאכים הם כוחות רוחניים. הם מבצעים את רצון הבורא בלי רצון עצמי",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "שיעורי הבוקר",
+      "source_section": "על המלאכים",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "מלאכים",
+        "כוחות",
+        "רצון"
+      ],
+      "length_estimate": 55,
+      "created_at": "2026-01-28T18:37:18.960503"
+    },
+    {
+      "id": "chasdei-batch3-080",
+      "text": "השטן הוא הרצון לקבל. הוא לא יצור חיצוני, הוא חלק מאיתנו שצריך לתקן",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "מאמרים",
+      "source_section": "על השטן",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "שטן",
+        "רצון לקבל",
+        "תיקון"
+      ],
+      "length_estimate": 55,
+      "created_at": "2026-01-28T18:37:18.960503"
+    },
+    {
+      "id": "chasdei-batch3-086",
+      "text": "פסח הוא מעבר. מעבר מעבדות לחירות, מקבלה להשפעה",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "שיעורי הבוקר",
+      "source_section": "על פסח",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "פסח",
+        "מעבר",
+        "חירות"
+      ],
+      "length_estimate": 35,
+      "created_at": "2026-01-28T18:37:18.960503"
+    },
+    {
+      "id": "chasdei-batch3-087",
+      "text": "שבועות הוא קבלת התורה. קבלת הכלים לעבודה, השיטה לתיקון",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "מאמרים",
+      "source_section": "על שבועות",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "שבועות",
+        "תורה",
+        "כלים"
+      ],
+      "length_estimate": 35,
+      "created_at": "2026-01-28T18:37:18.960503"
+    },
+    {
+      "id": "chasdei-batch3-088",
+      "text": "חנוכה הוא ניצחון האור. האור הקטן מנצח את החושך הגדול",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "קבלה למתחיל",
+      "source_section": "על חנוכה",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "חנוכה",
+        "אור",
+        "ניצחון"
+      ],
+      "length_estimate": 35,
+      "created_at": "2026-01-28T18:37:18.960503"
+    },
+    {
+      "id": "chasdei-batch3-089",
+      "text": "פורים הוא היפוך. מה שנראה רע הופך לטוב, מה שנראה חושך מתגלה כאור",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "שיעורי הבוקר",
+      "source_section": "על פורים",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "פורים",
+        "היפוך",
+        "אור"
+      ],
+      "length_estimate": 55,
+      "created_at": "2026-01-28T18:37:18.960503"
+    },
+    {
+      "id": "chasdei-batch3-090",
+      "text": "הלימוד הוא כלי לקבלת האור. לא הידע חשוב, אלא השינוי שהלימוד מביא",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "מאמרים",
+      "source_section": "על הלימוד",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "לימוד",
+        "אור",
+        "שינוי"
+      ],
+      "length_estimate": 55,
+      "created_at": "2026-01-28T18:37:18.960503"
+    },
+    {
+      "id": "chasdei-batch3-096",
+      "text": "המסורת היא חיבור לשורשים. דרכה מקבלים כוח מהדורות הקודמים",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "שיעורי הבוקר",
+      "source_section": "על המסורת",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "מסורת",
+        "שורשים",
+        "כוח"
+      ],
+      "length_estimate": 35,
+      "created_at": "2026-01-28T18:37:18.960503"
+    },
+    {
+      "id": "chasdei-batch3-097",
+      "text": "החידוש הוא חלק מהמסורת. כל דור מוסיף משלו, וכך הדרך מתפתחת",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "מאמרים",
+      "source_section": "על החידוש",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "חידוש",
+        "מסורת",
+        "התפתחות"
+      ],
+      "length_estimate": 55,
+      "created_at": "2026-01-28T18:37:18.960503"
+    },
+    {
+      "id": "chasdei-batch3-098",
+      "text": "הדור שלנו מיוחד. זו הפעם הראשונה שהקבלה פתוחה לכולם, בלי הגבלות",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "קבלה למתחיל",
+      "source_section": "על הדור",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "דור",
+        "קבלה",
+        "פתיחות"
+      ],
+      "length_estimate": 55,
+      "created_at": "2026-01-28T18:37:18.960503"
+    },
+    {
+      "id": "chasdei-batch3-099",
+      "text": "האינטרנט הוא כלי להפצה. הוא מאפשר לחבר אנשים מכל העולם ללימוד משותף",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "שיעורי הבוקר",
+      "source_section": "על האינטרנט",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "אינטרנט",
+        "הפצה",
+        "חיבור"
+      ],
+      "length_estimate": 55,
+      "created_at": "2026-01-28T18:37:18.960503"
+    },
+    {
+      "id": "chasdei-batch3-100",
+      "text": "התקווה היא הכוח שמניע. בלי תקווה אין כוח ללכת. התקווה לגילוי הבורא היא הדלק של הדרך",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "מאמרים",
+      "source_section": "על התקווה",
+      "source_url": "https://www.kabbalah.info/he/",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "תקווה",
+        "כוח",
+        "דרך"
+      ],
+      "length_estimate": 80,
+      "created_at": "2026-01-28T18:37:18.960503"
+    },
+    {
+      "id": "chasdei-batch4-011",
+      "text": "הקבלה מלמדת שהמציאות כולה היא תודעה. מה שאנו חווים כעולם חיצוני הוא בעצם השתקפות של המצב הפנימי שלנו",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "קבלה למתחיל",
+      "source_section": "פרק א' - יסודות",
+      "source_url": "https://kabbalah.info/he/education/beginners",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "תודעה",
+        "מציאות",
+        "פנימיות"
+      ],
+      "length_estimate": 76,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "chasdei-batch4-012",
+      "text": "מסביר הרב לייטמן: הבורא הוא כוח ההשפעה המוחלט. כל מה שאנו צריכים לעשות הוא להידמות לכוח הזה, ואז נרגיש אותו",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "קבלה למתחיל",
+      "source_section": "פרק ב' - הבורא",
+      "source_url": "https://kabbalah.info/he/education/beginners",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "בורא",
+        "השפעה",
+        "דמיון"
+      ],
+      "length_estimate": 82,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "chasdei-batch4-013",
+      "text": "בחוכמת הקבלה אנו לומדים שיש רק שני כוחות בבריאה: כוח הקבלה וכוח ההשפעה. כל העבודה שלנו היא להפוך את הקבלה להשפעה",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "קבלה למתחיל",
+      "source_section": "פרק ג' - שני הכוחות",
+      "source_url": "https://kabbalah.info/he/education/beginners",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "קבלה",
+        "השפעה",
+        "כוחות"
+      ],
+      "length_estimate": 88,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "chasdei-batch4-014",
+      "text": "האדם נמצא במרכז הבריאה. הוא הנקודה שבה מתחברים כל העולמות. דרכו יכול האור העליון לעבור ולהאיר את כל המציאות",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "קבלה למתחיל",
+      "source_section": "פרק ד' - מקום האדם",
+      "source_url": "https://kabbalah.info/he/education/beginners",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "אדם",
+        "מרכז",
+        "עולמות"
+      ],
+      "length_estimate": 82,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "chasdei-batch4-015",
+      "text": "כותב הרב לייטמן: הלימוד צריך להיות עם כוונה. לא מספיק לקרוא את המילים, צריך לרצות שהמילים ישנו אותנו מבפנים",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "קבלה למתחיל",
+      "source_section": "פרק ה' - שיטת הלימוד",
+      "source_url": "https://kabbalah.info/he/education/beginners",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "לימוד",
+        "כוונה",
+        "שינוי"
+      ],
+      "length_estimate": 82,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "chasdei-batch4-016",
+      "text": "בשיעור הבוקר למדנו: העולם עובר משבר כי האנושות מתעוררת. המשבר הוא סימן שהאגו הגיע לסוף דרכו וצריך תיקון",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "שיעורי הבוקר",
+      "source_section": "על המשבר העולמי",
+      "source_url": "https://kabbalah.info/he/lessons/daily-lesson",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "משבר",
+        "תיקון",
+        "אנושות"
+      ],
+      "length_estimate": 85,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "chasdei-batch4-017",
+      "text": "אומר הרב לייטמן: הזוהר פועל עלינו גם אם אנחנו לא מבינים. האור שבו מתקן את הנשמה, כמו תרופה שעובדת גם בלי להבין איך",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "שיעורי הבוקר",
+      "source_section": "על ספר הזוהר",
+      "source_url": "https://kabbalah.info/he/lessons/daily-lesson",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "זוהר",
+        "אור",
+        "תיקון"
+      ],
+      "length_estimate": 92,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "chasdei-batch4-018",
+      "text": "מבאר הרב: התפתחות רוחנית אינה ליניארית. יש עליות וירידות, והירידות חשובות כמו העליות כי הן מרחיבות את הכלי",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "שיעורי הבוקר",
+      "source_section": "על ההתפתחות",
+      "source_url": "https://kabbalah.info/he/lessons/daily-lesson",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "התפתחות",
+        "עליות",
+        "ירידות"
+      ],
+      "length_estimate": 85,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "chasdei-batch4-019",
+      "text": "מלמד הרב לייטמן: הלב צריך להיות מחובר ללימוד. אם הלב לא משתתף, הלימוד נשאר בראש ולא משנה את האדם",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "שיעורי הבוקר",
+      "source_section": "על הלב והלימוד",
+      "source_url": "https://kabbalah.info/he/lessons/daily-lesson",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "לב",
+        "לימוד",
+        "שינוי"
+      ],
+      "length_estimate": 78,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "chasdei-batch4-020",
+      "text": "בשיעור נאמר: הקשר בין התלמידים הוא הכלי לגילוי. ככל שהקשר חזק יותר, כך האור שמתגלה גדול יותר",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "שיעורי הבוקר",
+      "source_section": "על הקשר",
+      "source_url": "https://kabbalah.info/he/lessons/daily-lesson",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "קשר",
+        "גילוי",
+        "אור"
+      ],
+      "length_estimate": 75,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "chasdei-batch4-021",
+      "text": "במאמר מבאר הרב: מטרת הבריאה היא להיטיב לנבראיו. כל מה שקורה, גם אם נראה רע, הוא בסופו של דבר לטובה",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "מאמרים",
+      "source_section": "מטרת הבריאה",
+      "source_url": "https://kabbalah.info/he/articles",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "בריאה",
+        "מטרה",
+        "טוב"
+      ],
+      "length_estimate": 78,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "chasdei-batch4-022",
+      "text": "כותב הרב לייטמן: הנקודה שבלב היא הניצוץ האלוקי שבאדם. עליה לבנות את כל העבודה הרוחנית, כי ממנה מתחילה הדרך",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "מאמרים",
+      "source_section": "הנקודה שבלב",
+      "source_url": "https://kabbalah.info/he/articles",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "נקודה",
+        "לב",
+        "ניצוץ"
+      ],
+      "length_estimate": 85,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "chasdei-batch4-023",
+      "text": "מבאר במאמר: העולם הרוחני אינו מקום אלא מצב. כשהאדם משנה את תכונותיו, הוא עובר ממצב למצב, וזו ההתקדמות הרוחנית",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "מאמרים",
+      "source_section": "העולם הרוחני",
+      "source_url": "https://kabbalah.info/he/articles",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "עולם רוחני",
+        "מצב",
+        "תכונות"
+      ],
+      "length_estimate": 88,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "chasdei-batch4-024",
+      "text": "במאמר על החיבור נאמר: החיבור בין אנשים יוצר מציאות חדשה. כשנפשות מתחברות, נוצר כלי שיכול להכיל את האור האין סופי",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "מאמרים",
+      "source_section": "על החיבור",
+      "source_url": "https://kabbalah.info/he/articles",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "חיבור",
+        "נפשות",
+        "אור"
+      ],
+      "length_estimate": 90,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "chasdei-batch4-025",
+      "text": "כותב הרב: הזמן ברוחניות נמדד לא בשעות אלא בשינויי צורה. כל שינוי פנימי הוא צעד קדימה, ללא קשר לזמן הפיזי",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "מאמרים",
+      "source_section": "על הזמן הרוחני",
+      "source_url": "https://kabbalah.info/he/articles",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "זמן",
+        "שינוי",
+        "צורה"
+      ],
+      "length_estimate": 82,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "chasdei-batch4-031",
+      "text": "מלמד הרב לייטמן: כל יום הוא הזדמנות חדשה. מה שלא הצלחנו אתמול, נוכל להצליח היום. הדרך הרוחנית מתחילה תמיד מחדש",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "שיעורי הבוקר",
+      "source_section": "על היום החדש",
+      "source_url": "https://kabbalah.info/he/lessons/daily-lesson",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "יום",
+        "הזדמנות",
+        "התחלה"
+      ],
+      "length_estimate": 88,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "chasdei-batch4-032",
+      "text": "במאמר כותב: השאלה \"מהו הטעם בחיים?\" היא התעוררות הנקודה שבלב. כשאדם שואל שאלה זו באמת, הוא מתחיל את הדרך",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "מאמרים",
+      "source_section": "שאלת החיים",
+      "source_url": "https://kabbalah.info/he/articles",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "חיים",
+        "שאלה",
+        "התעוררות"
+      ],
+      "length_estimate": 85,
+      "created_at": "2025-01-28T12:00:00Z"
+    },
+    {
+      "id": "chasdei-batch4-034",
+      "text": "מסביר הרב לייטמן: הקבלה היא חוכמת החיבור. היא מלמדת איך להתחבר - לעצמנו, לאחרים, לטבע, ולכוח העליון",
+      "source_rabbi": "הרב מיכאל לייטמן",
+      "source_book": "קבלה למתחיל",
+      "source_section": "מהות הקבלה",
+      "source_url": "https://kabbalah.info/he/education/beginners",
+      "category": "chasdei_ashlag",
+      "tags": [
+        "קבלה",
+        "חיבור",
+        "חוכמה"
+      ],
+      "length_estimate": 78,
+      "created_at": "2025-01-28T12:00:00Z"
+    }
+  ],
+  "last_updated": "2026-01-29T08:37:26.191715"
+}

@@ -26,8 +26,8 @@ class TestQuoteCategory:
             assert any(c.isascii() and c.isalpha() for c in category.display_name_english)
 
     def test_category_count(self) -> None:
-        """There should be exactly 7 categories."""
-        assert len(QuoteCategory) == 7
+        """There should be exactly 6 categories."""
+        assert len(QuoteCategory) == 6
 
 
 class TestQuote:
@@ -94,7 +94,7 @@ class TestDailyBundle:
     def test_valid_bundle_creation(self, sample_bundle: DailyBundle) -> None:
         """A valid bundle should be created successfully."""
         assert sample_bundle.date == date(2024, 1, 15)
-        assert len(sample_bundle.quotes) == 7
+        assert len(sample_bundle.quotes) == 6
 
     def test_bundle_total_reading_time(self, sample_bundle: DailyBundle) -> None:
         """Total reading time should be sum of all quote estimates."""
@@ -110,7 +110,7 @@ class TestDailyBundle:
     def test_bundle_categories_included(self, sample_bundle: DailyBundle) -> None:
         """Categories included should list all quote categories."""
         categories = sample_bundle.categories_included
-        assert len(categories) == 7
+        assert len(categories) == 6
         assert QuoteCategory.BAAL_HASULAM in categories
 
     def test_get_quote_by_category(self, sample_bundle: DailyBundle) -> None:
