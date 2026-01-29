@@ -19,6 +19,15 @@ import pytest
 
 from src.data.models import DailyBundle, Quote, QuoteCategory
 from src.data.repository import QuoteRepository
+from src.utils.config import get_settings
+
+
+@pytest.fixture(autouse=True, scope="function")
+def clear_settings_cache():
+    """Clear settings cache before and after each test."""
+    get_settings.cache_clear()
+    yield
+    get_settings.cache_clear()
 
 
 @pytest.fixture
