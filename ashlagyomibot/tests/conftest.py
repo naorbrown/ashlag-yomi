@@ -13,13 +13,21 @@ Usage in tests:
 
 from datetime import date, datetime
 from pathlib import Path
-from typing import Generator
 from unittest.mock import MagicMock
 
 import pytest
 
 from src.data.models import DailyBundle, Quote, QuoteCategory
 from src.data.repository import QuoteRepository
+from src.utils.config import get_settings
+
+
+@pytest.fixture(autouse=True, scope="function")
+def clear_settings_cache():
+    """Clear settings cache before and after each test."""
+    get_settings.cache_clear()
+    yield
+    get_settings.cache_clear()
 
 
 @pytest.fixture
@@ -117,9 +125,13 @@ def mock_bot() -> MagicMock:
     return bot
 
 
-@pytest.fixture
+@pytest.fixture(autouse=True)
 def mock_settings(monkeypatch: pytest.MonkeyPatch) -> None:
-    """Set up mock environment variables for testing."""
+    """Set up mock environment variables for testing.
+
+    This is autouse=True to ensure all tests have valid env vars
+    since Settings requires TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID.
+    """
     monkeypatch.setenv("TELEGRAM_BOT_TOKEN", "test_token_12345")
     monkeypatch.setenv("TELEGRAM_CHAT_ID", "@test_channel")
     monkeypatch.setenv("ENVIRONMENT", "development")

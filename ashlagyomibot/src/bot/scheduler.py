@@ -15,6 +15,7 @@ from datetime import date
 from zoneinfo import ZoneInfo
 
 from src.bot.formatters import build_source_keyboard, format_quote
+from src.data.models import DailyBundle
 from src.data.repository import QuoteRepository
 from src.unified import is_unified_channel_enabled, publish_text_to_unified_channel
 from src.utils.config import get_settings
@@ -106,7 +107,7 @@ async def send_daily_quotes(bot: object, chat_id: str) -> bool:
         return False
 
 
-async def _send_to_unified_channel(bundle) -> None:
+async def _send_to_unified_channel(bundle: DailyBundle) -> None:
     """Send a condensed message to the unified Torah Yomi channel."""
     if not is_unified_channel_enabled():
         logger.debug("Unified channel not configured, skipping")

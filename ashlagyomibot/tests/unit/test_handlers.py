@@ -1,15 +1,16 @@
 """Tests for Telegram command handlers."""
 
-import pytest
 from unittest.mock import AsyncMock, MagicMock, patch
 
+import pytest
+
 from src.bot.handlers import (
+    about_command,
+    feedback_command,
+    help_command,
+    quote_command,
     start_command,
     today_command,
-    quote_command,
-    about_command,
-    help_command,
-    feedback_command,
 )
 
 
@@ -28,6 +29,13 @@ def mock_update():
 def mock_context():
     """Create a mock Telegram context."""
     return MagicMock()
+
+
+@pytest.fixture(autouse=True)
+def mock_rate_limit():
+    """Mock rate limiting to always allow requests."""
+    with patch("src.bot.handlers.is_rate_limited", return_value=False):
+        yield
 
 
 class TestStartCommand:
@@ -75,6 +83,12 @@ class TestStartCommand:
 class TestTodayCommand:
     """Tests for /today command."""
 
+    @pytest.fixture(autouse=True)
+    def mock_sleep(self):
+        """Mock asyncio.sleep to speed up tests."""
+        with patch("src.bot.handlers.asyncio.sleep", new_callable=AsyncMock):
+            yield
+
     @pytest.mark.asyncio
     async def test_sends_daily_quotes(
         self, mock_update, mock_context, mock_settings, mock_repository
@@ -91,6 +105,8 @@ class TestTodayCommand:
         """Should handle update without effective_message."""
         update = MagicMock()
         update.effective_message = None
+        update.effective_user = MagicMock()
+        update.effective_user.id = 12345
 
         # Should not raise
         await today_command(update, mock_context)

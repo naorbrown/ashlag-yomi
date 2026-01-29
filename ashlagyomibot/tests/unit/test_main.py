@@ -1,9 +1,9 @@
 """Tests for main bot module."""
 
-import pytest
 from datetime import datetime, timedelta
-from unittest.mock import AsyncMock, MagicMock, patch
+from unittest.mock import AsyncMock, MagicMock
 
+import pytest
 from telegram import BotCommand, Update
 
 from src.bot.main import (

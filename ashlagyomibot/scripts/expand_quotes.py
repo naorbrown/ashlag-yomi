@@ -3,7 +3,6 @@
 
 import json
 from pathlib import Path
-from datetime import datetime
 
 DATA_DIR = Path(__file__).parent.parent / "data" / "quotes"
 

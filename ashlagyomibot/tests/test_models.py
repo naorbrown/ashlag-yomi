@@ -1,6 +1,6 @@
 """Tests for data models."""
 
-from datetime import date, datetime
+from datetime import date
 
 import pytest
 from pydantic import ValidationError
@@ -16,14 +16,16 @@ class TestQuoteCategory:
         for category in QuoteCategory:
             assert category.display_name_hebrew
             # Hebrew text should contain Hebrew characters
-            assert any("\u0590" <= c <= "\u05FF" for c in category.display_name_hebrew)
+            assert any("\u0590" <= c <= "\u05ff" for c in category.display_name_hebrew)
 
     def test_all_categories_have_english_names(self) -> None:
         """Every category should have an English display name."""
         for category in QuoteCategory:
             assert category.display_name_english
             # English text should contain ASCII letters
-            assert any(c.isascii() and c.isalpha() for c in category.display_name_english)
+            assert any(
+                c.isascii() and c.isalpha() for c in category.display_name_english
+            )
 
     def test_category_count(self) -> None:
         """There should be exactly 6 categories."""

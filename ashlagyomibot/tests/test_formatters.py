@@ -2,8 +2,6 @@
 
 from datetime import date
 
-import pytest
-
 from src.bot.formatters import (
     CATEGORY_EMOJI,
     build_source_keyboard,
@@ -150,6 +148,7 @@ class TestBuildSourceKeyboard:
         assert keyboard is not None
         # Verify it's the correct type
         from telegram import InlineKeyboardMarkup
+
         assert isinstance(keyboard, InlineKeyboardMarkup)
 
     def test_keyboard_structure_is_valid(self, sample_quote: Quote) -> None:

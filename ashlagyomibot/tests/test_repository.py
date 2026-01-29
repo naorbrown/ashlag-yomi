@@ -2,8 +2,6 @@
 
 from datetime import date
 
-import pytest
-
 from src.data.models import Quote, QuoteCategory
 from src.data.repository import QuoteRepository
 
@@ -98,11 +96,17 @@ class TestQuoteRepository:
         mock_repository.mark_as_sent(quote, date.today())
 
         # Verify it was recorded
-        assert len(mock_repository.get_sent_ids_by_category(QuoteCategory.BAAL_HASULAM)) > 0
+        assert (
+            len(mock_repository.get_sent_ids_by_category(QuoteCategory.BAAL_HASULAM))
+            > 0
+        )
 
         # Clear and verify
         mock_repository.clear_history()
-        assert len(mock_repository.get_sent_ids_by_category(QuoteCategory.BAAL_HASULAM)) == 0
+        assert (
+            len(mock_repository.get_sent_ids_by_category(QuoteCategory.BAAL_HASULAM))
+            == 0
+        )
 
     def test_validate_all(self, mock_repository: QuoteRepository) -> None:
         """Should return statistics about loaded quotes."""
@@ -116,7 +120,9 @@ class TestQuoteRepository:
 class TestRepositoryPersistence:
     """Tests for repository persistence (loading/saving JSON)."""
 
-    def test_loads_quotes_from_json_files(self, mock_repository: QuoteRepository) -> None:
+    def test_loads_quotes_from_json_files(
+        self, mock_repository: QuoteRepository
+    ) -> None:
         """Should load quotes from JSON files on initialization."""
         # Force reload
         mock_repository._quotes_cache = None

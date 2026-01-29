@@ -48,7 +48,10 @@ async def broadcast_daily_quote(
     channel_id = settings.telegram_channel_id
 
     if not channel_id:
-        logger.warning("no_channel_configured", message="Set TELEGRAM_CHANNEL_ID to enable broadcasts")
+        logger.warning(
+            "no_channel_configured",
+            message="Set TELEGRAM_CHANNEL_ID to enable broadcasts",
+        )
         return False
 
     try:

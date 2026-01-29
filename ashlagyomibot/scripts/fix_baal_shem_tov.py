@@ -32,13 +32,15 @@ BOOK_TO_AUTHOR = {
 }
 
 # Books that should stay attributed to the Besht
-BESHT_BOOKS = {"כתר שם טוב", "צוואת הריב\"ש", "שבחי הבעל שם טוב"}
+BESHT_BOOKS = {"כתר שם טוב", 'צוואת הריב"ש', "שבחי הבעל שם טוב"}
 
 
 def main():
-    quotes_file = Path(__file__).parent.parent / "data" / "quotes" / "baal_shem_tov.json"
+    quotes_file = (
+        Path(__file__).parent.parent / "data" / "quotes" / "baal_shem_tov.json"
+    )
 
-    with open(quotes_file, 'r', encoding='utf-8') as f:
+    with open(quotes_file, encoding="utf-8") as f:
         data = json.load(f)
 
     print(f"Total quotes: {len(data['quotes'])}")
@@ -46,19 +48,19 @@ def main():
     # Count changes by book
     changes = {}
 
-    for quote in data['quotes']:
-        book = quote.get('source_book', '')
+    for quote in data["quotes"]:
+        book = quote.get("source_book", "")
 
         if book in BOOK_TO_AUTHOR:
             new_author = BOOK_TO_AUTHOR[book]
-            old_author = quote.get('source_rabbi', '')
+            old_author = quote.get("source_rabbi", "")
 
             if old_author != new_author:
-                quote['source_rabbi'] = new_author
+                quote["source_rabbi"] = new_author
                 changes[book] = changes.get(book, 0) + 1
 
     # Save updated data
-    with open(quotes_file, 'w', encoding='utf-8') as f:
+    with open(quotes_file, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
     print("\nChanges made:")

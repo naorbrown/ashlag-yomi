@@ -2,4 +2,4 @@
 
 from src.data.models import DailyBundle, Quote, QuoteCategory
 
-__all__ = ["Quote", "QuoteCategory", "DailyBundle"]
+__all__ = ["DailyBundle", "Quote", "QuoteCategory"]
