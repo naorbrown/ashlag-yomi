@@ -17,13 +17,13 @@
 
 ## What is Ashlag Yomi?
 
-Ashlag Yomi delivers **two complete maamarim (articles) daily** from the masters of the Ashlag lineage — one from Baal HaSulam and one from Rabash every morning at 6:00 AM Israel time. Each maamar links directly to its original source.
+Ashlag Yomi delivers **two daily quotes** from the masters of the Ashlag lineage — one from Baal HaSulam and one from Rabash every morning at 6:00 AM Israel time. Each quote shows its source title and links directly to the original text.
 
 ### Why Use This Bot?
 
-- **Learn** — Two complete maamarim daily from Baal HaSulam and Rabash
-- **Source** — Every maamar links to the original Hebrew text
-- **Depth** — Full articles, not just short quotes
+- **Learn** — Two quotes daily from Baal HaSulam and Rabash
+- **Source** — Every quote links to the original Hebrew text
+- **Simple** — Just two commands: `/start` and `/today`
 - **Free** — Open source, run your own instance
 
 ---
@@ -70,23 +70,24 @@ python -m src.bot.main
 
 | Command | Description |
 |---------|-------------|
-| `/start` | Welcome message and commands |
-| `/today` | Get today's 2 maamarim (Baal Hasulam + Rabash) |
-| `/maamar` | Get a random maamar |
-| `/about` | Learn about the sources |
-| `/help` | Show available commands |
-| `/feedback` | Report issues or suggest features |
+| `/start` | Welcome message and subscription info |
+| `/today` | Get today's 2 quotes (Baal Hasulam + Rabash) |
+
+Each quote displays:
+- **Title** — Source book and section (e.g., "פתיחה לחכמת הקבלה, אות א")
+- **Text** — Full Hebrew quote
+- **Link** — Clickable button to the original source
 
 ---
 
-## Maamar Coverage
+## Quote Coverage
 
-| Source | Master | Period | Content |
-|--------|--------|--------|---------|
-| 📖 **Baal HaSulam** | Rabbi Yehuda Ashlag | 1884-1954 | Complete maamarim from כתבי בעל הסולם |
-| 💎 **Rabash** | Rabbi Baruch Shalom Ashlag | 1907-1991 | Complete maamarim from ברכת שלום |
+| Source | Master | Period | Quotes |
+|--------|--------|--------|--------|
+| 📖 **Baal HaSulam** | Rabbi Yehuda Ashlag | 1884-1954 | 365 quotes from כתבי בעל הסולם |
+| 💎 **Rabash** | Rabbi Baruch Shalom Ashlag | 1907-1991 | 365 quotes from שלבי הסולם ומאמרי חברה |
 
-**Two complete maamarim daily — fair rotation ensures no repetition**
+**730 total quotes — random daily selection based on date**
 
 ---
 
@@ -99,28 +100,27 @@ python -m src.bot.main
 │                                                                          │
 │  ┌─────────────────────────────────────────────────────────────────────┐│
 │  │                        GitHub Actions                                ││
-│  │  ┌─────────────────┐              ┌─────────────────────────────┐  ││
-│  │  │ daily-quote.yml │              │          ci.yml             │  ││
-│  │  │  (6 AM Israel)  │              │  (lint, test, type-check)   │  ││
-│  │  └────────┬────────┘              └─────────────────────────────┘  ││
+│  │  ┌─────────────────┐  ┌─────────────┐  ┌───────────────────────┐   ││
+│  │  │ daily-quote.yml │  │ test-bot.yml│  │       ci.yml          │   ││
+│  │  │  (6 AM Israel)  │  │ (bot tests) │  │ (lint, test, check)   │   ││
+│  │  └────────┬────────┘  └─────────────┘  └───────────────────────┘   ││
 │  └───────────┼────────────────────────────────────────────────────────┘│
 │              │                                                          │
 │              ▼                                                          │
 │  ┌─────────────────────────────────────────────────────────────────────┐│
 │  │                          Bot Layer                                  ││
-│  │   main.py ──── handlers.py ──── broadcaster.py ──── scheduler.py   ││
-│  │                      │                                              ││
-│  │                      ▼                                              ││
-│  │          formatters.py (HTML + inline keyboards)                    ││
+│  │   main.py ──── handlers.py ──── broadcaster.py                      ││
+│  │      │              │                                               ││
+│  │      └──────────────┴──── /start, /today                            ││
 │  └─────────────────────────────────────────────────────────────────────┘│
 │              │                                                          │
 │              ▼                                                          │
 │  ┌─────────────────────────────────────────────────────────────────────┐│
 │  │                         Data Layer                                  ││
-│  │   maamar_repository.py ──── models.py                               ││
+│  │   quote_repository.py ──── models.py                                ││
 │  │         │                                                           ││
 │  │         ▼                                                           ││
-│  │   data/maamarim/*.json (scraped maamarim from 2 sources)            ││
+│  │   data/quotes/*.json (730 quotes from 2 sources)                    ││
 │  └─────────────────────────────────────────────────────────────────────┘│
 │                                                                          │
 └──────────────────────────────────────────────────────────────────────────┘
@@ -139,27 +139,28 @@ ashlag-yomi/
 ├── ashlagyomibot/
 │   ├── src/
 │   │   ├── bot/
-│   │   │   ├── main.py           # Bot entry, command registration
-│   │   │   ├── handlers.py       # /start, /today, /quote, etc.
-│   │   │   ├── formatters.py     # HTML formatting, inline keyboards
-│   │   │   ├── rate_limit.py     # Request rate limiting
-│   │   │   ├── broadcaster.py    # Channel broadcasts
-│   │   │   └── scheduler.py      # Scheduled daily posts
+│   │   │   ├── main.py           # Bot entry (/start, /today only)
+│   │   │   ├── handlers.py       # Command handlers
+│   │   │   └── broadcaster.py    # Channel broadcasts
 │   │   ├── data/
-│   │   │   ├── models.py              # Pydantic models (Maamar, SourceCategory)
-│   │   │   ├── maamar_repository.py   # Data access, fair rotation
-│   │   │   └── sources/               # Web scrapers (baal_hasulam.py, rabash.py)
+│   │   │   ├── models.py              # Pydantic models (Quote, QuoteCategory)
+│   │   │   └── quote_repository.py    # Data access, random selection
 │   │   └── utils/
 │   │       ├── config.py         # Settings management
 │   │       └── logger.py         # Structured logging
-│   ├── data/maamarim/            # JSON cache of scraped maamarim
+│   ├── data/quotes/              # JSON quote files (730 quotes)
+│   │   ├── baal_hasulam.json     # 365 Baal Hasulam quotes
+│   │   └── rabash.json           # 365 Rabash quotes
 │   ├── tests/                    # Unit and integration tests
 │   ├── scripts/
-│   │   ├── diagnose.py           # Component diagnostics
-│   │   └── test_bot.py           # Manual testing
+│   │   ├── test_output.py        # Preview daily quotes
+│   │   └── diagnose.py           # Component diagnostics
 │   ├── Dockerfile
 │   └── docker-compose.yml
-└── .github/workflows/            # CI + daily broadcast
+└── .github/workflows/
+    ├── ci.yml                    # Lint, test, type-check
+    ├── daily-quote.yml           # 6 AM daily broadcast
+    └── test-bot.yml              # Bot command testing
 ```
 
 ### Tech Stack
@@ -233,10 +234,10 @@ Contributions welcome! See [CONTRIBUTING.md](ashlagyomibot/CONTRIBUTING.md) for 
 
 ### Priority Areas
 
-- 📖 **Quote curation** — Add authentic quotes from primary sources
+- 📖 **Quote curation** — Add more authentic quotes from primary sources
 - ✏️ **Hebrew proofreading** — Verify text accuracy
+- 🔗 **Source links** — Ensure all links point to correct sources
 - 🐛 **Bug fixes** — Report or fix issues
-- 📝 **Documentation** — Improve guides
 
 ---
 
