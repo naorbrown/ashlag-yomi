@@ -41,14 +41,13 @@ from src.utils.logger import get_logger, setup_logging
 logger = get_logger(__name__)
 
 # Bot commands for registration with Telegram
-# Following nachyomi-bot pattern: short, English, verb + object
+# Simplified for 2-source maamar system (Baal Hasulam + Rabash)
 BOT_COMMANDS = [
-    BotCommand("start", "התחל את הבוט"),
-    BotCommand("maamar", "קבל מאמר אקראי"),
-    BotCommand("today", "קבל את המאמר היומי"),
-    BotCommand("about", "למד על המקורות"),
-    BotCommand("help", "הצג את כל הפקודות"),
-    BotCommand("feedback", "שלח משוב"),
+    BotCommand("start", "התחלה"),
+    BotCommand("today", "2 מאמרים יומיים"),
+    BotCommand("maamar", "מאמר אקראי"),
+    BotCommand("about", "אודות"),
+    BotCommand("help", "עזרה"),
 ]
 
 
