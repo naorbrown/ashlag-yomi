@@ -13,7 +13,6 @@ Usage in tests:
 
 from datetime import date, datetime
 from pathlib import Path
-from typing import Generator
 from unittest.mock import MagicMock
 
 import pytest

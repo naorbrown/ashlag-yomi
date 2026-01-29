@@ -13,10 +13,10 @@ This package contains:
 # Lazy imports to avoid circular dependencies
 # Use: from src.bot.main import main
 __all__ = [
-    "main",
-    "handlers",
-    "formatters",
-    "rate_limit",
     "broadcaster",
+    "formatters",
+    "handlers",
+    "main",
+    "rate_limit",
     "scheduler",
 ]

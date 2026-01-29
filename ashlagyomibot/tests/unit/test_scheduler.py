@@ -1,10 +1,10 @@
 """Tests for scheduling utilities."""
 
-import pytest
-from datetime import date
 from unittest.mock import AsyncMock, MagicMock, patch
 
-from src.bot.scheduler import send_daily_quotes, get_next_send_time
+import pytest
+
+from src.bot.scheduler import get_next_send_time, send_daily_quotes
 
 
 class TestSendDailyQuotes:
@@ -30,6 +30,7 @@ class TestSendDailyQuotes:
         monkeypatch.setenv("DRY_RUN", "true")
 
         from src.utils.config import get_settings
+
         get_settings.cache_clear()
 
         mock_bot = MagicMock()
@@ -54,6 +55,7 @@ class TestSendDailyQuotes:
         monkeypatch.setenv("DRY_RUN", "false")
 
         from src.utils.config import get_settings
+
         get_settings.cache_clear()
 
         mock_bot = MagicMock()
@@ -73,6 +75,7 @@ class TestSendDailyQuotes:
         monkeypatch.setenv("DRY_RUN", "false")
 
         from src.utils.config import get_settings
+
         get_settings.cache_clear()
 
         mock_bot = MagicMock()
@@ -98,6 +101,7 @@ class TestGetNextSendTime:
 
         # Should be parseable
         from datetime import datetime
+
         datetime.fromisoformat(next_time)
 
     def test_returns_future_time(self, mock_settings):

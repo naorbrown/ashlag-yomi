@@ -1,7 +1,8 @@
 """Tests for unified channel publisher."""
 
-import pytest
 from unittest.mock import AsyncMock, MagicMock, patch
+
+import pytest
 
 from src.unified.publisher import (
     BADGE,
@@ -60,7 +61,9 @@ class TestTorahYomiPublisher:
     @pytest.mark.asyncio
     async def test_publish_text_disabled(self):
         """Should return False when disabled."""
-        with patch("src.unified.publisher.is_unified_channel_enabled", return_value=False):
+        with patch(
+            "src.unified.publisher.is_unified_channel_enabled", return_value=False
+        ):
             publisher = TorahYomiPublisher()
             result = await publisher.publish_text("Test")
             assert result is False
@@ -69,7 +72,9 @@ class TestTorahYomiPublisher:
     async def test_publish_text_no_token(self):
         """Should return False when no token configured."""
         with (
-            patch("src.unified.publisher.is_unified_channel_enabled", return_value=True),
+            patch(
+                "src.unified.publisher.is_unified_channel_enabled", return_value=True
+            ),
             patch("src.unified.publisher.UNIFIED_BOT_TOKEN", None),
         ):
             publisher = TorahYomiPublisher()
@@ -84,7 +89,9 @@ class TestTorahYomiPublisher:
         mock_bot.send_message = AsyncMock()
 
         with (
-            patch("src.unified.publisher.is_unified_channel_enabled", return_value=True),
+            patch(
+                "src.unified.publisher.is_unified_channel_enabled", return_value=True
+            ),
             patch("src.unified.publisher.UNIFIED_CHANNEL_ID", "@test_channel"),
         ):
             publisher = TorahYomiPublisher()
@@ -99,14 +106,19 @@ class TestTorahYomiPublisher:
         mock_bot = MagicMock()
         # Fail twice, succeed third time
         from telegram.error import TelegramError
-        mock_bot.send_message = AsyncMock(side_effect=[
-            TelegramError("Error 1"),
-            TelegramError("Error 2"),
-            None  # Success
-        ])
+
+        mock_bot.send_message = AsyncMock(
+            side_effect=[
+                TelegramError("Error 1"),
+                TelegramError("Error 2"),
+                None,  # Success
+            ]
+        )
 
         with (
-            patch("src.unified.publisher.is_unified_channel_enabled", return_value=True),
+            patch(
+                "src.unified.publisher.is_unified_channel_enabled", return_value=True
+            ),
             patch("src.unified.publisher.UNIFIED_CHANNEL_ID", "@test_channel"),
             patch("src.unified.publisher.RETRY_DELAY", 0.001),  # Fast retries for tests
         ):
@@ -121,10 +133,13 @@ class TestTorahYomiPublisher:
         """Should return False after max retries exceeded."""
         mock_bot = MagicMock()
         from telegram.error import TelegramError
+
         mock_bot.send_message = AsyncMock(side_effect=TelegramError("Persistent error"))
 
         with (
-            patch("src.unified.publisher.is_unified_channel_enabled", return_value=True),
+            patch(
+                "src.unified.publisher.is_unified_channel_enabled", return_value=True
+            ),
             patch("src.unified.publisher.UNIFIED_CHANNEL_ID", "@test_channel"),
             patch("src.unified.publisher.RETRY_DELAY", 0.001),
         ):
@@ -136,7 +151,9 @@ class TestTorahYomiPublisher:
     @pytest.mark.asyncio
     async def test_publish_batch_disabled(self):
         """Should return zero counts when disabled."""
-        with patch("src.unified.publisher.is_unified_channel_enabled", return_value=False):
+        with patch(
+            "src.unified.publisher.is_unified_channel_enabled", return_value=False
+        ):
             publisher = TorahYomiPublisher()
             result = await publisher.publish_batch(["msg1", "msg2"])
             assert result == {"success": 0, "failed": 0}
@@ -147,15 +164,20 @@ class TestTorahYomiPublisher:
         mock_bot = MagicMock()
         # First succeeds, second fails
         from telegram.error import TelegramError
-        mock_bot.send_message = AsyncMock(side_effect=[
-            None,  # Success
-            TelegramError("Error"),
-            TelegramError("Error"),
-            TelegramError("Error"),  # 3 retries
-        ])
+
+        mock_bot.send_message = AsyncMock(
+            side_effect=[
+                None,  # Success
+                TelegramError("Error"),
+                TelegramError("Error"),
+                TelegramError("Error"),  # 3 retries
+            ]
+        )
 
         with (
-            patch("src.unified.publisher.is_unified_channel_enabled", return_value=True),
+            patch(
+                "src.unified.publisher.is_unified_channel_enabled", return_value=True
+            ),
             patch("src.unified.publisher.UNIFIED_CHANNEL_ID", "@test_channel"),
             patch("src.unified.publisher.RETRY_DELAY", 0.001),
         ):

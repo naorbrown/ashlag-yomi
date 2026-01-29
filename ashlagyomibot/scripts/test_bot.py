@@ -19,7 +19,7 @@ sys.path.insert(0, str(project_root))
 
 from telegram import Bot
 
-from src.bot.formatters import format_quote, format_single_quote_message
+from src.bot.formatters import format_single_quote_message
 from src.data.models import Quote, QuoteCategory
 from src.utils.config import get_settings
 from src.utils.logger import get_logger, setup_logging
@@ -78,7 +78,7 @@ async def send_test_message() -> bool:
 async def main() -> int:
     """Run all tests."""
     setup_logging()
-    logger = get_logger(__name__)
+    _logger = get_logger(__name__)  # Keep logger setup for future use
 
     print("\n🧪 Ashlag Yomi Bot Test Suite\n")
     print("=" * 40)

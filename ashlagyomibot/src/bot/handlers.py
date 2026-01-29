@@ -119,10 +119,16 @@ async def today_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> N
         return
 
     if await _check_rate_limit(update):
-        logger.debug("today_command_rate_limited", user_id=update.effective_user.id if update.effective_user else None)
+        logger.debug(
+            "today_command_rate_limited",
+            user_id=update.effective_user.id if update.effective_user else None,
+        )
         return
 
-    logger.debug("today_command_starting", user_id=update.effective_user.id if update.effective_user else None)
+    logger.debug(
+        "today_command_starting",
+        user_id=update.effective_user.id if update.effective_user else None,
+    )
     settings = get_settings()
 
     try:

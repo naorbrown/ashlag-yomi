@@ -5,17 +5,17 @@ These tests verify the entire flow of the /today command
 from receiving the update to sending the response.
 """
 
-import pytest
-from datetime import date
-from unittest.mock import AsyncMock, MagicMock, patch
 import json
+from datetime import date
 from pathlib import Path
-import tempfile
+from unittest.mock import AsyncMock, MagicMock, patch
 
+import pytest
+
+from src.bot.formatters import build_source_keyboard, format_quote
 from src.bot.handlers import today_command
-from src.bot.formatters import format_quote, build_source_keyboard
+from src.data.models import DailyBundle, Quote, QuoteCategory
 from src.data.repository import QuoteRepository
-from src.data.models import Quote, QuoteCategory, DailyBundle
 
 
 class TestTodayCommandIntegration:
@@ -43,7 +43,7 @@ class TestTodayCommandIntegration:
                         "tags": ["test"],
                         "length_estimate": 30,
                     }
-                ]
+                ],
             }
             file_path = quotes_dir / f"{category.value}.json"
             with open(file_path, "w", encoding="utf-8") as f:
@@ -83,7 +83,9 @@ class TestTodayCommandIntegration:
         """Repository should load quotes from all categories."""
         stats = mock_repository.validate_all()
 
-        assert stats["total"] == 6, f"Expected 6 quotes (one per category), got {stats['total']}"
+        assert (
+            stats["total"] == 6
+        ), f"Expected 6 quotes (one per category), got {stats['total']}"
 
         for category in QuoteCategory:
             assert stats[category.value] == 1, f"Expected 1 quote for {category.value}"
@@ -129,7 +131,7 @@ class TestTodayCommandIntegration:
 
             # Should return a keyboard (since all test quotes have source_url)
             assert keyboard is not None
-            assert hasattr(keyboard, 'inline_keyboard')
+            assert hasattr(keyboard, "inline_keyboard")
 
     @pytest.mark.asyncio
     async def test_today_command_sends_messages(
@@ -143,7 +145,9 @@ class TestTodayCommandIntegration:
                 mock_settings.return_value = settings
 
                 with patch("src.bot.handlers.is_rate_limited", return_value=False):
-                    with patch("src.bot.handlers.asyncio.sleep", new_callable=AsyncMock):
+                    with patch(
+                        "src.bot.handlers.asyncio.sleep", new_callable=AsyncMock
+                    ):
                         await today_command(mock_update, mock_context)
 
         # Should have sent: 1 header + 6 quotes + 1 footer = 8 messages
@@ -173,13 +177,17 @@ class TestTodayCommandIntegration:
                 mock_settings.return_value = settings
 
                 with patch("src.bot.handlers.is_rate_limited", return_value=False):
-                    with patch("src.bot.handlers.asyncio.sleep", new_callable=AsyncMock):
+                    with patch(
+                        "src.bot.handlers.asyncio.sleep", new_callable=AsyncMock
+                    ):
                         await today_command(mock_update, mock_context)
 
         # All calls should have parse_mode="HTML"
         for call in mock_update.effective_message.reply_text.call_args_list:
             kwargs = call[1]
-            assert kwargs.get("parse_mode") == "HTML", f"Missing HTML parse mode in: {call}"
+            assert (
+                kwargs.get("parse_mode") == "HTML"
+            ), f"Missing HTML parse mode in: {call}"
 
     @pytest.mark.asyncio
     async def test_today_command_dry_run_mode(
@@ -220,15 +228,15 @@ class TestTodayCommandIntegration:
 
         # Should only send rate limit message
         call_count = mock_update.effective_message.reply_text.call_count
-        assert call_count == 1, f"Expected 1 message when rate limited, got {call_count}"
+        assert (
+            call_count == 1
+        ), f"Expected 1 message when rate limited, got {call_count}"
 
         message = mock_update.effective_message.reply_text.call_args[0][0]
         assert "אנא המתינו" in message or "Please wait" in message
 
     @pytest.mark.asyncio
-    async def test_today_command_handles_empty_bundle(
-        self, mock_update, mock_context
-    ):
+    async def test_today_command_handles_empty_bundle(self, mock_update, mock_context):
         """Should handle case when no quotes are available."""
         empty_bundle = DailyBundle(date=date.today(), quotes=[])
 
@@ -285,7 +293,9 @@ class TestQuoteDataValidation:
 
             for i, quote in enumerate(data.get("quotes", [])):
                 for field in required_fields:
-                    assert field in quote, f"{json_file.name} quote {i} missing '{field}'"
+                    assert (
+                        field in quote
+                    ), f"{json_file.name} quote {i} missing '{field}'"
 
     def test_all_quotes_can_be_loaded_as_models(self):
         """All quotes should be valid according to the Quote model."""
@@ -309,7 +319,9 @@ class TestQuoteDataValidation:
                     errors.append(f"{json_file.name} quote {i}: {e}")
 
         if errors:
-            pytest.fail(f"Found {len(errors)} invalid quotes:\n" + "\n".join(errors[:10]))
+            pytest.fail(
+                f"Found {len(errors)} invalid quotes:\n" + "\n".join(errors[:10])
+            )
 
         print(f"Successfully validated {total_loaded} quotes")
         assert total_loaded > 0, "No quotes were loaded"
@@ -381,5 +393,5 @@ class TestFormattersWithRealData:
 
                 # All real quotes should have source URLs
                 assert keyboard is not None
-                assert hasattr(keyboard, 'inline_keyboard')
+                assert hasattr(keyboard, "inline_keyboard")
                 assert len(keyboard.inline_keyboard) > 0

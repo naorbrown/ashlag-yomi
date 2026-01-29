@@ -1,10 +1,11 @@
 """Tests for channel broadcaster."""
 
-import pytest
 from datetime import date
 from unittest.mock import AsyncMock, MagicMock, patch
 
-from src.bot.broadcaster import broadcast_daily_quote, broadcast_daily_bundle
+import pytest
+
+from src.bot.broadcaster import broadcast_daily_bundle, broadcast_daily_quote
 
 
 class TestBroadcastDailyQuote:
@@ -17,18 +18,22 @@ class TestBroadcastDailyQuote:
 
         # Clear the settings cache
         from src.utils.config import get_settings
+
         get_settings.cache_clear()
 
         result = await broadcast_daily_quote()
         assert result is False
 
     @pytest.mark.asyncio
-    async def test_dry_run_returns_true(self, mock_settings, mock_repository, monkeypatch):
+    async def test_dry_run_returns_true(
+        self, mock_settings, mock_repository, monkeypatch
+    ):
         """Should return True in dry run mode without sending."""
         monkeypatch.setenv("TELEGRAM_CHANNEL_ID", "@test_channel")
         monkeypatch.setenv("DRY_RUN", "true")
 
         from src.utils.config import get_settings
+
         get_settings.cache_clear()
 
         with patch("src.bot.broadcaster.QuoteRepository", return_value=mock_repository):
@@ -45,6 +50,7 @@ class TestBroadcastDailyQuote:
         monkeypatch.setenv("DRY_RUN", "false")
 
         from src.utils.config import get_settings
+
         get_settings.cache_clear()
 
         # Mock repository to indicate already broadcast
@@ -67,6 +73,7 @@ class TestBroadcastDailyQuote:
         monkeypatch.setenv("DRY_RUN", "false")
 
         from src.utils.config import get_settings
+
         get_settings.cache_clear()
 
         mock_bot = AsyncMock()
@@ -105,18 +112,22 @@ class TestBroadcastDailyBundle:
         monkeypatch.setenv("TELEGRAM_CHANNEL_ID", "")
 
         from src.utils.config import get_settings
+
         get_settings.cache_clear()
 
         result = await broadcast_daily_bundle()
         assert result is False
 
     @pytest.mark.asyncio
-    async def test_dry_run_returns_true(self, mock_settings, mock_repository, monkeypatch):
+    async def test_dry_run_returns_true(
+        self, mock_settings, mock_repository, monkeypatch
+    ):
         """Should return True in dry run mode."""
         monkeypatch.setenv("TELEGRAM_CHANNEL_ID", "@test_channel")
         monkeypatch.setenv("DRY_RUN", "true")
 
         from src.utils.config import get_settings
+
         get_settings.cache_clear()
 
         with patch("src.bot.broadcaster.QuoteRepository", return_value=mock_repository):
@@ -131,6 +142,7 @@ class TestBroadcastDailyBundle:
         monkeypatch.setenv("DRY_RUN", "false")
 
         from src.utils.config import get_settings
+
         get_settings.cache_clear()
 
         mock_repo = MagicMock()

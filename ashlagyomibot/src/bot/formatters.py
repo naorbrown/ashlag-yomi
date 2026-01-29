@@ -45,9 +45,7 @@ def build_source_keyboard(quote: Quote) -> InlineKeyboardMarkup | None:
     if not quote.source_url:
         return None
 
-    keyboard = [
-        [InlineKeyboardButton(text="📖 מקור", url=quote.source_url)]
-    ]
+    keyboard = [[InlineKeyboardButton(text="📖 מקור", url=quote.source_url)]]
     return InlineKeyboardMarkup(keyboard)
 
 
@@ -149,10 +147,12 @@ def format_channel_message(quote: Quote, target_date: date | None = None) -> str
     # Source link is provided via inline keyboard (build_source_keyboard)
     # not as inline text link - this follows nachyomi-bot pattern
 
-    parts.extend([
-        "",
-        "═══════════════════",
-    ])
+    parts.extend(
+        [
+            "",
+            "═══════════════════",
+        ]
+    )
 
     return "\n".join(parts)
 
@@ -229,11 +229,7 @@ def escape_html(text: str) -> str:
     Returns:
         Text with HTML special characters escaped
     """
-    return (
-        text.replace("&", "&amp;")
-        .replace("<", "&lt;")
-        .replace(">", "&gt;")
-    )
+    return text.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
 
 # Keep for backwards compatibility

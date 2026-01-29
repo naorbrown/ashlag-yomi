@@ -42,7 +42,7 @@ def check_environment():
 
     for var in optional_vars:
         value = os.environ.get(var, "(default)")
-        print(f"  ℹ️  {var}: {value}")
+        print(f"  [i] {var}: {value}")
 
     return all_ok
 
@@ -69,14 +69,14 @@ def check_quote_repository():
     print("\n📚 Checking quote repository...")
 
     try:
-        from src.data.repository import QuoteRepository
         from src.data.models import QuoteCategory
+        from src.data.repository import QuoteRepository
 
         repo = QuoteRepository()
 
         # Check quotes directory
-        print(f"  ℹ️  Quotes dir: {repo._quotes_dir}")
-        print(f"  ℹ️  Quotes dir exists: {repo._quotes_dir.exists()}")
+        print(f"  [i] Quotes dir: {repo._quotes_dir}")
+        print(f"  [i] Quotes dir exists: {repo._quotes_dir.exists()}")
 
         # Load and validate quotes
         stats = repo.validate_all()
@@ -126,8 +126,11 @@ def check_formatting():
     print("\n🎨 Checking formatting...")
 
     try:
+        from src.bot.formatters import (
+            build_source_keyboard,
+            format_quote,
+        )
         from src.data.repository import QuoteRepository
-        from src.bot.formatters import format_quote, build_source_keyboard
 
         repo = QuoteRepository()
         bundle = repo.get_daily_bundle(date.today())
@@ -144,7 +147,9 @@ def check_formatting():
                 print(f"  ❌ {quote.category.value}: Missing HTML formatting")
                 return False
 
-            print(f"  ✅ {quote.category.value}: {len(formatted)} chars, keyboard={'yes' if keyboard else 'no'}")
+            print(
+                f"  ✅ {quote.category.value}: {len(formatted)} chars, keyboard={'yes' if keyboard else 'no'}"
+            )
 
         return True
     except Exception as e:
@@ -161,7 +166,9 @@ def check_telegram_connection():
 
     try:
         import asyncio
+
         from telegram import Bot
+
         from src.utils.config import get_settings
 
         settings = get_settings()

@@ -213,7 +213,9 @@ def main() -> int:
             print(f"⚠️  No sample quotes for {category.value}")
 
     print("\n" + "=" * 40)
-    print(f"✅ Created {total_quotes} sample quotes across {len(QuoteCategory)} categories")
+    print(
+        f"✅ Created {total_quotes} sample quotes across {len(QuoteCategory)} categories"
+    )
     print("\n⚠️  NOTE: These are sample quotes!")
     print("   For production, please curate authentic quotes from primary sources.")
     print("\n   Edit the JSON files in data/quotes/ to add real quotes.")

@@ -1,15 +1,16 @@
 """Tests for Telegram command handlers."""
 
-import pytest
 from unittest.mock import AsyncMock, MagicMock, patch
 
+import pytest
+
 from src.bot.handlers import (
+    about_command,
+    feedback_command,
+    help_command,
+    quote_command,
     start_command,
     today_command,
-    quote_command,
-    about_command,
-    help_command,
-    feedback_command,
 )
 
 

@@ -18,13 +18,9 @@ import json
 import random
 from datetime import date
 from pathlib import Path
-from typing import TYPE_CHECKING
 
 from src.data.models import DailyBundle, Quote, QuoteCategory, SentRecord
 from src.utils.logger import get_logger
-
-if TYPE_CHECKING:
-    pass
 
 logger = get_logger(__name__)
 
@@ -55,7 +51,9 @@ class QuoteRepository:
         self._project_root = self._find_project_root()
 
         self._quotes_dir = quotes_dir or self._project_root / "data" / "quotes"
-        self._history_file = history_file or self._project_root / "data" / "sent_history.json"
+        self._history_file = (
+            history_file or self._project_root / "data" / "sent_history.json"
+        )
 
         # Cache for loaded quotes (lazy loading)
         self._quotes_cache: dict[QuoteCategory, list[Quote]] | None = None
@@ -142,7 +140,9 @@ class QuoteRepository:
         # Ensure directory exists
         self._history_file.parent.mkdir(parents=True, exist_ok=True)
 
-        data = {"sent": [record.model_dump(mode="json") for record in self._history_cache]}
+        data = {
+            "sent": [record.model_dump(mode="json") for record in self._history_cache]
+        }
 
         with open(self._history_file, "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
