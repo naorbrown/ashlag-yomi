@@ -237,7 +237,7 @@ class TestFeedbackCommand:
         await feedback_command(mock_update, mock_context)
 
         message = mock_update.effective_message.reply_text.call_args[0][0]
-        assert "משוב" in message
+        assert "Feedback" in message
         assert "GitHub" in message
 
     @pytest.mark.asyncio

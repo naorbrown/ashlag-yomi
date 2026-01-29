@@ -241,17 +241,15 @@ async def feedback_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -
     if not update.effective_message:
         return
 
-    feedback_text = """💬 <b>משוב והצעות</b>
+    feedback_text = """💬 <b>Feedback</b>
 
-אנו שמחים לשמוע מכם!
+We'd love to hear from you!
 
-📧 לשליחת משוב, באגים, או הצעות:
-פתחו Issue ב-GitHub:
-https://github.com/yourusername/ashlag-yomi/issues
+📧 To send feedback, report bugs, or suggest features:
+Open an issue on GitHub:
+https://github.com/naorbrown/ashlag-yomi/issues
 
-או שלחו הודעה עם תוכן המשוב שלכם.
-
-תודה על העזרה בשיפור הפרויקט! 🙏
+Thank you for helping improve the project! 🙏
 """
 
     await update.effective_message.reply_text(

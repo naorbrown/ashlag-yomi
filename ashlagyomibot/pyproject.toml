@@ -52,9 +52,10 @@ dev = [
 ashlag-yomi = "src.bot.main:main"
 
 [project.urls]
-Homepage = "https://github.com/yourusername/ashlag-yomi"
-Repository = "https://github.com/yourusername/ashlag-yomi"
-Issues = "https://github.com/yourusername/ashlag-yomi/issues"
+Homepage = "https://github.com/naorbrown/ashlag-yomi"
+Repository = "https://github.com/naorbrown/ashlag-yomi"
+Issues = "https://github.com/naorbrown/ashlag-yomi/issues"
+Telegram = "https://t.me/AshlagYomiBot"
 
 # ============================================================================
 # Tool Configuration

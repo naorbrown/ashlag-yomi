@@ -1,76 +1,81 @@
 # 🕯️ Ashlag Yomi
 
-**Daily spiritual nourishment from the Ashlag Kabbalistic lineage**
+**Daily Kabbalistic wisdom from the Ashlag lineage**
 
-[![CI](https://github.com/yourusername/ashlag-yomi/actions/workflows/ci.yml/badge.svg)](https://github.com/yourusername/ashlag-yomi/actions/workflows/ci.yml)
+[![CI](https://github.com/naorbrown/ashlag-yomi/actions/workflows/ci.yml/badge.svg)](https://github.com/naorbrown/ashlag-yomi/actions/workflows/ci.yml)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Telegram Bot](https://img.shields.io/badge/Telegram-Bot-blue.svg)](https://t.me/AshlagYomiBot)
+[![Telegram Bot](https://img.shields.io/badge/Telegram-@AshlagYomiBot-blue.svg)](https://t.me/AshlagYomiBot)
 
-A Telegram bot that delivers daily quotes from the Ashlag spiritual lineage every morning at 6:00 AM Israel time.
+A Telegram bot delivering daily quotes from the Kabbalistic masters of the Ashlag lineage. New quotes every morning at 6:00 AM Israel time.
 
-## 🌟 The Lineage
+**[→ Start the bot on Telegram](https://t.me/AshlagYomiBot)**
 
-The bot shares wisdom from six categories of Kabbalistic masters:
+## ✨ Features
 
-| Category | Emoji | Description |
-|----------|-------|-------------|
-| 🕯️ **האר״י הקדוש** | ARIZAL | Foundation of Lurianic Kabbalah |
-| ✨ **הבעל שם טוב** | BAAL_SHEM_TOV | Founder of Chassidut and his students |
-| 🔥 **חסידות פולין** | POLISH_CHASSIDUT | Maggid, Peshischa, Kotzk and more |
-| 📖 **בעל הסולם** | BAAL_HASULAM | Modern Kabbalah systematizer |
-| 💎 **הרב״ש** | RABASH | Practical application |
-| 🌱 **חסידי אשלג** | CHASDEI_ASHLAG | Contemporary students |
+- **6 daily quotes** — One from each category of the spiritual lineage
+- **2,000+ quotes** — Full year of unique daily content
+- **Clickable sources** — Direct links to original texts on Sefaria and Or HaSulam
+- **Simple commands** — `/today` for all quotes, `/quote` for a quick read
+- **No account needed** — Just open Telegram and start
 
-## 🚀 Quick Start
+## 📜 The Lineage
+
+| Emoji | Category | Masters |
+|:-----:|----------|---------|
+| 🕯️ | **Arizal** | Rabbi Isaac Luria — Foundation of Lurianic Kabbalah |
+| ✨ | **Baal Shem Tov** | Rabbi Israel ben Eliezer — Founder of Chassidut |
+| 🔥 | **Polish Chassidut** | Maggid of Mezeritch, Kotzk, Peshischa, Piaseczno |
+| 📖 | **Baal HaSulam** | Rabbi Yehuda Ashlag — Modern Kabbalah systematizer |
+| 💎 | **Rabash** | Rabbi Baruch Shalom Ashlag — Practical application |
+| 🌱 | **Chasdei Ashlag** | Contemporary students of the lineage |
+
+## 🤖 Bot Commands
+
+| Command | Description |
+|---------|-------------|
+| `/start` | Welcome message and quick start |
+| `/today` | Get today's 6 quotes |
+| `/quote` | Get a single random quote |
+| `/about` | Learn about the lineage |
+| `/help` | Show all commands |
+| `/feedback` | Send feedback or report issues |
+
+## 🚀 Quick Start (Developers)
 
 ### Prerequisites
 
-- Python 3.11 or higher
-- A Telegram bot token (get one from [@BotFather](https://t.me/BotFather))
-- A Telegram channel or group ID
+- Python 3.11+
+- Telegram bot token from [@BotFather](https://t.me/BotFather)
 
-### Installation
+### Setup
 
 ```bash
-# Clone the repository
-git clone https://github.com/yourusername/ashlag-yomi.git
+# Clone
+git clone https://github.com/naorbrown/ashlag-yomi.git
 cd ashlag-yomi
 
-# Create virtual environment
+# Install
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+source venv/bin/activate
+pip install -e ".[dev]"
 
-# Install dependencies
-make install-dev
-
-# Copy environment template and fill in your values
+# Configure
 cp .env.example .env
-# Edit .env with your bot token and channel ID
+# Edit .env with your bot token
+
+# Run
+python -m src.bot.main
 ```
 
-### Running Locally
+### Development
 
 ```bash
-# Populate sample quotes
-python scripts/populate_quotes.py
-
-# Test the bot connection
-python scripts/test_bot.py
-
-# Run the bot in interactive mode
-make run
+make test        # Run tests (80% coverage required)
+make lint        # Lint with ruff
+make format      # Format with black
+make all         # All of the above
 ```
-
-### Available Commands
-
-Once the bot is running, you can use these commands in Telegram:
-
-- `/start` - Welcome message and introduction
-- `/today` - Get today's quotes immediately
-- `/about` - Learn about the project and lineage
-- `/help` - Show available commands
-- `/feedback` - How to send feedback
 
 ## 🏗️ Architecture
 
@@ -87,10 +92,9 @@ Once the bot is running, you can use these commands in Telegram:
 ┌─────────────────────────────────────────────────────────────┐
 │                      Bot Layer                              │
 │   main.py ──── handlers.py ──── broadcaster.py              │
-│      │              │                 │                     │
-│      └──────────────┼─────────────────┘                     │
+│                     │                                       │
 │                     ▼                                       │
-│              formatters.py                                  │
+│              formatters.py (inline keyboards)               │
 └─────────────────────────────────────────────────────────────┘
             │
             ▼
@@ -99,7 +103,7 @@ Once the bot is running, you can use these commands in Telegram:
 │   repository.py ──── models.py                              │
 │         │                                                   │
 │         ▼                                                   │
-│   data/quotes/*.json (2000+ quotes)                         │
+│   data/quotes/*.json (2,011 quotes)                         │
 └─────────────────────────────────────────────────────────────┘
 ```
 
@@ -109,121 +113,67 @@ Once the bot is running, you can use these commands in Telegram:
 ashlag-yomi/
 ├── src/
 │   ├── bot/
-│   │   ├── main.py         # Bot entry point
-│   │   ├── handlers.py     # Command handlers (/start, /today, etc.)
+│   │   ├── main.py         # Entry point, command registration
+│   │   ├── handlers.py     # /start, /today, /quote, etc.
 │   │   ├── broadcaster.py  # Channel broadcasts
-│   │   ├── scheduler.py    # Local scheduling (dev only)
-│   │   └── formatters.py   # Message formatting (HTML)
+│   │   └── formatters.py   # HTML formatting, inline keyboards
 │   ├── data/
-│   │   ├── models.py       # Pydantic models
-│   │   └── repository.py   # Data access layer
+│   │   ├── models.py       # Quote, DailyBundle (Pydantic)
+│   │   └── repository.py   # Data access, fair rotation
 │   └── utils/
-│       ├── config.py       # Settings (Pydantic Settings)
+│       ├── config.py       # Settings from environment
 │       └── logger.py       # Structured logging
-├── data/quotes/            # Quote JSON files (365 per category)
-├── scripts/                # CLI scripts
-├── tests/
-│   ├── unit/              # Unit tests
-│   └── fixtures/          # Test fixtures
-└── .github/workflows/      # CI/CD pipelines
-```
-
-## 🧪 Development
-
-```bash
-# Run all quality checks
-make all
-
-# Individual commands
-make test        # Run tests with coverage
-make lint        # Run linter (ruff)
-make format      # Format code (black + ruff)
-make type-check  # Type checking (mypy)
-
-# Send a test message
-make test-bot
+├── data/quotes/            # 6 JSON files, 365 quotes each
+├── tests/                  # 116 tests, 80%+ coverage
+└── .github/workflows/      # CI + daily broadcast
 ```
 
 ## 🔧 Configuration
 
-All configuration is done through environment variables. See `.env.example` for the full list.
-
 | Variable | Required | Description |
-|----------|----------|-------------|
-| `TELEGRAM_BOT_TOKEN` | Yes | Bot token from @BotFather |
-| `TELEGRAM_CHAT_ID` | Yes | Target channel/group ID |
-| `ENVIRONMENT` | No | `development`, `staging`, or `production` |
-| `LOG_LEVEL` | No | Logging level (default: `INFO`) |
-| `DRY_RUN` | No | Log instead of sending (default: `false`) |
-
-## 📚 Adding Quotes
-
-Quotes are stored in JSON files under `data/quotes/`. Each category has its own file:
-
-```json
-{
-  "category": "baal_hasulam",
-  "quotes": [
-    {
-      "id": "baal-hasulam-001",
-      "text": "הסתכלות בתכלית מביאה את האדם לשלמות",
-      "source_rabbi": "בעל הסולם",
-      "source_book": "מאמרי הסולם",
-      "source_url": "https://www.orhassulam.com/",
-      "category": "baal_hasulam",
-      "tags": ["תכלית", "שלמות"],
-      "length_estimate": 15
-    }
-  ]
-}
-```
-
-See `docs/QUOTES_FORMAT.md` for the complete schema.
+|----------|:--------:|-------------|
+| `TELEGRAM_BOT_TOKEN` | ✅ | Token from @BotFather |
+| `TELEGRAM_CHANNEL_ID` | ✅ | Channel for broadcasts (e.g., `@AshlagYomi`) |
+| `ENVIRONMENT` | | `development`, `staging`, `production` |
+| `DRY_RUN` | | Set `true` to log instead of send |
 
 ## 🚢 Deployment
 
-The bot runs via GitHub Actions cron job - no server required!
+The bot runs serverless via GitHub Actions — no hosting required.
 
 1. Fork this repository
-2. Add secrets in repository settings:
-   - `TELEGRAM_BOT_TOKEN` - from [@BotFather](https://t.me/BotFather)
-   - `TELEGRAM_CHAT_ID` - your chat ID for testing
-   - `TELEGRAM_CHANNEL_ID` - channel for daily broadcasts (e.g., `@AshlagYomi`)
+2. Add secrets: `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHANNEL_ID`
 3. Enable GitHub Actions
 
-### Daily Broadcast Timing
+**Daily Broadcast Timing:**
 
-The bot broadcasts at **6:00 AM Israel time** year-round. Due to Israel's daylight saving time changes, we use a dual-cron schedule:
-
-| Season | Israel TZ | UTC Cron | Result |
-|--------|-----------|----------|--------|
-| Summer (IDT) | UTC+3 | `0 3 * * *` | 6:00 AM Israel |
-| Winter (IST) | UTC+2 | `0 4 * * *` | 6:00 AM Israel |
-
-The broadcaster is **idempotent** - if the same day's quote is already sent, duplicate cron triggers are safely ignored.
+The bot sends at **6:00 AM Israel time** year-round using dual-cron (3am + 4am UTC) to handle daylight saving. The broadcaster is idempotent — duplicate triggers are safely ignored.
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please see `CONTRIBUTING.md` for guidelines.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
-Areas where help is needed:
-- Curating authentic quotes from primary sources
-- Hebrew proofreading and nikud
-- Improving message formatting
-- Adding new features
+**Ways to help:**
+- Curate authentic quotes from primary sources
+- Hebrew proofreading
+- Feature development
+- Documentation
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+MIT License — see [LICENSE](LICENSE) for details.
+
+Quote sources are in the public domain. See LICENSE for attribution.
 
 ## 🙏 Acknowledgments
 
-- [Sefaria](https://www.sefaria.org/) - Jewish texts API
-- [Or HaSulam](https://www.orhassulam.com/) - Ashlag writings
-- [python-telegram-bot](https://python-telegram-bot.org/) - Bot framework
+- [Sefaria](https://www.sefaria.org/) — Open-source Jewish texts
+- [Or HaSulam](https://www.orhassulam.com/) — Ashlag writings
+- [python-telegram-bot](https://python-telegram-bot.org/) — Bot framework
 
 ---
 
-_״אין אור גדול יותר מהאור היוצא מתוך החושך״_ - בעל הסולם
+_״אין אור גדול יותר מהאור היוצא מתוך החושך״_
+— Baal HaSulam
 
-Built with ❤️ for the spreading of spiritual wisdom.
+Built with ❤️ for spreading spiritual wisdom.

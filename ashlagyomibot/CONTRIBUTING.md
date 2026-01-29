@@ -1,28 +1,19 @@
 # Contributing to Ashlag Yomi
 
-Thank you for your interest in contributing! This document provides guidelines
-for contributing to the project.
+Thank you for your interest in contributing! This guide will help you get started.
 
-## Getting Started
-
-### Prerequisites
-
-- Python 3.11 or higher
-- Git
-- A Telegram bot token (for testing)
-
-### Setup
+## 🚀 Quick Setup
 
 ```bash
-# Clone the repository
-git clone https://github.com/yourusername/ashlag-yomi.git
+# Clone
+git clone https://github.com/naorbrown/ashlag-yomi.git
 cd ashlag-yomi
 
 # Create virtual environment
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
 
-# Install development dependencies
+# Install dev dependencies
 pip install -e ".[dev]"
 
 # Set up pre-commit hooks
@@ -30,17 +21,17 @@ pre-commit install
 
 # Copy environment template
 cp .env.example .env
-# Edit .env with your test credentials
+# Edit .env with your test bot token
 ```
 
-### Running Tests
+## 🧪 Running Tests
 
 ```bash
 # Run all tests with coverage
 pytest
 
 # Run specific test file
-pytest tests/unit/test_formatters.py
+pytest tests/unit/test_handlers.py
 
 # Run with verbose output
 pytest -v
@@ -50,66 +41,57 @@ pytest --cov-report=html
 open htmlcov/index.html
 ```
 
-### Coverage Requirements
+**Coverage requirement:** All PRs must maintain **80% test coverage**.
 
-All pull requests must maintain **80% test coverage**. The CI pipeline will
-fail if coverage drops below this threshold.
+## 📝 Code Style
 
-## Code Style
+We use these tools for consistent code:
 
-### Python Style
-
-We follow PEP 8 with these tools:
-
-- **Black** for formatting (line length: 88)
-- **Ruff** for linting
-- **MyPy** for type checking
+| Tool | Purpose |
+|------|---------|
+| **Black** | Code formatting (line length: 88) |
+| **Ruff** | Fast linting |
+| **MyPy** | Type checking |
 
 ```bash
-# Format code
+# Format
 black src tests scripts
 
-# Lint code
+# Lint
 ruff check src tests scripts
 
 # Type check
 mypy src
+
+# Run all checks
+make all
 ```
 
-### Run All Checks
+## 💬 Commit Messages
 
-```bash
-make all  # Runs format, lint, type-check, and test
-```
-
-### Commit Messages
-
-Follow conventional commits:
+Follow [Conventional Commits](https://www.conventionalcommits.org/):
 
 ```
 type(scope): description
 
 [optional body]
-
-[optional footer]
 ```
 
-Types: `feat`, `fix`, `docs`, `style`, `refactor`, `test`, `chore`
+**Types:** `feat`, `fix`, `docs`, `style`, `refactor`, `test`, `chore`
 
-Examples:
-
+**Examples:**
 ```
-feat(broadcaster): add idempotent broadcast check
-fix(formatters): use HTML parse mode for reliable links
-docs(readme): add architecture diagram
-test(handlers): add tests for /about command
+feat(handlers): add /quote command for single quotes
+fix(formatters): escape HTML entities in quote text
+docs(readme): update installation instructions
+test(repository): add tests for get_random_quote
 ```
 
-## Adding Quotes
+## 📚 Adding Quotes
+
+Quotes live in `data/quotes/*.json`. Each category has its own file.
 
 ### Quote Format
-
-Quotes are stored in `data/quotes/*.json`:
 
 ```json
 {
@@ -117,7 +99,7 @@ Quotes are stored in `data/quotes/*.json`:
   "text": "Hebrew quote text",
   "source_rabbi": "Rabbi name in Hebrew",
   "source_book": "Book name",
-  "source_section": "Chapter/section reference",
+  "source_section": "Chapter/section",
   "source_url": "https://source.url/path",
   "category": "category_name",
   "tags": ["tag1", "tag2"],
@@ -127,10 +109,10 @@ Quotes are stored in `data/quotes/*.json`:
 
 ### Categories
 
-| Category | Hebrew Name | Description |
-|----------|-------------|-------------|
+| Category | Hebrew | Description |
+|----------|--------|-------------|
 | `arizal` | האר״י הקדוש | Lurianic Kabbalah |
-| `baal_shem_tov` | הבעל שם טוב | Founder of Chassidut and students |
+| `baal_shem_tov` | הבעל שם טוב | Chassidut founder and students |
 | `polish_chassidut` | חסידות פולין | Polish Chassidic schools |
 | `baal_hasulam` | בעל הסולם | Modern Kabbalah |
 | `rabash` | הרב״ש | Practical application |
@@ -138,82 +120,73 @@ Quotes are stored in `data/quotes/*.json`:
 
 ### Validation
 
-All quote files are validated on every commit:
-
 ```bash
-# Validate quote files
+# Validate all quote files
 python -c "from src.data.repository import QuoteRepository; print(QuoteRepository().validate_all())"
 ```
 
 ### Attribution Guidelines
 
-- **Always** attribute to the correct author, not just the book
-- For student-authored books (e.g., Degel Machane Efraim), use the student's name as `source_rabbi`
-- Keep `category` for lineage connection (e.g., student books stay in `baal_shem_tov` category)
+- **Always** attribute to the correct author
+- For student-authored books, use the student's name as `source_rabbi`
+- Keep `category` for lineage connection
 
-## Pull Request Process
+## 🔄 Pull Request Process
 
 1. Fork the repository
 2. Create a feature branch: `git checkout -b feat/my-feature`
 3. Make your changes
-4. Run tests: `pytest`
-5. Run linting: `ruff check && mypy src`
-6. Format code: `black src tests`
-7. Commit with conventional commit message
-8. Push to your fork
-9. Open a Pull Request
+4. Run all checks: `make all`
+5. Commit with conventional commit message
+6. Push and open a Pull Request
 
 ### PR Checklist
 
-- [ ] Tests pass locally (`pytest`)
-- [ ] New tests added for new features
-- [ ] Code formatted with Black
-- [ ] No linting errors (`ruff check`)
-- [ ] Type hints added for new code (`mypy src`)
-- [ ] Documentation updated if needed
-- [ ] Coverage maintained at 80%+
+- [ ] Tests pass (`pytest`)
+- [ ] New tests for new features
+- [ ] Code formatted (`black`)
+- [ ] No lint errors (`ruff check`)
+- [ ] Type hints added (`mypy src`)
+- [ ] Coverage ≥ 80%
 
-## Development Tips
+## 🛠️ Development Tips
 
 ### Running the Bot Locally
 
 ```bash
 # Set environment variables
 export TELEGRAM_BOT_TOKEN="your_token"
-export TELEGRAM_CHAT_ID="your_chat_id"
 
-# Run the bot
+# Run
 python -m src.bot.main
-
-# Or use make
-make run
 ```
 
-### Testing Commands
+### Testing Commands in Telegram
 
-Once the bot is running locally, you can test commands in Telegram:
-
-- `/start` - Welcome message
-- `/today` - Get today's quotes
-- `/about` - Lineage information
-- `/help` - Command list
-- `/feedback` - Feedback info
+| Command | What to test |
+|---------|--------------|
+| `/start` | Welcome message appears |
+| `/today` | 6 quotes with source buttons |
+| `/quote` | Single quote with source button |
+| `/about` | Lineage information |
+| `/help` | Command list |
+| `/feedback` | GitHub link works |
 
 ### HTML Formatting
 
-We use HTML parse mode for Telegram messages (more reliable than Markdown for links):
+We use HTML parse mode (more reliable than Markdown):
 
 ```python
-# Bold
-"<b>text</b>"
-
-# Italic
-"<i>text</i>"
-
-# Link
-'<a href="https://example.com">link text</a>'
+"<b>bold</b>"
+"<i>italic</i>"
+'<a href="https://example.com">link</a>'
 ```
 
-## Questions?
+## 🆘 Questions?
 
-Open an issue or start a discussion on GitHub.
+- Open an [issue](https://github.com/naorbrown/ashlag-yomi/issues)
+- Start a [discussion](https://github.com/naorbrown/ashlag-yomi/discussions)
+
+---
+
+Thank you for helping spread spiritual wisdom! 🕯️
