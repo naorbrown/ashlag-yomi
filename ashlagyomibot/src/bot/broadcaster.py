@@ -16,6 +16,7 @@ from telegram import Bot
 from src.bot.formatters import build_source_keyboard, format_channel_message
 from src.data.models import QuoteCategory
 from src.data.repository import QuoteRepository
+from src.unified import is_unified_channel_enabled, publish_text_to_unified_channel
 from src.utils.config import get_settings
 from src.utils.logger import get_logger
 
@@ -117,6 +118,16 @@ async def broadcast_daily_quote(
             quote_id=quote.id,
             date=str(target_date),
         )
+
+        # Publish to unified Torah Yomi channel
+        if is_unified_channel_enabled():
+            # Create a simplified version for unified channel (without keyboard)
+            unified_message = message
+            unified_success = await publish_text_to_unified_channel(unified_message)
+            if unified_success:
+                logger.info("unified_channel_published", quote_id=quote.id)
+            else:
+                logger.warning("unified_channel_failed", quote_id=quote.id)
 
         return True
 
