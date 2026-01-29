@@ -1,5 +1,5 @@
 """
-Scheduling utilities for daily quote delivery.
+Scheduling utilities for daily maamar delivery.
 
 Note: In production, we use GitHub Actions cron jobs instead of
 APScheduler. This module is primarily for local development and testing.
@@ -11,13 +11,12 @@ Why GitHub Actions over APScheduler for production?
 4. Simpler deployment (no long-running process)
 """
 
+import asyncio
 from datetime import date
 from zoneinfo import ZoneInfo
 
-from src.bot.formatters import build_source_keyboard, format_quote
-from src.data.models import DailyBundle
-from src.data.repository import get_repository
-from src.unified import is_unified_channel_enabled, publish_text_to_unified_channel
+from src.bot.formatters import build_maamar_keyboard, format_maamar
+from src.data.maamar_repository import get_maamar_repository
 from src.utils.config import get_settings
 from src.utils.logger import get_logger
 
@@ -26,12 +25,15 @@ logger = get_logger(__name__)
 # Israel timezone for scheduling
 ISRAEL_TZ = ZoneInfo("Asia/Jerusalem")
 
+# Delay between messages to avoid Telegram rate limits
+MESSAGE_DELAY = 0.5
 
-async def send_daily_quotes(bot: object, chat_id: str) -> bool:
+
+async def send_daily_maamarim(bot: object, chat_id: str) -> bool:
     """
-    Send the daily bundle of quotes to the specified chat.
+    Send today's 2 maamarim (Baal Hasulam + Rabash) to the specified chat.
 
-    Uses inline keyboards for source links (nachyomi-bot pattern).
+    Uses inline keyboards for source links.
 
     Args:
         bot: Telegram bot instance
@@ -44,62 +46,64 @@ async def send_daily_quotes(bot: object, chat_id: str) -> bool:
 
     try:
         # Use cached repository for fast access
-        repository = get_repository()
-        bundle = repository.get_daily_bundle(date.today())
+        repository = get_maamar_repository()
+        maamarim = repository.get_daily_maamarim()
 
-        if not bundle.quotes:
-            logger.warning("no_quotes_for_daily_send")
+        if not maamarim:
+            logger.warning("no_maamarim_for_daily_send")
             return False
 
         if settings.dry_run:
+            titles = [m.title for m in maamarim]
             logger.info(
                 "dry_run_send",
                 chat_id=chat_id,
-                quote_count=len(bundle.quotes),
+                maamar_count=len(maamarim),
+                titles=titles,
             )
             return True
 
         # Send header
-        date_str = bundle.date.strftime("%d.%m.%Y")
+        date_str = date.today().strftime("%d.%m.%Y")
         header = f"🌅 <b>אשלג יומי - {date_str}</b>\n\n═══════════════════"
         await bot.send_message(  # type: ignore[attr-defined]
             chat_id=chat_id,
             text=header,
             parse_mode="HTML",
         )
+        await asyncio.sleep(MESSAGE_DELAY)
 
-        # Send each quote with inline keyboard (nachyomi-bot pattern)
-        for quote in bundle.quotes:
-            message = format_quote(quote)
-            keyboard = build_source_keyboard(quote)
-            await bot.send_message(  # type: ignore[attr-defined]
-                chat_id=chat_id,
-                text=message,
-                parse_mode="HTML",
-                reply_markup=keyboard,  # Inline keyboard for source link
-                disable_web_page_preview=True,
-            )
+        # Send each maamar with inline keyboard
+        for maamar in maamarim:
+            messages = format_maamar(maamar)
+            keyboard = build_maamar_keyboard(maamar)
+
+            for i, message in enumerate(messages):
+                reply_markup = keyboard if i == len(messages) - 1 else None
+                await bot.send_message(  # type: ignore[attr-defined]
+                    chat_id=chat_id,
+                    text=message,
+                    parse_mode="HTML",
+                    reply_markup=reply_markup,
+                    disable_web_page_preview=True,
+                )
+                await asyncio.sleep(MESSAGE_DELAY)
+
+            # Mark as sent for fair rotation
+            repository.mark_as_sent(maamar, date.today())
 
         # Send footer
         await bot.send_message(  # type: ignore[attr-defined]
             chat_id=chat_id,
             text="═══════════════════",
-            parse_mode="HTML",
         )
-
-        # Mark quotes as sent
-        for quote in bundle.quotes:
-            repository.mark_as_sent(quote, date.today())
 
         logger.info(
-            "daily_quotes_sent",
+            "daily_maamarim_sent",
             chat_id=chat_id,
-            quote_count=len(bundle.quotes),
+            maamar_count=len(maamarim),
             date=str(date.today()),
         )
-
-        # Publish to unified Torah Yomi channel
-        await _send_to_unified_channel(bundle)
 
         return True
 
@@ -108,37 +112,10 @@ async def send_daily_quotes(bot: object, chat_id: str) -> bool:
         return False
 
 
-async def _send_to_unified_channel(bundle: DailyBundle) -> None:
-    """Send a condensed message to the unified Torah Yomi channel."""
-    if not is_unified_channel_enabled():
-        logger.debug("Unified channel not configured, skipping")
-        return
-
-    try:
-        # Build a condensed message for the unified channel
-        date_str = bundle.date.strftime("%d.%m.%Y")
-        unified_msg = f"<b>אשלג יומי - {date_str}</b>\n\n"
-
-        # Include first quote as preview
-        if bundle.quotes:
-            quote = bundle.quotes[0]
-            # Include first 300 chars of content as preview
-            preview = quote.text[:300]
-            if len(quote.text) > 300:
-                preview += "..."
-            unified_msg += f"<i>{preview}</i>\n\n"
-
-            if len(bundle.quotes) > 1:
-                unified_msg += f"<i>+{len(bundle.quotes) - 1} more quotes today</i>\n"
-
-        unified_msg += "\n<b>מהרב יהודה אשלג (בעל הסולם)</b>"
-
-        await publish_text_to_unified_channel(unified_msg)
-        logger.info("Published to unified channel successfully")
-
-    except Exception as e:
-        # Don't fail the main broadcast if unified channel fails
-        logger.error(f"Failed to publish to unified channel: {e}")
+# Backward compatibility alias
+async def send_daily_quotes(bot: object, chat_id: str) -> bool:
+    """Alias for send_daily_maamarim (backward compatibility)."""
+    return await send_daily_maamarim(bot, chat_id)
 
 
 def get_next_send_time() -> str:
