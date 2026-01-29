@@ -1,56 +1,278 @@
-# ashlag-yomi
+<div align="center">
 
-Daily learning project using Claude Code with the Ralph Wiggum AI loop technique.
+# Ashlag Yomi
 
-## Quick Start
+**Daily Kabbalistic wisdom. Six lineages. One message.**
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Python 3.11+](https://img.shields.io/badge/Python-3.11+-3776ab.svg)](https://python.org)
+[![Telegram Bot](https://img.shields.io/badge/Telegram-Bot-blue.svg)](https://t.me/AshlagYomiBot)
+[![Docker](https://img.shields.io/badge/Docker-Ready-2496ED.svg)](ashlagyomibot/Dockerfile)
+
+[**Start Learning**](https://t.me/AshlagYomiBot) · [Report Bug](https://github.com/naorbrown/ashlag-yomi/issues) · [Request Feature](https://github.com/naorbrown/ashlag-yomi/issues)
+
+</div>
+
+---
+
+## What is Ashlag Yomi?
+
+Ashlag Yomi delivers **daily Kabbalistic teachings** from the masters of the Ashlag lineage — six quotes every morning at 6:00 AM Israel time. Each quote links directly to its original source on Sefaria or Or HaSulam.
+
+### Why Use This Bot?
+
+- **Learn** — Six curated quotes daily from authentic Kabbalistic sources
+- **Source** — Every quote links to the original Hebrew text
+- **Lineage** — From the Arizal through Baal HaSulam to today
+- **Free** — Open source, run your own instance
+
+---
+
+## Deploy Your Own
+
+### Option 1: GitHub Actions (Free, Recommended)
+
+The bot runs entirely on GitHub Actions — no server required!
+
+1. Fork this repository
+2. Go to **Settings → Secrets and variables → Actions**
+3. Add these secrets:
+   - `TELEGRAM_BOT_TOKEN` — Get from [@BotFather](https://t.me/BotFather)
+   - `TELEGRAM_CHANNEL_ID` — Your channel ID (e.g., `@YourChannel`)
+4. Enable GitHub Actions in your fork
+
+Daily quotes will be sent automatically at 6:00 AM Israel time.
+
+### Option 2: Docker
 
 ```bash
-# Clone the repo
-git clone https://github.com/naorbrown/ashlag-yomi.git
-cd ashlag-yomi
+cd ashlagyomibot
+docker-compose up -d
 
-# Make ralph.sh executable
-chmod +x ralph.sh
-
-# Run your first loop
-./ralph.sh "Build a hello world API. Output COMPLETE when done." --max-iterations 10
+# Or directly
+docker build -t ashlag-yomi .
+docker run -d --env-file .env ashlag-yomi
 ```
 
-## Project Structure
+### Option 3: Python
+
+```bash
+cd ashlagyomibot
+pip install -e .
+export TELEGRAM_BOT_TOKEN="your-token"
+export TELEGRAM_CHAT_ID="@your-channel"
+python -m src.bot.main
+```
+
+---
+
+## Commands
+
+| Command | Description |
+|---------|-------------|
+| `/start` | Welcome message and commands |
+| `/today` | Get all 6 daily quotes |
+| `/quote` | Get a random quote |
+| `/about` | Learn about the lineage |
+| `/help` | Show available commands |
+| `/feedback` | Report issues or suggest features |
+
+---
+
+## Quote Coverage
+
+| Lineage | Master | Period | Quotes |
+|---------|--------|--------|:------:|
+| 🕯️ **Arizal** | Rabbi Isaac Luria | 1534-1572 | 365 |
+| ✨ **Baal Shem Tov** | Rabbi Israel ben Eliezer | 1698-1760 | 365 |
+| 🔥 **Polish Chassidut** | Maggid, Kotzk, Peshischa | 1700-1900 | 365 |
+| 📖 **Baal HaSulam** | Rabbi Yehuda Ashlag | 1884-1954 | 365 |
+| 💎 **Rabash** | Rabbi Baruch Shalom Ashlag | 1907-1991 | 365 |
+| 🌱 **Chasdei Ashlag** | Contemporary students | Present | 186 |
+
+**Total: 2,011 quotes — Full year of unique daily content**
+
+---
+
+## Architecture
+
+```
+┌──────────────────────────────────────────────────────────────────────────┐
+│                            Ashlag Yomi Bot                                │
+├──────────────────────────────────────────────────────────────────────────┤
+│                                                                          │
+│  ┌─────────────────────────────────────────────────────────────────────┐│
+│  │                        GitHub Actions                                ││
+│  │  ┌─────────────────┐              ┌─────────────────────────────┐  ││
+│  │  │ daily-quote.yml │              │          ci.yml             │  ││
+│  │  │  (6 AM Israel)  │              │  (lint, test, type-check)   │  ││
+│  │  └────────┬────────┘              └─────────────────────────────┘  ││
+│  └───────────┼────────────────────────────────────────────────────────┘│
+│              │                                                          │
+│              ▼                                                          │
+│  ┌─────────────────────────────────────────────────────────────────────┐│
+│  │                          Bot Layer                                  ││
+│  │   main.py ──── handlers.py ──── broadcaster.py ──── scheduler.py   ││
+│  │                      │                                              ││
+│  │                      ▼                                              ││
+│  │          formatters.py (HTML + inline keyboards)                    ││
+│  └─────────────────────────────────────────────────────────────────────┘│
+│              │                                                          │
+│              ▼                                                          │
+│  ┌─────────────────────────────────────────────────────────────────────┐│
+│  │                         Data Layer                                  ││
+│  │   repository.py ──── models.py                                      ││
+│  │         │                                                           ││
+│  │         ▼                                                           ││
+│  │   data/quotes/*.json (2,011 quotes across 6 categories)             ││
+│  └─────────────────────────────────────────────────────────────────────┘│
+│                                                                          │
+└──────────────────────────────────────────────────────────────────────────┘
+                              │
+                              ▼
+                     ┌─────────────────┐
+                     │    Telegram     │
+                     │    Bot API      │
+                     └─────────────────┘
+```
+
+### Directory Structure
 
 ```
 ashlag-yomi/
-├── CLAUDE.md      # Claude Code project instructions
-├── ralph.sh       # Ralph Wiggum loop script
-├── prompts/       # Prompt templates
-│   ├── feature.md
-│   └── bugfix.md
-└── README.md
+├── ashlagyomibot/
+│   ├── src/
+│   │   ├── bot/
+│   │   │   ├── main.py           # Bot entry, command registration
+│   │   │   ├── handlers.py       # /start, /today, /quote, etc.
+│   │   │   ├── formatters.py     # HTML formatting, inline keyboards
+│   │   │   ├── rate_limit.py     # Request rate limiting
+│   │   │   ├── broadcaster.py    # Channel broadcasts
+│   │   │   └── scheduler.py      # Scheduled daily posts
+│   │   ├── data/
+│   │   │   ├── models.py         # Pydantic models (Quote, DailyBundle)
+│   │   │   └── repository.py     # Data access, fair rotation
+│   │   └── utils/
+│   │       ├── config.py         # Settings management
+│   │       └── logger.py         # Structured logging
+│   ├── data/quotes/              # 6 JSON files, 2,011 quotes
+│   ├── tests/                    # Unit and integration tests
+│   ├── scripts/
+│   │   ├── diagnose.py           # Component diagnostics
+│   │   └── test_bot.py           # Manual testing
+│   ├── Dockerfile
+│   └── docker-compose.yml
+└── .github/workflows/            # CI + daily broadcast
 ```
 
-## Using Ralph Wiggum
+### Tech Stack
 
-Ralph Wiggum is an iterative AI development technique that repeatedly feeds a prompt to Claude until completion.
+| Component | Technology | Purpose |
+|-----------|------------|---------|
+| Runtime | Python 3.11+ | Async/await, type hints |
+| Bot Framework | python-telegram-bot 20+ | Telegram integration |
+| Data Validation | Pydantic 2 | Type-safe models |
+| Configuration | pydantic-settings | Environment management |
+| Logging | structlog | Structured JSON logs |
+| Scheduler | GitHub Actions | Daily 6 AM posts |
+| Containerization | Docker | Production deployment |
+| Testing | pytest, pytest-asyncio | 80%+ coverage |
+| Linting | ruff, black, mypy | Code quality |
 
-### Basic Usage
+---
+
+## Configuration
+
+| Variable | Required | Description |
+|----------|:--------:|-------------|
+| `TELEGRAM_BOT_TOKEN` | ✅ | Token from [@BotFather](https://t.me/BotFather) |
+| `TELEGRAM_CHAT_ID` | ✅ | Target channel or chat ID |
+| `TELEGRAM_CHANNEL_ID` | | Public channel for broadcasts |
+| `ENVIRONMENT` | | `development` / `production` |
+| `DRY_RUN` | | Set `true` to log instead of send |
 
 ```bash
-# Direct prompt
-./ralph.sh "Your task. Output COMPLETE when done." --max-iterations 20
-
-# Using a prompt file
-./ralph.sh --prompt-file prompts/feature.md --max-iterations 30 --verbose
+cd ashlagyomibot
+cp .env.example .env
+# Edit .env with your values
 ```
 
-### Options
+---
 
-- `--max-iterations N` - Safety limit (default: 50)
-- - `--completion-promise STR` - Completion signal (default: COMPLETE)
-  - - `--prompt-file FILE` - Use markdown file as prompt
-    - - `--verbose` - Show iteration progress
-      - - `--dry-run` - Preview without executing
-       
-        - ## Resources
-       
-        - - [Ralph Wiggum Guide](https://awesomeclaude.ai/ralph-wiggum)
-          - - [Claude Code Docs](https://docs.anthropic.com/claude-code)
+## Development
+
+```bash
+cd ashlagyomibot
+
+# Install with dev dependencies
+pip install -e ".[dev]"
+
+# Run tests
+pytest
+
+# Lint and format
+ruff check src tests
+black src tests
+mypy src
+
+# Diagnose issues
+python scripts/diagnose.py
+```
+
+---
+
+## Data Sources
+
+| Source | Purpose | Link |
+|--------|---------|------|
+| [Sefaria](https://sefaria.org) | Hebrew texts | CC-BY-NC |
+| [Or HaSulam](https://orhassulam.com) | Ashlag writings | Attribution |
+
+---
+
+## Contributing
+
+Contributions welcome! See [CONTRIBUTING.md](ashlagyomibot/CONTRIBUTING.md) for guidelines.
+
+### Priority Areas
+
+- 📖 **Quote curation** — Add authentic quotes from primary sources
+- ✏️ **Hebrew proofreading** — Verify text accuracy
+- 🐛 **Bug fixes** — Report or fix issues
+- 📝 **Documentation** — Improve guides
+
+---
+
+## Security
+
+See [SECURITY.md](ashlagyomibot/SECURITY.md) for reporting vulnerabilities.
+
+---
+
+## License
+
+[MIT](LICENSE) — Free to use, modify, and distribute.
+
+Quote sources are in the public domain or used with attribution.
+
+---
+
+## Acknowledgments
+
+- **[Sefaria](https://sefaria.org)** — Open-source Jewish texts
+- **[Or HaSulam](https://orhassulam.com)** — Ashlag writings archive
+- **[python-telegram-bot](https://python-telegram-bot.org)** — Bot framework
+
+---
+
+<div align="center">
+
+_״תכלית הבריאה היא להיטיב לנבראיו״_
+
+_"The purpose of creation is to benefit the created beings."_
+
+— Baal HaSulam
+
+**[Start learning with @AshlagYomiBot](https://t.me/AshlagYomiBot)**
+
+</div>
