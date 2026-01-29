@@ -8,17 +8,41 @@ Handlers should be:
 - Graceful (handle errors without crashing)
 """
 
+import asyncio
 from datetime import date
 
 from telegram import Update
 from telegram.ext import ContextTypes
 
-from src.bot.formatters import build_source_keyboard, format_daily_bundle, format_quote
+from src.bot.formatters import build_source_keyboard, format_quote
+from src.bot.rate_limit import is_rate_limited
 from src.data.repository import QuoteRepository
 from src.utils.config import get_settings
 from src.utils.logger import get_logger
 
 logger = get_logger(__name__)
+
+# Delay between sending messages to avoid Telegram rate limits (seconds)
+MESSAGE_DELAY = 0.3
+
+# Rate limit message
+RATE_LIMIT_MSG = "⏳ אנא המתינו מעט לפני שליחת פקודה נוספת.\nPlease wait before sending another command."
+
+
+async def _check_rate_limit(update: Update) -> bool:
+    """
+    Check if user is rate limited and send message if so.
+
+    Returns True if rate limited (command should not proceed).
+    """
+    if not update.effective_user:
+        return False
+
+    if is_rate_limited(update.effective_user.id):
+        if update.effective_message:
+            await update.effective_message.reply_text(RATE_LIMIT_MSG)
+        return True
+    return False
 
 
 async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
@@ -28,6 +52,9 @@ async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> N
     This is the first message users see when they start the bot.
     """
     if not update.effective_message:
+        return
+
+    if await _check_rate_limit(update):
         return
 
     welcome_text = """🕯️ <b>Ashlag Yomi</b>
@@ -63,6 +90,9 @@ async def today_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> N
     if not update.effective_message:
         return
 
+    if await _check_rate_limit(update):
+        return
+
     settings = get_settings()
 
     try:
@@ -91,7 +121,10 @@ async def today_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> N
         )
 
         # Send each quote with its inline keyboard (nachyomi-bot pattern)
+        # Add delay between messages to avoid Telegram rate limits
         for quote in bundle.quotes:
+            await asyncio.sleep(MESSAGE_DELAY)
+
             message = format_quote(quote)
             keyboard = build_source_keyboard(quote)
 
@@ -103,6 +136,7 @@ async def today_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> N
             )
 
         # Send footer
+        await asyncio.sleep(MESSAGE_DELAY)
         await update.effective_message.reply_text(
             "═══════════════════",
             parse_mode="HTML",
@@ -128,6 +162,9 @@ async def quote_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> N
     Quick way to get a taste of the content without the full daily bundle.
     """
     if not update.effective_message:
+        return
+
+    if await _check_rate_limit(update):
         return
 
     try:
@@ -166,6 +203,9 @@ async def quote_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> N
 async def about_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """Handle /about command - explain the project and lineage."""
     if not update.effective_message:
+        return
+
+    if await _check_rate_limit(update):
         return
 
     about_text = """📚 <b>על אשלג יומי</b>
@@ -216,6 +256,9 @@ async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> No
     if not update.effective_message:
         return
 
+    if await _check_rate_limit(update):
+        return
+
     help_text = """<b>Commands:</b>
 
 /today – Get today's 6 quotes
@@ -240,6 +283,9 @@ async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> No
 async def feedback_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """Handle /feedback command - explain how to send feedback."""
     if not update.effective_message:
+        return
+
+    if await _check_rate_limit(update):
         return
 
     feedback_text = """💬 <b>Feedback</b>
