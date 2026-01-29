@@ -5,10 +5,11 @@ name: Daily Quote
 
 on:
   schedule:
-    # 3:00 AM UTC = 6:00 AM Israel (IST, UTC+3)
-    # Note: Israel observes daylight saving time (IDT, UTC+2 in summer)
-    # Adjust if precise timing is critical
+    # Run at BOTH possible 6am Israel times to handle DST
+    # Summer (IDT, UTC+3): 6am Israel = 3am UTC
     - cron: "0 3 * * *"
+    # Winter (IST, UTC+2): 6am Israel = 4am UTC
+    - cron: "0 4 * * *"
 
   # Allow manual trigger for testing
   workflow_dispatch:
@@ -53,6 +54,10 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
+          # Unified Torah Yomi Channel
+          TORAH_YOMI_CHANNEL_ID: ${{ secrets.TORAH_YOMI_CHANNEL_ID }}
+          TORAH_YOMI_CHANNEL_BOT_TOKEN: ${{ secrets.TORAH_YOMI_CHANNEL_BOT_TOKEN }}
+          TORAH_YOMI_PUBLISH_ENABLED: ${{ secrets.TORAH_YOMI_PUBLISH_ENABLED }}
           ENVIRONMENT: production
           LOG_LEVEL: INFO
           DRY_RUN: ${{ github.event.inputs.dry_run || 'false' }}
