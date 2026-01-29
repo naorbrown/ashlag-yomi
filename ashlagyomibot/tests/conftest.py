@@ -7,8 +7,8 @@ Fixtures are reusable test components that provide:
 - Test infrastructure
 
 Usage in tests:
-    def test_something(sample_quote, mock_repository):
-        assert sample_quote.text == "..."
+    def test_something(sample_maamar, mock_maamar_repository):
+        assert sample_maamar.title == "..."
 """
 
 from datetime import date, datetime
@@ -17,8 +17,16 @@ from unittest.mock import MagicMock
 
 import pytest
 
-from src.data.models import DailyBundle, Quote, QuoteCategory
-from src.data.repository import QuoteRepository
+from src.data.maamar_repository import MaamarRepository
+from src.data.models import (
+    DailyBundle,
+    DailyMaamar,
+    Maamar,
+    MaamarCollection,
+    Quote,
+    QuoteCategory,
+    SourceCategory,
+)
 from src.utils.config import get_settings
 
 
@@ -30,9 +38,124 @@ def clear_settings_cache():
     get_settings.cache_clear()
 
 
+@pytest.fixture(autouse=True, scope="function")
+def clear_repository_cache():
+    """Clear maamar repository singleton cache."""
+    from src.data.maamar_repository import get_maamar_repository
+
+    get_maamar_repository.cache_clear()
+    yield
+    get_maamar_repository.cache_clear()
+
+
+# =============================================================================
+# NEW MAAMAR FIXTURES
+# =============================================================================
+
+
+@pytest.fixture
+def sample_maamar() -> Maamar:
+    """Create a sample maamar for testing."""
+    return Maamar(
+        id="baal_hasulam_test_001",
+        source=SourceCategory.BAAL_HASULAM,
+        title="מאמר הערבות",
+        subtitle="על האחדות והערבות ההדדית",
+        text="כל ישראל ערבים זה בזה. " * 50,  # Enough text
+        book="מאמרי הסולם",
+        page="42",
+        source_url="https://search.orhasulam.org/test",
+        scraped_at=datetime(2024, 1, 1, 12, 0, 0),
+    )
+
+
+@pytest.fixture
+def sample_maamar_rabash() -> Maamar:
+    """Create a sample Rabash maamar for testing."""
+    return Maamar(
+        id="rabash_test_001",
+        source=SourceCategory.RABASH,
+        title="מהו מצוה קלה",
+        text="צריך להבין מהו מצוה קלה שאדם דש בעקביו. " * 50,
+        book="ברכת שלום",
+        page="15",
+        source_url="https://ashlagbaroch.org/test.pdf",
+        pdf_filename="test.pdf",
+        pdf_start_page=15,
+        pdf_end_page=17,
+        scraped_at=datetime(2024, 1, 1, 12, 0, 0),
+    )
+
+
+@pytest.fixture
+def sample_maamarim(
+    sample_maamar: Maamar, sample_maamar_rabash: Maamar
+) -> list[Maamar]:
+    """Create a list of sample maamarim, one per source category."""
+    return [sample_maamar, sample_maamar_rabash]
+
+
+@pytest.fixture
+def sample_daily_maamar(sample_maamar: Maamar) -> DailyMaamar:
+    """Create a sample daily maamar for testing."""
+    return DailyMaamar(
+        date=date(2024, 1, 15),
+        maamar=sample_maamar,
+    )
+
+
+@pytest.fixture
+def temp_maamarim_dir(tmp_path: Path) -> Path:
+    """Create a temporary directory for maamar cache files."""
+    maamarim_dir = tmp_path / "maamarim"
+    maamarim_dir.mkdir()
+    return maamarim_dir
+
+
+@pytest.fixture
+def temp_maamar_history_file(tmp_path: Path) -> Path:
+    """Create a temporary file path for maamar sent history."""
+    return tmp_path / "maamar_history.json"
+
+
+@pytest.fixture
+def mock_maamar_repository(
+    temp_maamarim_dir: Path,
+    temp_maamar_history_file: Path,
+    sample_maamarim: list[Maamar],
+) -> MaamarRepository:
+    """Create a maamar repository with temporary storage and sample data."""
+    import json
+
+    # Create maamar collection files by source
+    for source in SourceCategory:
+        source_maamarim = [m for m in sample_maamarim if m.source == source]
+        if source_maamarim:
+            collection = MaamarCollection(
+                source=source,
+                maamarim=source_maamarim,
+                last_updated=datetime.utcnow(),
+            )
+            file_path = temp_maamarim_dir / f"{source.value}.json"
+            with open(file_path, "w", encoding="utf-8") as f:
+                json.dump(collection.model_dump(mode="json"), f, ensure_ascii=False)
+
+    repo = MaamarRepository(
+        maamarim_dir=temp_maamarim_dir,
+        history_file=temp_maamar_history_file,
+    )
+    repo._load_all_maamarim()
+    return repo
+
+
+# =============================================================================
+# LEGACY QUOTE FIXTURES (kept for backward compatibility)
+# =============================================================================
+
+
 @pytest.fixture
 def sample_quote() -> Quote:
-    """Create a sample quote for testing."""
+    """Create a sample quote for testing (legacy)."""
     return Quote(
         id="test-quote-001",
         text="הסתכלות בתכלית מביאה את האדם לשלמות",
@@ -49,7 +172,7 @@ def sample_quote() -> Quote:
 
 @pytest.fixture
 def sample_quotes() -> list[Quote]:
-    """Create a list of sample quotes, one per category."""
+    """Create a list of sample quotes, one per category (legacy)."""
     quotes = []
     for i, category in enumerate(QuoteCategory):
         quotes.append(
@@ -68,7 +191,7 @@ def sample_quotes() -> list[Quote]:
 
 @pytest.fixture
 def sample_bundle(sample_quotes: list[Quote]) -> DailyBundle:
-    """Create a sample daily bundle for testing."""
+    """Create a sample daily bundle for testing (legacy)."""
     return DailyBundle(
         date=date(2024, 1, 15),
         quotes=sample_quotes,
@@ -77,7 +200,7 @@ def sample_bundle(sample_quotes: list[Quote]) -> DailyBundle:
 
 @pytest.fixture
 def temp_quotes_dir(tmp_path: Path) -> Path:
-    """Create a temporary directory for quote files."""
+    """Create a temporary directory for quote files (legacy)."""
     quotes_dir = tmp_path / "quotes"
     quotes_dir.mkdir()
     return quotes_dir
@@ -85,35 +208,8 @@ def temp_quotes_dir(tmp_path: Path) -> Path:
 
 @pytest.fixture
 def temp_history_file(tmp_path: Path) -> Path:
-    """Create a temporary file path for sent history."""
+    """Create a temporary file path for sent history (legacy)."""
     return tmp_path / "sent_history.json"
-
-
-@pytest.fixture
-def mock_repository(
-    temp_quotes_dir: Path,
-    temp_history_file: Path,
-    sample_quotes: list[Quote],
-) -> QuoteRepository:
-    """Create a repository with temporary storage and sample data."""
-    import json
-
-    # Create quote files
-    for category in QuoteCategory:
-        category_quotes = [q for q in sample_quotes if q.category == category]
-        if category_quotes:
-            data = {
-                "category": category.value,
-                "quotes": [q.model_dump(mode="json") for q in category_quotes],
-            }
-            file_path = temp_quotes_dir / f"{category.value}.json"
-            with open(file_path, "w", encoding="utf-8") as f:
-                json.dump(data, f, ensure_ascii=False)
-
-    return QuoteRepository(
-        quotes_dir=temp_quotes_dir,
-        history_file=temp_history_file,
-    )
 
 
 @pytest.fixture

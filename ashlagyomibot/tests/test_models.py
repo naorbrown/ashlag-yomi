@@ -5,11 +5,182 @@ from datetime import date
 import pytest
 from pydantic import ValidationError
 
-from src.data.models import DailyBundle, Quote, QuoteCategory, SentRecord
+from src.data.models import (
+    DailyBundle,
+    DailyMaamar,
+    Maamar,
+    MaamarCollection,
+    MaamarSentRecord,
+    Quote,
+    QuoteCategory,
+    SentRecord,
+    SourceCategory,
+)
+
+# =============================================================================
+# NEW MAAMAR MODEL TESTS
+# =============================================================================
+
+
+class TestSourceCategory:
+    """Tests for SourceCategory enum."""
+
+    def test_all_sources_have_hebrew_names(self) -> None:
+        """Every source should have a Hebrew display name."""
+        for source in SourceCategory:
+            assert source.display_name_hebrew
+            # Hebrew text should contain Hebrew characters
+            assert any("\u0590" <= c <= "\u05ff" for c in source.display_name_hebrew)
+
+    def test_all_sources_have_english_names(self) -> None:
+        """Every source should have an English display name."""
+        for source in SourceCategory:
+            assert source.display_name_english
+            # English text should contain ASCII letters
+            assert any(c.isascii() and c.isalpha() for c in source.display_name_english)
+
+    def test_all_sources_have_website(self) -> None:
+        """Every source should have a website URL."""
+        for source in SourceCategory:
+            assert source.source_website
+            assert source.source_website.startswith("https://")
+
+    def test_source_count(self) -> None:
+        """There should be exactly 2 sources (Baal Hasulam + Rabash)."""
+        assert len(SourceCategory) == 2
+
+    def test_baal_hasulam_hebrew_name(self) -> None:
+        """Baal Hasulam should have correct Hebrew name."""
+        assert SourceCategory.BAAL_HASULAM.display_name_hebrew == "בעל הסולם"
+
+    def test_rabash_hebrew_name(self) -> None:
+        """Rabash should have correct Hebrew name."""
+        assert SourceCategory.RABASH.display_name_hebrew == 'הרב"ש'
+
+
+class TestMaamar:
+    """Tests for Maamar model."""
+
+    def test_valid_maamar_creation(self, sample_maamar: Maamar) -> None:
+        """A valid maamar should be created successfully."""
+        assert sample_maamar.id == "baal_hasulam_test_001"
+        assert sample_maamar.source == SourceCategory.BAAL_HASULAM
+        assert "ערבות" in sample_maamar.title
+
+    def test_maamar_is_immutable(self, sample_maamar: Maamar) -> None:
+        """Maamarim should be immutable (frozen)."""
+        with pytest.raises(ValidationError):
+            sample_maamar.title = "new title"  # type: ignore[misc]
+
+    def test_maamar_word_count(self, sample_maamar: Maamar) -> None:
+        """Word count should be calculated correctly."""
+        assert sample_maamar.word_count > 0
+
+    def test_maamar_char_count(self, sample_maamar: Maamar) -> None:
+        """Character count should be calculated correctly."""
+        assert sample_maamar.char_count == len(sample_maamar.text)
+
+    def test_maamar_estimated_reading_minutes(self, sample_maamar: Maamar) -> None:
+        """Reading time should be calculated (150 words/min)."""
+        expected = round(sample_maamar.word_count / 150, 1)
+        assert sample_maamar.estimated_reading_minutes == expected
+
+    def test_maamar_telegram_message_count(self, sample_maamar: Maamar) -> None:
+        """Should estimate Telegram messages needed."""
+        assert sample_maamar.telegram_message_count >= 1
+
+    def test_maamar_full_source_citation(self, sample_maamar: Maamar) -> None:
+        """Full citation should include source, book, and page."""
+        citation = sample_maamar.full_source_citation
+        assert "בעל הסולם" in citation
+        assert sample_maamar.book in citation
+        assert sample_maamar.page in citation
+
+    def test_maamar_string_representation(self, sample_maamar: Maamar) -> None:
+        """String representation should include ID and title."""
+        str_repr = str(sample_maamar)
+        assert "baal_hasulam_test_001" in str_repr
+
+    def test_maamar_requires_valid_url(self) -> None:
+        """Maamar source_url must be a valid HTTP(S) URL."""
+        with pytest.raises(ValidationError):
+            Maamar(
+                id="test",
+                source=SourceCategory.BAAL_HASULAM,
+                title="Test Title",
+                text="Some text here for testing " * 5,
+                book="Test Book",
+                source_url="not-a-url",  # Invalid!
+            )
+
+    def test_maamar_requires_minimum_text_length(self) -> None:
+        """Maamar text must have minimum length."""
+        with pytest.raises(ValidationError):
+            Maamar(
+                id="test",
+                source=SourceCategory.BAAL_HASULAM,
+                title="Test Title",
+                text="short",  # Too short!
+                book="Test Book",
+                source_url="https://example.com",
+            )
+
+    def test_maamar_pdf_fields(self, sample_maamar_rabash: Maamar) -> None:
+        """PDF-sourced maamarim should have PDF metadata."""
+        assert sample_maamar_rabash.pdf_filename == "test.pdf"
+        assert sample_maamar_rabash.pdf_start_page == 15
+        assert sample_maamar_rabash.pdf_end_page == 17
+
+
+class TestDailyMaamar:
+    """Tests for DailyMaamar model."""
+
+    def test_valid_daily_maamar_creation(
+        self, sample_daily_maamar: DailyMaamar
+    ) -> None:
+        """A valid daily maamar should be created successfully."""
+        assert sample_daily_maamar.date == date(2024, 1, 15)
+        assert sample_daily_maamar.maamar is not None
+
+    def test_source_name_computed(self, sample_daily_maamar: DailyMaamar) -> None:
+        """Source name should be computed from maamar."""
+        assert sample_daily_maamar.source_name == "בעל הסולם"
+
+
+class TestMaamarSentRecord:
+    """Tests for MaamarSentRecord model."""
+
+    def test_create_from_maamar(self, sample_maamar: Maamar) -> None:
+        """Should create record from maamar."""
+        record = MaamarSentRecord.from_maamar(sample_maamar, date(2024, 1, 15))
+        assert record.maamar_id == sample_maamar.id
+        assert record.sent_date == date(2024, 1, 15)
+        assert record.source == sample_maamar.source
+
+
+class TestMaamarCollection:
+    """Tests for MaamarCollection model."""
+
+    def test_valid_collection_creation(self, sample_maamarim: list[Maamar]) -> None:
+        """A valid collection should be created successfully."""
+        baal_hasulam_maamarim = [
+            m for m in sample_maamarim if m.source == SourceCategory.BAAL_HASULAM
+        ]
+        collection = MaamarCollection(
+            source=SourceCategory.BAAL_HASULAM,
+            maamarim=baal_hasulam_maamarim,
+        )
+        assert collection.count == 1
+        assert collection.source == SourceCategory.BAAL_HASULAM
+
+
+# =============================================================================
+# LEGACY QUOTE MODEL TESTS (kept for backward compatibility)
+# =============================================================================
 
 
 class TestQuoteCategory:
-    """Tests for QuoteCategory enum."""
+    """Tests for QuoteCategory enum (legacy)."""
 
     def test_all_categories_have_hebrew_names(self) -> None:
         """Every category should have a Hebrew display name."""

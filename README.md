@@ -2,7 +2,7 @@
 
 # Ashlag Yomi
 
-**Daily Kabbalistic wisdom. Six lineages. One message.**
+**Daily maamarim from the Ashlag lineage.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python 3.11+](https://img.shields.io/badge/Python-3.11+-3776ab.svg)](https://python.org)
@@ -17,13 +17,13 @@
 
 ## What is Ashlag Yomi?
 
-Ashlag Yomi delivers **daily Kabbalistic teachings** from the masters of the Ashlag lineage — six quotes every morning at 6:00 AM Israel time. Each quote links directly to its original source on Sefaria or Or HaSulam.
+Ashlag Yomi delivers **two complete maamarim (articles) daily** from the masters of the Ashlag lineage — one from Baal HaSulam and one from Rabash every morning at 6:00 AM Israel time. Each maamar links directly to its original source.
 
 ### Why Use This Bot?
 
-- **Learn** — Six curated quotes daily from authentic Kabbalistic sources
-- **Source** — Every quote links to the original Hebrew text
-- **Lineage** — From the Arizal through Baal HaSulam to today
+- **Learn** — Two complete maamarim daily from Baal HaSulam and Rabash
+- **Source** — Every maamar links to the original Hebrew text
+- **Depth** — Full articles, not just short quotes
 - **Free** — Open source, run your own instance
 
 ---
@@ -71,26 +71,22 @@ python -m src.bot.main
 | Command | Description |
 |---------|-------------|
 | `/start` | Welcome message and commands |
-| `/today` | Get all 6 daily quotes |
-| `/quote` | Get a random quote |
-| `/about` | Learn about the lineage |
+| `/today` | Get today's 2 maamarim (Baal Hasulam + Rabash) |
+| `/maamar` | Get a random maamar |
+| `/about` | Learn about the sources |
 | `/help` | Show available commands |
 | `/feedback` | Report issues or suggest features |
 
 ---
 
-## Quote Coverage
+## Maamar Coverage
 
-| Lineage | Master | Period | Quotes |
-|---------|--------|--------|:------:|
-| 🕯️ **Arizal** | Rabbi Isaac Luria | 1534-1572 | 365 |
-| ✨ **Baal Shem Tov** | Rabbi Israel ben Eliezer | 1698-1760 | 365 |
-| 🔥 **Polish Chassidut** | Maggid, Kotzk, Peshischa | 1700-1900 | 365 |
-| 📖 **Baal HaSulam** | Rabbi Yehuda Ashlag | 1884-1954 | 365 |
-| 💎 **Rabash** | Rabbi Baruch Shalom Ashlag | 1907-1991 | 365 |
-| 🌱 **Chasdei Ashlag** | Contemporary students | Present | 186 |
+| Source | Master | Period | Content |
+|--------|--------|--------|---------|
+| 📖 **Baal HaSulam** | Rabbi Yehuda Ashlag | 1884-1954 | Complete maamarim from כתבי בעל הסולם |
+| 💎 **Rabash** | Rabbi Baruch Shalom Ashlag | 1907-1991 | Complete maamarim from ברכת שלום |
 
-**Total: 2,011 quotes — Full year of unique daily content**
+**Two complete maamarim daily — fair rotation ensures no repetition**
 
 ---
 
@@ -121,10 +117,10 @@ python -m src.bot.main
 │              ▼                                                          │
 │  ┌─────────────────────────────────────────────────────────────────────┐│
 │  │                         Data Layer                                  ││
-│  │   repository.py ──── models.py                                      ││
+│  │   maamar_repository.py ──── models.py                               ││
 │  │         │                                                           ││
 │  │         ▼                                                           ││
-│  │   data/quotes/*.json (2,011 quotes across 6 categories)             ││
+│  │   data/maamarim/*.json (scraped maamarim from 2 sources)            ││
 │  └─────────────────────────────────────────────────────────────────────┘│
 │                                                                          │
 └──────────────────────────────────────────────────────────────────────────┘
@@ -150,12 +146,13 @@ ashlag-yomi/
 │   │   │   ├── broadcaster.py    # Channel broadcasts
 │   │   │   └── scheduler.py      # Scheduled daily posts
 │   │   ├── data/
-│   │   │   ├── models.py         # Pydantic models (Quote, DailyBundle)
-│   │   │   └── repository.py     # Data access, fair rotation
+│   │   │   ├── models.py              # Pydantic models (Maamar, SourceCategory)
+│   │   │   ├── maamar_repository.py   # Data access, fair rotation
+│   │   │   └── sources/               # Web scrapers (baal_hasulam.py, rabash.py)
 │   │   └── utils/
 │   │       ├── config.py         # Settings management
 │   │       └── logger.py         # Structured logging
-│   ├── data/quotes/              # 6 JSON files, 2,011 quotes
+│   ├── data/maamarim/            # JSON cache of scraped maamarim
 │   ├── tests/                    # Unit and integration tests
 │   ├── scripts/
 │   │   ├── diagnose.py           # Component diagnostics
@@ -225,8 +222,8 @@ python scripts/diagnose.py
 
 | Source | Purpose | Link |
 |--------|---------|------|
-| [Sefaria](https://sefaria.org) | Hebrew texts | CC-BY-NC |
-| [Or HaSulam](https://orhassulam.com) | Ashlag writings | Attribution |
+| [Or HaSulam](https://search.orhasulam.org) | Baal Hasulam writings | Attribution |
+| [Ashlag Baruch](https://ashlagbaroch.org) | Rabash writings (PDFs) | Attribution |
 
 ---
 
@@ -259,8 +256,8 @@ Quote sources are in the public domain or used with attribution.
 
 ## Acknowledgments
 
-- **[Sefaria](https://sefaria.org)** — Open-source Jewish texts
-- **[Or HaSulam](https://orhassulam.com)** — Ashlag writings archive
+- **[Or HaSulam](https://search.orhasulam.org)** — Baal Hasulam writings archive
+- **[Ashlag Baruch](https://ashlagbaroch.org)** — Rabash writings archive
 - **[python-telegram-bot](https://python-telegram-bot.org)** — Bot framework
 
 ---
