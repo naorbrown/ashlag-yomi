@@ -1,5 +1,6 @@
 # Daily Quote Sender
 # Runs every day at 6:00 AM Israel time (3:00 AM UTC)
+# Also registers bot commands on push to main to keep menu in sync
 
 name: Daily Quote
 
@@ -10,6 +11,10 @@ on:
     - cron: "0 3 * * *"
     # Winter (IST, UTC+2): 6am Israel = 4am UTC
     - cron: "0 4 * * *"
+
+  # Run on push to main to update commands immediately
+  push:
+    branches: [main]
 
   # Allow manual trigger for testing
   workflow_dispatch:
@@ -24,8 +29,8 @@ on:
           - "false"
 
 jobs:
-  send-quotes:
-    name: Send Daily Quotes
+  update-and-send:
+    name: Update Commands & Send Quotes
     runs-on: ubuntu-latest
 
     steps:
@@ -50,24 +55,29 @@ jobs:
           python -m pip install --upgrade pip
           pip install -e .
 
-      - name: Send daily quotes
+      - name: Register bot commands (always)
+        working-directory: ashlagyomibot
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python scripts/register_commands.py
+
+      - name: Send daily quotes (scheduled/manual only)
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         working-directory: ashlagyomibot
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
-          # Unified Torah Yomi Channel
-          TORAH_YOMI_CHANNEL_ID: ${{ secrets.TORAH_YOMI_CHANNEL_ID }}
-          TORAH_YOMI_CHANNEL_BOT_TOKEN: ${{ secrets.TORAH_YOMI_CHANNEL_BOT_TOKEN }}
-          TORAH_YOMI_PUBLISH_ENABLED: ${{ secrets.TORAH_YOMI_PUBLISH_ENABLED }}
           ENVIRONMENT: production
           LOG_LEVEL: INFO
           DRY_RUN: ${{ github.event.inputs.dry_run || 'false' }}
-        run: python -m src.bot.broadcaster single
+        run: python -m src.bot.broadcaster
 
       - name: Report status
         if: always()
         run: |
-          echo "Daily quote job completed"
+          echo "Job completed"
           echo "Status: ${{ job.status }}"
+          echo "Trigger: ${{ github.event_name }}"
           echo "Timestamp: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
