@@ -1,5 +1,6 @@
 # Daily Quote Sender
 # Runs every day at 6:00 AM Israel time (3:00 AM UTC)
+# Also registers bot commands to keep menu in sync
 
 name: Daily Quote
 
@@ -10,6 +11,10 @@ on:
     - cron: "0 3 * * *"
     # Winter (IST, UTC+2): 6am Israel = 4am UTC
     - cron: "0 4 * * *"
+
+  # Run on push to main to update commands immediately
+  push:
+    branches: [main]
 
   # Allow manual trigger for testing
   workflow_dispatch:
@@ -40,32 +45,39 @@ jobs:
         uses: actions/cache@v4
         with:
           path: ~/.cache/pip
-          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+          key: ${{ runner.os }}-pip-${{ hashFiles('ashlagyomibot/requirements.txt') }}
           restore-keys: |
             ${{ runner.os }}-pip-
 
       - name: Install dependencies
+        working-directory: ashlagyomibot
         run: |
           python -m pip install --upgrade pip
           pip install -e .
 
+      - name: Register bot commands
+        working-directory: ashlagyomibot
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python scripts/register_commands.py
+
       - name: Send daily quotes
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        working-directory: ashlagyomibot
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
-          # Unified Torah Yomi Channel
-          TORAH_YOMI_CHANNEL_ID: ${{ secrets.TORAH_YOMI_CHANNEL_ID }}
-          TORAH_YOMI_CHANNEL_BOT_TOKEN: ${{ secrets.TORAH_YOMI_CHANNEL_BOT_TOKEN }}
-          TORAH_YOMI_PUBLISH_ENABLED: ${{ secrets.TORAH_YOMI_PUBLISH_ENABLED }}
           ENVIRONMENT: production
           LOG_LEVEL: INFO
           DRY_RUN: ${{ github.event.inputs.dry_run || 'false' }}
-        run: python -m src.bot.broadcaster single
+        run: python -m src.bot.broadcaster
 
       - name: Report status
         if: always()
         run: |
           echo "Daily quote job completed"
           echo "Status: ${{ job.status }}"
+          echo "Trigger: ${{ github.event_name }}"
           echo "Timestamp: $(date -u +%Y-%m-%dT%H:%M:%SZ)"

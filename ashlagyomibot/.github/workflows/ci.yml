@@ -9,6 +9,10 @@ on:
   pull_request:
     branches: [main]
 
+defaults:
+  run:
+    working-directory: ashlagyomibot
+
 jobs:
   lint:
     name: Lint & Format Check
@@ -81,7 +85,7 @@ jobs:
         if: matrix.python-version == '3.11'
         uses: codecov/codecov-action@v4
         with:
-          file: ./coverage.xml
+          file: ./ashlagyomibot/coverage.xml
           fail_ci_if_error: false
 
   security:
@@ -98,10 +102,11 @@ jobs:
 
       - name: Install pip-audit
         run: pip install pip-audit
+        working-directory: .
 
       - name: Audit dependencies
         run: pip-audit -r requirements.txt
-        continue-on-error: true  # Don't fail CI on vulnerability warnings
+        continue-on-error: true
 
   validate-quotes:
     name: Validate Quote Data
